@@ -68,7 +68,7 @@
     "shx": "^0.3.4",
     "standard-version": "^9.5.0",
     "stylelint": "^14.9",
-    "stylelint-config-standard-scss": "^4.0"
+    "stylelint-config-standard-scss": "^6.1"
   },
   "dependencies": {
     "@datocms/cma-client-browser": "^1.1.13",
