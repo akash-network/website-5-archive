@@ -1,5 +1,5 @@
 node_modules
-public
 resources
+public
 .hugo_build.lock
 .env
