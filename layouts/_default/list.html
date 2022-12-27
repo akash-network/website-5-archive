@@ -8,7 +8,7 @@
 
 <div class="row">
     <div class="col-3">
-        <h5 class="align-center">Topics</h5>
+        <h5>Topics</h2>
         <ul class="nav flex-column">
             {{ range .Site.Taxonomies.tags }}
                 <li><a class="nav-link active" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} {{ .Count }} </a> </li>
