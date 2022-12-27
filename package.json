@@ -1,7 +1,7 @@
 {
   "name": "akash-network-website",
   "description": "Akash Network Website",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "node": ">=16.16.0"
   },
@@ -35,8 +35,11 @@
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
-    "migrate-blog": "node ./scripts/migrate-blog-posts.js"
-
+    "migrate-blog": "node ./scripts/migrate-blog-posts.js",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "devDependencies": {
     "@babel/cli": "^7.18",
