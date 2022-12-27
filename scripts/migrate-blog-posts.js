@@ -33,9 +33,10 @@ async function run() {
             meta = renderMeta(record);
             if (record.coverImage != null && record.coverImage.url != "") {
               coverImageName = record.coverImage.url.split("/").pop();
-              saveImage(record.coverImage.url, coverImageName, CONTENT_PATH + "/" + record.slug);
+              downloadImage(record.coverImage.url, coverImageName, CONTENT_PATH + "/" + record.slug);
               // add image name to meta
               meta = meta + `\nimages: ["${coverImageName}"]\n`;
+            // meta = meta + `\nimages: []\n`;
             }
 
             saveFile(record.slug, meta, markdownContent);
@@ -68,13 +69,15 @@ const renderOptions = {
       // console.log(util.inspect(record, { showHidden: false, depth: null, colors: true }))
       // TODO: if the image url contains 'www.datocms-assets.com', download the image to 
       // the local filesystem and replace the url with the local path
-      return renderNode('figure', {}, renderNode('img', { src: record.image.url }));
+      imageName = record.image.url.split("/").pop(); 
+      downloadImage(record.image.url, imageName, slugDirectory(record.slug));
+      return renderNode('figure', {}, renderNode('img', { src: imageName }));
     }
   },
 }
 
 
-function saveImage(url, filename, directory) {
+function downloadImage(url, filename, directory) {
   const fs = require('fs');
   const download = require('image-downloader');
   const path = require('path');
@@ -88,7 +91,7 @@ function saveImage(url, filename, directory) {
     dest: path.join(dir, filename)
   }
   download.image(options).then(({ filename, image }) => {
-      console.log('Images saved to:', filename)
+      console.log('DOWNLOAD (image):', filename)
     }).catch((err) => console.error(err))
 }
 
@@ -97,10 +100,16 @@ function html2markdown(html) {
   return new TurndownService().turndown(html);
 }
 
+function slugDirectory(slug) {
+  const path = require('path');
+  return path.join(process.cwd(), CONTENT_PATH, slug);
+}
+
+
 function saveFile(slug, meta, content) {
   const fs = require('fs');
   const path = require('path');
-  const dir = path.join(process.cwd(), CONTENT_PATH, slug);
+  const dir = slugDirectory(slug);
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
   }
@@ -117,7 +126,7 @@ lastmod: ${record.updatedAt}
 draft: false
 weight: 50
 categories: ["News"]
-tags: ["security", "performance", "SEO"]
+tags: ["Security", "Performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false

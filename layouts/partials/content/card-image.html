@@ -2,8 +2,10 @@
 {{ if not $fillImage -}}
   {{ $fillImage = site.Params.fillImage }}
 {{ end -}}
-
+{{ $image := ""}}
+{{ if .Params.images -}}
 {{ $image := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
+{{ end }}
 {{ if not $image -}}
   {{ $image = resources.Get (printf "%s%s" "images/" site.Params.defaultImage) }}
 {{ end -}}
