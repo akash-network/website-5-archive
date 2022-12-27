@@ -5,7 +5,7 @@ lastmod: 2021-12-13T18:04:30-08:00
 draft: false
 weight: 50
 categories: ["News"]
-tags: ["security", "performance", "SEO"]
+tags: ["Security", "Performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
