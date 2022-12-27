@@ -14,6 +14,12 @@
                 <li><a class="nav-link active" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} {{ .Count }} </a> </li>
             {{ end }}
           </ul>
+        <h5>Year</h2>
+        <ul class="nav flex-column">
+            {{ range .Pages.GroupByPublishDate "2006" }}
+                <li> {{ .Key }} </li>
+            {{ end }}
+          </ul>
     </div>
     <div class="col">
         <dl>

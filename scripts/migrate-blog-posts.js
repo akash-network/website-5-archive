@@ -69,8 +69,10 @@ const renderOptions = {
       // console.log(util.inspect(record, { showHidden: false, depth: null, colors: true }))
       // TODO: if the image url contains 'www.datocms-assets.com', download the image to 
       // the local filesystem and replace the url with the local path
-      imageName = record.image.url.split("/").pop(); 
-      downloadImage(record.image.url, imageName, slugDirectory(record.slug));
+      // imageName = record.image.url.split("/").pop(); 
+      // downloadImage(record.image.url, imageName, slugDirectory(record.slug));
+
+      imageName = record.image.url
       return renderNode('figure', {}, renderNode('img', { src: imageName }));
     }
   },
