@@ -2,7 +2,6 @@
 title: "Akash DeCloud for DeFi"
 date: 2020-09-08
 lastmod: 2021-05-13T10:13:03-07:00
-images: ["https://www.datocms-assets.com/45776/1620925374-screen-shot-2020-09-06-at-6-34-27-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925374-screen-shot-2020-09-06-at-6-34-27-pm.png"]
 ---
 Finance—an industry that is expected to reach $26.5 trillion by 2020—is being disrupted at an atomic speed by its degenerate cousin, decentralized finance or simply **DeFi**.  
 

@@ -2,7 +2,6 @@
 title: "Akash and Filebase Replace S3 with Multi-Cloud dWeb Providers"
 date: 2021-07-27
 lastmod: 2021-07-27T12:21:50-07:00
-images: ["https://www.datocms-assets.com/45776/1627341371-filebase-cover2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1627341371-filebase-cover2.png"]
 ---
 A core goal of the decentralized web, also known as dWeb, is to help people and organizations regain control of their computing and storage. 
 

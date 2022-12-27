@@ -2,7 +2,6 @@
 title: "Q4 Update on Akash Roadmap 2022"
 date: 2021-12-20
 lastmod: 2021-12-24T00:55:05-08:00
-images: ["https://www.datocms-assets.com/45776/1640069295-technical-product-upadate.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1640069295-technical-product-upadate.jpg"]
 ---
 At the beginning of this quarter, the Akash core team published an ambitious roadmap, the [Akash Roadmap 2022](https://akash.network/blog/product-roadmap-2022). Now we are at the end of our first quarter, here's is an update on how we are progressing through the roadmap. 
 

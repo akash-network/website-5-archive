@@ -2,7 +2,6 @@
 title: "Web3 Is Welcome on Akash Network"
 date: 2022-08-30
 lastmod: 2022-08-31T08:38:54-07:00
-images: ["https://www.datocms-assets.com/45776/1661960317-web3-is-welcome-on-akash-network-2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1661960317-web3-is-welcome-on-akash-network-2.png"]
 ---
 **It’s time to move to the open cloud.**
 

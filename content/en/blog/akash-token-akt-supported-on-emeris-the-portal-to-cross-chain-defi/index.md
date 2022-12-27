@@ -2,7 +2,6 @@
 title: "Akash Token (AKT) Supported on Emeris, the Portal to Cross-Chain DeFi"
 date: 2021-08-24
 lastmod: 2021-08-24T12:25:00-07:00
-images: ["https://www.datocms-assets.com/45776/1629768820-emeris-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1629768820-emeris-banner.png"]
 ---
 The Akash Token (AKT) is the utility token that powers Akash Network. It’s the primary method of settlement that enables users to buy and sell compute. As [network usage increases](https://akashlytics.com/), so does the demand for AKT.
 

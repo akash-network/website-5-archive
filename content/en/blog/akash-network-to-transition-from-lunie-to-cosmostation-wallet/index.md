@@ -2,7 +2,6 @@
 title: "Akash Network to Transition from Lunie to Cosmostation Wallet"
 date: 2020-11-05
 lastmod: 2021-05-14T15:03:03-07:00
-images: ["https://www.datocms-assets.com/45776/1621029765-cosmostation.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621029765-cosmostation.png"]
 ---
 With our Mainnet 1 launch and IEO on BitMax in the past month, we’ve progressed key milestones to secure our network and achieve liquidity for Akash Token (AKT). To expand access and support for AKT, our team has engaged with a number of top ecosystem partners to add additional wallet solutions. 
 

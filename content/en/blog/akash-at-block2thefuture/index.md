@@ -2,7 +2,6 @@
 title: "Akash at Block2TheFuture"
 date: 2018-04-04
 lastmod: 2021-05-13T09:14:35-07:00
-images: ["https://www.datocms-assets.com/45776/1620922460-block-2-the-future.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922460-block-2-the-future.jpg"]
 ---
 [Akash](https://akash.network/) is heading to [Block2TheFuture](https://www.block2thefuture.com/), the blockchain festival and token conference taking place on the USS Hornet in Alameda, CA on April 5-6.  Yes, it is on a warship!
 

@@ -2,7 +2,6 @@
 title: "Akashcraft: Minecraft on the First Decentralized Cloud"
 date: 2021-04-27
 lastmod: 2022-07-27T09:47:26-07:00
-images: ["https://www.datocms-assets.com/45776/1624053524-minecraft-june-2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1624053524-minecraft-june-2.png"]
 ---
   
 With the launch of Akash MAINNET 2, the world’s first decentralized open-source cloud, developers can finally break free from the limitations of traditional cloud infrastructure.  

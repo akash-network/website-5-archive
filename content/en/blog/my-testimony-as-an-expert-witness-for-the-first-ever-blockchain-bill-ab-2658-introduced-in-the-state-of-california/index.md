@@ -2,7 +2,6 @@
 title: "My testimony as an expert witness for the first ever blockchain bill (AB 2658) introduced in the state of California"
 date: 2018-04-10
 lastmod: 2021-05-13T09:11:28-07:00
-images: ["https://www.datocms-assets.com/45776/1620922278-my-testimony-as-an-expert-witness.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922278-my-testimony-as-an-expert-witness.jpg"]
 ---
 The most significant hurdle for blockchain today is legislative as US companies today face an uncertain legal regime. Regulators need tools that only legislators can provide.
 

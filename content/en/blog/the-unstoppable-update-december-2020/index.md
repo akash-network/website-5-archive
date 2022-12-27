@@ -2,7 +2,6 @@
 title: "The Unstoppable Update: December 2020"
 date: 2020-12-10
 lastmod: 2021-05-13T15:39:34-07:00
-images: ["https://www.datocms-assets.com/45776/1620926516-unstoppable-update-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620926516-unstoppable-update-twitter.png"]
 ---
   
 As more of our work and play continues to transition to the cloud, the need for a more flexible, scalable and lower cost cloud has never been greater. 

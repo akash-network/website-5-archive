@@ -2,7 +2,6 @@
 title: "Akash Network Announces Integration Partnership with Cosmostation Wallet"
 date: 2020-11-24
 lastmod: 2021-05-14T15:00:37-07:00
-images: ["https://www.datocms-assets.com/45776/1621029347-cosmostation-2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621029347-cosmostation-2.png"]
 ---
 > Decentralized cloud computing allows for a faster and more efficient user experience at a cost much lower compared to traditional cloud. Together with Akash Network, Cosmostation will work to give users access to the wide range of use cases enabled by DeCloud as a node operator securing the network and providing useful end-user infrastructures.
 

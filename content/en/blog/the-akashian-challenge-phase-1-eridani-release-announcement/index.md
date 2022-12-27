@@ -2,7 +2,6 @@
 title: "The Akashian Challenge  Phase 1: Eridani Release Announcement"
 date: 2020-05-18
 lastmod: 2021-05-19T07:29:12-07:00
-images: ["https://www.datocms-assets.com/45776/1621031100-eridani-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621031100-eridani-twitter.png"]
 ---
 **With 211 Teams and 91 Active Validators (for 64 spots at Mainnet), The Akashian Challenge is now the largest testnet in the Cosmos hub since Cosmos’ Game of Stakes.**  
   

@@ -2,7 +2,6 @@
 title: "Akash Network Unlocks Persistent Storage Through Mainnet 3 Upgrade"
 date: 2022-04-26
 lastmod: 2022-04-25T11:42:48-07:00
-images: ["https://www.datocms-assets.com/45776/1650911720-blog-akash-mainnet3-launch.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1650911720-blog-akash-mainnet3-launch.png"]
 ---
 Mainnet 3, unlocked 🚀
 

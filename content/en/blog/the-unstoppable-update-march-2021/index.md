@@ -2,7 +2,6 @@
 title: "The Unstoppable Update: March 2021"
 date: 2021-03-11
 lastmod: 2021-05-13T12:26:24-07:00
-images: ["https://www.datocms-assets.com/45776/1620933937-unstoppable-march21.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620933937-unstoppable-march21.png"]
 ---
   
 The migration of work and life to the cloud, accelerated by the pandemic, as well as the centralization and consolidation of big tech, validates the need for a decentralized and open alternative to centralized cloud.  

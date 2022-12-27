@@ -2,7 +2,6 @@
 title: "An Evolution of Akash Network Token Economics"
 date: 2020-02-06
 lastmod: 2021-05-28T12:38:11-07:00
-images: ["https://www.datocms-assets.com/45776/1620922330-the-right-one-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922330-the-right-one-1.png"]
 ---
 Last fall, we released our Akash Network Token Economic Model, a system that leverages Akash Token (AKT), a native currency, to solve for volatility (one of the biggest challenges for adoption in crypto) while ensuring economic security of our public blockchain. In the paper, we presented various strategies to mitigate inherent adoption challenges that face an early market economy — lack of sufficient demand from the tenants (consumers of computing), which in turn hurts demand because of lack of supply. 
 

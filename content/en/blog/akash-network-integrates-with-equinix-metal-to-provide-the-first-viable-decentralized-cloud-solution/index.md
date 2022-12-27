@@ -2,7 +2,6 @@
 title: "Akash Network Integrates with Equinix Metal to Provide the First Viable Decentralized Cloud Solution"
 date: 2021-03-03
 lastmod: 2021-05-13T15:41:37-07:00
-images: ["https://www.datocms-assets.com/45776/1620925371-equinix-banner-1-1024x768.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925371-equinix-banner-1-1024x768.png"]
 ---
   
 **Today, we’re excited to announce that Akash Network is integrating with Equinix Metal and enabling developers and companies to decentralize their cloud infrastructure through Akash DeCloud: Mainnet 2.**  

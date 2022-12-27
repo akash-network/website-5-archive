@@ -2,7 +2,6 @@
 title: "Announcing The Akashian Challenge: Phase 2"
 date: 2020-06-25
 lastmod: 2021-05-13T09:14:49-07:00
-images: ["https://www.datocms-assets.com/45776/1620922468-phase-2-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922468-phase-2-thumb.png"]
 ---
 **After much anticipation, we’re excited to announce THE SHIP HAS LANDED for The Akashian Challenge Phase 2: DEX Operations!**   
   

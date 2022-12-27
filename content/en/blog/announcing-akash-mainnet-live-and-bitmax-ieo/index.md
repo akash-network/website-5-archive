@@ -2,7 +2,6 @@
 title: "Announcing Akash Mainnet Live and BitMax IEO"
 date: 2020-09-25
 lastmod: 2021-05-14T15:26:53-07:00
-images: ["https://www.datocms-assets.com/45776/1621031190-screen-shot-2021-05-14-at-6-26-24-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621031190-screen-shot-2021-05-14-at-6-26-24-pm.png"]
 ---
 > The primary listing of AKT is one of the most important projects of BitMax.io in Q3. BitMax.io applauds the Akash team for bringing a DeCloud alternative to the booming Cloud Service Provider (CSP) market. We aim to provide extensive support for AKT spanning from listing, staking, and more extensive infrastructure buildout.
 

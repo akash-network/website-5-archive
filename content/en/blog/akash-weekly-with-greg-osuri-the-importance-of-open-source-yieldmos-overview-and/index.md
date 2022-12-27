@@ -2,7 +2,6 @@
 title: "Akash Weekly with Greg Osuri: The Importance of Open Source, Yieldmos Overview, and DeFi vs CeFi"
 date: 2022-08-05
 lastmod: 2022-09-27T11:42:28-07:00
-images: ["https://www.datocms-assets.com/45776/1659711200-screen-shot-2022-08-05-at-10-53-05-am.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1659711200-screen-shot-2022-08-05-at-10-53-05-am.png"]
 ---
 Akash Weekly is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

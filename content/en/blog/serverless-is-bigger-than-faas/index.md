@@ -2,7 +2,6 @@
 title: "Serverless is bigger than FaaS"
 date: 2017-11-28
 lastmod: 2021-05-13T09:14:07-07:00
-images: ["https://www.datocms-assets.com/45776/1620922425-serverless-is-bigger-than-faas.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922425-serverless-is-bigger-than-faas.jpg"]
 ---
 There is a growing excitement in the developer community around the serverless paradigm, an idea that lets developers to deliver workloads without provisioning or managing servers.
 

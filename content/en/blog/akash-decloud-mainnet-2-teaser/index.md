@@ -2,7 +2,6 @@
 title: "Akash DeCloud: Mainnet 2 Teaser"
 date: 2021-02-11
 lastmod: 2021-05-13T10:01:13-07:00
-images: ["https://www.datocms-assets.com/45776/1620925213-teaser-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925213-teaser-twitter.png"]
 ---
   
 Five years ago, when my cofounder Greg Osuri and I set out to build Akash Network, we had previously worked as open source developers and experienced first-hand the constraints of centralized cloud service providers.  

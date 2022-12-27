@@ -2,7 +2,6 @@
 title: "Building the Open Cloud, Part 1: The State of Web3 Infrastructure"
 date: 2022-10-05
 lastmod: 2022-10-13T12:16:33-07:00
-images: ["https://www.datocms-assets.com/45776/1664995616-3-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1664995616-3-1.png"]
 ---
 _By Anil Murty, Head of Product at Overclock Labs_
 

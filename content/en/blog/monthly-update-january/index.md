@@ -2,7 +2,6 @@
 title: "Monthly Update: January  "
 date: 2022-02-01
 lastmod: 2022-02-14T00:41:24-08:00
-images: ["https://www.datocms-assets.com/45776/1643658090-photo_2022-01-31-11-41-21.jpeg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1643658090-photo_2022-01-31-11-41-21.jpeg"]
 ---
 Even though we started off 2022 with a bear market, this has been one of the strongest months not just for Akash Network, but for the Cosmos ecosystem as a whole. 
 

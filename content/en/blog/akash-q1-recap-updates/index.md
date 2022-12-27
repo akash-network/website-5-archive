@@ -2,7 +2,6 @@
 title: "Akash Q1 Recap & Special Unveil"
 date: 2020-04-20
 lastmod: 2021-05-13T09:14:57-07:00
-images: ["https://www.datocms-assets.com/45776/1620922486-000035340013-copy-scaled.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922486-000035340013-copy-scaled.jpg"]
 ---
 Greetings,
 

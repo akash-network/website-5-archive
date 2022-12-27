@@ -2,7 +2,6 @@
 title: "Akash Weekly With Greg Osuri: Comdex and Cloudmos Are Building the Future of Cosmos"
 date: 2022-09-09
 lastmod: 2022-09-09T15:48:08-07:00
-images: ["https://www.datocms-assets.com/45776/1662763425-661.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1662763425-661.png"]
 ---
 Akash Weekly with Greg Osuri is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

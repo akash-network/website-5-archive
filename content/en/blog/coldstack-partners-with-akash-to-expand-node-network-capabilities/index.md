@@ -2,7 +2,6 @@
 title: "ColdStack Partners with Akash to Expand Node Network Capabilities"
 date: 2022-01-05
 lastmod: 2022-01-05T19:34:38-08:00
-images: ["https://www.datocms-assets.com/45776/1641332966-coldstack-graphic.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1641332966-coldstack-graphic.png"]
 ---
 As Akash Network continues to scale and onboard new users contributing to Web 3.0, it’s important to have different storage options as the leading decentralized cloud infrastructure provider. 
 

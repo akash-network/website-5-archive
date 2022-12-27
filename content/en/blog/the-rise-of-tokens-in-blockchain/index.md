@@ -2,7 +2,6 @@
 title: "The Rise of Tokens in Blockchain"
 date: 2020-03-06
 lastmod: 2021-05-13T09:11:32-07:00
-images: ["https://www.datocms-assets.com/45776/1620922279-the-rise-of-tokens-in-blockchain.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922279-the-rise-of-tokens-in-blockchain.jpg"]
 ---
 **What is a Token?**
 

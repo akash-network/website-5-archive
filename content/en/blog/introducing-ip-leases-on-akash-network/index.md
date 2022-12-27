@@ -2,7 +2,6 @@
 title: "Introducing IP Leases on Akash Network"
 date: 2022-11-23
 lastmod: 2022-11-23T12:15:22-08:00
-images: ["https://www.datocms-assets.com/45776/1669215111-the-akash-roadmap.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1669215111-the-akash-roadmap.png"]
 ---
 [Overclock Labs](https://twitter.com/ovrclk_), the parent company of Akash Network which is developing tools, protocols, and infrastructure that support the evolution and adoption of Web3, is excited to announce the general availability of “IP Leases” on Akash Network. 
 

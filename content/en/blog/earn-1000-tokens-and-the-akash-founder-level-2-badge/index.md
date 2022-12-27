@@ -2,7 +2,6 @@
 title: "Earn 1,000 Tokens and the Akash Founder Level 2 Badge!"
 date: 2019-11-12
 lastmod: 2021-05-13T09:14:36-07:00
-images: ["https://www.datocms-assets.com/45776/1620922455-earn-1000-tokens-and-the-akash-founder-level-2-badge.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922455-earn-1000-tokens-and-the-akash-founder-level-2-badge.jpg"]
 ---
 Thank you for participating in the Akash Founding Member Rewards First Challenge! For those of you just tuning in, the Akash Founding Member Rewards Program is for early contributors to Akash’s testnet. Our community rewards are a warm thank you for early contributions and support.  
   

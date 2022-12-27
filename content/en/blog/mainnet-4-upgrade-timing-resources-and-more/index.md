@@ -2,7 +2,6 @@
 title: "Mainnet 4: Upgrade Timing, Resources, and More"
 date: 2022-11-17
 lastmod: 2022-11-17T09:43:35-08:00
-images: ["https://www.datocms-assets.com/45776/1668698406-mainnet-4-on-akash-network.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1668698406-mainnet-4-on-akash-network.png"]
 ---
 _Note: this post will be updated with news, updates, and links to resources throughout the day._
 

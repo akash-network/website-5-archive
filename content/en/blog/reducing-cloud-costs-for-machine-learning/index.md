@@ -2,7 +2,6 @@
 title: "Reducing Cloud Costs for Machine Learning"
 date: 2020-03-25
 lastmod: 2021-05-19T07:23:47-07:00
-images: ["https://www.datocms-assets.com/45776/1621434210-michael-dziedzic-aqyguywncsm-unsplash.jpeg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621434210-michael-dziedzic-aqyguywncsm-unsplash.jpeg"]
 ---
 The full global economic impact of the coronavirus is hard to put into words or fancy graphs.  At best, we can guess with some degree of confidence what a multi-trillion dollar stimulus package and unlimited money printing will do in the mid and long term to prop up the economy. But we know for certain that technology startups like ours, especially those at early and growth stage, need to be more focused and vigilant than ever, as we don’t have billions in cash of runway and a safety net.
 

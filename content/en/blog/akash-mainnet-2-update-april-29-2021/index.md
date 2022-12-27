@@ -2,7 +2,6 @@
 title: "Akash MAINNET 2 Update: April 29, 2021"
 date: 2021-05-05
 lastmod: 2021-05-13T10:02:48-07:00
-images: ["https://www.datocms-assets.com/45776/1620925239-mainnet2update-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925239-mainnet2update-twitter.png"]
 ---
   
 Akash MAINNET 2 ([v0.10.1](https://github.com/ovrclk/akash/releases/tag/v0.10.1)) launched on March 8th, and since then, we’ve seen an exciting diversity of apps deployed on Akash, and we’ll be sharing many of these pioneering use cases in the coming weeks. We’ve had a 10x increase in deployments since the launch of MAINNET 2.  

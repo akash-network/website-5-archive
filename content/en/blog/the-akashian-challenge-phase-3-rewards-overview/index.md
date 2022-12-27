@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Phase 3: Rewards Overview"
 date: 2020-11-18
 lastmod: 2021-05-14T15:19:30-07:00
-images: ["https://www.datocms-assets.com/45776/1621030757-phase3-rewards-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621030757-phase3-rewards-twitter.png"]
 ---
 Last Thursday, we shared a teaser of [The Akashian Challenge Phase 3: Developer Operations](https://akash.network/blog/the-akashian-challenge-phase-3-teaser/), the third and final phase of our incentivized testnet. 
 

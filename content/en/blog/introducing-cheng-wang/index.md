@@ -2,7 +2,6 @@
 title: "Introducing Cheng Wang"
 date: 2020-07-09
 lastmod: 2021-05-13T09:14:35-07:00
-images: ["https://www.datocms-assets.com/45776/1620922443-cheng-minimal-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922443-cheng-minimal-thumb.png"]
 ---
 _**Cheng is one of the most creative, curious, and articulate thinkers in the world of finance. We’re incredibly excited to have Cheng leverage his extensive financial and operational experience from Wall Street, to digital commerce and ensure Akash has healthy liquidity and scale to support our ambitious growth goals.**_  
   

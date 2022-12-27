@@ -2,7 +2,6 @@
 title: "AKT Token Now On Gate.io Exchange"
 date: 2021-03-12
 lastmod: 2021-05-13T12:45:04-07:00
-images: ["https://www.datocms-assets.com/45776/1620935088-gateio-live.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620935088-gateio-live.png"]
 ---
   
 **Today, we’re excited to announce that Akash Token (AKT) is now available on Gate.io,** [**one of the Top 10 digital asset exchanges in the world**](https://www.coingecko.com/en/exchanges)**.**  

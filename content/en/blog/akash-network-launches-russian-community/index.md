@@ -2,7 +2,6 @@
 title: "Akash Network Launches Russian Community!"
 date: 2020-07-22
 lastmod: 2021-05-13T09:36:50-07:00
-images: ["https://www.datocms-assets.com/45776/1620923345-andrew-pic.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620923345-andrew-pic.jpg"]
 ---
 Outside of the US, Akash’s Russian audience is our _second largest community_. We’ve also been fortunate to have a number of Russian participants among the 106 validators in The Akashian Challenge, our incentivized testnet.
 

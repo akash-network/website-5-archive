@@ -2,7 +2,6 @@
 title: "Akash Network Launches Akash MAINNET 2, the First Decentralized Open-Source Cloud"
 date: 2021-03-08
 lastmod: 2021-06-21T17:46:55-07:00
-images: ["https://www.datocms-assets.com/45776/1620925245-mainnet-twitter-1-1024x576.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925245-mainnet-twitter-1-1024x576.png"]
 ---
   
 **Today, we’re thrilled to announce the historic MVP launch of Akash MAINNET 2, the world’s first decentralized open-source cloud.**  

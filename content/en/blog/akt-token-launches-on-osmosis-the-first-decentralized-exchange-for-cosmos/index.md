@@ -2,7 +2,6 @@
 title: " Akash Announces First AKT Token DEX Listing on Osmosis"
 date: 2021-06-17
 lastmod: 2021-06-18T00:02:12-07:00
-images: ["https://www.datocms-assets.com/45776/1623889012-osmosis-hero.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1623889012-osmosis-hero.png"]
 ---
 > **“We’re excited to have Akash Network be one of the first launch partners of Osmosis. Akash Network enables a new generation of resilient, decentralized Internet infrastructure to be built, and Osmosis provides a gateway for anyone to take part in this decentralized economy. For Osmosis to be a truly decentralized exchange, we need to be built on a decentralized infrastructure.** 
 > 

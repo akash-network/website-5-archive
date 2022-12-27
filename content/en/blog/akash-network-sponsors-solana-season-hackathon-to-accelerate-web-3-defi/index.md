@@ -2,7 +2,6 @@
 title: "Akash Network Sponsors Solana Season Hackathon to Accelerate Web 3 & DeFi"
 date: 2021-05-11
 lastmod: 2021-05-13T15:06:22-07:00
-images: ["https://www.datocms-assets.com/45776/1620943564-solana-2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620943564-solana-2.png"]
 ---
   
 Last year, [we announced a partnership with Solana](https://akash.network/blog/akash-partners-with-solana-to-bring-web-scale-smart-contracts-to-supercloud/) to bring web-scale smart contracts to Akash’s decentralized and open-source cloud (DeCloud).  

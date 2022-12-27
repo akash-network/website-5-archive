@@ -2,7 +2,6 @@
 title: "Become an Akash Founding Member and Earn Token Rewards"
 date: 2019-11-06
 lastmod: 2021-05-28T12:35:25-07:00
-images: ["https://www.datocms-assets.com/45776/1620922357-become-an-akash-founding-member-and-earn-token-rewards.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922357-become-an-akash-founding-member-and-earn-token-rewards.jpg"]
 ---
 As the world’s first supercloud for serverless computing, Akash needs your support to materialize our vision of empowering the architects and builders of the internet with greater access, freedom, and efficiency to create products that improve the human experience. 
 

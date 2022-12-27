@@ -2,7 +2,6 @@
 title: "Akash to Integrate Kava Labs's USDX"
 date: 2020-09-24
 lastmod: 2021-05-13T14:25:01-07:00
-images: ["https://www.datocms-assets.com/45776/1620925350-kava-partnership-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925350-kava-partnership-banner.png"]
 ---
 Today, we’re excited to announce an integration with Kava, the first cross-blockchain DeFi platform, to enable Kava’s stablecoin USDX as the first coin for fee settlement on Akash’s DeCloud platform. The integration with Kava will also enable Akash Token (AKT) to be used as collateral for USDX loans.
 

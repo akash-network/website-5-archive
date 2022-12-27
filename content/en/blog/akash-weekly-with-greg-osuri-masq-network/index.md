@@ -2,7 +2,6 @@
 title: "Akash Weekly With Greg Osuri: MASQ Network"
 date: 2022-09-16
 lastmod: 2022-09-16T14:34:05-07:00
-images: ["https://www.datocms-assets.com/45776/1663363914-665.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1663363914-665.png"]
 ---
 Akash Weekly with Greg Osuri is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

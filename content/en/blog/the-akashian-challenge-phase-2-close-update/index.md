@@ -2,7 +2,6 @@
 title: "The Akashian Challenge: Phase 2 Close & Update"
 date: 2020-07-17
 lastmod: 2021-05-13T09:36:52-07:00
-images: ["https://www.datocms-assets.com/45776/1620923347-phase2close-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620923347-phase2close-thumb.png"]
 ---
 **In Phase 2 of The Akashian Challenge, we enabled end-to-end functionality of our network by completing the migration from Tendermint to Cosmos SDK. We set out to test the performance of the Akash Network decentralized exchange (DEX).** 
 

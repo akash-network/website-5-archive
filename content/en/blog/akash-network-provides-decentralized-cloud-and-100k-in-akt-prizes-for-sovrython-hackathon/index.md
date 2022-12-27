@@ -2,7 +2,6 @@
 title: "Akash Network Provides Decentralized Cloud and $100k in AKT Prizes for Sovrython Hackathon to Accelerate the Future of DeFi"
 date: 2021-05-18
 lastmod: 2021-05-28T12:38:15-07:00
-images: ["https://www.datocms-assets.com/45776/1622211355-sovryn-banner-1024x768.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1622211355-sovryn-banner-1024x768.png"]
 ---
 In the past year, we’ve expanded our community of Akashians across the U.S., Europe, China, Korea, and Russia, and we’re thankful for the passion and contributions that our global community members have brought to our ecosystem. 
 

@@ -2,7 +2,6 @@
 title: "Everyone's a Winner in the Sovrython Hackathon Sponsored by Akash"
 date: 2021-08-02
 lastmod: 2021-08-04T07:08:23-07:00
-images: ["https://www.datocms-assets.com/45776/1627862009-sovryn-hackathon-hero.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1627862009-sovryn-hackathon-hero.png"]
 ---
 Every dev who submitted for one of our challenges at the [Sovrython Hackathon, powered by Gitcoin](https://gitcoin.co/hackathon/sovrython/onboard) won prizes up to $10,000. Sovrython was a 6-week long hackathon that invited developers from all chains to collaborate on decentralization/privacy, data science, integrations, and finance with a shared goal to accelerate the future of DeFi.
 

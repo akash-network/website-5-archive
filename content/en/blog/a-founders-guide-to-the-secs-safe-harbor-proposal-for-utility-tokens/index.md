@@ -2,7 +2,6 @@
 title: "A Founder's Guide to The SEC's Safe Harbor Proposal for Utility Tokens"
 date: 2020-02-19
 lastmod: 2021-05-13T09:11:28-07:00
-images: ["https://www.datocms-assets.com/45776/1620922279-a-founders-guide-to-the-secs-1.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922279-a-founders-guide-to-the-secs-1.jpg"]
 ---
 It’s no secret the regulatory regime in the US hasn’t been friendly to budding decentralized projects. This is because the SEC has tried to apply Howey analysis to crypto projects that effectively classify any token that requires management as a Security.
 

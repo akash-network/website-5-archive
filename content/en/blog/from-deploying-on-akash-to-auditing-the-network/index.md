@@ -2,7 +2,6 @@
 title: "From Deploying on Akash to Auditing the Network"
 date: 2022-06-28
 lastmod: 2022-06-28T14:39:39-07:00
-images: ["https://www.datocms-assets.com/45776/1656437068-case-study-moultrie-audits-blog.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1656437068-case-study-moultrie-audits-blog.png"]
 ---
 ### Introduction
 

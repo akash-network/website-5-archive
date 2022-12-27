@@ -2,7 +2,6 @@
 title: "Developing DeCloud: Product Update 2"
 date: 2020-12-01
 lastmod: 2021-05-13T10:19:39-07:00
-images: ["https://www.datocms-assets.com/45776/1620925260-product-update-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925260-product-update-thumb.png"]
 ---
   
 Yesterday, on Monday, November 30th, we [announced our second exchange listing on BitMart](https://akash.network/blog/announcing-akash-token-listing-on-bitmart-exchange/), further expanding liquidity for AKT token, and [launched Phase 3](https://akash.network/blog/the-akashian-challenge-phase-3-week-1-is-live/), the third and final phase of The Akashian Challenge incentivized testnet.

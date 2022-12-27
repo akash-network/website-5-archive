@@ -2,7 +2,6 @@
 title: "Battling COVID-19 with Blockchain, AI, and Cloud Computing"
 date: 2020-04-01
 lastmod: 2021-05-13T09:14:13-07:00
-images: ["https://www.datocms-assets.com/45776/1620922428-home-page-covid-300x226-1.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922428-home-page-covid-300x226-1.jpg"]
 ---
 ![](https://www.datocms-assets.com/45776/1620921613-og.png)
 

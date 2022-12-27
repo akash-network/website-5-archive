@@ -2,7 +2,6 @@
 title: "Announcing our Filebase + Akash Hackathon Winners "
 date: 2021-10-29
 lastmod: 2021-11-04T22:05:51-07:00
-images: ["https://www.datocms-assets.com/45776/1635479768-filebase-hackathon.gif"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1635479768-filebase-hackathon.gif"]
 ---
 Together with Filebase and Akash, developers and enterprises can quickly migrate from centralized cloud services like Amazon Web Services (AWS), Google Cloud, and Microsoft Azure, onto a decentralized network of cloud providers at a reduced cost. 
 

@@ -2,7 +2,6 @@
 title: "How to Deploy on Akash Network Using AuthZ"
 date: 2022-09-13
 lastmod: 2022-09-13T14:08:04-07:00
-images: ["https://www.datocms-assets.com/45776/1663103150-screen-shot-2022-09-13-at-5-05-36-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1663103150-screen-shot-2022-09-13-at-5-05-36-pm.png"]
 ---
 AuthZ is a feature that allows one wallet to spend the funds in another wallet, up to a specified limit.
 

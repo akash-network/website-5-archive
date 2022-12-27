@@ -2,7 +2,6 @@
 title: "Akash Insiders Spotlight: Del Rey"
 date: 2022-09-15
 lastmod: 2022-09-15T11:24:50-07:00
-images: ["https://www.datocms-assets.com/45776/1663264829-screen-shot-2022-09-15-at-2-00-18-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1663264829-screen-shot-2022-09-15-at-2-00-18-pm.png"]
 ---
 _Today, we are featuring a profile of one of our Akash Insider community members—Del Rey, AKA "Instafinanzas." Del Rey will introduce himself in his own words, share his background, how he came to find Akash Network, and his experience with the Akash Insiders._
 

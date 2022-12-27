@@ -2,7 +2,6 @@
 title: "Multi-Cloud, Explained"
 date: 2022-02-09
 lastmod: 2022-02-16T21:00:44-08:00
-images: ["https://www.datocms-assets.com/45776/1644347002-multi-cloud_sm_1200-x-675-2.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1644347002-multi-cloud_sm_1200-x-675-2.jpg"]
 ---
 It’s the start of 2022 and the hiatus from self-hosted solutions to cloud-based deployments will continue to roar. The “cloud” is an IT and computer science term to describe the amalgamation of global servers which can be leased out to end-users, developers, and organizations. An easy to understand analogy is to imagine how your own computer works. When you access an app, that app acts as an interpreter between you and the computer. The computer understands binary code, or 1’s and 0’s, but you as a layman don’t know how to talk to the computer in binary, so the app converts your inputs and turns them into machine-understable code. When you access the internet through a web browser, what’s really happening is your computer is requesting another machine, called a server, to show you some information, which is a web page!
 

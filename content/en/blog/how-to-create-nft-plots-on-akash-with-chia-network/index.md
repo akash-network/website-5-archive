@@ -2,7 +2,6 @@
 title: "How to Create NFT Plots on Akash with Chia Network"
 date: 2022-01-18
 lastmod: 2022-01-21T08:05:03-08:00
-images: ["https://www.datocms-assets.com/45776/1642481416-akash-x-chia-gif-blog.gif"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1642481416-akash-x-chia-gif-blog.gif"]
 ---
 Hello Akashian’s, I'm Andrew Mello, the new Head of Mining Partnerships at Akash where I support mining communities' migration to the dWeb. With a shared vision for decentralizing storage on Web3, Akash is pleased to announce a partnership with the [Chia](https://chia.net) (XCH) team. Co-founded by Bram Cohen, the author of the Bittorrent protocol, Chia blockchain is based on a new Nakamoto consensus called "proof of space and time" which launched in March of 2021.  
 

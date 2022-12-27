@@ -2,7 +2,6 @@
 title: "Huobi Pool Partners with Akash Network"
 date: 2020-12-21
 lastmod: 2021-05-13T15:38:21-07:00
-images: ["https://www.datocms-assets.com/45776/1620925336-huobi-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925336-huobi-twitter.png"]
 ---
   
 In the cryptocurrency world, Huobi needs no further introduction, and Huobi Global Exchange is renowned around the world as one of the top two crypto exchanges.   

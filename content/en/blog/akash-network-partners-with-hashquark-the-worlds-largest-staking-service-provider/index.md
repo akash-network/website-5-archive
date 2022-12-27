@@ -2,7 +2,6 @@
 title: "Akash Network Partners with HashQuark, the World's Largest Staking+ Service Provider"
 date: 2021-04-20
 lastmod: 2021-05-13T12:24:10-07:00
-images: ["https://www.datocms-assets.com/45776/1620933836-hashquark-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620933836-hashquark-banner.png"]
 ---
   
 We’re excited to announce a partnership with HashQuark, the largest Asian staking company and one of the world’s largest validators. 

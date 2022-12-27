@@ -2,7 +2,6 @@
 title: "Akash Network Provides Decentralized Cloud to the Largest Internet of Things (IoT) Network, Helium"
 date: 2021-05-27
 lastmod: 2021-08-26T13:34:44-07:00
-images: ["https://www.datocms-assets.com/45776/1622567191-helium2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1622567191-helium2.png"]
 ---
 > Migrating the Helium blockchain's consensus group from hosted hotspots to validators is a major upgrade for scalability and performance. From the Foundation's perspective, we want to see Helium validators optimize for diversity of infrastructure and decentralization, which is why we're thrilled to have Akash in the Helium ecosystem. Not only is their performance and cost structure attractive to node operators, but their decentralized cloud aligns with our own ethos of creating permissionless and open systems.
 > 

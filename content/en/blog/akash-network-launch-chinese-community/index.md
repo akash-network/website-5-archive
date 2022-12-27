@@ -2,7 +2,6 @@
 title: "Akash Network Launches Chinese Community!"
 date: 2020-06-30
 lastmod: 2021-05-13T09:14:52-07:00
-images: ["https://www.datocms-assets.com/45776/1620922478-superminiheaderx2.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922478-superminiheaderx2.jpg"]
 ---
 At Akash Network, our _second largest audience is our Chinese audience_, and Chinese visitors make up _the second largest group of visitors to our website and communities_. We’re also fortunate to have a number of Chinese investors and partners, including [Outpost Capital](https://outpostvc.com/), [Hone Capital](http://honecap.com/), [Forbole](https://www.forbole.com/), and [Steven Fan](https://www.linkedin.com/in/stevenweifan/) of Tencent.
 

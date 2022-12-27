@@ -2,7 +2,6 @@
 title: "Announcing The Akashian Challenge: Incentivized Testnet"
 date: 2020-04-23
 lastmod: 2021-05-13T09:14:21-07:00
-images: ["https://www.datocms-assets.com/45776/1620922437-the-image.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922437-the-image.jpg"]
 ---
 Akash means “open space, sky” in ancient Sanskrit.  
   

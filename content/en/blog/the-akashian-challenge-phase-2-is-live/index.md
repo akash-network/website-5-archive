@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Phase 2 is LIVE!"
 date: 2020-06-29
 lastmod: 2021-05-13T09:14:23-07:00
-images: ["https://www.datocms-assets.com/45776/1620922434-phase-2-live-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922434-phase-2-live-banner.png"]
 ---
 **Last week, we shared** [**an overview of The Akashian Challenge Phase 2**](https://akash.network/blog/announcing-the-akashian-challenge-phase-2/)**, including the Challenge Schedule and Rewards Schedule. Phase 2 will encompass 3 weeks of challenges, 600,000 AKT rewards, and special prizes.**
 

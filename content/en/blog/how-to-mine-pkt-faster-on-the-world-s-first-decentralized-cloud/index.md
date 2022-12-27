@@ -2,7 +2,6 @@
 title: "How to Mine PKT Faster on The World’s First Decentralized Cloud"
 date: 2021-08-12
 lastmod: 2021-11-16T10:29:53-08:00
-images: ["https://www.datocms-assets.com/45776/1628787989-mine-pkt-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1628787989-mine-pkt-banner.png"]
 ---
 Mining cryptocurrency on the cloud is much easier than building your own hardware. Cloud hosting usually comes at a higher cost and requires contracts, and service providers can charge extra fees for bandwidth usage. Making things more difficult, some cloud providers are shutting off mining operations at will. Crypto-mining projects like [PKT](https://pkt.cash/), are looking for better cloud providers and now they can run on Akash Network, the world’s first open-source and decentralized cloud marketplace.
 

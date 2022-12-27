@@ -2,7 +2,6 @@
 title: "Bootstrapping a Free Market by Borrowing from the Future"
 date: 2019-10-07
 lastmod: 2021-05-13T09:14:19-07:00
-images: ["https://www.datocms-assets.com/45776/1620922440-bootstrapping-a-free-market-by-borrowing-from-the-future.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922440-bootstrapping-a-free-market-by-borrowing-from-the-future.png"]
 ---
 The survival of an early market economy depends on its ability to solve the cyclical dependency of demand and supply until a healthy equilibrium can be achieved to unlock its network effects.  
 

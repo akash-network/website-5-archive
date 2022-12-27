@@ -2,7 +2,6 @@
 title: "A Primer on the First Decentralized Cloud Marketplace"
 date: 2020-07-07
 lastmod: 2021-05-19T07:38:12-07:00
-images: ["https://www.datocms-assets.com/45776/1621435076-screen-shot-2021-05-19-at-10-37-52-am.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621435076-screen-shot-2021-05-19-at-10-37-52-am.png"]
 ---
 #### **The Market Landscape for Cloud Computing**  
 **\_\_\_\_\_**

@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Phase 3 Teaser"
 date: 2020-11-12
 lastmod: 2021-05-13T10:17:06-07:00
-images: ["https://www.datocms-assets.com/45776/1620925340-phase3-banner-2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925340-phase3-banner-2.png"]
 ---
 As the world’s first decentralized peer-to-peer cloud computing marketplace, our vision is to materialize a permissionless, sovereign, and open cloud where architects and builders have greater freedom to expand the human experience. 
 

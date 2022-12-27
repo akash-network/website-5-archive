@@ -2,7 +2,6 @@
 title: "Akash Network Launches Korean Community!"
 date: 2020-10-16
 lastmod: 2021-05-13T10:16:12-07:00
-images: ["https://www.datocms-assets.com/45776/1620926162-koreannounce-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620926162-koreannounce-thumb.png"]
 ---
 With a long history and familiarity with tokens and digital payments that has spanned decades, Koreans have been at the forefront of crypto adoption and growth. Korea has the highest percentage of citizens who use crypto, and the Korean government has made regulatory and investment commitments to expand the crypto/blockchain industry.  
   

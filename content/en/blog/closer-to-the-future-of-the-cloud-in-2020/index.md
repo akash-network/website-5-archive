@@ -2,7 +2,6 @@
 title: "Closer to the Future of the Cloud in 2020"
 date: 2020-01-24
 lastmod: 2021-05-28T12:26:31-07:00
-images: ["https://www.datocms-assets.com/45776/1622229974-image-from-ios.jpeg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1622229974-image-from-ios.jpeg"]
 ---
 In an industry dominated by three cloud providers, the largest of which was featured in a galvanizing [New York Times article](https://www.nytimes.com/2019/12/15/technology/amazon-aws-cloud-competition.html) this past December, we knew that we were taking on much larger incumbents, and a huge challenge, one that could shape the future of the cloud, and thus, the Internet.   
   

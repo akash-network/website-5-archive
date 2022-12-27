@@ -2,7 +2,6 @@
 title: "Introducing Artur Troian: Senior Software Engineer"
 date: 2020-05-13
 lastmod: 2021-05-13T09:14:14-07:00
-images: ["https://www.datocms-assets.com/45776/1620922423-artur-troian-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922423-artur-troian-thumb.png"]
 ---
 _**“I'm excited to join Akash to help achieve 100% utilization of all cloud compute resources around the world.”**_  
   

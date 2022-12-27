@@ -2,7 +2,6 @@
 title: "Announcing the Skynet Hackathon Winner "
 date: 2021-08-23
 lastmod: 2021-08-24T03:55:18-07:00
-images: ["https://www.datocms-assets.com/45776/1629505203-skynet-hackathon-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1629505203-skynet-hackathon-banner.png"]
 ---
 In June, we announced an integration with Skynet Labs to provide the first full-stack decentralized web (dWeb) solution to handle backup, restore, and migration.
 

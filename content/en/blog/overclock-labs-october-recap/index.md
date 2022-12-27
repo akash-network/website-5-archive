@@ -2,7 +2,6 @@
 title: "Overclock Labs: October 2022 Recap"
 date: 2022-11-01
 lastmod: 2022-12-01T17:06:03-08:00
-images: ["https://www.datocms-assets.com/45776/1667332804-ovrclck-october-recap.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1667332804-ovrclck-october-recap.png"]
 ---
 As we close out the month of October, here is a look back at our accomplishments over the past month.
 

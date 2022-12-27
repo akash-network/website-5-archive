@@ -2,7 +2,6 @@
 title: "Akash DeCloud: From Phase 3 to Mainnet 2"
 date: 2020-12-23
 lastmod: 2021-05-13T10:02:30-07:00
-images: ["https://www.datocms-assets.com/45776/1620925248-phase-3-close-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925248-phase-3-close-twitter.png"]
 ---
   
 Through running three phases of The Akashian Challenge, one of the ecosystem’s most ambitious testnets, we’ve been able to gather data, identify critical issues, and ensure our network’s scalability, security, and usability before launching our DeCloud: Mainnet 2.   

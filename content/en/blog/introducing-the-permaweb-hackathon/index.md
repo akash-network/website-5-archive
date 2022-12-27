@@ -2,7 +2,6 @@
 title: "Introducing the Permaweb Hackathon"
 date: 2021-11-08
 lastmod: 2021-11-16T22:45:49-08:00
-images: ["https://www.datocms-assets.com/45776/1636398654-permaweb2.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1636398654-permaweb2.jpg"]
 ---
 When you buy an NFT how do you know it is going to be around in 20 years? Who is paying to store it? NFTs are non-fungible tokens that grant ownership of unique items like art, music, digital items in a game, or real-world objects. Generative NFTs are especially popular as they transform strings of data stored in the token into colorful digital images of [Apes](https://boredapeyachtclub.com/#/), [Punks](https://www.larvalabs.com/cryptopunks), [Mondrians](https://paulstamatiou.com/how-i-made-50k-in-3-days-with-nfts/), even the [cover of Rolling Stone’s](https://hypebeast.com/2021/11/rolling-stone-bored-ape-yacht-club-digital-cover-nfts-announcement) magazine. While the actual tokens define ownership, they do not store the actual images on the blockchain. More often than not, the artwork is stored somewhere out of your control - or on a server that could shut down or suffer from data corruption.
 

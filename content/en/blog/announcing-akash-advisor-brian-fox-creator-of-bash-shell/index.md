@@ -2,7 +2,6 @@
 title: "Announcing Akash Advisor Brian Fox, Creator of Bash Shell"
 date: 2020-11-19
 lastmod: 2021-05-13T10:02:54-07:00
-images: ["https://www.datocms-assets.com/45776/1620925204-brian-fox-thumb.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925204-brian-fox-thumb.jpg"]
 ---
 If you’ve ever used the GNU Bash, GNU Makeinfo, GNU Info, GNU Finger, GNU Echo, or GNU Emacs, chances are, you’ve heard of open source pioneer and innovator Brian Fox and have leveraged his ubiquitous and valuable open source contributions.  
 

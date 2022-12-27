@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Incentivized Testnet LIVE"
 date: 2020-04-30
 lastmod: 2021-05-19T07:32:28-07:00
-images: ["https://www.datocms-assets.com/45776/1620922505-akashian-challenge.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922505-akashian-challenge.png"]
 ---
 **It’s ON!**   
   

@@ -2,7 +2,6 @@
 title: "AKT Token Now On DigiFinex Exchange"
 date: 2021-01-26
 lastmod: 2021-05-14T10:24:57-07:00
-images: ["https://www.datocms-assets.com/45776/1620925257-digifinex-twitter-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925257-digifinex-twitter-1.png"]
 ---
   
 **Today, we’re excited to announce that Akash Token (AKT) is now available on** [**DigiFinex**](https://www.digifinex.com/en-ww/)**, a world-leading digital assets exchange.**  

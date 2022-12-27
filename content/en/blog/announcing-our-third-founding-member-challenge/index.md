@@ -2,7 +2,6 @@
 title: "Announcing Our Third Founding Member Challenge!"
 date: 2019-11-21
 lastmod: 2021-05-13T09:12:07-07:00
-images: ["https://www.datocms-assets.com/45776/1620922319-announcing-our-third-founding-member-challenge.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922319-announcing-our-third-founding-member-challenge.png"]
 ---
 Congratulations to those of you who completed the first two challenges of the Akash Founding Member Rewards Program! Today, we’re excited to announce the third and final challenge.  
   

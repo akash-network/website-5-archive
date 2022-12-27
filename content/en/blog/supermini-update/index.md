@@ -2,7 +2,6 @@
 title: "Supermini Update "
 date: 2021-10-06
 lastmod: 2021-10-08T08:52:27-07:00
-images: ["https://www.datocms-assets.com/45776/1633483077-supermini-update-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1633483077-supermini-update-banner.png"]
 ---
 We have an important announcement today, but first, I want to give a brief update on how Akash Network is progressing. We are seeing strong and consistent growth since releasing Akash’s distributed peer-to-peer marketplace for cloud compute in March. 
 

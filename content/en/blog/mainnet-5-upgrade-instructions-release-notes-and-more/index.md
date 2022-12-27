@@ -2,7 +2,6 @@
 title: "Mainnet 5: Upgrade instructions, release notes, and more"
 date: 2022-12-21
 lastmod: 2022-12-21T11:06:07-08:00
-images: ["https://www.datocms-assets.com/45776/1671646841-mainnet-5-on-akash-network.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1671646841-mainnet-5-on-akash-network.png"]
 ---
 Akash Network has successfully upgraded to Mainnet 5. The upgrade took place this morning and was completed in ~22 minutes. Mainnet 5 includes several bug fixes and modifications of previously released network features.
 

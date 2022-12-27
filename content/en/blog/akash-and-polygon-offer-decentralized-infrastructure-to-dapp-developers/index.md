@@ -2,7 +2,6 @@
 title: "Akash and Polygon Offer Decentralized Infrastructure to dApp Developers"
 date: 2021-11-22
 lastmod: 2021-11-24T19:45:17-08:00
-images: ["https://www.datocms-assets.com/45776/1637592931-polygon.jpeg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1637592931-polygon.jpeg"]
 ---
 Akash Network and Polygon join forces with a bounty matching program that offers the Polygon Ecosystem a path from traditional cloud to cloud providers on Akash Network. Akash’s peer-to-peer marketplace offers Polygon developers a cost-effective option to deploy and scale their applications and services while Polygon provides [a starter kit](https://polygontechnology.notion.site/Polygon-Starter-Kit-a289a505a0bb4e8b8189c1fc3b2223d0) to developers including instructions for hosting on Akash Network.
 

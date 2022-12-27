@@ -2,7 +2,6 @@
 title: "Akash Network Validator Rewards"
 date: 2019-10-31
 lastmod: 2021-05-28T12:36:10-07:00
-images: ["https://www.datocms-assets.com/45776/1622230559-akash-network-validator-rewards.jpeg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1622230559-akash-network-validator-rewards.jpeg"]
 ---
 Akash employs a blockchain secured by a _Proof-of-Stake_ consensus model, managed by 128 independent _Validators._ Validators perform the vital role of providing economic security to the Akash blockchain.  To participate, validators ‘stake’ Akash tokens (AKT). AKT has three primary functions.
 

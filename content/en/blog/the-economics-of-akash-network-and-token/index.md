@@ -2,7 +2,6 @@
 title: "The Economics of Akash Network and Token"
 date: 2019-09-16
 lastmod: 2021-05-13T09:13:58-07:00
-images: ["https://www.datocms-assets.com/45776/1620922422-untitled-7.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922422-untitled-7.png"]
 ---
 With 8.4 million data centers, an estimated 85% of server capacity underutilized, and accelerated global demand for cloud computing, Akash aims to create efficiencies in the cloud hosting market through algorithms for allocating compute resources that go to waste in the current market.
 

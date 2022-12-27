@@ -76,6 +76,7 @@
     "datocms-structured-text-to-html-string": "^2.1.11",
     "datocms-structured-text-to-plain-text": "^2.0.4",
     "dotenv": "^16.0.3",
+    "image-downloader": "^4.3.0",
     "turndown": "^7.1.1",
     "unist-util-inspect": "^7.0.1"
   },

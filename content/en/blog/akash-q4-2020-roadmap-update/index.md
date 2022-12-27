@@ -2,7 +2,6 @@
 title: "Akash Q4 2020 Roadmap Update"
 date: 2020-08-26
 lastmod: 2021-05-14T15:47:51-07:00
-images: ["https://www.datocms-assets.com/45776/1621032443-screen-shot-2021-05-14-at-6-46-54-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621032443-screen-shot-2021-05-14-at-6-46-54-pm.png"]
 ---
 **We’re grateful for the continued support of our global community as we build the world’s first decentralized cloud marketplace.**
 

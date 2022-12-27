@@ -2,7 +2,6 @@
 title: "Akash Network’s Akash Token (AKT) Now Listed on Bittrex Global"
 date: 2021-05-25
 lastmod: 2021-05-28T13:30:57-07:00
-images: ["https://www.datocms-assets.com/45776/1622230747-bittrex-live-banner-1024x768.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1622230747-bittrex-live-banner-1024x768.png"]
 ---
 > With its extraordinary growth over the last six months, we’re excited to welcome AKT to our platform. As the most trusted crypto exchange platform known for secure trading and digital wallet infrastructures, we’re proud to partner with Akash Network to make AKT available to our global community of traders.
 > 

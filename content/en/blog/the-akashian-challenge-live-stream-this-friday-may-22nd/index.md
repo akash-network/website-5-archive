@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Live Stream: This Friday May 22nd"
 date: 2020-05-20
 lastmod: 2021-05-14T15:23:12-07:00
-images: ["https://www.datocms-assets.com/45776/1620922437-livestream-banner-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922437-livestream-banner-1.png"]
 ---
 **When:** Friday, 5/22 4PM UTC: 9AM PST  
 **Hosts**: Greg Osuri, Jack Zampolin  

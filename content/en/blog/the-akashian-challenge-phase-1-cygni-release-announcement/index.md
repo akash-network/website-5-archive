@@ -2,7 +2,6 @@
 title: "The Akashian Challenge  Phase 1: Cygni Release Announcement"
 date: 2020-05-28
 lastmod: 2021-05-14T15:22:05-07:00
-images: ["https://www.datocms-assets.com/45776/1621030912-cygni-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621030912-cygni-twitter.png"]
 ---
 **Quick facts about The Akashian Challenge Incentivized Testnet:**
 

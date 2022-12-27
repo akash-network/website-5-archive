@@ -4,7 +4,9 @@ This repository contains the source code for the [Akash Network website](akash.n
 
 ## Migrating from DatoCMS
 
-### Import blog posts
+### Import blog posts from DataCMS
+
+**NOTE**: Before running the below command, ensure `DATO_API_TOKEN` is set in your environment. You can also set his in a `.env` file in the root of the project.
 
 ```sh
 $ npm run migrate-blog

@@ -2,7 +2,6 @@
 title: "How Blockchain is Transforming Cloud Computing"
 date: 2020-02-27
 lastmod: 2021-05-13T09:11:29-07:00
-images: ["https://www.datocms-assets.com/45776/1620922279-how-blockchain-is-transforming-cloud-computing.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922279-how-blockchain-is-transforming-cloud-computing.jpg"]
 ---
 Today’s market for cloud computing is heavily consolidated, with the top 4 cloud service providers, Amazon Web Services, Microsoft Azure, Google Cloud, and Alibaba Cloud dominating 70% of the entire market as of the end of 2019 .
 

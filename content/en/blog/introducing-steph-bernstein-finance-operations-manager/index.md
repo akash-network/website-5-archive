@@ -2,7 +2,6 @@
 title: "Introducing Steph Bernstein, Finance & Operations Manager"
 date: 2021-03-24
 lastmod: 2021-05-13T10:02:24-07:00
-images: ["https://www.datocms-assets.com/45776/1620925245-steph-twitter.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925245-steph-twitter.jpg"]
 ---
 > _**I was incredibly impressed with the team behind Akash Network and what they’ve already accomplished as an early-stage startup. I’m excited to have a front-row seat to witness the way Akash’s intersection of cloud computing, blockchain, and cryptocurrency will change the Internet as we know it.**_
 

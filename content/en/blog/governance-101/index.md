@@ -2,7 +2,6 @@
 title: "Governance 101 "
 date: 2021-09-21
 lastmod: 2021-09-20T20:10:42-07:00
-images: ["https://www.datocms-assets.com/45776/1632186207-governance101-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1632186207-governance101-banner.png"]
 ---
 Blockchain technology is one of the most important innovations of our time. Although it has been around since the early 1990s, it isn't until now that many of us are seeing its real potential. 
 

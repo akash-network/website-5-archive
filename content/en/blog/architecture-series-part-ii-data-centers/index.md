@@ -2,7 +2,6 @@
 title: "Architecture Series Part II: Data Centers"
 date: 2022-01-11
 lastmod: 2022-01-23T21:30:43-08:00
-images: ["https://www.datocms-assets.com/45776/1641915507-data-centers-1-s2-1.gif"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1641915507-data-centers-1-s2-1.gif"]
 ---
 Decades ago, your phone was at the end of a long copper wire. Your TV got its channels from another cable or perhaps a satellite, and your radio snatched AM or FM signals out of the air. Not anymore — all those things are digital now, and all of them use the internet to download or exchange the data they need — a show from a streaming service, a video call with friends, a new episode of your favorite podcast.
 

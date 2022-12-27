@@ -2,7 +2,6 @@
 title: "How To Access Chia’s Bladebit Disk on Akash Network"
 date: 2022-09-08
 lastmod: 2022-09-14T06:32:23-07:00
-images: ["https://www.datocms-assets.com/45776/1662672333-chia-blade-akash-network-supply-side-1920x1080-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1662672333-chia-blade-akash-network-supply-side-1920x1080-1.png"]
 ---
 Chia has launched the beta of their Bladebit Disk plotting software, which takes the high performance of the original Bladebit and adds flexibility to support plotting across a wide range of systems. With Bladebit Disk, a Chia user has greater flexibility to create plots according to their time and cost preference.
 

@@ -2,7 +2,6 @@
 title: "Akash at TokenFest"
 date: 2018-04-30
 lastmod: 2021-05-13T09:14:56-07:00
-images: ["https://www.datocms-assets.com/45776/1620922476-akash-at-token-fest-1.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922476-akash-at-token-fest-1.jpg"]
 ---
 Last month we attended the inaugural [TokenFest](https://tokenfest.io/) held right here in San Francisco.  We have become more familiar with the conference circuit having attended a handful of them this year alone. TokenFest was a
 

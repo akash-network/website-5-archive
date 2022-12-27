@@ -2,7 +2,6 @@
 title: "April Recap"
 date: 2022-05-04
 lastmod: 2022-05-10T15:16:34-07:00
-images: ["https://www.datocms-assets.com/45776/1651683542-akash-blog-660x480.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1651683542-akash-blog-660x480.png"]
 ---
 April was all hands on deck to launch Mainnet 3.
 

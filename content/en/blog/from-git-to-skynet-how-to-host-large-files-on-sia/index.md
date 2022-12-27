@@ -2,7 +2,6 @@
 title: "From Git to Skynet: How to Host Large Files on Sia"
 date: 2021-07-22
 lastmod: 2021-07-22T04:09:43-07:00
-images: ["https://www.datocms-assets.com/45776/1626907103-git2skynet.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1626907103-git2skynet.png"]
 ---
 At Akash Network, we are always looking for amazing ways to use our network adjacent to technologies that align with our mission and vision of a true and complete decentralized web. 
 

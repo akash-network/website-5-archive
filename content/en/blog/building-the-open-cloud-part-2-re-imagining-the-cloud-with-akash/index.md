@@ -2,7 +2,6 @@
 title: "Building the Open Cloud, Part 2: Re-Imagining the Cloud With Akash"
 date: 2022-10-14
 lastmod: 2022-10-14T14:53:41-07:00
-images: ["https://www.datocms-assets.com/45776/1665774930-re-imagining-the-cloud-with-akash.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1665774930-re-imagining-the-cloud-with-akash.png"]
 ---
 This is the second entry in our [four-part blog series](https://akash.network/blog/building-the-open-cloud-part-one). In this post, we build on our summary from Part 1, which focused on the key challenges in web3 infrastructure today. If you prefer to watch a presentation of this, you can find the recording [here](https://www.youtube.com/watch?v=jGqZzNWQrNs).
 

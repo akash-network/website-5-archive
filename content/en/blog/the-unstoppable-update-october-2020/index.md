@@ -2,7 +2,6 @@
 title: "The Unstoppable Update: October 2020"
 date: 2020-10-07
 lastmod: 2021-05-13T10:15:21-07:00
-images: ["https://www.datocms-assets.com/45776/1620926106-featuredimg.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620926106-featuredimg.png"]
 ---
 At an accelerating pace, we find more of the ways we connect, play, transact, and work transitioning to the cloud. Developers and organizations need cloud computing and services that enable greater scale, flexibility, and price performance to meet this global demand for throughput and content.
 

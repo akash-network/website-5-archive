@@ -2,7 +2,6 @@
 title: "Introducing our First VP of Engineering, Chanda Dharap"
 date: 2022-03-30
 lastmod: 2022-03-30T08:08:13-07:00
-images: ["https://www.datocms-assets.com/45776/1648652615-chanda-blog-post.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1648652615-chanda-blog-post.png"]
 ---
 As we barrel ahead towards Mainnet 3, estimated for the end of April 2022, we’re continuing to scale our team and fill integral roles that will help take product-market fit to the next stage in its maturity.
 

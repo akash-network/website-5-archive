@@ -2,7 +2,6 @@
 title: "Akash Insiders Spotlight: Rodrigo Rochin"
 date: 2022-09-26
 lastmod: 2022-09-26T11:34:06-07:00
-images: ["https://www.datocms-assets.com/45776/1664214737-screen-shot-2022-09-26-at-1-52-01-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1664214737-screen-shot-2022-09-26-at-1-52-01-pm.png"]
 ---
 _Today, we are featuring a profile of one of our Akash Insider community members—Rodrigo Rochin, known on the_ [_Akash Discord_](https://discord.com/invite/akash) _as "Rodri." Rodrigo will introduce himself in his own words, share his background, how he came to find Akash Network, and his experience with the Akash Insiders._
 

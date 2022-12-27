@@ -2,7 +2,6 @@
 title: "How to Become an Akash Provider in 20 Minutes or Less"
 date: 2022-06-16
 lastmod: 2022-06-17T14:24:28-07:00
-images: ["https://www.datocms-assets.com/45776/1655394946-case-study-praetor-blog-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1655394946-case-study-praetor-blog-1.png"]
 ---
 The Praetor team is determined to continue adding value to the Akash ecosystem, and the greater Cosmos ecosystem. For starters, they have improved the Akash provider onboarding experience by reducing onboarding time by over 83%. This means you can become an Akash provider/host in 20 minutes or less. This reduces the barrier to entry for individuals and entities looking to join the Web3 revolution. 
 

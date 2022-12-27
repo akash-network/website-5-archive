@@ -2,7 +2,6 @@
 title: "Architecture Series Part III: Innovating Kubernetes"
 date: 2022-01-27
 lastmod: 2022-02-14T00:32:41-08:00
-images: ["https://www.datocms-assets.com/45776/1643238341-architecture-kubernetes-1-ani-1124x424.gif"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1643238341-architecture-kubernetes-1-ani-1124x424.gif"]
 ---
 In today's increasingly centralized cloud computing market, there are two rising forces for decentralization. Kubernetes and blockchain combine the flexibility to use any hardware effectively with the ability to provide and price it fairly and transparently, creating a new cloud marketplace that could change everything.
 

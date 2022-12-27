@@ -2,7 +2,6 @@
 title: "Akash Network Partners with CertiK"
 date: 2021-04-22
 lastmod: 2021-05-13T15:25:37-07:00
-images: ["https://www.datocms-assets.com/45776/1620839546-certik-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620839546-certik-twitter.png"]
 ---
   
 At Akash, we’ve been fortunate to partner with organizations who share our vision for an open, safe, and unstoppable cloud that unlocks capabilities for the data-driven technologies of the future. 

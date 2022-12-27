@@ -2,7 +2,6 @@
 title: "Overclock Labs: July 2022 Recap"
 date: 2022-08-15
 lastmod: 2022-08-15T14:12:26-07:00
-images: ["https://www.datocms-assets.com/45776/1660597220-screen-shot-2022-08-15-at-4-30-56-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1660597220-screen-shot-2022-08-15-at-4-30-56-pm.png"]
 ---
 Our team at Overclock Labs is hard at work building the future of the decentralized cloud, and the results are showing. Here is a look back at our major milestones for July 2022. 
 

@@ -2,7 +2,6 @@
 title: "Product Roadmap 2022"
 date: 2021-10-06
 lastmod: 2021-10-08T09:00:41-07:00
-images: ["https://www.datocms-assets.com/45776/1633472805-roadmap22-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1633472805-roadmap22-banner.png"]
 ---
 Since the launch of Akash Network, a distributed peer-to-peer marketplace for cloud compute, we’ve been hyper-focused on stability while pursuing product-market fit. We’re excited to have achieved both in under six months since the launch.
 

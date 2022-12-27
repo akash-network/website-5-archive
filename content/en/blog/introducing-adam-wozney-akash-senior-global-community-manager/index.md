@@ -2,7 +2,6 @@
 title: "Introducing Adam Wozney, Akash Senior Global Community Manager"
 date: 2021-05-10
 lastmod: 2021-05-13T10:31:33-07:00
-images: ["https://www.datocms-assets.com/45776/1620915678-adam-w-twitter.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620915678-adam-w-twitter.jpg"]
 ---
 > _A marketplace for cloud compute is interesting by itself, but with crypto economic incentives, you have unique and powerful motivation for leaving traditional cloud providers. I feel like I’m joining a rocketship that’s about to lift off._
 

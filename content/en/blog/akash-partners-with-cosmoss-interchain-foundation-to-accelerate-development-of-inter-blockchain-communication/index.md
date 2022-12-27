@@ -2,7 +2,6 @@
 title: "Akash Partners with Cosmos’s Interchain Foundation"
 date: 2020-09-09
 lastmod: 2021-05-14T14:52:09-07:00
-images: ["https://www.datocms-assets.com/45776/1621028983-interchain.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621028983-interchain.jpg"]
 ---
 For blockchain based systems to gain wider adoption and achieve consumer scale in high growth industries like decentralized finance (DeFi), we need to quickly solve the scalability problems that have plagued the space since its inception. The industry, and our team at Akash, has tried many different approaches to solving this problem. 
 

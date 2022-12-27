@@ -2,7 +2,6 @@
 title: "Akash Network and Skynet Labs Provide a Full Stack for the Unstoppable Web "
 date: 2021-06-28
 lastmod: 2021-06-29T18:10:58-07:00
-images: ["https://www.datocms-assets.com/45776/1624574624-skynet-cover.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1624574624-skynet-cover.png"]
 ---
 Everyone knows the term DeFi, but dWeb, or decentralized web, is still catching on in the lexicon of the mainstream press. What is the decentralized web? The decentralized web (dWeb) is a major shift from computing resources being owned and operated by the three large cloud software giants (Amazon, Google, and Microsoft) to a decentralized network of cloud providers operating open-source software platforms and creating competition in an open marketplace with more providers and lower costs.
 

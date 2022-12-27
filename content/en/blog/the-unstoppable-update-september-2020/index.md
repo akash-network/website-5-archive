@@ -2,7 +2,6 @@
 title: "The Unstoppable Update: September 2020"
 date: 2020-09-16
 lastmod: 2021-05-13T10:14:24-07:00
-images: ["https://www.datocms-assets.com/45776/1620926049-july-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620926049-july-thumb.png"]
 ---
 **This month, our team will be closing out an incredibly productive Q3 with the realization of our Mainnet, launching next week on Friday, September 25th**. 
 

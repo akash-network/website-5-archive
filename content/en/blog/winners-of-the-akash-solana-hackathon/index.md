@@ -2,7 +2,6 @@
 title: "Winners of the Akash Solana Hackathon"
 date: 2021-07-01
 lastmod: 2021-07-01T03:18:09-07:00
-images: ["https://www.datocms-assets.com/45776/1625102144-hackathon-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1625102144-hackathon-twitter.png"]
 ---
 **We’re excited to announce that every hacker who submitted a project at the** [**Solana Season Hackathon**](https://solana.com/solanaszn) **won a prize of $1,000 or more. Seven hackers entered; seven won prizes  🥳**
 

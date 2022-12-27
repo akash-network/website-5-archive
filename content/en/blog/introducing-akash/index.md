@@ -2,7 +2,6 @@
 title: "Introducing Akash"
 date: 2018-03-25
 lastmod: 2021-05-13T09:14:06-07:00
-images: ["https://www.datocms-assets.com/45776/1620922424-intro-akash.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922424-intro-akash.jpg"]
 ---
 This week we introduced The Akash Network to the world with a press release and the open sourcing of our software. You can learn about Akash to your heart’s content by [visiting our site](https://akash.network/) or [reading our light paper](https://akash.network/paper.pdf) (a friendly version of the traditionally-impenetrable crypto whitepaper), so I’ll dispense with a long description of Akash to focus instead on something more meta: **why** we’re doing this and **how** we’re going to do it.
 

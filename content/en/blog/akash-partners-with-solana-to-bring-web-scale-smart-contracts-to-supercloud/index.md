@@ -2,7 +2,6 @@
 title: "Akash Partners with Solana to Bring Web-Scale Smart Contracts to Supercloud"
 date: 2020-03-13
 lastmod: 2021-05-13T09:14:06-07:00
-images: ["https://www.datocms-assets.com/45776/1620922423-solana-right.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922423-solana-right.png"]
 ---
 Today, I’m excited to announce that we’ve partnered with Solana to bring web-scale smart contracts to Akash Supercloud.  
   

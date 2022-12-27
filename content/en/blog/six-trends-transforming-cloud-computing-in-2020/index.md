@@ -2,7 +2,6 @@
 title: "Six Trends Transforming Cloud Computing in 2020"
 date: 2020-01-10
 lastmod: 2021-05-13T09:12:01-07:00
-images: ["https://www.datocms-assets.com/45776/1620922312-six-trends.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922312-six-trends.jpg"]
 ---
 At Akash, we’ve been working at the intersection of cloud, blockchain, and the edge, and this coming year it’s exciting to see technologies we’ve long championed achieve broader adoption and transform multiple industries. Overall, there is a movement to sovereignty–of platform, technology, data, privacy, and cost. We’re also seeing new technologies and devices leverage infrastructure, crypto incentives, and the edge in-home.  
   

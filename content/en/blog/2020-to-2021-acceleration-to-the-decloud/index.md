@@ -2,7 +2,6 @@
 title: "2020 to 2021: Acceleration to the DeCloud"
 date: 2021-01-19
 lastmod: 2021-05-13T10:24:56-07:00
-images: ["https://www.datocms-assets.com/45776/1620926683-2021-twitter-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620926683-2021-twitter-1.png"]
 ---
   
 In 2020, the pandemic shifted more of our work and personal lives online, accelerating explosive demand for cloud computing and services, projected to be a $370 billion market by 2022 (IDG 2019).  

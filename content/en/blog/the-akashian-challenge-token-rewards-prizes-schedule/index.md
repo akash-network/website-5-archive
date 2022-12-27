@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Token Rewards & Prizes Schedule"
 date: 2020-04-28
 lastmod: 2021-05-19T07:34:12-07:00
-images: ["https://www.datocms-assets.com/45776/1621434841-token-rewards-schedule-bleed.jpeg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621434841-token-rewards-schedule-bleed.jpeg"]
 ---
 **Last Thursday, we** [**announced open registration for The Akashian Challenge**](https://akash.network/blog/announcing-the-akashian-challenge-incentivized-testnet/)**, our incentivized testnet.** With a sprawling challenge that encompasses three phases over eight weeks, and massive token rewards--**3,000,000 Akash Tokens (AKT) or 3% of the 100,000,000 AKT** that will ever be pre-mined at genesis--, the competition has attracted registrations from individuals and teams from around the world.  
   

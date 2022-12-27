@@ -2,7 +2,6 @@
 title: "Akash Network at Singapore Blockchain Week 2020"
 date: 2020-07-21
 lastmod: 2021-05-13T09:36:56-07:00
-images: ["https://www.datocms-assets.com/45776/1620923794-singapore-blockchain-week-banner-copy.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620923794-singapore-blockchain-week-banner-copy.png"]
 ---
 **With the launch of our Chinese community this month, we’re accelerating efforts across the Asian Pacific region**. Today through Thursday, July 23rd, the Akash team is participating in [Singapore Blockchain Week](https://www.blockchainweek.com.sg/). 
 

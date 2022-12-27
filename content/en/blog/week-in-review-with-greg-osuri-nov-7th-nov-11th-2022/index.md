@@ -2,7 +2,6 @@
 title: "Week in Review With Greg Osuri: Nov 7th - Nov 11th, 2022"
 date: 2022-11-11
 lastmod: 2022-11-11T15:25:42-08:00
-images: ["https://www.datocms-assets.com/45776/1668206145-week-in-review-with-greg-osuri-3.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1668206145-week-in-review-with-greg-osuri-3.png"]
 ---
 Akash’s Mainnet 4: The governance vote is pending
 -------------------------------------------------

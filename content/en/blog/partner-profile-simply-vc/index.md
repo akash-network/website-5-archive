@@ -2,7 +2,6 @@
 title: "Partner Profile: Simply VC"
 date: 2020-07-16
 lastmod: 2021-05-14T15:50:37-07:00
-images: ["https://www.datocms-assets.com/45776/1621032617-screen-shot-2021-05-14-at-6-49-58-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621032617-screen-shot-2021-05-14-at-6-49-58-pm.png"]
 ---
 **We’re excited to announce that we’ve partnered with Simply VC to help us build the future of the decentralized cloud.** 
 

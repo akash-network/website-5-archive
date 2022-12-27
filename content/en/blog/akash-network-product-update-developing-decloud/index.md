@@ -2,7 +2,6 @@
 title: "Akash Network Product Update: Developing DeCloud"
 date: 2020-11-17
 lastmod: 2021-05-13T10:02:52-07:00
-images: ["https://www.datocms-assets.com/45776/1620925263-product-update-nov17.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925263-product-update-nov17.png"]
 ---
 With our Mainnet 1 launch and IEO on BitMax last month, we achieved key milestones to secure the Akash Network and achieve liquidity for Akash Token (AKT), developing a strong foundation for our platform. 
 

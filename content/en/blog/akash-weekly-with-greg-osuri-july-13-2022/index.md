@@ -2,7 +2,6 @@
 title: "Akash Weekly with Greg Osuri: July 13, 2022"
 date: 2022-07-15
 lastmod: 2022-07-15T17:17:28-07:00
-images: ["https://www.datocms-assets.com/45776/1657908314-akash-blog-post.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1657908314-akash-blog-post.png"]
 ---
 Akash Weekly is a regular effort hosted via Twitter Spaces to update our community about the ins and outs of Akash Network’s developments. [Follow us on Twitter](https://twitter.com/akashnet_) to be notified when Akash Weekly's are live.
 

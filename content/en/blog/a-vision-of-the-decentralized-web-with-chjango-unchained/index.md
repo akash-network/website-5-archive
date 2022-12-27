@@ -2,7 +2,6 @@
 title: "A Vision of the Decentralized Web with Chjango Unchained"
 date: 2021-04-08
 lastmod: 2021-05-20T07:25:40-07:00
-images: ["https://www.datocms-assets.com/45776/1620925340-chjango-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925340-chjango-thumb.png"]
 ---
 > **The train doesn’t stop at DeFi or NFTs. We’re headed for destination dWeb. That’s kind of awesome to think about.**
 

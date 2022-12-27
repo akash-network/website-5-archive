@@ -2,7 +2,6 @@
 title: "How to Access AKT Token and Provide Liquidity on Osmosis"
 date: 2021-06-24
 lastmod: 2021-06-25T07:57:14-07:00
-images: ["https://www.datocms-assets.com/45776/1624480611-howtoomosis-blogbanner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1624480611-howtoomosis-blogbanner.png"]
 ---
 As [we shared last week](https://akash.network/blog/akt-token-launches-on-osmosis-the-first-decentralized-exchange-for-cosmos), one of our primary goals is to unlock Akash Network’s acceleration and expand global access to Akash Token (AKT) without arbitrary access restrictions. That’s why we were excited to announce our first decentralized exchange listing of AKT on Osmosis.
 

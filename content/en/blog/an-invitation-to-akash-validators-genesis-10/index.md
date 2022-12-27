@@ -2,7 +2,6 @@
 title: "An Invitation to Akash Validators Genesis 10"
 date: 2019-11-13
 lastmod: 2021-05-28T12:34:52-07:00
-images: ["https://www.datocms-assets.com/45776/1620922313-akash-network-validator-rewards.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922313-akash-network-validator-rewards.jpg"]
 ---
 With the cloud infrastructure market expected to exceed $198 billion by 2024 and an estimated 85% of server capacity in 8.4 million data centers underutilized, we started Akash Network to offer developers an open, permissionless, and secure cloud marketplace for unused compute cycles – in essence, a _supercloud_. 
 

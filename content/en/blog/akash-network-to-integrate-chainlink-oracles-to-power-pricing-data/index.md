@@ -2,7 +2,6 @@
 title: "Akash Network to Integrate Chainlink Oracles to Power Pricing Data"
 date: 2020-10-15
 lastmod: 2021-05-14T15:12:29-07:00
-images: ["https://www.datocms-assets.com/45776/1621030329-chainlink.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621030329-chainlink.png"]
 ---
 Akash Network operates a decentralized exchange (DEX), which is at the core of matching buyers and sellers on our decentralized cloud computing marketplace. Initially, our native utility token, Akash Token (AKT), will be used to purchase cloud compute on our platform.   
 

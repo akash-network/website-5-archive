@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Phase 3: Week 1 is LIVE!"
 date: 2020-11-30
 lastmod: 2021-05-13T10:02:55-07:00
-images: ["https://www.datocms-assets.com/45776/1620925344-phase-3-live-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925344-phase-3-live-twitter.png"]
 ---
   
 **Akashian Challengers have landed, and The Akashian Challenge Phase 3 Week 1 is officially LIVE!!!**  

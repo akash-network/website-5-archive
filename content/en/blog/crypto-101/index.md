@@ -2,7 +2,6 @@
 title: "Crypto 101"
 date: 2021-10-21
 lastmod: 2021-12-02T21:28:56-08:00
-images: ["https://www.datocms-assets.com/45776/1634830151-crypto-101-01.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1634830151-crypto-101-01.png"]
 ---
 #### **The Basics: Why Does Crypto Matter?**
 

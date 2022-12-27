@@ -2,7 +2,6 @@
 title: "The Akashian Challenge  Phase 1: Centauri Release Update"
 date: 2020-05-05
 lastmod: 2021-05-19T07:30:42-07:00
-images: ["https://www.datocms-assets.com/45776/1620922437-centauri-banner-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922437-centauri-banner-1.png"]
 ---
 **With 185 registrants from around the world and 3,000,000 AKT at stake, The Akashian Challenge Phase 1 is underway!** 
 

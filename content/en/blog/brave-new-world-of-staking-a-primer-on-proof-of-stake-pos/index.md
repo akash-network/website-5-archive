@@ -2,7 +2,6 @@
 title: "Brave New World of Staking: A Primer on Proof of Stake (PoS)"
 date: 2020-02-12
 lastmod: 2021-05-28T12:19:40-07:00
-images: ["https://www.datocms-assets.com/45776/1620922342-nasa-q1p7bh3shj8-unsplash-1.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922342-nasa-q1p7bh3shj8-unsplash-1.jpg"]
 ---
 Proof of Stake (PoS) mechanisms are steadily expanding in their use across a variety of blockchain applications. Superiority in their energy efficiency, lower barriers to entry, and governance aspects like a lower tendency for centralization make PoS an increasingly popular alternative to Proof of Work (PoW), which is leveraged to reach consensus in current iterations of Bitcoin and [Ethereum](https://www.brokerchoices.com/ethereum-ira/), for example.   
   

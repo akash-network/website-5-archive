@@ -2,7 +2,6 @@
 title: "The Unstoppable Update: June 2020"
 date: 2020-06-11
 lastmod: 2021-05-14T15:07:28-07:00
-images: ["https://www.datocms-assets.com/45776/1621030020-screen-shot-2021-05-14-at-6-06-57-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621030020-screen-shot-2021-05-14-at-6-06-57-pm.png"]
 ---
 We've had a month of milestones! Last week, we concluded Phase 1 of The Akashian Challenge, our incentivized testnet, with 99 active validators from around the world, and moved closer to the launch of our mainnet.  
   

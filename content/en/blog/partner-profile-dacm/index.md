@@ -2,7 +2,6 @@
 title: "Partner Profile: DACM"
 date: 2020-09-02
 lastmod: 2021-05-14T15:48:28-07:00
-images: ["https://www.datocms-assets.com/45776/1621032056-screen-shot-2021-05-14-at-6-40-54-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621032056-screen-shot-2021-05-14-at-6-40-54-pm.png"]
 ---
 > _"We were excited about Greg and team’s experience and knowledge of the market--even down to customer-by-customer granularity. We like to invest in teams that can build great tech but just importantly help drive usage of it. The Akash team’s knowledge and passion for what they are building made the decision for us."_ **— Richard Galvin, CEO**
 

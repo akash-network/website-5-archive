@@ -2,7 +2,6 @@
 title: "Introducing Boz Menzalji, General Manager"
 date: 2020-07-15
 lastmod: 2021-05-13T09:36:44-07:00
-images: ["https://www.datocms-assets.com/45776/1620923347-boz-thumb.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620923347-boz-thumb.png"]
 ---
 Across every function at Akash, from engineering, to partnerships, to marketing, one Akashian has made a profound impact in the way we collaborate and scale.
 

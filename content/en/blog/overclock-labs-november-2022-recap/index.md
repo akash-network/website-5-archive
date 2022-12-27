@@ -2,7 +2,6 @@
 title: "Overclock Labs: November 2022 Recap"
 date: 2022-12-01
 lastmod: 2022-12-02T13:44:42-08:00
-images: ["https://www.datocms-assets.com/45776/1670016915-ovrclck-nov-recap.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1670016915-ovrclck-nov-recap.png"]
 ---
 As we close out November, here is a recap of the past month for Overclock Labs and Akash Network.
 

@@ -2,7 +2,6 @@
 title: "Akash Weekly with Greg Osuri: Block Pane, Alter, and Developing for Decentralization"
 date: 2022-08-12
 lastmod: 2022-08-12T13:22:38-07:00
-images: ["https://www.datocms-assets.com/45776/1660333504-screen-shot-2022-08-12-at-3-44-48-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1660333504-screen-shot-2022-08-12-at-3-44-48-pm.png"]
 ---
 Akash Weekly with Greg Osuri is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

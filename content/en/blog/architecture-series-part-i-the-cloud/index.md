@@ -2,7 +2,6 @@
 title: "Architecture Series Part I: The Cloud"
 date: 2021-11-17
 lastmod: 2021-12-02T22:07:02-08:00
-images: ["https://www.datocms-assets.com/45776/1637167905-cloud-fun-1-new-resolution.gif"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1637167905-cloud-fun-1-new-resolution.gif"]
 ---
 Everything we do today on the Internet leverages “the cloud.” The term has become so ubiquitous it can be hard to understand exactly what the cloud is, how it works, and how we interact with it.
 

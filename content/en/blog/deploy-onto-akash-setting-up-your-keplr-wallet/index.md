@@ -2,7 +2,6 @@
 title: "Deploy onto Akash: Setting up Your Keplr Wallet"
 date: 2021-08-19
 lastmod: 2021-08-20T19:06:42-07:00
-images: ["https://www.datocms-assets.com/45776/1629330603-keplrwallet-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1629330603-keplrwallet-banner.png"]
 ---
 _This post was originally published by Anthony Rosa on_ [_Medium_](https://anthonyrosa.medium.com/deploy-onto-akash-setting-up-your-keplr-wallet-aa01c7fd8420)_._
 

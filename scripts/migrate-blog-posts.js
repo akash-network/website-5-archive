@@ -4,6 +4,7 @@ var buildClient = require('@datocms/cma-client-node').buildClient;
 var isBlock = require('datocms-structured-text-utils').isBlock;
 var stext2text = require('datocms-structured-text-to-plain-text').render;
 var stext2html = require('datocms-structured-text-to-html-string').render;
+
 var util = require('util');
 var TurndownService = require('turndown');
 var CONTENT_PATH = "content/en/blog";
@@ -28,7 +29,15 @@ async function run() {
           try {
             htmlContent = stext2html(record.content, renderOptions);
             markdownContent = html2markdown(htmlContent);
+            //console.log("hero image:", util.inspect(record, { showHidden: false, depth: null, colors: true }))
             meta = renderMeta(record);
+            if (record.coverImage != null && record.coverImage.url != "") {
+              coverImageName = record.coverImage.url.split("/").pop();
+              saveImage(record.coverImage.url, coverImageName, CONTENT_PATH + "/" + record.slug);
+              // add image name to meta
+              meta = meta + `\nimages: ["${coverImageName}"]\n`;
+            }
+
             saveFile(record.slug, meta, markdownContent);
           } catch (error) {
             console.log("ERROR", record.slug);
@@ -55,10 +64,34 @@ const renderOptions = {
   renderBlock({ record, adapter: { renderNode } }) {
     // TODO: add support for other blocks (e.g. CTA, Video, etc.)
     if (record.image != null && record.image.url != "") {
+      // console.log("IMAGE", record.image.url)
+      // console.log(util.inspect(record, { showHidden: false, depth: null, colors: true }))
+      // TODO: if the image url contains 'www.datocms-assets.com', download the image to 
+      // the local filesystem and replace the url with the local path
       return renderNode('figure', {}, renderNode('img', { src: record.image.url }));
     }
   },
 }
+
+
+function saveImage(url, filename, directory) {
+  const fs = require('fs');
+  const download = require('image-downloader');
+  const path = require('path');
+
+  const dir = path.join(process.cwd(), directory);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir);
+  }
+  const options = {
+    url: url,
+    dest: path.join(dir, filename)
+  }
+  download.image(options).then(({ filename, image }) => {
+      console.log('Images saved to:', filename)
+    }).catch((err) => console.error(err))
+}
+
 
 function html2markdown(html) {
   return new TurndownService().turndown(html);
@@ -81,7 +114,6 @@ function renderMeta(record) {
   return `title: "${record.title}"
 date: ${record.date}
 lastmod: ${record.updatedAt}
-images: ["${record.coverImage.url}"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -116,6 +148,10 @@ function makeQuery(first, skip) {
       slug
       updatedAt
       date
+      imageWhenHeroed {
+        url
+        title
+      }
       content {
         blocks {
           ... on ImageRecord {

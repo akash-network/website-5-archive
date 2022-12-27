@@ -2,7 +2,6 @@
 title: "Building the Open Cloud, Part 3: The Growing Akash Ecosystem"
 date: 2022-11-03
 lastmod: 2022-11-03T13:24:17-07:00
-images: ["https://www.datocms-assets.com/45776/1667500677-the-growing-akash-ecosystem.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1667500677-the-growing-akash-ecosystem.png"]
 ---
 _By_ [**_Anil Murty_**](https://www.linkedin.com/in/anilmurty/)_, Head of Product at Overclock Labs, and_ [**_Alani Kuye_**](https://www.linkedin.com/in/alanikuye/)_, Technical Program Manager at Overclock Labs_
 

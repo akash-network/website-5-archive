@@ -2,7 +2,6 @@
 title: "How to Create an x509 Certificate in Browser for Fun and Profit"
 date: 2021-07-14
 lastmod: 2021-07-19T00:32:00-07:00
-images: ["https://www.datocms-assets.com/45776/1626218184-x509-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1626218184-x509-twitter.png"]
 ---
 From start to finish, this guide will show you how to create a valid x509 certificate at Akash Network, with ECDSA SHA-256 in Browser. 
 

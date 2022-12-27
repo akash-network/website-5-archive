@@ -2,7 +2,6 @@
 title: "Akash Weekly With Greg Osuri: Messari Mainnet, Spheron, Token Unlocks, and More"
 date: 2022-09-23
 lastmod: 2022-09-23T18:44:23-07:00
-images: ["https://www.datocms-assets.com/45776/1663983590-664.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1663983590-664.png"]
 ---
 Akash Weekly with Greg Osuri is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

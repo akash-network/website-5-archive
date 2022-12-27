@@ -2,7 +2,6 @@
 title: "Decentralized Infrastructure is a Moral Imperative"
 date: 2018-03-19
 lastmod: 2021-05-13T09:14:09-07:00
-images: ["https://www.datocms-assets.com/45776/1620922423-blog-wires.jpg"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922423-blog-wires.jpg"]
 ---
 As businesses across the globe adopt cloud-based infrastructure strategies, three providers (Amazon’s AWS, Google’s GCP, and Microsoft’s Azure) have solidified their positions as dominant players in the $247 billion-dollar cloud infrastructure market.
 

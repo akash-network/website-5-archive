@@ -2,7 +2,6 @@
 title: "End of Summer Update"
 date: 2021-09-08
 lastmod: 2021-09-12T23:06:03-07:00
-images: ["https://www.datocms-assets.com/45776/1631052471-end-of-summer-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1631052471-end-of-summer-banner.png"]
 ---
 Following our mainnet 2 launch in March, this past summer was the first that we had a live, working product. Having a tangible product presented a whole new set of opportunities as well as learnings. 
 

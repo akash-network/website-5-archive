@@ -2,7 +2,6 @@
 title: "Akash Weekly with Greg Osuri: August Updates, and Ali Merchant on Akash’s Developer Experience"
 date: 2022-09-02
 lastmod: 2022-09-02T15:32:19-07:00
-images: ["https://www.datocms-assets.com/45776/1659711204-screen-shot-2022-08-05-at-10-53-05-am.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1659711204-screen-shot-2022-08-05-at-10-53-05-am.png"]
 ---
 Akash Weekly with Greg Osuri is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

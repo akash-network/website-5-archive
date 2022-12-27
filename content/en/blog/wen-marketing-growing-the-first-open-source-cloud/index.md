@@ -2,7 +2,6 @@
 title: "Wen Marketing? Growing the First Open-Source Cloud"
 date: 2021-04-15
 lastmod: 2021-05-13T15:42:54-07:00
-images: ["https://www.datocms-assets.com/45776/1620926975-wenmarketing-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620926975-wenmarketing-twitter.png"]
 ---
   
 Wen Marketing?  

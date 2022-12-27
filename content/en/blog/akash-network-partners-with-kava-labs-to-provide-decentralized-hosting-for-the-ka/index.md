@@ -2,7 +2,6 @@
 title: "Akash Network Partners with Kava Labs to Provide Decentralized Hosting for the Kava Ecosystem"
 date: 2021-10-13
 lastmod: 2021-10-18T19:36:44-07:00
-images: ["https://www.datocms-assets.com/45776/1634184710-blog-template1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1634184710-blog-template1.png"]
 ---
 Akash Network has been selected by Kava Labs as the preferred distributed cloud hosting solution for the Kava Ecosystem. Akash began integration with Kava in September 2020, and continues to work closely with the Kava Labs team to support cross-chain DeFi applications and services. The Kava Platform connects the world’s largest cryptocurrencies, ecosystems, and financial applications. 
 

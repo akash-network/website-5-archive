@@ -2,7 +2,6 @@
 title: "Developing DeCloud: Product Update 3"
 date: 2021-01-21
 lastmod: 2021-05-13T10:02:24-07:00
-images: ["https://www.datocms-assets.com/45776/1620925245-product-update-1-21-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925245-product-update-1-21-twitter.png"]
 ---
   
 Since [my last Developing DeCloud Product Update](https://akash.network/blog/developing-decloud-product-update-2/) in December, [**we ran and wrapped up two exciting and action-packed weeks of The Akashian Challenge Phase 3 Testnet**](https://akash.network/blog/akash-decloud-from-phase-3-to-mainnet-2/), and we’ve been integrating the testnet learnings for development of Mainnet 2, the materialization of Akash DeCloud.

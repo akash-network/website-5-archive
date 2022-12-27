@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Phase 3: Week 2 LIVE"
 date: 2020-12-07
 lastmod: 2021-05-13T10:20:00-07:00
-images: ["https://www.datocms-assets.com/45776/1620925251-week-2-twitter-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925251-week-2-twitter-1.png"]
 ---
   
 **Are you ready Akashian Challengers?!**   

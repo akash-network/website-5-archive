@@ -2,7 +2,6 @@
 title: "Akash DeCloud: Mainnet Overview"
 date: 2020-09-17
 lastmod: 2021-05-14T15:31:35-07:00
-images: ["https://www.datocms-assets.com/45776/1621031455-screen-shot-2021-05-14-at-6-30-51-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621031455-screen-shot-2021-05-14-at-6-30-51-pm.png"]
 ---
 Driven by increased consumer demand for throughput, a global surge of smartphones, rapid development of applications, and high DevOps server management costs, the cloud computing industry, projected to be a $370 billion market by 2022 (IDG 2019), is dominated by an oligarchy of four cloud service providers (Amazon Web Services, Google Cloud, Microsoft Azure, and Alibaba Cloud). 
 

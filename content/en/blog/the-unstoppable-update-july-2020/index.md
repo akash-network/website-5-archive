@@ -2,7 +2,6 @@
 title: "The Unstoppable Update: July 2020"
 date: 2020-07-14
 lastmod: 2021-05-14T15:07:54-07:00
-images: ["https://www.datocms-assets.com/45776/1621030040-screen-shot-2021-05-14-at-6-07-17-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621030040-screen-shot-2021-05-14-at-6-07-17-pm.png"]
 ---
 **This past month was a month of acceleration for Akash**. After completion of a successful Phase 1 of The Akashian Challenge, our incentivized testnet, we launched the 3 weeks long Phase 2 to test and demonstrate the decentralized exchange features of our cloud platform. 
 

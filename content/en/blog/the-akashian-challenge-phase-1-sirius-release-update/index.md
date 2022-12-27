@@ -2,7 +2,6 @@
 title: "The Akashian Challenge  Phase 1: Sirius Release Update"
 date: 2020-05-11
 lastmod: 2021-05-19T07:29:57-07:00
-images: ["https://www.datocms-assets.com/45776/1621434586-sirius-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621434586-sirius-twitter.png"]
 ---
 **Last Friday, May 8th, The Akashian Challenge incentivized testnet reached instant consensus and went live at 1600 UTC with 99 genesis validators!**   
   

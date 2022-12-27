@@ -2,7 +2,6 @@
 title: "The Akashian Challenge Phase 2 Week 2: Chaos is a Ladder"
 date: 2020-07-13
 lastmod: 2021-05-13T09:14:20-07:00
-images: ["https://www.datocms-assets.com/45776/1620922432-week2-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922432-week2-banner.png"]
 ---
 **In The Akashian Challenge Phase 2 Week 1: Capture the Orders, Challengers explored how to operate as a provider by finding and bidding on leases.** 
 

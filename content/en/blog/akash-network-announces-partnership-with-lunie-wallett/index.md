@@ -2,7 +2,6 @@
 title: "Akash Network Announces Integration Partnership with Lunie Wallet"
 date: 2020-06-17
 lastmod: 2021-05-13T09:14:09-07:00
-images: ["https://www.datocms-assets.com/45776/1620922425-lunie-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620922425-lunie-banner.png"]
 ---
 _We’re very excited to have Akash as integration partners. Lunie benefits from a rich, diverse and engaged user base as well as strong stakeholders when it comes to networks and node operators. We are fans of how Akash’s “Akashian” testnet is progressing thus far,_  
 _and are eager for their mainnet launch._   

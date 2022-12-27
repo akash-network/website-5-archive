@@ -2,7 +2,6 @@
 title: "March Recap"
 date: 2022-04-04
 lastmod: 2022-04-18T10:25:09-07:00
-images: ["https://www.datocms-assets.com/45776/1649088133-slide-16_9-4.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1649088133-slide-16_9-4.png"]
 ---
 March 2022 was completely focused on all things Testnet 3, a necessary step to launching Mainnet 3 ([v0.16](https://github.com/ovrclk/akash/releases)). 
 

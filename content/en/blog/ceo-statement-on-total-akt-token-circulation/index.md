@@ -2,7 +2,6 @@
 title: "CEO Statement on Total AKT Token Circulation"
 date: 2020-10-20
 lastmod: 2021-05-14T15:09:20-07:00
-images: ["https://www.datocms-assets.com/45776/1621030142-screen-shot-2021-05-14-at-6-09-00-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621030142-screen-shot-2021-05-14-at-6-09-00-pm.png"]
 ---
 Greetings Akashians, I hope you’ve been staying safe and well!
 

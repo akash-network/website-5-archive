@@ -2,7 +2,6 @@
 title: "The Akashian Challenge: Phase 3 Start Guide"
 date: 2020-11-25
 lastmod: 2021-05-13T10:02:28-07:00
-images: ["https://www.datocms-assets.com/45776/1620925251-phase-3-start-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925251-phase-3-start-twitter.png"]
 ---
 Anxious to flex your technical chops next Monday November 30, 2020 when The Akashian Challenge Phase 3 Testnet goes live?!  
   

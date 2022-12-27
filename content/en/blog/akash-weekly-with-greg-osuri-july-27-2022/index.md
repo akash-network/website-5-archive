@@ -2,7 +2,6 @@
 title: "Akash Weekly with Greg Osuri: July 27, 2022"
 date: 2022-07-29
 lastmod: 2022-10-14T08:12:23-07:00
-images: ["https://www.datocms-assets.com/45776/1659122990-akash-blog-post-1.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1659122990-akash-blog-post-1.png"]
 ---
 Akash Weekly is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

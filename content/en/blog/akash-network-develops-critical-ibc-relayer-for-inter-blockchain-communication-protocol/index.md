@@ -2,7 +2,6 @@
 title: "Akash Network Develops Critical IBC Relayer for Inter-Blockchain Communication Protocol"
 date: 2021-02-18
 lastmod: 2021-05-13T10:02:42-07:00
-images: ["https://www.datocms-assets.com/45776/1620925310-ibc-twitter.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1620925310-ibc-twitter.png"]
 ---
   
 Blockchain’s wider adoption and acceleration has been limited by the scalability issue. There have been many efforts to solve the scalability challenge, including developing faster databases with hardware to increase transactions per second (TPS), and “sharding” the blockchain, where a chain's transactional load is split and distributed among a large quantity of network partitions (shards).

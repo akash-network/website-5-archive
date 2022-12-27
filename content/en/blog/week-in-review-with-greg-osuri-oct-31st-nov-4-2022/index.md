@@ -2,7 +2,6 @@
 title: "Week in Review With Greg Osuri: Oct 31st - Nov 4th, 2022"
 date: 2022-11-04
 lastmod: 2022-11-04T14:14:46-07:00
-images: ["https://www.datocms-assets.com/45776/1667594612-week-in-review-with-greg-osuri-2.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1667594612-week-in-review-with-greg-osuri-2.png"]
 ---
 Welcome to our new blog update series. This brief weekly rundown will cover the ecosystem updates you’re used to hearing in our Akash Weekly Twitter Spaces in around 500 words. This is the fastest way to get a weekly rundown directly from the Founder & CEO of Overclock Labs — [Greg Osuri](https://twitter.com/gregosuri).
 

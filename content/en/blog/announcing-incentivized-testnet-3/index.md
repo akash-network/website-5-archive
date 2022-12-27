@@ -2,7 +2,6 @@
 title: "Announcing Incentivized Testnet 3"
 date: 2022-02-28
 lastmod: 2022-03-28T08:58:34-07:00
-images: ["https://www.datocms-assets.com/45776/1646059987-1200x630-gif.gif"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1646059987-1200x630-gif.gif"]
 ---
 A new dawn is upon us at Akash Network and on the horizon is our third Incentivized Testnet.
 

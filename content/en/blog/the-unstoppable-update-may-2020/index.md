@@ -2,7 +2,6 @@
 title: "The Unstoppable Update: May 2020"
 date: 2020-05-15
 lastmod: 2021-05-14T15:24:23-07:00
-images: ["https://www.datocms-assets.com/45776/1621031041-screen-shot-2021-05-14-at-6-23-33-pm.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1621031041-screen-shot-2021-05-14-at-6-23-33-pm.png"]
 ---
 We’ve witnessed how our centralized systems, organizations, and governments were slow to coordinate and share life-saving information during the pandemic. We’re seeing more of the ways we connect and collaborate move to the cloud.  
   

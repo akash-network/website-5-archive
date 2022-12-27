@@ -2,7 +2,6 @@
 title: "Akash Weekly: Web3 Working Group"
 date: 2022-12-02
 lastmod: 2022-12-03T11:27:32-08:00
-images: ["https://www.datocms-assets.com/45776/1668696776-week-in-review-5.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1668696776-week-in-review-5.png"]
 ---
 The battle of privacy vs. surveillance
 --------------------------------------

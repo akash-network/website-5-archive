@@ -2,7 +2,6 @@
 title: "Akash Offers up to $100,000 in Grants Through New Developer Grant Program"
 date: 2021-08-04
 lastmod: 2021-08-04T09:08:46-07:00
-images: ["https://www.datocms-assets.com/45776/1628017573-communityfund-banner.png"]
 draft: false
 weight: 50
 categories: ["News"]
@@ -10,6 +9,8 @@ tags: ["security", "performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
+
+images: ["1628017573-communityfund-banner.png"]
 ---
 ### Introducing the Akash Developer Grant Program
 
