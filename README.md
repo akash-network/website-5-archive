@@ -32,3 +32,18 @@ $ npm run release:patch
 # major release
 $ npm run release:major
 ```
+
+### Priorities
+
+- [ ] Feature: Import Docs
+- [ ] Feature: By Year Filter for Blog
+- [ ] Chore: Fetch Author, Tags and Categories from DatoCMS
+- [ ] Design: Community Page
+- [ ] Design: Homepage
+- [ ] Chore: Add Token Metrics on Token Page
+- [ ] Feature: Ecosystem Page
+
+##### Documentation
+
+- [ ] Add a "How to contribute" section to the README
+- [ ] Add a "How to run the website locally" section to the README

@@ -17,16 +17,16 @@ titleHome = "Akash Network"
 
 ## Twitter Cards
 twitterSite = "@akashnet_"
-twitterCreator = "@gregosuri"
+twitterCreator = "@akashnet_"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Akash Network"
-schemaAuthor = "Greg Osuri"
-schemaAuthorTwitter = "https://twitter.com/gregosuri"
+schemaAuthor = "Overclock Labs Inc"
+schemaAuthorTwitter = "https://twitter.com/ovrclk_"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/gosuri/"
-schemaAuthorGitHub = "https://github.com/gosuri"
+schemaAuthorGitHub = "https://github.com/ovrclk"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -93,7 +93,7 @@ lastMod = true
   lazySizes = true
   clipBoard = true
   instantPage = true
-  flexSearch = true
+  flexSearch = false
   searchSectionsShow = []
   searchSectionsIndex = []
   darkMode = true

@@ -24,6 +24,8 @@ The Akash Network community groups are insipired by the [Kubernetes project](htt
 
 
 ```goat
+
+      .
      / \ 
     /   \   
    +     +   
