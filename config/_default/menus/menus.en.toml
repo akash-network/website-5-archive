@@ -32,7 +32,7 @@
   name = "Docs"
   url = "/docs/prologue/introduction/"
 # url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+  weight = 20
 
 # [[main]]
 #   name = "Tutorial"
@@ -42,12 +42,12 @@
 [[main]]
   name = "Ecosystem"
   url = "https://ecosystem.akash.network"
-  weight = 20
+  weight = 40
 
 [[main]]
   name = "Community"
   url = "/community/"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Token"
@@ -62,7 +62,7 @@
 
 [[main]]
   name = "Get Started"
-  weight = 30
+  weight = 60
   identifier = "get-started"
   url = "/docs/prologue/introduction/"
 

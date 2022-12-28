@@ -1,21 +1,40 @@
 {{ define "main" }}
 <article>
+
 <div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10">
-    <div class="blog-header">
-      <h1>{{ .Title }}</h1>
+  
+  <div class="col-md-10 col-lg-8">
+    <div class="col">
+      <div class="blog-header">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+    <div class="col">
+      {{ .Content }}
+      {{ if .Params.tags -}}
+      <div class="mt-4">
+        {{ range $index, $tag := .Params.tags -}}
+          <a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
+        {{ end -}}
+      </div>
+      {{ end -}}
+      <div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+        {{ if .Site.Params.lastMod -}}
+          {{ partial "main/last-modified.html" . }}
+        {{ end -}}
+        {{ if .Site.Params.editPage -}}
+          {{ partial "main/edit-page.html" . }}
+        {{ end -}}
+      </div>
     </div>
   </div>
-  <div class="col-md-12 col-lg-9">
-    {{ .Content }}
-    {{ if .Params.tags -}}
-    <div class="mt-4">
-      {{ range $index, $tag := .Params.tags -}}
-        <a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
-      {{ end -}}
-    </div>
-    {{ end -}}
+
+  <div class="col-md-3">
+		<nav class="docs-toc{{ if ne .Site.Params.options.navbarSticky true }} docs-toc-top{{ end }} d-none d-xl-block" aria-label="Secondary navigation">
+			{{ partial "sidebar/docs-toc.html" . }}
+		</nav>
   </div>
 </div>
+
 </article>
 {{ end }}

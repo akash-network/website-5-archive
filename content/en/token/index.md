@@ -65,3 +65,14 @@ AKT is available on the following exchanges:
 | [Gate.io](https://www.gate.io/trade/AKT_USDT) 🇺🇸 | 
 | [AscendEX](https://www.ascendex.com/en/trade/spot/akt_usdt) 🌎 | 
 | [Huobi Global](https://www.huobi.com/en-us/exchange/akt_usdt/) 🌎 |
+
+
+## FAQs
+
+##### What is the current and total supply of AKT?
+
+Akash has a maximum supply of 388,539,008 AKT, with 206,120,535 AKT in circulation as of December 28, 2022 12:39 pm PST.
+
+##### What is the unlock schedule for the AKT token?
+
+AKT Unlock Schedule is available [here](https://docs.google.com/spreadsheets/d/1MUULetp59lgNq0z4ckVI51QdtMGvqtKOW8wRfX5R8yY/edit#gid=2130333819). Final Unlock for 8.9m AKT is upcoming in March 2023.
