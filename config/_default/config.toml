@@ -1,11 +1,11 @@
-baseurl = "akash-network.github.io"
+baseurl = "/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
-paginate = 7
+paginate = 10
 rssLimit = 10
 
 # Multilingual
