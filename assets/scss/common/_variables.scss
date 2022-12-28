@@ -19,7 +19,7 @@ $beige:    #fbf7f0;
 //$red:      #F34C55;
 $purple:   #5d2f86;
 $brown:    #aa9c84;
-$akashred: #b93940;
+$akashred: #c74249;
 
 $blue-300: #8ed6fb;
 $pink-100: #fcfaff;
@@ -107,12 +107,13 @@ $border-color:                $gray-200;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
+// $font-family-sans-serif:      "Jost", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-sans-serif:      "Satoshi", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-monospace:       sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-base:            $font-family-sans-serif;
 // stylelint-enable value-keyword-case
 
-$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-base:              0.95rem; // Assumes the browser default, typically `16px`
 $font-size-xl:                $font-size-base * 1.375;
 $font-size-lg:                $font-size-base * 1.25;
 $font-size-md:                $font-size-base * 1.125;
@@ -121,7 +122,7 @@ $font-size-sm:                $font-size-base * 0.875;
 // $line-height-base:            1.5;
 
 $headings-font-family:        null;
-$headings-font-weight:        700;
+$headings-font-weight:        900;
 
 $lead-font-weight:            400;
 
@@ -189,3 +190,11 @@ $dropdown-config: (
 );
 
 $input-btn-focus-width:       0;
+
+
+// Logos
+$akash-logo-primary: "logos/akash-logo-primary.svg";
+$akash-logo-white: "logos/akash-logo-white.svg";
+$akash-logo-black: "logos/akash-logo-black.svg";
+$akash-logo-width: 121px;
+$akash-logo-height: 24px;

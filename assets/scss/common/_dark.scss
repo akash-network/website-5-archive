@@ -112,6 +112,10 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $navbar-dark-color !important;
 }
 
+[data-dark-mode] .akash-logo-nav {
+  background-image: url($akash-logo-white) !important;
+}
+
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link {
   color: $navbar-dark-color;
 }

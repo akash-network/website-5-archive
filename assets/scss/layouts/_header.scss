@@ -14,6 +14,18 @@
   font-weight: $headings-font-weight;
 }
 
+.akash-logo-nav {
+  width: $akash-logo-width;
+  height: $akash-logo-height;
+  margin-top: -5px;
+  padding: 0;
+  display: block;
+  background-image: url($akash-logo-primary);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 /*
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
