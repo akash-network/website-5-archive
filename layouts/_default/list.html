@@ -1,25 +1,25 @@
 {{ define "main" }}
-<div class="row justify-content-center">
+<div class="row justify-content-center mb-2">
     <div class="col-md-12 col-lg-9">
-        <h1 class="text-center">{{ .Title }}</h1>
+        <h1 class="text-center display-5">{{ .Title }}</h1>
         {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
     </div>
 </div>
 
 <div class="row">
-    <div class="col-3">
+    <div class="col-md-3">
         <h5>Topics</h2>
         <ul class="nav flex-column">
             {{ range .Site.Taxonomies.tags }}
-                <li><a class="nav-link active" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} {{ .Count }} </a> </li>
+            <li><a class="nav-link" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} {{ .Count }} </a> </li>
             {{ end }}
-          </ul>
+        </ul>
         <h5>Year</h2>
         <ul class="nav flex-column">
             {{ range .Pages.GroupByPublishDate "2006" }}
-                <li> {{ .Key }} </li>
+            <li><a class="nav-link" aria-current="page" href="#">{{ .Key }} </a> </li>
             {{ end }}
-          </ul>
+        </ul>
     </div>
     <div class="col">
         <dl>
@@ -28,16 +28,15 @@
             <dt>
                 <h3> <a class="text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a> </h3>
             </dt>
-            <dd>
+            <dd class="pb-3">
                 <p> {{ .Params.excerpt | safeHTML }} </p>
                 {{ partial "main/blog-meta.html" . -}}
             </dd>
             {{ end -}}
         </dl>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center my-5">
             <div class="col-md-12 col-lg-9">
-                {{ $.Scratch.Set "paginator" true }}
                 {{ template "_internal/pagination.html" . }}
             </div>
         </div>

@@ -1,10 +1,21 @@
 {{ define "main" }}
+<article>
 <div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
-    <article>
+  <div class="col-md-12 col-lg-10">
+    <div class="blog-header">
       <h1>{{ .Title }}</h1>
-      {{ .Content }}
-    </article>
+    </div>
+  </div>
+  <div class="col-md-12 col-lg-9">
+    {{ .Content }}
+    {{ if .Params.tags -}}
+    <div class="mt-4">
+      {{ range $index, $tag := .Params.tags -}}
+        <a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
+      {{ end -}}
+    </div>
+    {{ end -}}
   </div>
 </div>
+</article>
 {{ end }}
