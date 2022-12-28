@@ -8,9 +8,7 @@ draft: false
 images: []
 ---
 
-Akash Network Token (AKT) is native utility token of the Akash Network, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.
-
-The key benefits of AKT are as follows:
+Akash Network Token (AKT) is the native utility token of the Akash Network, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.
 
 ##### Security
 
@@ -18,7 +16,7 @@ Akash Network is secured by a Proof-of-Stake (PoS) blockchain, and AKT is used t
 
 ##### Governance
 
-Akash Network is community-owned and all aspects of the network are governed by AKT holders. AKT holders can vote on proposals to improve the network, and earn rewards for participating in governance.
+Akash Network is community-owned and all aspects of the network are governed by AKT holders. AKT holders can vote on proposals to improve the network and manage critical parameters such as inflation rate and take rates.
 
 ##### Value Exchange
 
