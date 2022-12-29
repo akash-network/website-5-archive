@@ -9,7 +9,6 @@ tags: ["Security", "Performance", "SEO"]
 contributors: ["John Doe"]
 pinned: false
 homepage: false
-excerpt: "Akash Network has successfully upgraded to Mainnet 5. The upgrade took place this morning and was completed in ~22 minutes. Mainnet 5 includes several bug fixes and modifications of previously released network features."
 
 images: ["1671646841-mainnet-5-on-akash-network.png"]
 ---

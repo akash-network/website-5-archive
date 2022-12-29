@@ -35,7 +35,8 @@
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
-    "migrate-blog": "node ./scripts/migrate-blog-posts.js",
+    "migrate:blog": "node ./scripts/migrate-blog-posts.js",
+    "migrate:docs": "node ./scripts/migrate-docs.js",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
@@ -60,6 +61,7 @@
     "katex": "^0.16",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.4.0",
+    "marked": "^4.2.5",
     "netlify-plugin-submit-sitemap": "^0.4.0",
     "node-fetch": "^3.2",
     "postcss": "^8.4",
@@ -77,8 +79,12 @@
     "datocms-structured-text-to-plain-text": "^2.0.4",
     "dotenv": "^16.0.3",
     "image-downloader": "^4.3.0",
+    "mkdirp": "^1.0.4",
+    "sanitize-filename": "^1.6.3",
+    "slugify": "^1.6.5",
     "turndown": "^7.1.1",
-    "unist-util-inspect": "^7.0.1"
+    "unist-util-inspect": "^7.0.1",
+    "yaml": "^2.2.0"
   },
   "otherDependencies": {
     "hugo": "0.107.0"
