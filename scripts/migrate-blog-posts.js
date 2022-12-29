@@ -12,33 +12,43 @@ const endPoint = 'https://graphql.datocms.com/'
 const apiToken = process.env.DATO_API_TOKEN
 
 async function run() {
-  var count = 0
-  await doFetch('query { _allBlogPostsMeta { count } }').
-    then(res => res.json()).
-    then(res => {
-      count = parseInt(res.data._allBlogPostsMeta.count)
-      console.log("Blog Count", count)
+  let count;
+
+  // Fetch the count of all blog posts
+  await doFetch('query { _allBlogPostsMeta { count } }')
+    .then(response => response.json())
+    .then(response => {
+      count = parseInt(response.data._allBlogPostsMeta.count);
+      console.log("Blog Count", count);
     });
 
-  for (let i = 0; i < Math.ceil(count / 100); i += 1) {
+  // Calculate the number of iterations needed to retrieve all the blog posts
+  const numIterations = Math.ceil(count / 100);
+
+  // Iterate through all the blog posts
+  for (let i = 0; i < numIterations; i += 1) {
+    // Fetch a batch of 100 blog posts
     await doFetch(makeQuery(100, i * 100))
-      .then(res => res.json())
-      .then(res => {
-        //console.log(util.inspect(res.data, { showHidden: false, depth: null, colors: true }))
-        res.data.allBlogPosts.forEach(record => {
+      .then(response => response.json())
+      .then(response => {
+        // Process each blog post
+        response.data.allBlogPosts.forEach(record => {
           try {
-            htmlContent = stext2html(record.content, renderOptions);
-            markdownContent = html2markdown(htmlContent);
-            //console.log("hero image:", util.inspect(record, { showHidden: false, depth: null, colors: true }))
-            meta = renderMeta(record);
+            // Convert the content to HTML and Markdown
+            const htmlContent = stext2html(record.content, renderOptions);
+            const markdownContent = html2markdown(htmlContent);
+
+            // Generate the meta information for the blog post
+            let meta = renderMeta(record);
+
+            // If the blog post has a cover image, download it and add it to the meta information
             if (record.coverImage != null && record.coverImage.url != "") {
-              coverImageName = record.coverImage.url.split("/").pop();
+              const coverImageName = record.coverImage.url.split("/").pop();
               downloadImage(record.coverImage.url, coverImageName, CONTENT_PATH + "/" + record.slug);
-              // add image name to meta
               meta = meta + `\nimages: ["${coverImageName}"]\n`;
-            // meta = meta + `\nimages: []\n`;
             }
 
+            // Save the meta information and Markdown content to a file
             saveFile(record.slug, meta, markdownContent);
           } catch (error) {
             console.log("ERROR", record.slug);
