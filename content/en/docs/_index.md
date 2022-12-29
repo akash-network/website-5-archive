@@ -1,9 +1,14 @@
 ---
-title : "Docs"
-description: "Docs Doks."
+title: "Intro to Akash"
+key: "intro-to-akash"
+description: ""
 lead: ""
-date: 2020-10-06T08:48:23+00:00
-lastmod: 2020-10-06T08:48:23+00:00
+date: Thu Dec 29 2022 03:03:45 GMT-0800 (Pacific Standard Time)
+lastmod: Thu Dec 29 2022 03:03:45 GMT-0800 (Pacific Standard Time)
 draft: false
 images: []
+weight: 1
+toc: true
+
+
 ---

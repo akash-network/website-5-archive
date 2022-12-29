@@ -22,17 +22,26 @@ This is the starting point for joining and contributing to building Akash Networ
 
 The Akash Network community groups are insipired by the [Kubernetes project](https://github.com/kubernetes/community) and currently consist of the following groups. As our community evolves, we will consider changing this structure as needed. All groups listed below or open to anyone interested in participating in them, except "Commitees" that have preassigned members.
 
+![Community Group Block Diagram](cg-block-diagram.png)
 
 ```goat
-
-      .
-     / \ 
-    /   \   
-   +     +   
-  / \   / \  
- /   \ /   \    
- 1   2 3   4    
-
+|-----------------------------------------------------------------------------------------------------|
+|                       | Providers  | Deployments | Clients   | Network Upgrades | Chain | Ops       |  
+|   SIGs                | ---------- | ------------|-----------|------------------|-------|-----------|
+|                       | Econonmics | Support     | Community |       Docs       | Edu   | Analytics |
+|-----------------------------------------------------------------------------------------------------|
+|   WGs                 |                                   GPU                                       |
+|                       |-----------------------------------------------------------------------------|
+|                       |                               Web Hosting                                   |
+|                       |-----------------------------------------------------------------------------|
+|                       |                                 ML/ AI                                      |
+|                       |-----------------------------------------------------------------------------|
+|                       |                              Cloud Parity                                   |
+|                       |-----------------------------------------------------------------------------|
+|                       |                                 Others                                      |
+|-----------------------------------------------------------------------------------------------------|
+|   UGs                 |                    POW Mining | Big Data | Others                           |
+|-----------------------------------------------------------------------------------------------------|
 ```
 
 ### Special Interest Groups (SIGs)
