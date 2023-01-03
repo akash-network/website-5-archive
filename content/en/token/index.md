@@ -33,10 +33,11 @@ The following tools are available to explore the Akash Network blockchain, stake
 
 | Explorers | Wallets | Staking
 | :--- | :--- | :--- |
-| [Mintscan](https://mintscan.io/akash) | [Keplr](https://wallet.keplr.app/#/akash)  | [Keplr](https://wallet.keplr.app/chains/akash) |
-| [Bigdipper](https://forbole.com/akash) | [Cosmostation](https://wallet.cosmostation.io/#/akash) | [Cosmostation](https://wallet.cosmostation.io/#/akash) |
-| [Atom Scan](https://atomscan.io/akash) | [Mixin Messenger](https://mixin.one/messenger) | [Staking Rewards](https://www.stakingrewards.com/earn/akash/) |
-| [Ping.pub](https://ping.pub/akash) |
+| [Mintscan](https://mintscan.io/akash) | [Keplr](https://wallet.keplr.app/#/akash) 🌎📱 | [Keplr](https://wallet.keplr.app/chains/akash) |
+| [Bigdipper](https://forbole.com/akash) | [Cosmostation](https://wallet.cosmostation.io/#/akash) 🌎📱 | [Cosmostation](https://wallet.cosmostation.io/#/akash) |
+| [Atom Scan](https://atomscan.io/akash) | [Mixin Messenger](https://mixin.one/messenger) 📱 | [Staking Rewards](https://www.stakingrewards.com/earn/akash/) |
+| [Ping.pub](https://ping.pub/akash) | [Omni Wallet](https://omni.app) 📱|
+
 
 ## Token Metrics
 
