@@ -41,6 +41,7 @@ $ npm run release:major
   - [ ] Add connect with community
   - [ ] (Stretch) Add Case studies preview
   - [ ] Link Get Started to Docs
+  - [ ] Social Media Preview
 - **Docs**
   - [ ] Replace tokenizer with text replace
   - [ ] Import all Docs
@@ -54,12 +55,15 @@ $ npm run release:major
   - [ ] Add Contributors Section
 - **Token**
   - [ ] Add Token Metrics (Build time) on Token Page
+- **Misc**
+  - [ ] (Stretch) Enable GoAT diagram support (migrate away from doks)
+  - [ ] Enable Social Media preview
+  - [ ] Conduct Performance Audit (Google Lighthouse) and implement recommendations
+  - [ ] Conduct SEO Audit and implement recommendations
 - **Ecosystem (Stretch)** 
   - [ ] Feature: Ecosystem Page
   - [ ] Add Case Studies
-  
+- Development Documentation
+  - [ ] Add a "How to contribute" section to the README
+  - [ ] Add a "How to run the website locally" section to the README
 
-##### Documentation
-
-- [ ] Add a "How to contribute" section to the README
-- [ ] Add a "How to run the website locally" section to the README
