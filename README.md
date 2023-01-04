@@ -35,13 +35,29 @@ $ npm run release:major
 
 ### Priorities
 
-- [ ] Feature: Import Docs
-- [ ] Feature: By Year Filter for Blog
-- [ ] Chore: Fetch Author, Tags and Categories from DatoCMS
-- [ ] Design: Community Page
-- [ ] Design: Homepage
-- [ ] Chore: Add Token Metrics on Token Page
-- [ ] Feature: Ecosystem Page
+- **Homepage**
+  - [ ] Write draft copy for benefits and features
+  - [ ] Add "latest from the blog"
+  - [ ] Add connect with community
+  - [ ] (Stretch) Add Case studies preview
+  - [ ] Link Get Started to Docs
+- **Docs**
+  - [ ] Replace tokenizer with text replace
+  - [ ] Import all Docs
+- **Blog**
+  - [ ] Add By Year Filter for Blog
+  - [ ] Fetch Author, Tags and Categories from DatoCMS
+- **Community**
+  - [ ] Design: Community Page
+  - [ ] Design: Homepage
+  - [ ] Add News Section
+  - [ ] Add Contributors Section
+- **Token**
+  - [ ] Add Token Metrics (Build time) on Token Page
+- **Ecosystem (Stretch)** 
+  - [ ] Feature: Ecosystem Page
+  - [ ] Add Case Studies
+  
 
 ##### Documentation
 
