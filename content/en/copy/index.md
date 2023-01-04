@@ -11,7 +11,7 @@ images: []
 
 Akash is an open network that lets users buy and sell computing resources securely and efficiently, purpose-built for public utility.
 
-## You will own your cloud, and you will like it
+## You will own your cloud, and you will be happy
 
 With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them to run your applications. 
 
