@@ -41,16 +41,16 @@ The following tools are available to explore the Akash Network blockchain, stake
 
 ## Token Metrics
 
-As of December 28, 2022 12:39 pm PST, the following are the AKT metrics, as reported by Coingecko:
+As of {{< cglastupdated >}}, the following are the AKT metrics, as reported by [Coingecko](https://www.coingecko.com/en/coins/akash-network).
 
 | |
 | :--- | :--- |
-| Circulating Supply | 197,315,731 |
-| Total Supply | 206,120,535 |
+| Circulating Supply | {{< cgcirculatingsupply >}} |
+| Total Supply | {{< cgtotalsupply >}} |
 | Maximum Supply | 388,539,008 |
-| Price | 0.202 USD |
-| Market Cap | 39,928,785 USD |
-| 24h Trading Volume | 750,699 USD |
+| Price | {{< cgprice >}} USD |
+| Market Cap | {{< cgmcap >}} USD |
+| 24h Trading Volume | {{< cgvolume >}} USD |
 
 ## Buying AKT
 
@@ -68,9 +68,9 @@ AKT is available on the following exchanges:
 
 ## FAQs
 
-##### What is the current and total supply of AKT?
+##### What is the maximum and circulating supply of AKT?
 
-Akash has a maximum supply of 388,539,008 AKT, with 206,120,535 AKT in circulation as of December 28, 2022 12:39 pm PST.
+Akash has a maximum supply of 388,539,008 AKT, with {{< cgcirculatingsupply >}} AKT in circulation as of {{< cglastupdated >}}.
 
 ##### What is the unlock schedule for the AKT token?
 
