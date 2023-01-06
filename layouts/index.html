@@ -4,10 +4,10 @@
     <div class="col-12 text-center">
       <h1 class="display-1 my-4">{{ .Title }}</h1>
     </div>
-    <div class="col-lg-9 col-xl-8 text-center">
+    <div class="col-lg-8 text-center">
       <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <p class="meta">Open-source Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">GitHub {{ $data := getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}</a></p>
     </div>
   </div>
 </section>
@@ -18,11 +18,11 @@
   <section class="section section-sm">
     <div class="container text-center">
       <div class="row">
-        <div class="col">
+        <div class="col-lg-8">
           <h2 class="h4">You will own your cloud, and you will be happy</h2>
           <p> With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them to run your applications.  </p> 
         </div>
-        <div class="col">
+        <div class="col-lg-8">
           <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
           <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where customers submit their desired price and providers compete for the business. This often results in prices up to 85% lower than other cloud systems.</p>
       </div>
@@ -42,7 +42,7 @@
           <p class="small">Akash's orchestration layer lets you use a language called SDL, which is written in YAML and easy to understand. Using this, you can create complex deployments that span multiple areas and providers. You can choose the resources you want to use and decide on your price too.</p>
         </div>
         <div class="col-lg-4">
-          <h2 class="h5">Kubernetes Based</h2>
+          <h2 class="h5">Kubernetes Powered</h2>
           <p class="small"> Akash runs on Kubernetes, the industry-leading container orchestration system. With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.  </p>
         </div>
         <div class="col-lg-4">
@@ -56,11 +56,11 @@
           <p class="small"> Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment, and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more </p>
         </div>
         <div class="col-lg-4">
-          <h2 class="h5">Censorship-resistant and unstoppable</h2>
+          <h2 class="h5">Censorship Resistant and Unstoppable</h2>
           <p class="small"> Deploying applications on Akash is open to everyone, and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored </p>
         </div>
         <div class="col-lg-4">
-          <h2 class="h5"> Pseudonymous and non-attributable </h2>
+          <h2 class="h5"> Pseudonymous and Non-attributable </h2>
           <p class="small"> The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.  </p>
         </div>
       </div>

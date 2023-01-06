@@ -53,7 +53,7 @@ Deploying applications on Akash is open to everyone, and is secure and censorshi
 
 The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.
 
-### Peer-to-peer
+### Peer-to-peer and Private
 
 You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.
 
