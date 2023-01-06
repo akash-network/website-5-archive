@@ -1,0 +1,1 @@
+{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" }} {{  index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}}
