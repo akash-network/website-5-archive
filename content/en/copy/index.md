@@ -31,39 +31,36 @@ Akash is owned and managed by its community. It is a free public service, and th
 
 ### Infrastructure as Code
 
-Akash has a built-in orchestration layer that allows you to script your deployments using a YAML-based simple yet powerful language called SDL. 
-
-With SDL you can orchestrate complex multi-tiered deployments across multiple regions and providers. You can also specify the exact resources you want to use, and the exact price you want to pay.
+Akash's orchestration layer lets you use a language called SDL, which is written in YAML and easy to understand. Using this, you can create complex deployments that span multiple areas and providers. You can choose the resources you want to use and decide on your price too.
 
 ### Kubernetes Based
 
-Akash is built on Kubernetes, the most popular container orchestration system in the world.  Means you have the peace of mind that your applications will run on a system that is battle tested and proven to be secure and reliable.
+Akash runs on Kubernetes, the industry-leading container orchestration system. With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.
 
+### Persistent Storage
 
-### Persitent Storage
+Akash offers a storage system that doesn't have limits and lets you keep data even after restarting, ideal for databases and programs that store large datasets.
 
-Akash provides an attachable persistent storage layer that allows you to persist data across restarts, great for databases and other stateful applications.
+### Dedicated IP Leasing
 
-### Unique IP Leasing
-
-Akash provides a way to lease a unique IP address for your deployment. This allows you to run assign a port of your choice to your deployment, and then route traffic to it, great for services likes DNS, web servers, and more.
+Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment, and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more
 
 ### Censorship-resistant and unstoppable
 
-Ownership of deployments on Akash is permissionless and non-custodial. This means no one can stop you from deploying your applications on Akash, making applications on Akash censorship resistant.
+Deploying applications on Akash is open to everyone, and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored
 
-### Pseudo-anonymous and non-attributable
+### Pseudonymous and non-attributable
 
-Akash protocol is designed to be pseudonymous and non-attributable. This means that you can deploy your applications on Akash without revealing your identity, offering a high degree of privacy and safety.
+The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.
 
-### Peer-to-Peer
+### Peer-to-peer
 
-Interactions between you and the provider your applicaiton is deployed happen directly, without any intermediaries. This means that you can deploy your applications on Akash without revealing your identity, offering a high degree of privacy and safety.
+You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.
 
-### Layer One
+### Layer One Protocol
 
-Akash is a layer 1 protocol built using Cosmos SDK and secured by a Proof-of-Stake consensus scheme that's operated a decentralied network of validators. Any one can validate the network permissionlessly, and the network is secured by a native token called AKT.
+Akash is a blockchain protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its network of decentralized validators. The network can be validated without permission and is secured by AKT, its native token.
 
 ### Interoperable with IBC
 
-Akash blockchain is Inter Blockchain Communication (IBC) compatible, meaning that it can interoperate natively with other blockchains that are also IBC compatible. Akash made history by being the first blockchain to successfully complete an IBC transaction with Cosmos Hub.
+Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.
