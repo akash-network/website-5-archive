@@ -37,7 +37,7 @@ $ npm run release:major
 
 - **Homepage**
   - [x] Write draft copy for benefits and features
-  - [ ] Add "latest from the blog"
+  - [x] Add "latest from the blog"
   - [ ] (Stretch) Add Case studies preview
   - [ ] Link Get Started to Docs
   - [ ] Social Media Preview
