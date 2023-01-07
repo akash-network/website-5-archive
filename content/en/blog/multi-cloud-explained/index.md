@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - Developers
-tags: []
+tags:
+  - Developers
 contributors:
   - Stacy White
 pinned: false

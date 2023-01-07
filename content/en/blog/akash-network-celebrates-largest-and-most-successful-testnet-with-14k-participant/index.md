@@ -8,10 +8,11 @@ draft: false
 weight: 50
 categories:
   - Developers
+tags:
+  - Developers
   - Testnets
   - Product
   - News
-tags: []
 contributors:
   - Kelsey Ruiz
 pinned: false

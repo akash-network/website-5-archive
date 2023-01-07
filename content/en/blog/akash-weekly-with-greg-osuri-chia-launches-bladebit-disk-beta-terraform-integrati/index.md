@@ -6,7 +6,8 @@ date: '2022-08-19'
 lastmod: '2022-08-21T11:07:10-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - 'Zach Horn '

@@ -4,7 +4,8 @@ date: '2020-08-26'
 lastmod: '2021-05-14T15:47:51-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Michael Gushansky

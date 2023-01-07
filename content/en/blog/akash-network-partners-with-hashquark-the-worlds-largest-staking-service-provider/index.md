@@ -8,7 +8,8 @@ draft: false
 weight: 50
 categories:
   - Partners
-tags: []
+tags:
+  - Partners
 contributors:
   - Kelsey Ruiz
 pinned: false

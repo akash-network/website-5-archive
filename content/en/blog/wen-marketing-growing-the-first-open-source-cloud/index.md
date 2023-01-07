@@ -6,8 +6,9 @@ draft: false
 weight: 50
 categories:
   - Insights
+tags:
+  - Insights
   - Team
-tags: []
 contributors:
   - Maly Ly
 pinned: false

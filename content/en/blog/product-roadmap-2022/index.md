@@ -6,9 +6,10 @@ draft: false
 weight: 50
 categories:
   - Developers
+tags:
+  - Developers
   - News
   - Product
-tags: []
 contributors:
   - Greg Osuri
 pinned: false

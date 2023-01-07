@@ -6,8 +6,9 @@ draft: false
 weight: 50
 categories:
   - Insights
+tags:
+  - Insights
   - News
-tags: []
 contributors:
   - Joe Deng
 pinned: false

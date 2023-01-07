@@ -8,7 +8,8 @@ draft: false
 weight: 50
 categories:
   - Insights
-tags: []
+tags:
+  - Insights
 contributors:
   - Greg Osuri
 pinned: false

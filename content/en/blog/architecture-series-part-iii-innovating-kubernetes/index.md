@@ -6,8 +6,9 @@ draft: false
 weight: 50
 categories:
   - Developers
+tags:
+  - Developers
   - Product
-tags: []
 contributors:
   - Adam Bozanich
 pinned: false

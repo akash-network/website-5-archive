@@ -6,9 +6,10 @@ draft: false
 weight: 50
 categories:
   - News
+tags:
+  - News
   - Partners
   - Product
-tags: []
 contributors:
   - Greg Osuri
 pinned: false

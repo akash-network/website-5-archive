@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - Insights
-tags: []
+tags:
+  - Insights
 contributors:
   - Nick Alesandro
 pinned: false

@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - Testnets
-tags: []
+tags:
+  - Testnets
 contributors:
   - Ryan Sumpter
 pinned: false

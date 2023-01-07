@@ -6,9 +6,10 @@ draft: false
 weight: 50
 categories:
   - Developers
+tags:
+  - Developers
   - Partners
   - Product
-tags: []
 contributors:
   - Alani Kuye
 pinned: false

@@ -6,9 +6,10 @@ draft: false
 weight: 50
 categories:
   - Partners
+tags:
+  - Partners
   - News
   - Product
-tags: []
 contributors:
   - Michael Gushansky
 pinned: false

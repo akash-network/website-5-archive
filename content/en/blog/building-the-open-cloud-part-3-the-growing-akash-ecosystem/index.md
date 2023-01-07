@@ -4,7 +4,8 @@ date: '2022-11-03'
 lastmod: '2022-11-03T13:24:17-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Anil Murty

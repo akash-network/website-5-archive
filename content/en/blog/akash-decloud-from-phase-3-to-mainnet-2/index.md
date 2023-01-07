@@ -4,7 +4,8 @@ date: '2020-12-23'
 lastmod: '2021-05-13T10:02:30-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Adam Bozanich

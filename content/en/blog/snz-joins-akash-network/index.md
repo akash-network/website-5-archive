@@ -4,7 +4,8 @@ date: '2020-10-13'
 lastmod: '2021-05-14T15:13:43-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Olive Kimoto

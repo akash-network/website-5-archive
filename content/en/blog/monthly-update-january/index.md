@@ -6,10 +6,11 @@ draft: false
 weight: 50
 categories:
   - Developers
+tags:
+  - Developers
   - Insights
   - Product
   - News
-tags: []
 contributors:
   - Kelsey Ruiz
 pinned: false

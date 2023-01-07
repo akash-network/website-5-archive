@@ -6,8 +6,9 @@ draft: false
 weight: 50
 categories:
   - News
+tags:
+  - News
   - Product
-tags: []
 contributors:
   - Boz Menzalji
 pinned: false

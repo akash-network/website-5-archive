@@ -141,18 +141,20 @@ function renderMeta(record) {
     lastmod: record.updatedAt,
     draft: false,
     weight: 50,
-    categories: ["News"],
+    categories: ["General"],
     tags: [],
-    contributors: [],
+    contributors:  [],
     pinned: false,
     homepage: false
   };
 
-  // if the blog post has categories, add them to the metadata
-  if (record.category != null) {
-    meta.categories = [];
+  // if the blog post has categories, add the first one to the metadata and all of them to the tags
+
+  if (record.category != null && record.category.length > 0) {
+    meta.categories = [record.category[0].title];
+    meta.tags = [];
     record.category.forEach(category => {
-      meta.categories.push(category.title);
+      meta.tags.push(category.title);
     });
   }
 

@@ -4,7 +4,8 @@ date: '2019-09-16'
 lastmod: '2021-05-13T09:13:58-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Greg Osuri

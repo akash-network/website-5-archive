@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - Partners
-tags: []
+tags:
+  - Partners
 contributors:
   - Maly Ly
 pinned: false

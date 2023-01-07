@@ -6,7 +6,8 @@ date: '2021-03-08'
 lastmod: '2021-06-21T17:46:55-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Maly Ly

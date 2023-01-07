@@ -8,7 +8,8 @@ draft: false
 weight: 50
 categories:
   - News
-tags: []
+tags:
+  - News
 contributors:
   - Maly Ly
 pinned: false

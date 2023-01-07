@@ -6,7 +6,8 @@ date: '2021-05-27'
 lastmod: '2021-08-26T13:34:44-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Colin Pollen

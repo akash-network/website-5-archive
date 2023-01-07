@@ -4,7 +4,8 @@ date: '2020-12-21'
 lastmod: '2021-05-13T15:38:21-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Maly Ly

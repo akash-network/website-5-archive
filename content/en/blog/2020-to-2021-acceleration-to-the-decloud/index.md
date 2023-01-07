@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - News
-tags: []
+tags:
+  - News
 contributors:
   - Greg Osuri
 pinned: false

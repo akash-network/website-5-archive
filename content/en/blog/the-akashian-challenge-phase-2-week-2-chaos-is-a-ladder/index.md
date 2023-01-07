@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - Testnets
-tags: []
+tags:
+  - Testnets
 contributors:
   - Michael Gushansky
 pinned: false

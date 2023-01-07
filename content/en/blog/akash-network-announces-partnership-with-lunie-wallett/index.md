@@ -6,8 +6,9 @@ draft: false
 weight: 50
 categories:
   - Partners
+tags:
+  - Partners
   - Product
-tags: []
 contributors:
   - Boz Menzalji
 pinned: false

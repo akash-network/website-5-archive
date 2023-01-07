@@ -6,8 +6,9 @@ draft: false
 weight: 50
 categories:
   - News
+tags:
+  - News
   - Updates
-tags: []
 contributors:
   - 'Zach Horn '
 pinned: false

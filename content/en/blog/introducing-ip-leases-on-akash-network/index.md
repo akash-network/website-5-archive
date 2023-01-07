@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - Product
-tags: []
+tags:
+  - Product
 contributors:
   - Anil Murty
 pinned: false

@@ -4,7 +4,8 @@ date: '2022-09-15'
 lastmod: '2022-09-15T11:24:50-07:00'
 draft: false
 weight: 50
-categories: []
+categories:
+  - General
 tags: []
 contributors:
   - Akash Insiders

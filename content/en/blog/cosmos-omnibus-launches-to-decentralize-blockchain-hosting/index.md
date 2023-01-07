@@ -6,8 +6,9 @@ draft: false
 weight: 50
 categories:
   - Product
+tags:
+  - Product
   - Developers
-tags: []
 contributors:
   - Colin Pollen
 pinned: false

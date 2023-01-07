@@ -6,7 +6,8 @@ draft: false
 weight: 50
 categories:
   - Team
-tags: []
+tags:
+  - Team
 contributors:
   - Maly Ly
 pinned: false
