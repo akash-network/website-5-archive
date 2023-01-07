@@ -45,6 +45,7 @@ $ npm run release:major
   - [ ] Add subscribe to newsletter
 - **Blog**
   - [ ] Add By Year Filter for Blog
+  - [x] Render images in related blog posts
   - [x] Fetch Author from DatoCMS
   - [x] Fetch Tags and Categories from DatoCMS
 - **Community**

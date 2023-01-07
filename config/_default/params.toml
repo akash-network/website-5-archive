@@ -62,13 +62,13 @@ imageAddClass = "img-fluid lazyload blur-up"
 
 ### Image template
 defaultImage = "default-image.png" # put in `./assets/images/`
-fillImage = "1270x715 Center" # normalize image size
+fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = ""
+footer = "© 2023 The Akash Network Authors | Documentation Distributed under CC BY 4.0. Copyright © 2023 The Decentralized Cloud Foundation. All rights reserved."
 
 # Feed
-copyRight = "Copyright (c) 2022 Overclock Labs Inc"
+copyRight = "Copyright © 2023 The Decentralized Cloud Foundation"
 
 # Alert
 alert = true
