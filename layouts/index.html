@@ -119,7 +119,7 @@
     </div>
   </div>
 </section>
-<hr/>
+<hr />
 <section>
   <div class="container">
     <div class="related-posts">
@@ -153,7 +153,20 @@
 {{ end }}
 
 {{ define "sidebar-footer" }}
-<section class="section section-sm container-fluid">
+<div class="pt-5 mt-5 bg-light rounded-3 text-center ">
+  <div class="container-fluid py-5 ">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <h2>Interested in receiving the latest Akash news? Sign up for Akash Newsletter</h2>
+        <p class="fs-5 text-center">Join 17,000+ subscribers who receive a weekly summary of everything happening across the Akash ecosystem.</p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://www.getrevue.co/profile/akashnetwork" target="_blank" rel="noopener noreferrer">Subscribe</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<section class="container-fluid">
   <div class="row justify-content-center text-center">
     <div class="col-lg-9">
       {{- .Content -}}

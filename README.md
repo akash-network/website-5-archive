@@ -38,16 +38,20 @@ $ npm run release:major
 - **Homepage**
   - [x] Write draft copy for benefits and features
   - [x] Add "latest from the blog"
-  - [ ] (Stretch) Add Case studies preview
+  - [x] Add copyright in the footer
+  - [x] Design homepage
+  - [x] Implement 1st draft of homepage design
+  - [x] Add subscribe to newsletter
+  - [ ] Add Privacy page
   - [ ] Link Get Started to Docs
   - [ ] Social Media Preview
   - [ ] Add connect with community
-  - [ ] Add subscribe to newsletter
+  - [ ] (Stretch) Add Case studies preview
 - **Blog**
-  - [ ] Add By Year Filter for Blog
   - [x] Render images in related blog posts
   - [x] Fetch Author from DatoCMS
   - [x] Fetch Tags and Categories from DatoCMS
+  - [ ] Add By Year Filter for Blog
 - **Community**
   - [ ] Design: Community Page
   - [ ] Design: Homepage
