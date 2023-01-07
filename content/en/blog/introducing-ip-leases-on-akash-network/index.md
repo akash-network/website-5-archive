@@ -1,12 +1,14 @@
 ---
-title: "Introducing IP Leases on Akash Network"
-date: 2022-11-23
-lastmod: 2022-11-23T12:15:22-08:00
+title: Introducing IP Leases on Akash Network
+date: '2022-11-23'
+lastmod: '2022-11-23T12:15:22-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+tags: []
+contributors:
+  - Anil Murty
 pinned: false
 homepage: false
 

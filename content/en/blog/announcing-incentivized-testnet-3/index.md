@@ -1,12 +1,16 @@
 ---
-title: "Announcing Incentivized Testnet 3"
-date: 2022-02-28
-lastmod: 2022-03-28T08:58:34-07:00
+title: Announcing Incentivized Testnet 3
+date: '2022-02-28'
+lastmod: '2022-03-28T08:58:34-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Testnets
+  - Product
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

@@ -1,12 +1,14 @@
 ---
-title: "Brave New World of Staking: A Primer on Proof of Stake (PoS)"
-date: 2020-02-12
-lastmod: 2021-05-28T12:19:40-07:00
+title: 'Brave New World of Staking: A Primer on Proof of Stake (PoS)'
+date: '2020-02-12'
+lastmod: '2021-05-28T12:19:40-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

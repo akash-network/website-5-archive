@@ -1,12 +1,13 @@
 ---
-title: "Announcing Our Founding Member Challenge Winners & Leaderboard!"
-date: 2019-12-17
-lastmod: 2021-05-28T12:28:06-07:00
+title: Announcing Our Founding Member Challenge Winners & Leaderboard!
+date: '2019-12-17'
+lastmod: '2021-05-28T12:28:06-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

@@ -1,12 +1,14 @@
 ---
-title: "How to Mine PKT Faster on The World’s First Decentralized Cloud"
-date: 2021-08-12
-lastmod: 2021-11-16T10:29:53-08:00
+title: How to Mine PKT Faster on The World’s First Decentralized Cloud
+date: '2021-08-12'
+lastmod: '2021-11-16T10:29:53-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

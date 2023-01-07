@@ -1,12 +1,15 @@
 ---
-title: "Akash Weekly with Greg Osuri: Jun 29, 2022"
-date: 2022-07-01
-lastmod: 2022-07-05T10:39:14-07:00
+title: 'Akash Weekly with Greg Osuri: Jun 29, 2022'
+date: '2022-07-01'
+lastmod: '2022-07-05T10:39:14-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+  - News
+tags: []
+contributors:
+  - Joe Deng
 pinned: false
 homepage: false
 

@@ -1,12 +1,13 @@
 ---
-title: "AKT Token Now On DigiFinex Exchange"
-date: 2021-01-26
-lastmod: 2021-05-14T10:24:57-07:00
+title: AKT Token Now On DigiFinex Exchange
+date: '2021-01-26'
+lastmod: '2021-05-14T10:24:57-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

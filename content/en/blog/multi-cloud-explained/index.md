@@ -1,12 +1,14 @@
 ---
-title: "Multi-Cloud, Explained"
-date: 2022-02-09
-lastmod: 2022-02-16T21:00:44-08:00
+title: Multi-Cloud, Explained
+date: '2022-02-09'
+lastmod: '2022-02-16T21:00:44-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+tags: []
+contributors:
+  - Stacy White
 pinned: false
 homepage: false
 

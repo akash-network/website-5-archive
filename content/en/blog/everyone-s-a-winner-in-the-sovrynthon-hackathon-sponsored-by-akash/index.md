@@ -1,12 +1,15 @@
 ---
-title: "Everyone's a Winner in the Sovrython Hackathon Sponsored by Akash"
-date: 2021-08-02
-lastmod: 2021-08-04T07:08:23-07:00
+title: Everyone's a Winner in the Sovrython Hackathon Sponsored by Akash
+date: '2021-08-02'
+lastmod: '2021-08-04T07:08:23-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - News
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

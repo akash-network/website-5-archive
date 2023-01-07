@@ -1,12 +1,14 @@
 ---
-title: "The Rise of Tokens in Blockchain"
-date: 2020-03-06
-lastmod: 2021-05-13T09:11:32-07:00
+title: The Rise of Tokens in Blockchain
+date: '2020-03-06'
+lastmod: '2021-05-13T09:11:32-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

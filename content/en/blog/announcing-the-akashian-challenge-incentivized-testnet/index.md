@@ -1,12 +1,14 @@
 ---
-title: "Announcing The Akashian Challenge: Incentivized Testnet"
-date: 2020-04-23
-lastmod: 2021-05-13T09:14:21-07:00
+title: 'Announcing The Akashian Challenge: Incentivized Testnet'
+date: '2020-04-23'
+lastmod: '2021-05-13T09:14:21-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

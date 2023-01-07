@@ -1,12 +1,14 @@
 ---
-title: "How to Access AKT Token and Provide Liquidity on Osmosis"
-date: 2021-06-24
-lastmod: 2021-06-25T07:57:14-07:00
+title: How to Access AKT Token and Provide Liquidity on Osmosis
+date: '2021-06-24'
+lastmod: '2021-06-25T07:57:14-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

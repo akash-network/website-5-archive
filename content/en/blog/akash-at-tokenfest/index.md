@@ -1,12 +1,14 @@
 ---
-title: "Akash at TokenFest"
-date: 2018-04-30
-lastmod: 2021-05-13T09:14:56-07:00
+title: Akash at TokenFest
+date: '2018-04-30'
+lastmod: '2021-05-13T09:14:56-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Allison Silber
 pinned: false
 homepage: false
 

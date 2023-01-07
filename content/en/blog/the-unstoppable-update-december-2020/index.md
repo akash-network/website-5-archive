@@ -1,12 +1,14 @@
 ---
-title: "The Unstoppable Update: December 2020"
-date: 2020-12-10
-lastmod: 2021-05-13T15:39:34-07:00
+title: 'The Unstoppable Update: December 2020'
+date: '2020-12-10'
+lastmod: '2021-05-13T15:39:34-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

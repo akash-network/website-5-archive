@@ -1,12 +1,15 @@
 ---
-title: "Cosmos Omnibus Launches to Decentralize Blockchain Hosting"
-date: 2021-07-07
-lastmod: 2021-07-13T16:25:57-07:00
+title: Cosmos Omnibus Launches to Decentralize Blockchain Hosting
+date: '2021-07-07'
+lastmod: '2021-07-13T16:25:57-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+  - Developers
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

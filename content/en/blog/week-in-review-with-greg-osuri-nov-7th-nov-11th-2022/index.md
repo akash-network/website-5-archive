@@ -1,12 +1,14 @@
 ---
-title: "Week in Review With Greg Osuri: Nov 7th - Nov 11th, 2022"
-date: 2022-11-11
-lastmod: 2022-11-11T15:25:42-08:00
+title: 'Week in Review With Greg Osuri: Nov 7th - Nov 11th, 2022'
+date: '2022-11-11'
+lastmod: '2022-11-11T15:25:42-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

@@ -1,12 +1,18 @@
 ---
-title: "April Recap"
-date: 2022-05-04
-lastmod: 2022-05-10T15:16:34-07:00
+title: April Recap
+date: '2022-05-04'
+lastmod: '2022-05-10T15:16:34-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Insights
+  - News
+  - Product
+  - Team
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

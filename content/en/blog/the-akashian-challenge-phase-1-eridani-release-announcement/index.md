@@ -1,12 +1,14 @@
 ---
-title: "The Akashian Challenge  Phase 1: Eridani Release Announcement"
-date: 2020-05-18
-lastmod: 2021-05-19T07:29:12-07:00
+title: 'The Akashian Challenge  Phase 1: Eridani Release Announcement'
+date: '2020-05-18'
+lastmod: '2021-05-19T07:29:12-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

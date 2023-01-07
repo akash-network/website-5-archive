@@ -1,12 +1,14 @@
 ---
-title: "The Unstoppable Cloud Partner Profile: Forbole"
-date: 2020-05-12
-lastmod: 2021-05-13T09:14:30-07:00
+title: 'The Unstoppable Cloud Partner Profile: Forbole'
+date: '2020-05-12'
+lastmod: '2021-05-13T09:14:30-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

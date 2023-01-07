@@ -1,12 +1,14 @@
 ---
-title: "Mainnet 5: Upgrade instructions, release notes, and more"
-date: 2022-12-21
-lastmod: 2022-12-21T11:06:07-08:00
+title: 'Mainnet 5: Upgrade instructions, release notes, and more'
+date: '2022-12-21'
+lastmod: '2022-12-21T11:06:07-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

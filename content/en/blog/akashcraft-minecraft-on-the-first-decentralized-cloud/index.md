@@ -1,12 +1,15 @@
 ---
-title: "Akashcraft: Minecraft on the First Decentralized Cloud"
-date: 2021-04-27
-lastmod: 2022-07-27T09:47:26-07:00
+title: 'Akashcraft: Minecraft on the First Decentralized Cloud'
+date: '2021-04-27'
+lastmod: '2022-07-27T09:47:26-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Product
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

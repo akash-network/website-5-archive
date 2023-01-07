@@ -1,12 +1,14 @@
 ---
-title: "Introducing Akash"
-date: 2018-03-25
-lastmod: 2021-05-13T09:14:06-07:00
+title: Introducing Akash
+date: '2018-03-25'
+lastmod: '2021-05-13T09:14:06-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Nick Alesandro
 pinned: false
 homepage: false
 

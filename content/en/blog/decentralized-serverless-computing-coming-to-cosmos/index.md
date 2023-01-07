@@ -1,12 +1,15 @@
 ---
-title: "Decentralized Serverless Computing Coming to Cosmos"
-date: 2019-10-23
-lastmod: 2021-05-13T09:14:13-07:00
+title: Decentralized Serverless Computing Coming to Cosmos
+date: '2019-10-23'
+lastmod: '2021-05-13T09:14:13-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

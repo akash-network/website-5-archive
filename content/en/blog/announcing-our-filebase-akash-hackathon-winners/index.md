@@ -1,12 +1,15 @@
 ---
-title: "Announcing our Filebase + Akash Hackathon Winners "
-date: 2021-10-29
-lastmod: 2021-11-04T22:05:51-07:00
+title: 'Announcing our Filebase + Akash Hackathon Winners '
+date: '2021-10-29'
+lastmod: '2021-11-04T22:05:51-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

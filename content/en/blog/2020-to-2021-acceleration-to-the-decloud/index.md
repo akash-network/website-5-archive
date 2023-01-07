@@ -1,12 +1,14 @@
 ---
-title: "2020 to 2021: Acceleration to the DeCloud"
-date: 2021-01-19
-lastmod: 2021-05-13T10:24:56-07:00
+title: '2020 to 2021: Acceleration to the DeCloud'
+date: '2021-01-19'
+lastmod: '2021-05-13T10:24:56-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

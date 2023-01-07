@@ -1,12 +1,17 @@
 ---
-title: "Akash Network Partners with Kava Labs to Provide Decentralized Hosting for the Kava Ecosystem"
-date: 2021-10-13
-lastmod: 2021-10-18T19:36:44-07:00
+title: >-
+  Akash Network Partners with Kava Labs to Provide Decentralized Hosting for the
+  Kava Ecosystem
+date: '2021-10-13'
+lastmod: '2021-10-18T19:36:44-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

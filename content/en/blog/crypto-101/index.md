@@ -1,12 +1,15 @@
 ---
-title: "Crypto 101"
-date: 2021-10-21
-lastmod: 2021-12-02T21:28:56-08:00
+title: Crypto 101
+date: '2021-10-21'
+lastmod: '2021-12-02T21:28:56-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Insights
+tags: []
+contributors:
+  - AkashDudeBro
 pinned: false
 homepage: false
 

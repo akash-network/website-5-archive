@@ -1,12 +1,15 @@
 ---
-title: "Architecture Series Part III: Innovating Kubernetes"
-date: 2022-01-27
-lastmod: 2022-02-14T00:32:41-08:00
+title: 'Architecture Series Part III: Innovating Kubernetes'
+date: '2022-01-27'
+lastmod: '2022-02-14T00:32:41-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Product
+tags: []
+contributors:
+  - Adam Bozanich
 pinned: false
 homepage: false
 

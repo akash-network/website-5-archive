@@ -1,12 +1,13 @@
 ---
-title: "Akash DeCloud: From Phase 3 to Mainnet 2"
-date: 2020-12-23
-lastmod: 2021-05-13T10:02:30-07:00
+title: 'Akash DeCloud: From Phase 3 to Mainnet 2'
+date: '2020-12-23'
+lastmod: '2021-05-13T10:02:30-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Adam Bozanich
 pinned: false
 homepage: false
 

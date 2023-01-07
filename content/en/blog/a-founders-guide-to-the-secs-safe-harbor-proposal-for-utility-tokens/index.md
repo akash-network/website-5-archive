@@ -1,12 +1,14 @@
 ---
-title: "A Founder's Guide to The SEC's Safe Harbor Proposal for Utility Tokens"
-date: 2020-02-19
-lastmod: 2021-05-13T09:11:28-07:00
+title: A Founder's Guide to The SEC's Safe Harbor Proposal for Utility Tokens
+date: '2020-02-19'
+lastmod: '2021-05-13T09:11:28-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

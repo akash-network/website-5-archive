@@ -1,12 +1,15 @@
 ---
-title: "CEO Statement on Total AKT Token Circulation"
-date: 2020-10-20
-lastmod: 2021-05-14T15:09:20-07:00
+title: CEO Statement on Total AKT Token Circulation
+date: '2020-10-20'
+lastmod: '2021-05-14T15:09:20-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

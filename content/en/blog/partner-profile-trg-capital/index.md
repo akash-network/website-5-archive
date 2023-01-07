@@ -1,12 +1,14 @@
 ---
-title: "Partner Profile: TRG Capital"
-date: 2020-07-02
-lastmod: 2021-05-14T15:56:12-07:00
+title: 'Partner Profile: TRG Capital'
+date: '2020-07-02'
+lastmod: '2021-05-14T15:56:12-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Olive Kimoto
 pinned: false
 homepage: false
 

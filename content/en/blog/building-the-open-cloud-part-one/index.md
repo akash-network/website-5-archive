@@ -1,12 +1,15 @@
 ---
-title: "Building the Open Cloud, Part 1: The State of Web3 Infrastructure"
-date: 2022-10-05
-lastmod: 2022-10-13T12:16:33-07:00
+title: 'Building the Open Cloud, Part 1: The State of Web3 Infrastructure'
+date: '2022-10-05'
+lastmod: '2022-10-13T12:16:33-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+  - Developers
+tags: []
+contributors:
+  - Anil Murty
 pinned: false
 homepage: false
 

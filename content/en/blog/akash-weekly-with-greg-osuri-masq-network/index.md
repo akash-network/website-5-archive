@@ -1,12 +1,13 @@
 ---
-title: "Akash Weekly With Greg Osuri: MASQ Network"
-date: 2022-09-16
-lastmod: 2022-09-16T14:34:05-07:00
+title: 'Akash Weekly With Greg Osuri: MASQ Network'
+date: '2022-09-16'
+lastmod: '2022-09-16T14:34:05-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

@@ -1,12 +1,14 @@
 ---
-title: "Akash Network Launches Chinese Community!"
-date: 2020-06-30
-lastmod: 2021-05-13T09:14:52-07:00
+title: Akash Network Launches Chinese Community!
+date: '2020-06-30'
+lastmod: '2021-05-13T09:14:52-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

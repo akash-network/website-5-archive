@@ -1,13 +1,14 @@
 require('dotenv').config()
 
-var buildClient = require('@datocms/cma-client-node').buildClient;
-var isBlock = require('datocms-structured-text-utils').isBlock;
-var stext2text = require('datocms-structured-text-to-plain-text').render;
-var stext2html = require('datocms-structured-text-to-html-string').render;
+const buildClient = require('@datocms/cma-client-node').buildClient;
+const isBlock = require('datocms-structured-text-utils').isBlock;
+const stext2text = require('datocms-structured-text-to-plain-text').render;
+const stext2html = require('datocms-structured-text-to-html-string').render;
+const yaml = require('js-yaml');
+const util = require('util');
+const TurndownService = require('turndown');
 
-var util = require('util');
-var TurndownService = require('turndown');
-var CONTENT_PATH = "content/en/blog";
+const CONTENT_PATH = "content/en/blog";
 const endPoint = 'https://graphql.datocms.com/'
 const apiToken = process.env.DATO_API_TOKEN
 
@@ -132,17 +133,37 @@ function saveFile(slug, meta, content) {
 
 // this method renders metadata to frontmatter
 function renderMeta(record) {
-  return `title: "${record.title}"
-date: ${record.date}
-lastmod: ${record.updatedAt}
-draft: false
-weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
-pinned: false
-homepage: false
-`;
+
+  // create a JSON object with the metadata
+  let meta = {
+    title: record.title,
+    date: record.date,
+    lastmod: record.updatedAt,
+    draft: false,
+    weight: 50,
+    categories: ["News"],
+    tags: [],
+    contributors: [],
+    pinned: false,
+    homepage: false
+  };
+
+  // if the blog post has categories, add them to the metadata
+  if (record.category != null) {
+    meta.categories = [];
+    record.category.forEach(category => {
+      meta.categories.push(category.title);
+    });
+  }
+
+  // if blog post has an author, add them to the metadata
+  if (record.author != null) {
+    meta.contributors = [record.author.name];
+  }
+
+
+  // convert the JSON object to YAML
+  return yaml.dump(meta);
 }
 
 function doFetch(query) {
@@ -169,6 +190,14 @@ function makeQuery(first, skip) {
       slug
       updatedAt
       date
+      category {
+        title
+        slug
+      }
+      author {
+        name
+        id
+      }
       imageWhenHeroed {
         url
         title

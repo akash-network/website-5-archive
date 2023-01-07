@@ -1,12 +1,16 @@
 ---
-title: "Announcing Akash Mainnet Live and BitMax IEO"
-date: 2020-09-25
-lastmod: 2021-05-14T15:26:53-07:00
+title: Announcing Akash Mainnet Live and BitMax IEO
+date: '2020-09-25'
+lastmod: '2021-05-14T15:26:53-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Partners
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

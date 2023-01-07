@@ -1,12 +1,14 @@
 ---
-title: "Announcing Our Third Founding Member Challenge!"
-date: 2019-11-21
-lastmod: 2021-05-13T09:12:07-07:00
+title: Announcing Our Third Founding Member Challenge!
+date: '2019-11-21'
+lastmod: '2021-05-13T09:12:07-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

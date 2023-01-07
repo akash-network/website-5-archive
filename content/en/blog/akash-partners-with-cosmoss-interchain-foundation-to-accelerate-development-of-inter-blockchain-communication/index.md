@@ -1,12 +1,15 @@
 ---
-title: "Akash Partners with Cosmos’s Interchain Foundation"
-date: 2020-09-09
-lastmod: 2021-05-14T14:52:09-07:00
+title: Akash Partners with Cosmos’s Interchain Foundation
+date: '2020-09-09'
+lastmod: '2021-05-14T14:52:09-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+  - Product
+tags: []
+contributors:
+  - Jack Zampolin
 pinned: false
 homepage: false
 

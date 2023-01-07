@@ -1,12 +1,15 @@
 ---
-title: "Akash Network Announces Integration Partnership with Lunie Wallet"
-date: 2020-06-17
-lastmod: 2021-05-13T09:14:09-07:00
+title: Akash Network Announces Integration Partnership with Lunie Wallet
+date: '2020-06-17'
+lastmod: '2021-05-13T09:14:09-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+  - Product
+tags: []
+contributors:
+  - Boz Menzalji
 pinned: false
 homepage: false
 

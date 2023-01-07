@@ -1,12 +1,15 @@
 ---
-title: "Akash DeCloud: Mainnet Overview"
-date: 2020-09-17
-lastmod: 2021-05-14T15:31:35-07:00
+title: 'Akash DeCloud: Mainnet Overview'
+date: '2020-09-17'
+lastmod: '2021-05-14T15:31:35-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Product
+tags: []
+contributors:
+  - Adam Bozanich
 pinned: false
 homepage: false
 

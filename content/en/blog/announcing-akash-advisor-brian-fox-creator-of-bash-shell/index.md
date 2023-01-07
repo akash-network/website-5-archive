@@ -1,12 +1,13 @@
 ---
-title: "Announcing Akash Advisor Brian Fox, Creator of Bash Shell"
-date: 2020-11-19
-lastmod: 2021-05-13T10:02:54-07:00
+title: Announcing Akash Advisor Brian Fox, Creator of Bash Shell
+date: '2020-11-19'
+lastmod: '2021-05-13T10:02:54-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

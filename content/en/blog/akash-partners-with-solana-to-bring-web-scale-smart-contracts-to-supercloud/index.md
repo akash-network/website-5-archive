@@ -1,12 +1,15 @@
 ---
-title: "Akash Partners with Solana to Bring Web-Scale Smart Contracts to Supercloud"
-date: 2020-03-13
-lastmod: 2021-05-13T09:14:06-07:00
+title: Akash Partners with Solana to Bring Web-Scale Smart Contracts to Supercloud
+date: '2020-03-13'
+lastmod: '2021-05-13T09:14:06-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

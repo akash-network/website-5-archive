@@ -1,12 +1,14 @@
 ---
-title: " Akash Announces First AKT Token DEX Listing on Osmosis"
-date: 2021-06-17
-lastmod: 2021-06-18T00:02:12-07:00
+title: ' Akash Announces First AKT Token DEX Listing on Osmosis'
+date: '2021-06-17'
+lastmod: '2021-06-18T00:02:12-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

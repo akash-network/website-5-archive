@@ -1,12 +1,13 @@
 ---
-title: "Akash Insiders Spotlight: Del Rey"
-date: 2022-09-15
-lastmod: 2022-09-15T11:24:50-07:00
+title: 'Akash Insiders Spotlight: Del Rey'
+date: '2022-09-15'
+lastmod: '2022-09-15T11:24:50-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Akash Insiders
 pinned: false
 homepage: false
 

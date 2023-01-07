@@ -1,12 +1,14 @@
 ---
-title: "The Unstoppable Update: March 2021"
-date: 2021-03-11
-lastmod: 2021-05-13T12:26:24-07:00
+title: 'The Unstoppable Update: March 2021'
+date: '2021-03-11'
+lastmod: '2021-05-13T12:26:24-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

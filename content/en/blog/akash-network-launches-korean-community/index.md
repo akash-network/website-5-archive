@@ -1,12 +1,14 @@
 ---
-title: "Akash Network Launches Korean Community!"
-date: 2020-10-16
-lastmod: 2021-05-13T10:16:12-07:00
+title: Akash Network Launches Korean Community!
+date: '2020-10-16'
+lastmod: '2021-05-13T10:16:12-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

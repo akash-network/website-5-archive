@@ -1,12 +1,13 @@
 ---
-title: "The Akashian Challenge  Phase 1: Cygni Release Announcement"
-date: 2020-05-28
-lastmod: 2021-05-14T15:22:05-07:00
+title: 'The Akashian Challenge  Phase 1: Cygni Release Announcement'
+date: '2020-05-28'
+lastmod: '2021-05-14T15:22:05-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

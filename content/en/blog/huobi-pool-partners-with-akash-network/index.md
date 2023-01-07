@@ -1,12 +1,13 @@
 ---
-title: "Huobi Pool Partners with Akash Network"
-date: 2020-12-21
-lastmod: 2021-05-13T15:38:21-07:00
+title: Huobi Pool Partners with Akash Network
+date: '2020-12-21'
+lastmod: '2021-05-13T15:38:21-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

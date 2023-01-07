@@ -1,12 +1,16 @@
 ---
-title: "Akash Token (AKT) Supported on Emeris, the Portal to Cross-Chain DeFi"
-date: 2021-08-24
-lastmod: 2021-08-24T12:25:00-07:00
+title: Akash Token (AKT) Supported on Emeris, the Portal to Cross-Chain DeFi
+date: '2021-08-24'
+lastmod: '2021-08-24T12:25:00-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+  - News
+  - Product
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

@@ -1,12 +1,19 @@
 ---
-title: "Akash Network Celebrates Largest and Most Successful Testnet with 14k+ Participants  "
-date: 2022-03-23
-lastmod: 2022-03-23T09:13:39-07:00
+title: >-
+  Akash Network Celebrates Largest and Most Successful Testnet with 14k+
+  Participants  
+date: '2022-03-23'
+lastmod: '2022-03-23T09:13:39-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Testnets
+  - Product
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

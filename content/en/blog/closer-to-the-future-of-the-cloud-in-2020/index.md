@@ -1,12 +1,15 @@
 ---
-title: "Closer to the Future of the Cloud in 2020"
-date: 2020-01-24
-lastmod: 2021-05-28T12:26:31-07:00
+title: Closer to the Future of the Cloud in 2020
+date: '2020-01-24'
+lastmod: '2021-05-28T12:26:31-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+  - News
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

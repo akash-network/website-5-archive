@@ -1,12 +1,14 @@
 ---
-title: "The Akashian Challenge Phase 3: Week 2 LIVE"
-date: 2020-12-07
-lastmod: 2021-05-13T10:20:00-07:00
+title: 'The Akashian Challenge Phase 3: Week 2 LIVE'
+date: '2020-12-07'
+lastmod: '2021-05-13T10:20:00-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

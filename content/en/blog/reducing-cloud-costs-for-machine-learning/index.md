@@ -1,12 +1,14 @@
 ---
-title: "Reducing Cloud Costs for Machine Learning"
-date: 2020-03-25
-lastmod: 2021-05-19T07:23:47-07:00
+title: Reducing Cloud Costs for Machine Learning
+date: '2020-03-25'
+lastmod: '2021-05-19T07:23:47-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Boz Menzalji
 pinned: false
 homepage: false
 

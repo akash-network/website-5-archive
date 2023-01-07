@@ -1,12 +1,16 @@
 ---
-title: "End of Summer Update"
-date: 2021-09-08
-lastmod: 2021-09-12T23:06:03-07:00
+title: End of Summer Update
+date: '2021-09-08'
+lastmod: '2021-09-12T23:06:03-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Product
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

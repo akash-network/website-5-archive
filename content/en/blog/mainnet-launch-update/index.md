@@ -1,12 +1,15 @@
 ---
-title: "Akash Mainnet Launch Update"
-date: 2020-09-20
-lastmod: 2021-05-14T15:38:11-07:00
+title: Akash Mainnet Launch Update
+date: '2020-09-20'
+lastmod: '2021-05-14T15:38:11-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Product
+tags: []
+contributors:
+  - Boz Menzalji
 pinned: false
 homepage: false
 

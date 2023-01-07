@@ -1,12 +1,13 @@
 ---
-title: "Akash Insiders Spotlight: Rodrigo Rochin"
-date: 2022-09-26
-lastmod: 2022-09-26T11:34:06-07:00
+title: 'Akash Insiders Spotlight: Rodrigo Rochin'
+date: '2022-09-26'
+lastmod: '2022-09-26T11:34:06-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Akash Insiders
 pinned: false
 homepage: false
 

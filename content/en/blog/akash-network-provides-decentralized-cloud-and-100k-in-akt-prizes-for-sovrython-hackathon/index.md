@@ -1,12 +1,16 @@
 ---
-title: "Akash Network Provides Decentralized Cloud and $100k in AKT Prizes for Sovrython Hackathon to Accelerate the Future of DeFi"
-date: 2021-05-18
-lastmod: 2021-05-28T12:38:15-07:00
+title: >-
+  Akash Network Provides Decentralized Cloud and $100k in AKT Prizes for
+  Sovrython Hackathon to Accelerate the Future of DeFi
+date: '2021-05-18'
+lastmod: '2021-05-28T12:38:15-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

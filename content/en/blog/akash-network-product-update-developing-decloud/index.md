@@ -1,12 +1,13 @@
 ---
-title: "Akash Network Product Update: Developing DeCloud"
-date: 2020-11-17
-lastmod: 2021-05-13T10:02:52-07:00
+title: 'Akash Network Product Update: Developing DeCloud'
+date: '2020-11-17'
+lastmod: '2021-05-13T10:02:52-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Adam Bozanich
 pinned: false
 homepage: false
 

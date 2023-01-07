@@ -1,12 +1,14 @@
 ---
-title: "Governance 101 "
-date: 2021-09-21
-lastmod: 2021-09-20T20:10:42-07:00
+title: 'Governance 101 '
+date: '2021-09-21'
+lastmod: '2021-09-20T20:10:42-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Rodri-R
 pinned: false
 homepage: false
 

@@ -1,12 +1,14 @@
 ---
-title: "An Invitation to Akash Validators Genesis 10"
-date: 2019-11-13
-lastmod: 2021-05-28T12:34:52-07:00
+title: An Invitation to Akash Validators Genesis 10
+date: '2019-11-13'
+lastmod: '2021-05-28T12:34:52-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

@@ -1,12 +1,16 @@
 ---
-title: "Akash and Polygon Offer Decentralized Infrastructure to dApp Developers"
-date: 2021-11-22
-lastmod: 2021-11-24T19:45:17-08:00
+title: Akash and Polygon Offer Decentralized Infrastructure to dApp Developers
+date: '2021-11-22'
+lastmod: '2021-11-24T19:45:17-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Partners
+  - News
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

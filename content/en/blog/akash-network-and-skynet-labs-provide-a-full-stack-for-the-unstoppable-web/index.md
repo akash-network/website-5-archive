@@ -1,12 +1,14 @@
 ---
-title: "Akash Network and Skynet Labs Provide a Full Stack for the Unstoppable Web "
-date: 2021-06-28
-lastmod: 2021-06-29T18:10:58-07:00
+title: 'Akash Network and Skynet Labs Provide a Full Stack for the Unstoppable Web '
+date: '2021-06-28'
+lastmod: '2021-06-29T18:10:58-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

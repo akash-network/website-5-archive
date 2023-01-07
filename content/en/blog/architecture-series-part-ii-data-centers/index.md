@@ -1,12 +1,15 @@
 ---
-title: "Architecture Series Part II: Data Centers"
-date: 2022-01-11
-lastmod: 2022-01-23T21:30:43-08:00
+title: 'Architecture Series Part II: Data Centers'
+date: '2022-01-11'
+lastmod: '2022-01-23T21:30:43-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Insights
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

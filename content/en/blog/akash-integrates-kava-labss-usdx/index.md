@@ -1,12 +1,15 @@
 ---
-title: "Akash to Integrate Kava Labs's USDX"
-date: 2020-09-24
-lastmod: 2021-05-13T14:25:01-07:00
+title: Akash to Integrate Kava Labs's USDX
+date: '2020-09-24'
+lastmod: '2021-05-13T14:25:01-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+  - Product
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 
