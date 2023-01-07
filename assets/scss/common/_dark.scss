@@ -586,7 +586,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] .landing-svg{
-  .st0{ fill: $link-color-dark; }
+  .st0{ fill: darken($link-color-dark, 10%); }
 
   #DRAW {
     fill: $body-color-dark;
