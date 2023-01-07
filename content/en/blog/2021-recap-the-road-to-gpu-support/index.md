@@ -15,8 +15,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1640652232-eoy-1-blog-1124-x-424.jpg"]
+images:
+  - 1640652232-eoy-1-blog-1124-x-424.jpg
 ---
 As the year comes to a close, personally and professionally, we tend to get introspective; analyzing our year, celebrating our milestones, and looking ahead to new goals for the New Year. 
 

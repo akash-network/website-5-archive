@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1620922432-week2-banner.png"]
+images:
+  - 1620922432-week2-banner.png
 ---
 **In The Akashian Challenge Phase 2 Week 1: Capture the Orders, Challengers explored how to operate as a provider by finding and bidding on leases.** 
 

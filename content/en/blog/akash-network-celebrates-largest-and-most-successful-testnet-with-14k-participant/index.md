@@ -17,8 +17,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1648051423-akash-blog-post-3-copy.jpg"]
+images:
+  - 1648051423-akash-blog-post-3-copy.jpg
 ---
 With 2,739 verified participants, over 3k+ submissions, and a KYC bill of tens of thousands of dollars, Testnet 3 has come to a close.
 

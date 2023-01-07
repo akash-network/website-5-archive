@@ -11,8 +11,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922422-untitled-7.png"]
+images:
+  - 1620922422-untitled-7.png
 ---
 With 8.4 million data centers, an estimated 85% of server capacity underutilized, and accelerated global demand for cloud computing, Akash aims to create efficiencies in the cloud hosting market through algorithms for allocating compute resources that go to waste in the current market.
 

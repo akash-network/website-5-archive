@@ -12,8 +12,8 @@ contributors:
   - Derek Anderson
 pinned: false
 homepage: false
-
-images: ["1626218184-x509-twitter.png"]
+images:
+  - 1626218184-x509-twitter.png
 ---
 From start to finish, this guide will show you how to create a valid x509 certificate at Akash Network, with ECDSA SHA-256 in Browser. 
 

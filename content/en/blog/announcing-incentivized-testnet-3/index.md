@@ -14,8 +14,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1646059987-1200x630-gif.gif"]
+images:
+  - 1646059987-1200x630-gif.gif
 ---
 A new dawn is upon us at Akash Network and on the horizon is our third Incentivized Testnet.
 

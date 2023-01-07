@@ -13,8 +13,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621030329-chainlink.png"]
+images:
+  - 1621030329-chainlink.png
 ---
 Akash Network operates a decentralized exchange (DEX), which is at the core of matching buyers and sellers on our decentralized cloud computing marketplace. Initially, our native utility token, Akash Token (AKT), will be used to purchase cloud compute on our platform.   
 

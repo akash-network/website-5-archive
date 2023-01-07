@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621029765-cosmostation.png"]
+images:
+  - 1621029765-cosmostation.png
 ---
 With our Mainnet 1 launch and IEO on BitMax in the past month, we’ve progressed key milestones to secure our network and achieve liquidity for Akash Token (AKT). To expand access and support for AKT, our team has engaged with a number of top ecosystem partners to add additional wallet solutions. 
 

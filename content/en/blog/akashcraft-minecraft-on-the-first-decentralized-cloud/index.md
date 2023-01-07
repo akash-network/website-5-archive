@@ -13,8 +13,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1624053524-minecraft-june-2.png"]
+images:
+  - 1624053524-minecraft-june-2.png
 ---
   
 With the launch of Akash MAINNET 2, the world’s first decentralized open-source cloud, developers can finally break free from the limitations of traditional cloud infrastructure.  

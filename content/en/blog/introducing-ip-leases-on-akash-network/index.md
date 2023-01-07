@@ -12,8 +12,8 @@ contributors:
   - Anil Murty
 pinned: false
 homepage: false
-
-images: ["1669215111-the-akash-roadmap.png"]
+images:
+  - 1669215111-the-akash-roadmap.png
 ---
 [Overclock Labs](https://twitter.com/ovrclk_), the parent company of Akash Network which is developing tools, protocols, and infrastructure that support the evolution and adoption of Web3, is excited to announce the general availability of “IP Leases” on Akash Network. 
 

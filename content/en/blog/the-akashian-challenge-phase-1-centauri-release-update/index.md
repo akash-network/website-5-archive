@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1620922437-centauri-banner-1.png"]
+images:
+  - 1620922437-centauri-banner-1.png
 ---
 **With 185 registrants from around the world and 3,000,000 AKT at stake, The Akashian Challenge Phase 1 is underway!** 
 

@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922319-announcing-our-third-founding-member-challenge.png"]
+images:
+  - 1620922319-announcing-our-third-founding-member-challenge.png
 ---
 Congratulations to those of you who completed the first two challenges of the Akash Founding Member Rewards Program! Today, we’re excited to announce the third and final challenge.  
   

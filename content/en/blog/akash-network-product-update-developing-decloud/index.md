@@ -11,8 +11,8 @@ contributors:
   - Adam Bozanich
 pinned: false
 homepage: false
-
-images: ["1620925263-product-update-nov17.png"]
+images:
+  - 1620925263-product-update-nov17.png
 ---
 With our Mainnet 1 launch and IEO on BitMax last month, we achieved key milestones to secure the Akash Network and achieve liquidity for Akash Token (AKT), developing a strong foundation for our platform. 
 

@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1661960317-web3-is-welcome-on-akash-network-2.png"]
+images:
+  - 1661960317-web3-is-welcome-on-akash-network-2.png
 ---
 **It’s time to move to the open cloud.**
 

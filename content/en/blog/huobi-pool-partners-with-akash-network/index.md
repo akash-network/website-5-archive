@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925336-huobi-twitter.png"]
+images:
+  - 1620925336-huobi-twitter.png
 ---
   
 In the cryptocurrency world, Huobi needs no further introduction, and Huobi Global Exchange is renowned around the world as one of the top two crypto exchanges.   

@@ -13,8 +13,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925310-ibc-twitter.png"]
+images:
+  - 1620925310-ibc-twitter.png
 ---
   
 Blockchain’s wider adoption and acceleration has been limited by the scalability issue. There have been many efforts to solve the scalability challenge, including developing faster databases with hardware to increase transactions per second (TPS), and “sharding” the blockchain, where a chain's transactional load is split and distributed among a large quantity of network partitions (shards).

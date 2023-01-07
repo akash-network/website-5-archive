@@ -13,8 +13,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922486-000035340013-copy-scaled.jpg"]
+images:
+  - 1620922486-000035340013-copy-scaled.jpg
 ---
 Greetings,
 

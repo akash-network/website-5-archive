@@ -13,8 +13,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1627862009-sovryn-hackathon-hero.png"]
+images:
+  - 1627862009-sovryn-hackathon-hero.png
 ---
 Every dev who submitted for one of our challenges at the [Sovrython Hackathon, powered by Gitcoin](https://gitcoin.co/hackathon/sovrython/onboard) won prizes up to $10,000. Sovrython was a 6-week long hackathon that invited developers from all chains to collaborate on decentralization/privacy, data science, integrations, and finance with a shared goal to accelerate the future of DeFi.
 

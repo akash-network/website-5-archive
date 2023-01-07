@@ -11,8 +11,8 @@ contributors:
   - Akash Insiders
 pinned: false
 homepage: false
-
-images: ["1664214737-screen-shot-2022-09-26-at-1-52-01-pm.png"]
+images:
+  - 1664214737-screen-shot-2022-09-26-at-1-52-01-pm.png
 ---
 _Today, we are featuring a profile of one of our Akash Insider community members—Rodrigo Rochin, known on the_ [_Akash Discord_](https://discord.com/invite/akash) _as "Rodri." Rodrigo will introduce himself in his own words, share his background, how he came to find Akash Network, and his experience with the Akash Insiders._
 

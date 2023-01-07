@@ -15,8 +15,8 @@ contributors:
   - Alani Kuye
 pinned: false
 homepage: false
-
-images: ["1655394946-case-study-praetor-blog-1.png"]
+images:
+  - 1655394946-case-study-praetor-blog-1.png
 ---
 The Praetor team is determined to continue adding value to the Akash ecosystem, and the greater Cosmos ecosystem. For starters, they have improved the Akash provider onboarding experience by reducing onboarding time by over 83%. This means you can become an Akash provider/host in 20 minutes or less. This reduces the barrier to entry for individuals and entities looking to join the Web3 revolution. 
 

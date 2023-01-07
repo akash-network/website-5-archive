@@ -14,8 +14,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1629768820-emeris-banner.png"]
+images:
+  - 1629768820-emeris-banner.png
 ---
 The Akash Token (AKT) is the utility token that powers Akash Network. It’s the primary method of settlement that enables users to buy and sell compute. As [network usage increases](https://akashlytics.com/), so does the demand for AKT.
 

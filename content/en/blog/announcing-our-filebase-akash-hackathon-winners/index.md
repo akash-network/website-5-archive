@@ -13,8 +13,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1635479768-filebase-hackathon.gif"]
+images:
+  - 1635479768-filebase-hackathon.gif
 ---
 Together with Filebase and Akash, developers and enterprises can quickly migrate from centralized cloud services like Amazon Web Services (AWS), Google Cloud, and Microsoft Azure, onto a decentralized network of cloud providers at a reduced cost. 
 

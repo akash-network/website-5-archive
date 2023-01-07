@@ -14,8 +14,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1621031190-screen-shot-2021-05-14-at-6-26-24-pm.png"]
+images:
+  - 1621031190-screen-shot-2021-05-14-at-6-26-24-pm.png
 ---
 > The primary listing of AKT is one of the most important projects of BitMax.io in Q3. BitMax.io applauds the Akash team for bringing a DeCloud alternative to the booming Cloud Service Provider (CSP) market. We aim to provide extensive support for AKT spanning from listing, staking, and more extensive infrastructure buildout.
 

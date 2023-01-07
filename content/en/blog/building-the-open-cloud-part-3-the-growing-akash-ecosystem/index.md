@@ -11,8 +11,8 @@ contributors:
   - Anil Murty
 pinned: false
 homepage: false
-
-images: ["1667500677-the-growing-akash-ecosystem.png"]
+images:
+  - 1667500677-the-growing-akash-ecosystem.png
 ---
 _By_ [**_Anil Murty_**](https://www.linkedin.com/in/anilmurty/)_, Head of Product at Overclock Labs, and_ [**_Alani Kuye_**](https://www.linkedin.com/in/alanikuye/)_, Technical Program Manager at Overclock Labs_
 

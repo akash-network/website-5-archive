@@ -13,8 +13,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922423-solana-right.png"]
+images:
+  - 1620922423-solana-right.png
 ---
 Today, I’m excited to announce that we’ve partnered with Solana to bring web-scale smart contracts to Akash Supercloud.  
   

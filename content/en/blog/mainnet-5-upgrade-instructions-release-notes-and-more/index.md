@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1671646841-mainnet-5-on-akash-network.png"]
+images:
+  - 1671646841-mainnet-5-on-akash-network.png
 ---
 Akash Network has successfully upgraded to Mainnet 5. The upgrade took place this morning and was completed in ~22 minutes. Mainnet 5 includes several bug fixes and modifications of previously released network features.
 

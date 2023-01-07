@@ -12,8 +12,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1621031041-screen-shot-2021-05-14-at-6-23-33-pm.png"]
+images:
+  - 1621031041-screen-shot-2021-05-14-at-6-23-33-pm.png
 ---
 We’ve witnessed how our centralized systems, organizations, and governments were slow to coordinate and share life-saving information during the pandemic. We’re seeing more of the ways we connect and collaborate move to the cloud.  
   

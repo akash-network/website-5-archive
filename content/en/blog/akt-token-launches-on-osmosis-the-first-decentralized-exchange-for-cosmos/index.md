@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1623889012-osmosis-hero.png"]
+images:
+  - 1623889012-osmosis-hero.png
 ---
 > **“We’re excited to have Akash Network be one of the first launch partners of Osmosis. Akash Network enables a new generation of resilient, decentralized Internet infrastructure to be built, and Osmosis provides a gateway for anyone to take part in this decentralized economy. For Osmosis to be a truly decentralized exchange, we need to be built on a decentralized infrastructure.** 
 > 

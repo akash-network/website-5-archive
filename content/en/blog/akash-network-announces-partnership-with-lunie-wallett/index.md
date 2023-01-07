@@ -13,8 +13,8 @@ contributors:
   - Boz Menzalji
 pinned: false
 homepage: false
-
-images: ["1620922425-lunie-banner.png"]
+images:
+  - 1620922425-lunie-banner.png
 ---
 _We’re very excited to have Akash as integration partners. Lunie benefits from a rich, diverse and engaged user base as well as strong stakeholders when it comes to networks and node operators. We are fans of how Akash’s “Akashian” testnet is progressing thus far,_  
 _and are eager for their mainnet launch._   

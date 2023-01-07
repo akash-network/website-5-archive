@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621029347-cosmostation-2.png"]
+images:
+  - 1621029347-cosmostation-2.png
 ---
 > Decentralized cloud computing allows for a faster and more efficient user experience at a cost much lower compared to traditional cloud. Together with Akash Network, Cosmostation will work to give users access to the wide range of use cases enabled by DeCloud as a node operator securing the network and providing useful end-user infrastructures.
 

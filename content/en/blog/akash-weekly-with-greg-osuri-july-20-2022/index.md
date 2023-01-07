@@ -13,8 +13,8 @@ contributors:
   - Joe Deng
 pinned: false
 homepage: false
-
-images: ["1658527482-akash-blog-post-1.png"]
+images:
+  - 1658527482-akash-blog-post-1.png
 ---
 Akash Weekly is a regular effort hosted via Twitter Spaces to update our community about the ins and outs of Akash Network’s developments. [Follow us on Twitter](https://twitter.com/akashnet_) to be notified when Akash Weekly's are live.
 

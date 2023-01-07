@@ -14,8 +14,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1633472805-roadmap22-banner.png"]
+images:
+  - 1633472805-roadmap22-banner.png
 ---
 Since the launch of Akash Network, a distributed peer-to-peer marketplace for cloud compute, we’ve been hyper-focused on stability while pursuing product-market fit. We’re excited to have achieved both in under six months since the launch.
 

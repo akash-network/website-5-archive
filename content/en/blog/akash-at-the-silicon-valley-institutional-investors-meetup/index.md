@@ -12,8 +12,8 @@ contributors:
   - Allison Silber
 pinned: false
 homepage: false
-
-images: ["1620921613-og.png"]
+images:
+  - 1620921613-og.png
 ---
 We are thrilled to share that Greg will be speaking at the upcoming [Silicon Valley Institutional Investors](https://www.eventbrite.com/e/silicon-valley-institutional-investors-iv-tickets-44568297979) event on Wednesday, April 11th. This event will feature a handful of discussions including how institutional investors are investing in the blockchain space and future trends of blockchain/crypto.
 

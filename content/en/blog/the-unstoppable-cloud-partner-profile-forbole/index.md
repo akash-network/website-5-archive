@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922440-forbole-banner-1.png"]
+images:
+  - 1620922440-forbole-banner-1.png
 ---
 “_**Start at any time. We are all learning and developing something new for the next generation, so never think that you are too late**_**.”**   
 **\- Kwun Yeung, Cofounder Forbole**  

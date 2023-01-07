@@ -13,8 +13,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1625631162-omnibus.png"]
+images:
+  - 1625631162-omnibus.png
 ---
 The recently released [Cosmos Omnibus](https://github.com/tombeynon/cosmos-omnibus/tree/install-and-config) helps to decentralize blockchain hosting by providing a simple way to set up and run any blockchain in the Cosmos ecosystem on the cloud provider of your choice. The Omnibus package includes all of the Docker images configuration to make deploying onto [Akash Network](https://github.com/ovrclk/akash) easy and standardized for any Cosmos SDK-based blockchain. 
 

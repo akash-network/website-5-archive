@@ -12,8 +12,8 @@ contributors:
   - Boz Menzalji
 pinned: false
 homepage: false
-
-images: ["1621434210-michael-dziedzic-aqyguywncsm-unsplash.jpeg"]
+images:
+  - 1621434210-michael-dziedzic-aqyguywncsm-unsplash.jpeg
 ---
 The full global economic impact of the coronavirus is hard to put into words or fancy graphs.  At best, we can guess with some degree of confidence what a multi-trillion dollar stimulus package and unlimited money printing will do in the mid and long term to prop up the economy. But we know for certain that technology startups like ours, especially those at early and growth stage, need to be more focused and vigilant than ever, as we don’t have billions in cash of runway and a safety net.
 

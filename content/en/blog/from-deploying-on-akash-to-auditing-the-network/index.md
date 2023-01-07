@@ -14,8 +14,8 @@ contributors:
   - Alani Kuye
 pinned: false
 homepage: false
-
-images: ["1656437068-case-study-moultrie-audits-blog.png"]
+images:
+  - 1656437068-case-study-moultrie-audits-blog.png
 ---
 ### Introduction
 

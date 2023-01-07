@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1620923794-singapore-blockchain-week-banner-copy.png"]
+images:
+  - 1620923794-singapore-blockchain-week-banner-copy.png
 ---
 **With the launch of our Chinese community this month, we’re accelerating efforts across the Asian Pacific region**. Today through Thursday, July 23rd, the Akash team is participating in [Singapore Blockchain Week](https://www.blockchainweek.com.sg/). 
 

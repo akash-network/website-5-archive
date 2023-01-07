@@ -46,11 +46,13 @@ async function run() {
             if (record.coverImage != null && record.coverImage.url != "") {
               const coverImageName = record.coverImage.url.split("/").pop();
               downloadImage(record.coverImage.url, coverImageName, CONTENT_PATH + "/" + record.slug);
-              meta = meta + `\nimages: ["${coverImageName}"]\n`;
+              meta.images.push(coverImageName);
             }
 
+            // convert the JSON object to YAML
+            metaYaml = yaml.dump(meta);
             // Save the meta information and Markdown content to a file
-            saveFile(record.slug, meta, markdownContent);
+            saveFile(record.slug, metaYaml, markdownContent);
           } catch (error) {
             console.log("ERROR", record.slug);
             console.log(error);
@@ -143,9 +145,10 @@ function renderMeta(record) {
     weight: 50,
     categories: ["General"],
     tags: [],
-    contributors:  [],
+    contributors: [],
     pinned: false,
-    homepage: false
+    homepage: false,
+    images: []
   };
 
   // if the blog post has categories, add the first one to the metadata and all of them to the tags
@@ -164,8 +167,7 @@ function renderMeta(record) {
   }
 
 
-  // convert the JSON object to YAML
-  return yaml.dump(meta);
+  return meta;
 }
 
 function doFetch(query) {

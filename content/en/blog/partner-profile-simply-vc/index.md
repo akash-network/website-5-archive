@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1621032617-screen-shot-2021-05-14-at-6-49-58-pm.png"]
+images:
+  - 1621032617-screen-shot-2021-05-14-at-6-49-58-pm.png
 ---
 **We’re excited to announce that we’ve partnered with Simply VC to help us build the future of the decentralized cloud.** 
 

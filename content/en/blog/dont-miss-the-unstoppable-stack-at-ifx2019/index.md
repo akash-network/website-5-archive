@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922312-ekllmhwwkai4ppy.png"]
+images:
+  - 1620922312-ekllmhwwkai4ppy.png
 ---
 Our team is excited to be heading to Las Vegas this week for Packet’s IFX2019 conference to connect with and learn from our peers in the cloud infrastructure ecosystem. Our CEO Greg Osuri will be presenting the Keynote session “The Unstoppable Stack” at 2pm to 2:30pm in the Great Hall. He’ll be sharing how we’re building the world’s first open, permissionless, sovereign, and secure supercloud and marketplace, and making it unstoppable.
 

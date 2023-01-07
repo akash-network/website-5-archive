@@ -13,8 +13,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620925374-screen-shot-2020-09-06-at-6-34-27-pm.png"]
+images:
+  - 1620925374-screen-shot-2020-09-06-at-6-34-27-pm.png
 ---
 Finance—an industry that is expected to reach $26.5 trillion by 2020—is being disrupted at an atomic speed by its degenerate cousin, decentralized finance or simply **DeFi**.  
 

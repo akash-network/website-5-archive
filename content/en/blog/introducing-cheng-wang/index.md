@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922443-cheng-minimal-thumb.png"]
+images:
+  - 1620922443-cheng-minimal-thumb.png
 ---
 _**Cheng is one of the most creative, curious, and articulate thinkers in the world of finance. We’re incredibly excited to have Cheng leverage his extensive financial and operational experience from Wall Street, to digital commerce and ensure Akash has healthy liquidity and scale to support our ambitious growth goals.**_  
   

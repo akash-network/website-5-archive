@@ -11,8 +11,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922440-bootstrapping-a-free-market-by-borrowing-from-the-future.png"]
+images:
+  - 1620922440-bootstrapping-a-free-market-by-borrowing-from-the-future.png
 ---
 The survival of an early market economy depends on its ability to solve the cyclical dependency of demand and supply until a healthy equilibrium can be achieved to unlock its network effects.  
 

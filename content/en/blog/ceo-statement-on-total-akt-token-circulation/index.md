@@ -13,8 +13,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1621030142-screen-shot-2021-05-14-at-6-09-00-pm.png"]
+images:
+  - 1621030142-screen-shot-2021-05-14-at-6-09-00-pm.png
 ---
 Greetings Akashians, I hope you’ve been staying safe and well!
 

@@ -11,8 +11,8 @@ contributors:
   - Adam Bozanich
 pinned: false
 homepage: false
-
-images: ["1620925248-phase-3-close-twitter.png"]
+images:
+  - 1620925248-phase-3-close-twitter.png
 ---
   
 Through running three phases of The Akashian Challenge, one of the ecosystem’s most ambitious testnets, we’ve been able to gather data, identify critical issues, and ensure our network’s scalability, security, and usability before launching our DeCloud: Mainnet 2.   

@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1668206145-week-in-review-with-greg-osuri-3.png"]
+images:
+  - 1668206145-week-in-review-with-greg-osuri-3.png
 ---
 Akash’s Mainnet 4: The governance vote is pending
 -------------------------------------------------

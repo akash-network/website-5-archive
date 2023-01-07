@@ -12,8 +12,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1620839546-certik-twitter.png"]
+images:
+  - 1620839546-certik-twitter.png
 ---
   
 At Akash, we’ve been fortunate to partner with organizations who share our vision for an open, safe, and unstoppable cloud that unlocks capabilities for the data-driven technologies of the future. 

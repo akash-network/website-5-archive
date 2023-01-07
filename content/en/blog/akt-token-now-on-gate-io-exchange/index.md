@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620935088-gateio-live.png"]
+images:
+  - 1620935088-gateio-live.png
 ---
   
 **Today, we’re excited to announce that Akash Token (AKT) is now available on Gate.io,** [**one of the Top 10 digital asset exchanges in the world**](https://www.coingecko.com/en/exchanges)**.**  

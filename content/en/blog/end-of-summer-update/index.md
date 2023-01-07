@@ -14,8 +14,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1631052471-end-of-summer-banner.png"]
+images:
+  - 1631052471-end-of-summer-banner.png
 ---
 Following our mainnet 2 launch in March, this past summer was the first that we had a live, working product. Having a tangible product presented a whole new set of opportunities as well as learnings. 
 

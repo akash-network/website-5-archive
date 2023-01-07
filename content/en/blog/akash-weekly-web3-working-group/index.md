@@ -13,8 +13,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1668696776-week-in-review-5.png"]
+images:
+  - 1668696776-week-in-review-5.png
 ---
 The battle of privacy vs. surveillance
 --------------------------------------

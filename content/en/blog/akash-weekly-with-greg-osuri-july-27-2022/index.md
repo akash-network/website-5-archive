@@ -13,8 +13,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1659122990-akash-blog-post-1.png"]
+images:
+  - 1659122990-akash-blog-post-1.png
 ---
 Akash Weekly is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

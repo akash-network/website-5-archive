@@ -13,8 +13,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621435076-screen-shot-2021-05-19-at-10-37-52-am.png"]
+images:
+  - 1621435076-screen-shot-2021-05-19-at-10-37-52-am.png
 ---
 #### **The Market Landscape for Cloud Computing**  
 **\_\_\_\_\_**

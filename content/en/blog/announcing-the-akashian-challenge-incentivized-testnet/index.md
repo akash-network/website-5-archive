@@ -12,8 +12,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922437-the-image.jpg"]
+images:
+  - 1620922437-the-image.jpg
 ---
 Akash means “open space, sky” in ancient Sanskrit.  
   

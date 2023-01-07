@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922357-become-an-akash-founding-member-and-earn-token-rewards.jpg"]
+images:
+  - 1620922357-become-an-akash-founding-member-and-earn-token-rewards.jpg
 ---
 As the world’s first supercloud for serverless computing, Akash needs your support to materialize our vision of empowering the architects and builders of the internet with greater access, freedom, and efficiency to create products that improve the human experience. 
 

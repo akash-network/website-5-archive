@@ -12,8 +12,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922312-six-trends.jpg"]
+images:
+  - 1620922312-six-trends.jpg
 ---
 At Akash, we’ve been working at the intersection of cloud, blockchain, and the edge, and this coming year it’s exciting to see technologies we’ve long championed achieve broader adoption and transform multiple industries. Overall, there is a movement to sovereignty–of platform, technology, data, privacy, and cost. We’re also seeing new technologies and devices leverage infrastructure, crypto incentives, and the edge in-home.  
   

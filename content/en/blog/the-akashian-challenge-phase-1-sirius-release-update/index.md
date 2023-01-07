@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621434586-sirius-twitter.png"]
+images:
+  - 1621434586-sirius-twitter.png
 ---
 **Last Friday, May 8th, The Akashian Challenge incentivized testnet reached instant consensus and went live at 1600 UTC with 99 genesis validators!**   
   

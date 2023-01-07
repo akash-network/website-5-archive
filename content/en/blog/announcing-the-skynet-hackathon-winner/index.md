@@ -13,8 +13,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1629505203-skynet-hackathon-banner.png"]
+images:
+  - 1629505203-skynet-hackathon-banner.png
 ---
 In June, we announced an integration with Skynet Labs to provide the first full-stack decentralized web (dWeb) solution to handle backup, restore, and migration.
 

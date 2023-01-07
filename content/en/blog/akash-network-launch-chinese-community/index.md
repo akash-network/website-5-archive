@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1620922478-superminiheaderx2.jpg"]
+images:
+  - 1620922478-superminiheaderx2.jpg
 ---
 At Akash Network, our _second largest audience is our Chinese audience_, and Chinese visitors make up _the second largest group of visitors to our website and communities_. We’re also fortunate to have a number of Chinese investors and partners, including [Outpost Capital](https://outpostvc.com/), [Hone Capital](http://honecap.com/), [Forbole](https://www.forbole.com/), and [Steven Fan](https://www.linkedin.com/in/stevenweifan/) of Tencent.
 

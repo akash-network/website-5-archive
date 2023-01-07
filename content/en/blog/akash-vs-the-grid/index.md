@@ -12,8 +12,8 @@ contributors:
   - Nick Alesandro
 pinned: false
 homepage: false
-
-images: ["1620922423-akash-vs-the-grid.jpg"]
+images:
+  - 1620922423-akash-vs-the-grid.jpg
 ---
 At Akash, we do quite a bit of [thinking](https://docsend.com/view/yvgseww), [writing](https://hackernoon.com/decentralized-infrastructure-is-a-moral-imperative-2ec13dc3138d), and [presenting](https://www.youtube.com/watch?v=JUGjvs6IsrU) on decentralized infrastructure. It’s our business after all – Akash is a decentralized marketplace and deployment platform for cloud compute.  Using The Akash Network, companies make slack server capacity in their colo and on-prem datacenters available for containerized deployment. As a result, Akash-connected datacenters form a decentralized network of compute providers as an alternative to the hyperscale providers that currently dominate the cloud infrastructure market.
 

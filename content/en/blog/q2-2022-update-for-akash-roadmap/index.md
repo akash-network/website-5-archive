@@ -13,8 +13,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1640069295-technical-product-upadate.jpg"]
+images:
+  - 1640069295-technical-product-upadate.jpg
 ---
 At the beginning of this quarter, the Akash core team published an ambitious roadmap, the [Akash Roadmap 2022](https://akash.network/blog/product-roadmap-2022). Now we are at the end of our first quarter, here's is an update on how we are progressing through the roadmap. 
 

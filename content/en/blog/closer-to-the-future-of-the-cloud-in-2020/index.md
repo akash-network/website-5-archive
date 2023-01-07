@@ -13,8 +13,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1622229974-image-from-ios.jpeg"]
+images:
+  - 1622229974-image-from-ios.jpeg
 ---
 In an industry dominated by three cloud providers, the largest of which was featured in a galvanizing [New York Times article](https://www.nytimes.com/2019/12/15/technology/amazon-aws-cloud-competition.html) this past December, we knew that we were taking on much larger incumbents, and a huge challenge, one that could shape the future of the cloud, and thus, the Internet.   
   

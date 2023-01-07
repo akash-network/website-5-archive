@@ -13,8 +13,8 @@ contributors:
   - Anil Murty
 pinned: false
 homepage: false
-
-images: ["1664995616-3-1.png"]
+images:
+  - 1664995616-3-1.png
 ---
 _By Anil Murty, Head of Product at Overclock Labs_
 

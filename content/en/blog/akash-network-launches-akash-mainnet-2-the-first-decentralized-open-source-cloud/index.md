@@ -13,8 +13,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925245-mainnet-twitter-1-1024x576.png"]
+images:
+  - 1620925245-mainnet-twitter-1-1024x576.png
 ---
   
 **Today, we’re thrilled to announce the historic MVP launch of Akash MAINNET 2, the world’s first decentralized open-source cloud.**  

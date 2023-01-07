@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1620922437-livestream-banner-1.png"]
+images:
+  - 1620922437-livestream-banner-1.png
 ---
 **When:** Friday, 5/22 4PM UTC: 9AM PST  
 **Hosts**: Greg Osuri, Jack Zampolin  

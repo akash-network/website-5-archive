@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922279-how-blockchain-is-transforming-cloud-computing.jpg"]
+images:
+  - 1620922279-how-blockchain-is-transforming-cloud-computing.jpg
 ---
 Today’s market for cloud computing is heavily consolidated, with the top 4 cloud service providers, Amazon Web Services, Microsoft Azure, Google Cloud, and Alibaba Cloud dominating 70% of the entire market as of the end of 2019 .
 

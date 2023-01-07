@@ -11,8 +11,8 @@ contributors:
   - Neil Gehani
 pinned: false
 homepage: false
-
-images: ["1620925239-mainnet2update-twitter.png"]
+images:
+  - 1620925239-mainnet2update-twitter.png
 ---
   
 Akash MAINNET 2 ([v0.10.1](https://github.com/ovrclk/akash/releases/tag/v0.10.1)) launched on March 8th, and since then, we’ve seen an exciting diversity of apps deployed on Akash, and we’ll be sharing many of these pioneering use cases in the coming weeks. We’ve had a 10x increase in deployments since the launch of MAINNET 2.  

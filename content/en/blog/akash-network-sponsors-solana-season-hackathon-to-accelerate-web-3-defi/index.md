@@ -13,8 +13,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1620943564-solana-2.png"]
+images:
+  - 1620943564-solana-2.png
 ---
   
 Last year, [we announced a partnership with Solana](https://akash.network/blog/akash-partners-with-solana-to-bring-web-scale-smart-contracts-to-supercloud/) to bring web-scale smart contracts to Akash’s decentralized and open-source cloud (DeCloud).  

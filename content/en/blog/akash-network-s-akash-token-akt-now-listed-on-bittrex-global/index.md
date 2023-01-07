@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1622230747-bittrex-live-banner-1024x768.png"]
+images:
+  - 1622230747-bittrex-live-banner-1024x768.png
 ---
 > With its extraordinary growth over the last six months, we’re excited to welcome AKT to our platform. As the most trusted crypto exchange platform known for secure trading and digital wallet infrastructures, we’re proud to partner with Akash Network to make AKT available to our global community of traders.
 > 

@@ -13,8 +13,8 @@ contributors:
   - Boz Menzalji
 pinned: false
 homepage: false
-
-images: ["1621031868-screen-shot-2021-05-14-at-6-37-45-pm.png"]
+images:
+  - 1621031868-screen-shot-2021-05-14-at-6-37-45-pm.png
 ---
 As our CTO Adam Bozanich shared [in his Mainnet Overview article](https://akash.network/blog/akash-decloud-mainnet-overview/) last Thursday, Mainnet is the beginning of Akash DeCloud, our decentralized cloud marketplace. By enabling staking and governance, it will unlock value for the network, and accelerate growth for our community. 
 

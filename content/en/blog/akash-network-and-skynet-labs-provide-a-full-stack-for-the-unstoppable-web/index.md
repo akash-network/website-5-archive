@@ -12,8 +12,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1624574624-skynet-cover.png"]
+images:
+  - 1624574624-skynet-cover.png
 ---
 Everyone knows the term DeFi, but dWeb, or decentralized web, is still catching on in the lexicon of the mainstream press. What is the decentralized web? The decentralized web (dWeb) is a major shift from computing resources being owned and operated by the three large cloud software giants (Amazon, Google, and Microsoft) to a decentralized network of cloud providers operating open-source software platforms and creating competition in an open marketplace with more providers and lower costs.
 

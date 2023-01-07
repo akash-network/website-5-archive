@@ -11,8 +11,8 @@ contributors:
   - Olive Kimoto
 pinned: false
 homepage: false
-
-images: ["1621030407-screen-shot-2021-05-14-at-6-13-23-pm.png"]
+images:
+  - 1621030407-screen-shot-2021-05-14-at-6-13-23-pm.png
 ---
 Based out of China, one of the largest global centers for crypto, SNZ progresses their mission to empower blockchain projects, through their SNZ hub - a network of global top tier venture capitalists, state-of-the art blockchain technologies, and diverse crypto communities. Founded by passionate engineers, blockchain evangelists, and entrepreneurs, SNZ has a long track record of supporting disruptive technologies to accelerate a new era of decentralized applications.
 

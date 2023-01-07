@@ -13,8 +13,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620926975-wenmarketing-twitter.png"]
+images:
+  - 1620926975-wenmarketing-twitter.png
 ---
   
 Wen Marketing?  

@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1668698406-mainnet-4-on-akash-network.png"]
+images:
+  - 1668698406-mainnet-4-on-akash-network.png
 ---
 _Note: this post will be updated with news, updates, and links to resources throughout the day._
 

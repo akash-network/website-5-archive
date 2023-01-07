@@ -12,8 +12,8 @@ contributors:
   - Rodri-R
 pinned: false
 homepage: false
-
-images: ["1632186207-governance101-banner.png"]
+images:
+  - 1632186207-governance101-banner.png
 ---
 Blockchain technology is one of the most important innovations of our time. Although it has been around since the early 1990s, it isn't until now that many of us are seeing its real potential. 
 

@@ -12,8 +12,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1627341371-filebase-cover2.png"]
+images:
+  - 1627341371-filebase-cover2.png
 ---
 A core goal of the decentralized web, also known as dWeb, is to help people and organizations regain control of their computing and storage. 
 

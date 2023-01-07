@@ -2,17 +2,17 @@
 {{ if not $fillImage -}}
   {{ $fillImage = site.Params.fillImage }}
 {{ end -}}
-{{ $image := ""}}
+{{ $image := resources.Get (printf "%s%s" "images/" site.Params.defaultImage) }}
+
 {{ if .Params.images -}}
-{{ $image := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
+  {{ $blogimage := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
+  {{ if not (strings.HasSuffix $blogimage.RelPermalink ".gif") -}}
+    {{ $image = $blogimage }}
+  {{ end -}}
 {{ end }}
-{{ if not $image -}}
-  {{ $image = resources.Get (printf "%s%s" "images/" site.Params.defaultImage) }}
-{{ end -}}
 
 {{ $webp := printf "%s%s" $fillImage " webp" }}
 {{ $image = $image.Resize $webp}}
-
 {{ $lqip := $image.Resize site.Params.lqipWidth -}}
 
 <img

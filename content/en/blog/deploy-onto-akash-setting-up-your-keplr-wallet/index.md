@@ -12,8 +12,8 @@ contributors:
   - 'Anthony Rosa '
 pinned: false
 homepage: false
-
-images: ["1629330603-keplrwallet-banner.png"]
+images:
+  - 1629330603-keplrwallet-banner.png
 ---
 _This post was originally published by Anthony Rosa on_ [_Medium_](https://anthonyrosa.medium.com/deploy-onto-akash-setting-up-your-keplr-wallet-aa01c7fd8420)_._
 

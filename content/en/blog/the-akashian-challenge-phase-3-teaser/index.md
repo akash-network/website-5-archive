@@ -12,8 +12,8 @@ contributors:
   - Ryan Sumpter
 pinned: false
 homepage: false
-
-images: ["1620925340-phase3-banner-2.png"]
+images:
+  - 1620925340-phase3-banner-2.png
 ---
 As the world’s first decentralized peer-to-peer cloud computing marketplace, our vision is to materialize a permissionless, sovereign, and open cloud where architects and builders have greater freedom to expand the human experience. 
 

@@ -11,8 +11,8 @@ contributors:
   - Akash Insiders
 pinned: false
 homepage: false
-
-images: ["1663264829-screen-shot-2022-09-15-at-2-00-18-pm.png"]
+images:
+  - 1663264829-screen-shot-2022-09-15-at-2-00-18-pm.png
 ---
 _Today, we are featuring a profile of one of our Akash Insider community members—Del Rey, AKA "Instafinanzas." Del Rey will introduce himself in his own words, share his background, how he came to find Akash Network, and his experience with the Akash Insiders._
 

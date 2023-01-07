@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922313-akash-network-validator-rewards.jpg"]
+images:
+  - 1620922313-akash-network-validator-rewards.jpg
 ---
 With the cloud infrastructure market expected to exceed $198 billion by 2024 and an estimated 85% of server capacity in 8.4 million data centers underutilized, we started Akash Network to offer developers an open, permissionless, and secure cloud marketplace for unused compute cycles – in essence, a _supercloud_. 
 

@@ -11,8 +11,8 @@ contributors:
   - Adam Bozanich
 pinned: false
 homepage: false
-
-images: ["1620925245-product-update-1-21-twitter.png"]
+images:
+  - 1620925245-product-update-1-21-twitter.png
 ---
   
 Since [my last Developing DeCloud Product Update](https://akash.network/blog/developing-decloud-product-update-2/) in December, [**we ran and wrapped up two exciting and action-packed weeks of The Akashian Challenge Phase 3 Testnet**](https://akash.network/blog/akash-decloud-from-phase-3-to-mainnet-2/), and we’ve been integrating the testnet learnings for development of Mainnet 2, the materialization of Akash DeCloud.

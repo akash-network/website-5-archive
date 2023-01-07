@@ -14,8 +14,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922313-add-a-heading-2-1.jpg"]
+images:
+  - 1620922313-add-a-heading-2-1.jpg
 ---
 Last week, we announced that Jack Zampolin of Pylon Validation Services and Tendermint joined Akash as an Advisor, and today, we’re excited to announce that the number one Cosmos validator Sikka aka Sunny Aggarwal of Tendermint/Cosmos has joined Akash as an Advisor. Validators are essential to ensuring the sovereignty and security of Akash’s platform. In recognition of their importance in our ecosystem, we recently [announced a grant of 20% delegation power for the first 10 genesis cohort of validators](https://akash.network/blog/an-invitation-to-akash-validators-genesis-10/) who commit to Akash Network.
 

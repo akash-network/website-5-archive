@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620926162-koreannounce-thumb.png"]
+images:
+  - 1620926162-koreannounce-thumb.png
 ---
 With a long history and familiarity with tokens and digital payments that has spanned decades, Koreans have been at the forefront of crypto adoption and growth. Korea has the highest percentage of citizens who use crypto, and the Korean government has made regulatory and investment commitments to expand the crypto/blockchain industry.  
   

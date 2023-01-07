@@ -11,8 +11,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620926106-featuredimg.png"]
+images:
+  - 1620926106-featuredimg.png
 ---
 At an accelerating pace, we find more of the ways we connect, play, transact, and work transitioning to the cloud. Developers and organizations need cloud computing and services that enable greater scale, flexibility, and price performance to meet this global demand for throughput and content.
 

@@ -13,8 +13,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925371-equinix-banner-1-1024x768.png"]
+images:
+  - 1620925371-equinix-banner-1-1024x768.png
 ---
   
 **Today, we’re excited to announce that Akash Network is integrating with Equinix Metal and enabling developers and companies to decentralize their cloud infrastructure through Akash DeCloud: Mainnet 2.**  

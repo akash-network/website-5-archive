@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1620926516-unstoppable-update-twitter.png"]
+images:
+  - 1620926516-unstoppable-update-twitter.png
 ---
   
 As more of our work and play continues to transition to the cloud, the need for a more flexible, scalable and lower cost cloud has never been greater. 

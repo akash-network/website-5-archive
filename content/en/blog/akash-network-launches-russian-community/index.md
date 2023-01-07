@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620923345-andrew-pic.jpg"]
+images:
+  - 1620923345-andrew-pic.jpg
 ---
 Outside of the US, Akash’s Russian audience is our _second largest community_. We’ve also been fortunate to have a number of Russian participants among the 106 validators in The Akashian Challenge, our incentivized testnet.
 

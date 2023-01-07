@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620915678-adam-w-twitter.jpg"]
+images:
+  - 1620915678-adam-w-twitter.jpg
 ---
 > _A marketplace for cloud compute is interesting by itself, but with crypto economic incentives, you have unique and powerful motivation for leaving traditional cloud providers. I feel like I’m joining a rocketship that’s about to lift off._
 

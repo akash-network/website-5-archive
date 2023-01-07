@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621030757-phase3-rewards-twitter.png"]
+images:
+  - 1621030757-phase3-rewards-twitter.png
 ---
 Last Thursday, we shared a teaser of [The Akashian Challenge Phase 3: Developer Operations](https://akash.network/blog/the-akashian-challenge-phase-3-teaser/), the third and final phase of our incentivized testnet. 
 

@@ -16,8 +16,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1651683542-akash-blog-660x480.png"]
+images:
+  - 1651683542-akash-blog-660x480.png
 ---
 April was all hands on deck to launch Mainnet 3.
 

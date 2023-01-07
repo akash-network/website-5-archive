@@ -14,8 +14,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1620922357-become-an-akash-founding-member-and-earn-token-rewards.jpg"]
+images:
+  - 1620922357-become-an-akash-founding-member-and-earn-token-rewards.jpg
 ---
 Congratulations to our Founding Member Challenge Contributors! With one week left to go, we’re excited to announce all those who have completed our Akash Founding Member Rewards Program 3 Challenges so far, and we encourage those who haven’t yet, to join now–you still have time! Much respect to those going the distance and completing the difficult 3rd Challenge to achieve the coveted Founding Member badge.  
   

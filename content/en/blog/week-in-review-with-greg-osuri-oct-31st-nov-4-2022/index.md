@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1667594612-week-in-review-with-greg-osuri-2.png"]
+images:
+  - 1667594612-week-in-review-with-greg-osuri-2.png
 ---
 Welcome to our new blog update series. This brief weekly rundown will cover the ecosystem updates you’re used to hearing in our Akash Weekly Twitter Spaces in around 500 words. This is the fastest way to get a weekly rundown directly from the Founder & CEO of Overclock Labs — [Greg Osuri](https://twitter.com/gregosuri).
 

@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620923347-boz-thumb.png"]
+images:
+  - 1620923347-boz-thumb.png
 ---
 Across every function at Akash, from engineering, to partnerships, to marketing, one Akashian has made a profound impact in the way we collaborate and scale.
 

@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922455-earn-1000-tokens-and-the-akash-founder-level-2-badge.jpg"]
+images:
+  - 1620922455-earn-1000-tokens-and-the-akash-founder-level-2-badge.jpg
 ---
 Thank you for participating in the Akash Founding Member Rewards First Challenge! For those of you just tuning in, the Akash Founding Member Rewards Program is for early contributors to Akash’s testnet. Our community rewards are a warm thank you for early contributions and support.  
   

@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620926976-2021-unstoppable-update-twitter.png"]
+images:
+  - 1620926976-2021-unstoppable-update-twitter.png
 ---
   
 “Hello World!”  

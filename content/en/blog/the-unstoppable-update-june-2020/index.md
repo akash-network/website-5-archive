@@ -11,8 +11,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1621030020-screen-shot-2021-05-14-at-6-06-57-pm.png"]
+images:
+  - 1621030020-screen-shot-2021-05-14-at-6-06-57-pm.png
 ---
 We've had a month of milestones! Last week, we concluded Phase 1 of The Akashian Challenge, our incentivized testnet, with 99 active validators from around the world, and moved closer to the launch of our mainnet.  
   

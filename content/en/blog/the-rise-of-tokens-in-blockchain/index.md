@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922279-the-rise-of-tokens-in-blockchain.jpg"]
+images:
+  - 1620922279-the-rise-of-tokens-in-blockchain.jpg
 ---
 **What is a Token?**
 

@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1660597220-screen-shot-2022-08-15-at-4-30-56-pm.png"]
+images:
+  - 1660597220-screen-shot-2022-08-15-at-4-30-56-pm.png
 ---
 Our team at Overclock Labs is hard at work building the future of the decentralized cloud, and the results are showing. Here is a look back at our major milestones for July 2022. 
 

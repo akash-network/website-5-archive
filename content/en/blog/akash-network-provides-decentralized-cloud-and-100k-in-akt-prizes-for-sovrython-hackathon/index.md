@@ -14,8 +14,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1622211355-sovryn-banner-1024x768.png"]
+images:
+  - 1622211355-sovryn-banner-1024x768.png
 ---
 In the past year, we’ve expanded our community of Akashians across the U.S., Europe, China, Korea, and Russia, and we’re thankful for the passion and contributions that our global community members have brought to our ecosystem. 
 

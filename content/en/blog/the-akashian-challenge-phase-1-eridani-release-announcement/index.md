@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621031100-eridani-twitter.png"]
+images:
+  - 1621031100-eridani-twitter.png
 ---
 **With 211 Teams and 91 Active Validators (for 64 spots at Mainnet), The Akashian Challenge is now the largest testnet in the Cosmos hub since Cosmos’ Game of Stakes.**  
   

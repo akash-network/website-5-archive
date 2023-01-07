@@ -13,8 +13,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1659711204-screen-shot-2022-08-05-at-10-53-05-am.png"]
+images:
+  - 1659711204-screen-shot-2022-08-05-at-10-53-05-am.png
 ---
 Akash Weekly with Greg Osuri is our weekly community call hosted on Twitter Spaces. Each week, we cover the latest news and updates from Akash Network with our CEO, Greg Osuri.
 

@@ -14,8 +14,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922278-my-testimony-as-an-expert-witness.jpg"]
+images:
+  - 1620922278-my-testimony-as-an-expert-witness.jpg
 ---
 The most significant hurdle for blockchain today is legislative as US companies today face an uncertain legal regime. Regulators need tools that only legislators can provide.
 

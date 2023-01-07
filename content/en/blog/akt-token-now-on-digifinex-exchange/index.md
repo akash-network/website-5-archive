@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925257-digifinex-twitter-1.png"]
+images:
+  - 1620925257-digifinex-twitter-1.png
 ---
   
 **Today, we’re excited to announce that Akash Token (AKT) is now available on** [**DigiFinex**](https://www.digifinex.com/en-ww/)**, a world-leading digital assets exchange.**  

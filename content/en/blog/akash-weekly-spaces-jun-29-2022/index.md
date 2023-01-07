@@ -13,8 +13,8 @@ contributors:
   - Joe Deng
 pinned: false
 homepage: false
-
-images: ["1656704162-copy-of-akash-blog-post-1.png"]
+images:
+  - 1656704162-copy-of-akash-blog-post-1.png
 ---
 Akash Weekly Spaces is a regular effort hosted via Twitter Spaces to update our community about the ins and outs of Akash Network’s developments. Follow us [on Twitter](https://twitter.com/akashnet_) to be notified when Akash Weekly Spaces are live.
 

@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925251-week-2-twitter-1.png"]
+images:
+  - 1620925251-week-2-twitter-1.png
 ---
   
 **Are you ready Akashian Challengers?!**   

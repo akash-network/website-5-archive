@@ -12,8 +12,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1633483077-supermini-update-banner.png"]
+images:
+  - 1633483077-supermini-update-banner.png
 ---
 We have an important announcement today, but first, I want to give a brief update on how Akash Network is progressing. We are seeing strong and consistent growth since releasing Akash’s distributed peer-to-peer marketplace for cloud compute in March. 
 

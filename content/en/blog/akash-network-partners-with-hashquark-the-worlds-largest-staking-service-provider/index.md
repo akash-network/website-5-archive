@@ -14,8 +14,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1620933836-hashquark-banner.png"]
+images:
+  - 1620933836-hashquark-banner.png
 ---
   
 We’re excited to announce a partnership with HashQuark, the largest Asian staking company and one of the world’s largest validators. 

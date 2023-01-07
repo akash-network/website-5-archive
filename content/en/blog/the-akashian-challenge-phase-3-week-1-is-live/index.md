@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925344-phase-3-live-twitter.png"]
+images:
+  - 1620925344-phase-3-live-twitter.png
 ---
   
 **Akashian Challengers have landed, and The Akashian Challenge Phase 3 Week 1 is officially LIVE!!!**  

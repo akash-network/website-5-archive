@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922423-artur-troian-thumb.png"]
+images:
+  - 1620922423-artur-troian-thumb.png
 ---
 _**“I'm excited to join Akash to help achieve 100% utilization of all cloud compute resources around the world.”**_  
   

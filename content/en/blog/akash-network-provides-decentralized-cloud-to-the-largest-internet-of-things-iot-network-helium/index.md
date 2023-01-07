@@ -13,8 +13,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1622567191-helium2.png"]
+images:
+  - 1622567191-helium2.png
 ---
 > Migrating the Helium blockchain's consensus group from hosted hotspots to validators is a major upgrade for scalability and performance. From the Foundation's perspective, we want to see Helium validators optimize for diversity of infrastructure and decentralization, which is why we're thrilled to have Akash in the Helium ecosystem. Not only is their performance and cost structure attractive to node operators, but their decentralized cloud aligns with our own ethos of creating permissionless and open systems.
 > 

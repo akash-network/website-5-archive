@@ -11,8 +11,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1621032443-screen-shot-2021-05-14-at-6-46-54-pm.png"]
+images:
+  - 1621032443-screen-shot-2021-05-14-at-6-46-54-pm.png
 ---
 **We’re grateful for the continued support of our global community as we build the world’s first decentralized cloud marketplace.**
 

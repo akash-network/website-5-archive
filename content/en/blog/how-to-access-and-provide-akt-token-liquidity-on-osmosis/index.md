@@ -12,8 +12,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1624480611-howtoomosis-blogbanner.png"]
+images:
+  - 1624480611-howtoomosis-blogbanner.png
 ---
 As [we shared last week](https://akash.network/blog/akt-token-launches-on-osmosis-the-first-decentralized-exchange-for-cosmos), one of our primary goals is to unlock Akash Network’s acceleration and expand global access to Akash Token (AKT) without arbitrary access restrictions. That’s why we were excited to announce our first decentralized exchange listing of AKT on Osmosis.
 

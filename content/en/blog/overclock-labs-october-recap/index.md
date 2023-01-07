@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1667332804-ovrclck-october-recap.png"]
+images:
+  - 1667332804-ovrclck-october-recap.png
 ---
 As we close out the month of October, here is a look back at our accomplishments over the past month.
 

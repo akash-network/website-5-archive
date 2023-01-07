@@ -13,8 +13,8 @@ contributors:
   - Adam Bozanich
 pinned: false
 homepage: false
-
-images: ["1621031455-screen-shot-2021-05-14-at-6-30-51-pm.png"]
+images:
+  - 1621031455-screen-shot-2021-05-14-at-6-30-51-pm.png
 ---
 Driven by increased consumer demand for throughput, a global surge of smartphones, rapid development of applications, and high DevOps server management costs, the cloud computing industry, projected to be a $370 billion market by 2022 (IDG 2019), is dominated by an oligarchy of four cloud service providers (Amazon Web Services, Google Cloud, Microsoft Azure, and Alibaba Cloud). 
 

@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925204-brian-fox-thumb.jpg"]
+images:
+  - 1620925204-brian-fox-thumb.jpg
 ---
 If you’ve ever used the GNU Bash, GNU Makeinfo, GNU Info, GNU Finger, GNU Echo, or GNU Emacs, chances are, you’ve heard of open source pioneer and innovator Brian Fox and have leveraged his ubiquitous and valuable open source contributions.  
 

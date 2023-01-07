@@ -11,8 +11,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620926049-july-thumb.png"]
+images:
+  - 1620926049-july-thumb.png
 ---
 **This month, our team will be closing out an incredibly productive Q3 with the realization of our Mainnet, launching next week on Friday, September 25th**. 
 

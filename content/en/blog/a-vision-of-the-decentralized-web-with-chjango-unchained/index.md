@@ -12,8 +12,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1620925340-chjango-thumb.png"]
+images:
+  - 1620925340-chjango-thumb.png
 ---
 > **The train doesn’t stop at DeFi or NFTs. We’re headed for destination dWeb. That’s kind of awesome to think about.**
 

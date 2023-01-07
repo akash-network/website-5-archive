@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922434-phase-2-live-banner.png"]
+images:
+  - 1620922434-phase-2-live-banner.png
 ---
 **Last week, we shared** [**an overview of The Akashian Challenge Phase 2**](https://akash.network/blog/announcing-the-akashian-challenge-phase-2/)**, including the Challenge Schedule and Rewards Schedule. Phase 2 will encompass 3 weeks of challenges, 600,000 AKT rewards, and special prizes.**
 

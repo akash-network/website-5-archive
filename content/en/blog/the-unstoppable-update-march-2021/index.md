@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620933937-unstoppable-march21.png"]
+images:
+  - 1620933937-unstoppable-march21.png
 ---
   
 The migration of work and life to the cloud, accelerated by the pandemic, as well as the centralization and consolidation of big tech, validates the need for a decentralized and open alternative to centralized cloud.  

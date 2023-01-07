@@ -12,8 +12,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1637167905-cloud-fun-1-new-resolution.gif"]
+images:
+  - 1637167905-cloud-fun-1-new-resolution.gif
 ---
 Everything we do today on the Internet leverages “the cloud.” The term has become so ubiquitous it can be hard to understand exactly what the cloud is, how it works, and how we interact with it.
 

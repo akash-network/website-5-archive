@@ -12,8 +12,8 @@ contributors:
   - Derek Anderson
 pinned: false
 homepage: false
-
-images: ["1626907103-git2skynet.png"]
+images:
+  - 1626907103-git2skynet.png
 ---
 At Akash Network, we are always looking for amazing ways to use our network adjacent to technologies that align with our mission and vision of a true and complete decentralized web. 
 

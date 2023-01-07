@@ -14,8 +14,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1650911720-blog-akash-mainnet3-launch.png"]
+images:
+  - 1650911720-blog-akash-mainnet3-launch.png
 ---
 Mainnet 3, unlocked 🚀
 

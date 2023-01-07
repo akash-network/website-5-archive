@@ -14,8 +14,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1648652615-chanda-blog-post.png"]
+images:
+  - 1648652615-chanda-blog-post.png
 ---
 As we barrel ahead towards Mainnet 3, estimated for the end of April 2022, we’re continuing to scale our team and fill integral roles that will help take product-market fit to the next stage in its maturity.
 

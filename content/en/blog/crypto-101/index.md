@@ -13,8 +13,8 @@ contributors:
   - AkashDudeBro
 pinned: false
 homepage: false
-
-images: ["1634830151-crypto-101-01.png"]
+images:
+  - 1634830151-crypto-101-01.png
 ---
 #### **The Basics: Why Does Crypto Matter?**
 

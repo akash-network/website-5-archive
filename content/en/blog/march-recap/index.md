@@ -15,8 +15,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1649088133-slide-16_9-4.png"]
+images:
+  - 1649088133-slide-16_9-4.png
 ---
 March 2022 was completely focused on all things Testnet 3, a necessary step to launching Mainnet 3 ([v0.16](https://github.com/ovrclk/akash/releases)). 
 

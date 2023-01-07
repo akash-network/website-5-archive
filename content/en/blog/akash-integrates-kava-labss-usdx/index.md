@@ -13,8 +13,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925350-kava-partnership-banner.png"]
+images:
+  - 1620925350-kava-partnership-banner.png
 ---
 Today, we’re excited to announce an integration with Kava, the first cross-blockchain DeFi platform, to enable Kava’s stablecoin USDX as the first coin for fee settlement on Akash’s DeCloud platform. The integration with Kava will also enable Akash Token (AKT) to be used as collateral for USDX loans.
 

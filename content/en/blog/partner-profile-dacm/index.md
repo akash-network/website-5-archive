@@ -12,8 +12,8 @@ contributors:
   - Olive Kimoto
 pinned: false
 homepage: false
-
-images: ["1621032056-screen-shot-2021-05-14-at-6-40-54-pm.png"]
+images:
+  - 1621032056-screen-shot-2021-05-14-at-6-40-54-pm.png
 ---
 > _"We were excited about Greg and team’s experience and knowledge of the market--even down to customer-by-customer granularity. We like to invest in teams that can build great tech but just importantly help drive usage of it. The Akash team’s knowledge and passion for what they are building made the decision for us."_ **— Richard Galvin, CEO**
 

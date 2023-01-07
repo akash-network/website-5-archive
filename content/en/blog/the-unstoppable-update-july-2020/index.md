@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621030040-screen-shot-2021-05-14-at-6-07-17-pm.png"]
+images:
+  - 1621030040-screen-shot-2021-05-14-at-6-07-17-pm.png
 ---
 **This past month was a month of acceleration for Akash**. After completion of a successful Phase 1 of The Akashian Challenge, our incentivized testnet, we launched the 3 weeks long Phase 2 to test and demonstrate the decentralized exchange features of our cloud platform. 
 

@@ -13,8 +13,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1628017573-communityfund-banner.png"]
+images:
+  - 1628017573-communityfund-banner.png
 ---
 ### Introducing the Akash Developer Grant Program
 

@@ -12,8 +12,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922425-serverless-is-bigger-than-faas.jpg"]
+images:
+  - 1620922425-serverless-is-bigger-than-faas.jpg
 ---
 There is a growing excitement in the developer community around the serverless paradigm, an idea that lets developers to deliver workloads without provisioning or managing servers.
 

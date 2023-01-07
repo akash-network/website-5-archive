@@ -11,8 +11,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1662672333-chia-blade-akash-network-supply-side-1920x1080-1.png"]
+images:
+  - 1662672333-chia-blade-akash-network-supply-side-1920x1080-1.png
 ---
 Chia has launched the beta of their Bladebit Disk plotting software, which takes the high performance of the original Bladebit and adds flexibility to support plotting across a wide range of systems. With Bladebit Disk, a Chia user has greater flexibility to create plots according to their time and cost preference.
 

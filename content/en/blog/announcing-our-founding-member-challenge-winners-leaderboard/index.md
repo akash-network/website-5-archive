@@ -11,8 +11,8 @@ contributors:
   - Michael Gushansky
 pinned: false
 homepage: false
-
-images: ["1622230077-akashian-challenge-jpeg-1024x392.jpeg"]
+images:
+  - 1622230077-akashian-challenge-jpeg-1024x392.jpeg
 ---
 Four weeks ago, we launched the Akash Founding Member Rewards Program for early contributors to Akash’s testnet and community. The program involved 3 progressively difficult challenges along with bonus challenges, and contributors joined from all over the world, including the U.S., Korea, Japan, China, Europe, India, and South America.  
   

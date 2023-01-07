@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925251-phase-3-start-twitter.png"]
+images:
+  - 1620925251-phase-3-start-twitter.png
 ---
 Anxious to flex your technical chops next Monday November 30, 2020 when The Akashian Challenge Phase 3 Testnet goes live?!  
   

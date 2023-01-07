@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922428-home-page-covid-300x226-1.jpg"]
+images:
+  - 1620922428-home-page-covid-300x226-1.jpg
 ---
 ![](https://www.datocms-assets.com/45776/1620921613-og.png)
 

@@ -11,8 +11,8 @@ contributors:
   - Adam Bozanich
 pinned: false
 homepage: false
-
-images: ["1620925213-teaser-twitter.png"]
+images:
+  - 1620925213-teaser-twitter.png
 ---
   
 Five years ago, when my cofounder Greg Osuri and I set out to build Akash Network, we had previously worked as open source developers and experienced first-hand the constraints of centralized cloud service providers.  

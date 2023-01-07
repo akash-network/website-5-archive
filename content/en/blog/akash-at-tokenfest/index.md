@@ -12,8 +12,8 @@ contributors:
   - Allison Silber
 pinned: false
 homepage: false
-
-images: ["1620922476-akash-at-token-fest-1.jpg"]
+images:
+  - 1620922476-akash-at-token-fest-1.jpg
 ---
 Last month we attended the inaugural [TokenFest](https://tokenfest.io/) held right here in San Francisco.  We have become more familiar with the conference circuit having attended a handful of them this year alone. TokenFest was a
 

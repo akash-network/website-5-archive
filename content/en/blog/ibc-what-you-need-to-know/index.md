@@ -12,8 +12,8 @@ contributors:
   - Greg Richardson
 pinned: false
 homepage: false
-
-images: ["1638463172-ibc-2-s2.gif"]
+images:
+  - 1638463172-ibc-2-s2.gif
 ---
 Welcome to [IBC](https://ibcprotocol.org/) 101. In this blog, together we’ll explore what IBC is, how it works and why it’s important, but first, why should you care?  IBC is a core component enabling the Cosmos vision and feeding the narrative that the [Cosmos](https://v1.cosmos.network/intro) network is the “Internet of blockchains.” Like gravity, IBC will help pull economic value into the growing blockchain that is the Cosmos Hub.  So without further ado, let’s delve into IBC’s unique properties, features and what’s in store next.  Let’s get to it.
 

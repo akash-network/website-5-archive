@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620925248-digifinex-twitter.png"]
+images:
+  - 1620925248-digifinex-twitter.png
 ---
   
 [**After an incredible 2020 of product, partnership, promotions, and people milestones achieved, our team is accelerating to the DeCloud in 2021!**  

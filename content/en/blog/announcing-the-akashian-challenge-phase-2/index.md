@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922468-phase-2-thumb.png"]
+images:
+  - 1620922468-phase-2-thumb.png
 ---
 **After much anticipation, we’re excited to announce THE SHIP HAS LANDED for The Akashian Challenge Phase 2: DEX Operations!**   
   

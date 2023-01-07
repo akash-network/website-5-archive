@@ -13,8 +13,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922426-blog-wires.jpg"]
+images:
+  - 1620922426-blog-wires.jpg
 ---
 In a market expected to exceed $198 billion by 2024, the leading cloud providers–Amazon Web Services (AWS), Google Cloud, and Microsoft Azure–dominate the market with 56% market share, and this figure is expected to increase. This accelerated growth is tied to increased consumer demand for throughput and content, a global surge of smartphones, rapid development of web and mobile applications, and high costs of DevOps for on-premise server management.
 

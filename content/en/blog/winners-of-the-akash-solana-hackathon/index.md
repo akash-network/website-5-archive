@@ -12,8 +12,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1625102144-hackathon-twitter.png"]
+images:
+  - 1625102144-hackathon-twitter.png
 ---
 **We’re excited to announce that every hacker who submitted a project at the** [**Solana Season Hackathon**](https://solana.com/solanaszn) **won a prize of $1,000 or more. Seven hackers entered; seven won prizes  🥳**
 

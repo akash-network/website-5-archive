@@ -12,8 +12,8 @@ contributors:
   - Greg Osuri
 pinned: false
 homepage: false
-
-images: ["1620922279-a-founders-guide-to-the-secs-1.jpg"]
+images:
+  - 1620922279-a-founders-guide-to-the-secs-1.jpg
 ---
 It’s no secret the regulatory regime in the US hasn’t been friendly to budding decentralized projects. This is because the SEC has tried to apply Howey analysis to crypto projects that effectively classify any token that requires management as a Security.
 

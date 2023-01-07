@@ -12,8 +12,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1670016915-ovrclck-nov-recap.png"]
+images:
+  - 1670016915-ovrclck-nov-recap.png
 ---
 As we close out November, here is a recap of the past month for Overclock Labs and Akash Network.
 

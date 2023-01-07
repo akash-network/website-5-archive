@@ -12,8 +12,8 @@ contributors:
   - 'Andrew Mello '
 pinned: false
 homepage: false
-
-images: ["1642481416-akash-x-chia-gif-blog.gif"]
+images:
+  - 1642481416-akash-x-chia-gif-blog.gif
 ---
 Hello Akashian’s, I'm Andrew Mello, the new Head of Mining Partnerships at Akash where I support mining communities' migration to the dWeb. With a shared vision for decentralizing storage on Web3, Akash is pleased to announce a partnership with the [Chia](https://chia.net) (XCH) team. Co-founded by Bram Cohen, the author of the Bittorrent protocol, Chia blockchain is based on a new Nakamoto consensus called "proof of space and time" which launched in March of 2021.  
 

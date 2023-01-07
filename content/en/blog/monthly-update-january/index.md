@@ -15,8 +15,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1643658090-photo_2022-01-31-11-41-21.jpeg"]
+images:
+  - 1643658090-photo_2022-01-31-11-41-21.jpeg
 ---
 Even though we started off 2022 with a bear market, this has been one of the strongest months not just for Akash Network, but for the Cosmos ecosystem as a whole. 
 

@@ -11,8 +11,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1621030912-cygni-twitter.png"]
+images:
+  - 1621030912-cygni-twitter.png
 ---
 **Quick facts about The Akashian Challenge Incentivized Testnet:**
 

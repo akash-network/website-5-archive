@@ -12,8 +12,8 @@ contributors:
   - Colin Pollen
 pinned: false
 homepage: false
-
-images: ["1628787989-mine-pkt-banner.png"]
+images:
+  - 1628787989-mine-pkt-banner.png
 ---
 Mining cryptocurrency on the cloud is much easier than building your own hardware. Cloud hosting usually comes at a higher cost and requires contracts, and service providers can charge extra fees for bandwidth usage. Making things more difficult, some cloud providers are shutting off mining operations at will. Crypto-mining projects like [PKT](https://pkt.cash/), are looking for better cloud providers and now they can run on Akash Network, the world’s first open-source and decentralized cloud marketplace.
 

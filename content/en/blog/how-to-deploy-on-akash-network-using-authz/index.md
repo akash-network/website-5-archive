@@ -11,8 +11,8 @@ contributors:
   - 'Zach Horn '
 pinned: false
 homepage: false
-
-images: ["1663103150-screen-shot-2022-09-13-at-5-05-36-pm.png"]
+images:
+  - 1663103150-screen-shot-2022-09-13-at-5-05-36-pm.png
 ---
 AuthZ is a feature that allows one wallet to spend the funds in another wallet, up to a specified limit.
 

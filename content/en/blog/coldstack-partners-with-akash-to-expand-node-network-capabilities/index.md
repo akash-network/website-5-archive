@@ -15,8 +15,8 @@ contributors:
   - Kelsey Ruiz
 pinned: false
 homepage: false
-
-images: ["1641332966-coldstack-graphic.png"]
+images:
+  - 1641332966-coldstack-graphic.png
 ---
 As Akash Network continues to scale and onboard new users contributing to Web 3.0, it’s important to have different storage options as the leading decentralized cloud infrastructure provider. 
 

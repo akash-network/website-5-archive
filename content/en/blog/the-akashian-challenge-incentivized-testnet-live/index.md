@@ -12,8 +12,8 @@ contributors:
   - Maly Ly
 pinned: false
 homepage: false
-
-images: ["1620922505-akashian-challenge.png"]
+images:
+  - 1620922505-akashian-challenge.png
 ---
 **It’s ON!**   
   

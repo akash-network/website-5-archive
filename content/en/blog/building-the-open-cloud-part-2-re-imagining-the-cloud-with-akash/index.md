@@ -13,8 +13,8 @@ contributors:
   - Anil Murty
 pinned: false
 homepage: false
-
-images: ["1665774930-re-imagining-the-cloud-with-akash.png"]
+images:
+  - 1665774930-re-imagining-the-cloud-with-akash.png
 ---
 This is the second entry in our [four-part blog series](https://akash.network/blog/building-the-open-cloud-part-one). In this post, we build on our summary from Part 1, which focused on the key challenges in web3 infrastructure today. If you prefer to watch a presentation of this, you can find the recording [here](https://www.youtube.com/watch?v=jGqZzNWQrNs).
 

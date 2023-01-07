@@ -12,8 +12,8 @@ contributors:
   - Allison Silber
 pinned: false
 homepage: false
-
-images: ["1620922422-akash-at-block-dev.jpg"]
+images:
+  - 1620922422-akash-at-block-dev.jpg
 ---
 As you may know, we are working hard to build [Akash](https://akash.network/), the open, decentralized marketplace for cloud compute. As much as we are in product mode at the moment, we also love the opportunity to connect with the community, check out other exciting projects and discuss the ever-changing blockchain world. Luckily, conferences allow us to do just that.
 

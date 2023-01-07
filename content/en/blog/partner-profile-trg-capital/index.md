@@ -12,8 +12,8 @@ contributors:
   - Olive Kimoto
 pinned: false
 homepage: false
-
-images: ["1621032872-screen-shot-2021-05-14-at-6-54-27-pm.png"]
+images:
+  - 1621032872-screen-shot-2021-05-14-at-6-54-27-pm.png
 ---
 > As a former basketball coach, you look at people to fulfill the offense and defense you’re trying to play - can the people you select on your roster execute this plan? Even though I left the basketball world four years ago, it is still a part of me: the way I see people, how teams operate, and how they can work together to achieve success.
 
