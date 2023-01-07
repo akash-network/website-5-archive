@@ -1,0 +1,6 @@
+{{ $svg := . }}
+{{ $class := print $svg "-icon" }}
+{{ $match := "<svg (.*)?>(.*)</svg>" }}
+
+{{ $replaceWith := printf `<svg class="%s" ${1}>${2}</svg>` $class }}
+{{ return (replaceRE $match $replaceWith (printf "/static/landing/%s.svg" $svg | readFile) | safeHTML) }}

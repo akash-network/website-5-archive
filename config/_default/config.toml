@@ -49,7 +49,7 @@ rel  = "sitemap"
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
-    maxAge = "30s"
+    maxAge = "60s"
 
 [sitemap]
   changefreq = "weekly"
