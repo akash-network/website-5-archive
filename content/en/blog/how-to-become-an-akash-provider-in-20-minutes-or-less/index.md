@@ -1,12 +1,17 @@
 ---
-title: "How to Become an Akash Provider in 20 Minutes or Less"
-date: 2022-06-16
-lastmod: 2022-06-17T14:24:28-07:00
+title: How to Become an Akash Provider in 20 Minutes or Less
+date: '2022-06-16'
+lastmod: '2022-06-17T14:24:28-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - News
+  - Insights
+  - Partners
+tags: []
+contributors:
+  - Alani Kuye
 pinned: false
 homepage: false
 

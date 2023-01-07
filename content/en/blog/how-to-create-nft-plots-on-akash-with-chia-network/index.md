@@ -1,12 +1,14 @@
 ---
-title: "How to Create NFT Plots on Akash with Chia Network"
-date: 2022-01-18
-lastmod: 2022-01-21T08:05:03-08:00
+title: How to Create NFT Plots on Akash with Chia Network
+date: '2022-01-18'
+lastmod: '2022-01-21T08:05:03-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+tags: []
+contributors:
+  - 'Andrew Mello '
 pinned: false
 homepage: false
 

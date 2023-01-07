@@ -1,12 +1,14 @@
 ---
-title: "Akash and Filebase Replace S3 with Multi-Cloud dWeb Providers"
-date: 2021-07-27
-lastmod: 2021-07-27T12:21:50-07:00
+title: Akash and Filebase Replace S3 with Multi-Cloud dWeb Providers
+date: '2021-07-27'
+lastmod: '2021-07-27T12:21:50-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

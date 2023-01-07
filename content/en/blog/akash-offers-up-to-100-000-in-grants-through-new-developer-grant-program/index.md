@@ -1,12 +1,15 @@
 ---
-title: "Akash Offers up to $100,000 in Grants Through New Developer Grant Program"
-date: 2021-08-04
-lastmod: 2021-08-04T09:08:46-07:00
+title: Akash Offers up to $100,000 in Grants Through New Developer Grant Program
+date: '2021-08-04'
+lastmod: '2021-08-04T09:08:46-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - News
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

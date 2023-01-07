@@ -1,12 +1,14 @@
 ---
-title: "Partner Profile: Simply VC"
-date: 2020-07-16
-lastmod: 2021-05-14T15:50:37-07:00
+title: 'Partner Profile: Simply VC'
+date: '2020-07-16'
+lastmod: '2021-05-14T15:50:37-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

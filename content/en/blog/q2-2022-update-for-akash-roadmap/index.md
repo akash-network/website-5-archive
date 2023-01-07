@@ -1,12 +1,15 @@
 ---
-title: "Q4 Update on Akash Roadmap 2022"
-date: 2021-12-20
-lastmod: 2021-12-24T00:55:05-08:00
+title: Q4 Update on Akash Roadmap 2022
+date: '2021-12-20'
+lastmod: '2021-12-24T00:55:05-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - News
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

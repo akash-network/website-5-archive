@@ -1,12 +1,14 @@
 ---
-title: "IBC: What You Need to Know"
-date: 2021-12-01
-lastmod: 2021-12-13T18:04:30-08:00
+title: 'IBC: What You Need to Know'
+date: '2021-12-01'
+lastmod: '2021-12-13T18:04:30-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Greg Richardson
 pinned: false
 homepage: false
 

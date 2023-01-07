@@ -1,12 +1,16 @@
 ---
-title: "Akash Network Unlocks Persistent Storage Through Mainnet 3 Upgrade"
-date: 2022-04-26
-lastmod: 2022-04-25T11:42:48-07:00
+title: Akash Network Unlocks Persistent Storage Through Mainnet 3 Upgrade
+date: '2022-04-26'
+lastmod: '2022-04-25T11:42:48-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Product
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

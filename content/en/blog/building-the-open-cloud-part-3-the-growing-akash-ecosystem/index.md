@@ -1,12 +1,13 @@
 ---
-title: "Building the Open Cloud, Part 3: The Growing Akash Ecosystem"
-date: 2022-11-03
-lastmod: 2022-11-03T13:24:17-07:00
+title: 'Building the Open Cloud, Part 3: The Growing Akash Ecosystem'
+date: '2022-11-03'
+lastmod: '2022-11-03T13:24:17-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Anil Murty
 pinned: false
 homepage: false
 

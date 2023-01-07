@@ -1,12 +1,14 @@
 ---
-title: "Six Trends Transforming Cloud Computing in 2020"
-date: 2020-01-10
-lastmod: 2021-05-13T09:12:01-07:00
+title: Six Trends Transforming Cloud Computing in 2020
+date: '2020-01-10'
+lastmod: '2021-05-13T09:12:01-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

@@ -1,12 +1,14 @@
 ---
-title: "How to Create an x509 Certificate in Browser for Fun and Profit"
-date: 2021-07-14
-lastmod: 2021-07-19T00:32:00-07:00
+title: How to Create an x509 Certificate in Browser for Fun and Profit
+date: '2021-07-14'
+lastmod: '2021-07-19T00:32:00-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+tags: []
+contributors:
+  - Derek Anderson
 pinned: false
 homepage: false
 

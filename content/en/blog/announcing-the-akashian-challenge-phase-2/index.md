@@ -1,12 +1,14 @@
 ---
-title: "Announcing The Akashian Challenge: Phase 2"
-date: 2020-06-25
-lastmod: 2021-05-13T09:14:49-07:00
+title: 'Announcing The Akashian Challenge: Phase 2'
+date: '2020-06-25'
+lastmod: '2021-05-13T09:14:49-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

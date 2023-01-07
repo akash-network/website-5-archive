@@ -1,12 +1,15 @@
 ---
-title: "Akash Weekly with Greg Osuri: August Updates, and Ali Merchant on Akash’s Developer Experience"
-date: 2022-09-02
-lastmod: 2022-09-02T15:32:19-07:00
+title: >-
+  Akash Weekly with Greg Osuri: August Updates, and Ali Merchant on Akash’s
+  Developer Experience
+date: '2022-09-02'
+lastmod: '2022-09-02T15:32:19-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

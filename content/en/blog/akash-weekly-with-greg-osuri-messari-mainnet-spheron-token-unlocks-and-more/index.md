@@ -1,12 +1,15 @@
 ---
-title: "Akash Weekly With Greg Osuri: Messari Mainnet, Spheron, Token Unlocks, and More"
-date: 2022-09-23
-lastmod: 2022-09-23T18:44:23-07:00
+title: >-
+  Akash Weekly With Greg Osuri: Messari Mainnet, Spheron, Token Unlocks, and
+  More
+date: '2022-09-23'
+lastmod: '2022-09-23T18:44:23-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

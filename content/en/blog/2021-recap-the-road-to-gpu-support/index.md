@@ -1,12 +1,17 @@
 ---
-title: "2021 Recap: The Road to GPU Support "
-date: 2021-12-27
-lastmod: 2021-12-30T18:49:34-08:00
+title: '2021 Recap: The Road to GPU Support '
+date: '2021-12-27'
+lastmod: '2021-12-30T18:49:34-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Partners
+  - Product
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

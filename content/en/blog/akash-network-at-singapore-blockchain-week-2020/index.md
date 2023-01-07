@@ -1,12 +1,14 @@
 ---
-title: "Akash Network at Singapore Blockchain Week 2020"
-date: 2020-07-21
-lastmod: 2021-05-13T09:36:56-07:00
+title: Akash Network at Singapore Blockchain Week 2020
+date: '2020-07-21'
+lastmod: '2021-05-13T09:36:56-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

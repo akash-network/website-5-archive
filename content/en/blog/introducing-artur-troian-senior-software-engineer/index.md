@@ -1,12 +1,14 @@
 ---
-title: "Introducing Artur Troian: Senior Software Engineer"
-date: 2020-05-13
-lastmod: 2021-05-13T09:14:14-07:00
+title: 'Introducing Artur Troian: Senior Software Engineer'
+date: '2020-05-13'
+lastmod: '2021-05-13T09:14:14-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Team
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

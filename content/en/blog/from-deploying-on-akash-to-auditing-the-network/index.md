@@ -1,12 +1,16 @@
 ---
-title: "From Deploying on Akash to Auditing the Network"
-date: 2022-06-28
-lastmod: 2022-06-28T14:39:39-07:00
+title: From Deploying on Akash to Auditing the Network
+date: '2022-06-28'
+lastmod: '2022-06-28T14:39:39-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Partners
+  - Product
+tags: []
+contributors:
+  - Alani Kuye
 pinned: false
 homepage: false
 

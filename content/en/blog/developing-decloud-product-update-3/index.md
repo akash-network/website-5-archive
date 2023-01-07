@@ -1,12 +1,13 @@
 ---
-title: "Developing DeCloud: Product Update 3"
-date: 2021-01-21
-lastmod: 2021-05-13T10:02:24-07:00
+title: 'Developing DeCloud: Product Update 3'
+date: '2021-01-21'
+lastmod: '2021-05-13T10:02:24-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Adam Bozanich
 pinned: false
 homepage: false
 

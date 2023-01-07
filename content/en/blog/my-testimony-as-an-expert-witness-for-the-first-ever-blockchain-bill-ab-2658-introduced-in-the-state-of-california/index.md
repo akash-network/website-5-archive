@@ -1,12 +1,16 @@
 ---
-title: "My testimony as an expert witness for the first ever blockchain bill (AB 2658) introduced in the state of California"
-date: 2018-04-10
-lastmod: 2021-05-13T09:11:28-07:00
+title: >-
+  My testimony as an expert witness for the first ever blockchain bill (AB 2658)
+  introduced in the state of California
+date: '2018-04-10'
+lastmod: '2021-05-13T09:11:28-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

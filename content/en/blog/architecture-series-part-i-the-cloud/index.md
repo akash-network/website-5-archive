@@ -1,12 +1,14 @@
 ---
-title: "Architecture Series Part I: The Cloud"
-date: 2021-11-17
-lastmod: 2021-12-02T22:07:02-08:00
+title: 'Architecture Series Part I: The Cloud'
+date: '2021-11-17'
+lastmod: '2021-12-02T22:07:02-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

@@ -1,12 +1,13 @@
 ---
-title: "Akash Weekly with Greg Osuri: Julian Morales from Vixēllo"
-date: 2022-08-26
-lastmod: 2022-08-26T14:19:34-07:00
+title: 'Akash Weekly with Greg Osuri: Julian Morales from Vixēllo'
+date: '2022-08-26'
+lastmod: '2022-08-26T14:19:34-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

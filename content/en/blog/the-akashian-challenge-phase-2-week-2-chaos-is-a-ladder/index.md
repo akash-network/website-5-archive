@@ -1,12 +1,14 @@
 ---
-title: "The Akashian Challenge Phase 2 Week 2: Chaos is a Ladder"
-date: 2020-07-13
-lastmod: 2021-05-13T09:14:20-07:00
+title: 'The Akashian Challenge Phase 2 Week 2: Chaos is a Ladder'
+date: '2020-07-13'
+lastmod: '2021-05-13T09:14:20-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

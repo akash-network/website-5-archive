@@ -1,12 +1,14 @@
 ---
-title: "Battling COVID-19 with Blockchain, AI, and Cloud Computing"
-date: 2020-04-01
-lastmod: 2021-05-13T09:14:13-07:00
+title: Battling COVID-19 with Blockchain, AI, and Cloud Computing
+date: '2020-04-01'
+lastmod: '2021-05-13T09:14:13-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

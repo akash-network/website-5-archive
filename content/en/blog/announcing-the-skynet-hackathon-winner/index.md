@@ -1,12 +1,15 @@
 ---
-title: "Announcing the Skynet Hackathon Winner "
-date: 2021-08-23
-lastmod: 2021-08-24T03:55:18-07:00
+title: 'Announcing the Skynet Hackathon Winner '
+date: '2021-08-23'
+lastmod: '2021-08-24T03:55:18-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Partners
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

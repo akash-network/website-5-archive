@@ -1,12 +1,14 @@
 ---
-title: "The Akashian Challenge  Phase 1: Sirius Release Update"
-date: 2020-05-11
-lastmod: 2021-05-19T07:29:57-07:00
+title: 'The Akashian Challenge  Phase 1: Sirius Release Update'
+date: '2020-05-11'
+lastmod: '2021-05-19T07:29:57-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

@@ -1,12 +1,14 @@
 ---
-title: "Overclock Labs: July 2022 Recap"
-date: 2022-08-15
-lastmod: 2022-08-15T14:12:26-07:00
+title: 'Overclock Labs: July 2022 Recap'
+date: '2022-08-15'
+lastmod: '2022-08-15T14:12:26-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

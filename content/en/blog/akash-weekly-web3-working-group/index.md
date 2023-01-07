@@ -1,12 +1,15 @@
 ---
-title: "Akash Weekly: Web3 Working Group"
-date: 2022-12-02
-lastmod: 2022-12-03T11:27:32-08:00
+title: 'Akash Weekly: Web3 Working Group'
+date: '2022-12-02'
+lastmod: '2023-01-06T13:57:55-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Updates
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

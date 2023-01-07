@@ -1,12 +1,14 @@
 ---
-title: "Become an Akash Founding Member and Earn Token Rewards"
-date: 2019-11-06
-lastmod: 2021-05-28T12:35:25-07:00
+title: Become an Akash Founding Member and Earn Token Rewards
+date: '2019-11-06'
+lastmod: '2021-05-28T12:35:25-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

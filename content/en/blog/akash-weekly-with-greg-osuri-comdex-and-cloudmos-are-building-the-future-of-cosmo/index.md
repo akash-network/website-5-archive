@@ -1,12 +1,15 @@
 ---
-title: "Akash Weekly With Greg Osuri: Comdex and Cloudmos Are Building the Future of Cosmos"
-date: 2022-09-09
-lastmod: 2022-09-09T15:48:08-07:00
+title: >-
+  Akash Weekly With Greg Osuri: Comdex and Cloudmos Are Building the Future of
+  Cosmos
+date: '2022-09-09'
+lastmod: '2022-09-09T15:48:08-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

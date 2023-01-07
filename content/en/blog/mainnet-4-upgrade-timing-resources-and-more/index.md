@@ -1,12 +1,14 @@
 ---
-title: "Mainnet 4: Upgrade Timing, Resources, and More"
-date: 2022-11-17
-lastmod: 2022-11-17T09:43:35-08:00
+title: 'Mainnet 4: Upgrade Timing, Resources, and More'
+date: '2022-11-17'
+lastmod: '2022-11-17T09:43:35-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

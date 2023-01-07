@@ -1,12 +1,16 @@
 ---
-title: "Akash Network Partners with HashQuark, the World's Largest Staking+ Service Provider"
-date: 2021-04-20
-lastmod: 2021-05-13T12:24:10-07:00
+title: >-
+  Akash Network Partners with HashQuark, the World's Largest Staking+ Service
+  Provider
+date: '2021-04-20'
+lastmod: '2021-05-13T12:24:10-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

@@ -1,12 +1,13 @@
 ---
-title: "The Unstoppable Update: September 2020"
-date: 2020-09-16
-lastmod: 2021-05-13T10:14:24-07:00
+title: 'The Unstoppable Update: September 2020'
+date: '2020-09-16'
+lastmod: '2021-05-13T10:14:24-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

@@ -1,12 +1,13 @@
 ---
-title: "Bootstrapping a Free Market by Borrowing from the Future"
-date: 2019-10-07
-lastmod: 2021-05-13T09:14:19-07:00
+title: Bootstrapping a Free Market by Borrowing from the Future
+date: '2019-10-07'
+lastmod: '2021-05-13T09:14:19-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

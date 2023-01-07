@@ -1,12 +1,17 @@
 ---
-title: "Monthly Update: January  "
-date: 2022-02-01
-lastmod: 2022-02-14T00:41:24-08:00
+title: 'Monthly Update: January  '
+date: '2022-02-01'
+lastmod: '2022-02-14T00:41:24-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Insights
+  - Product
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

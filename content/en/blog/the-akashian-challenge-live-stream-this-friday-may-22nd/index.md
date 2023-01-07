@@ -1,12 +1,14 @@
 ---
-title: "The Akashian Challenge Live Stream: This Friday May 22nd"
-date: 2020-05-20
-lastmod: 2021-05-14T15:23:12-07:00
+title: 'The Akashian Challenge Live Stream: This Friday May 22nd'
+date: '2020-05-20'
+lastmod: '2021-05-14T15:23:12-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Michael Gushansky
 pinned: false
 homepage: false
 

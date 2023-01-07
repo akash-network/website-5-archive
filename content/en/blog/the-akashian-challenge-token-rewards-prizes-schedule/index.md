@@ -1,12 +1,14 @@
 ---
-title: "The Akashian Challenge Token Rewards & Prizes Schedule"
-date: 2020-04-28
-lastmod: 2021-05-19T07:34:12-07:00
+title: The Akashian Challenge Token Rewards & Prizes Schedule
+date: '2020-04-28'
+lastmod: '2021-05-19T07:34:12-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Testnets
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

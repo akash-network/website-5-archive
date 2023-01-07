@@ -36,25 +36,27 @@ $ npm run release:major
 ### Priorities
 
 - **Homepage**
-  - [ ] Write draft copy for benefits and features
+  - [x] Write draft copy for benefits and features
   - [ ] Add "latest from the blog"
-  - [ ] Add connect with community
   - [ ] (Stretch) Add Case studies preview
   - [ ] Link Get Started to Docs
   - [ ] Social Media Preview
-- **Docs**
-  - [ ] Replace tokenizer with text replace
-  - [ ] Import all Docs
+  - [ ] Add connect with community
+  - [ ] Add subscribe to newsletter
 - **Blog**
   - [ ] Add By Year Filter for Blog
-  - [ ] Fetch Author, Tags and Categories from DatoCMS
+  - [x] Fetch Author from DatoCMS
+  - [x] Fetch Tags and Categories from DatoCMS
 - **Community**
   - [ ] Design: Community Page
   - [ ] Design: Homepage
   - [ ] Add News Section
   - [ ] Add Contributors Section
 - **Token**
-  - [ ] Add Token Metrics (Build time) on Token Page
+  - [x] Add Token Metrics (Build time) on Token Page
+- **Docs**
+  - [ ] Replace tokenizer with text replace
+  - [ ] Import all Docs
 - **Misc**
   - [ ] (Stretch) Enable GoAT diagram support (migrate away from doks)
   - [ ] Enable Social Media preview
@@ -66,4 +68,3 @@ $ npm run release:major
 - Development Documentation
   - [ ] Add a "How to contribute" section to the README
   - [ ] Add a "How to run the website locally" section to the README
-

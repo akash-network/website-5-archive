@@ -1,12 +1,14 @@
 ---
-title: "Web3 Is Welcome on Akash Network"
-date: 2022-08-30
-lastmod: 2022-08-31T08:38:54-07:00
+title: Web3 Is Welcome on Akash Network
+date: '2022-08-30'
+lastmod: '2023-01-06T13:59:49-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

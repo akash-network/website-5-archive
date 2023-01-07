@@ -1,12 +1,14 @@
 ---
-title: "Deploy onto Akash: Setting up Your Keplr Wallet"
-date: 2021-08-19
-lastmod: 2021-08-20T19:06:42-07:00
+title: 'Deploy onto Akash: Setting up Your Keplr Wallet'
+date: '2021-08-19'
+lastmod: '2021-08-20T19:06:42-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+tags: []
+contributors:
+  - 'Anthony Rosa '
 pinned: false
 homepage: false
 

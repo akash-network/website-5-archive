@@ -1,12 +1,13 @@
 ---
-title: "Akash MAINNET 2 Update: April 29, 2021"
-date: 2021-05-05
-lastmod: 2021-05-13T10:02:48-07:00
+title: 'Akash MAINNET 2 Update: April 29, 2021'
+date: '2021-05-05'
+lastmod: '2021-05-13T10:02:48-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Neil Gehani
 pinned: false
 homepage: false
 

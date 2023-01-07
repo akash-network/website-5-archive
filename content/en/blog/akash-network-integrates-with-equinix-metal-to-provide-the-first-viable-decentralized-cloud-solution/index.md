@@ -1,12 +1,15 @@
 ---
-title: "Akash Network Integrates with Equinix Metal to Provide the First Viable Decentralized Cloud Solution"
-date: 2021-03-03
-lastmod: 2021-05-13T15:41:37-07:00
+title: >-
+  Akash Network Integrates with Equinix Metal to Provide the First Viable
+  Decentralized Cloud Solution
+date: '2021-03-03'
+lastmod: '2021-05-13T15:41:37-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

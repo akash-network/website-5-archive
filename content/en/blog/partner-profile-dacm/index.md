@@ -1,12 +1,14 @@
 ---
-title: "Partner Profile: DACM"
-date: 2020-09-02
-lastmod: 2021-05-14T15:48:28-07:00
+title: 'Partner Profile: DACM'
+date: '2020-09-02'
+lastmod: '2021-05-14T15:48:28-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Olive Kimoto
 pinned: false
 homepage: false
 

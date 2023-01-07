@@ -1,12 +1,14 @@
 ---
-title: "Overclock Labs: October 2022 Recap"
-date: 2022-11-01
-lastmod: 2022-12-01T17:06:03-08:00
+title: 'Overclock Labs: October 2022 Recap'
+date: '2022-11-01'
+lastmod: '2022-12-01T17:06:03-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

@@ -1,12 +1,16 @@
 ---
-title: "Introducing our First VP of Engineering, Chanda Dharap"
-date: 2022-03-30
-lastmod: 2022-03-30T08:08:13-07:00
+title: Introducing our First VP of Engineering, Chanda Dharap
+date: '2022-03-30'
+lastmod: '2022-03-30T08:08:13-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Testnets
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

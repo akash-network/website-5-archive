@@ -1,12 +1,16 @@
 ---
-title: "Akash Weekly with Greg Osuri: The Importance of Open Source, Yieldmos Overview, and DeFi vs CeFi"
-date: 2022-08-05
-lastmod: 2022-09-27T11:42:28-07:00
+title: >-
+  Akash Weekly with Greg Osuri: The Importance of Open Source, Yieldmos
+  Overview, and DeFi vs CeFi
+date: '2022-08-05'
+lastmod: '2022-09-27T11:42:28-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

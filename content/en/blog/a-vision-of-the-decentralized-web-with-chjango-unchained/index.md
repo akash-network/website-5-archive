@@ -1,12 +1,14 @@
 ---
-title: "A Vision of the Decentralized Web with Chjango Unchained"
-date: 2021-04-08
-lastmod: 2021-05-20T07:25:40-07:00
+title: A Vision of the Decentralized Web with Chjango Unchained
+date: '2021-04-08'
+lastmod: '2021-05-20T07:25:40-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

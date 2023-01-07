@@ -1,12 +1,14 @@
 ---
-title: "An Evolution of Akash Network Token Economics"
-date: 2020-02-06
-lastmod: 2021-05-28T12:38:11-07:00
+title: An Evolution of Akash Network Token Economics
+date: '2020-02-06'
+lastmod: '2021-05-28T12:38:11-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

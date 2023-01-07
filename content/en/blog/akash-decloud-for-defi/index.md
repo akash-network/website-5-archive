@@ -1,12 +1,15 @@
 ---
-title: "Akash DeCloud for DeFi"
-date: 2020-09-08
-lastmod: 2021-05-13T10:13:03-07:00
+title: Akash DeCloud for DeFi
+date: '2020-09-08'
+lastmod: '2021-05-13T10:13:03-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

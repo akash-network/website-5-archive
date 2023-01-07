@@ -1,12 +1,15 @@
 ---
-title: "Akash Q1 Recap & Special Unveil"
-date: 2020-04-20
-lastmod: 2021-05-13T09:14:57-07:00
+title: Akash Q1 Recap & Special Unveil
+date: '2020-04-20'
+lastmod: '2021-05-13T09:14:57-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

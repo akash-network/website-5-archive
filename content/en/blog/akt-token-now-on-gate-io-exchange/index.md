@@ -1,12 +1,14 @@
 ---
-title: "AKT Token Now On Gate.io Exchange"
-date: 2021-03-12
-lastmod: 2021-05-13T12:45:04-07:00
+title: AKT Token Now On Gate.io Exchange
+date: '2021-03-12'
+lastmod: '2021-05-13T12:45:04-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

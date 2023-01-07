@@ -1,12 +1,14 @@
 ---
-title: "Akash at BlockDev"
-date: 2018-04-18
-lastmod: 2021-05-13T09:14:04-07:00
+title: Akash at BlockDev
+date: '2018-04-18'
+lastmod: '2021-05-13T09:14:04-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Allison Silber
 pinned: false
 homepage: false
 

@@ -1,12 +1,14 @@
 ---
-title: "Serverless is bigger than FaaS"
-date: 2017-11-28
-lastmod: 2021-05-13T09:14:07-07:00
+title: Serverless is bigger than FaaS
+date: '2017-11-28'
+lastmod: '2021-05-13T09:14:07-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

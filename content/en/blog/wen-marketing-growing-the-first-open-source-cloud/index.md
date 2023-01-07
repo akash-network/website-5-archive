@@ -1,12 +1,15 @@
 ---
-title: "Wen Marketing? Growing the First Open-Source Cloud"
-date: 2021-04-15
-lastmod: 2021-05-13T15:42:54-07:00
+title: Wen Marketing? Growing the First Open-Source Cloud
+date: '2021-04-15'
+lastmod: '2021-05-13T15:42:54-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+  - Team
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

@@ -1,12 +1,15 @@
 ---
-title: "Introducing the Permaweb Hackathon"
-date: 2021-11-08
-lastmod: 2021-11-16T22:45:49-08:00
+title: Introducing the Permaweb Hackathon
+date: '2021-11-08'
+lastmod: '2021-11-16T22:45:49-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - News
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

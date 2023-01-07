@@ -1,12 +1,14 @@
 ---
-title: "Akash Network Partners with CertiK"
-date: 2021-04-22
-lastmod: 2021-05-13T15:25:37-07:00
+title: Akash Network Partners with CertiK
+date: '2021-04-22'
+lastmod: '2021-05-13T15:25:37-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Partners
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

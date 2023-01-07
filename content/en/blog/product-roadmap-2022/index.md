@@ -1,12 +1,16 @@
 ---
-title: "Product Roadmap 2022"
-date: 2021-10-06
-lastmod: 2021-10-08T09:00:41-07:00
+title: Product Roadmap 2022
+date: '2021-10-06'
+lastmod: '2021-10-08T09:00:41-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - News
+  - Product
+tags: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 

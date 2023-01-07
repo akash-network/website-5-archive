@@ -1,12 +1,13 @@
 ---
-title: "Akash DeCloud: Mainnet 2 Teaser"
-date: 2021-02-11
-lastmod: 2021-05-13T10:01:13-07:00
+title: 'Akash DeCloud: Mainnet 2 Teaser'
+date: '2021-02-11'
+lastmod: '2021-05-13T10:01:13-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Adam Bozanich
 pinned: false
 homepage: false
 

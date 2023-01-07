@@ -1,12 +1,15 @@
 ---
-title: "Akash Weekly with Greg Osuri: July 27, 2022"
-date: 2022-07-29
-lastmod: 2022-10-14T08:12:23-07:00
+title: 'Akash Weekly with Greg Osuri: July 27, 2022'
+date: '2022-07-29'
+lastmod: '2022-10-14T08:12:23-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Insights
+  - News
+tags: []
+contributors:
+  - 'Zach Horn '
 pinned: false
 homepage: false
 

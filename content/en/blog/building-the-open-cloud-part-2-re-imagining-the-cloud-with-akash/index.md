@@ -1,12 +1,15 @@
 ---
-title: "Building the Open Cloud, Part 2: Re-Imagining the Cloud With Akash"
-date: 2022-10-14
-lastmod: 2022-10-14T14:53:41-07:00
+title: 'Building the Open Cloud, Part 2: Re-Imagining the Cloud With Akash'
+date: '2022-10-14'
+lastmod: '2022-10-14T14:53:41-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Product
+  - Developers
+tags: []
+contributors:
+  - Anil Murty
 pinned: false
 homepage: false
 

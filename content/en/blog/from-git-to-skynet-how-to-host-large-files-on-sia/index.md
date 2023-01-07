@@ -1,12 +1,14 @@
 ---
-title: "From Git to Skynet: How to Host Large Files on Sia"
-date: 2021-07-22
-lastmod: 2021-07-22T04:09:43-07:00
+title: 'From Git to Skynet: How to Host Large Files on Sia'
+date: '2021-07-22'
+lastmod: '2021-07-22T04:09:43-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+tags: []
+contributors:
+  - Derek Anderson
 pinned: false
 homepage: false
 

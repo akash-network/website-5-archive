@@ -1,12 +1,14 @@
 ---
-title: "Don’t Miss The Unstoppable Stack at IFX2019"
-date: 2019-12-03
-lastmod: 2021-05-28T12:31:51-07:00
+title: Don’t Miss The Unstoppable Stack at IFX2019
+date: '2019-12-03'
+lastmod: '2021-05-28T12:31:51-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 

@@ -1,12 +1,15 @@
 ---
-title: "Akash Network Provides Decentralized Cloud to the Largest Internet of Things (IoT) Network, Helium"
-date: 2021-05-27
-lastmod: 2021-08-26T13:34:44-07:00
+title: >-
+  Akash Network Provides Decentralized Cloud to the Largest Internet of Things
+  (IoT) Network, Helium
+date: '2021-05-27'
+lastmod: '2021-08-26T13:34:44-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories: []
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

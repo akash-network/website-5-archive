@@ -1,12 +1,14 @@
 ---
-title: "Winners of the Akash Solana Hackathon"
-date: 2021-07-01
-lastmod: 2021-07-01T03:18:09-07:00
+title: Winners of the Akash Solana Hackathon
+date: '2021-07-01'
+lastmod: '2021-07-01T03:18:09-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Colin Pollen
 pinned: false
 homepage: false
 

@@ -1,12 +1,17 @@
 ---
-title: "ColdStack Partners with Akash to Expand Node Network Capabilities"
-date: 2022-01-05
-lastmod: 2022-01-05T19:34:38-08:00
+title: ColdStack Partners with Akash to Expand Node Network Capabilities
+date: '2022-01-05'
+lastmod: '2022-01-05T19:34:38-08:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - Developers
+  - Partners
+  - Product
+  - News
+tags: []
+contributors:
+  - Kelsey Ruiz
 pinned: false
 homepage: false
 

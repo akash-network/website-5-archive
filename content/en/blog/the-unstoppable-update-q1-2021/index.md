@@ -1,12 +1,14 @@
 ---
-title: "The Unstoppable Update: Q1 2021"
-date: 2021-04-13
-lastmod: 2021-06-13T18:38:29-07:00
+title: 'The Unstoppable Update: Q1 2021'
+date: '2021-04-13'
+lastmod: '2021-06-13T18:38:29-07:00'
 draft: false
 weight: 50
-categories: ["News"]
-tags: ["Security", "Performance", "SEO"]
-contributors: ["John Doe"]
+categories:
+  - News
+tags: []
+contributors:
+  - Maly Ly
 pinned: false
 homepage: false
 
