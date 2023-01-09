@@ -5,9 +5,11 @@ lastmod: '2021-07-27T12:21:50-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - News
 tags:
   - Developers
+  - News
+  - Product
 contributors:
   - Colin Pollen
 pinned: false

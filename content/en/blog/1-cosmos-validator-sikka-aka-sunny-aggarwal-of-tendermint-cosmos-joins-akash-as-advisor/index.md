@@ -1,7 +1,5 @@
 ---
-title: >-
-  #1 Cosmos Validator Sikka aka Sunny Aggarwal of Tendermint/Cosmos Joins Akash
-  as Advisor
+title: "Cosmos Validator Sikka aka Sunny Aggarwal of Tendermint/Cosmos Joins Akash as Advisor"
 date: '2019-11-25'
 lastmod: '2021-05-28T12:34:10-07:00'
 draft: false
