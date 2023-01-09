@@ -7,8 +7,8 @@
     <div class="col-lg-8 text-center">
       <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2"
-        href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/"
-        role="button">{{ i18n "get-started" }}</a>
+        href="https://docs.akash.network/guides/deploy"
+        role="button" target="_blank">{{ i18n "get-started" }}</a>
       <p class="meta">Open-source Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">GitHub {{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}</a></p>
     </div>

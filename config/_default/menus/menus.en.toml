@@ -13,6 +13,11 @@
   url = "/token/"
   weight = 20
 
+[[token]]
+  name = "Bar"
+  url = "https://ipfs.io/ipfs/QmdV52bF7j4utynJ6L11RgG93FuJiUmBH1i7pRD6NjUt6B"
+  weight = 20
+
 [[main]]
   name = "Blog"
   url = "/blog/"
@@ -38,5 +43,12 @@
 
 [[main]]
   name = "Docs"
-  url = "docs/guides/apps-on-akash/"
+  url = "https://docs.akash.network"
   weight = 20
+  [main.params]
+    external = true
+
+# [[main]]
+#   name = "Docs 2"
+#   url = "docs/guides/apps-on-akash/"
+#   weight = 20

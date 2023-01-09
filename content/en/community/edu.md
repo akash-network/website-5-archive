@@ -7,10 +7,10 @@ lastmod: 2022-12-28T00:19:20-08:00
 draft: false
 images: []
 toc: true
-parent: community
 url: "community/edu"
 ---
 
+# Akash EDU
 
 ## Lorem ipsum dolor sit amet
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis dolor vel elit semper dapibus. Suspendisse ut vestibulum augue. In eu dapibus quam. Suspendisse nec nisl nec nulla sodales rhoncus. Aliquam erat volutpat. Sed ipsum est, pharetra mollis fringilla et, tempus eget odio. Aliquam aliquet viverra magna quis lacinia. Vestibulum maximus ipsum vel enim volutpat dignissim. Morbi feugiat leo mauris, in dapibus eros tincidunt sit amet. Praesent nec neque efficitur, fringilla est in, interdum urna. Fusce efficitur nec purus at egestas.
