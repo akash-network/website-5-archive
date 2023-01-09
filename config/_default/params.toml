@@ -79,7 +79,6 @@ alertText = "Mainnet 5 is Live! Upgrade instructions, release notes, and more <a
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
-#repoHost = "Gitea"
 docsRepo = "https://github.com/akash-network/akash-network.github.io"
 docsRepoBranch = "main"
 docsRepoSubPath = ""

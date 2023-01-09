@@ -64,3 +64,31 @@ Akash is a blockchain protocol built using Cosmos SDK that uses Proof-of-Stake c
 ### Interoperable with IBC
 
 Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.
+
+
+# Community
+
+
+
+
+Extra Resources
+
+```goat
+|-----------------------------------------------------------------------------------------------------|
+|                       | Providers  | Deployments | Clients   | Network Upgrades | Chain | Ops       |  
+|   SIGs                | ---------- | ------------|-----------|------------------|-------|-----------|
+|                       | Econonmics | Support     | Community |       Docs       | Edu   | Analytics |
+|-----------------------------------------------------------------------------------------------------|
+|   WGs                 |                                   GPU                                       |
+|                       |-----------------------------------------------------------------------------|
+|                       |                               Web Hosting                                   |
+|                       |-----------------------------------------------------------------------------|
+|                       |                                 ML/ AI                                      |
+|                       |-----------------------------------------------------------------------------|
+|                       |                              Cloud Parity                                   |
+|                       |-----------------------------------------------------------------------------|
+|                       |                                 Others                                      |
+|-----------------------------------------------------------------------------------------------------|
+|   UGs                 |                    POW Mining | Big Data | Others                           |
+|-----------------------------------------------------------------------------------------------------|
+```
