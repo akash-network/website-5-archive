@@ -15,6 +15,7 @@ homepage: false
 images:
   - 1620925340-chjango-thumb.png
 ---
+
 > **The train doesn’t stop at DeFi or NFTs. We’re headed for destination dWeb. That’s kind of awesome to think about.**
 
 As the decentralized ecosystem continues to grow and attract a diverse set of developers, we see the increasing need for simplicity, speed, and flexibility that serverless computing brings and a decentralized infrastructure that supports a future for decentralized web, also known as dWeb.   
@@ -25,9 +26,7 @@ To discuss the transformational potential of a truly decentralized web and what 
 ![](https://www.datocms-assets.com/45776/1620925201-0d8355e6-6602-5366-8e0c-bd5f457021f4.jpg)
 
   
-
 #### **Diving into Crypto and Blockchain Technology**  
-**\_\_\_\_\_**
 
 > **When the end of the bull market in mid-2018 came around, it was then while things quieted down when I could hear again. Handshake was being developed. I was close to the team as it was being built, and that became my gateway drug into dWeb.**
 

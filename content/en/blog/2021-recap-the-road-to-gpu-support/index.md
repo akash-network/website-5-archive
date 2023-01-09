@@ -1,16 +1,15 @@
 ---
-title: '2021 Recap: The Road to GPU Support '
+title: '2021 Recap: The Road to GPU Support'
 date: '2021-12-27'
 lastmod: '2021-12-30T18:49:34-08:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Updates
 tags:
   - Developers
   - Partners
   - Product
-  - News
 contributors:
   - Kelsey Ruiz
 pinned: false
