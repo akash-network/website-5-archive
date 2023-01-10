@@ -49,7 +49,7 @@ UGs are for facilitating open communication and discovery of topics that may end
 
 Committees are named sets of people that are chartered to take on sensitive topics. This group is encouraged to be as open as possible while achieving its mission but, because of the nature of the topics discussed, private communications are allowed. Examples of committees include the steering committee and things like security or code of conduct.
 
-- #### Steering Commitee
+- #### Steering Committee
   
     The Steeting Commitee is a special SIG that periodically evaluates the list of projects, prioritizes/ adds/ removes items from them and decides which SIG or WG is best suited to tackle it. The Steering committee also regularly meets to incorporate learnings to improve how the Akash Network community operates and performs conflict resolution as necessary.
 
