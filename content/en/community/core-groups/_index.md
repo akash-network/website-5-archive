@@ -61,6 +61,6 @@ To see a list of projects being worked on or under consideration see [community/
   
 - An “Ethereum-WG” that is focused on understanding how Akash Network can be adopted by the Ethereum ecosystem. They would define a strategy that includes: technical requirements for node operators and developers, along with non-technical things like events and Discord communications. These would also result in multiple projects for various SIGs.
 
-- Projects like the “provider microservices split” do not require a working group as they only pertain to the provider's code base and, as such, are just handled by the “Provider-SIG” and does not require a working group.
+- Projects like the “provider microservices split” do not require a working group as they only pertain to the provider's code base and, as such, are just handled by the “Provider-SIG.”
 
 - Support for Authorized Spend in Console would be handled by the “Clients-SIG” and does not need a dedicated work group.
