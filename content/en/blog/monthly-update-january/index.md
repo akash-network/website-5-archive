@@ -1,13 +1,13 @@
 ---
-title: 'Monthly Update: January  '
+title: 'Monthly Update: January'
 date: '2022-02-01'
 lastmod: '2022-02-14T00:41:24-08:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Updates
 tags:
-  - Developers
+  - Updates
   - Insights
   - Product
   - News

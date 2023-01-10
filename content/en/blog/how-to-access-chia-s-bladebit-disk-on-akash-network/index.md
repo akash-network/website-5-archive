@@ -1,14 +1,15 @@
 ---
-title: How To Access Chia’s Bladebit Disk on Akash Network
+title: 'How To Access Chia’s Bladebit Disk on Akash Network'
 date: '2022-09-08'
 lastmod: '2022-09-14T06:32:23-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Developers
+tags:
+  - Developers
 contributors:
-  - 'Zach Horn '
+  - 'Zach Horn'
 pinned: false
 homepage: false
 images:

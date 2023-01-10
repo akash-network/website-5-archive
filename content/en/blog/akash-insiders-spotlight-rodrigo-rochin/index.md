@@ -5,8 +5,9 @@ lastmod: '2022-09-26T11:34:06-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Community
+tags:
+  - Community
 contributors:
   - Akash Insiders
 pinned: false

@@ -1,5 +1,5 @@
 ---
-title: Web3 Is Welcome on Akash Network
+title: 'Web3 Is Welcome on Akash Network'
 date: '2022-08-30'
 lastmod: '2023-01-06T13:59:49-08:00'
 draft: false
@@ -9,7 +9,7 @@ categories:
 tags:
   - Insights
 contributors:
-  - 'Zach Horn '
+  - 'Zach Horn'
 pinned: false
 homepage: false
 images:

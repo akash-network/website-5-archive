@@ -1,5 +1,5 @@
 ---
-title: Akash Token (AKT) Supported on Emeris, the Portal to Cross-Chain DeFi
+title: 'Akash Token (AKT) Supported on Emeris, the Portal to Cross-Chain DeFi'
 date: '2021-08-24'
 lastmod: '2021-08-24T12:25:00-07:00'
 draft: false

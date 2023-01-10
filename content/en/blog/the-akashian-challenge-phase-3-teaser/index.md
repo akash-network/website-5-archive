@@ -1,5 +1,5 @@
 ---
-title: The Akashian Challenge Phase 3 Teaser
+title: 'The Akashian Challenge Phase 3 Teaser'
 date: '2020-11-12'
 lastmod: '2021-05-13T10:17:06-07:00'
 draft: false

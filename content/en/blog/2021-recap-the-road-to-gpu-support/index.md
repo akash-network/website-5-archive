@@ -7,6 +7,7 @@ weight: 50
 categories:
   - Updates
 tags:
+  - Updates
   - Developers
   - Partners
   - Product

@@ -1,14 +1,13 @@
 ---
-title: >-
-  Akash Weekly with Greg Osuri: Block Pane, Alter, and Developing for
-  Decentralization
+title: 'Akash Weekly with Greg Osuri: Block Pane, Alter, and Developing for Decentralization'
 date: '2022-08-12'
 lastmod: '2022-08-12T13:22:38-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Updates
+tags:
+  - Updates
 contributors:
   - 'Zach Horn '
 pinned: false

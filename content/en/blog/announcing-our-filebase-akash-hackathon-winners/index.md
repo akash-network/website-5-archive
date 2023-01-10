@@ -1,5 +1,5 @@
 ---
-title: 'Announcing our Filebase + Akash Hackathon Winners '
+title: 'Announcing our Filebase + Akash Hackathon Winners'
 date: '2021-10-29'
 lastmod: '2021-11-04T22:05:51-07:00'
 draft: false

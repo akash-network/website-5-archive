@@ -1,12 +1,13 @@
 ---
-title: Introducing Adam Wozney, Akash Senior Global Community Manager
+title: 'Introducing Adam Wozney, Akash Senior Global Community Manager'
 date: '2021-05-10'
 lastmod: '2021-05-13T10:31:33-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Team
+tags:
+  - Team
 contributors:
   - Maly Ly
 pinned: false

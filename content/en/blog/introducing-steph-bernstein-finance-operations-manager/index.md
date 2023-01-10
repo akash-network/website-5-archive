@@ -1,12 +1,13 @@
 ---
-title: Introducing Steph Bernstein, Finance & Operations Manager
+title: 'Introducing Steph Bernstein, Finance & Operations Manager'
 date: '2021-03-24'
 lastmod: '2021-05-13T10:02:24-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Team
+tags:
+  - Team
 contributors:
   - Kelsey Ruiz
 pinned: false

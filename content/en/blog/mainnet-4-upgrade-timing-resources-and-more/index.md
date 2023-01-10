@@ -5,11 +5,11 @@ lastmod: '2022-11-17T09:43:35-08:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Updates
 tags:
-  - News
+  - Updates
 contributors:
-  - 'Zach Horn '
+  - 'Zach Horn'
 pinned: false
 homepage: false
 images:

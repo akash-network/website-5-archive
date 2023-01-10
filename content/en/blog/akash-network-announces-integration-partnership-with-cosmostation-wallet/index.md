@@ -1,12 +1,13 @@
 ---
-title: Akash Network Announces Integration Partnership with Cosmostation Wallet
+title: 'Akash Network Announces Integration Partnership with Cosmostation Wallet'
 date: '2020-11-24'
 lastmod: '2021-05-14T15:00:37-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Partners
+tags:
+  - Partners
 contributors:
   - Maly Ly
 pinned: false

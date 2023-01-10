@@ -1,5 +1,5 @@
 ---
-title: Introducing Cheng Wang
+title: 'Introducing Cheng Wang'
 date: '2020-07-09'
 lastmod: '2021-05-13T09:14:35-07:00'
 draft: false

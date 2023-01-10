@@ -5,9 +5,9 @@ lastmod: '2022-07-27T09:47:26-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Insights
 tags:
-  - News
+  - Insights
   - Product
 contributors:
   - Michael Gushansky

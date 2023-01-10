@@ -1,5 +1,5 @@
 ---
-title: The Akashian Challenge Token Rewards & Prizes Schedule
+title: 'The Akashian Challenge Token Rewards & Prizes Schedule'
 date: '2020-04-28'
 lastmod: '2021-05-19T07:34:12-07:00'
 draft: false

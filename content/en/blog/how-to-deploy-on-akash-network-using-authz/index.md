@@ -1,14 +1,15 @@
 ---
-title: How to Deploy on Akash Network Using AuthZ
+title: 'How to Deploy on Akash Network Using AuthZ'
 date: '2022-09-13'
 lastmod: '2022-09-13T14:08:04-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Developers
+tags:
+  - Developers
 contributors:
-  - 'Zach Horn '
+  - 'Zach Horn'
 pinned: false
 homepage: false
 images:

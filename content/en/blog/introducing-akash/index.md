@@ -1,13 +1,13 @@
 ---
-title: Introducing Akash
+title: 'Introducing Akash'
 date: '2018-03-25'
 lastmod: '2021-05-13T09:14:06-07:00'
 draft: false
 weight: 50
 categories:
-  - Insights
+  - News
 tags:
-  - Insights
+  - News
 contributors:
   - Nick Alesandro
 pinned: false

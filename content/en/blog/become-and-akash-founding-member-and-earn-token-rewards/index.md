@@ -1,13 +1,13 @@
 ---
-title: Become an Akash Founding Member and Earn Token Rewards
+title: 'Become an Akash Founding Member and Earn Token Rewards'
 date: '2019-11-06'
 lastmod: '2021-05-28T12:35:25-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Community
 tags:
-  - News
+  - Community
 contributors:
   - Maly Ly
 pinned: false

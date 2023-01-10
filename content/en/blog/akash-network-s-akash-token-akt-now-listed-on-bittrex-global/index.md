@@ -1,12 +1,13 @@
 ---
-title: Akash Network’s Akash Token (AKT) Now Listed on Bittrex Global
+title: 'Akash Network’s Akash Token (AKT) Now Listed on Bittrex Global'
 date: '2021-05-25'
 lastmod: '2021-05-28T13:30:57-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - News
+tags:
+  - News
 contributors:
   - Maly Ly
 pinned: false

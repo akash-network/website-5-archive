@@ -1,5 +1,5 @@
 ---
-title: Introducing IP Leases on Akash Network
+title: 'Introducing IP Leases on Akash Network'
 date: '2022-11-23'
 lastmod: '2022-11-23T12:15:22-08:00'
 draft: false

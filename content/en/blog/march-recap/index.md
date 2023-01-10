@@ -1,13 +1,13 @@
 ---
-title: March Recap
+title: 'March Recap'
 date: '2022-04-04'
 lastmod: '2022-04-18T10:25:09-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Updates
 tags:
-  - Developers
+  - Updates
   - Testnets
   - Insights
   - Product

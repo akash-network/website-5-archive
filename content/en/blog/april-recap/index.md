@@ -1,12 +1,13 @@
 ---
-title: April Recap
+title: 'April Recap'
 date: '2022-05-04'
 lastmod: '2022-05-10T15:16:34-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Updates
 tags:
+  - Updates
   - Developers
   - Insights
   - News

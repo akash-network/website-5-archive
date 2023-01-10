@@ -1,11 +1,11 @@
 ---
-title: ColdStack Partners with Akash to Expand Node Network Capabilities
+title: 'ColdStack Partners with Akash to Expand Node Network Capabilities'
 date: '2022-01-05'
 lastmod: '2022-01-05T19:34:38-08:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Partners
 tags:
   - Developers
   - Partners

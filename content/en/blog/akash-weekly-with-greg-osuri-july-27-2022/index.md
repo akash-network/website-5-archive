@@ -5,12 +5,12 @@ lastmod: '2022-10-14T08:12:23-07:00'
 draft: false
 weight: 50
 categories:
-  - Insights
+  - Updates
 tags:
-  - Insights
+  - Updates
   - News
 contributors:
-  - 'Zach Horn '
+  - 'Zach Horn'
 pinned: false
 homepage: false
 images:

@@ -1,12 +1,13 @@
 ---
-title: SNZ Joins Akash Network’s Unstoppable Cloud
+title: 'SNZ Joins Akash Network’s Unstoppable Cloud'
 date: '2020-10-13'
 lastmod: '2021-05-14T15:13:43-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Partners
+tags:
+  - Partners
 contributors:
   - Olive Kimoto
 pinned: false

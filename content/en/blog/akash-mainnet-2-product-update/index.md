@@ -1,12 +1,14 @@
 ---
-title: Akash MAINNET 2 Product Update
+title: 'Akash MAINNET 2 Product Update'
 date: '2021-03-23'
 lastmod: '2021-05-13T10:02:28-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Updates
+tags:
+  - Updates
+  - Product
 contributors:
   - Adam Bozanich
 pinned: false

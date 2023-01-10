@@ -1,5 +1,5 @@
 ---
-title: Akash Partners with Cosmos’s Interchain Foundation
+title: 'Akash Partners with Cosmos’s Interchain Foundation'
 date: '2020-09-09'
 lastmod: '2021-05-14T14:52:09-07:00'
 draft: false

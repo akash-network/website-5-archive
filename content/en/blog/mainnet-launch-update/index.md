@@ -1,13 +1,13 @@
 ---
-title: Akash Mainnet Launch Update
+title: 'Akash Mainnet Launch Update'
 date: '2020-09-20'
 lastmod: '2021-05-14T15:38:11-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Updates
 tags:
-  - News
+  - Updates
   - Product
 contributors:
   - Boz Menzalji

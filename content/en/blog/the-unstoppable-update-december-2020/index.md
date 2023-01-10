@@ -5,9 +5,9 @@ lastmod: '2021-05-13T15:39:34-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Updates
 tags:
-  - News
+  - Updates
 contributors:
   - Michael Gushansky
 pinned: false

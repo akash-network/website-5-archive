@@ -1,12 +1,13 @@
 ---
-title: Akash Q4 2020 Roadmap Update
+title: 'Akash Q4 2020 Roadmap Update'
 date: '2020-08-26'
 lastmod: '2021-05-14T15:47:51-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Updates
+tags:
+  - Updates
 contributors:
   - Michael Gushansky
 pinned: false

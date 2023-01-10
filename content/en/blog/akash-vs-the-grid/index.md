@@ -1,13 +1,13 @@
 ---
-title: Akash vs The Grid
+title: 'Akash vs The Grid'
 date: '2018-05-30'
 lastmod: '2021-05-13T09:13:57-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Insights
 tags:
-  - News
+  - Insights
 contributors:
   - Nick Alesandro
 pinned: false

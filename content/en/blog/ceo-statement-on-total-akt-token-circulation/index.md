@@ -1,12 +1,13 @@
 ---
-title: CEO Statement on Total AKT Token Circulation
+title: 'CEO Statement on Total AKT Token Circulation'
 date: '2020-10-20'
 lastmod: '2021-05-14T15:09:20-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Updates
 tags:
+  - Updates
   - News
   - Product
 contributors:

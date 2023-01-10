@@ -1,5 +1,5 @@
 ---
-title: Decentralized Infrastructure is a Moral Imperative
+title: 'Decentralized Infrastructure is a Moral Imperative'
 date: '2018-03-19'
 lastmod: '2021-05-13T09:14:09-07:00'
 draft: false

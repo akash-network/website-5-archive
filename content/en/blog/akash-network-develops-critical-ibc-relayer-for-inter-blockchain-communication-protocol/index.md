@@ -1,14 +1,13 @@
 ---
-title: >-
-  Akash Network Develops Critical IBC Relayer for Inter-Blockchain Communication
-  Protocol
+title: 'Akash Network Develops Critical IBC Relayer for Inter-Blockchain Communication Protocol'
 date: '2021-02-18'
 lastmod: '2021-05-13T10:02:42-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - News
+tags:
+  - News
 contributors:
   - Maly Ly
 pinned: false

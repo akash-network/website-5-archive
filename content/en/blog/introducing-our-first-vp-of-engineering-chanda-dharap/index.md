@@ -1,15 +1,16 @@
 ---
-title: Introducing our First VP of Engineering, Chanda Dharap
+title: 'Introducing our First VP of Engineering, Chanda Dharap'
 date: '2022-03-30'
 lastmod: '2022-03-30T08:08:13-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Team
 tags:
   - Developers
   - Testnets
   - News
+  - Team
 contributors:
   - Kelsey Ruiz
 pinned: false
