@@ -7,29 +7,29 @@ date: 2023-1-09T00:19:20-08:00
 
 Welcome to the Akash Network community!
 
-This is the starting point for joining and contributing to building Akash Network - committing code, writing docs, testing product features & reporting bugs, organizing meetups, suggesting ideas for new features etc.
+This is the starting point for joining and contributing to building Akash Network - committing code, writing docs, testing product features & reporting bugs, organizing meetups, suggesting ideas for new features, and more.
 
 ## Getting Acquainted
 
-- To learn about the types of community groups read the rest of this document
-- To see a full list of current Akash Network community groups, see [community/cg-list](cg-list)
-- To learn about our product strategy & prioritization framework, see [community/product-strategy](product-strategy)
-- To see a list of projects being worked on or under consideration see [community/project-list](projects-list)
+- To learn about the types of community groups read the rest of this document.
+- To see a full list of current Akash Network community groups, see: [community/cg-list](cg-list)
+- To learn about our product strategy & prioritization framework, see: [community/product-strategy](product-strategy)
+- To see a list of projects being worked on or under consideration see: [community/project-list](projects-list)
 
 ## Getting started with contributing
 
-The Akash Network community welcomes contributions from community members at various levels of technical ability and familiarity with Akash. If you are interested in contributing to the project, please read through the "Getting Acquainted" section first, join our discord server and then refer to the below table, based on what you think your skillset is
+The Akash Network community welcomes contributions from community members at various levels of technical ability and familiarity with Akash. If you are interested in contributing to the project, please read through the "Getting Acquainted" section first. Then, join our discord server and refer to the below table to choose a starting point based on your skillset.
 
 | Your background | Suggested starting point for contribution |
 | --- | --- |
-| Non-technical, Never used Akash | [Review docs](https://docs.akash.network/) and attempt deploying a tetris game on Akash. Suggest any changes or improvements to the documentation by filing an issue in [sig-documentation](sig-documentation)|
-| Frontend (node, JS) developer, Never used Akash | [Review docs](https://docs.akash.network/) and deploy an application. Review code base for Akash Console or Cloudmos Deploy, set up local environment. Review open issues for either project, choose something (like a simple bug fix) that interests you and add a comment or submit a PR for review |
+| Non-technical, Never used Akash | [Review docs](https://docs.akash.network/) and attempt deploying a tetris game on Akash. Suggest any changes or improvements to the documentation by filing an issue in [sig-documentation](sig-documentation). |
+| Frontend (node, JS) developer, Never used Akash | [Review docs](https://docs.akash.network/) and deploy an application. Review code base for Akash Console or Cloudmos Deploy, set up local environment. Review open issues for either project, choose something (like a simple bug fix) that interests you and add a comment or submit a PR for review. |
 | Backend (Go) developer, Never used Akash | [Review docs](https://docs.akash.network/) and deploy an application on Akash using CLI. Review code base for Akash CLI and Provider Services, set up local development environment. Review open issues for either code base and comment on potential solution to any problem and/ or submit PR for review. |
-| Technical developer, Already building on Akash | Considering joining one of our [SIGs](cg-list), [WGs](cg-list) and writing a spec for our of the projects in the list or suggest a new prjoject to add to the [list of projects](projects-list) |
+| Technical developer, Already building on Akash | Considering joining one of our [SIGs](cg-list), [WGs](cg-list) and writing a spec for our of the projects in the list or suggest a new project to add to the [list of projects](projects-list). |
 
 ## Community Groups
 
-The Akash Network community groups are insipired by the [Kubernetes project](https://github.com/kubernetes/community) and currently consist of the following groups. As our community evolves, we will consider changing this structure as needed. All groups listed below or open to anyone interested in participating in them, except "Commitees" that have preassigned members.
+The Akash Network community groups are insipired by the [Kubernetes project](https://github.com/kubernetes/community) and currently consist of the following groups. As our community evolves, we will consider changing this structure as needed. All groups listed below or open to anyone interested in participating in them, except "Committees" that have preassigned members.
 
 ![Community Groups Block Diagram](akash-community-groups-block-diagram.png)
 
@@ -51,7 +51,7 @@ Committees are named sets of people that are chartered to take on sensitive topi
 
 - #### Steering Commitee
   
-    The Steeting Commitee is a special SIG that periodically evaluates the list of projects, prioritizes/ adds/ removes items from them and decides which SIG or WG is best suited to tackle it. The Steering committee also regularly meets to incorporate learnings to improve how the Akash Network community operates and performs conflict resolution as necessary
+    The Steeting Commitee is a special SIG that periodically evaluates the list of projects, prioritizes/ adds/ removes items from them and decides which SIG or WG is best suited to tackle it. The Steering committee also regularly meets to incorporate learnings to improve how the Akash Network community operates and performs conflict resolution as necessary.
 
 ### Examples
 
@@ -59,7 +59,7 @@ To see a list of projects being worked on or under consideration see [community/
 
 - A “GPU-WG” that works on end to end execution of what it will take for Akash Network to support GPUs. This may include specifications for changes to Deployments (SDL) and Providers, deciding on what vendors and models of GPUs fit with our customer use cases, figure out the best partnerships for sourcing GPU inventory for those models, decide whether we need to solve bandwidth pricing, running alpha/ beta testing etc.  The GPU-WGs work will potentially result in multiple projects being created for the “Providers-SIG”, the “Deployments-SIG”, the “Economics-SIG” and so on, who will define a lower level spec for their specific area (based on the overall high level spec defined by the GPU-SIG), and implement it.
   
-- An “Ethereum-WG” that is focused on understanding how Akash Network can be adopted by the ethereum ecosystem. They would define a strategy that includes, technical requirements for node operators, developers and also non-technical things like events and discord communications. These would result in multiple projects for various SIGs again
+- An “Ethereum-WG” that is focused on understanding how Akash Network can be adopted by the ethereum ecosystem. They would define a strategy that includes, technical requirements for node operators, developers and also non-technical things like events and discord communications. These would result in multiple projects for various SIGs again.
 
 - Projects like the “provider microservices split” do not require a working group as they only pertain to the providers code base and as such are just handled by the “Provider-SIG” and does not require a working group.
 
