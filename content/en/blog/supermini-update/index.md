@@ -1,13 +1,13 @@
 ---
-title: 'Supermini Update '
+title: 'Supermini Update'
 date: '2021-10-06'
 lastmod: '2021-10-08T08:52:27-07:00'
 draft: false
 weight: 50
 categories:
-  - Product
+  - Updates
 tags:
-  - Product
+  - Updates
 contributors:
   - Greg Osuri
 pinned: false

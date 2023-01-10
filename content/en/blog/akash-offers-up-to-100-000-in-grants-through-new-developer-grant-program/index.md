@@ -1,11 +1,11 @@
 ---
-title: Akash Offers up to $100,000 in Grants Through New Developer Grant Program
+title: 'Akash Offers up to $100,000 in Grants Through New Developer Grant Program'
 date: '2021-08-04'
 lastmod: '2021-08-04T09:08:46-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - News
 tags:
   - Developers
   - News

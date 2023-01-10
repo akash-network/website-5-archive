@@ -5,8 +5,9 @@ lastmod: '2022-11-03T13:24:17-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Insights
+tags:
+  - Insights
 contributors:
   - Anil Murty
 pinned: false

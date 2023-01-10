@@ -1,12 +1,13 @@
 ---
-title: Akash Network to Transition from Lunie to Cosmostation Wallet
+title: 'Akash Network to Transition from Lunie to Cosmostation Wallet'
 date: '2020-11-05'
 lastmod: '2021-05-14T15:03:03-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - News
+tags:
+  - News
 contributors:
   - Maly Ly
 pinned: false

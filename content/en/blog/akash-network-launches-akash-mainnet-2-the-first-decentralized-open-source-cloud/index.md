@@ -1,14 +1,13 @@
 ---
-title: >-
-  Akash Network Launches Akash MAINNET 2, the First Decentralized Open-Source
-  Cloud
+title: 'Akash Network Launches Akash MAINNET 2, the First Decentralized Open-Source Cloud'
 date: '2021-03-08'
 lastmod: '2021-06-21T17:46:55-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Updates
+tags:
+  - Updates
 contributors:
   - Maly Ly
 pinned: false

@@ -5,10 +5,11 @@ lastmod: '2022-02-14T00:32:41-08:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Insights
 tags:
   - Developers
   - Product
+  - Insights
 contributors:
   - Adam Bozanich
 pinned: false

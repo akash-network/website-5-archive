@@ -1,13 +1,13 @@
 ---
-title: End of Summer Update
+title: 'End of Summer Update'
 date: '2021-09-08'
 lastmod: '2021-09-12T23:06:03-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Updates
 tags:
-  - Developers
+  - Updates
   - Product
   - News
 contributors:

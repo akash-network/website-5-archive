@@ -1,12 +1,13 @@
 ---
-title: Akash Q1 Recap & Special Unveil
+title: 'Akash Q1 Recap & Special Unveil'
 date: '2020-04-20'
 lastmod: '2021-05-13T09:14:57-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Updates
 tags:
+  - Updates
   - News
   - Product
 contributors:

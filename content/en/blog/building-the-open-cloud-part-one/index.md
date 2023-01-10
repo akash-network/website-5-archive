@@ -5,8 +5,9 @@ lastmod: '2022-10-13T12:16:33-07:00'
 draft: false
 weight: 50
 categories:
-  - Product
+  - Insights
 tags:
+  - Insights
   - Product
   - Developers
 contributors:

@@ -1,5 +1,5 @@
 ---
-title: Wen Marketing? Growing the First Open-Source Cloud
+title: 'Wen Marketing? Growing the First Open-Source Cloud'
 date: '2021-04-15'
 lastmod: '2021-05-13T15:42:54-07:00'
 draft: false

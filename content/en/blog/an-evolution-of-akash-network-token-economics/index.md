@@ -1,13 +1,13 @@
 ---
-title: An Evolution of Akash Network Token Economics
+title: 'An Evolution of Akash Network Token Economics'
 date: '2020-02-06'
 lastmod: '2021-05-28T12:38:11-07:00'
 draft: false
 weight: 50
 categories:
-  - Product
+  - Insights
 tags:
-  - Product
+  - Insights
 contributors:
   - Greg Osuri
 pinned: false

@@ -5,7 +5,7 @@ lastmod: '2023-01-06T13:57:55-08:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Updates
 tags:
   - News
   - Updates

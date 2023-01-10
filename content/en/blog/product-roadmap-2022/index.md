@@ -5,7 +5,7 @@ lastmod: '2021-10-08T09:00:41-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Product
 tags:
   - Developers
   - News

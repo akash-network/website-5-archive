@@ -1,11 +1,11 @@
 ---
-title: Announcing Incentivized Testnet 3
+title: 'Announcing Incentivized Testnet 3'
 date: '2022-02-28'
 lastmod: '2022-03-28T08:58:34-07:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Testnets
 tags:
   - Developers
   - Testnets

@@ -1,15 +1,13 @@
 ---
-title: >-
-  Congratulations to Founding Member Challenge Contributors! Still Time to Join
-  for 5500 Akash Tokens!
+title: 'Congratulations to Founding Member Challenge Contributors! Still Time to Join for 5500 Akash Tokens!'
 date: '2019-12-09'
 lastmod: '2021-05-28T12:29:21-07:00'
 draft: false
 weight: 50
 categories:
-  - News
+  - Testnets
 tags:
-  - News
+  - Testnets
 contributors:
   - Michael Gushansky
 pinned: false

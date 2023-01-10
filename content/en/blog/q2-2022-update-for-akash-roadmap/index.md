@@ -1,13 +1,13 @@
 ---
-title: Q4 Update on Akash Roadmap 2022
+title: 'Q4 Update on Akash Roadmap 2022'
 date: '2021-12-20'
 lastmod: '2021-12-24T00:55:05-08:00'
 draft: false
 weight: 50
 categories:
-  - Developers
+  - Updates
 tags:
-  - Developers
+  - Updates
   - News
 contributors:
   - Greg Osuri

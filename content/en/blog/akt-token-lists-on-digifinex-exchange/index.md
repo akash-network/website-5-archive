@@ -1,12 +1,13 @@
 ---
-title: AKT Token Lists on DigiFinex Exchange
+title: 'AKT Token Lists on DigiFinex Exchange'
 date: '2021-01-22'
 lastmod: '2021-05-13T15:16:39-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - News
+tags:
+  - News
 contributors:
   - Maly Ly
 pinned: false

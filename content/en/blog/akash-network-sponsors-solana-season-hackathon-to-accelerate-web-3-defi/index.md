@@ -1,5 +1,5 @@
 ---
-title: Akash Network Sponsors Solana Season Hackathon to Accelerate Web 3 & DeFi
+title: 'Akash Network Sponsors Solana Season Hackathon to Accelerate Web 3 & DeFi'
 date: '2021-05-11'
 lastmod: '2021-05-13T15:06:22-07:00'
 draft: false

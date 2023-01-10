@@ -1,12 +1,13 @@
 ---
-title: Akash Network Validator Rewards
+title: 'Akash Network Validator Rewards'
 date: '2019-10-31'
 lastmod: '2021-05-28T12:36:10-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Community
+tags:
+  - Community
 contributors:
   - Greg Osuri
 pinned: false

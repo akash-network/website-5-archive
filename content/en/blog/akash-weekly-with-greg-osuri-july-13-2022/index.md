@@ -5,9 +5,9 @@ lastmod: '2022-07-15T17:17:28-07:00'
 draft: false
 weight: 50
 categories:
-  - Insights
+  - Updates
 tags:
-  - Insights
+  - Updates
   - News
 contributors:
   - Joe Deng

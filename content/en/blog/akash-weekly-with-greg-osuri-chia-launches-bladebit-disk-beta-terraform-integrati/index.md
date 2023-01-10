@@ -1,16 +1,15 @@
 ---
-title: >-
-  Akash Weekly with Greg Osuri: Chia Launches Bladebit Disk Beta, Terraform
-  Integration with Akash
+title: 'Akash Weekly with Greg Osuri: Chia Launches Bladebit Disk Beta, Terraform Integration with Akash'
 date: '2022-08-19'
 lastmod: '2022-08-21T11:07:10-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Updates
+tags:
+  - Updates
 contributors:
-  - 'Zach Horn '
+  - 'Zach Horn'
 pinned: false
 homepage: false
 images:

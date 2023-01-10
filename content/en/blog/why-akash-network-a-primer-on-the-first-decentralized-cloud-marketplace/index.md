@@ -1,5 +1,5 @@
 ---
-title: A Primer on the First Decentralized Cloud Marketplace
+title: 'A Primer on the First Decentralized Cloud Marketplace'
 date: '2020-07-07'
 lastmod: '2021-05-19T07:38:12-07:00'
 draft: false

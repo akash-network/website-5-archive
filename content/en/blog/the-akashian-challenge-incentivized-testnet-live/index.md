@@ -1,5 +1,5 @@
 ---
-title: The Akashian Challenge Incentivized Testnet LIVE
+title: 'The Akashian Challenge Incentivized Testnet LIVE'
 date: '2020-04-30'
 lastmod: '2021-05-19T07:32:28-07:00'
 draft: false

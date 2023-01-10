@@ -5,8 +5,9 @@ lastmod: '2021-05-13T10:14:24-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Updates
+tags:
+  - Updates
 contributors:
   - Greg Osuri
 pinned: false

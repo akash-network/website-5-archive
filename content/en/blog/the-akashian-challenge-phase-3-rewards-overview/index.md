@@ -5,8 +5,9 @@ lastmod: '2021-05-14T15:19:30-07:00'
 draft: false
 weight: 50
 categories:
-  - General
-tags: []
+  - Testnets
+tags:
+  - Testnets
 contributors:
   - Maly Ly
 pinned: false
