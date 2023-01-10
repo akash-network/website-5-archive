@@ -10,7 +10,7 @@ description = "Peer-to-Peer Marketplace for Computing Resources"
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["preview.png"]
 ogLocale = "en_US"
 domainTLD = "akash.network"
 titleHome = "Akash Network"
@@ -23,15 +23,15 @@ twitterCreator = "@akashnet_"
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Akash Network"
-schemaAuthor = "Overclock Labs Inc"
-schemaAuthorTwitter = "https://twitter.com/ovrclk_"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/gosuri/"
-schemaAuthorGitHub = "https://github.com/ovrclk"
+schemaAuthor = "Decentralized Cloud Foundation"
+schemaAuthorTwitter = "https://twitter.com/akashnet_"
+schemaAuthorLinkedIn = ""
+schemaAuthorGitHub = "https://github.com/akash-network"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaLogo = "logos/akash-logo-primary.png"
+schemaLogoWidth = 1129
+schemaLogoHeight = 224
+schemaImage = "preview.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/akashnet_"
@@ -74,7 +74,7 @@ copyRight = "Copyright © 2023 The Decentralized Cloud Foundation"
 alert = true
 alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Mainnet 5 is Live! Upgrade instructions, release notes, and more <a class=\"alert-link stretched-link\" href=\"/blog/mainnet-5-upgrade-instructions-release-notes-and-more/\">here</a>."
+alertText = "Mainnet 5 is live! Upgrade instructions, release notes, and more <a class=\"alert-link stretched-link\" href=\"/blog/mainnet-5-upgrade-instructions-release-notes-and-more/\">here</a>."
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
@@ -86,7 +86,7 @@ editPage = true
 lastMod = true
 
 [sections]
-  sectionNav = ["docs", "guides"]
+  sectionNav = ["docs", "guides", "community", "token", "blog"]
 
 [options]
   lazySizes = true
