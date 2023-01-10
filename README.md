@@ -40,7 +40,7 @@ $ npm run release:major
   - [x] Add subscribe to newsletter
   - [ ] Add Privacy page
   - [ ] Link Get Started to Docs
-  - [ ] Social Media Preview
+  - [x] Social Media Preview
   - [ ] Add connect with community
   - [ ] (Stretch) Add Case studies preview
 - **Blog**

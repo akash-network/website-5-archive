@@ -1,10 +1,10 @@
 {{ define "main" }}
 <section class="section container-fluid mt-n3 pb-5">
   <div class="row justify-content-center">
-    <div class="col-12 col-xl-12 text-center">
+    <div class="col-md-10 text-center">
       <h1 class=" my-4">{{ .Title }}</h1>
     </div>
-    <div class="col-lg-8 text-center">
+    <div class="col-md-8 text-center">
       <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2"
         href="https://docs.akash.network/guides/deploy"
@@ -21,10 +21,10 @@
 <section class="section section-sm mt-5">
   <div class="container text-left">
     <div class="row m-5 justify-content-center">
-      <div class="col-lg-6 text-center">
+      <div class="col-md-6 text-center">
         {{ partial "content/svg.html" "fish" }}
       </div>
-      <div class="col-lg-8">
+      <div class="col-md-8">
         <h2 class="h4">You will own your cloud, and you will be happy</h2>
         <p> With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
           sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
@@ -32,21 +32,21 @@
       </div>
     </div>
     <div class="row m-5 justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-md-8">
         <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
           customers submit their desired price and providers compete for the business. This often results in prices up
           to 85% lower than other cloud systems.</p>
       </div>
-      <div class="col-lg-6 text-center d-xs-none d-sm-none d-md-block">
+      <div class="col-md-6 text-center">
         {{ partial "content/svg.html" "pig" }}
       </div>
       <div class="row m-5 justify-content-center">
-        <div class="col-lg-6 text-center d-xs-none d-sm-none d-md-block">
+        <div class="col-md-6 text-center">
           {{ partial "content/svg.html" "parachute" }}
         </div>
-        <div class="col-lg-8">
+        <div class="col-md-8">
           <h2 class="h4">Built for battle, commanded by the community</h2>
           <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
             it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
@@ -60,57 +60,57 @@
 <section class="section section-sm text-left">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Infrastructure as Code</h2>
         <p class="small">Akash's orchestration layer lets you use a language called SDL, which is written in YAML and
           easy to understand. Using this, you can create complex deployments that span multiple areas and providers. You
           can choose the resources you want to use and decide on your price too.</p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Kubernetes Powered</h2>
         <p class="small"> Akash runs on Kubernetes, the industry-leading container orchestration system. With this in
           place, you can rest assured that your applications will be hosted on a secure and reliable platform that has
           been tested and proven to work. </p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Persistent Storage </h2>
         <p class="small">Akash offers a storage system that doesn't have limits and lets you keep data even after
           restarting, ideal for databases and programs that store large datasets.</p>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Dedicated IP Leasing</h2>
         <p class="small"> Akash gives you the ability to rent a dedicated IP address for your application. This allows
           you to assign any port of your choice to your deployment, and then direct traffic towards it. This is
           especially useful for services such as DNS, web servers, and more </p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Censorship Resistant and Unstoppable</h2>
         <p class="small"> Deploying applications on Akash is open to everyone, and is secure and censorship-proof.
           Nobody can stop you from using Akash to build apps that can't be censored </p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5"> Pseudonymous and Non-attributable </h2>
         <p class="small"> The Akash protocol is designed to protect your identity, providing a high level of privacy and
           security. You can use it to deploy applications anonymously, without anyone knowing who you are. </p>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Peer-to-peer and Private</h2>
         <p class="small"> You and the provider you're using to deploy your application communicate directly, without any
           external parties. This makes sure your data stays secure and private, and no one can claim a portion of your
           payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable
           and unaffected by single point of failure. </p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Layer One Protocol</h2>
         <p class="small"> Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to
           secure its network of decentralized validators. The network can be validated without permission and is secured
           by AKT, its native token. </p>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <h2 class="h5">Interoperable with IBC</h2>
         <p class="small"> Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication
           (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that
@@ -153,7 +153,7 @@
 {{ end }}
 
 {{ define "sidebar-footer" }}
-<div class="pt-5 mt-5 bg-light rounded-3 text-center ">
+<div class="py-2 mt-5 bg-light rounded-3 text-center ">
   <div class="container-fluid py-5 ">
     <div class="row justify-content-center">
       <div class="col-10">
