@@ -2,6 +2,8 @@
   name = "Ecosystem"
   url = "https://ecosystem.akash.network"
   weight = 40
+  [main.params]
+    external = true
 
 [[main]]
   name = "Community"
