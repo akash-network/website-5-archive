@@ -116,4 +116,5 @@
   {{ if $showFlexSearch -}}
     <script src="{{ $index.Permalink }}" integrity="{{ $index.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{ end -}}
+  {{ template "_internal/google_analytics.html" . }}
 {{ end -}}

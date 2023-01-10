@@ -8,6 +8,9 @@ enableRobotsTXT = true
 paginate = 10
 rssLimit = 10
 
+# Google Analytics
+googleAnalytics = "UA-321269804"
+
 # Multilingual
 defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
