@@ -12,7 +12,7 @@
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
 
     <a class="navbar-brand order-0" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
-      <div class="akash-logo-nav" aria-label="{{ .Site.Params.Title }}"> </div>
+      <div class="akash-logo-nav"> </div>
     </a>
 
     {{ if (in .Site.Params.sections.sectionNav .Section) -}}
