@@ -9,7 +9,7 @@
       <a class="btn btn-primary btn-lg px-4 mb-2"
         href="https://docs.akash.network/guides/deploy"
         role="button" target="_blank">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">GitHub {{ $data :=
+      <p class="meta">Open-source Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">{{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}</a></p>
     </div>
   </div>
@@ -47,7 +47,7 @@
           {{ partial "content/svg.html" "parachute" }}
         </div>
         <div class="col-md-8">
-          <h2 class="h4">Built for battle, commanded by the community</h2>
+          <h2 class="h4">Purpose built for public utility</h2>
           <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
             it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
             the community oversees all aspects of Akash, including decisions about what new features should be

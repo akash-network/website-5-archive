@@ -18,3 +18,7 @@ Akash has a maximum supply of 388,539,008 AKT, with {{< cgcirculatingsupply >}} 
 ##### What is the unlock schedule for the AKT token?
 
 AKT Unlock Schedule is available [here](https://docs.google.com/spreadsheets/d/1MUULetp59lgNq0z4ckVI51QdtMGvqtKOW8wRfX5R8yY/edit#gid=2130333819). Final Unlock for 8.9m AKT is upcoming in March 2023.
+
+##### Where can I find Economics Paper for Akash?
+
+Akash Economics Paper is available [here]().
