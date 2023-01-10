@@ -36,7 +36,7 @@
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "migrate:docs": "node ./scripts/migrate-docs.js",
-    "gen:community": "node ./scripts/import-community.",
+    "import:community": "node ./scripts/import-community.js",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
