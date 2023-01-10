@@ -1,0 +1,3 @@
+[submodule "stage/community"]
+	path = stage/community
+	url = https://github.com/akash-network/community.git
