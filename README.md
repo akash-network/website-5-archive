@@ -52,6 +52,7 @@ $ npm run release:major
   - [x] Fetch Author from DatoCMS
   - [x] Fetch Tags and Categories from DatoCMS
   - [ ] Add By Year Filter for Blog
+  - [ ] Import Images from DatoCMS
 - **Community**
   - [ ] Design: Community Page
   - [ ] Design: Homepage
