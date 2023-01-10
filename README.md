@@ -5,7 +5,7 @@ This repository contains the source code for the [Akash Network website](akash.n
 ## Generating Community Pages
 
 ```sh
-npm run gen:community
+npm run import:community
 ```
 
 ## Development
