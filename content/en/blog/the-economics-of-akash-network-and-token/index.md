@@ -50,5 +50,4 @@ Providers on Akash stake tokens to subsidize operating and capital expenditures.
 Fees on Akash can be settled using a multitude of currencies, however, the market order book uses Akash Token (AKT) as the reserve currency of the ecosystem. AKT provides a novel settlement option to lock in an exchange rate between AKT and the settlement currency. This way, providers and tenants are protected from the price volatility of AKT expected to result from its low liquidity. This paper also presents a method “Transaction Ordering using Consensus Weighted Median” to establish exchange rates without the need for an oracle.  
   
   
-
 **.:** [**Download The Akash Network Token Economic Model to Learn More**](https://akash.network/l/econ-paper) **:.**
