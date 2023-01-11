@@ -6,9 +6,8 @@
     </div>
     <div class="col-md-8 text-center">
       <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2"
-        href="https://docs.akash.network/guides/deploy"
-        role="button" target="_blank">{{ i18n "get-started" }}</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://docs.akash.network/guides/deploy" role="button"
+        target="_blank">{{ i18n "get-started" }}</a>
       <p class="meta">Open-source. Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">{{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}</a></p>
     </div>
@@ -19,7 +18,7 @@
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
 <section class="section section-sm mt-5">
-  <div class="container text-left">
+  <div class="container text-left d-none d-md-block">
     <div class="row m-5 justify-content-center">
       <div class="col-md-6 text-center">
         {{ partial "content/svg.html" "fish" }}
@@ -56,6 +55,41 @@
       </div>
     </div>
   </div>
+
+  <!-- Mobile Version -->
+  <div class="container justify-content-center text-left d-none d-xs-block d-sm-block d-md-none">
+    <div class="row">
+      <div class="col">
+        <h2 class="h4">You will own your cloud, and you will be happy</h2>
+        <p>
+          With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
+          sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
+          to run your applications.
+        </p>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col">
+        <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
+        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
+          makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
+          customers submit their desired price and providers compete for the business. This often results in prices up
+          to 85% lower than other cloud systems.</p>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col">
+        <h2 class="h4">Purpose built for public utility</h2>
+        <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
+          it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
+          the community oversees all aspects of Akash, including decisions about what new features should be
+          implemented.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
 </section>
 <section class="section section-sm text-left">
   <div class="container">
@@ -158,10 +192,11 @@
     <div class="row justify-content-center">
       <div class="col-10">
         <h2>Interested in receiving the latest Akash news? Sign up for Akash Newsletter</h2>
-        <p class="fs-5 text-center">Join 17,000+ subscribers who receive a weekly summary of everything happening across the Akash ecosystem.</p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://www.getrevue.co/profile/akashnetwork" target="_blank" rel="noopener noreferrer">Subscribe</a>
+        <p class="fs-5 text-center">Join 17,000+ subscribers who receive a weekly summary of everything happening across
+          the Akash ecosystem.</p>
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://www.getrevue.co/profile/akashnetwork" target="_blank"
+          rel="noopener noreferrer">Subscribe</a>
       </div>
-
     </div>
   </div>
 </div>
