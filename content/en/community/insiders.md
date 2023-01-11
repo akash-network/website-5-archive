@@ -27,4 +27,4 @@ Get a front-row education on the latest in web3 technologies
 Actively engage and learn from other community members from across the world
 Gain closer access to the Overclock Labs team
 
-Interested in becoming an Akash Insider? Apply today!
+Interested in becoming an Akash Insider? **[Apply today!](https://akashnet.typeform.com/to/PXpRWgfD)**
