@@ -1,7 +1,7 @@
 ---
 title: "The AKT Token"
 description: "AKT is the utility token powering the world’s first open-source cloud."
-lead: "Akash Network Token (AKT) is native utility token of the Akash Network, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value."
+lead: "Akash Network Token (AKT) is the native utility token of Akash Network. AKT is used as the primary means to govern the network, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value."
 date: 2020-08-27T19:23:18+02:00
 lastmod: 2020-08-27T19:23:18+02:00
 draft: false
@@ -11,7 +11,7 @@ images: []
 
 # Akash Network Token (AKT)
 
-Akash Network Token (AKT) is the native utility token of the Akash Network, used as the primary means to govern, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.
+Akash Network Token (AKT) is the native utility token of Akash Network. AKT is used as the primary means to govern the network, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value.
 
 ##### Security
 
@@ -19,7 +19,7 @@ Akash Network is secured by a Proof-of-Stake (PoS) blockchain, and AKT is used t
 
 ##### Governance
 
-Akash Network is community-owned and all aspects of the network are governed by AKT holders. AKT holders can vote on proposals to improve the network and manage critical parameters such as inflation rate and take rates.
+Akash Network is community-owned and all aspects of the network are governed by AKT holders. AKT holders can vote on proposals to improve the network and manage critical parameters such as the inflation rate and take rates.
 
 ##### Value Exchange
 
@@ -29,10 +29,9 @@ AKT provides a default mechanism to store and exchange value, and acts as a rese
 
 AKT is used to incentivize providers to offer lower prices, and incentivizes stakers to participate in the network longer term by staking.
 
-
 ## Ecosystem Tools
 
-The following tools are available to explore the Akash Network blockchain, stake AKT, and participate in governance:
+The following tools are available for exploring the Akash Network blockchain, staking AKT, and participating in governance:
 
 | Explorers | Wallets | Staking
 | :--- | :--- | :--- |
@@ -44,7 +43,7 @@ The following tools are available to explore the Akash Network blockchain, stake
 
 ## Token Metrics
 
-As of {{< cglastupdated >}}, the following are the AKT metrics, as reported by [Coingecko](https://www.coingecko.com/en/coins/akash-network).
+As of {{< cglastupdated >}}, these are the current AKT metrics, as reported by [Coingecko](https://www.coingecko.com/en/coins/akash-network).
 
 | |
 | :--- | :--- |

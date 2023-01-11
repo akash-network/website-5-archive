@@ -9,15 +9,15 @@ images: []
 
 # Akash Network Website
 
-Sovereign Infrastructure that Scales
+Sovereign Infrastructure That Scales
 
 ## Benefits
 
-Akash is an open network that lets users buy and sell computing resources securely and efficiently, purpose-built for public utility.
+Akash is an open network that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.
 
 ### You will own your cloud, and you will be happy
 
-With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them to run your applications.
+Discover the full potential of cloud computing with Akash. Deploy your own cloud infrastructure and optimize it by selling unused capacity to the network. Access this distributed network of cloud resources to run applications on demand.
 
 ### Supercloud at your fingertips, at a price you choose
 
