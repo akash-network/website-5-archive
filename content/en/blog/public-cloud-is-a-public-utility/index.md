@@ -1,15 +1,20 @@
 ---
 title: "Public Cloud Is a Public Utility"
-description: ""
+description: "Akash's journey to radical decentralization"
 excerpt: "Akash's journey to radical decentralization"
 date: 2023-01-12T01:05:24-08:00
 lastmod: 2023-01-12T01:05:24-08:00
 draft: true
 weight: 50
 images: []
-categories: []
+categories: 
+  - Updates
+  - News
+  - Product
+  - Community
 tags: []
-contributors: []
+contributors:
+  - Greg Osuri
 pinned: false
 homepage: false
 ---
