@@ -1,1 +1,1 @@
-{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "total_supply" | lang.NumFmt 0}}
+{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "circulating_supply" | lang.NumFmt 0}}
