@@ -6,7 +6,8 @@ date: 2023-01-12T01:05:24-08:00
 lastmod: 2023-01-12T01:05:24-08:00
 draft: true
 weight: 50
-images: []
+images:
+  - ovrclk-akash.png
 categories: 
   - Updates
   - News
