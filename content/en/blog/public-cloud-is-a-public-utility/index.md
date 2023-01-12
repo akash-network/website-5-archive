@@ -1,5 +1,5 @@
 ---
-title: "Public Cloud Is a Public Utility"
+title: "Public Cloud Is A Public Utility"
 description: "Akash's journey to radical decentralization"
 excerpt: "Akash's journey to radical decentralization"
 date: 2023-01-12T01:05:24-08:00
