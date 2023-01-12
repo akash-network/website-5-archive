@@ -38,10 +38,9 @@ Connect with us on [our Telegram](https://t.me/AkashNW), or [our Riot dev chat](
   
 **Go forth Akashians!**
 
-[**Get Started Now**  
-](https://docs.akash.network/akashian/centauri-2)[**Learn More**  
-  
-](https://akash.network/challenge/)
+[**Get Started Now**](https://docs.akash.network/akashian/centauri-2)
+
+[**Learn More**](https://akash.network/challenge/)
 
 ### **Cygni Release**  
 **\_\_\_\_\_**
