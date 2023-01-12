@@ -70,9 +70,10 @@ We also migrated key repositories from [ovrclk](https://github.com/ovrclk) GitHu
 
 **Kick Off** 🚀
 
-We're kicking off the first meeting on January 26th, 2023 10am. We'd love your contributions.
+Our new working model is already underway, and we have already had several successful WG meetings with the Akash Community and ecosystem partners.
 
-The meeting notes, updates, and progress will be archived on [GitHub](https://github.com/akash-network/community) and published on [Akash Website](https://akash.network/community) regularly, as the groups frequently meet in the open.
+The first Steering Committee meeting is scheduled for January 26th, 2023. In the meantime, browse Akash's [GitHub](https://github.com/akash-network/community) to learn about the various SIGs and WGs that are currently active — and head over to our Discord to join the conversation.
+
 
 #### How can you contribute?
 
