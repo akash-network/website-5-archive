@@ -7,7 +7,7 @@ lastmod: 2023-01-12T01:05:24-08:00
 draft: false
 weight: 50
 images:
-  - ovrclk-akash.png
+  - public-cloud-is-public-utility.png
 categories: 
   - Updates
 tags:
