@@ -56,21 +56,21 @@ A committee is a designated group of people who discuss sensitive topics. They a
 
 Regular meetings help the Akash Network community operate more efficiently. If needed, it also resolves conflicts. The Steering Committee is a particular SIG that evaluates projects, prioritizes, and assigns them to the proper SIG or WG.
 
-### Next Steps
+### Whats Next?
 
-**New Website**
+#### New Website ✨
 
 We're super excited to launch and open-source the completely rebuilt Akash [website](https://akash.network). The source code and all its content are available on [GitHub](https://github.com/akash-network/website) for anyone to contribute. Browse through and suggest a feature or report a bug.
 
 The new website allows people to quickly post content that was created by the community. It has a modern design which makes it easier to navigate and read.
 
-**New GitHub Organization**
+#### New GitHub Home 🏡
 
 We also migrated key repositories from [ovrclk](https://github.com/ovrclk) GitHub organization to [akash-network](https://github.com/akash-network) organization. The new organization will be the home of all Akash Network-related repositories. The migration is still in progress, and we will update the list as we move more repositories.
 
-**Kick Off** 🚀
+#### Kick Off 🚀
 
-Our new working model is already underway, and we have already had several successful WG meetings with the Akash Community and ecosystem partners.
+Our new working model is already underway, and we have already had several successful [WG meetings](https://github.com/akash-network/community/tree/main/wg-content-moderation) with the Akash Community and ecosystem partners.
 
 The first Steering Committee meeting is scheduled for January 26th, 2023. In the meantime, browse Akash's [GitHub](https://github.com/akash-network/community) to learn about the various SIGs and WGs that are currently active — and head over to our Discord to join the conversation.
 
