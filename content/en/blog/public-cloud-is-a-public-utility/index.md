@@ -4,20 +4,14 @@ description: "Akash's journey to radical decentralization"
 excerpt: "Akash's journey to radical decentralization"
 date: 2023-01-12T01:05:24-08:00
 lastmod: 2023-01-12T01:05:24-08:00
-draft: true
+draft: false
 weight: 50
 images:
   - ovrclk-akash.png
 categories: 
   - Updates
-  - News
-  - Product
-  - Community
 tags:
   - Updates
-  - News
-  - Product
-  - Community
 contributors:
   - Greg Osuri
 pinned: false
@@ -32,7 +26,9 @@ The development of the Akash Network involves multiple steps that are managed by
 
 The process has functioned well so far, and Overclock achieved great success with shipping, two major mainnet upgrades that brought us Persistent storage, and IP Leasing. 
 
-But as the saying goes, "If you want to go faster, go alone; if you want to go further, go together." We believe that by opening up the process, we can achieve our goal of radical decentralization faster and further.
+But as the saying goes, "If you want to go faster, go alone; if you want to go far, go together." We believe that by opening up the process, we can achieve our goal of radical decentralization faster and further.
+
+> If you want to go faster, go alone; if you want to go far, go together.
 
 Akash should utilize the strong developer community and open organization tools available to reach its potential. The Akash community is much larger than Overclock's employee pool. By allowing people to participate voluntarily, we can leverage their skills and values to help achieve the goal of executing our [product strategy](https://akash.network/community/core-groups/product-strategy/).
 
@@ -40,35 +36,45 @@ We propose a set of [community groups](https://akash.network/community/core-grou
 
 ![Akash Community Groups Block Diagram](akash-community-groups-block-diagram.png)
 
-**Special Interest Groups (SIGs)**
+#### Special Interest Groups (SIGs)
 
 SIGs are long-term groups that will be present for the project's duration. SIGs are dedicated teams working on specific parts of the Akash Network. They help to define and create products and features, as well as provide ongoing support for them.
 
-**Working Groups (WGs)**
+#### **Working Groups (WGs)**
 
 Working Groups (WGs) are community groups that collaborate on large-scale initiatives that involve multiple Special Interest Groups (SIGs). They do not develop or create projects but rather define major projects with aspects across the whole system, potentially involving external partners and relevant parties. A Working Group may operate for a short time rather than being a permanent group like SIGs.
 
-**User Groups (UGs)**
+#### **User Groups (UGs)**
 
 UGs help people communicate openly, find topics that can become WGs or SIGs, discuss broad use cases (like ML/AI or Big Data), and discuss ideas we don't prioritize for product development according to the current strategy.
 
-**Committees**
+#### **Committees**
 
 A committee is a designated group of people who discuss sensitive topics. They are expected to be transparent in their work, but there may be some circumstances where private conversations are necessary. Some examples of committees include the Steering Committee and special committees such as 'security' or 'code of conduct.'
 
-**Steering Committee**
+##### **Steering Committee**
 
 Regular meetings help the Akash Network community operate more efficiently. If needed, it also resolves conflicts. The Steering Committee is a particular SIG that evaluates projects, prioritizes, and assigns them to the proper SIG or WG.
 
-We're super excited to launch and open-sourcing the completely rebuilt Akash [website](https://akash.network). The source code and all its content are available on [GitHub](https://github.com/akash-network/website) for anyone to contribute. Browse through and suggest a feature or report a bug.
+### Next Steps
 
-The meeting notes, updates, and progress will be archived on GitHub and published on Akash Website regularly, as the groups frequently meet in the open.
+**New Website**
 
-### New GitHub Organization
+We're super excited to launch and open-source the completely rebuilt Akash [website](https://akash.network). The source code and all its content are available on [GitHub](https://github.com/akash-network/website) for anyone to contribute. Browse through and suggest a feature or report a bug.
+
+The new website allows people to quickly post content that was created by the community. It has a modern design which makes it easier to navigate and read.
+
+**New GitHub Organization**
 
 We also migrated key repositories from [ovrclk](https://github.com/ovrclk) GitHub organization to [akash-network](https://github.com/akash-network) organization. The new organization will be the home of all Akash Network-related repositories. The migration is still in progress, and we will update the list as we move more repositories.
 
-### How can you contribute?
+**Kick Off** 🚀
+
+We're kicking off the first meeting on Monday, January 16th, 2022. We'd love your contributions.
+
+The meeting notes, updates, and progress will be archived on [GitHub](https://github.com/akash-network/community) and published on [Akash Website](https://akash.network/community) regularly, as the groups frequently meet in the open.
+
+#### How can you contribute?
 
 *If you are a ...*
 
