@@ -22,7 +22,7 @@ The Akash Network was created approximately two years ago to decentralize cloud 
 
 The source code developed by Overclock Labs has been open since inception, and now we are taking the next step of opening up the process that produces it. Removing single failure points from one company makes Akash Network more resilient to institutional attack vectors.
 
-The development of the Akash Network involves multiple steps that are managed by Overclock Labs. The process begins by determining user needs and kj. Once the specification is made, it is implemented by a developer and then released to the public. Afterward, validators vote to accept the new code and upgrade their systems with the latest version of Akash Node.
+The development of the Akash Network involves multiple steps that are managed by Overclock Labs. The process begins by determining user needs and creating technical specifications based on them. Once the specification is made, it is implemented by a developer and then released to the public. Afterward, validators vote to accept the new code and upgrade their systems with the latest version of Akash Node.
 
 The process has functioned well so far, and Overclock achieved great success with shipping, two major mainnet upgrades that brought us [Persistent Storage](http://localhost:1313/blog/akash-network-unlocks-persistent-storage-through-mainnet-3-upgrade/), and [IP Leasing](http://localhost:1313/blog/introducing-ip-leases-on-akash-network/). 
 
