@@ -4,6 +4,16 @@ This repository contains the source code for the [Akash Network website](akash.n
 
 ## Generating Community Pages
 
+The repo uses submodule, pull the latest changes from the community repo.
+
+```sh
+git submodule update --init --recursive
+
+git submodule update --remote
+```
+
+Run the following command to generate the community pages.
+
 ```sh
 npm run import:community
 ```
@@ -39,9 +49,9 @@ $ npm run release:major
   - [x] Implement 1st draft of homepage design
   - [x] Add subscribe to newsletter
   - [ ] Add Privacy page
-  - [ ] Link Get Started to Docs
+  - [x] Link Get Started to Docs
   - [x] Social Media Preview
-  - [ ] Add connect with community
+  - [-] Add connect with community
   - [ ] (Stretch) Add Case studies preview
 - **Blog**
   - [x] Render images in related blog posts
