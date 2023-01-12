@@ -13,7 +13,11 @@ categories:
   - News
   - Product
   - Community
-tags: []
+tags:
+  - Updates
+  - News
+  - Product
+  - Community
 contributors:
   - Greg Osuri
 pinned: false
