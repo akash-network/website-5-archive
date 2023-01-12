@@ -24,7 +24,7 @@ The source code developed by Overclock Labs has been open since inception, and n
 
 The development of the Akash Network involves multiple steps that are managed by Overclock Labs. The process begins by determining user needs and creating a technical specifications based on them. Once the specification is made, it is implemented by a developer and then released to the public. Afterward, validators vote to accept the new code and upgrade their systems with the latest version of Akash Node.
 
-The process has functioned well so far, and Overclock achieved great success with shipping, two major mainnet upgrades that brought us Persistent storage, and IP Leasing. 
+The process has functioned well so far, and Overclock achieved great success with shipping, two major mainnet upgrades that brought us [Persistent Storage](http://localhost:1313/blog/akash-network-unlocks-persistent-storage-through-mainnet-3-upgrade/), and [IP Leasing](http://localhost:1313/blog/introducing-ip-leases-on-akash-network/). 
 
 But as the saying goes, "If you want to go faster, go alone; if you want to go far, go together." We believe that by opening up the process, we can achieve our goal of radical decentralization faster and further.
 
@@ -70,7 +70,7 @@ We also migrated key repositories from [ovrclk](https://github.com/ovrclk) GitHu
 
 **Kick Off** 🚀
 
-We're kicking off the first meeting on Monday, January 16th, 2022. We'd love your contributions.
+We're kicking off the first meeting on January 26th, 2023 10am. We'd love your contributions.
 
 The meeting notes, updates, and progress will be archived on [GitHub](https://github.com/akash-network/community) and published on [Akash Website](https://akash.network/community) regularly, as the groups frequently meet in the open.
 
