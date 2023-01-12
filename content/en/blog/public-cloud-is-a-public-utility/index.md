@@ -88,3 +88,10 @@ The first Steering Committee meeting is scheduled for January 26th, 2023. In the
 * **Technical developer building on Akash:** Consider joining one of our [SIGs, or WGs](https://akash.network/community/core-groups/cg-list/), and writing a spec for one of the projects in the list or suggesting a new project to add to the list of tasks.
 
 If you're unsure and want to chat, reach out to us on [Discord](https://discord.akash.network) or [Telegram](https://t.me/akashnw). We're happy to help you get started.
+
+
+### Annoucment Video
+
+Watch me discuss this annoucment live on [Cryptocito](https://www.youtube.com/channel/UCE1JHFSfUWcXVyzV3KGA9Fw)
+
+{{< youtube qdQFOS-uG_A >}}
