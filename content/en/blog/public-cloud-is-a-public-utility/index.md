@@ -22,7 +22,7 @@ The Akash Network was created approximately two years ago to decentralize cloud 
 
 The source code developed by Overclock Labs has been open since inception, and now we are taking the next step of opening up the process that produces it. Removing single failure points from one company makes Akash Network more resilient to institutional attack vectors.
 
-The development of the Akash Network involves multiple steps that are managed by Overclock Labs. The process begins by determining user needs and creating a technical specifications based on them. Once the specification is made, it is implemented by a developer and then released to the public. Afterward, validators vote to accept the new code and upgrade their systems with the latest version of Akash Node.
+The development of the Akash Network involves multiple steps that are managed by Overclock Labs. The process begins by determining user needs and creating technical specifications based on them. Once the specification is made, it is implemented by a developer and then released to the public. Afterward, validators vote to accept the new code and upgrade their systems with the latest version of Akash Node.
 
 The process has functioned well so far, and Overclock achieved great success with shipping, two major mainnet upgrades that brought us [Persistent Storage](http://localhost:1313/blog/akash-network-unlocks-persistent-storage-through-mainnet-3-upgrade/), and [IP Leasing](http://localhost:1313/blog/introducing-ip-leases-on-akash-network/). 
 
@@ -87,4 +87,4 @@ The first Steering Committee meeting is scheduled for January 26th, 2023. In the
 
 * **Technical developer building on Akash:** Consider joining one of our [SIGs, or WGs](https://akash.network/community/core-groups/cg-list/), and writing a spec for one of the projects in the list or suggesting a new project to add to the list of tasks.
 
-If you're unsure and want to chat, reach out to us on [Discord](https://discord.akash.network) or [Telegram](https://t.me/akashnetwork). We're happy to help you get started.
+If you're unsure and want to chat, reach out to us on [Discord](https://discord.akash.network) or [Telegram](https://t.me/akashnw). We're happy to help you get started.
