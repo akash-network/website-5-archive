@@ -154,5 +154,4 @@ Akash DeCloud is a vertically integrated solution that enabless developers to de
 
 If you are a validator or developer, we invite you to participate in the Akash DeCloud Early Access Program.   
 
-#### [**Join Akash DeCloud Early Access Program** →  
-](https://akashnet.typeform.com/to/UImjD7bs)
+#### [**Join Akash DeCloud Early Access Program** →  ](https://akashnet.typeform.com/to/UImjD7bs)
