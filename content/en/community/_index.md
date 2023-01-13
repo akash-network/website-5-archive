@@ -29,4 +29,4 @@ Join the conversation by connecting with the Akash Community on any of these pla
 * **[Telegram:](https://t.me/AkashNW)** Discuss Akash Network with other non-technical community members.
 * **[Reddit:](https://www.reddit.com/r/akashnetwork/)** Connect with over 5,200+ Redittors on Akash Network Subreddit.
 * **[YouTube:](https://www.youtube.com/@AkashNetwork)** Check out Akash Network's Youtube channel.
-* **[Community Forums:](https://forum.akash.network)** Topic-based technical discussions that bridge docs, troubleshooting, and so much more.
+* **[Community Forums:](https://github.com/akash-network/community/discussions/2)** Topic-based technical discussions that bridge docs, troubleshooting, and so much more.
