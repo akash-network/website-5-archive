@@ -2,23 +2,49 @@
 
 This repository contains the source code for the [Akash Network website](akash.network).
 
-## Generating Community Pages
+## Development
 
-The repo uses submodule, pull the latest changes from the community repo.
+### Clone the repository
+
+Clone the repository using git to your local machine.
+
+```sh
+git clone https://github.com/akash-network/website.git
+```
+
+### Pull Submodules
+
+The repo uses git submodules, pull the latest changes from the community repo.
 
 ```sh
 git submodule update --init --recursive
+```
 
+Optionally, for existing repositories, you can pull the latest changes from the community repo using the following command.
+
+```sh
 git submodule update --remote
 ```
 
-Run the following command to generate the community pages.
+### Install Dependencies
+
+Install the dependencies using npm.
+
+```sh
+npm install
+
+```
+### Run the development server
+
+```sh
+npm run server
+```
+
+## Generating Community Pages
 
 ```sh
 npm run import:community
 ```
-
-## Development
 
 ### Changelog
 

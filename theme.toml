@@ -1,14 +1,11 @@
-name = "Doks"
+name = "Akash Website"
 license = "MIT"
-licenselink = "https://github.com/h-enk/doks/blob/master/LICENSE"
-description = "Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+licenselink = "https://github.com/akash-network/website/blob/main/LICENSE"
+description = "Akash Network Website Theme"
 
-homepage = "https://github.com/h-enk/doks"
-demosite = "https://doks.netlify.app"
-
-tags = ["landing page", "documentation", "blog", "minimal", "modern", "customizable", "search", "dark mode", "bootstrap"]
-features = ["security aware", "fast by default", "seo-ready", "development tools", "bootstrap framework", "netlify-ready", "full text search", "page layouts", "dark mode"]
+homepage = "https://github.com/akash-network/website"
+demosite = "https://akash.network"
 
 [author]
-  name = "Henk Verlinde"
-  homepage = "https://henkverlinde.com"
+  name = "Greg Osuri"
+  homepage = "https://gregosuri.com"
