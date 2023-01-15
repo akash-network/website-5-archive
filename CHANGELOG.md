@@ -26,8 +26,6 @@ All notable changes to this project will be documented in this file. See [standa
 * pull real token metrics from coingecko ([194634b](https://github.com/akashnetwork/akashnetwork-website/commit/194634bc9a0ec67bdd4bd9b69f49566b8aae9c24))
 * pull tags from datocms ([4e1916f](https://github.com/akashnetwork/akashnetwork-website/commit/4e1916f7111a917e874f678c5e16a729986632c1))
 * render related images to blog posts ([80e24b2](https://github.com/akashnetwork/akashnetwork-website/commit/80e24b2b18c27484c4dc911b887ce187dad95839))
-* **wip:** docs ([2d59e1f](https://github.com/akashnetwork/akashnetwork-website/commit/2d59e1f7800b9ada9b331d2b7a612647a531cdc7))
-
 
 ### Bug Fixes
 
@@ -48,7 +46,6 @@ All notable changes to this project will be documented in this file. See [standa
 ## [0.1.0](https://github.com/akashnetwork/akashnetwork-website/compare/v0.0.1...v0.1.0) (2022-12-27)
 
 ### 0.0.1 (2022-12-27)
-
 
 ### Features
 
