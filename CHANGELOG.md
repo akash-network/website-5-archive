@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.0.0](https://github.com/akashnetwork/akashnetwork-website/compare/v0.1.0...v1.0.0) (2023-01-15)
+## [1.0.0](https://github.com/akash-network/website/compare/v0.1.0...v1.0.0) (2023-01-15)
 
 ### Features
 
@@ -42,10 +42,10 @@ All notable changes to this project will be documented in this file. See [standa
 * update ga code ([#59](https://github.com/akashnetwork/akashnetwork-website/issues/59)) ([e628161](https://github.com/akashnetwork/akashnetwork-website/commit/e6281610e07ac52683ba666fe8132d0270df52c0))
 * update tg link link cg intro blog post ([#61](https://github.com/akashnetwork/akashnetwork-website/issues/61)) ([3288389](https://github.com/akashnetwork/akashnetwork-website/commit/32883898cb816d8f81c241d5f9344753c3528439))
 
-## [0.1.0](https://github.com/akashnetwork/akashnetwork-website/compare/v0.0.1...v0.1.0) (2022-12-27)
+## [0.1.0](https://github.com/akash-network/website/compare/v0.0.1...v0.1.0) (2022-12-27)
 
 ### 0.0.1 (2022-12-27)
 
 ### Features
 
-* migrate blog posts from datoCMS ([1861bc4](https://github.com/akashnetwork/akashnetwork-website/commit/1861bc428733ab4731249014de72a92bb0f60b8b))
+* migrate blog posts from datoCMS ([1861bc4](https://github.com/akash-network/website/commit/1861bc428733ab4731249014de72a92bb0f60b8b))
