@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.1.0](https://github.com/akashnetwork/akashnetwork-website/compare/v0.1.0...v1.1.0) (2023-01-15)
+## [1.0.0](https://github.com/akashnetwork/akashnetwork-website/compare/v0.1.0...v1.0.0) (2023-01-15)
 
 ### Features
 
@@ -45,7 +45,6 @@ All notable changes to this project will be documented in this file. See [standa
 ## [0.1.0](https://github.com/akashnetwork/akashnetwork-website/compare/v0.0.1...v0.1.0) (2022-12-27)
 
 ### 0.0.1 (2022-12-27)
-
 
 ### Features
 
