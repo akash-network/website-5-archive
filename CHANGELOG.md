@@ -4,7 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.0.0](https://github.com/akashnetwork/akashnetwork-website/compare/v0.1.0...v1.0.0) (2023-01-15)
 
-
 ### Features
 
 * add copyright in the footer ([de0a0f9](https://github.com/akashnetwork/akashnetwork-website/commit/de0a0f930b76beca9240bec0694605fd6a55b5b2))
