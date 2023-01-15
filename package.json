@@ -8,7 +8,7 @@
   "browserslist": [
     "defaults"
   ],
-  "repository": "https://github.com/akashnetwork/akashnetwork-website.git",
+  "repository": "https://github.com/akash-network/website.git",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
