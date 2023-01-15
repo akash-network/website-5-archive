@@ -65,7 +65,15 @@ $ npm run release:patch
 $ npm run release:major
 ```
 
-### Priorities
+### Audits
+
+Please run Google Lighthouse and SEO audits before submitting a PR. The v1.0.0 release [scores](https://googlechrome.github.io/lighthouse/viewer/?gist=d40d3178592c72ddc6b8acb794b3e434) are as follows:
+
+![Lighthouse Audit](doc/lh-report-2023-01-14.png)
+
+##
+
+### Roadmap
 
 - **Homepage**
   - [x] Write draft copy for benefits and features
@@ -104,4 +112,4 @@ $ npm run release:major
   - [ ] Add Case Studies
 - Development Documentation
   - [ ] Add a "How to contribute" section to the README
-  - [ ] Add a "How to run the website locally" section to the README
+  - [x] Add a "How to run the website locally" section to the README
