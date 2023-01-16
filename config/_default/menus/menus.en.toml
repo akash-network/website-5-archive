@@ -40,7 +40,7 @@
 
 [[footer]]
   name = "Privacy"
-  url = "/privacy-policy/"
+  url = "/privacy"
   weight = 10
 
 [[main]]
