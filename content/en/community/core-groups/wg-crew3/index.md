@@ -8,11 +8,12 @@ The working group will be created to work on the proposal to see what support is
 
 ## Meetings
 
-TBD
+[2/17/23 Recording](https://drive.google.com/file/d/1eR9ANy6_QsLvGaR5bneEQvPZPGmmbCvw/view?usp=sharing)
 
 ## Leads
 
-TBD
+Instafin
+AndrewG
 
 ## Contacts
 
