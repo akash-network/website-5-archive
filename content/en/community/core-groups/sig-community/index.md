@@ -17,6 +17,7 @@ This SIG (Special Interest Group) is designed for Akash community members to pro
 | Meeting | Time | Notes | Transcript | Recording
 | --- | --- | --- | --- | --- |
 | #1 | Thursday, January 31, 2023 11:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31)  | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31#transcript)  | [Link](https://fss4l23i24p6gntryybnqrr5mss4u2bhkutvcdq7avzexqhchida.arweave.net/LKXF62jXH-M2ccYC2EY9ZKXKaCdVJ1EOHwVyS8DiOgY) 
+| #2 | Tuesday, March 14, 2023 11:00 AM PT (Pacific Time) | [Link](coming soon)  | [Link](https://docs.google.com/document/d/1wzR6XYawfVsOXk8N-_jKVOXMjg8S4BqzrEHoXwWnUag/edit?usp=sharing)  | [Link](https://drive.google.com/file/d/1rj4PqwVVr4n5OrIwBIRE1iJkuB_auS_Y/view?usp=sharing) 
 
 ## Leadership
 
