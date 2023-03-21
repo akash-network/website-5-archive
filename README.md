@@ -73,8 +73,8 @@ Please run Google Lighthouse and SEO audits before submitting a PR. The v1.0.0 r
 
 ### Design
 
-For all design contributions please visit our guidelines:
-https://github.com/aktdenis/website/blob/main/design-contribution-guidelines
+For all design contributions please visit our [guidelines](https://github.com/aktdenis/website/blob/main/design-contribution-guidelines)
+
 
 ##
 
