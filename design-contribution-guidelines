@@ -3,17 +3,27 @@ When designing Akash website, please keep the following guidelines in mind: \
 
 **1. Prioritize website performance**
 
-The performance of the website should be our top priority. The website should be light, fast, and responsive to ensure an instant, snappy, and fast-loading experience for the users. To achieve this, we should avoid heavy animations, large media files, or other elements that might slow down the website. You can use tools like Google PageSpeed Insights or GTmetrix to check the website's loading time and optimize the website accordingly. \
+The performance of the website should be our top priority. 
+The website should be light, fast, and responsive to ensure an instant, snappy, 
+and fast-loading experience for the users. To achieve this, we should avoid heavy animations, 
+large media files, or other elements that might slow down the website. 
+You can use tools like Google PageSpeed Insights or GTmetrix to check the website's loading time and optimize the website accordingly. \
 
 
 **2. Keep it simple**
 
-Simplicity is key when it comes to designing the Akash website. The website should reflect the brand's philosophy. Use simple typography and illustration treatments to express the message of the website. Avoid using 3D elements, gradients, and other heavy visuals that might detract from the website's performance. The website should look and behave like an educational-informative, software-oriented, protocol-focused site. \
+Simplicity is key when it comes to designing the Akash website. 
+The website should reflect the brand's philosophy. 
+Use simple typography and illustration treatments to express the message of the website. 
+Avoid using 3D elements, gradients, and other heavy visuals that might detract from the website's performance. 
+The website should look and behave like an educational-informative, software-oriented, protocol-focused site. \
 
 
 **3. Follow Akash's brand guidelines**
 
-To maintain consistency and ensure that the website aligns with Akash's brand identity, follow the brand guidelines provided by Akash. Use the provided assets, including logos, colors, and typography, to create a website that's cohesive and representative of the brand. \
+To maintain consistency and ensure that the website aligns with Akash's brand identity, 
+follow the brand guidelines provided by Akash. Use the provided assets, 
+including logos, colors, and typography, to create a website that's cohesive and representative of the brand. \
  \
 Brand guidelines: \
 [https://brandpad.io/akash-network/](https://brandpad.io/akash-network/) \
@@ -32,9 +42,12 @@ Website style guide:
 
 Design sprints are a collaborative effort. Sprint plans and outcomes are made public.
 
-We welcome community members with expertise in different fields of work (illustrators, brand, product designers, developers). Each sprint should not last more than 10 days, and we can have multiple sprints at the same time.
+We welcome community members with expertise in different fields of work 
+(illustrators, brand, product designers, developers). 
+Each sprint should not last more than 10 days, and we can have multiple sprints at the same time.
 
-To ensure that everyone is on the same page, we clarify expectations and goals upfront. We assign tasks to individual community members and define what the deliverables are and when they're due.  \
+To ensure that everyone is on the same page, we clarify expectations and goals upfront. 
+We assign tasks to individual community members and define what the deliverables are and when they're due.  \
  \
 Sprint Name, Start & End date \
 Participants and their tasks + description
