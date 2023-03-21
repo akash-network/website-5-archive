@@ -71,6 +71,11 @@ Please run Google Lighthouse and SEO audits before submitting a PR. The v1.0.0 r
 
 ![Lighthouse Audit](doc/lh-report-2023-01-14.png)
 
+### Design
+
+For all design contributions please visit our guidelines:
+https://github.com/aktdenis/website/blob/main/design-contribution-guidelines
+
 ##
 
 ### Roadmap
