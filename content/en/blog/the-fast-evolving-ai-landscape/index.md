@@ -55,7 +55,7 @@ And to be clear, there are some very valid and lucrative cases for both text ana
 
 If you are looking for more apps built on Open AI (and other models like Stable Diffusion) APIs, gpt3demo has a nicely sorted collection of more than 700 such apps, that seems fairly up to date.
 
-![GPT-3 Apps](./gpt-3-apps.png)
+![GPT-3 Apps](gpt-3-apps.png)
 
 ## GPUs are the new oil (for tech)
 GPUs from Nvidia have been in high-demand for several months now, with demand showing no signs of slowing. The challenge is sourcing GPUs (like [A100](https://www.nvidia.com/en-us/data-center/a100/) and [H100](https://www.nvidia.com/en-us/data-center/h100/)) that can allow these applications to run at a level of performance that doesn’t hurt user experience. This favors the big players who have either amassed a large inventory of GPUs or have the volume/ demand leverage to acquire them or are building their own tensor optimized hardware. It also puts Nvidia in a position of very strong leverage which it continues to try to cement by building it’s own cloud/ service layer ([Nvidia DGX Cloud](https://nvidianews.nvidia.com/news/nvidia-launches-dgx-cloud-giving-every-enterprise-instant-access-to-ai-supercomputer-from-a-browser)) that sits between the big clouds and Nvidia’s GPUs.
