@@ -33,7 +33,7 @@ Some clear themes here:
 4. For image generation: [Midjourney](https://www.midjourney.com/) seems to be in the lead for closed source models (even ahead of OpenAI’s [DALL-E](https://openai.com/product/dall-e-2)) and [Stable Diffusion](https://github.com/CompVis/stable-diffusion) is the most popular open source option. The contrast between the two is almost akin to the Apple/iOS and Android alternative.
 5. [Huggingface](https://huggingface.co/) has become the defacto repository for AI/ML sharing and collaboration, aka the “Github for AI models and datasets.”
 
-![Huggingface](./hugging-face-inline.png)
+![Huggingface](hugging-face-inline.png)
 
 ## Race to the bottom with “Open AI API wrapped” App clones
 
@@ -68,7 +68,7 @@ There are 4 things that will upset this equation:
 
 The key thing to keep in mind is that the GPU market was already predicted to explode by 10x, even before these new generative AI models were invented. [Here](https://www.linkedin.com/posts/anilmurty_parallelprogramming-gpu-cloud-activity-6984934072363995136-G5FB?utm_source=share&utm_medium=member_desktop) is a quick post I wrote 6 months ago, about what an “EMBARRASSINGLY PARALLEL” workload is and how it is the driving force behind the explosive growth of GPU usage, over the past decade.
 
-![GPT Market Size](./GPT-market-size.png)
+![GPT Market Size](GPT-market-size.png)
 
 ## Open Source is alive and well in AI/ML
 
@@ -85,7 +85,7 @@ While the buzz around OpenAI (which to be clear is NOT open source, even though 
 
 3. It also remains to be seen, whether other internet platforms (particularly open ones, or ones trying to be more open, like twitter), decide to play nice with Open AI or not:
 
-![Elon Musk tweet about OpenAI](./elon-musk-open-ai-tweet.png)
+![Elon Musk tweet about OpenAI](elon-musk-open-ai-tweet.png)
 
 ## AI Workload Types
 To help understand the stages in AI model training and use, here is a quick and simplified view. After a base model (like [generic BERT](https://huggingface.co/google/bert_uncased_L-2_H-128_A-2) or [Base Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4)) has been developed (i.e. the model has been authored, neural network designed, implemented, data tokenized and trained with a base set of parameters), the following are the stages to using it in actual user applications :
@@ -138,14 +138,14 @@ The ecosystem of products, companies and services that enable us to train, build
     4. Is Peer-to-Peer (in theory anyone with a server can become an Akash provider, but most are small or medium, datacenter operators).
     5. Has access to a large pool of GPU resources, thanks to availability of GPU power from a large crypto mining community that has relied on Akash for compute for years. Here is an excerpt from an [article published by arstechnica](https://arstechnica.com/gaming/2022/09/the-end-of-ethereum-mining-could-be-a-bonanza-for-gpu-shoppers/) last year, that talks about this:
 
-	![Arstechnica](./arstechica-screenshot.png)
+	![Arstechnica](arstechica-screenshot.png)
 
 Sami Kassab (analyst at Messari) has written extensively about this in his [latest report](https://messari.io/report/decentralizing-machine-learning?). 
 
-![Sami Kassab](./sami-kassab-messari.png)
+![Sami Kassab](sami-kassab-messari.png)
 
 Lastly, we will be sharing more about our AI plans at the Cerebral Valley AI Summit and would love to chat with you in-person if you are attending or in the area!
 
- ![Cerebral Valley AI Summit](./cerebral-valley-summit.png)
+ ![Cerebral Valley AI Summit](cerebral-valley-summit.png)
 
 If you are interested in learning more about our offering, please sign up here [for early access](https://akt.fyi/3GiLw9F).
