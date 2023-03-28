@@ -13,6 +13,8 @@ there is no central repository of all the content that's educating and inspiring
 
 The below repository is designed for community members to add Akash educational content they've created for review. It's open to anyone that has developed Akash content.
 
+**DISCLAIMER:** The content below has been created by and for the Akash community. While each content piece goes through a lightweight approval process for quality assurance, it's highly suggested you DYOR.
+
 ## Written Materials
 
 ### Content Title
