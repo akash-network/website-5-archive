@@ -125,6 +125,7 @@ The ecosystem of products, companies and services that enable us to train, build
       * Video Generation & Editing
       * Audio Generation & Editing
       * Internet Search
+    
     These users are typically only running the inference stage of the 3 stages outlined before, because they are taking a pre-trained and tuned model and building a nice user experience on it. They are typically just doing the inference portion of it. In a way, each time you use ChatGPT, you are using one such application that is running inference (aka, making a prediction about what text you are expecting when you ask it a question).
 * AI Tool Builders: 
   These are teams and companies that are building tools to make it easy to discover, package and deploy AI models and in some cases offer these as services. Examples include, **Cog and Chassis** (for containerizing ML models), **Huggingface** (for discovering, sharing, reusing, models and ML datasets - essentially the github for AI/ ML), **Replicate** and **Banana.dev** (Deploying+Running AI models) as well as full cycle platforms for training, deploying and managing ML models - like **DataRobot**, **NeptuneAI** and **VertaAI**.
