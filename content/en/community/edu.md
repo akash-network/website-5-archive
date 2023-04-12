@@ -35,11 +35,6 @@ In this course, you will learn how to deploy a provider onto Akash Network using
 
 In this course, you will learn how to deploy your project onto the Akash Network using [Cloudmos](https://cloudmos.io/) — a simple, point and click deployment tool. 
 
-Launching in April 2023
-
 ### Akash EDU - Akash Console 101
 
 In this course, you will learn how to deploy workload onto the Akash Network using the [Akash Console](https://console.akash.network/new-deployment)  — a simple, point and click deployment tool. 
-
-Launching in April 2023
-
