@@ -13,8 +13,6 @@ there is no central repository of all the content that's educating and inspiring
 
 The below repository is designed for community members to add Akash educational content they've created for review. It's open to anyone that has developed Akash content.
 
-**DISCLAIMER:** The content below has been created by and for the Akash community. While each content piece goes through a lightweight approval process for quality assurance, it's highly suggested you DYOR.
-
 ## Written Materials
 
 ### Content Title
@@ -28,7 +26,7 @@ Insert link to content<br />
 
 ### Content Title
 
-Author:<br />
-Date Created:<br />
-Description:<br />
-Insert link to content<br />
+Author:<br /> RDR
+Date Created:<br />  Apr 11, 2023
+Description:<br /> DeCloud Series brings Akash community members to share their experience using Akash and know more about why they do it 
+Insert link to content<br /> https://www.youtube.com/watch?v=utRa7rFBU3o
