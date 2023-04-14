@@ -2,7 +2,7 @@
 title: "Community Contributions : How To Guide"
 description: "Community Contributions Guide"
 key: "contributionsguide"
-url: "community/contributions"
+url: "community/contributionshowto"
 ---
 
 # Community Contributions : How to Guide
