@@ -17,7 +17,7 @@ Akash EDU is a free educational program designed to teach individuals basic to a
 
 Applications are reviewed bi-weekly and onboarding instructions are sent to new students on a rolling basis.
 
-[__Apply today!__](https://akashnet.typeform.com/to/mVXke0He?typeform-source=akash.network)
+[__Apply today!__](https://akashnet.typeform.com/to/Ep5qnwV1)
 
 If you have any questions, head over to the [Akash Discord](https://discord.akash.network/)
 
