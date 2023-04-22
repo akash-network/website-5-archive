@@ -111,3 +111,4 @@ rel  = "sitemap"
   [[module.mounts]]
     source = "node_modules/@hyas/images/layouts"
     target = "layouts"
+    
