@@ -66,6 +66,7 @@
     position: relative;
     left: 50%;
     display: flex;
+    font-size: 16px;
   }
 }
 
@@ -256,6 +257,20 @@ button#doks-versions {
     right: 0.3125rem;
   }
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 1140px; /* or any other value */
+  width: 100%;
+}
+
+
 
 /*
 @include media-breakpoint-up(lg) {

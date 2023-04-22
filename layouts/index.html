@@ -19,7 +19,7 @@
 {{ if eq $.Site.Language.LanguageName "English" }}
 <section class="section section-sm mt-5 feature_section">
   <div class="container text-left d-none d-md-block">
-    <div class="row m-5 justify-content-center wrapper ">
+    <div class="row m-5 justify-content-center wrapper">
 
       <div class="col-md-8">
         <h2 class="h4 own_cloud">You will own your cloud, and you will be happy</h2>
@@ -62,17 +62,20 @@
   <div class="container justify-content-center text-left d-xs-block d-sm-block d-md-none">
     <div class="row">
       <div class="col">
+        {{ partial "content/svg.html" "BFB" }}
         <h2 class="h4">You will own your cloud, and you will be happy</h2>
         <p>
           With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
           sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
           to run your applications.
         </p>
+
       </div>
     </div>
 
-    <div class="row ">
-      <div class="col">
+    <div class="row">
+      <div class="col" style="margin-top: 70px;">
+        {{ partial "content/svg.html" "FT_c" }}
         <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
@@ -81,13 +84,15 @@
       </div>
     </div>
     <div class="row ">
-      <div class="col">
+      <div class="col" style="margin-top: 70px;">
+        {{ partial "content/svg.html" "hand" }}
         <h2 class="h4">Purpose built for public utility</h2>
         <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
           it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
           the community oversees all aspects of Akash, including decisions about what new features should be
           implemented.</p>
       </div>
+
     </div>
   </div>
   </div>
@@ -217,27 +222,32 @@
 </section>
 <hr class="my-hr_2">
 <section>
-
-  <div class="container">
- <div class="container justify-content-center align-items-center mx-auto">
+ <div class="container">
     <div class="related-posts">
-      <div class="row justify-content-center align-items-center">
-        <header class="col-sm-6 col-md-12">
-          <h3 class="section-title">Latest From The Blog</h3>
-      </header>
-      </div>
-      <div class="row justify-content-center align-items-center">
+          <h3 class="">Latest From The Blog</h3>
+      <div class="blog_wrapper row justify-content-center align-items-center">
         {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
-        <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="col-sm-6 col-md-6 col-lg-4" >
           <div class="">
             {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
             {{ partial "content/card-image.html" . }}
-            <div class="card-body">
+            <div class="">
               <article>
-                {{ partial "main/blog-meta.html" . -}}
-                <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+             {{ partial "main/writer.html" . -}}
+                <h2 class="h3" style="height: 64px;
+                width: 297px;
+                font-family: Satoshi;
+font-size: 23px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 40px;
+
+
+
+                "><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
                 </h2>
-                <p>{{ .Params.excerpt | safeHTML }}</p>
+                {{ partial "main/blog-meta.html" . -}}
               </article>
             </div>
           </div>

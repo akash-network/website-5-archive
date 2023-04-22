@@ -1,1 +1,51 @@
-{{ if .Params.contributors -}} {{ $last := sub (len .Params.contributors) 1 }}<p><small>Posted{{ if .Params.categories -}}&nbsp;in&nbsp;{{ range $index, $category := .Params.categories -}}{{ if gt $index 0 -}}, {{ end -}}<a class="stretched-link position-relative link-muted" href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}&nbsp;on&nbsp;{{ .PublishDate.Format "January 2, 2006" }} by {{ if .Params.contributors -}}{{ range $index, $contributor := .Params.contributors }}{{ if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end }}<a class="stretched-link position-relative" href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>{{ end -}}{{ end -}}&nbsp;&hyphen;&nbsp;<strong>{{ .ReadingTime -}}&nbsp;min read</strong></small><p> {{ end}}
+<div class="reac_wrapper d-flex align-items-center justify-content-between">
+  <div class="col-sm-4 col-md-6 col-lg-4">
+    <p class="" style="
+      font-size: 14px;
+      height: 22px;
+      width: 197px;
+      left: 0px;
+      top: 0px;
+      font-weight: 400;
+      line-height: 22px;
+      color: black;
+      text-align: left;
+    ">{{ .PublishDate.Format "January 2, 2006" }}</p>
+  </div>
+  <div class="col-sm-4 col-md-6 col-lg-4">
+    <p style="
+      font-size: 14px;
+      font-weight: 700;
+      height: 22px;
+      width: 80px;
+      left: 217px;
+      top: 0px;
+      line-height: 22px;
+      text-align: left;
+    ">{{ .ReadingTime }} min read</p>
+  </div>
+</div>
+
+<!-- On medium screens -->
+<style>
+  @media only screen and (max-width: 1199px) and (min-width: 768px) {
+    .row.align-items-center {
+      gap: 40px;
+      margin-top: -20px;
+    }
+  }
+</style>
+
+<!-- On smaller screens -->
+<style>
+  @media only screen and (max-width: 767px) {
+    .row.align-items-center {
+      gap: 0!important;
+      margin-top: -20px;
+    }
+
+    .reac_wrapper{
+      display: flex ;
+    }
+  }
+</style>

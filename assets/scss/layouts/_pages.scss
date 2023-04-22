@@ -92,6 +92,10 @@ p.meta {
   color: #0000008c;
 }
 
+.blog-title{
+  margin-bottom: 60px;
+}
+
 @include media-breakpoint-up(md) {
   .edit-page,
   .last-modified {
@@ -120,12 +124,13 @@ p.meta {
     background: #00000033;
   }
 
+
 }
 @include media-breakpoint-up(lg) {
   .feature_section .wrapper {
     margin-top: 150px !important;
+    grid-column-gap: 128px;
   }
-
   .header-text {
     width: 600px;
     text-align: center;
@@ -251,7 +256,9 @@ p.meta {
   .feature_detail {
     width: 100% !important;
   }
-
+  .blog_wrapper .col-sm-6 {
+    margin-top: 30px;
+  }
 
 }
 
