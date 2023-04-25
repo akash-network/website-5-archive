@@ -18,51 +18,59 @@
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
 <section class="section section-sm mt-5 feature_section">
-  <div class="container text-left d-none d-md-block">
-    <div class="row m-5 justify-content-center wrapper">
-
-      <div class="col-md-8">
-        <h2 class="h4 own_cloud">You will own your cloud, and you will be happy</h2>
-        <p> With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
-          sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
-          to run your applications. </p>
-      </div>
-      <div class="col-md-6 text-center">
+  <div class="container text-left d-none d-md-block d-md-block">
+    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
+      <div class="col-md-12 col-lg-6 text-center">
         {{ partial "content/svg.html" "BFB" }}
       </div>
-    </div>
-    <div class="row m-5 justify-content-center wrapper">
-      <div class="col-md-6 text-center">
-        {{ partial "content/svg.html" "FT_c" }}
+      <div class="col-md-12 col-lg-8">
+        <h2 class="h4 utility">You will own your cloud, and you will be happy</h2>
+        <p>With Akash, you have the power to own your cloud.
+          You can deploy your own cloud infrastructure, and you can sell
+          your unused cloud resources to others.
+           You can also buy cloud resources from others, and you can use them to run your applications.</p>
       </div>
-      <div class="col-md-8">
+    </div>
+    <div class="row m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
+      <div class="col-md-12 col-lg-8 order-md-last">
         <h2 class="h4 super">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
           customers submit their desired price and providers compete for the business. This often results in prices up
           to 85% lower than other cloud systems.</p>
       </div>
-
-      <div class="row m-5 justify-content-center wrapper">
-        <div class="col-md-8">
-          <h2 class="h4 utility">Built for battle, commanded by the community</h2>
-          <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
-            it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
-            the community oversees all aspects of Akash, including decisions about what new features should be
-            implemented.</p>
-        </div>
-        <div class="col-md-6 text-center">
-          {{ partial "content/svg.html" "hand" }}
-        </div>
+      <div class="col-md-12 col-lg-6 text-center order-md-first">
+        {{ partial "content/svg.html" "ft_c" }}
       </div>
     </div>
+    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
+      <div class="col-md-12 col-lg-6 text-center mt-md-5">
+        {{ partial "content/svg.html" "hand" }}
+      </div>
+      <div class="col-md-12 col-lg-8">
+        <h2 class="h4 utility">Built for battle, commanded by the community</h2>
+        <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
+          it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
+          the community oversees all aspects of Akash, including decisions about what new features should be
+          implemented.</p>
+      </div>
+    </div>
+
+    </div>
+    </div>
   </div>
+
+
+
+
 
   <!-- Mobile Version -->
   <div class="container justify-content-center text-left d-xs-block d-sm-block d-md-none">
     <div class="row">
       <div class="col">
-        {{ partial "content/svg.html" "BFB" }}
+        <div class="d-flex justify-content-center mx-auto">
+          <img src="{{ .Site.BaseURL }}/mobile_img/cloud.png" alt="img">
+        </div>
         <h2 class="h4">You will own your cloud, and you will be happy</h2>
         <p>
           With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
@@ -75,7 +83,7 @@
 
     <div class="row">
       <div class="col" style="margin-top: 70px;">
-        {{ partial "content/svg.html" "FT_c" }}
+        <img src="{{ .Site.BaseURL }}/mobile_img/mobile_finger.png" alt="img">
         <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
@@ -85,7 +93,7 @@
     </div>
     <div class="row ">
       <div class="col" style="margin-top: 70px;">
-        {{ partial "content/svg.html" "hand" }}
+        <img src="{{ .Site.BaseURL }}/mobile_img/mobile_hand.png" alt="img">
         <h2 class="h4">Purpose built for public utility</h2>
         <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
           it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
@@ -243,6 +251,10 @@
                 <h2 class="h3" style="height: 64px;
                 width: 297px;
                 font-family: Satoshi;
+
+
+
+
 font-size: 23px;
 font-weight: 700;
 letter-spacing: 0em;
@@ -269,21 +281,31 @@ margin-bottom: 40px;
 {{ end }}
 
 {{ define "sidebar-footer" }}
-<div class="py-2 mt-5 bg-light rounded-3 text-center ">
-  <div class="container-fluid py-5 ">
+<hr class="my-hr_2">
+<div class=" footer_wrapper py-2 mt-5 rounded-3 text-center">
+  <div class="py-5">
     <div class="row justify-content-center">
       <div class="col-10">
-        <h2>Interested in receiving the latest Akash news? Sign up for Akash's Newsletter</h2>
-        <p class="fs-5 text-center">Join 17,000+ subscribers who receive a weekly summary of everything happening across
-          the Akash ecosystem.</p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://akt.fyi/3kpRwVM" target="_blank"
-          rel="noopener noreferrer">Subscribe</a>
+        <h3 class="h2_footer">Interested in receiving the latest Akash news?
+          Sign up for Akash Newsletter</h3>
       </div>
     </div>
-  </div>
-</div>
+    <form class="email-form" action="#" method="post">
+      <label for="email-input" class="form-label"></label>
+      <div class="bg-transparent form_control-wrapper d-flex align-items-center justify-content-between mx-auto" style="width: 400px; height: 56px; border-radius: 8px; border: solid 1px #0000001A;      ; ">
+        <div class="">
+          <input type="email" class="form-control bg-transparent text-black"  id="email-input" placeholder="jamie@example.com" required>
+        </div>
+        <button type="submit" class="bg-none border-none text-center" style="border: none; background: none; padding: 0 20px; color: #FA5757;">Subscribe</button>
+      </div>
 
-<section class="container-fluid">
+    </form>
+
+
+  </div>
+
+
+<section class="container-fluid" style="margin-top: 150px;">
   <div class="row justify-content-center text-center">
     <div class="col-lg-9">
       {{- .Content -}}

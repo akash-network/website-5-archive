@@ -7,7 +7,7 @@
   content: "";
 }
 
-body{
+body {
   overflow-x: hidden !important;
 }
 .anchor {
@@ -92,8 +92,31 @@ p.meta {
   color: #0000008c;
 }
 
-.blog-title{
+.blog-title {
   margin-bottom: 60px;
+}
+
+.footer_wrapper h3 {
+  font-size: 24px;
+  text-align: left;
+}
+.footer_wrapper {
+  background-color: #ffdede;
+  height: 328px;
+  width: 971px;
+  margin: auto auto;
+  border-radius: 8px;
+  padding-top: 80px;
+  margin-top: 80px !important;
+  margin-bottom: 100px !important;
+  padding: 80px;
+}
+
+.form-control {
+  background: none;
+  border: none;
+  outline: none;
+  width: 250px !important;
 }
 
 @include media-breakpoint-up(md) {
@@ -106,7 +129,6 @@ p.meta {
 
   .feature_detail {
     height: auto;
-    width: 10px;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -124,7 +146,9 @@ p.meta {
     background: #00000033;
   }
 
-
+  body {
+    overflow-x: hidden !important;
+  }
 }
 @include media-breakpoint-up(lg) {
   .feature_section .wrapper {
@@ -160,7 +184,7 @@ p.meta {
     margin-top: 150px !important;
   }
 
-  .my-hr{
+  .my-hr {
     width: 900px;
     text-align: center;
     margin-right: auto;
@@ -178,16 +202,13 @@ p.meta {
     margin-top: 80px;
   }
 
-  .hr_security{
+  .hr_security {
     width: 200px;
   }
 
-
-
-  .leasing_header{
+  .leasing_header {
     margin-top: 100px !important;
   }
-
 
   p .feature_section {
     font-size: 18px;
@@ -195,11 +216,11 @@ p.meta {
   }
 }
 
-.header_ibc{
+.header_ibc {
   width: 200px;
 }
 
-.ibc_detail{
+.ibc_detail {
   padding-top: 120px;
 }
 
@@ -208,8 +229,24 @@ p.meta {
     width: 400px !important;
   }
 
-  .section_features h5{
+  .section_features h5 {
     padding-top: 15px;
+  }
+
+  .my-hr{
+    width: 600px;
+  }
+
+  .footer_wrapper {
+    background-color: #ffdede;
+    height: 318px;
+    width: 691px;
+  }
+
+  .footer_wrapper h3 {
+    top: 80px;
+    font-size: 20px;
+    text-align: center;
   }
 
   .header_in {
@@ -220,24 +257,29 @@ p.meta {
     width: 200px;
   }
 
-  .hr_security{
+  .hr_security {
     width: 180px;
   }
 
   .step_detail {
     font-size: 21px;
     width: 200px;
-
   }
 
-  .ibc_detail{
-    padding-top: 70px ;
+  .ibc_detail {
+    padding-top: 70px;
   }
 
-  .leasing_header{
+  .leasing_header {
     margin-top: 100px !important;
   }
 
+  .my-hr_2 {
+    width: 600px;
+    text-align: center;
+    margin: 40px auto;
+    background: #00000033;
+  }
 }
 
 @media (min-width: 992px) {
@@ -246,10 +288,9 @@ p.meta {
     font-size: 19px;
   }
 
-  .ibc_detail{
+  .ibc_detail {
     padding-top: 60px;
   }
-
 }
 
 @media (max-width: 767.98px) {
@@ -260,28 +301,55 @@ p.meta {
     margin-top: 30px;
   }
 
-}
+  .footer_wrapper {
+    background-color: #ffdede;
+    width: 100%;
+  }
 
+  .footer_wrapper h3 {
+    width: 270px;
+    left: -75px !important;
+    font-size: 19px;
+    position: relative;
+    top: -50px;
+    bottom: 0;
+  }
+
+  .form-control {
+    width: 190px !important;
+  }
+
+  .form_control-wrapper {
+    width: 300px !important;
+    margin: 0 auto !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    left: -27px !important;
+    position: relative;
+  }
+
+  .my-hr_2 {
+    width: 342px;
+    margin: 60px auto;
+  }
+}
 
 @media (min-width: 414px) {
   .step_detail {
-    margin-top: 100px;}
-
-    .ibc_detail{
-      padding-top: 0px !important;
-    }
-
-    .leasing_header{
-      margin-top: 40px;
-    }
-
-
-
+    margin-top: 100px;
   }
+
+  .ibc_detail {
+    padding-top: 0px !important;
+  }
+
+  .leasing_header {
+    margin-top: 40px;
+  }
+}
 @media (min-width: 3px) {
   .step_detail {
-    margin-top: 50px;}
-
-
+    margin-top: 50px;
   }
-
+}
