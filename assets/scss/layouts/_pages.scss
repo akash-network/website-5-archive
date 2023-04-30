@@ -119,6 +119,9 @@ p.meta {
   width: 250px !important;
 }
 
+
+
+
 @include media-breakpoint-up(md) {
   .edit-page,
   .last-modified {
@@ -184,6 +187,7 @@ p.meta {
     margin-top: 150px !important;
   }
 
+
   .my-hr {
     width: 900px;
     text-align: center;
@@ -245,7 +249,6 @@ p.meta {
 
   .footer_wrapper h3 {
     height: 64px;
-    width: 350px;
     top: 80px;
     font-size: 20px;
     text-align: center;
@@ -282,6 +285,8 @@ p.meta {
     margin: 40px auto;
     background: #00000033;
   }
+
+
 }
 
 @media (min-width: 992px) {
@@ -308,13 +313,14 @@ p.meta {
     width: 100%;
   }
 
-  .footer_wrapper h3 {
-    width: 270px;
-    left: -75px !important;
+  .h2_footer {
+    width: 230px !important;
     font-size: 19px;
-    position: relative;
-    top: -50px;
-    bottom: 0;
+    width: 230px;
+    text-align: center;
+    margin: 0 auto;
+
+
   }
 
   .form-control {
@@ -337,6 +343,26 @@ p.meta {
   }
 }
 
+@media (max-width: 576px) {
+  .blog_wrapper p{
+    padding-top: -60px !important;
+  }
+
+  .form_control-wrapper {
+    display: block !important;
+    width: 390px;
+    border-radius: 8px;
+    padding: 70px;
+
+  }
+
+  .emailText_wrapper{
+    width: 230px !important;
+    margin: 10px auto;
+  }
+
+}
+
 @media (min-width: 414px) {
   .step_detail {
     margin-top: 100px;
@@ -349,6 +375,8 @@ p.meta {
   .leasing_header {
     margin-top: 40px;
   }
+
+
 }
 @media (min-width: 3px) {
   .step_detail {
