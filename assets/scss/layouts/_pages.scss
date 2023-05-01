@@ -152,6 +152,8 @@ p.meta {
   body {
     overflow-x: hidden !important;
   }
+
+
 }
 @include media-breakpoint-up(lg) {
   .feature_section .wrapper {
@@ -217,6 +219,10 @@ p.meta {
   p .feature_section {
     font-size: 18px;
     width: 467px;
+  }
+
+  .carousel-container {
+    display: none;
   }
 }
 
@@ -323,6 +329,8 @@ p.meta {
 
   }
 
+
+
   .form-control {
     width: 190px !important;
   }
@@ -361,6 +369,8 @@ p.meta {
     margin: 10px auto;
   }
 
+
+
 }
 
 @media (min-width: 414px) {
@@ -382,4 +392,25 @@ p.meta {
   .step_detail {
     margin-top: 50px;
   }
+}
+
+
+.carousel-container h4{
+  height: 99px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+font-size: 26px;
+font-weight: 900;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+
+
+body > div:nth-child(8){
+  margin-bottom: -600px !important;
 }
