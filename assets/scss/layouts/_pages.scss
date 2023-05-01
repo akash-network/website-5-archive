@@ -156,6 +156,11 @@ p.meta {
 
 }
 @include media-breakpoint-up(lg) {
+.feature_section{
+  margin-top: -70px !important;
+}
+
+
   .feature_section .wrapper {
     margin-top: 150px !important;
     grid-column-gap: 128px;
@@ -197,6 +202,7 @@ p.meta {
     margin-left: auto;
     background: #00000033;
     margin-top: 80px;
+    margin-bottom: 140px;
   }
 
   .my-hr_2 {
@@ -205,7 +211,8 @@ p.meta {
     margin-right: auto;
     margin-left: auto;
     background: #00000033;
-    margin-top: 80px;
+    margin-top: 140px;
+    margin-bottom: 100px;
   }
 
   .hr_security {
@@ -348,6 +355,15 @@ p.meta {
   .my-hr_2 {
     width: 342px;
     margin: 60px auto;
+  }
+
+  .my-hr {
+    width: 342px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: #00000033;
+    margin-bottom: -20px;
   }
 }
 
