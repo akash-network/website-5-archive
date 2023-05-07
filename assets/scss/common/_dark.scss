@@ -98,6 +98,9 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
 }
+[data-dark-mode] body .offcanvas .discords{
+  color: #fff !important;
+}
 
 [data-dark-mode] body .offcanvas .nav-link:hover,
 [data-dark-mode] body .offcanvas .nav-link:focus {
@@ -298,11 +301,21 @@ $navbar-dark-active-color:          $link-color-dark;
   border-top: 1px solid $border-dark !important;
 }
 
+
+[data-dark-mode] body .footer_wrapper{
+  background: $body-overlay-dark;
+}
+
 @include media-breakpoint-up(lg) {
   [data-dark-mode] body .docs-sidebar {
     order: 0;
     border-right: 1px solid $border-dark;
   }
+
+
+[data-dark-mode] body .footer_wrapper{
+  background: $body-overlay-dark;
+}
 }
 
 [data-dark-mode] body .docs-navigation {
