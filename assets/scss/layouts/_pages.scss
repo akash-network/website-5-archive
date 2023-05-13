@@ -6,6 +6,9 @@
   margin-top: -6rem;
   content: "";
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   overflow-x: hidden !important;
@@ -13,6 +16,9 @@ body {
 .anchor {
   visibility: hidden;
 }
+
+
+
 
 h1:hover a,
 h2:hover a,
@@ -120,6 +126,19 @@ p.meta {
 }
 
 
+.feature_detail_2{
+  width: 500px;
+}
+.sub_title1{
+font-size: 24px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #00000073;
+
+
+}
 
 
 @include media-breakpoint-up(md) {
@@ -160,6 +179,51 @@ p.meta {
   margin-top: -70px !important;
 }
 
+.link-underline {
+  display: inline-block;
+  position: relative;
+  color: #00000066;
+}
+
+.link-underline.active {
+  color: #000;
+}
+
+.link-underline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px; /* adjust as needed */
+  width: 323px;
+  height: 1px;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-underline:hover::before {
+  transform: scaleX(1);
+}
+
+.link-underline.active::before {
+  transform: scaleX(1);
+}
+
+.featured_header p{
+  color:#00000066;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+.link-underline:hover{
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
 
   .feature_section .wrapper {
     margin-top: 150px !important;
