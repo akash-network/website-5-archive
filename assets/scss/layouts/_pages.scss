@@ -18,6 +18,9 @@ body {
 }
 
 
+.d-wrap_dark a .disc{
+  display: none !important;
+}
 
 
 h1:hover a,
@@ -189,6 +192,8 @@ color: #00000073;
   color: #000;
 }
 
+
+
 .link-underline::before {
   content: "";
   position: absolute;
@@ -322,6 +327,10 @@ color: #00000073;
     background-color: #ffdede;
     height: 318px;
     width: 691px;
+  }
+  .d-wrap a .disc {
+    position: relative;
+    right: 10px !important;
   }
 
   .footer_wrapper h3 {
