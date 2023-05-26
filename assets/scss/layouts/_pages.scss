@@ -27,6 +27,8 @@ h4:hover a {
   margin-top: 3rem;
 }
 
+
+
 .edit-page,
 .last-modified {
   font-size: $font-size-sm;
@@ -42,9 +44,56 @@ h4:hover a {
     margin-bottom: 0.25rem;
   }
 
-  .top_header {
-    width: 531px;
+  .sub_header_text{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+  }
+
+  .text-wraps .gpu_text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
     text-align: center;
+    height: 20px;
+    width: 470px;
+    color: #040404;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .my_hr2{
+    width: 400px !important;
+    position: relative;
+    right: -400px;
+  }
+
+
+  .text-wraps .ordered_details li{
+    width: 500px;
+    list-style-type: circle;
+  }
+  .text-wraps .ordered_details2 li{
+    width: 500px;
+    list-style-type: decimal;
+  }
+
+  .text-wraps .Gpu_header{
+    font-size: 36px !important;
+    font-weight: 900;
+    line-height:50px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    width: 470px;
+  }
+
+  .top_header {
+    width: 400px;
+    text-align: center;
+    font-size: 34px;
   }
 
   .wrapper_form {
@@ -58,7 +107,7 @@ h4:hover a {
   }
 
   .form_desc1 {
-    font-size: 20px;
+    font-size: 34px;
     height: 80px;
     width: 400px;
     font-weight: 900;
@@ -85,6 +134,30 @@ h4:hover a {
     line-height: 29px;
     width: 500px;
   }
+
+  .ordered_details2 > li:nth-child(2){
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+
+.ordered_details2 > li:nth-child(3){
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+
+.ordered_details > li:nth-child(2){
+  margin-top: 25px !important;
+    font-size: 14px;
+}
+.ordered_details > li:nth-child(3){
+  margin-top: 25px !important;
+    font-size: 14px;
+}
+.ordered_details > li:nth-child(4){
+  margin-top: 25px !important;
+    font-size: 14px;
+}
+
 }
 @include media-breakpoint-up(lg) {
   .wrapper_form {
@@ -105,6 +178,39 @@ h4:hover a {
     left: 0px;
     top: 0px;
   }
+
+  .text-wraps .Gpu_header{
+    font-size: 36px !important;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 910px;
+  }
+
+
+
+  .text-wraps .gpu_text{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  height: 60px;
+  width: 801px;
+  color: #040404;
+  margin-top: 40px;
+}
+
+.sub_header_text{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+}
+
 
   .top_header {
     width: 501px !important;
@@ -138,6 +244,58 @@ h4:hover a {
     text-align: center;
     color: #00000099;
   }
+
+ .text-wraps .ordered_details li{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style: circle;
+  margin-top: 24px;
+  height: 56px;
+  width: 777px;
+  left: 0px;
+  top: 54px;
+}
+ .text-wraps .ordered_details2 li{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style: decimal;
+  margin-top: 24px;
+  height: 56px;
+  width: 777px;
+  left: 0px;
+  top: 54px;
+}
+
+.ordered_details2 > li:nth-child(2){
+  margin-top: 5px !important;
+  font-size: 20px;
+}
+
+.ordered_details2 > li:nth-child(3){
+  margin-top: 5px !important;
+  font-size: 20px;
+}
+
+.ordered_details > li:nth-child(2){
+  margin-top: 5px !important;
+  font-size: 20px;
+}
+.ordered_details > li:nth-child(3){
+  margin-top: 5px !important;
+  font-size: 20px;
+}
+.ordered_details > li:nth-child(4){
+  margin-top: 5px !important;
+  font-size: 20px;
+}
+
+
 }
 
 
@@ -182,6 +340,48 @@ h4:hover a {
     color: #00000099;
   }
 
+  .sub_header_text{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    width: 300px;
+
+  }
+
+
+.ordered_details2 > li:nth-child(2){
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+
+.ordered_details2 > li:nth-child(3){
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+
+.ordered_details > li:nth-child(2){
+  margin-top: 25px !important;
+    font-size: 14px;
+}
+.ordered_details > li:nth-child(3){
+  margin-top: 25px !important;
+    font-size: 14px;
+}
+.ordered_details > li:nth-child(4){
+  margin-top: 25px !important;
+    font-size: 14px;
+}
+
+.text-wraps .ordered_details{
+  list-style-type: circle;
+}
+
+ p.Gpu_header{
+  font-weight: 700;
+  font-size: 20px;
+ }
+
 }
 .edit-page svg,
 .last-modified svg {
@@ -202,3 +402,5 @@ p.meta {
 .page-link:hover {
   text-decoration: none;
 }
+
+
