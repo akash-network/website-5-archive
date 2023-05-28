@@ -1,25 +1,22 @@
 {{ define "main" }}
 
 
+
+
+
 <section class="section pb-5">
   <div class="row justify-content-center">
     <div class="col-md-10">
-      <h1 class="my-4 mx-auto top_header">{{ .Title }}</h1>
-      <p class="text-center fs-sm" style="font-size: 18px; margin-top: 24px; margin-bottom: 40px;">May 29, 2023 - Jun 16, 2023</p>
-      <img class="w-100" style="border-radius: 4px;" src="{{ .Site.BaseURL }}/mobile_img/gpu_test.png" alt="img">
-      <p class="text-left mt-5 gpu_description">{{ .Description}}</p>
-      <p class="text-left  gpu_description">By joining the Akash GPU Testnet, you’re helping to define how open-source cloud computing will operate in the AI era.</p>
-    </div>
-  </div>
-</section>
-<section class="section-wrap container-fluid mt-n3 pb-5">
-  <div class="row justify-content-center">
-    <div class="col-md-11 d-flex justify-content-center align-items-center">
-      <div class="wrapper_form">
+      <div class="">
           <p class="mx-auto form_desc1">Join the Akash GPU Testnet</p>
-          <p class="mx-auto  form_desc2" style="">Sign up to help test the first open-source cloud for open-source GPUs and AI. Earn rewards for providing compute and deploying AI models. Complete the form below to participate.</p>
+          <div class="date_text">
+            <p class="" style="">May 29, 2023 - Jun 16, 2023</p>
+          </div>
+
+          <p class="mx-auto  form_desc2">Sign up to participate in testing the first open-source cloud for open-source GPUs and AI. Earn rewards for providing GPUs, defining deployment specs, deploying AI models, and benchmarking model performance. <br>
+          </br>Complete the form below to participate.</p>
         <div class="mx-auto text-center" style="padding-top: 65px;">
-          <button class="mx-auto text-white py-2 px-4"  style="background: #272626; border-radius: 6px; font-size: 14px">
+          <button class="mx-auto text-white py-2 px-4"  style="background: #FA5757; border-radius: 6px; border: none; outline: none; font-size: 14px; margin-top: 70px;">
             Join Now
           </button>
         </div>
@@ -28,8 +25,22 @@
   </div>
 </section>
 
+<section class="section pb-5">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <img class="w-100" style="border-radius: 4px;" src="{{ .Site.BaseURL }}/mobile_img/gpu_test.png" alt="img">
+      <p class="text-left mt-5 gpu_description">{{ .Description}}</p>
+      <p class="text-left  gpu_description">By joining the Akash GPU Testnet, you’re helping to define how open-source cloud computing will operate in the AI era.</p>
+      <hr class="my-hr" />
 
-<section class="section-wrap container-fluid mt-n3 pb-5" style="padding-top: 112px;">
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="section-wrap container-fluid mt-n3 pb-5" style="padding-top: 54px">
   <div class="row justify-content-center">
     <div class="col-md-11 text-wraps">
         <p class="Gpu_header">The Open-Source Cloud for GPU Compute</p>
@@ -53,34 +64,151 @@
         </div>
       </div>
 </section>
-
-
-{{ end }}
-
-{{ define "sidebar-prefooter" }}
-{{ if eq $.Site.Language.LanguageName "English" }}
-<section class="section section-sm mt-5 feature_section">
-  <div class="container text-left d-none d-md-block d-md-block">
-    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
-      <div class="col-md-12 col-lg-6">
-      </div>
-    </div>
-
-    </div>
-    </div>
-  </div>
-</section>
-<section class="section pb-5">
+<hr class="my-hr_2" />
+<section class="section-wrap container-fluid mt-n3 pb-5" style="padding-top: 54px">
   <div class="row justify-content-center">
-    <div class="col-md-10">
+    <div class="col-md-11 text-wraps">
+      <p class="Gpu_header">Supply and Demand</p>
+      <p class="gpu_text_n">Contribute or Benefit from GPU Resources</p>
+      <p class="gpu_text_2">Engage with the GPU Testnet by either becoming a provider or completing a task.
+        As a provider, set up your hosting environment to offer GPU resources to the network. For those
+        seeking GPU resources, browse through
+        the list of tasks available in our table, each offering attractive rewards.</p>
+        <div class="mt-5 btn_wraps">
+          <button class="s_d-btns">
+            View GPU Docs   {{ partial "content/svg.html" "icon" }}
+          </button>
+          <button class="s_d-btns">
+            KYC Guidelines   {{ partial "content/svg.html" "icon" }}
+          </button>
+        </div>
     </div>
   </div>
+
+
 </section>
 
-{{ end }}
+<hr class="my-hr_2" />
+
+
+<section class="section-wrap container-fluid mt-n3 pb-5" style="padding-top: 54px">
+  <div class="row justify-content-center">
+    <div class="col-md-11 text-wraps">
+      <p class="Gpu_header">Earn Rewards for Your GPUs</p>
+      <p class="gpu_sub_text" style="margin-bottom: -40px; margin-top: 30px; padding-bottom: 40px;">Discover
+         the optimal GPU model that suits your specific needs and harness its immense
+         computational
+        power for your AI, machine learning, and graphics-intensive workloads.</p>
+
+        <hr class="my-hr_2" />
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>GPU</th>
+              <th>Grade</th>
+              <th>$ Total Cost/Hr</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>RTX 4090</td>
+              <td>Consumer</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>RTX 4080</td>
+              <td>Consumer</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>RTX 3090</td>
+              <td>Consumer</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>RTX 3090 Ti</td>
+              <td>Consumer</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>RTX 3080</td>
+              <td>Consumer</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>RTX 3080 Ti</td>
+              <td>Consumer</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>RTX 3060 ti</td>
+              <td>Consumer</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>H100</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>a100</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>a100</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>a40</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>a10</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>t4</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>v100</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>P4</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>P100</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+            <tr>
+              <td>K80</td>
+              <td>Datacenter</td>
+              <td>$1.00</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+
+
+</section>
+
+<hr class="my-hr_2" />
+
 {{ end }}
 {{ define "sidebar-footer" }}
-<section class="container-fluid" style="margin-top:500px;">
+<section class="container-fluid" style="margin-top:70px;">
   <div class="row">
     <div class="">
       {{- .Content -}}
@@ -88,4 +216,7 @@
   </div>
 </section>
 {{ end }}
+
+
+
 
