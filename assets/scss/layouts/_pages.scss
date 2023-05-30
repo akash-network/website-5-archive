@@ -27,11 +27,10 @@ h4:hover a {
   margin-top: 3rem;
 }
 
-.btn_wraps .s_d-btns:hover{
+.btn_wraps .s_d-btns:hover {
   opacity: 0.5;
   transition: 0.3s ease-in-out;
 }
-
 
 .edit-page,
 .last-modified {
@@ -67,18 +66,16 @@ h4:hover a {
     margin-top: 30px;
   }
 
-  .my-hr_2{
+  .my-hr_2 {
     width: 450px;
     margin: 50px auto;
   }
 
-  .gpu_sub_text{
+  .gpu_sub_text {
     text-align: center;
   }
 
-
-
-  .my-hr{
+  .my-hr {
     margin-top: 70px;
   }
   .text-wraps .ordered_details li {
@@ -124,7 +121,7 @@ h4:hover a {
     text-align: center;
   }
 
-  .date_text{
+  .date_text {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -185,16 +182,14 @@ h4:hover a {
     margin-right: 30px;
     border: none;
     outline: none;
-
   }
 
-
-  .btn_wraps .s_d-btns:hover{
+  .btn_wraps .s_d-btns:hover {
     opacity: 0.5;
     transition: 0.3s ease-in-out;
   }
 
-  .btn_wraps{
+  .btn_wraps {
     justify-content: center;
     margin: 2px auto;
     display: flex;
@@ -205,20 +200,20 @@ h4:hover a {
     margin-bottom: 10px;
   }
 
-  .gpu_text_n{
+  .gpu_text_n {
     color: #040404;
     font-size: 24px;
     font-weight: 500;
     text-align: center;
   }
-  .gpu_text{
+  .gpu_text {
     color: #040404;
     font-weight: 500 !important;
     margin-bottom: 60px;
     font-size: 24px;
   }
 
-  .gpu_text_2{
+  .gpu_text_2 {
     text-align: center;
   }
 }
@@ -284,12 +279,12 @@ h4:hover a {
     outline: none;
   }
 
-  .date_text{
+  .date_text {
     margin-bottom: 50px;
     font-size: 18px;
   }
 
-  .btn_wraps{
+  .btn_wraps {
     justify-content: flex-start;
     display: flex;
   }
@@ -312,7 +307,7 @@ h4:hover a {
     margin-top: -60px !important;
   }
 
-  .gpu_sub_text{
+  .gpu_sub_text {
     text-align: left;
   }
 
@@ -405,7 +400,7 @@ h4:hover a {
     font-size: 20px;
   }
 
-  .gpu_text_n{
+  .gpu_text_n {
     text-align: left;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -426,15 +421,33 @@ h4:hover a {
     border: 1px solid #e6e6e6 !important;
   }
 
-  .my-hr{
+  .text_img{
+    width: 330px !important;
+    margin: 10px auto;
+  }
+
+
+  .gpu_sub_text{
+    font-size: 18px;
+  }
+  .gpu_description {
+    width: 350px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .my-hr {
     margin-top: 70px !important;
     margin-bottom: -20px;
     width: 330px !important;
   }
 
-
-  .my-hr_2{
-    width: 330px}
+  .my-hr_2 {
+    width: 330px;
+  }
 
   .form_desc1 {
     font-size: 34px;
@@ -445,78 +458,118 @@ h4:hover a {
     width: 250px;
   }
 
-  .date_text{
+  .date_text {
     margin-top: 90px;
     text-align: center;
+    font-size: 18px;
   }
   .form_desc2 {
     height: 48px;
     padding: 40px 0;
-    width: 240px;
-    font-size: 12px;
+    width: 100%;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
     margin-top: -30px;
     color: #00000099;
+    line-height: 26px;
   }
 
   .sub_header_text {
-    font-size: 16px;
+    width: 330px;
+    font-family: Satoshi;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
     text-align: left;
-    width: 300px;
+    padding-top: 40px;
   }
 
   .ordered_details2 > li:nth-child(2) {
-    margin-top: 25px !important;
-    font-size: 14px;
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   .ordered_details2 > li:nth-child(3) {
-    margin-top: 25px !important;
-    font-size: 14px;
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px !important;
   }
 
   .ordered_details > li:nth-child(2) {
-    margin-top: 25px !important;
-    font-size: 14px;
+    width: 330px;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
   }
   .ordered_details > li:nth-child(3) {
-    margin-top: 25px !important;
-    font-size: 14px;
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px !important;
   }
   .ordered_details > li:nth-child(4) {
-    margin-top: 25px !important;
-    font-size: 14px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px !important;
   }
 
   .text-wraps .ordered_details {
     list-style-type: circle;
+    width: 100%;
   }
 
   p.Gpu_header {
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 900;
+    width: 330px;
+    font-size: 28px;
     margin-bottom: 30px;
+    line-height: 36px;
     margin-top: -10px;
   }
 
-  .gpu_text_n{
+  .gpu_text_n {
     color: #040404;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
   }
-  .gpu_text{
+  .gpu_text {
     color: #040404;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    height: 84px;
+    width: 330px;
+    margin-top: 40px;
   }
   .btn_wraps .s_d-btns {
     height: 49px;
     width: 110px;
-    top: 0px;
     border-radius: 8px;
     padding: 12px 14px 12px 14px;
     background-color: rgba(0, 0, 0, 0.07);
@@ -525,11 +578,20 @@ h4:hover a {
     margin-right: 30px;
     border: none;
     outline: none;
+    margin-top: 150px;
+  }
+  .join_btnn {
+    margin-top: 28px;
   }
 
-  .gpu_text_2{
-    font-size: 14px;
-
+  .gpu_text_2 {
+    font-size: 18px;
+    height: 56px;
+    width: 330px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
   }
 }
 .edit-page svg,
@@ -552,11 +614,21 @@ p.meta {
   text-decoration: none;
 }
 
-
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .btn_wraps .s_d-btns {
     height: 45px;
     width: 100px;
     padding: 10px 12px 10px 12px;
+  }
+
+  .join_btnn {
+    margin-top: 58px;
+  }
+}
+
+
+@media (max-width: 370px) {
+  .join_btnn {
+    margin-top: 78px;
   }
 }
