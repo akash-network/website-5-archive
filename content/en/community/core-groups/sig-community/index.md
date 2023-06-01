@@ -5,30 +5,55 @@ date: 2023-1-09T00:19:20-08:00
 
 # Akash Network - Community Special Interest Group (SIG)
 
-This SIG (Special Interest Group) is designed for Akash community members to propose community initiatives, programs or content that can be reviewed and potentially supported through the Akash community fund.
-
-[Akash Website Community Page](https://akash.network/community/)
+\<add description of the sig. what does it cover etc>
 
 ## Meetings
+Joining the mailing list for the group will typically add invites for the following meetings to your calendar.
 
-[First meeting 2023 January 31st 11am-12pm Pacific Time](https://calendar.google.com/calendar/u/0?cid=Y18yNWU1ZTM3NDhlNGM0YWI3YTU1ZjQxZmJjNWViZWJjYzBhMDNiNDBmYjAyODc4NWYxNDE1OWJmYWViZWExMmUyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+- Meeting 1 (e.g bug Scrub): \<weekday\> at \<time\> PT (Pacific Time) (every \<n\> weeks). Convert to your timezone (add link to https://dateful.com/time-zone-converter?t=09:00&tz=PT%20%28Pacific%20Time%29).
+  
+  - Meeting notes and Agenda.
+  - Meeting recordings.
 
+- Meeting 2: \<weekday\> at \<time\> PT (Pacific Time) (every \<n\> weeks). Convert to your timezone (add link to https://dateful.com/time-zone-converter?t=09:00&tz=PT%20%28Pacific%20Time%29).
+  
+  - Meeting notes and Agenda.
+  - Meeting recordings.
 
-| Meeting | Time | Notes | Transcript | Recording
-| --- | --- | --- | --- | --- |
-| #1 | Thursday, January 31, 2023 11:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31)  | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31#transcript)  | [Link](https://fss4l23i24p6gntryybnqrr5mss4u2bhkutvcdq7avzexqhchida.arweave.net/LKXF62jXH-M2ccYC2EY9ZKXKaCdVJ1EOHwVyS8DiOgY) 
-| #2 | Tuesday, March 14, 2023 11:00 AM PT (Pacific Time) | [Link](coming soon)  | [Link](https://docs.google.com/document/d/1wzR6XYawfVsOXk8N-_jKVOXMjg8S4BqzrEHoXwWnUag/edit?usp=sharing)  | [Link](https://drive.google.com/file/d/1rj4PqwVVr4n5OrIwBIRE1iJkuB_auS_Y/view?usp=sharing) 
+- Regular SIG Meeting: Wednesdays at 09:00 PT (Pacific Time) (biweekly). Convert to your timezone.
+
+  - Meeting notes and Agenda.
+  - Meeting recordings.
 
 ## Leadership
 
-- Adam Wozney, Overclock Labs
+- ### Product Lead(s)
+
+  - Name (GH Handle)
+  - Name (GH Handle)
+
+- ### Tech Lead(s)
+
+  - Name (GH Handle)
+  - Name (GH Handle)
+
+- ### Project Manager(s)
+
+  - Name (GH Handle)
+  - Name (GH Handle)
 
 ## Contact
 
-- [Discord Server](https://discord.com/channels/747885925232672829/1062751882700918836/1067862809263751319)
-
+- Discord Server (hyperlink it)
+- Mail List (hyperlink it)
 
 ## Sub Projects, Repositories & Relevant Work Groups
 
-The following are projects and work-groups that sig-community participates in or contributes to:
+The following are projects and work-groups that \<sig-name\> participates in or contributes to (ToDo: Add links when available)
 
+- Code Repo 1 (hyperlink to repo)
+- Code Repo 2 (hyperlink to repo)
+- Sub Project 1 (hyperlink to repo)
+- Sub Project 2 (hyperlink to repo)
+- Work Group 1 (hyperlink to repo)
+- Work Group 2 (hyperlink to repo)

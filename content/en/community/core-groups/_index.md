@@ -51,16 +51,16 @@ Committees are named sets of people that are chartered to take on sensitive topi
 
 - #### Steering Committee
   
-    The [Steering Committee](committee-steering/README) is a special SIG that periodically evaluates the list of projects, prioritizes/adds/removes items and decides which SIG or WG is best suited to tackle the project. The Steering Committee also regularly meets to incorporate learnings to improve how the Akash Network community operates and will perform conflict resolution as necessary.
+    The Steering Committee is a special SIG that periodically evaluates the list of projects, prioritizes/adds/removes items and decides which SIG or WG is best suited to tackle the project. The Steering Committee also regularly meets to incorporate learnings to improve how the Akash Network community operates and will perform conflict resolution as necessary.
 
 ### Examples
 
 To see a list of projects being worked on or under consideration see [community/project-list](projects-list)
 
-- - A “wg-gpu” that works on end-to-end execution of what it will take for Akash Network to support GPUs. This may include specifications for changes to Deployments (SDL) and Providers, deciding on what vendors and models of GPUs fit with our customer use cases, figure out the best partnerships for sourcing GPU inventory for those models, decide whether we need to solve bandwidth pricing, running alpha/beta testing, etc.  The GPU-WG's work will potentially result in multiple projects being created for the “Providers-SIG”, the “Deployments-SIG”, the “Economics-SIG” and so on. These SIGs will define a lower-level spec for their specific area (based on the overall high-level spec defined by the GPU-SIG), and implement it.
+- - A “GPU-WG” that works on end-to-end execution of what it will take for Akash Network to support GPUs. This may include specifications for changes to Deployments (SDL) and Providers, deciding on what vendors and models of GPUs fit with our customer use cases, figure out the best partnerships for sourcing GPU inventory for those models, decide whether we need to solve bandwidth pricing, running alpha/beta testing, etc.  The GPU-WG's work will potentially result in multiple projects being created for the “Providers-SIG”, the “Deployments-SIG”, the “Economics-SIG” and so on. These SIGs will define a lower-level spec for their specific area (based on the overall high-level spec defined by the GPU-SIG), and implement it.
   
-- An “wg-ethereum” that is focused on understanding how Akash Network can be adopted by the Ethereum ecosystem. They would define a strategy that includes: technical requirements for node operators and developers, along with non-technical things like events and Discord communications. These would also result in multiple projects for various SIGs.
+- An “Ethereum-WG” that is focused on understanding how Akash Network can be adopted by the Ethereum ecosystem. They would define a strategy that includes: technical requirements for node operators and developers, along with non-technical things like events and Discord communications. These would also result in multiple projects for various SIGs.
 
-- Projects like the “provider microservices split” do not require a working group as they only pertain to the provider's code base and, as such, are just handled by the “sig-provider.”
+- Projects like the “provider microservices split” do not require a working group as they only pertain to the provider's code base and, as such, are just handled by the “Provider-SIG.”
 
-- Support for Authorized Spend in Console would be handled by the “sig-clients” and does not need a dedicated work group.
+- Support for Authorized Spend in Console would be handled by the “Clients-SIG” and does not need a dedicated work group.

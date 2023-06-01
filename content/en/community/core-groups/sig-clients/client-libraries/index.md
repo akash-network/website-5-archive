@@ -1,28 +1,16 @@
-# Client Libraries
+# Akash Client Libraries
 
-Client Libraries enable third party developers to easily integrate with Akash Network, by providing interfaces for diffferent programming languages that can be used for enabling programmatic deployments. 
-
-Akash Network and its community intends to build client libraries for all popular programming languages that are used by Akash Network users. Currently the two programming languages for which client libraries are being spec'ed and built are
-
-- GoLang 
-- Javascript
+Client Libraries for automating Akash Deployments using various common programming languages
 
 ## Meetings
 
-Client Libraries will be discussed during the Clients SIG meetings, at least to start with.
 
-## Lead(s)
+## Leads
 
-Joao Luna, Quasarch (@cloud-j-luna)
 
 ## Contact
 
-- [Discord](https://discord.com/channels/747885925232672829/1054846400275431464)
+- Discord
 
-## Roadmap
-
-TBD
-
-### PRDs
-
-- [Client Libraries PRD](prd)
+## PRDs
+- Client Libraries PRD
