@@ -1,24 +1,37 @@
 {{ define "main" }}
 
-
-
-
-
 <section class="section pb-5">
   <div class="row justify-content-center">
     <div class="col-md-10">
       <div class="">
-          <p class="mx-auto form_desc1">Join the Akash GPU Testnet</p>
-          <div class="date_text">
-            <p class="" style="">May 29, 2023 - Jun 16, 2023</p>
-          </div>
-
-          <p class="mx-auto  form_desc2">Sign up to participate in testing the first open-source cloud for open-source GPUs and AI. Earn rewards for providing GPUs, defining deployment specs, deploying AI models, and benchmarking model performance. <br>
-          </br>Complete the form below to participate.</p>
-        <div class="mx-auto text-center join_btnn" style="padding-top: 65px;">
-          <button class="mx-auto text-white py-2 px-4"  style="background: #FA5757; border-radius: 6px; border: none; outline: none; font-size: 14px; margin-top: 70px;">
-            Join Now
+        <p class="mx-auto form_desc1 mb-3">Join the Akash GPU Testnet</p>
+        <p class="mx-auto text-center fw-bolder fs-4  mb-3">Earn your share of over $100,000 in rewards</p>
+        <p class="date__ fw-bold" style="border: 2px solid #E6E6E6; margin: 44px auto; text-align: center; width: height 32px;
+        width: 328px;
+        color: #626060;
+        border-radius: 6px;
+        padding: 4px 8px 4px 8px;
+        font-size: 15px;
+        ">Starts: June 12, 2023 - Ends: July 3rd, 2023</p>
+        <p class="mx-auto form_desc2 pt-3">
+          Sign up to participate in testing the first open-source cloud for
+          open-source GPUs and AI by providing GPUs, defining deployment specs,
+          deploying AI models, and benchmarking GPU performance.
+        </p>
+        <div class="mx-auto text-center join_btnn" style="padding-top: 54px;">
+          <a target="_blank" href="https://akashnet.typeform.com/to/x2fwKQFH">
+          <button
+            class="mx-auto text-white py-2 px-4"
+            style="
+              background: #fa5757;
+              border-radius: 6px;
+              border: none;
+              outline: none;
+              font-size: 14px; "
+          >
+        Join Now
           </button>
+        </a>
         </div>
       </div>
     </div>
@@ -28,196 +41,227 @@
 <section class="section pb-5">
   <div class="row justify-content-center">
     <div class="col-md-10">
-      <img class="w-100 text_img" style="border-radius: 4px;" src="{{ .Site.BaseURL }}/mobile_img/gpu-testnet-akash.png" alt="img">
+      <img
+        class="w-100 text_img"
+        style="border-radius: 4px"
+        src="{{ .Site.BaseURL }}/mobile_img/gpu-testnet-1.png"
+        alt="img"
+      />
       <p class="text-left mt-5 gpu_description">{{ .Description}}</p>
-      <p class="text-left  gpu_description">By joining the Akash GPU Testnet, you’re helping to define how open-source cloud computing will operate in the AI era.</p>
-      <hr class="my-hr" />
-
+      <p class="text-left gpu_description">
+        By joining the Akash GPU Testnet, you’re helping to define how
+        open-source cloud computing will operate in the AI era.
+      </p>
     </div>
-
   </div>
 </section>
-
-
-
+<hr class="my-hr" />
 <section class="section pb-5">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mt-4">
     <div class="col-md-10 text-wraps">
-        <p class="Gpu_header">The Open-Source Cloud for GPU Compute</p>
-        <p class="gpu_text">Be among the first to test a revolutionary new open-source marketplace for GPU compute</p>
- <ol class="ordered_details">
- <li style="" class="mt-4">Get access to powerful GPUs like the NVIDIA A100 & H100 that are difficult to get anywhere else.</li>
- <li class="" style="">Tap into a massive network of idle consumer-grade GPUs.</li>
- <li class="third_li"style="margin-top: -10px;">Run the latest open-source AI models.</li>
- <li class="forth_li" style="margin-top: -10px;"> Fine-tune popular open-source AI models on your own data.</li>
- <!-- <hr class="my_hr2 mx-auto" style="width: 900px; text-align: center; position: relative; right: 20px; color: #00001A; margin-top: 64px;" /> -->
-</ol>
-
-<p class="sub_header_text mt-1">3 ways to earn rewards for participating</p>
-<ol class="ordered_details2" style="
-">
- <li style="" class="mt-4">Provide your GPUs to the network and receive rewards for the duration of the GPU Testnet.</li>
- <li class="" style="">Deploy AI models and benchmark their performance.</li>
- <li class=""style="margin-top: -10px;">Create deployment files (SDL: Stack Definition Language) to containerize and match AI models with resource requirements..</li>
-</ol>
-
+      <p class="Gpu_header" style="margin-bottom: 20px;">Here's how you can earn</p>
+        <div class=" d-lg-flex d-md-flex d-sm-block gap-5">
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img"  src="{{ .Site.BaseURL }}/mobile_img/Frame 7782.png" alt="img" />
+            <p class="text-center mt-3">Set up a GPU Provider.</p>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img" src="{{ .Site.BaseURL }}/mobile_img/pic2.png" alt="img" />
+            <p class="text-center mt-3">Deploy AI models.</p>
+          </div>
         </div>
+        <div class=" d-lg-flex d-md-flex d-sm-block gap-5">
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img"  src="{{ .Site.BaseURL }}/mobile_img/pic3.png" alt="img" />
+            <p class="text-center mt-3">Build AI deployment templates (SDL)</p>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img" src="{{ .Site.BaseURL }}/mobile_img/pic4.png" alt="img" />
+            <p class="text-center mt-3">Benchmark GPUs using TensorFlow</p>
+          </div>
+        </div>
+        <div class="btn_gpu_docs_wrap pb-5 pt-4">
+          <a target="_blank" href="https://github.com/akash-network/community/blob/main/wg-gpu/GPU-AI-Incentivized-Testnet.md">
+          <button class="btn_gpu_docs">
+            View Tasks and Incentives Details {{ partial "content/svg.html" "icon" }}
+          </button>
+        </a>
+        </div>
+
       </div>
-</section>
-<hr class="my-hr_2" />
-
-<section class="section pb-5">
-  <div class="row justify-content-center">
-    <div class="col-md-10 text-wraps">
-      <p class="Gpu_header">Supply and Demand</p>
-      <p class="gpu_text_n">Contribute or Benefit from GPU Resources</p>
-      <p class="gpu_text_2">Engage with the GPU Testnet by either becoming a provider or completing a task.
-        As a provider, set up your hosting environment to offer GPU resources to the network. For those
-        seeking GPU resources, browse through
-        the list of tasks available in our table, each offering attractive rewards.</p>
-
-    </div>
-    <div class="mt-5 btn_wraps col-md-10">
-      <button class="s_d-btns">
-        View GPU Docs   {{ partial "content/svg.html" "icon" }}
-      </button>
-      <button class="s_d-btns">
-        KYC Guidelines   {{ partial "content/svg.html" "icon" }}
-      </button>
     </div>
   </div>
-
-
 </section>
+<hr class="my-hr" />
 
-<hr class="my-hr_2" />
+
+<section class="section pb-5">
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-10 text-wraps">
+      <p class="Gpu_header">The Open-Source Cloud for GPU Compute</p>
+      <p class="gpu_text">
+        Be among the first to test a revolutionary new open-source marketplace
+        for GPU compute
+      </p>
+      <ol class="ordered_details">
+        <li class="mt-4">
+          Get access to powerful GPUs like the NVIDIA A100 & H100 that are
+          difficult to get anywhere else.
+        </li>
+        <li class="">
+          Tap into a massive network of idle consumer-grade GPUs.
+        </li>
+        <li class="third_li" style="margin-top: -10px">
+          Run the latest open-source AI models.
+        </li>
+        <li class="forth_li" style="margin-top: -10px">
+          Fine-tune popular open-source AI models on your own data.
+        </li>
+        <!-- <hr class="my_hr2 mx-auto" style="width: 900px; text-align: center; position: relative; right: 20px; color: #00001A; margin-top: 64px;" /> -->
+      </ol>
+      <div class="mt-5 btn_wraps col-md-10">
+        <button class="s_d-btns">
+          View GPU Docs {{ partial "content/svg.html" "icon" }}
+        </button>
+        <button class="s_d-btns">
+          KYC Guidelines {{ partial "content/svg.html" "icon" }}
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="my-hr" />
 
 <section class="section pb-5">
   <div class="row justify-content-center">
     <div class="col-md-10 text-wraps">
       <p class="Gpu_header">Earn Rewards for Your GPUs</p>
-      <p class="gpu_sub_text" style="margin-bottom: -40px; margin-top: 30px; padding-bottom: 40px;">Discover
-         the optimal GPU model that suits your specific needs and harness its immense
-         computational
-        power for your AI, machine learning, and graphics-intensive workloads.</p>
+      <p
+        class="gpu_sub_text"
+        style="margin-bottom: -40px; margin-top: 30px; padding-bottom: 60px"
+      >
+      Provide your GPUs to the network and earn rewards by powering AI,
+       machine learning, and graphics-intensive workloads.
+      </p>
+      <style>
+ 
+      </style>
 
-        <hr class="my-hr_2" />
-
-        <table class="table table-striped">
+      <div class="border px-4">
+        <table class="no-border">
           <thead>
             <tr>
-              <th>GPU</th>
-              <th>Grade</th>
-              <th>$ Total Cost/Hr</th>
+              <th>GPU Model</th>
+              <th>Max Testnet Incentive</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>RTX 4090</td>
-              <td>Consumer</td>
-              <td>$1.00</td>
+              <td>Nvidia H100</td>
+              <td>$4,000.00</td>
             </tr>
             <tr>
-              <td>RTX 4080</td>
-              <td>Consumer</td>
-              <td>$1.00</td>
+              <td>Nvidia A100</td>
+              <td>$2,800.00</td>
             </tr>
             <tr>
-              <td>RTX 3090</td>
-              <td>Consumer</td>
-              <td>$1.00</td>
+              <td>Nvidia V100</td>
+              <td>$2,400.00</td>
             </tr>
             <tr>
-              <td>RTX 3090 Ti</td>
-              <td>Consumer</td>
-              <td>$1.00</td>
+              <td>Nvidia P100</td>
+              <td>$2,000.00</td>
             </tr>
             <tr>
-              <td>RTX 3080</td>
-              <td>Consumer</td>
-              <td>$1.00</td>
+              <td>Nvidia A40</td>
+              <td>$1,600.00</td>
             </tr>
             <tr>
-              <td>RTX 3080 Ti</td>
-              <td>Consumer</td>
-              <td>$1.00</td>
+              <td>Nvidia A10</td>
+              <td>$1,200.00</td>
             </tr>
             <tr>
-              <td>RTX 3060 ti</td>
-              <td>Consumer</td>
-              <td>$1.00</td>
+              <td>Nvidia P4</td>
+              <td>$1,200.00</td>
             </tr>
             <tr>
-              <td>H100</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia K80</td>
+              <td>$800.00</td>
             </tr>
             <tr>
-              <td>a100</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia T4</td>
+              <td>$600.00</td>
             </tr>
             <tr>
-              <td>a100</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia 4090</td>
+              <td>$560.00</td>
             </tr>
             <tr>
-              <td>a40</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia 3090Ti</td>
+              <td>$480.00</td>
             </tr>
             <tr>
-              <td>a10</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia 4080</td>
+              <td>$440.00</td>
             </tr>
             <tr>
-              <td>t4</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia 3090</td>
+              <td>$320.00</td>
             </tr>
             <tr>
-              <td>v100</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia 3080Ti</td>
+              <td>$240.00</td>
             </tr>
             <tr>
-              <td>P4</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia 3060Ti</td>
+              <td>$220.00</td>
             </tr>
             <tr>
-              <td>P100</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
-            </tr>
-            <tr>
-              <td>K80</td>
-              <td>Datacenter</td>
-              <td>$1.00</td>
+              <td>Nvidia 3080</td>
+              <td>$200.00</td>
             </tr>
           </tbody>
         </table>
+        <hr  class="table_hr"/>
+        <p class="table_description">In addition there are also incentives for deploying AI models and for benchmarking GPU performance using tensorflow. For details on all that view...</p>
+      </div>
+
     </div>
   </div>
-
-
 </section>
 
-<hr class="my-hr_2" />
 
-{{ end }}
-{{ define "sidebar-footer" }}
-<section class="container-fluid" style="margin-top:70px;">
+<section class="section pb-3">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <p class=" text-center join_header_text">Join the Akash GPU Testnet</p>
+      <p class="text-center join_header_desc">
+        Sign up to participate in testing the first open-source cloud for open-source GPUs and AI by providing GPUs, defining deployment specs,
+         deploying AI models, and benchmarking GPU performance.
+      </p>
+      <div class="mx-auto text-center join_btn2" style="padding-top: 54px;">
+        <a target="_blank" href="https://akashnet.typeform.com/to/x2fwKQFH">
+        <button
+          class=" mx-auto text-white py-2 px-4"
+          style="
+            background: #fa5757;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            font-size: 14px; "
+        >
+      Join Now
+        </button>
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }} {{ define "sidebar-footer" }}
+<section class="container-fluid" style="margin-top: 70px">
   <div class="row">
-    <div class="">
-      {{- .Content -}}
-    </div>
+    <div class="">{{- .Content -}}</div>
   </div>
 </section>
 {{ end }}
-
-
-
-

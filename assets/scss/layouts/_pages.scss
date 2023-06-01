@@ -66,6 +66,15 @@ h4:hover a {
     margin-top: 30px;
   }
 
+  .no-border {
+    border-collapse: collapse;
+  }
+
+  .no-border th,
+  .no-border td {
+    border: none !important;
+  }
+
   .my-hr_2 {
     width: 450px;
     margin: 50px auto;
@@ -115,7 +124,7 @@ h4:hover a {
   .form_desc1 {
     font-size: 44px;
     height: 80px;
-    width: 400px;
+    width: 410px;
     font-weight: 900;
     line-height: 48px;
     text-align: center;
@@ -128,7 +137,6 @@ h4:hover a {
   }
 
   .form_desc2 {
-    font-size: 14px;
     height: 48px;
     padding-top: 20px;
     width: 400px;
@@ -139,6 +147,7 @@ h4:hover a {
     text-align: center;
     color: #00000099;
     margin-top: -20px;
+    padding-bottom: 4rem;
   }
 
   .gpu_description {
@@ -171,11 +180,7 @@ h4:hover a {
   }
 
   .btn_wraps .s_d-btns {
-    height: 52px;
-    width: 165px;
-    top: 0px;
-    border-radius: 8px;
-    padding: 14px 17px 14px 17px;
+
     background-color: rgba(0, 0, 0, 0.07);
     text-align: center;
     font-size: 14px;
@@ -184,15 +189,49 @@ h4:hover a {
     outline: none;
   }
 
+  .btn_gpu_docs_wrap {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .btn_gpu_docs {
+    height: 52px;
+    width: 281px;
+    left: 314.5px;
+    top: 740px;
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #000000b2;
+  }
+
+ section:nth-child(3) > div > div > div > button:nth-child(2) {
+    border-radius: 8px;
+    padding: 14px 17px 14px 17px;
+  }
+
+
+section:nth-child(3) > div > div > div > button:nth-child(1){
+  border-radius: 8px;
+  padding: 14px 17px 14px 17px;
+}
+
   .btn_wraps .s_d-btns:hover {
     opacity: 0.5;
     transition: 0.3s ease-in-out;
   }
 
   .btn_wraps {
-    justify-content: center;
-    margin: 2px auto;
     display: flex;
+    height: 52px;
+    width: 495px;
+    justify-content: center;
   }
   p.Gpu_header {
     font-weight: 700;
@@ -216,6 +255,26 @@ h4:hover a {
   .gpu_text_2 {
     text-align: center;
   }
+
+  .my-hr_2 {
+    width: 570px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: #00000033;
+    margin-bottom: 64px;
+    margin-top: 34px;
+  }
+
+  .my-hr {
+    width: 570px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: #00000033;
+    margin-bottom: 64px;
+    margin-top: 34px;
+  }
 }
 @include media-breakpoint-up(lg) {
   .wrapper_form {
@@ -231,8 +290,8 @@ h4:hover a {
   .gpu_description {
     font-size: 19px;
     line-height: 29px;
-    height: 171px;
     width: 810px;
+    margin-bottom: 60px;
     left: 0px;
   }
 
@@ -243,6 +302,7 @@ h4:hover a {
     letter-spacing: -0.02em;
     text-align: left;
     width: 910px;
+    margin-top: -50px;
   }
 
   .text-wraps .gpu_text {
@@ -279,14 +339,11 @@ h4:hover a {
     outline: none;
   }
 
-  .date_text {
-    margin-bottom: 50px;
-    font-size: 18px;
-  }
-
   .btn_wraps {
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
+    padding-bottom: 100px;
+    margin: 10px auto;
   }
 
   .my-hr_2 {
@@ -304,7 +361,7 @@ h4:hover a {
     margin-right: auto;
     margin-left: auto;
     background: #00000033;
-    margin-top: -60px !important;
+    margin-top: -25px !important;
   }
 
   .gpu_sub_text {
@@ -322,14 +379,51 @@ h4:hover a {
     letter-spacing: -0.02em;
   }
 
+  .no-border {
+    border-collapse: collapse;
+  }
+
+  .no-border th,
+  .no-border td {
+    border: none !important;
+  }
   .gpu_text_2 {
     width: 721px;
     height: 72px;
     margin-top: -17px;
   }
 
+  .btn_gpu_docs_wrap {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .btn_gpu_docs {
+    height: 52px;
+    width: 281px;
+    left: 314.5px;
+    top: 740px;
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #000000b2;
+  }
+
+  .earn_wrap p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
   .form_desc1 {
-    font-family: Satoshi;
     font-size: 48px;
     font-weight: 900;
     line-height: 56px;
@@ -340,8 +434,7 @@ h4:hover a {
   }
   .form_desc2 {
     height: 48px;
-    margin-top: -45px;
-    width: 490px;
+    width: 800px !important;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -400,38 +493,58 @@ h4:hover a {
     font-size: 20px;
   }
 
+  .join_header_text {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
   .gpu_text_n {
     text-align: left;
     margin-top: 40px;
     margin-bottom: 40px;
   }
+
+  .table_hr {
+    padding-top: 40px;
+  }
+
+  .table_description {
+    width: 770px;
+    font-size: 16px;
+  padding-bottom: 40px;  }
 }
 
 @media (max-width: 576px) {
-  .wrapper_form {
-    text-align: center;
-    justify-content: center;
-    margin: 30px auto;
-    margin-top: 52px;
-    height: 340px;
-    width: 370px;
-    top: 923px;
-    border-radius: 6px;
-    padding: 64px 0px 64px 0px;
-    border: 1px solid #e6e6e6 !important;
-  }
-
-  .text_img{
-    width: 330px !important;
+  .text_img {
+    width: 100% !important;
     margin: 10px auto;
   }
 
+  .no-border {
+    border-collapse: collapse;
+  }
 
-  .gpu_sub_text{
+  .no-border th,
+  .no-border td {
+    border: none;
+  }
+
+  .earn_wrap p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .gpu_sub_text {
     font-size: 18px;
   }
   .gpu_description {
-    width: 350px;
+    width: 100%;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
@@ -439,23 +552,44 @@ h4:hover a {
     text-align: left;
   }
 
+  .btn_gpu_docs {
+    height: 52px;
+    width: 251px;
+    left: 314.5px;
+    top: 740px;
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    margin: 10px auto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #000000b2;
+  }
+  .btn_gpu_docs_wrap {
+    margin: 10px auto;
+    text-align: center;
+  }
+
   .my-hr {
-    margin-top: 70px !important;
+    margin-top: -40px !important;
     margin-bottom: -20px;
-    width: 330px !important;
+    width: 350px !important;
   }
 
   .my-hr_2 {
-    width: 330px;
+    width: 350px;
   }
 
   .form_desc1 {
-    font-size: 34px;
+    font-size: 31px;
     font-weight: 900;
-    line-height: 45px;
+    line-height: 40px;
     text-align: center;
-    height: 20px;
-    width: 250px;
+    width: 300px;
   }
 
   .date_text {
@@ -478,7 +612,6 @@ h4:hover a {
 
   .sub_header_text {
     width: 330px;
-    font-family: Satoshi;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
@@ -508,7 +641,6 @@ h4:hover a {
 
   .ordered_details > li:nth-child(2) {
     width: 330px;
-    font-family: Satoshi;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
@@ -569,7 +701,7 @@ h4:hover a {
   }
   .btn_wraps .s_d-btns {
     height: 49px;
-    width: 110px;
+    width: 110px !important;
     border-radius: 8px;
     padding: 12px 14px 12px 14px;
     background-color: rgba(0, 0, 0, 0.07);
@@ -578,10 +710,18 @@ h4:hover a {
     margin-right: 30px;
     border: none;
     outline: none;
-    margin-top: 150px;
   }
+
+  .btn_wraps{
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    display: flex;
+  }
+
   .join_btnn {
-    margin-top: 28px;
+    margin-top: 34px;
   }
 
   .gpu_text_2 {
@@ -592,6 +732,21 @@ h4:hover a {
     line-height: 28px;
     letter-spacing: -0.02em;
     text-align: left;
+  }
+  .join_header_text {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: -40px;
+  }
+  .join_header_desc {
+    font-size: 18px;
+  }
+
+  .join_btn2 {
+    margin-top: -40px;
   }
 }
 .edit-page svg,
@@ -625,7 +780,6 @@ p.meta {
     margin-top: 58px;
   }
 }
-
 
 @media (max-width: 370px) {
   .join_btnn {
