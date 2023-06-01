@@ -5,55 +5,46 @@ date: 2023-1-09T00:19:20-08:00
 
 # Akash Network - Analytics Special Interest Group (SIG)
 
-\<add description of the sig. what does it cover etc>
+Analytics Special Interest Group is dedicated to defining and building tools that allow data analytics for deployments, providers, chain metrics, etc.
 
-## Meetings
-Joining the mailing list for the group will typically add invites for the following meetings to your calendar.
 
-- Meeting 1 (e.g bug Scrub): \<weekday\> at \<time\> PT (Pacific Time) (every \<n\> weeks). Convert to your timezone (add link to https://dateful.com/time-zone-converter?t=09:00&tz=PT%20%28Pacific%20Time%29).
-  
-  - Meeting notes and Agenda.
-  - Meeting recordings.
+# Meetings
 
-- Meeting 2: \<weekday\> at \<time\> PT (Pacific Time) (every \<n\> weeks). Convert to your timezone (add link to https://dateful.com/time-zone-converter?t=09:00&tz=PT%20%28Pacific%20Time%29).
-  
-  - Meeting notes and Agenda.
-  - Meeting recordings.
+### Monthly on the second Thursday
 
-- Regular SIG Meeting: Wednesdays at 09:00 PT (Pacific Time) (biweekly). Convert to your timezone.
+#### Feel free to join every month. See meeting table and calendar for specific times.
 
-  - Meeting notes and Agenda.
-  - Meeting recordings.
+#### [Add the Akash Community Group Calendar](https://calendar.google.com/calendar/u/0?cid=Y18yNWU1ZTM3NDhlNGM0YWI3YTU1ZjQxZmJjNWViZWJjYzBhMDNiNDBmYjAyODc4NWYxNDE1OWJmYWViZWExMmUyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+
+
+
+| Meeting | Time | Notes | Transcript | Recording
+| --- | --- | --- | --- | --- |
+| #1 | Thursday, February 9, 2023 09:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-analytics/meetings/001-2023-02-09)  | [Link](https://github.com/akash-network/community/blob/main/sig-analytics/meetings/001-2023-02-09#transcript)  | [Link](https://ftbwz3nd2i3gjhmsgiwot2x4mah6mkzvkuztdh3thyaughvd36aq.arweave.net/LMNs7aPSNmSdkjIs6er8YA_mKzVVMzGfcz4BQx6j34E)
+| #2 | Thursday, March 9, 2023 09:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-analytics/meetings/002-2023-03-09)  | [Link](https://github.com/akash-network/community/blob/main/sig-analytics/meetings/002-2023-03-09#transcript)  | [Link](https://fue3g4xmnsr4uy45y2pulbvwyo7ptfahmrvi6lvuweemi57slz4a.arweave.net/LQmzcuxso8pjncafRYa2w775lAdkao8utLEIxHfyXng)
+| #3 | Thursday, April 13, 2023 09:00 AM PT (Pacific Time) | Coming soon   | Coming Soon  | Coming soon
+| #4 | Thursday, May 11, 2023 09:00 AM PT (Pacific Time) |    |   | 
+| #5 | Thursday, June 08, 2023 09:00 AM PT (Pacific Time) |    |   | 
+| #6 | Thursday, July 13, 2023 09:00 AM PT (Pacific Time) |    |   | 
+| #7 | Thursday, August 10, 2023 09:00 AM PT (Pacific Time) |    |   | 
+| #8 | Thursday, September 14, 2023 09:00 AM PT (Pacific Time) |    |   | 
+| #9 | Thursday, October 12, 2023 09:00 AM PT (Pacific Time) |    |   | 
+| #10 | Thursday, November 09, 2023 09:00 AM PT (Pacific Time) |    |   | 
+| #11 | Thursday, December 14, 2023 09:00 AM PT (Pacific Time) |    |   | 
+
+
 
 ## Leadership
 
-- ### Product Lead(s)
+Anil Murty
 
-  - Name (GH Handle)
-  - Name (GH Handle)
-
-- ### Tech Lead(s)
-
-  - Name (GH Handle)
-  - Name (GH Handle)
-
-- ### Project Manager(s)
-
-  - Name (GH Handle)
-  - Name (GH Handle)
 
 ## Contact
 
-- Discord Server (hyperlink it)
-- Mail List (hyperlink it)
+- [Discord Server](https://discord.com/channels/747885925232672829/1062751220411945000/1071135748432068638)
+
 
 ## Sub Projects, Repositories & Relevant Work Groups
 
-The following are projects and work-groups that \<sig-name\> participates in or contributes to (ToDo: Add links when available)
+The following are projects and work-groups that sig-analytics participates in or contributes to (ToDo: Add links when available)
 
-- Code Repo 1 (hyperlink to repo)
-- Code Repo 2 (hyperlink to repo)
-- Sub Project 1 (hyperlink to repo)
-- Sub Project 2 (hyperlink to repo)
-- Work Group 1 (hyperlink to repo)
-- Work Group 2 (hyperlink to repo)
