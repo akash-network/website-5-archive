@@ -75,18 +75,13 @@ h4:hover a {
     border: none !important;
   }
 
-  .my-hr_2 {
-    width: 450px;
-    margin: 50px auto;
-  }
+
 
   .gpu_sub_text {
     text-align: center;
   }
 
-  .my-hr {
-    margin-top: 70px;
-  }
+
   .text-wraps .ordered_details li {
     width: 500px;
     list-style-type: circle;
@@ -236,7 +231,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
   p.Gpu_header {
     font-weight: 700;
     font-size: 29px;
-    margin-bottom: 10px;
   }
 
   .gpu_text_n {
@@ -248,7 +242,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
   .gpu_text {
     color: #040404;
     font-weight: 500 !important;
-    margin-bottom: 60px;
     font-size: 24px;
   }
 
@@ -256,25 +249,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     text-align: center;
   }
 
-  .my-hr_2 {
-    width: 570px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    background: #00000033;
-    margin-bottom: 64px;
-    margin-top: 34px;
-  }
-
-  .my-hr {
-    width: 570px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    background: #00000033;
-    margin-bottom: 64px;
-    margin-top: 34px;
-  }
 }
 @include media-breakpoint-up(lg) {
   .wrapper_form {
@@ -287,6 +261,10 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     border: 1px solid #e6e6e6 !important;
   }
 
+  .join_btnn {
+    margin-top: 34px;
+  }
+
   .gpu_description {
     font-size: 19px;
     line-height: 29px;
@@ -295,6 +273,12 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     left: 0px;
   }
 
+
+  hr{
+    height: 0px;
+width: 800px;
+
+  }
   .text-wraps .Gpu_header {
     font-size: 36px !important;
     font-weight: 900;
@@ -302,7 +286,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     letter-spacing: -0.02em;
     text-align: left;
     width: 910px;
-    margin-top: -50px;
   }
 
   .text-wraps .gpu_text {
@@ -314,7 +297,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     height: 60px;
     width: 801px;
     color: #040404;
-    margin-top: 40px;
   }
 
   .sub_header_text {
@@ -339,6 +321,16 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     outline: none;
   }
 
+  .join_header_desc {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  .join_btn2{
+    margin-top: 32px;
+  }
+
+
   .btn_wraps {
     justify-content: center;
     display: flex;
@@ -346,23 +338,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     margin: 10px auto;
   }
 
-  .my-hr_2 {
-    width: 870px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    background: #00000033;
-    margin-bottom: 64px;
-    margin-top: 34px;
-  }
-  .my-hr {
-    width: 800px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    background: #00000033;
-    margin-top: -25px !important;
-  }
 
   .gpu_sub_text {
     text-align: left;
@@ -394,7 +369,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
   }
 
   .btn_gpu_docs_wrap {
-    margin: 10px auto;
     text-align: center;
   }
 
@@ -453,8 +427,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     margin-top: 24px;
     height: 56px;
     width: 777px;
-    left: 0px;
-    top: 54px;
   }
   .text-wraps .ordered_details2 li {
     font-size: 20px;
@@ -466,8 +438,15 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     margin-top: 24px;
     height: 56px;
     width: 777px;
-    left: 0px;
-    top: 54px;
+  }
+  .table_hr{
+width: 730px;
+left: 40px;
+margin: 40px auto;
+  }
+  .table_caption{
+    margin: 40px auto;
+    width: 730px;
   }
 
   .ordered_details2 > li:nth-child(2) {
@@ -504,17 +483,12 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
   .gpu_text_n {
     text-align: left;
     margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  .table_hr {
-    padding-top: 40px;
   }
 
   .table_description {
     width: 770px;
     font-size: 16px;
-  padding-bottom: 40px;  }
+}
 }
 
 @media (max-width: 576px) {
@@ -574,15 +548,6 @@ section:nth-child(3) > div > div > div > button:nth-child(1){
     text-align: center;
   }
 
-  .my-hr {
-    margin-top: -40px !important;
-    margin-bottom: -20px;
-    width: 350px !important;
-  }
-
-  .my-hr_2 {
-    width: 350px;
-  }
 
   .form_desc1 {
     font-size: 31px;
