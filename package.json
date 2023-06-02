@@ -80,7 +80,7 @@
     "datocms-structured-text-to-plain-text": "^2.0.4",
     "dotenv": "^16.0.3",
     "image-downloader": "^4.3.0",
-    "mkdirp": "^1.0.4",
+    "mkdirp": "^3.0.1",
     "react-slick": "^0.29.0",
     "replace-in-file": "^6.3.5",
     "sanitize-filename": "^1.6.3",
