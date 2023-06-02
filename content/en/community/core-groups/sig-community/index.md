@@ -16,7 +16,11 @@ This SIG (Special Interest Group) is designed for Akash community members to pro
 
 | Meeting | Time | Notes | Transcript | Recording
 | --- | --- | --- | --- | --- |
-| #1 | Thursday, January 31, 2023 11:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31)  | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31#transcript)  | [Link](https://fss4l23i24p6gntryybnqrr5mss4u2bhkutvcdq7avzexqhchida.arweave.net/LKXF62jXH-M2ccYC2EY9ZKXKaCdVJ1EOHwVyS8DiOgY) 
+
+| #1 | Thursday, January 31, 2023 11:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31)  | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31#transcript)  | [Link](https://fss4l23i24p6gntryybnqrr5mss4u2bhkutvcdq7avzexqhchida.arweave.net/LKXF62jXH-M2ccYC2EY9ZKXKaCdVJ1EOHwVyS8DiOgY)
+| #1 | Thursday, January 31, 2023 11:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31)  | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/01-2023-01-31#transcript)  | [Link](https://fss4l23i24p6gntryybnqrr5mss4u2bhkutvcdq7avzexqhchida.arweave.net/LKXF62jXH-M2ccYC2EY9ZKXKaCdVJ1EOHwVyS8DiOgY)
+| #2 | Tuesday, March 14, 2023 11:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/002-2023-03-14)  | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/002-2023-03-14#Transcript)  | Coming soon
+| #3 | Tuesday, April 11, 2023 11:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/003-2023-04-11)  | [Link](https://github.com/akash-network/community/blob/main/sig-community/meetings/003-2023-04-11#Transcript)  | Coming soon
 
 ## Leadership
 
