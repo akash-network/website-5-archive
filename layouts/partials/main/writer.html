@@ -1,0 +1,24 @@
+
+<div style="margin-top: 24px;">
+ <span> By
+  {{ if .Params.contributors -}}
+  {{ $last := sub (len .Params.contributors) 1 }}
+  {{ range $index, $contributor := .Params.contributors }}
+    {{ if gt $index 0 }}
+      {{ if eq $index $last }} and {{ else }}, {{ end }}
+    {{ end }}
+    <a href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>
+  {{ end }}
+{{ end }}
+ </span>
+
+{{ if .Params.categories -}}
+  <span>/</span>
+  {{ range $index, $category := .Params.categories }}
+    {{ if gt $index 0 }}, {{ end }}
+    <a href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a>
+  {{ end }}
+{{ end }}
+
+</div>
+

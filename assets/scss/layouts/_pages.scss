@@ -27,6 +27,11 @@ h4:hover a {
   margin-top: 3rem;
 }
 
+.btn_wraps .s_d-btns:hover {
+  opacity: 0.5;
+  transition: 0.3s ease-in-out;
+}
+
 .edit-page,
 .last-modified {
   font-size: $font-size-sm;
@@ -41,8 +46,733 @@ h4:hover a {
     margin-top: 0.75rem;
     margin-bottom: 0.25rem;
   }
+
+  .sub_header_text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .text-wraps .gpu_text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    height: 20px;
+    width: 470px;
+    color: #040404;
+    margin-top: 30px;
+  }
+
+  .no-border {
+    border-collapse: collapse;
+  }
+
+  .no-border th,
+  .no-border td {
+    border: none !important;
+  }
+
+  .gpu_sub_text {
+    text-align: center;
+  }
+
+  .text-wraps .ordered_details li {
+    width: 500px;
+    list-style-type: circle;
+  }
+  .text-wraps .ordered_details2 li {
+    width: 500px;
+    list-style-type: decimal;
+  }
+
+  .text-wraps .Gpu_header {
+    font-size: 34px !important;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    width: 470px;
+  }
+
+  .top_header {
+    width: 400px;
+    text-align: center;
+    font-size: 34px;
+  }
+
+  .form_desc1 {
+    font-size: 30px;
+    width: 410px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+  }
+ section:nth-child(1) > div > div > div > div{
+    margin-top: 59px !important;
+  }
+
+
+  hr {
+    height: 0px;
+    width: 500px;
+  }
+
+  .date_text {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .form_desc2 {
+    height: 48px;
+    padding-top: 20px;
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00000099;
+    margin-top: -20px;
+    padding-bottom: 4rem;
+  }
+
+  .gpu_description {
+    font-size: 19px;
+    line-height: 29px;
+    width: 440px;
+  }
+
+  .ordered_details2 > li:nth-child(2) {
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+
+  .ordered_details2 > li:nth-child(3) {
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+
+  .ordered_details > li:nth-child(2) {
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+  .ordered_details > li:nth-child(3) {
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+  .ordered_details > li:nth-child(4) {
+    margin-top: 25px !important;
+    font-size: 14px;
+  }
+
+  .btn_wraps .s_d-btns {
+    background-color: rgba(0, 0, 0, 0.07);
+    text-align: center;
+    font-size: 14px;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+  }
+
+  .btn_gpu_docs_wrap {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .btn_gpu_docs {
+    height: 52px;
+    width: 281px;
+    left: 314.5px;
+    top: 740px;
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #000000b2;
+  }
+
+  section:nth-child(3) > div > div > div > button:nth-child(2) {
+    border-radius: 8px;
+    padding: 14px 17px 14px 17px;
+  }
+
+  section:nth-child(3) > div > div > div > button:nth-child(1) {
+    border-radius: 8px;
+    padding: 14px 17px 14px 17px;
+  }
+
+  .btn_wraps .s_d-btns:hover {
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+  }
+
+  .btn_wraps {
+    display: flex;
+    height: 52px;
+    width: 495px;
+    justify-content: center;
+  }
+  p.Gpu_header {
+    font-weight: 700;
+    font-size: 29px;
+  }
+
+  .gpu_text_n {
+    color: #040404;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .gpu_text {
+    color: #040404;
+    font-weight: 500 !important;
+    font-size: 24px;
+    padding-bottom: 60px;
+  }
+
+  .btn_wraps{
+    margin-bottom: 64px;
+    margin-top: 40px;
+  }
+  .no-border {
+    margin-left: 40px;
+  }
+
+  .table_hr{
+    width: 400px;
+    margin: 30px auto;
+  }
+
+  .table_caption{
+    width: 400px;
+    margin: 30px auto;
+  }
+
+
+  .gpu_text_2 {
+    text-align: center;
+  }
+  .join_header_text {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .join_header_desc {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 27px;
+  }
+  .join_btn2 {
+    margin-top: 40px;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .wrapper_form {
+    margin-top: -50px;
+    height: 360px;
+    width: 910px;
+    top: 923px;
+    border-radius: 6px;
+    padding: 64px 0px 64px 0px;
+    border: 1px solid #e6e6e6 !important;
+  }
+
+  .join_btnn {
+    margin-top: 34px;
+  }
+
+  .gpu_description {
+    font-size: 19px;
+    line-height: 29px;
+    width: 810px;
+    margin-bottom: 60px;
+    left: 0px;
+  }
+
+  .no-border {
+    margin-left: 40px;
+  }
+
+  hr {
+    height: 0px;
+    width: 800px;
+  }
+  .text-wraps .Gpu_header {
+    font-size: 36px !important;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 910px;
+  }
+
+  .text-wraps .gpu_text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    height: 60px;
+    width: 801px;
+    color: #040404;
+  }
+
+  .sub_header_text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .btn_wraps .s_d-btns {
+    height: 52px;
+    width: 165px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 14px 17px 14px 17px;
+    background-color: rgba(0, 0, 0, 0.07);
+    text-align: center;
+    font-size: 14px;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+  }
+
+  .join_header_desc {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  .join_btn2 {
+    margin-top: 32px;
+  }
+
+  .btn_wraps {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 100px;
+    margin: 10px auto;
+  }
+
+  .gpu_sub_text {
+    text-align: left;
+  }
+
+  .top_header {
+    width: 501px !important;
+    height: 112px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  .no-border {
+    border-collapse: collapse;
+  }
+
+  .no-border th,
+  .no-border td {
+    border: none !important;
+  }
+  .gpu_text_2 {
+    width: 721px;
+    height: 72px;
+    margin-top: -17px;
+  }
+
+  .btn_gpu_docs_wrap {
+    text-align: center;
+  }
+
+  .btn_gpu_docs {
+    height: 52px;
+    width: 281px;
+    left: 314.5px;
+    top: 740px;
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #000000b2;
+  }
+
+  .earn_wrap p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .form_desc1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    height: 56px;
+    width: 731.5px;
+  }
+  .form_desc2 {
+    height: 48px;
+    width: 800px !important;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00000099;
+  }
+
+  .text-wraps .ordered_details li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style: circle;
+    margin-top: 24px;
+    height: 56px;
+    width: 777px;
+  }
+  .text-wraps .ordered_details2 li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style: decimal;
+    margin-top: 24px;
+    height: 56px;
+    width: 777px;
+  }
+  .table_hr {
+    width: 730px;
+    left: 40px;
+    margin: 40px auto;
+  }
+  .table_caption {
+    margin: 40px auto;
+    width: 730px;
+  }
+
+  .ordered_details2 > li:nth-child(2) {
+    margin-top: 5px !important;
+    font-size: 20px;
+  }
+
+  .ordered_details2 > li:nth-child(3) {
+    margin-top: 5px !important;
+    font-size: 20px;
+  }
+
+  .ordered_details > li:nth-child(2) {
+    margin-top: 5px !important;
+    font-size: 20px;
+  }
+  .ordered_details > li:nth-child(3) {
+    margin-top: 5px !important;
+    font-size: 20px;
+  }
+  .ordered_details > li:nth-child(4) {
+    margin-top: 5px !important;
+    font-size: 20px;
+  }
+
+  .join_header_text {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .gpu_text_n {
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .table_description {
+    width: 770px;
+    font-size: 16px;
+  }
 }
 
+@media (max-width: 576px) {
+  .text_img {
+    width: 100% !important;
+    margin: 10px auto;
+  }
+
+  .no-border {
+    border-collapse: collapse;
+  }
+
+  .rewards__desc {
+    width: 330px;
+  }
+
+  .no-border th,
+  .no-border td {
+    border: none;
+  }
+
+  .earn_wrap p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .gpu_sub_text {
+    font-size: 18px;
+  }
+  .gpu_description {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .btn_gpu_docs {
+    height: 52px;
+    width: 251px;
+    left: 314.5px;
+    top: 740px;
+    border-radius: 8px;
+    padding: 16px 20px 16px 20px;
+    margin: 10px auto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #000000b2;
+  }
+  .btn_gpu_docs_wrap {
+    margin: 10px auto;
+    text-align: center;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .illustration_wrap p {
+    height: 56px;
+    width: 230px;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .form_desc1 {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: center;
+    width: 330px;
+  }
+
+  .date_text {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .form_desc2 {
+    height: 48px;
+    padding: 40px 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: -30px;
+    color: #00000099;
+    line-height: 26px;
+  }
+
+  .sub_header_text {
+    width: 330px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-top: 40px;
+  }
+
+  .ordered_details2 > li:nth-child(2) {
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .ordered_details2 > li:nth-child(3) {
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px !important;
+  }
+
+  .ordered_details > li:nth-child(2) {
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .ordered_details > li:nth-child(3) {
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px !important;
+  }
+  .ordered_details > li:nth-child(4) {
+    width: 300px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 9px !important;
+  }
+
+  .text-wraps .ordered_details {
+    list-style-type: circle;
+    width: 100%;
+  }
+
+  p.Gpu_header {
+    font-weight: 900;
+    width: 330px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    line-height: 36px;
+    margin-top: -10px;
+  }
+
+  .gpu_text_n {
+    color: #040404;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .gpu_text {
+    color: #040404;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    height: 84px;
+    width: 330px;
+    margin-top: 40px;
+  }
+  .btn_wraps .s_d-btns {
+    height: 52px;
+    width: 157px !important;
+    border-radius: 8px;
+    padding: 12px 14px 12px 14px;
+    background-color: rgba(0, 0, 0, 0.07);
+    text-align: center;
+    font-size: 9px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+  }
+
+  .btn_wraps {
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    display: flex;
+  }
+
+  .join_btnn {
+    padding-top: 52px;
+  }
+
+  .gpu_text_2 {
+    font-size: 18px;
+    height: 56px;
+    width: 330px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .join_header_text {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .join_header_desc {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 27px;
+  }
+
+  .join_btn2 {
+    margin-top: 40px;
+  }
+
+  .no-border {
+    margin-left: 15px !important;
+  }
+
+  .table_hr {
+    width: 300px;
+    margin: 20px auto;
+  }
+
+  .table_caption {
+    width: 300px;
+    margin: 20px auto;
+    font-size: 16px;
+  }
+}
 .edit-page svg,
 .last-modified svg {
   margin-right: 0.25rem;
@@ -61,4 +791,30 @@ p.meta {
 
 .page-link:hover {
   text-decoration: none;
+}
+
+@media (max-width: 430px) {
+  .btn_wraps .s_d-btns {
+    height: 45px;
+    width: 100px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .join_btnn {
+    margin-top: 58px;
+  }
+
+  .no-border {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 370px) {
+  .join_btnn {
+    margin-top: 78px;
+  }
+
+  .no-border {
+    margin-left: 0;
+  }
 }

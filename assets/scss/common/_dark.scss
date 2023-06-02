@@ -64,6 +64,17 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] body .btn-menu svg {
   color: $body-color-dark;
 }
+[data-dark-mode] body .d-wrap_dark a .disc{
+  display: flex !important;
+  color: $body-color-dark;
+  position: relative;
+  right: 10px;
+  top: 3px;
+}
+[data-dark-mode] body .d-wrap a .disc{
+  display: none !important;
+  color: $body-color-dark;
+}
 
 [data-dark-mode] body .doks-sidebar-toggle {
   color: $navbar-dark-color;
@@ -97,6 +108,9 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
+}
+[data-dark-mode] body .offcanvas .discords{
+  color: #fff !important;
 }
 
 [data-dark-mode] body .offcanvas .nav-link:hover,
@@ -298,11 +312,21 @@ $navbar-dark-active-color:          $link-color-dark;
   border-top: 1px solid $border-dark !important;
 }
 
+
+[data-dark-mode] body .footer_wrapper{
+  background: $body-overlay-dark;
+}
+
 @include media-breakpoint-up(lg) {
   [data-dark-mode] body .docs-sidebar {
     order: 0;
     border-right: 1px solid $border-dark;
   }
+
+
+[data-dark-mode] body .footer_wrapper{
+  background: $body-overlay-dark;
+}
 }
 
 [data-dark-mode] body .docs-navigation {
@@ -590,5 +614,16 @@ $navbar-dark-active-color:          $link-color-dark;
 
   #DRAW {
     fill: $body-color-dark;
+  }
+}
+
+
+
+@media (max-width: 576px)  {
+  [data-dark-mode] body .d-wrap_dark a .disc{
+    display: flex !important;
+    position: relative;
+    margin-left: 10px;
+    top: 3px;
   }
 }

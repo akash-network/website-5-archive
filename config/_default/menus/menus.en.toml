@@ -38,6 +38,7 @@
   url = "https://twitter.com/akashnet_"
   weight = 20
 
+
 [[footer]]
   name = "Privacy"
   url = "/privacy"

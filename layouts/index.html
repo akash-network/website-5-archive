@@ -1,210 +1,270 @@
 {{ define "main" }}
-<section class="section container-fluid mt-n3 pb-5">
+
+<section class="" style="margin-top: 90px;">
   <div class="row justify-content-center">
-    <div class="col-md-10 text-center">
-      <h1 class=" my-4">{{ .Title }}</h1>
-    </div>
-    <div class="col-md-8 text-center">
-      <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="https://docs.akash.network/guides/deploy" role="button"
-        target="_blank">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source. Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">{{ $data :=
-          getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}</a></p>
-    </div>
-  </div>
-</section>
-{{ end }}
-
-{{ define "sidebar-prefooter" }}
-{{ if eq $.Site.Language.LanguageName "English" }}
-<section class="section section-sm mt-5">
-  <div class="container text-left d-none d-md-block">
-    <div class="row m-5 justify-content-center">
-      <div class="col-md-6 text-center">
-        {{ partial "content/svg.html" "fish" }}
-      </div>
-      <div class="col-md-8">
-        <h2 class="h4">You will own your cloud, and you will be happy</h2>
-        <p> With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
-          sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
-          to run your applications. </p>
-      </div>
-    </div>
-    <div class="row m-5 justify-content-center">
-      <div class="col-md-8">
-        <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
-        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
-          makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
-          customers submit their desired price and providers compete for the business. This often results in prices up
-          to 85% lower than other cloud systems.</p>
-      </div>
-      <div class="col-md-6 text-center">
-        {{ partial "content/svg.html" "pig" }}
-      </div>
-      <div class="row m-5 justify-content-center">
-        <div class="col-md-6 text-center">
-          {{ partial "content/svg.html" "parachute" }}
-        </div>
-        <div class="col-md-8">
-          <h2 class="h4">Purpose built for public utility</h2>
-          <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
-            it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
-            the community oversees all aspects of Akash, including decisions about what new features should be
-            implemented.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Mobile Version -->
-  <div class="container justify-content-center text-left d-xs-block d-sm-block d-md-none">
-    <div class="row">
-      <div class="col">
-        <h2 class="h4">You will own your cloud, and you will be happy</h2>
-        <p>
-          With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
-          sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
-          to run your applications.
+    <div class="col-md-10">
+      <div class="">
+        <p class="mx-auto form_desc1 mb-3">Join the Akash GPU Testnet</p>
+        <p class="mx-auto text-center fw-bolder fs-4  mb-3 rewards__desc">Earn your share of over $100,000 in rewards</p>
+        <p class="date__ fw-bold" style="border: 2px solid #E6E6E6; margin: 44px auto; text-align: center; width: height 32px;
+        width: 328px;
+        color: #626060;
+        border-radius: 6px;
+        padding: 4px 8px 4px 8px;
+        font-size: 15px;
+        ">Starts: June 12, 2023 - Ends: July 3rd, 2023</p>
+        <p class="mx-auto form_desc2 pt-3">
+          Sign up to participate in testing the first open-source cloud for
+          open-source GPUs and AI by providing GPUs, defining deployment specs,
+          deploying AI models, and benchmarking GPU performance.
         </p>
-      </div>
-    </div>
-
-    <div class="row ">
-      <div class="col">
-        <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
-        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
-          makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
-          customers submit their desired price and providers compete for the business. This often results in prices up
-          to 85% lower than other cloud systems.</p>
-      </div>
-    </div>
-    <div class="row ">
-      <div class="col">
-        <h2 class="h4">Purpose built for public utility</h2>
-        <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
-          it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
-          the community oversees all aspects of Akash, including decisions about what new features should be
-          implemented.</p>
-      </div>
-    </div>
-  </div>
-  </div>
-
-</section>
-<section class="section section-sm text-left">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <h2 class="h5">Infrastructure as Code</h2>
-        <p class="small"> Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you 
-          create complex deployments that span multiple areas and providers while choosing the resources you want to
-           use and deciding on your price. </p>
-      </div>
-      <div class="col-md-4">
-        <h2 class="h5">Kubernetes Powered</h2>
-        <p class="small"> Akash runs on Kubernetes, the industry-leading container orchestration system. With this in
-          place, you can rest assured that your applications will be hosted on a secure and reliable platform that has
-          been tested and proven to work.</p>
-      </div>
-      <div class="col-md-4">
-        <h2 class="h5">Persistent Storage </h2>
-        <p class="small">Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <h2 class="h5">Dedicated IP Leasing</h2>
-        <p class="small"> Akash gives you the ability to rent a dedicated IP address for your application. This allows
-          you to assign any port of your choice to your deployment, and then direct traffic towards it. This is
-          especially useful for services such as DNS, web servers, and more.</p>
-      </div>
-      <div class="col-md-4">
-        <h2 class="h5">Censorship Resistant and Unstoppable</h2>
-        <p class="small"> Deploying applications on Akash is open to everyone, and is secure and censorship-proof.
-          Nobody can stop you from using Akash to build apps that can't be censored.</p>
-      </div>
-      <div class="col-md-4">
-        <h2 class="h5"> Pseudonymous and Non-attributable </h2>
-        <p class="small"> The Akash protocol is designed to protect your identity, providing a high level of privacy and
-          security. You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <h2 class="h5">Peer-to-peer and Private</h2>
-        <p class="small"> You and the provider you're using to deploy your application communicate directly, without any
-          external parties. This makes sure your data stays secure and private, and no one can claim a portion of your
-          payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable
-          and unaffected by single point of failure. </p>
-      </div>
-      <div class="col-md-4">
-        <h2 class="h5">Layer One Protocol</h2>
-        <p class="small"> Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to
-          secure its network of decentralized validators. The network can be validated without permission and is secured
-          by AKT, its native token. </p>
-      </div>
-      <div class="col-md-4">
-        <h2 class="h5">Interoperable with IBC</h2>
-        <p class="small"> Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication
-          (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that
-          are also IBC compatible. </p>
-      </div>
-    </div>
-  </div>
-</section>
-<hr />
-<section>
-  <div class="container">
-    <div class="related-posts">
-      <div class="row justify-content-center">
-        <div class="col">
-          <h3 class="section-title text-center">Latest From The Blog</h3>
+        <div class="mx-auto text-center join_btnn">
+          <a target="_blank" href="https://akashnet.typeform.com/to/x2fwKQFH">
+          <button
+            class="mx-auto text-white py-2 px-4"
+            style="
+              background: #fa5757;
+              border-radius: 6px;
+              border: none;
+              outline: none;
+              font-size: 14px; "
+          >
+        Join Now
+          </button>
+        </a>
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-lg-5">
-        {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
-        <div class="col">
-          <div class="card">
-            {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
-            {{ partial "content/card-image.html" . }}
-            <div class="card-body">
-              <article>
-                <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
-                </h2>
-                <p>{{ .Params.excerpt | safeHTML }}</p>
-                {{ partial "main/blog-meta.html" . -}}
-              </article>
-            </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-top: 56px;">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <img
+        class="w-100 text_img"
+        style="border-radius: 4px"
+        src="{{ .Site.BaseURL }}/mobile_img/gpu-testnet-1.png"
+        alt="img"
+      />
+      <p class="text-left mt-5 gpu_description">{{ .Description}}</p>
+      <p class="text-left gpu_description">
+        By joining the Akash GPU Testnet, you’re helping to define how
+        open-source cloud computing will operate in the AI era.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<hr  class="mx-auto"/>
+
+<section style="margin-top: 64px;">
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-10 text-wraps">
+      <p class="Gpu_header" style="margin-bottom: 20px;">Here's how you can earn</p>
+        <div class=" d-lg-flex d-md-flex d-sm-block gap-5">
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img"  src="{{ .Site.BaseURL }}/mobile_img/Frame 7782.png" alt="img" />
+            <p class="text-center mt-3">Set up a GPU Provider.</p>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img" src="{{ .Site.BaseURL }}/mobile_img/pic2.png" alt="img" />
+            <p class="text-center mt-3">Deploy AI models.</p>
           </div>
         </div>
-        {{ end -}}
+        <div class=" d-lg-flex d-md-flex d-sm-block gap-5 illustration_wrap">
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img"  src="{{ .Site.BaseURL }}/mobile_img/pic3.png" alt="img" />
+            <p class="text-center mt-3">Build AI deployment templates (SDL)</p>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 mb-4 earn_wrap">
+            <img class="text_img" src="{{ .Site.BaseURL }}/mobile_img/pic4.png" alt="img" />
+            <p class="text-center mt-3">Benchmark GPUs using TensorFlow</p>
+          </div>
+        </div>
+        <div class="btn_gpu_docs_wrap" style="margin-bottom: 58px;">
+          <a target="_blank" href="https://github.com/akash-network/community/blob/main/wg-gpu/GPU-AI-Incentivized-Testnet.md">
+          <button class="btn_gpu_docs ">
+            View Tasks and Incentives Details {{ partial "content/svg.html" "icon" }}
+          </button>
+        </a>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
 
-{{ define "sidebar-footer" }}
-<div class="py-2 mt-5 bg-light rounded-3 text-center ">
-  <div class="container-fluid py-5 ">
-    <div class="row justify-content-center">
-      <div class="col-10">
-        <h2>Interested in receiving the latest Akash news? Sign up for Akash's Newsletter</h2>
-        <p class="fs-5 text-center">Join 17,000+ subscribers who receive a weekly summary of everything happening across
-          the Akash ecosystem.</p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://akt.fyi/3kpRwVM" target="_blank"
-          rel="noopener noreferrer">Subscribe</a>
+<hr class="mx-auto" />
+<section style="margin-top: 64px;">
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-10 text-wraps">
+      <p class="Gpu_header">The Open-Source Cloud for GPU Compute</p>
+      <p class="gpu_text">
+        Be among the first to test a revolutionary new open-source marketplace
+        for GPU compute
+      </p>
+      <ol class="ordered_details">
+        <li class="mt-4">
+          Get access to powerful GPUs like the NVIDIA A100 & H100 that are
+          difficult to get anywhere else.
+        </li>
+        <li class="">
+          Tap into a massive network of idle consumer-grade GPUs.
+        </li>
+        <li class="third_li" style="margin-top: -10px">
+          Run the latest open-source AI models.
+        </li>
+        <li class="forth_li" style="margin-top: -10px">
+          Fine-tune popular open-source AI models on your own data.
+        </li>
+        <!-- <hr class="my_hr2 mx-auto" style="width: 900px; text-align: center; position: relative; right: 20px; color: #00001A; margin-top: 64px;" /> -->
+      </ol>
+      <div class="btn_wraps col-md-10">
+        <button class="s_d-btns">
+          View GPU Docs {{ partial "content/svg.html" "icon" }}
+        </button>
+        <button class="s_d-btns">
+          KYC Guidelines {{ partial "content/svg.html" "icon" }}
+        </button>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<section class="container-fluid">
-  <div class="row justify-content-center text-center">
-    <div class="col-lg-9">
-      {{- .Content -}}
+<hr class="mx-auto" />
+
+<section style="margin-top: 64px;">
+  <div class="row justify-content-center">
+    <div class="col-md-10 text-wraps">
+      <p class="Gpu_header">Earn Rewards for Your GPUs</p>
+      <p
+        class="gpu_sub_text">
+      Provide your GPUs to the network and earn rewards by powering AI,
+       machine learning, and graphics-intensive workloads.
+      </p>
+      <style>
+
+      </style>
+
+      <div class="border">
+        <table class="no-border" style="margin-top: 20px; ">
+          <thead>
+            <tr>
+              <th>GPU Model</th>
+              <th>Max Testnet Incentive</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nvidia H100</td>
+              <td>$4,000</td>
+            </tr>
+            <tr>
+              <td>Nvidia A100</td>
+              <td>$2,800</td>
+            </tr>
+            <tr>
+              <td>Nvidia V100</td>
+              <td>$2,400</td>
+            </tr>
+            <tr>
+              <td>Nvidia P100</td>
+              <td>$2,000</td>
+            </tr>
+            <tr>
+              <td>Nvidia A40</td>
+              <td>$1,600</td>
+            </tr>
+            <tr>
+              <td>Nvidia A10</td>
+              <td>$1,200</td>
+            </tr>
+            <tr>
+              <td>Nvidia P4</td>
+              <td>$1,200</td>
+            </tr>
+            <tr>
+              <td>Nvidia K80</td>
+              <td>$800</td>
+            </tr>
+            <tr>
+              <td>Nvidia T4</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <td>Nvidia 4090</td>
+              <td>$560</td>
+            </tr>
+            <tr>
+              <td>Nvidia 3090Ti</td>
+              <td>$480</td>
+            </tr>
+            <tr>
+              <td>Nvidia 4080</td>
+              <td>$440</td>
+            </tr>
+            <tr>
+              <td>Nvidia 3090</td>
+              <td>$320</td>
+            </tr>
+            <tr>
+              <td>Nvidia 3080Ti</td>
+              <td>$240</td>
+            </tr>
+            <tr>
+              <td>Nvidia 3060Ti</td>
+              <td>$220</td>
+            </tr>
+            <tr>
+              <td>Nvidia 3080</td>
+              <td>$200</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr  class="table_hr"/>
+        <p class="table_caption">In addition there are also incentives for deploying AI models and for benchmarking GPU performance using tensorflow. For details on all that view...</p>
+      </div>
+
     </div>
+  </div>
+</section>
+
+
+
+<section style="margin-top: 68px;">
+  <div class="row justify-content-center">
+    <div class="col-md-10 top_desc_wrapper">
+      <p class=" text-center join_header_text">Join the Akash GPU Testnet</p>
+      <p class="text-center join_header_desc">
+        Sign up to participate in testing the first open-source cloud for open-source GPUs and AI by providing GPUs, defining deployment specs,
+         deploying AI models, and benchmarking GPU performance.
+      </p>
+      <div class="mx-auto text-center join_btn2">
+        <a target="_blank" href="https://akashnet.typeform.com/to/x2fwKQFH">
+        <button
+          class=" mx-auto text-white py-2 px-4"
+          style="
+            background: #fa5757;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            font-size: 14px; "
+        >
+      Join Now
+        </button>
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }} {{ define "sidebar-footer" }}
+<section class="container-fluid" style="margin-top: 70px">
+  <div class="row">
+    <div class="">{{- .Content -}}</div>
   </div>
 </section>
 {{ end }}
