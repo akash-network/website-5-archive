@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <section class="section section-sm mt-5 feature_section">
   <div class="container text-left d-none d-md-block d-md-block">
     <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
-      <div class="col-md-12 col-lg-5 text-center">
+      <div class="col-md-12 col-lg-5 text-center svg-container">
         {{ partial "content/svg.html" "cloud_new" }}
       </div>
       <div class="col-md-12 col-lg-6">
@@ -91,12 +91,12 @@ document.addEventListener("DOMContentLoaded", function() {
           customers submit their desired price and providers compete for the business. This often results in prices up
           to 85% lower than other cloud systems.</p>
       </div>
-      <div class="col-md-12 col-lg-5 text-center order-md-first">
+      <div class="col-md-12 col-lg-5 text-center order-md-first svg-container">
         {{ partial "content/svg.html" "fingertips" }}
       </div>
     </div>
     <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
-      <div class="col-md-12 col-lg-5 text-center mt-md-5">
+      <div class="col-md-12 col-lg-5 text-center mt-md-5 svg-container">
         {{ partial "content/svg.html" "community_h" }}
       </div>
       <div class="col-md-12 col-lg-6">
@@ -117,8 +117,8 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="container justify-content-center text-left d-xs-block d-sm-block d-md-none">
     <div class="row">
       <div class="col">
-        <div class="d-flex justify-content-center mx-auto">
-          <img src="{{ .Site.BaseURL }}/mobile_img/cloud.png" alt="img">
+        <div class="d-flex justify-content-center mx-auto svg-container">
+          {{ partial "content/svg.html" "cloud_mobile" }}
         </div>
         <h2 class="h4">You will own your cloud, and you will be happy</h2>
         <p>
@@ -132,7 +132,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <div class="row">
       <div class="col" style="margin-top: 70px;">
-        <img src="{{ .Site.BaseURL }}/mobile_img/mobile_finger.png" alt="img">
+        <div class="d-flex justify-content-center mx-auto svg-container">
+          {{ partial "content/svg.html" "Calculator_mobile" }}
+        </div>
         <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
@@ -142,7 +144,9 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
     <div class="row ">
       <div class="col" style="margin-top: 70px;">
-        <img src="{{ .Site.BaseURL }}/mobile_img/mobile_hand.png" alt="img">
+        <div class="d-flex justify-content-center mx-auto svg-container">
+          {{ partial "content/svg.html" "Gestures_mobile" }}
+        </div>
         <h2 class="h4">Purpose built for public utility</h2>
         <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
           it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
@@ -223,19 +227,19 @@ document.addEventListener("DOMContentLoaded", function() {
 <div class="owl-carousel" >
   <div >
     <div class="carousel-container container">
-      <h4 class="text-black" style="width: 300px;">Infrastructure
+      <h4 class="" style="width: 300px;">Infrastructure
         and Resource
         Management</h4>
-      <h5 class="text-black" style="width: 342px; margin-top: -20px;">Infrastructure as Code</h5>
+      <h5 class="" style="width: 342px; margin-top: -20px;">Infrastructure as Code</h5>
         <p style="width: 342px;">Akash's orchestration layer is powered by SDL.
           This simple-to-use YAML-based language lets you create complex deployments that span multiple
            areas and providers while
           choosing the resources you want to use and deciding on your price.</p>
-      <h5 class="text-black" style="width: 342px;">Kubernetes Powered</h5>
+      <h5 class="" style="width: 342px;">Kubernetes Powered</h5>
         <p style="width: 342px;">Akash runs on Kubernetes, the industry-leading container orchestration system.
           With this in place, you can rest assured that your applications will be hosted
           on a secure and reliable platform that has been tested and proven to work.</p>
-      <h5 class="text-black" style="width: 342px;">Persistent Storage</h5>
+      <h5 class="" style="width: 342px;">Persistent Storage</h5>
         <p style="width: 342px; ">Akash's orchestration layer is powered by SDL.
           This simple-to-use YAML-based language lets you create complex deployments that span multiple
            areas and providers while
@@ -245,35 +249,35 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   <div class="carousel-container container">
-  <h4 class="text-black">Blockchain and <br />Interoperability</h4>
-  <h5 class="text-black" style="width: 342px; margin-top: -25px;">Dedicated IP Leasing</h5>
-  <p class="text-black" style="width: 342px;">Akash gives you the ability to rent a dedicated IP address
+  <h4 class="">Blockchain and <br />Interoperability</h4>
+  <h5 class="" style="width: 342px; margin-top: -25px;">Dedicated IP Leasing</h5>
+  <p class="" style="width: 342px;">Akash gives you the ability to rent a dedicated IP address
     for your application. This allows you to assign any port of your choice to your deployment,
     and then direct traffic towards it.
     This is especially useful for services such as DNS, web servers, and more.</p>
-  <h5 class="text-black" style="width: 342px; ">Layer One Protocol</h5>
-  <p class="text-black" style="width: 342px;">Akash is a layer one protocol built using Cosmos SDK that
+  <h5 class="" style="width: 342px; ">Layer One Protocol</h5>
+  <p class="" style="width: 342px;">Akash is a layer one protocol built using Cosmos SDK that
     uses Proof-of-Stake consensus to secure its network of decentralized validators.
     The network can be validated without permission and is secured by AKT, its native token.</p>
-  <h5 class="text-black" style="width: 342px;">Interoperable with IBC</h5>
-  <p class="text-black" style="width: 342px;">Akash is the first blockchain to successfully
+  <h5 class="" style="width: 342px;">Interoperable with IBC</h5>
+  <p class="" style="width: 342px;">Akash is the first blockchain to successfully
     carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub.
    This makes Akash able to communicate natively with other blockchains
    that are also IBC compatible</p>
   </div>
   <div class="carousel-container container">
-    <h4 class="text-black">Security and Privacy</h4>
-    <h5 class="text-black" style="width: 342px; margin-top: -20px;"> Dedicated IP Leasing</h5>
+    <h4 class="">Security and Privacy</h4>
+    <h5 class="" style="width: 342px; margin-top: -20px;"> Dedicated IP Leasing</h5>
     <p style="width: 342px;">Akash gives you the ability to rent a dedicated IP address for
        your application. This allows you to assign any port of your choice to your deployment,
         and then direct traffic towards it.
        This is especially useful for services such as DNS, web servers, and more.</p>
-  <h5 class="text-black" style="width: 342px;">Censorship Resistant and Unstoppable </h5>
+  <h5 class="" style="width: 342px;">Censorship Resistant and Unstoppable </h5>
     <p style="width: 342px;">Deploying applications on Akash is open to everyone, and is
        secure and censorship-proof.
       Nobody can stop you from using Akash to build apps that can't be censored.</p>
 
-  <h5 class="text-black" style="width: 342px;">Pseudonymous and  <br /> Non-attributable</h5>
+  <h5 class="" style="width: 342px;">Pseudonymous and  <br /> Non-attributable</h5>
     <p style="width: 342px;">The Akash protocol is designed to protect your identity, providing a high
       level of privacy and security.
        You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
