@@ -51,6 +51,43 @@ $navbar-dark-active-color: $link-color-dark;
   color: $body-bg-dark;
 }
 
+[data-dark-mode] body .no-border {
+  margin-left: 0px !important;
+}
+
+[data-dark-mode] body .s_d-btns {
+  background-color: #f0f0f0;
+}
+
+[data-dark-mode] body .form_desc2 {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .gpu_text {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .dates_text {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline .active {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline .active {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline::before {
+  background-color: #f0f0f0;
+  color: #f0f0f0;
+}
+
 [data-dark-mode] body .btn-doks-light {
   color: $navbar-dark-color;
 }
@@ -108,15 +145,10 @@ $navbar-dark-active-color: $link-color-dark;
   border-bottom: 0;
 }
 
-
 [data-dark-mode] .svg-container svg {
   fill: #ccc; /* Set a lighter fill color for dark mode */
   stroke: #ddd; /* Set a lighter stroke color for dark mode */
 }
-
-
-
-
 
 [data-dark-mode] body .offcanvas-header {
   border-bottom: 1px solid $gray-800;
