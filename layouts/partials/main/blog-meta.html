@@ -1,27 +1,36 @@
 <div class="reac_wrapper d-flex align-items-center justify-content-between">
   <div class="col-sm-4 col-md-6 col-lg-4">
-    <p class="date__formate" style="
-      font-size: 14px;
-      height: 22px;
-      width: 197px;
-      left: 0px;
-      top: 0px;
-      font-weight: 400;
-      line-height: 22px;
-      text-align: left;
-    ">{{ .PublishDate.Format "January 2, 2006" }}</p>
+    <p
+      class=""
+      style="
+        font-size: 14px;
+        height: 22px;
+        width: 197px;
+        left: 0px;
+        top: 0px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+      "
+    >
+      {{ .PublishDate.Format "January 2, 2006" }}
+    </p>
   </div>
-  <div class="time_read col-sm-4 col-md-6 col-lg-4">
-    <p style="
-      font-size: 14px;
-      font-weight: 700;
-      height: 22px;
-      width: 80px;
-      left: 217px;
-      top: 0px;
-      line-height: 22px;
-      text-align: left;
-    ">{{ .ReadingTime }} min read</p>
+  <div class="col-sm-4 col-md-6 col-lg-4">
+    <p
+      style="
+        font-size: 14px;
+        font-weight: 700;
+        height: 22px;
+        width: 80px;
+        left: 217px;
+        top: 0px;
+        line-height: 22px;
+        text-align: left;
+      "
+    >
+      {{ .ReadingTime }} min read
+    </p>
   </div>
 </div>
 
@@ -39,30 +48,12 @@
 <style>
   @media only screen and (max-width: 767px) {
     .row.align-items-center {
-      gap: 0!important;
+      gap: 0 !important;
       margin-top: -20px;
     }
 
-    .reac_wrapper{
-      display: flex ;
+    .reac_wrapper {
+      display: flex;
     }
-
-
-  }
-
-
-  @media only screen and (max-width: 600px) {
-     .date__formate{
-      padding-top: -70px;
-      margin-top: -30px ;
-      font-size: 10px;
-
-}
-     .time_read{
-      padding-top: -70px;
-      margin-top: -30px ;
-      font-size: 10px;
-
-}
   }
 </style>

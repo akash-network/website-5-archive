@@ -16,7 +16,6 @@
   width: 773px;
 }
 
-
 .caption_table {
   margin: 20px auto;
 }
@@ -26,11 +25,9 @@ p.meta {
   font-size: $font-size-base;
 }
 
-.ordered_details > li{
+.ordered_details > li {
   font-size: 17px !important;
 }
-
-
 
 .breadcrumb {
   margin-top: 2.25rem;
@@ -45,21 +42,17 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
   width: 700px;
 }
 
-.table__border{
+.table__border {
   border: 1px solid #0000001a;
 }
 
-
-
-@media screen and (min-width: 768px)  and  (min-width: 768px) {
+@media screen and (min-width: 768px) and (min-width: 768px) {
   .edit-page,
   .last-modified {
     font-size: $font-size-base;
     margin-top: 0.75rem;
     margin-bottom: 0.25rem;
   }
-
-
 
   .caption_table {
     width: 401px !important;
@@ -173,12 +166,11 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     width: 440px;
   }
 
-
   .horizontal-line_table {
     width: 200px !important;
   }
-  .horizontal-line{
-    width: 500px ;
+  .horizontal-line {
+    width: 500px;
   }
   .ordered_details2 > li:nth-child(2) {
     margin-top: 25px !important;
@@ -325,8 +317,8 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     margin: 40px auto;
   }
 
-  .horizontal-line{
-    width: 800px ;
+  .horizontal-line {
+    width: 800px;
   }
 
   .join_btn2 a button:hover {
@@ -422,8 +414,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     line-height: 29px;
     width: 440px;
   }
-
-
 
   .ordered_details > li:nth-child(2) {
     margin-top: 25px !important;
@@ -547,8 +537,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
   }
 }
 
-
-@media screen and (max-width: 993px){
+@media screen and (max-width: 993px) {
   .horizontal-line_table {
     width: 500px;
   }
@@ -974,7 +963,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
 
   p.Gpu_header {
     font-weight: 900;
-    width:  100%;
+    width: 100%;
     font-size: 28px;
     margin-bottom: 30px;
     line-height: 36px;
@@ -1096,8 +1085,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     margin: 1px auto;
     width: 350px;
   }
-
-
 
   body > div.wrap.container-xxl > div.content > div {
     margin-top: 35px;
@@ -1291,8 +1278,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     display: flex;
   }
 
-
-
   .gpu_text_2 {
     font-size: 18px;
     height: 56px;
@@ -1407,7 +1392,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     text-align: center;
   }
 
-
   .ordered_details2 > li:nth-child(2) {
     width: 330px;
     font-size: 18px;
@@ -1460,8 +1444,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     font-size: 18px;
     font-weight: 400;
   }
-
-
 
   p.Gpu_header {
     font-size: 34px;
@@ -1524,7 +1506,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
   }
 }
 
-
 @media (max-width: 576px) {
   .Gpu_header {
     text-align: center;
@@ -1541,8 +1522,9 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     line-height: 26px;
   }
 
-  p.gpu_text{
-  width: 100% !important; }
+  p.gpu_text {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 430px) {
@@ -1557,14 +1539,13 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     font-size: 30px;
   }
 
-  .join_btnn{
+  .join_btnn {
     margin-top: 110px;
   }
 
   .no-border {
     margin-left: 15px;
   }
-
 
   .caption_table {
     width: 300px !important;
@@ -1581,7 +1562,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
   .horizontal-line {
     width: 320px;
   }
-
 }
 
 @media (max-width: 350px) {
@@ -1590,7 +1570,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
   }
 
   .caption_table {
-    width: 300px ;
+    width: 300px;
   }
 
   .form_desc1 {
@@ -1643,7 +1623,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
   }
 
   .caption_table {
-    width: 300px ;
+    width: 300px;
   }
 
   .form_desc1 {
@@ -1692,9 +1672,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
 }
 
 @media screen and (min-width: 538px) and (max-width: 647px) {
-
-
-  .join_btnn{
+  .join_btnn {
     margin-top: 38px;
   }
 
@@ -1708,20 +1686,18 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     width: 100%;
   }
 
- p.gpu_text{
-  width: 100%;
- }
+  p.gpu_text {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 431px) and (max-width: 579px) {
-  .join_btnn{
+  .join_btnn {
     margin-top: 120px;
   }
 }
 
-
 @media screen and (min-width: 431px) and (max-width: 565px) {
-  .horizontal-line_table{
+  .horizontal-line_table {
     width: 260px;
   }
-
 }
