@@ -1,6 +1,6 @@
 <div class="reac_wrapper d-flex align-items-center justify-content-between">
   <div class="col-sm-4 col-md-6 col-lg-4">
-    <p class="" style="
+    <p class="date__formate" style="
       font-size: 14px;
       height: 22px;
       width: 197px;
@@ -11,7 +11,7 @@
       text-align: left;
     ">{{ .PublishDate.Format "January 2, 2006" }}</p>
   </div>
-  <div class="col-sm-4 col-md-6 col-lg-4">
+  <div class="time_read col-sm-4 col-md-6 col-lg-4">
     <p style="
       font-size: 14px;
       font-weight: 700;
@@ -46,5 +46,23 @@
     .reac_wrapper{
       display: flex ;
     }
+
+
+  }
+
+
+  @media only screen and (max-width: 600px) {
+     .date__formate{
+      padding-top: -70px;
+      margin-top: -30px ;
+      font-size: 10px;
+
+}
+     .time_read{
+      padding-top: -70px;
+      margin-top: -30px ;
+      font-size: 10px;
+
+}
   }
 </style>

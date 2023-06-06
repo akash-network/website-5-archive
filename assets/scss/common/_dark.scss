@@ -67,7 +67,16 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0;
 }
 
+[data-dark-mode] body .table__border{
+  border: 1px solid #f0f0f0;
+
+}
+
+
 [data-dark-mode] body .dates_text {
+  color: #f0f0f0 !important;
+}
+[data-dark-mode] body .gpu_sub_text {
   color: #f0f0f0 !important;
 }
 
