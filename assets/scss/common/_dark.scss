@@ -16,9 +16,9 @@ $link-color-dark: $akash-red-light;
 $button-color-dark: $link-color-dark;
 $focus-color-dark: lighten($link-color-dark, 2.5%);
 
-$navbar-dark-color:                 $body-color-dark;
-$navbar-dark-hover-color:           $link-color-dark;
-$navbar-dark-active-color:          $link-color-dark;
+$navbar-dark-color: $body-color-dark;
+$navbar-dark-hover-color: $link-color-dark;
+$navbar-dark-active-color: $link-color-dark;
 
 /** Theme styles */
 
@@ -51,6 +51,52 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $body-bg-dark;
 }
 
+[data-dark-mode] body .no-border {
+  margin-left: 0px !important;
+}
+
+[data-dark-mode] body .s_d-btns {
+  background-color: #f0f0f0;
+}
+
+[data-dark-mode] body .form_desc2 {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .gpu_text {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .table__border{
+  border: 1px solid #f0f0f0;
+
+}
+
+
+[data-dark-mode] body .dates_text {
+  color: #f0f0f0 !important;
+}
+[data-dark-mode] body .gpu_sub_text {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline .active {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline .active {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline::before {
+  background-color: #f0f0f0;
+  color: #f0f0f0;
+}
+
 [data-dark-mode] body .btn-doks-light {
   color: $navbar-dark-color;
 }
@@ -64,16 +110,22 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] body .btn-menu svg {
   color: $body-color-dark;
 }
-[data-dark-mode] body .d-wrap_dark a .disc{
+[data-dark-mode] body .d-wrap_dark a .disc {
   display: flex !important;
   color: $body-color-dark;
   position: relative;
   right: 10px;
   top: 3px;
 }
-[data-dark-mode] body .d-wrap a .disc{
+[data-dark-mode] body .d-wrap a .disc {
   display: none !important;
   color: $body-color-dark;
+}
+[data-dark-mode] body .horizontal-line_table {
+  border-top: 1px solid #515559;
+}
+[data-dark-mode] body .horizontal-line {
+  border-top: 1px solid #515559;
 }
 
 [data-dark-mode] body .doks-sidebar-toggle {
@@ -102,6 +154,11 @@ $navbar-dark-active-color:          $link-color-dark;
   border-bottom: 0;
 }
 
+[data-dark-mode] .svg-container svg {
+  fill: #ccc; /* Set a lighter fill color for dark mode */
+  stroke: #ddd; /* Set a lighter stroke color for dark mode */
+}
+
 [data-dark-mode] body .offcanvas-header {
   border-bottom: 1px solid $gray-800;
 }
@@ -109,7 +166,7 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
 }
-[data-dark-mode] body .offcanvas .discords{
+[data-dark-mode] body .offcanvas .discords {
   color: #fff !important;
 }
 
@@ -254,7 +311,8 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
 }
 
-[data-dark-mode] body .content img[src^="https://latex.codecogs.com/svg.latex"] {
+[data-dark-mode] body .content img[src^="https://latex.codecogs.com/svg.latex"]
+{
   filter: invert(1);
 }
 
@@ -312,8 +370,7 @@ $navbar-dark-active-color:          $link-color-dark;
   border-top: 1px solid $border-dark !important;
 }
 
-
-[data-dark-mode] body .footer_wrapper{
+[data-dark-mode] body .footer_wrapper {
   background: $body-overlay-dark;
 }
 
@@ -323,10 +380,9 @@ $navbar-dark-active-color:          $link-color-dark;
     border-right: 1px solid $border-dark;
   }
 
-
-[data-dark-mode] body .footer_wrapper{
-  background: $body-overlay-dark;
-}
+  [data-dark-mode] body .footer_wrapper {
+    background: $body-overlay-dark;
+  }
 }
 
 [data-dark-mode] body .docs-navigation {
@@ -609,18 +665,18 @@ $navbar-dark-active-color:          $link-color-dark;
   border: 1px solid $body-overlay-dark;
 }
 
-[data-dark-mode] .landing-svg{
-  .st0{ fill: darken($link-color-dark, 10%); }
+[data-dark-mode] .landing-svg {
+  .st0 {
+    fill: darken($link-color-dark, 10%);
+  }
 
   #DRAW {
     fill: $body-color-dark;
   }
 }
 
-
-
-@media (max-width: 576px)  {
-  [data-dark-mode] body .d-wrap_dark a .disc{
+@media (max-width: 576px) {
+  [data-dark-mode] body .d-wrap_dark a .disc {
     display: flex !important;
     position: relative;
     margin-left: 10px;
