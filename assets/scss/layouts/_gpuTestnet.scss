@@ -4,11 +4,6 @@
   margin-bottom: 0.25rem;
 }
 
-.horizontal-line_table {
-  height: 1px;
-  border: 1px solid #0000001a;
-  margin: 20px auto;
-}
 
 .horizontal-line {
   border-top: 1px solid #0000001a;
@@ -166,9 +161,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     width: 440px;
   }
 
-  .horizontal-line_table {
-    width: 200px !important;
-  }
+
   .horizontal-line {
     width: 500px;
   }
@@ -314,9 +307,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     transition: 0.3s ease-in-out;
   }
 
-  .horizontal-line_table {
-    width: 730px;
-  }
+
   .caption_table {
     width: 501px;
     margin: 40px auto;
@@ -543,9 +534,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
 }
 
 @media screen and (max-width: 993px) {
-  .horizontal-line_table {
-    width: 500px;
-  }
+
 }
 @media screen and (min-width: 1200px) {
   .wrapper_form {
@@ -563,9 +552,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     transition: 0.3s ease-in-out;
   }
 
-  .horizontal-line_table {
-    width: 700px !important;
-  }
+
 
   .caption_table {
     width: 700px !important;
@@ -815,9 +802,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     transition: 0.3s ease-in-out;
   }
 
-  .horizontal-line_table {
-    width: 500px;
-  }
+
 
   .horizontal-line {
     width: 320px;
@@ -1049,9 +1034,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     width: 330px;
   }
 
-  .horizontal-line_table {
-    width: 460px;
-  }
+
 
   .no-border th,
   .no-border td {
@@ -1545,9 +1528,6 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     font-size: 30px;
   }
 
-  .horizontal-line_table {
-    width: 330px;
-  }
 
   .horizontal-line {
     width: 320px;
@@ -1590,9 +1570,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     margin-top: 9px !important;
   }
 
-  .horizontal-line_table {
-    width: 300px;
-  }
+
   .horizontal-line {
     width: 320px;
   }
@@ -1643,9 +1621,7 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
     margin-top: 9px !important;
   }
 
-  .horizontal-line_table {
-    width: 300px;
-  }
+
   .horizontal-line {
     width: 320px;
   }
@@ -1700,8 +1676,3 @@ section:nth-child(1) > div > div > div > p.mx-auto.form_desc2 {
   }
 }
 
-@media screen and (min-width: 431px) and (max-width: 565px) {
-  .horizontal-line_table {
-    width: 260px;
-  }
-}
