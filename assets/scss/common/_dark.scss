@@ -54,6 +54,9 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .no-border {
   color: #f0f0f0;
 }
+[data-dark-mode] body .community__text {
+  color: #f0f0f0  !important;
+}
 
 [data-dark-mode] body .s_d-btns {
   background-color: #f0f0f0;
@@ -67,11 +70,9 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0;
 }
 
-[data-dark-mode] body .table__border{
+[data-dark-mode] body .table__border {
   border: 1px solid #f0f0f0;
-
 }
-
 
 [data-dark-mode] body .dates_text {
   color: #f0f0f0 !important;
