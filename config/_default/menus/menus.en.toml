@@ -52,13 +52,17 @@
   url = "https://twitter.com/akashnet_"
   weight = 20
 
+[[footer]]
+  name = "Brand Guidelines"
+  url = "https://brandpad.io/akash-network/"
+  weight = 10
+
+[[footer]]
+  name = "Logos"
+  url = "https://github.com/akash-network/brand-assets"
+  weight = 10
 
 [[footer]]
   name = "Privacy"
   url = "/privacy"
-  weight = 10
-
-[[footer]]
-  name = "Brand Assets"
-  url = "https://github.com/akash-network/brand-assets"
-  weight = 10
+  weight = 20
