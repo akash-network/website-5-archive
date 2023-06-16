@@ -11,6 +11,13 @@
   weight = 10
 
 [[main]]
+  name = "Discussions"
+  url = "https://github.com/orgs/akash-network/discussions"
+  weight = 20
+  [main.params]
+    external = true
+
+[[main]]
   name = "Token"
   url = "/token/"
   weight = 20
