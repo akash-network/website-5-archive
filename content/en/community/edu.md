@@ -13,7 +13,7 @@ url: "community/edu"
 # Akash EDU
 
 ## What is Akash EDU?
-Akash EDU is a free educational program designed to teach individuals basic to advanced knowledge of the Akash Network Ecosystem. We're starting off small with introducing a few courses one at a time giving students a better understanding of our ecosystem partners, eg -Cloudmos, Praetor and Terraform. We have a long term plan to add additional courses over time and eventually get to a place where students can become full fledged decentralized cloud professionals
+Akash EDU is a free educational program designed to teach individuals basic to advanced knowledge of the Akash Network Ecosystem. We're starting off small by introducing a few courses one at a time giving students a better understanding of our ecosystem partners, eg -Cloudmos, Praetor and Terraform. We have a long term plan to add additional courses over time and eventually get to a place where students can become full fledged decentralized cloud professionals
 
 Applications are reviewed bi-weekly and onboarding instructions are sent to new students on a rolling basis.
 
