@@ -13,7 +13,7 @@ contributors:
 pinned: false
 homepage: false
 images:
-  - akash-gpu-testnet-live.jpg
+  - supercloud-ai.jpg
 ---
 The world’s compute needs are increasing exponentially. With the rise of AI and machine learning, chip manufacturers are experiencing unprecedented demand, straining the global supply chain that transforms sand into silicon.
 
