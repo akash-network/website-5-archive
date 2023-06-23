@@ -17,7 +17,7 @@ images:
 ---
 The world’s compute needs are increasing exponentially. With the rise of AI and machine learning, chip manufacturers are experiencing unprecedented demand, straining the global supply chain that transforms sand into silicon.
 
-High demand, casued by a sharp increase AI development and a constrained chip supply, is contributing to a global GPU shortage that threatens to stall the development and proliferation of widely distributed AI models. More importantly, it threatens to concentrate the development of the most powerful AI models in the hands of a few corporations.
+High demand, caused by a sharp increase AI development and a constrained chip supply, is contributing to a global GPU shortage that threatens to stall the development and proliferation of widely distributed AI models. More importantly, it threatens to concentrate the development of the most powerful AI models in the hands of a few corporations.
 
 These corporations are often the only ones with the significant resources needed to acquire and operate these powerful GPUs, and they have rushed to capture and control the available supply.
 
