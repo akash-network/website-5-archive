@@ -1,6 +1,6 @@
 ---
 title: 'Building the Supercloud for AI'
-date: '2023-06-20'
+date: '2023-06-23'
 lastmod:
 draft: false
 weight: 50
