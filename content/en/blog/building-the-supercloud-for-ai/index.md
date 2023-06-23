@@ -31,7 +31,7 @@ Akash introduced the world to an open-source marketplace for compute. Today, the
 The first version of the Akash GPU Testnet was created and tested by the Overclock Labs team. Now, the testnet is ready to bring in the community and the general public with over $100,000 of rewards for participants who complete tasks within four categories.
 
 ### Set up a GPU provider
-Anyone, from independent to cloud providers, can set up a GPU Provider on the testnet. These providers will help to ensure an adequate supply of compute resources to thoroughly stress-test the network. This supply of GPUs will be crucial for the completion of the other tasks.
+Anyone, from independent developers to cloud providers, can set up a GPU Provider on the testnet. These providers will help ensure an adequate supply of compute resources to thoroughly stress-test the network, and is crucial for the completion of the other tasks.
 
 The Akash GPU Testnet has already received interest from providers with NVIDIA H100s, A100s, and other leading datacenter and consumer GPU models. 
 
@@ -51,4 +51,4 @@ The Stack Definition Language (SDL) is a configuration file format that standard
 For the Akash GPU Testnet, one of the four main tasks will involve participants creating new SDL files for many of the leading AI models, tools, and apps. These new SDLs will be added to the [Awesome-Akash](https://github.com/akash-network/awesome-akash) repository, which is the where Akash’s most popular SDLs are gathered for use by the general public.
 
 ## Join the Akash GPU Testnet
-To learn more about each task, [read the complete overview for the Testnet](https://github.com/akash-network/community/blob/main/wg-gpu/GPU-AI-Incentivized-Testnet.md). This document has all the info you’ll need to get up and running with each task. To connect with the community, head over to Akash’s Discord. This is the best place to get support during the testnet, and stay up to date with the upcoming transition from the Akash GPU Testnet through the upgrade to Mainnet 6.
+To learn more about each task, [read the complete overview for the Testnet](https://github.com/akash-network/community/blob/main/wg-gpu/GPU-AI-Incentivized-Testnet.md). This document has all the info you’ll need to get up and running with each task. To connect with the community, head over to [Akash’s Discord](https://discord.akash.network). This is the best place to get support during the testnet, and stay up to date with the upcoming transition from the Akash GPU Testnet through the upgrade to Mainnet 6.
