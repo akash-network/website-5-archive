@@ -64,9 +64,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 50%;
     display: flex;
     font-size: 16px;
+    left: 130px;
+    text-align: center;
   }
 }
 
@@ -537,6 +538,13 @@ nav {
     display: none !important;
   }
 
+
+
+  @media screen and (min-width: 992px) and (max-width: 1040px) {
+    .nav_wrap li{
+      left: 70px;
+    }
+  }
 
 
 

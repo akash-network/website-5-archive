@@ -5,10 +5,12 @@
   [main.params]
     external = true
 
+
 [[main]]
   name = "Community"
   url = "/community/"
   weight = 10
+
 
 [[main]]
   name = "Token"
@@ -24,6 +26,14 @@
   name = "Blog"
   url = "/blog/"
   weight = 20
+
+
+[[main]]
+  name = "Discussions"
+  url = "https://github.com/orgs/akash-network/discussions"
+  weight = 20
+    [main.params]
+    external = true
 
 [[social]]
   name = "GitHub"
