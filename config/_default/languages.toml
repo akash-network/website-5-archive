@@ -6,6 +6,8 @@
     languageISO = "EN"
     languageTag = "en-US"
 
+
+
 [de]
   languageName = "German"
   contentDir = "content/de"
