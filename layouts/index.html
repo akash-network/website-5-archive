@@ -59,9 +59,9 @@ document.addEventListener("DOMContentLoaded", function() {
     <div class="col-md-8 text-center">
       <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2 mt-3" href="https://docs.akash.network/guides/deploy" role="button"
-        target="_blank">{{ i18n "view-docs" }}</a>
-      <p class="meta mt-3">Open-source. Apache 2.0 Licensed. <a href="https://github.com/ovrclk/akash">{{ $data :=
-          getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}</a></p>
+        target="_blank">{{ i18n "get-started" }}</a>
+      <p class="meta mt-3"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
+          getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}.</a></p>
     </div>
   </div>
 </section>
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <div class="row m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
       <div class="col-md-12 col-lg-6 order-md-last">
         <h2 class="h4 super">Supercloud at your fingertips, at a price you choose</h2>
-        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
+        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
           customers submit their desired price and providers compete for the business. This often results in prices up
           to 85% lower than other cloud systems.</p>
@@ -102,8 +102,8 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="col-md-12 col-lg-6">
         <h2 class="h4 utility">Built for battle, commanded by the community</h2>
         <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
-          it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
-          the community oversees all aspects of Akash, including decisions about what new features should be
+          it is available to everyone. It is built on dependable technologies like Kubernetes and Cosmos, and
+          the community oversees all aspects of Akash — including decisions about what new features should be
           implemented.</p>
       </div>
     </div>
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function() {
           {{ partial "content/svg.html" "Calculator_mobile" }}
         </div>
         <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
-        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> supercloud </a> network that
+        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
           customers submit their desired price and providers compete for the business. This often results in prices up
           to 85% lower than other cloud systems.</p>

@@ -13,6 +13,20 @@
 
 
 [[main]]
+  name = "Docs"
+  url = "https://docs.akash.network"
+  weight = 20
+  [main.params]
+    external = true
+
+[[main]]
+  name = "Discussions"
+  url = "https://github.com/orgs/akash-network/discussions"
+  weight = 20
+  [main.params]
+    external = true
+
+[[main]]
   name = "Token"
   url = "/token/"
   weight = 20
@@ -48,20 +62,17 @@
   url = "https://twitter.com/akashnet_"
   weight = 20
 
+[[footer]]
+  name = "Brand Guidelines"
+  url = "https://brandpad.io/akash-network/"
+  weight = 10
+
+[[footer]]
+  name = "Logos"
+  url = "https://github.com/akash-network/brand-assets"
+  weight = 10
 
 [[footer]]
   name = "Privacy"
   url = "/privacy"
-  weight = 10
-
-[[main]]
-  name = "Docs"
-  url = "https://docs.akash.network"
   weight = 20
-  [main.params]
-    external = true
-
-# [[main]]
-#   name = "Docs 2"
-#   url = "docs/guides/apps-on-akash/"
-#   weight = 20
