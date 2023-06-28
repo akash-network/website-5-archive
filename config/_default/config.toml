@@ -85,7 +85,7 @@ rel  = "sitemap"
     name = "date"
     weight = 10
 
-    
+
 
 [module]
   [module.hugoVersion]
