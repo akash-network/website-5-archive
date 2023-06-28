@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
     <div class="col-md-8 text-center">
       <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2 mt-3" href="https://docs.akash.network/guides/deploy" role="button"
+      <a class="btn btn-primary btn-lg px-4 mb-2 mt-3" href="https://console.akash.network" role="button"
         target="_blank">{{ i18n "get-started" }}</a>
       <p class="meta mt-3"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}.</a></p>
