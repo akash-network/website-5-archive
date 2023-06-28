@@ -8,7 +8,6 @@
   {{ $image = resources.Get (printf "%s%s" "images/" site.Params.defaultImage) }}
 {{ end -}}
 
-{{ $image = $image.Fill $fillImage }}
 {{ $lqip := $image.Resize site.Params.lqipWidth -}}
 
 {{ $imgSrc := "" -}}
@@ -20,7 +19,7 @@
 {{ end -}}
 
 {{ range $widths -}}
-  {{ $srcUrl := (printf "%dx" . | $image.Resize).Permalink -}}
+  {{ $srcUrl := (printf "%s?nf_resize=fit&w=%d&q=95" $image.Permalink .) -}}
   {{ if eq $imgSrc "" -}}{{ $imgSrc = $srcUrl -}}{{ end -}}
   {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) -}}
 {{ end -}}

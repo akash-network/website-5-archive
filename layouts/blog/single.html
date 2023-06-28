@@ -1,10 +1,17 @@
 {{ define "main" }}
+
 <article>
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10">
-    <div class="blog-header">
-      <h1>{{ .Title }}</h1>
-      {{ partial "main/blog-meta.html" . }}
+<div class="row justify-content-center" style="margin-top: 80px;">
+  <div class="col-md-12 col-lg-13">
+    <div class="">
+      <h1 class="blog_top-title">{{ .Title }}</h1>
+      <div class="d-flex">
+        <p class="blog_top_writers-name">{{ partial "main/writer.html" . -}}</p>
+       <p class="mx-4">{{ .PublishDate.Format "January 2, 2006" }}</p>
+       <p class="blog_top_read-time" style="
+       font-size: 14px;
+       font-weight: 700;">{{ .ReadingTime }} min read </p>
+      </div>
     </div>
   </div>
   <div class="col-md-13">
@@ -13,7 +20,7 @@
       {{ partial "content/figure.html" . }}
     </div>
   </div>
-  <div class="col-md-12 col-lg-9">
+  <div class="col-md-13" style="text-align: left;">
     {{ .Content }}
     {{ if .Params.tags -}}
     <div class="mt-4">
@@ -25,9 +32,9 @@
   </div>
 </div>
 </article>
-
 {{ $related := .Site.RegularPages.Related . | first 3 -}}
 {{ with $related -}}
+
 <div class="related-posts">
 <div class="row justify-content-center">
   <div class="col">
@@ -53,7 +60,4 @@
 </div>
 </div>
 {{ end -}}
-
 {{ end }}
-
-

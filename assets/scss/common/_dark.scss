@@ -63,6 +63,21 @@ $navbar-dark-active-color: $link-color-dark;
 }
 
 
+[data-dark-mode] body  div.col-md-12.col-lg-13 > div > div > div > span:nth-child(1) > a{
+  color: #fff;
+  font-weight: 600;
+  text-underline-offset: 5px;
+  text-decoration: underline;
+}
+
+
+
+[data-dark-mode] body  div.col-md-12.col-lg-13 > div > div > div > a{
+  color: #fff;
+  font-weight: 600;
+  text-underline-offset: 5px;
+  text-decoration: underline;
+ }
 
 
 [data-dark-mode] body .btn-outline-primary:hover {
