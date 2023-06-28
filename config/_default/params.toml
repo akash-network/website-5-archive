@@ -78,8 +78,6 @@ alertDismissable = true
 alertText = "<span class='fw-bold' style='font-size: 15px;'>The Incentivized Akash GPU Testnet is live:</span>  <a target='_blank' class='alert-link stretched-link' href='/gpu-testnet' rel='noopener noreferrer'><span style='font-size: 15px; text-decoration:none;'> Sign up to participate and earn rewards</span></a>."
 
 
-
-
 # Meta Data for SEO
 
 ## Homepage
