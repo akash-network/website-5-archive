@@ -298,9 +298,10 @@ document.addEventListener("DOMContentLoaded", function() {
           {{- range (where site.RegularPages "Section" "blog" | first 3) }}
           <div class="col-sm-6 col-md-6 col-lg-4">
             <div class="">
-              <a class="stretched-link text-body" href="{{ .RelPermalink }}"></a>
+              <a class="stretched-link text-body" href="{{ .RelPermalink }}">
               {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
               {{ partial "content/card-image.html" . }}
+            </a>
               <div class="card" style="border: none;">
                 <article>
                   {{ partial "main/writer.html" . -}}
@@ -312,7 +313,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   letter-spacing: 0em;
                   text-align: left;
                   margin-bottom: 30px;">
-                    <a class="text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+                    <a class="text-body" style="font-size: 30px !important; width: 70px !important;" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
                   </h2>
                 </article>
                 {{ partial "main/blog-meta.html" . -}}
@@ -336,10 +337,9 @@ document.addEventListener("DOMContentLoaded", function() {
     <h3 class="mx-auto text-center" style="width: 595px;">Interested in receiving the latest Akash news?
       Sign up for Akash Newsletter</h3>
   </div>
-  <aside class="mx-auto emailText_wrapper text-center d-lg-flex d-md-block d-sm-block justify-content-between align-items-center mt-lg-3 mt-sm-1 mt-md-2" style="border: 1px solid #0000001A; width: 440px;">
-    <p class="m-3"> <img style="margin: 0 10px;" src="{{ .Site.BaseURL }}/mobile_img/mail-line.png" alt="img">jamie@example.com </p>
+  <aside class="mx-auto emailText_wrapper text-center">
       <a target="_blank" href="https://akashnet.typeform.com/to/awKX5bPw">
-        <button type="submit" class="bg-none border-none text-center" style="border: none; background: none; padding: 0 20px; color: #FA5757;">Subscribe</button>
+        <button type="submit" class="btn btn-primary btn-lg px-4 mb-2 mt-3  text-center text-white mx-auto" style="">Subscribe</button>
       </a>
       </div>
     </aside>
