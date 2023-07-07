@@ -32,23 +32,47 @@
   })
 });
 
-</script>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var links = document.getElementsByClassName("underline-on-click");
-  for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      if (current.length > 0) {
-        current[0].className = current[0].className.replace(" active", "");
-      }
-      this.querySelector(".link-underline").className += " active";
-    });
+
+$(document).ready(function() {
+  // Function to highlight the menu item based on the current section
+  function highlightMenuItem() {
+    var scrollTop = $(window).scrollTop();
+
+    // Remove highlighting from all menu items
+    $('.group-1_header, .group-2_header, .group-3_header').removeClass('highlight_header clicked_header');
+
+    // Add highlighting to the corresponding menu item based on the current section
+    if (scrollTop >= $('#blockchain').offset().top) {
+      $('.group-3_header').addClass('highlight_header');
+    } else if (scrollTop >= $('#security').offset().top && scrollTop < $('#blockchain').offset().top) {
+      $('.group-2_header').addClass('highlight_header');
+    } else if (scrollTop >= $('#infra').offset().top && scrollTop < $('#security').offset().top) {
+      $('.group-1_header').addClass('highlight_header');
+    }
   }
+
+  // Call the highlightMenuItem function on scroll
+  $(window).scroll(function() {
+    highlightMenuItem();
+  });
+
+  // Call the highlightMenuItem function when the page loads
+  $(window).on('load', function() {
+    highlightMenuItem();
+  });
+
+  // Handle click event on title links
+  $('.group-1_header, .group-2_header, .group-3_header').click(function(e) {
+    e.preventDefault();
+  });
 });
 
+
+
 </script>
+
+
 
 
 <section class="section container-fluid mt-n3 pb-5">
@@ -162,59 +186,60 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <hr class="hr_">
 
+
 <section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: -130px;">
   <div class="container d-none d-sm-block groups_wrapper">
     <div class="d-flex justify-content-center pt-5">
       <div class="d-flex justify-content-center titles mx-auto">
         <div class="" style="position: sticky !important;">
-          <div class="sticky-top" style="top: 80px; margin-left: 50px; margin-top: 30px;">
-            <a href="#infra" class="underline-on-click">
-              <h3><span class="link-underline">Infrastructure and Resource Management</span></h3>
+          <div class="sticky-top " style="top: 80px; margin-left: 50px; margin-top: 30px;">
+            <a href="" style="width: 10px !important; cursor: default;">
+              <h3><span class="group-1_header">Infrastructure and Resource Management</span></h3>
             </a>
-            <div class="featured_header">
-              <a href="#security" class="underline-on-click">
-                <h3><span class="link-underline">Security and Privacy</span></h3>
+            <div class="featured_header " style="margin-top: 100px;">
+              <a href="" style="cursor: default;">
+                <h3><span class="group-2_header">Security and Privacy</span></h3>
               </a>
             </div>
-            <div class="featured_header">
-              <a href="#blockchain" class="underline-on-click">
-                <h3><span class="link-underline">Blockchain and Interoperability</span></h3>
+            <div class="featured_header " style="margin-top: 100px;">
+              <a href="" style="cursor: default;">
+                <h3><span class="group-3_header">Blockchain and Interoperability</span></h3>
               </a>
             </div>
           </div>
         </div>
-        <div id="infra" class="" style="padding-top: 25px; margin-top: 15px; margin-left: 100px;">
-          <h5 class="">Infrastructure as a Code</h5>
+        <div class="group-1" id="infra" class="" style="padding-top: 25px; margin-top: 15px; margin-left: 100px;">
+          <h5>Infrastructure as a Code</h5>
           <p class="feature_detail_2">Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.</p>
           <div style="margin-top: 40px;">
-            <h5 class="">Kubernetes Powered</h5>
+            <h5 id="security" class="group-2">Kubernetes Powered</h5>
             <p class="feature_detail_2">Akash runs on Kubernetes, the industry-leading container orchestration system. With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</p>
           </div>
-          <div style="margin-top: 40px;">
+          <div id="infra" class="group-1" style="margin-top: 40px;">
             <h5 class="">Persistent Storage</h5>
             <p class="feature_detail_2">Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.</p>
           </div>
-          <div id="security" style="margin-top: 40px;">
-            <h5 class="">Dedicated IP Leasing</h5>
+          <div id="security" class="group-2" style="">
+            <h5 class="dedicated">Dedicated IP Leasing</h5>
             <p class="feature_detail_2">Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more.</p>
           </div>
           <div style="margin-top: 40px;">
             <h5 class="">Censorship Resistant and Unstoppable</h5>
-            <p class="feature_detail_2">Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored.</p>
+            <p class="feature_detail_2 group-3" id="blockchain">Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stopyou from using Akash to build apps that can't be censored.</p>
           </div>
-          <div style="margin-top: 40px;">
+          <div class="group-2" style="margin-top: 40px;">
             <h5 class="">Pseudonymous and Non-attributable</h5>
             <p class="feature_detail_2">The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
           </div>
-          <div style="margin-top: 40px;">
+          <div class="group-2" style="margin-top: 40px;">
             <h5 class="">Peer-to-peer and Private</h5>
-            <p id="blockchain" class="feature_detail_2">You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.</p>
+            <p class="feature_detail_2">You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.</p>
           </div>
-          <div style="margin-top: 40px;">
+          <div class="group-3" id="blockchain" style="margin-top: 40px;">
             <h5 class="">Layer One Protocol</h5>
             <p class="feature_detail_2">Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its network of decentralized validators. The network can be validated without permission and is secured by AKT, its native token.</p>
           </div>
-          <div style="margin-top: 40px;">
+          <div class="group-3" style="margin-top: 40px;">
             <h5 class="">Interoperable with IBC</h5>
             <p class="feature_detail_2">Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.</p>
           </div>
@@ -223,6 +248,75 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
 </section>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  var links = document.getElementsByClassName("underline-on-click");
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      if (current.length > 0) {
+        current[0].classList.remove("active");
+      }
+      this.querySelector(".link-underline").classList.add("active");
+    });
+  }
+
+  // Function to check if an element is in the viewport
+  function isInViewport(element) {
+    if (element === null) {
+      return false;
+    }
+    var rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+  }
+
+  function updateActiveTitle() {
+    var titles = document.querySelectorAll(".link-underline");
+    var activeTitleIndex = -1;
+    var securityTitle = document.getElementById("security");
+
+    // Check if "Dedicated IP Leasing" feature is in the viewport
+    var dedicatedIPFeature = document.querySelector("#security");
+    var dedicatedIPInView = isInViewport(dedicatedIPFeature);
+    console.log("Dedicated IP feature element:", dedicatedIPFeature); // Debugging statement
+
+    // Check if "Security and Privacy" title is in the viewport
+    var securityTitleInView = isInViewport(securityTitle);
+    console.log("Security and Privacy title in view:", securityTitleInView);
+
+    // If the "Dedicated IP Leasing" feature is on the opposite side, move the active underline to the "Security and Privacy" title
+    if (!dedicatedIPInView && securityTitleInView) {
+      activeTitleIndex = 1; // Index of the "Security and Privacy" title
+      console.log("Moving active underline to Security and Privacy title.");
+    }
+
+    var currentActive = document.querySelector(".link-underline.active");
+    if (currentActive) {
+      currentActive.classList.remove("active");
+    }
+
+    if (activeTitleIndex >= 0) {
+      titles[activeTitleIndex].classList.add(".link-underline.active");
+    }
+  }
+
+  // Add a scroll event listener to the window
+  window.addEventListener("scroll", function() {
+    updateActiveTitle();
+  });
+
+  // Update active title on page load
+  updateActiveTitle();
+});
+
+  </script>
+
 
 <div class="owl-carousel" >
   <div >
@@ -326,6 +420,8 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
   </div>
 </section>
+
+
 
 
 <hr class="hr_">

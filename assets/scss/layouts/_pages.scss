@@ -173,36 +173,41 @@ p.meta {
     width: 300px;
   }
 
-  .link-underline {
-    display: inline-block;
+  .group-1_header,
+  .group-2_header,
+  .group-3_header {
     position: relative;
+    display: inline-block;
     color: #00000066;
     font-size: 24px;
+    width: 100px;
+    cursor: default !important;
   }
 
-  .link-underline.active {
+  .highlight_header {
     color: #000;
   }
 
-  .link-underline::before {
+  .highlight_header::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -15px; /* adjust as needed */
-    width: 323px;
+    bottom: -5px; /* Adjust this value to control the distance of the underline from the text */
+    width: 100%;
     height: 1px;
-    background-color: black;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
+    background-color: #000;
   }
 
-  .link-underline:hover::before {
-    transform: scaleX(1);
+  .highlight_header > h3 > span {
+    position: relative;
+    z-index: 1;
   }
 
-  .link-underline.active::before {
-    transform: scaleX(1);
+  .clicked_header {
+    text-decoration: none;
+    color: #00000066;
   }
+
   hr {
     height: 0px;
     width: 711px;
@@ -230,14 +235,39 @@ p.meta {
     margin-top: -70px !important;
   }
 
-  .link-underline {
-    display: inline-block;
+  .group-1_header,
+  .group-2_header,
+  .group-3_header {
     position: relative;
+    display: inline-block;
     color: #00000066;
+    font-size: 24px;
+    width: 100px;
+    cursor: default !important;
   }
 
-  .link-underline.active {
+  .highlight_header {
     color: #000;
+  }
+
+  .highlight_header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust this value to control the distance of the underline from the text */
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+  }
+
+  .highlight_header > h3 > span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .clicked_header {
+    text-decoration: none;
+    color: #00000066;
   }
 
   .section_features .groups_wrapper {
@@ -377,6 +407,41 @@ p.meta {
     padding-top: 15px;
   }
 
+  .group-1_header,
+  .group-2_header,
+  .group-3_header {
+    position: relative;
+    display: inline-block;
+    color: #00000066;
+    font-size: 24px;
+    width: 100px;
+    cursor: default !important;
+  }
+
+  .highlight_header {
+    color: #000;
+  }
+
+  .highlight_header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust this value to control the distance of the underline from the text */
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+  }
+
+  .highlight_header > h3 > span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .clicked_header {
+    text-decoration: none;
+    color: #00000066;
+  }
+
   .footer_wrapper {
     background-color: #ffdede;
     height: 318px;
@@ -457,7 +522,6 @@ p.meta {
     margin: 10px auto !important;
     font-size: 17px !important;
   }
-
 }
 
 @media (min-width: 992px) {
