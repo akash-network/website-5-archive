@@ -82,7 +82,7 @@
     "image-downloader": "^4.3.0",
     "mkdirp": "^1.0.4",
     "react-slick": "^0.29.0",
-    "replace-in-file": "^6.3.5",
+    "replace-in-file": "^7.0.1",
     "sanitize-filename": "^1.6.3",
     "slugify": "^1.6.5",
     "turndown": "^7.1.1",
