@@ -54,6 +54,22 @@
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
   }
+
+  .nav_wrap{
+    display: flex;
+  }
+
+
+  .nav_wrap li{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    left: 50%;
+    // left: 130px;
+    // text-align: center;
+  }
 }
 
 @include media-breakpoint-up(md) {
@@ -243,6 +259,20 @@ button#doks-versions {
     right: 0.3125rem;
   }
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 1140px; /* or any other value */
+  width: 100%;
+}
+
+
 
 /*
 @include media-breakpoint-up(lg) {
@@ -502,4 +532,20 @@ button#doks-versions {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-}
+
+  }
+
+  .d-wrap_dark a .disc{
+    display: none !important;
+  }
+
+
+
+  @media screen and (min-width: 992px) and (max-width: 1040px) {
+    .nav_wrap li{
+      left: 70px;
+    }
+  }
+
+
+

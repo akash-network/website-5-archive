@@ -1,21 +1,29 @@
-<footer class="footer text-muted">
-  <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
-    <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
-        <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
-        </ul>
+<footer class="footer text-muted container">
+    <div class="akash_info_wrapper d-flex justify-content-between">
+      <div>
+       <p class="akash_info_text" style="
+       left: 370px;
+       font-size: 12px;
+       font-weight: 400;
+       line-height: 20px;
+       letter-spacing: 0em;
+       text-align: left;">{{ .Site.Params.footer | safeHTML }}</p>
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
-        <ul class="list-inline">
+      <aside class="">
+        <div class="">
           {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+            <p class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></p>
           {{ end -}}
-        </ul>
       </div>
-    </div>
+      </aside>
+
   </div>
 </footer>
+
+
+
+<!-- © 2023 The Akash Network Authors | Documentation Distributed under CC BY 4.0 -->
+
 
         <!-- <ul class="nav flex-column flex-lg-row">
           {{ range .Site.Menus.social -}}

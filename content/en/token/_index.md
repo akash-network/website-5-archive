@@ -60,9 +60,12 @@ AKT is available on the following exchanges:
 
 | Centralized | Decentralized
 | :--- | :--- |
-| [Kraken](https://www.kraken.com/prices/akash-network?quote=usd) 🇺🇸 | [Osmosis](https://info.osmosis.zone/token/AKT) 🌎 |
+| [Kraken](https://www.kraken.com/prices/akash-network?quote=usd) 🇺🇸 | [Osmosis](https://app.osmosis.zone/?from=OSMO&to=AKT) 🌎 |
 | [KuCoin](https://www.kucoin.com/trade/AKT-USDT) 🇺🇸 |
 | [Crypto.com](https://crypto.com/exchange/akt_usdt) 🇺🇸 |
-| [Gate.io](https://www.gate.io/trade/AKT_USDT) 🇺🇸 | 
-| [AscendEX](https://www.ascendex.com/en/trade/spot/akt_usdt) 🌎 | 
+| [Gate.io](https://www.gate.io/trade/AKT_USDT) 🇺🇸 |
+| [AscendEX](https://www.ascendex.com/en/trade/spot/akt_usdt) 🌎 |
 | [Huobi Global](https://www.huobi.com/en-us/exchange/akt_usdt/) 🌎 |
+
+
+## FAQ

@@ -65,16 +65,23 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1280x640 Center" # normalize image size
 
 # Footer
-footer = "© 2023 The Akash Network Authors | Documentation Distributed under CC BY 4.0. Copyright © 2023 The Decentralized Cloud Foundation. All rights reserved."
+footer = "© 2023 The Akash Network Authors | Documentation Distributed under CC BY 4.0"
 
 # Feed
 copyRight = "Copyright © 2023 The Decentralized Cloud Foundation"
 
 # Alert
 alert = true
-alertDismissable = true
+# alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "<span class='fw-bold'>New Post:</span> <a class=\"alert-link stretched-link\" href='/blog/public-cloud-is-a-public-utility/'>Public Cloud Is a Public Utility</a>."
+alertDismissable = true
+alertText = "<span class='fw-bold' style='font-size: 15px;'>The Incentivized Akash GPU Testnet is live:</span>  <a target='_blank' class='alert-link stretched-link' href='/gpu-testnet' rel='noopener noreferrer'><span style='font-size: 15px; text-decoration:none;'> Sign up to participate and earn rewards</span></a>."
+
+
+# Meta Data for SEO
+
+## Homepage
+
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
@@ -86,7 +93,7 @@ editPage = true
 lastMod = true
 
 [sections]
-  sectionNav = ["docs", "guides", "community", "token", "blog"]
+  sectionNav = ["docs", "guides", "community", "token", "blog", "discussions"]
 
 [options]
   lazySizes = true

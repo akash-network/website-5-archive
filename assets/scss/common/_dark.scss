@@ -16,9 +16,9 @@ $link-color-dark: $akash-red-light;
 $button-color-dark: $link-color-dark;
 $focus-color-dark: lighten($link-color-dark, 2.5%);
 
-$navbar-dark-color:                 $body-color-dark;
-$navbar-dark-hover-color:           $link-color-dark;
-$navbar-dark-active-color:          $link-color-dark;
+$navbar-dark-color: $body-color-dark;
+$navbar-dark-hover-color: $link-color-dark;
+$navbar-dark-active-color: $link-color-dark;
 
 /** Theme styles */
 
@@ -47,8 +47,77 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
 }
 
+[data-dark-mode] body table {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body table {
+  color: #f0f0f0;
+}
+[data-dark-mode] body .table_data_link a{
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .metrics_border{
+  border-right-color: #515559 !important;
+}
+
+
+
+
 [data-dark-mode] body .btn-outline-primary:hover {
   color: $body-bg-dark;
+}
+
+[data-dark-mode] body .no-border {
+  color: #f0f0f0;
+}
+[data-dark-mode] body .community__text {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .s_d-btns {
+  background-color: #f0f0f0;
+}
+
+[data-dark-mode] body .token_eco_desc{
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .form_desc2 {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .gpu_text {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body .table__border {
+  border: 1px solid #f0f0f0;
+}
+
+[data-dark-mode] body .dates_text {
+  color: #f0f0f0 !important;
+}
+[data-dark-mode] body .gpu_sub_text {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline .active {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline .active {
+  color: #f0f0f0 !important;
+}
+
+[data-dark-mode] body .link-underline::before {
+  background-color: #f0f0f0;
+  color: #f0f0f0;
 }
 
 [data-dark-mode] body .btn-doks-light {
@@ -63,6 +132,23 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .btn-menu svg {
   color: $body-color-dark;
+}
+[data-dark-mode] body .d-wrap_dark a .disc {
+  display: flex !important;
+  color: $body-color-dark;
+  position: relative;
+  right: 10px;
+  top: 3px;
+}
+[data-dark-mode] body .d-wrap a .disc {
+  display: none !important;
+  color: $body-color-dark;
+}
+[data-dark-mode] body .horizontal-line_table {
+  border-top: 1px solid #515559;
+}
+[data-dark-mode] body .horizontal-line {
+  border-top: 1px solid #515559;
 }
 
 [data-dark-mode] body .doks-sidebar-toggle {
@@ -91,6 +177,24 @@ $navbar-dark-active-color:          $link-color-dark;
   border-bottom: 0;
 }
 
+ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg{
+  fill: #ccc;
+  stroke: #ddd;
+ }
+
+[data-dark-mode] .svg-container svg,
+[data-dark-mode] .token_svg svg,
+[data-dark-mode] .token_svg2 svg,
+[data-dark-mode] .token_svg_ex svg {
+  fill: #ccc;
+  stroke: #ddd;
+}
+
+// [data-dark-mode] .arrow_svg svg {
+//   fill: #dee2e6;
+//   stroke: #dee2e6;
+// }
+
 [data-dark-mode] body .offcanvas-header {
   border-bottom: 1px solid $gray-800;
 }
@@ -98,6 +202,46 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
 }
+
+[data-dark-mode] #ecosystem-tools > div  div > div > p > a{
+  color: #fff;
+}
+
+[data-dark-mode] body .offcanvas .discords {
+  color: #fff !important;
+}
+[data-dark-mode] body .table_data_link .svg_mode svg path,
+[data-dark-mode] body .sm_data_link .svg_mode svg path,
+[data-dark-mode] body .table_data_link .arrow_svg svg path {
+  stroke: #fff;
+}
+
+[data-dark-mode] body #faq__toggle > svg path:first-of-type{
+  stroke: #fff;
+}
+
+[data-dark-mode] #second_faq_toggle > svg path:first-of-type{
+  stroke: #fff;
+}
+
+[data-dark-mode] body .table_data_link .svg_mode svg path:first-of-type,
+[data-dark-mode] body .table_data_link .arrow_svg svg path:first-of-type {
+  fill: #fff;
+}
+
+[data-dark-mode] body table{
+  border-bottom-color: #515559;
+}
+
+[data-dark-mode] div > p.mx-auto.metrics_border_bottom{
+  border-bottom-color: #515559 !important;
+}
+
+[data-dark-mode] body .table_data_link{
+  border-bottom-color: #515559 !important;
+}
+
+
 
 [data-dark-mode] body .offcanvas .nav-link:hover,
 [data-dark-mode] body .offcanvas .nav-link:focus {
@@ -240,7 +384,8 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
 }
 
-[data-dark-mode] body .content img[src^="https://latex.codecogs.com/svg.latex"] {
+[data-dark-mode] body .content img[src^="https://latex.codecogs.com/svg.latex"]
+{
   filter: invert(1);
 }
 
@@ -298,10 +443,18 @@ $navbar-dark-active-color:          $link-color-dark;
   border-top: 1px solid $border-dark !important;
 }
 
+[data-dark-mode] body .footer_wrapper {
+  background: $body-overlay-dark;
+}
+
 @include media-breakpoint-up(lg) {
   [data-dark-mode] body .docs-sidebar {
     order: 0;
     border-right: 1px solid $border-dark;
+  }
+
+  [data-dark-mode] body .footer_wrapper {
+    background: $body-overlay-dark;
   }
 }
 
@@ -429,10 +582,6 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .figure-caption {
   color: $body-color-dark;
-}
-
-[data-dark-mode] body table {
-  @extend .table-dark;
 }
 
 [data-dark-mode] body .copy-status::after {
@@ -585,10 +734,21 @@ $navbar-dark-active-color:          $link-color-dark;
   border: 1px solid $body-overlay-dark;
 }
 
-[data-dark-mode] .landing-svg{
-  .st0{ fill: darken($link-color-dark, 10%); }
+[data-dark-mode] .landing-svg {
+  .st0 {
+    fill: darken($link-color-dark, 10%);
+  }
 
   #DRAW {
     fill: $body-color-dark;
+  }
+}
+
+@media (max-width: 576px) {
+  [data-dark-mode] body .d-wrap_dark a .disc {
+    display: flex !important;
+    position: relative;
+    margin-left: 10px;
+    top: 3px;
   }
 }

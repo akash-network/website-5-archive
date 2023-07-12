@@ -15,9 +15,10 @@ The Akash Network is supported by a diverse group of users, contributors, and su
 
 | |
 | :--- | :--- |
-| [Core Community Groups](core-groups) | Core community groups are responsible for contributing code, writing documentation, testing product features and reporting bugs, organizing meetups and suggesting ideas for new features and various other activities that evolve the Akash Network. |
-| [Akash Insiders](insiders) | Akash Insiders are global leaders and influencers in the Web3 space. They support our community by moderating Akash social channels, organizing and attending online and in-person events, and creating technical and non-technical educational content. |
-| [Akash EDU](edu) | Akash EDU aims to provide world-class web3 education, along with certificates of completion and achievements. |
+| [Core Community Groups](core-groups) | <p class="community__text"> Core community groups are responsible for contributing code, writing documentation, testing product features and reporting bugs, organizing meetups and suggesting ideas for new features and various other activities that evolve the Akash Network.</p> |
+| [Akash Insiders](insiders) | <p class="community__text">Akash Insiders are global leaders and influencers in the Web3 space. They support our community by moderating Akash social channels, organizing and attending online and in-person events, and creating technical and non-technical educational content.</p> |
+| [Akash EDU](edu) | <p class="community__text"> Akash EDU aims to provide world-class web3 education, along with certificates of completion and achievements.</p>  |
+| [Community Contributions](contributions) | <p class="community__text">The Akash Community suppports community education and growth through written and video content. Check out all the fantastic content our community has created here. Or, make a PR and add your own Akash content! </p> |
 
 ## Discussions
 
