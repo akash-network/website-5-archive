@@ -55,12 +55,11 @@
     padding-bottom: 0.25rem;
   }
 
-  .nav_wrap{
+  .nav_wrap {
     display: flex;
   }
 
-
-  .nav_wrap li{
+  .nav_wrap li {
     justify-content: center;
     align-items: center;
     position: relative;
@@ -272,8 +271,6 @@ nav {
   width: 100%;
 }
 
-
-
 /*
 @include media-breakpoint-up(lg) {
   .navbar-form {
@@ -348,11 +345,15 @@ nav {
     width: auto !important;
   }
 
-  .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--subcategory-column {
+  .algolia-autocomplete
+    .algolia-docsearch-suggestion
+    .algolia-docsearch-suggestion--subcategory-column {
     font-weight: normal;
   }
 
-  .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--subcategory-column::after {
+  .algolia-autocomplete
+    .algolia-docsearch-suggestion
+    .algolia-docsearch-suggestion--subcategory-column::after {
     content: "/";
     margin-right: 0.25rem;
   }
@@ -458,6 +459,8 @@ nav {
   border: transparent;
 }
 
+// 1041-1398
+
 .btn-doks-light {
   border: transparent;
 }
@@ -532,20 +535,14 @@ nav {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
+}
 
+.d-wrap_dark a .disc {
+  display: none !important;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1040px) {
+  .nav_wrap li {
+    left: 70px;
   }
-
-  .d-wrap_dark a .disc{
-    display: none !important;
-  }
-
-
-
-  @media screen and (min-width: 992px) and (max-width: 1040px) {
-    .nav_wrap li{
-      left: 70px;
-    }
-  }
-
-
-
+}

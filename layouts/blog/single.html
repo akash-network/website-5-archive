@@ -1,59 +1,64 @@
 {{ define "main" }}
-<article>
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10">
-    <div class="blog-header">
-      <h1>{{ .Title }}</h1>
-      {{ partial "main/blog-meta.html" . }}
-    </div>
-  </div>
-  <div class="col-md-13">
-    <div>
-      {{- .Scratch.Set "fillImage" "1280x640 Center" -}}
-      {{ partial "content/figure.html" . }}
-    </div>
-  </div>
-  <div class="col-md-12 col-lg-9">
-    {{ .Content }}
-    {{ if .Params.tags -}}
-    <div class="mt-4">
-      {{ range $index, $tag := .Params.tags -}}
-        <a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
-      {{ end -}}
-    </div>
-    {{ end -}}
-  </div>
-</div>
-</article>
 
-{{ $related := .Site.RegularPages.Related . | first 3 -}}
-{{ with $related -}}
-<div class="related-posts">
-<div class="row justify-content-center">
-  <div class="col">
-    <h2 class="section-title">Related posts</h2>
-  </div>
-</div>
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-lg-5">
-  {{ range . -}}
-  <div class="col">
-    <div class="card">
-      {{- .Scratch.Set "fillImageCard" "1280x640 Center" -}}
-      {{ partial "content/card-image.html" . }}
-      <div class="card-body">
-        <article>
-          <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
-          <p>{{ .Params.excerpt | safeHTML }}</p>
-          {{ partial "main/blog-meta.html" . -}}
-        </article>
+<article>
+  <div class="row justify-content-center top_article_wrapper" style="">
+    <div class="col-md-12 col-lg-13 ">
+      <div class="mx-auto">
+        <h1 class="blog_top-title text-center mx-auto" style="margin-bottom: 30px;">{{ .Title }}</h1>
+        <div class="d-flex content-top-wrapper text-center justify-content-center mx-auto ">
+          <p class="blog_top_writers-name text-center">{{ partial "main/writer.html" . -}}</p>
+          <p class="mx-sm-1 mx-lg-4 text-center mx-auto">{{ .PublishDate.Format "January 2, 2006" }}</p>
+          <p class="blog_top_read-time" style="
+             font-size: 14px;
+             margin-top: 2px;
+             font-weight: 700;">{{ .ReadingTime }} min read </p>
+        </div>
       </div>
     </div>
+    <div class="col-md-13">
+      <div>
+        {{- .Scratch.Set "fillImage" "1280x640 Center" -}}
+        {{ partial "content/figure.html" . }}
+      </div>
+    </div>
+    <div class="col-md-13" style="text-align: left;">
+      {{ .Content }}
+      {{ if .Params.tags -}}
+      <div class="mt-4">
+        {{ range $index, $tag := .Params.tags -}}
+        <a class="btn btn-light" href="{{ "/tags/" | absURL }}{{ . | urlize }}/" role="button">{{ . }}</a>
+        {{ end -}}
+      </div>
+      {{ end -}}
+    </div>
   </div>
-  {{ end -}}
-</div>
-</div>
-{{ end -}}
 
+  {{ $related := .Site.RegularPages.Related . | first 3 -}}
+  {{ with $related -}}
+  <div class="related-posts">
+    <div class="row justify-content-center">
+      <div class="col">
+        <h2 class="section-title">Related posts</h2>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-lg-5">
+      {{ range . -}}
+      <div class="col">
+        <div class="card">
+          {{- .Scratch.Set "fillImageCard" "1280x640 Center" -}}
+          {{ partial "content/card-image.html" . }}
+          <div class="card-body">
+            <article>
+              <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+              <p>{{ .Params.excerpt | safeHTML }}</p>
+              {{ partial "main/blog-meta.html" . -}}
+            </article>
+          </div>
+        </div>
+      </div>
+      {{ end -}}
+    </div>
+  </div>
+  {{ end }}
+</article>
 {{ end }}
-
-
