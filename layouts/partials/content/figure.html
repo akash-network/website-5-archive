@@ -19,7 +19,7 @@
 {{ end -}}
 
 {{ range $widths -}}
-  {{ $srcUrl := (printf "%s?nf_resize=fit&w=%d&q=95" $image.Permalink .) -}}
+  {{ $srcUrl := (printf "%s?nf_resize=fit&w=%d&" $image.Permalink .) -}} <!-- Reduce quality to 85 -->
   {{ if eq $imgSrc "" -}}{{ $imgSrc = $srcUrl -}}{{ end -}}
   {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) -}}
 {{ end -}}
@@ -33,4 +33,13 @@
   </figure>
 {{ else -}}
   <img class="img-fluid lazyload blur-up" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Title }}">
+
+
+
+
+
 {{ end -}}
+
+
+
+

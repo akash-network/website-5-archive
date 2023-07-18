@@ -175,17 +175,17 @@ p.meta {
   #infra > div:nth-child(8) > p,
   #infra > div:nth-child(9) > p,
   #infra > div:nth-child(10) > p {
-    width: 300px;
+    width: 270px;
   }
 
   .group-1_header,
   .group-2_header,
   .group-3_header {
-    position: relative;
-    display: inline-block;
     color: #00000066;
     font-size: 24px;
-    width: 100px;
+    width: 270px !important;
+    position: relative;
+    left: 100px;
   }
 
   .highlight_header {
@@ -200,12 +200,6 @@ p.meta {
     position: relative;
     z-index: 1;
   }
-  .group-1_header.hover_header,
-  .group-2_header.hover_header,
-  .group-3_header.hover_header {
-    color: blue;
-  }
-
 
   hr {
     height: 0px;
@@ -221,6 +215,14 @@ p.meta {
     margin-bottom: 100px !important;
     width: 100%;
   }
+
+  .section_features .groups_wrapper {
+    display: flex !important;
+    position: relative;
+    justify-content: space-between;
+    left: 30px;
+    gap: 200px;
+  }
 }
 
 @include media-breakpoint-up(sm) {
@@ -234,7 +236,6 @@ p.meta {
     margin-top: -70px !important;
   }
 
-
   .underline__1 {
     position: absolute;
     bottom: -13px;
@@ -246,15 +247,16 @@ p.meta {
     left: 0;
   }
 
-
   .group-1_header,
   .group-2_header,
   .group-3_header {
-    position: relative;
     display: inline-block;
     color: #00000066;
     font-size: 24px;
     width: 100px;
+    position: relative;
+    left: 0;
+    right: 0;
   }
 
   .highlight_header {
@@ -262,17 +264,19 @@ p.meta {
   }
 
   .highlight_header::after {
-    color: #000;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px; /* Adjust this value to control the distance of the underline from the text */
+    width: 100%;
+    height: 1px;
+    background-color: #000;
   }
-
-
-
 
   .highlight_header > h3 > span {
     position: relative;
     z-index: 1;
   }
-
 
   .hr_ {
     width: 991px;
@@ -281,14 +285,11 @@ p.meta {
 
   div:nth-child(1) > div > h3 span {
     transition: border-bottom 0.3s ease; /* Add transition effect to the border bottom */
-
   }
 
   div:nth-child(1) > div > h3 span:hover {
-    border-bottom: 1px solid black;
     color: #000;
   }
-
 
   .section_features .groups_wrapper {
     display: flex !important;
@@ -310,8 +311,6 @@ p.meta {
   #infra > div:nth-child(10) > p {
     width: 608px;
   }
-
-
 
   .featured_header p {
     color: #00000066;
@@ -391,6 +390,11 @@ p.meta {
     margin: 20px auto;
     padding-bottom: 80px;
   }
+
+  .three-groups-wrapper {
+    position: relative;
+    left: -35px;
+  }
 }
 
 .header_ibc {
@@ -402,10 +406,6 @@ p.meta {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .feature_detail {
-    width: 400px !important;
-  }
-
   .section_features h5 {
     padding-top: 15px;
   }
@@ -413,11 +413,7 @@ p.meta {
   .group-1_header,
   .group-2_header,
   .group-3_header {
-    position: relative;
-    display: inline-block;
-    color: #00000066;
-    font-size: 24px;
-    width: 100px;
+    font-size: 20px;
   }
 
   .highlight_header {
@@ -438,7 +434,6 @@ p.meta {
     position: relative;
     z-index: 1;
   }
-
 
   .footer_wrapper {
     background-color: #ffdede;
@@ -519,6 +514,25 @@ p.meta {
     width: 370px !important;
     margin: 10px auto !important;
     font-size: 17px !important;
+  }
+
+  .three-groups-wrapper {
+    display: flex;
+    justify-content: space-between !important;
+    margin-right: 100px !important;
+    gap: 150px !important;
+    position: relative;
+    left: -70px;
+  }
+  .section_features > div > div > div > div:nth-child(1) > div > h3 {
+    width: 240px !important;
+  }
+
+  #infra > div:nth-child(8) > h5 {
+    width: 230px;
+  }
+  #infra > div:nth-child(6) > h5 {
+    width: 230px;
   }
 }
 
@@ -695,11 +709,6 @@ body > div:nth-child(8) {
     display: none;
   }
 }
-@media only screen and (min-width: 587px) {
-  .section_features .groups_wrapper {
-    display: none;
-  }
-}
 
 @media (min-width: 577px) and (max-width: 767px) {
   .section_features .groups_wrapper {
@@ -711,16 +720,25 @@ body > div:nth-child(8) {
   display: flex;
 }
 
-
 @media (min-width: 699px) and (max-width: 767px) {
-  .hr_{
-  width: 100%;
+  .hr_ {
+    width: 100%;
   }
 }
 
-
 @media (min-width: 430px) and (max-width: 576px) {
-  .hr_{
+  .hr_ {
     width: 100%;
-    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hr_ {
+    width: 1050px;
+  }
+
+  .three-groups-wrapper {
+    gap: 140px !important;
+    margin-top: -50px;
+  }
 }

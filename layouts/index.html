@@ -16,11 +16,11 @@
             nav:true,
         },
         600:{
-            items:3,
+            items:2,
             nav:false
         },
         1000:{
-            items:5,
+            items:2,
             nav:true,
             loop:false
         }
@@ -30,7 +30,6 @@
 
 $(document).ready(function() {
   // Function to highlight the menu item based on the current section
- // Function to highlight the menu item based on the current section
 function highlightMenuItem() {
   var scrollTop = $(window).scrollTop();
 
@@ -38,15 +37,17 @@ function highlightMenuItem() {
   $('.group-1_header, .group-2_header, .group-3_header').removeClass('highlight_header clicked_header').find('.underline__1').remove();
 
   // Add highlighting to the corresponding menu item based on the current section
-  if (scrollTop >= $('#blockchain').offset().top) {
+  if (scrollTop >= $('.peer-header').offset().top) {
     $('.group-3_header').addClass('highlight_header');
-  } else if (scrollTop >= $('#security').offset().top && scrollTop < $('#blockchain').offset().top) {
+  } else if (scrollTop >= $('#security').offset().top && scrollTop < $('.peer-header').offset().top) {
     $('.group-2_header').addClass('highlight_header');
   } else if (scrollTop >= $('#infra').offset().top && scrollTop < $('#security').offset().top) {
     $('.group-1_header').addClass('highlight_header');
   }
 }
 
+
+// <p id="#security" class="feature_detail_2 runss"></p>
 
   // Call the highlightMenuItem function on scroll
   $(window).scroll(function() {
@@ -61,10 +62,10 @@ function highlightMenuItem() {
   // Separate function to handle the click event on group headers
   function handleClickEvent() {
     // Remove highlighting and underline from all menu items
-    $('.group-1_header, .group-2_header, .group-3_header').removeClass('clicked_header').find('.underline__1').remove();
+    $('.group-1_header, .group-2_header, .group-3_header').removeClass('clicked_header')
 
     // Add clicked highlighting and underline to the clicked menu item
-    $(this).addClass('clicked_header').append('<span class="underline__1"></span>');
+    $(this).addClass('clicked_header');
   }
 
   // Attach click event handler to group headers
@@ -81,21 +82,21 @@ function highlightMenuItem() {
   $('.group-2_header').click(function() {
     // Scroll to the "Dedicated IP Leasing" section
     $('html, body').animate({
-      scrollTop: $('#security').offset().top
+      scrollTop: $('.runss').offset().top
     }, 100);
   });
 
   $('.group-3_header').click(function() {
     // Scroll to the "Layer One Protocol" section
     $('html, body').animate({
-      scrollTop: $('#blockchain').offset().top
+      scrollTop: $('.peer-header').offset().top
     }, 100);
   });
 
   // Remove the underline when scrolling starts
   $(window).on('scroll', function() {
-    $('.group-1_header, .group-2_header, .group-3_header').removeClass('clicked_header').find('.underline__1').remove();
-  });
+    $('.group-1_header, .group-2_header, .group-3_header').removeClass('clicked_header');
+  },{ passive: true });
 });
 
 
@@ -129,7 +130,7 @@ function highlightMenuItem() {
       <div class="col-md-12 col-lg-5 text-center svg-container">
         {{ partial "content/svg.html" "cloud_new" }}
       </div>
-      <div class="col-md-12 col-lg-7">
+      <div class="col-md-14 col-lg-7">
         <h2 class="h4 utility">You will own your cloud, and you will be happy</h2>
         <p>With Akash, you have the power to own your cloud.
           You can deploy your own cloud infrastructure, and you can sell
@@ -138,7 +139,7 @@ function highlightMenuItem() {
       </div>
     </div>
     <div class="row m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
-      <div class="col-md-12 col-lg-7 order-md-last">
+      <div class="col-md-14 col-lg-7 order-md-last">
         <h2 class="h4 super">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
@@ -153,7 +154,7 @@ function highlightMenuItem() {
       <div class="col-md-12 col-lg-5 text-center mt-md-5 svg-container">
         {{ partial "content/svg.html" "community_h" }}
       </div>
-      <div class="col-md-12 col-lg-7">
+      <div class="col-md-14 col-lg-7">
         <h2 class="h4 utility">Built for battle, commanded by the community</h2>
         <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
           it is available to everyone. It is built on dependable technologies like Kubernetes and Cosmos, and
@@ -220,30 +221,36 @@ function highlightMenuItem() {
 <section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: -130px;">
   <div class="container d-none d-sm-block groups_wrapper">
     <div class="d-flex justify-content-center pt-5">
-      <div class="d-flex justify-content-center titles mx-auto" style="gap: 80px;">
+      <div class="d-flex justify-content-center titles mx-auto three-groups-wrapper" style="gap: 100px;">
         <div class="" style="position: sticky !important;">
           <div class="sticky-top" style="top: 80px; margin-top: 30px;">
               <h3><span class="group-1_header" style="cursor: pointer !important;">Infrastructure and Resource Management</span></h3>
-            <div class="featured_header " style="margin-top: 100px;">
+            <div class="featured_header " style="margin-top: 70px;">
                 <h3><span class="group-2_header" style="cursor: pointer !important;">Security and Privacy</span></h3>
             </div>
-            <div class="featured_header " style="margin-top: 100px;">
+            <div class="featured_header " style="margin-top: 70px;">
                 <h3><span class="group-3_header" style="cursor: pointer !important;">Blockchain and Interoperability</span></h3>
             </div>
           </div>
         </div>
-        <div class="group-1" id="infra" class="" style="padding-top: -17px; margin-top: 7px; ">
-          <h5 style="width: 680px !important;">Infrastructure as a Code</h5>
+
+
+
+        <div class="group-1" id="infra" class="three-groups-text-section" style="padding-top: -17px; margin-top: 7px; ">
+          <h5 style="">Infrastructure as a Code</h5>
           <p class="feature_detail_2">Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.</p>
           <div style="margin-top: 40px;">
+
             <h5  class="group-2">Kubernetes Powered</h5>
             <p class="feature_detail_2">Akash runs on Kubernetes, the industry-leading container orchestration system. <span id="security">With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</span></p>
           </div>
+
           <div id="infra" class="group-1" style="margin-top: 40px;">
+            <div id="#security" class="runss"></div>
             <h5 class="">Persistent Storage</h5>
             <p class="feature_detail_2">Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.</p>
           </div>
-          <div id="security" class="group-2" style="margin-top: 100px;">
+          <div class="group-2" style="margin-top: 100px;">
             <h5 class="dedicated">Dedicated IP Leasing</h5>
             <p class="feature_detail_2">Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more.</p>
           </div>
@@ -254,7 +261,11 @@ function highlightMenuItem() {
 
           <div  class="group-2" style="margin-top: 40px;">
             <h5 class="">Peer-to-peer and Private</h5>
-            <p id="blockchain" class="feature_detail_2">You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.</p>
+            <p  class="feature_detail_2 peer-header">You and the provider you're using to deploy
+               your application communicate directly, without any external parties. This makes sure
+                your data stays secure and private, and no one can claim a portion of your payments
+                 or keep track of what's happening.Furthermore, Akash's lack of central
+                  control makes it dependable and unaffected by single point of failure.></p>
           </div>
           <div class="group-2" style="margin-top: 40px;">
             <h5 class="">Pseudonymous and Non-attributable</h5>
@@ -266,7 +277,7 @@ function highlightMenuItem() {
           </div>
           <div class="group-3" style="margin-top: 40px;">
             <h5 class="">Interoperable with IBC</h5>
-            <p id="blockchain" class="feature_detail_2">Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.</p>
+            <p class="feature_detail_2">Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.</p>
           </div>
         </div>
       </div>
