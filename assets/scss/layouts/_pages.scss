@@ -477,8 +477,11 @@ p.meta {
 
   .blog-title {
     font-size: 30px;
-    margin-bottom: 40px !important;
+    margin-bottom: 60px !important;
     width: 100%;
+    padding-top: -10px;
+    text-align: center;
+    margin-top: 0 !important;
   }
 
   .hr_ {
@@ -491,12 +494,6 @@ p.meta {
     margin: 30px auto;
   }
 
-  .blog-title {
-    font-size: 30px;
-    margin-top: -20px;
-    width: 100%;
-    padding-bottom: 30px;
-  }
   .header-text {
     width: 430px !important;
     font-size: 37px !important;
@@ -611,11 +608,6 @@ p.meta {
     padding-bottom: 40px;
     width: 600px;
     margin: 30px auto;
-  }
-
-  .blog-title {
-    margin-bottom: 20px;
-    font-size: 24px;
   }
 }
 
