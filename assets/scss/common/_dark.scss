@@ -152,6 +152,30 @@ $navbar-dark-active-color: $link-color-dark;
   > span {
   color: #f0f0f0;
 }
+[data-dark-mode]
+  body
+  div:nth-child(1)
+  > div
+  > div:nth-child(3)
+  > a
+  > h3
+  > span:hover {
+  color: #f0f0f0;
+  opacity: 0.5;
+}
+
+[data-dark-mode] body div > div > div:nth-child(1) > div > h3 > span:hover {
+  color: #f0f0f0;
+  opacity: 0.5;
+}
+
+[data-dark-mode] body div:nth-child(1) > div > div:nth-child(2) > h3 > span {
+  color: #f0f0f0;
+}
+
+[data-dark-mode] body div:nth-child(1) > div > div:nth-child(3) > h3 > span {
+  color: #f0f0f0;
+}
 
 [data-dark-mode] body .btn-doks-light {
   color: $navbar-dark-color;

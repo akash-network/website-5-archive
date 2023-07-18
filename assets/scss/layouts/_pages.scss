@@ -225,12 +225,6 @@ p.meta {
   }
 }
 
-@include media-breakpoint-up(sm) {
-  body {
-    overflow-x: hidden !important;
-  }
-}
-
 @include media-breakpoint-up(lg) {
   .feature_section {
     margin-top: -70px !important;
@@ -424,7 +418,7 @@ p.meta {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -5px; /* Adjust this value to control the distance of the underline from the text */
+    bottom: -5px;
     width: 100%;
     height: 1px;
     background-color: #000;
@@ -648,6 +642,10 @@ p.meta {
     width: 360px;
     margin: 30px auto;
   }
+
+  .blog-title {
+    margin-left: 0 !important;
+  }
 }
 
 .carousel-container h4 {
@@ -660,10 +658,6 @@ p.meta {
   line-height: 33px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-body > div:nth-child(8) {
-  margin-bottom: -600px !important;
 }
 
 @media only screen and (min-width: 992px) and (min-width: 1419px) {
