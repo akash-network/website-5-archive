@@ -46,7 +46,7 @@ siteLinksSearchBox = false
 themeColor = "#fff"
 
 # Images
-quality = 85
+quality = 75
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
