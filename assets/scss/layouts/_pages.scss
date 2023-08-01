@@ -324,6 +324,7 @@ p.meta {
     margin-top: 150px !important;
     grid-column-gap: 128px;
   }
+
   .header-text {
     width: 600px;
     text-align: center;
@@ -331,6 +332,38 @@ p.meta {
     line-height: 72px;
     font-weight: 900;
   }
+
+  // ---------new hero section
+  .hero-title {
+    max-width: 900px;
+  }
+  .hero-title h1 {
+    font-size: 72px !important;
+    font-weight: 700;
+    width: 100%;
+    color: #000000;
+    margin: 0 auto 0 auto;
+  }
+  .hero-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 950px;
+    margin: 57px auto 0 auto;
+  }
+  .btn-hero-section {
+    margin-top: 59px;
+  }
+  .btn-hero-section a {
+    font-size: 18px;
+    font-weight: 700;
+    width: 197px;
+    background-color: #fa5757;
+    color: #fff;
+    padding: 16px 20px 16px 10px;
+    gap: 8px;
+    border-radius: 8px;
+  }
+  // new hero section-----------
 
   .feature_section .own_cloud {
     font-size: 32px;

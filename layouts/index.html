@@ -104,16 +104,30 @@ function highlightMenuItem() {
 
 
 
-
-<section class="section container-fluid mt-n3 pb-5">
-  <div class="row justify-content-center">
-    <div class="col-md-10 text-center">
-      <h1 class=" my-4 header-text mx-auto">{{ .Title }}</h1>
+{{/*  Hero  */}}
+<section class="section container-fluid text-center">
+  <div class="flex-column-center">
+    <div class="hero-title">
+      {{/*  <h1 class="my-4 header-text mx-auto">{{ .Title }}</h1>  */}}
+      <h1>{{ .Title }}</h1>
     </div>
-    <div class="col-md-8 text-center">
-      <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2 mt-3" href="https://console.akash.network" role="button"
-        target="_blank">{{ i18n "get-started" }}</a>
+    <div class="text-center">
+      <p class="hero-subtitle">{{ .Params.lead | safeHTML }}</p>
+      <div class="btn-hero-section flex-row-center">
+        {{/* button: get started  */}}
+        <a class="flex-row-center" href="https://console.akash.network" role="button"
+          target="_blank">
+          <span>
+            {{ partial "content/svg.html" "arrow-right-circle" }}
+          </span> 
+          {{ i18n "get-started" }}
+        </a>
+  
+        {{/* button: docs  */}}
+ 
+      </div>
+
+      {{/* open source  */}}
       <p class="meta mt-3"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}.</a></p>
     </div>
@@ -172,7 +186,7 @@ function highlightMenuItem() {
       </div>
     </div>
     </div>
-    {{/*  </div>  */}}
+    </div>
   </div>
 
 
