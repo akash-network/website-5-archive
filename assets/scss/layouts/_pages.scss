@@ -359,11 +359,15 @@ p.meta {
     font-size: 18px;
     font-weight: 700;
     width: 200px;
+    height: 56px;
     background-color: #fa5757;
     color: #fff;
-    padding: 12px 20px 12px 14px;
     gap: 8px;
     border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  .btn-hero-section a:nth-child(2) span {
+    margin-top: -4px;
   }
   .btn-hero-section a:nth-child(2) {
     background-color: #fff;
@@ -379,7 +383,13 @@ p.meta {
     margin-top: 48px;
   }
   .hero-footer a {
-    border-bottom: 1px solid #1e1e1ebb;
+    border-bottom: 2px solid #1e1e1ebb;
+    transition: 0.3s ease-in-out;
+  }
+  .btn-hero-section a:hover,
+  .hero-footer a:hover {
+    opacity: 0.85;
+    text-decoration: none;
   }
   // new hero section-----------
 
