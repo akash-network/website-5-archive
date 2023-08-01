@@ -2,7 +2,7 @@
   <img src="akash-network-website-github-hero-image.png" style="width:1300px" />
 </p>
 
-# Akash Network Website
+# Akash Network Websit
 
 This repository contains the source code for the [Akash Network website](akash.network).
 
