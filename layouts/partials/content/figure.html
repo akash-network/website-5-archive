@@ -1,15 +1,4 @@
-{{ $fillImage := .Scratch.Get "fillImage" }} {{ if not $fillImage -}} {{
-$fillImage = site.Params.fillImage }} {{ end -}} {{ $image :=
-.Resources.GetMatch (printf "**%s" (index .Params.images 0)) }} {{ if not $image
--}} {{ $image = resources.Get (printf "%s%s" "images/" site.Params.defaultImage)
-}} {{ end -}} {{ $lqip := $image.Resize site.Params.lqipWidth -}} {{ $imgSrc :=
-"" -}} {{ $imgSrcSet := slice -}} {{ $widths := site.Params.landscapePhotoWidths
--}} {{ if gt $image.Height $image.Width -}} {{ $widths =
-site.Params.portraitPhotoWidths -}} {{ end -}} {{ range $widths -}} {{ $srcUrl
-:= (printf "%s?nf_resize=fit&w=%d&q=95" $image.Permalink .) -}} {{ if eq $imgSrc
-"" -}}{{ $imgSrc = $srcUrl -}}{{ end -}} {{ $imgSrcSet = $imgSrcSet | append
-(printf "%s %dw" $srcUrl .) -}} {{ end -}} {{ $imgSrcSet = (delimit $imgSrcSet
-",") -}} {{ if gt $image.Width site.Params.smallLimit -}}
+{{ $fillImage := .Scratch.Get "fillImage" }} {{ if not $fillImage -}} {{ $fillImage = site.Params.fillImage }} {{ end -}} {{ $image := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }} {{ if not $image -}} {{ $image = resources.Get (printf "%s%s" "images/" site.Params.defaultImage) }} {{ end -}} {{ $lqip := $image.Resize site.Params.lqipWidth -}} {{ $imgSrc := "" -}} {{ $imgSrcSet := slice -}} {{ $widths := site.Params.landscapePhotoWidths -}} {{ if gt $image.Height $image.Width -}} {{ $widths = site.Params.portraitPhotoWidths -}} {{ end -}} {{ range $widths -}} {{ $srcUrl := (printf "%s?nf_resize=fit&w=%d&q=95" $image.Permalink .) -}} {{ if eq $imgSrc "" -}}{{ $imgSrc = $srcUrl -}}{{ end -}} {{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) -}} {{ end -}} {{ $imgSrcSet = (delimit $imgSrcSet ",") -}} {{ if gt $image.Width site.Params.smallLimit -}}
 <figure class="figure">
   <img
     class="figure-img img-fluid lazyload blur-up"
