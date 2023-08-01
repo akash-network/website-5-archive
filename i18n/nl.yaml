@@ -1,3 +1,6 @@
+- id: docs
+  translation: "Documenten"
+
 - id: view-docs
   translation: "Aan de slag"
 

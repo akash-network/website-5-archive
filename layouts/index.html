@@ -113,6 +113,7 @@ function highlightMenuItem() {
     </div>
     <div class="text-center">
       <p class="hero-subtitle">{{ .Params.lead | safeHTML }}</p>
+      
       <div class="btn-hero-section flex-row-center">
         {{/* button: get started  */}}
         <a class="flex-row-center" href="https://console.akash.network" role="button"
@@ -124,15 +125,23 @@ function highlightMenuItem() {
         </a>
   
         {{/* button: docs  */}}
+        <a class="flex-row-center" href="https://docs.akash.network/" role="button"
+          target="_blank">
+          <span>
+            {{ partial "content/svg.html" "submit-document" }}
+          </span> 
+          {{ i18n "docs" }}
+        </a>
  
       </div>
 
       {{/* open source  */}}
-      <p class="meta mt-3"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
+      <p class="hero-footer"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}.</a></p>
     </div>
   </div>
 </section>
+<hr class="hr_">
 {{ end }}
 
 

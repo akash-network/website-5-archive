@@ -341,27 +341,45 @@ p.meta {
     font-size: 72px !important;
     font-weight: 700;
     width: 100%;
-    color: #000000;
+    color: #000;
     margin: 0 auto 0 auto;
   }
   .hero-subtitle {
     font-size: 18px;
     font-weight: 400;
     max-width: 950px;
+    color: #000;
     margin: 57px auto 0 auto;
   }
   .btn-hero-section {
     margin-top: 59px;
+    gap: 24px;
   }
   .btn-hero-section a {
     font-size: 18px;
     font-weight: 700;
-    width: 197px;
+    width: 200px;
     background-color: #fa5757;
     color: #fff;
-    padding: 16px 20px 16px 10px;
+    padding: 12px 20px 12px 14px;
     gap: 8px;
     border-radius: 8px;
+  }
+  .btn-hero-section a:nth-child(2) {
+    background-color: #fff;
+    color: #fa5757;
+    border: 2px solid #fa5757;
+  }
+  .hero-footer {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #1e1e1e;
+    opacity: 0.7;
+    margin-top: 48px;
+  }
+  .hero-footer a {
+    border-bottom: 1px solid #1e1e1ebb;
   }
   // new hero section-----------
 

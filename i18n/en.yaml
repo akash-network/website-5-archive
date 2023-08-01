@@ -1,6 +1,9 @@
 - id: get-started
   translation: "Get Started"
 
+- id: docs
+  translation: "Docs"
+
 - id: view-docs
   translation: "View Docs"
 
