@@ -324,6 +324,7 @@ p.meta {
     margin-top: 150px !important;
     grid-column-gap: 128px;
   }
+
   .header-text {
     width: 600px;
     text-align: center;
@@ -331,6 +332,66 @@ p.meta {
     line-height: 72px;
     font-weight: 900;
   }
+
+  // ---------new hero section
+  .hero-title {
+    max-width: 900px;
+  }
+  .hero-title h1 {
+    font-size: 72px !important;
+    font-weight: 700;
+    width: 100%;
+    color: #000;
+    margin: 0 auto 0 auto;
+  }
+  .hero-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 950px;
+    color: #000;
+    margin: 57px auto 0 auto;
+  }
+  .btn-hero-section {
+    margin-top: 59px;
+    gap: 24px;
+  }
+  .btn-hero-section a {
+    font-size: 18px;
+    font-weight: 700;
+    width: 200px;
+    height: 56px;
+    background-color: #fa5757;
+    color: #fff;
+    gap: 8px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  .btn-hero-section a:nth-child(2) span {
+    margin-top: -4px;
+  }
+  .btn-hero-section a:nth-child(2) {
+    background-color: #fff;
+    color: #fa5757;
+    border: 2px solid #fa5757;
+  }
+  .hero-footer {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #1e1e1e;
+    opacity: 0.7;
+    margin-top: 48px;
+  }
+  .hero-footer a {
+    border-bottom: 2px solid #1e1e1ebb;
+    transition: 0.3s ease-in-out;
+  }
+  .btn-hero-section a:hover,
+  .hero-footer a:hover {
+    opacity: 0.85;
+    text-decoration: none;
+  }
+  // new hero section-----------
 
   .feature_section .own_cloud {
     font-size: 32px;

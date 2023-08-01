@@ -1,3 +1,6 @@
+- id: docs
+  translation: "Dokumente"
+
 - id: view-docs
   translation: "Loslegen"
 
