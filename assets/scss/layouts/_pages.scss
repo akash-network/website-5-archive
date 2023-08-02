@@ -333,66 +333,6 @@ p.meta {
     font-weight: 900;
   }
 
-  // ---------new hero section
-  .hero-title {
-    max-width: 900px;
-  }
-  .hero-title h1 {
-    font-size: 72px !important;
-    font-weight: 700;
-    width: 100%;
-    color: #000;
-    margin: 0 auto 0 auto;
-  }
-  .hero-subtitle {
-    font-size: 18px;
-    font-weight: 400;
-    max-width: 950px;
-    color: #000;
-    margin: 57px auto 0 auto;
-  }
-  .btn-hero-section {
-    margin-top: 59px;
-    gap: 24px;
-  }
-  .btn-hero-section a {
-    font-size: 18px;
-    font-weight: 700;
-    width: 200px;
-    height: 56px;
-    background-color: #fa5757;
-    color: #fff;
-    gap: 8px;
-    border-radius: 8px;
-    transition: 0.3s ease-in-out;
-  }
-  .btn-hero-section a:nth-child(2) span {
-    margin-top: -4px;
-  }
-  .btn-hero-section a:nth-child(2) {
-    background-color: #fff;
-    color: #fa5757;
-    border: 2px solid #fa5757;
-  }
-  .hero-footer {
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: #1e1e1e;
-    opacity: 0.7;
-    margin-top: 48px;
-  }
-  .hero-footer a {
-    border-bottom: 2px solid #1e1e1ebb;
-    transition: 0.3s ease-in-out;
-  }
-  .btn-hero-section a:hover,
-  .hero-footer a:hover {
-    opacity: 0.85;
-    text-decoration: none;
-  }
-  // new hero section-----------
-
   .feature_section .own_cloud {
     font-size: 32px;
     line-height: 40px;
@@ -787,5 +727,156 @@ p.meta {
   .three-groups-wrapper {
     gap: 140px !important;
     margin-top: -50px;
+  }
+}
+
+// HERO SECTION
+.hero-title {
+  max-width: 900px;
+  margin-top: 120px;
+}
+.hero-title h1 {
+  width: 100%;
+  font-size: 72px !important;
+  font-weight: 700;
+  color: #000;
+  margin: 0 auto 0 auto;
+}
+.hero-title-img {
+  width: 71px;
+  height: 64px;
+  background: lightgray;
+}
+.hero-subtitle {
+  max-width: 950px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  margin: 57px auto 0 auto;
+}
+.hero-btn-container {
+  margin-top: 59px;
+  gap: 24px;
+}
+.hero-btn-container a {
+  width: 200px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fa5757;
+  color: #fff;
+  gap: 8px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+.hero-btn-container a:nth-child(2) {
+  background-color: #fff;
+  color: #fa5757;
+  border: 2px solid #fa5757;
+}
+.hero-btn-container a:nth-child(1) span {
+  margin-left: -6px;
+}
+.hero-btn-container a:nth-child(2) span {
+  margin-top: -4px;
+}
+.hero-footer {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #1e1e1e;
+  opacity: 0.7;
+  margin-top: 48px;
+}
+.hero-footer a {
+  border-bottom: 2px solid #1e1e1ebb;
+  transition: 0.3s ease-in-out;
+}
+.hero-btn-container a:hover,
+.hero-footer a:hover,
+.hero-btn-container a:focus,
+.hero-footer a:focus {
+  opacity: 0.85;
+  text-decoration: none;
+}
+.hero-hr {
+  width: 84%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.16);
+  color: rgba(0, 0, 0, 0.16);
+  margin: 120px auto 0 auto;
+  padding: 0%;
+}
+
+// lg device
+@media only screen and (max-width: 1200px) {
+  .hero-title h1 {
+    font-size: 60px !important;
+  }
+}
+
+// md device
+@media only screen and (max-width: 992px) {
+  .hero-title {
+    max-width: 95%;
+    margin-top: 100px;
+  }
+  .hero-title h1 {
+    font-size: 56px !important;
+  }
+  .hero-footer {
+    font-size: 16px;
+  }
+}
+
+// sm device
+@media only screen and (max-width: 768px) {
+  .hero-title {
+    margin-top: 80px;
+  }
+  .hero-title h1 {
+    font-size: 48px !important;
+  }
+  // .hero-title-img {
+  //   margin-top: -80px;
+  //   display: inline-block;
+  // }
+  .hero-subtitle {
+    max-width: 100%;
+    font-size: 16px;
+  }
+  .hero-btn-container {
+    margin-top: 40px;
+  }
+  .hero-btn-container a {
+    width: 186px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .hero-btn-container a:nth-child(2) span {
+    margin-top: -1px;
+  }
+  .hero-footer {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hero-hr {
+    display: none;
+  }
+}
+
+// xs device
+@media only screen and (max-width: 576px) {
+  .hero-title {
+    max-width: 100%;
+    margin-top: 56px;
+  }
+  .hero-title h1 {
+    font-size: 40px !important;
+  }
+  .hero-btn-container {
+    flex-direction: column;
+    gap: 16px;
   }
 }

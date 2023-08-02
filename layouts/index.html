@@ -104,19 +104,21 @@ function highlightMenuItem() {
 
 
 
-{{/*  Hero  */}}
-<section class="section container-fluid text-center">
-  <div class="flex-column-center">
+{{/*  HERO SECTION  */}}
+{{/*  <section class="section container-fluid text-center">  */}}
+<section>
+  <div class="flex-column-center text-center">
     <div class="hero-title">
-      {{/*  <h1 class="my-4 header-text mx-auto">{{ .Title }}</h1>  */}}
-      <h1>{{ .Title }}</h1>
+      <h1>{{ .Title }}
+        {{/*  <img src="../assets/images/hero-img.png" alt="" class="hero-title-img">  */}}
+      </h1>
     </div>
     <div class="text-center">
       <p class="hero-subtitle">{{ .Params.lead | safeHTML }}</p>
       
-      <div class="btn-hero-section flex-row-center">
+      <div class="hero-btn-container flex-row-center">
         {{/* button: get started  */}}
-        <a class="flex-row-center" href="https://console.akash.network" role="button"
+        <a class="hero-btn-primary flex-row-center" href="https://console.akash.network" role="button"
           target="_blank">
           <span>
             {{ partial "content/svg.html" "arrow-right-circle" }}
@@ -125,7 +127,7 @@ function highlightMenuItem() {
         </a>
   
         {{/* button: docs  */}}
-        <a class="flex-row-center" href="https://docs.akash.network/" role="button"
+        <a class="hero-btn-secondary flex-row-center" href="https://docs.akash.network/" role="button"
           target="_blank">
           <span>
             {{ partial "content/svg.html" "submit-document" }}
@@ -135,13 +137,14 @@ function highlightMenuItem() {
  
       </div>
 
-      {{/* open source  */}}
+      {{/* open source...  */}}
       <p class="hero-footer"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}.</a></p>
     </div>
   </div>
 </section>
-<hr class="hr_">
+<hr class="hero-hr">
+
 {{ end }}
 
 
