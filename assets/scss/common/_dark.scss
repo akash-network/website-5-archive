@@ -10,7 +10,8 @@ $body-overlay-dark: darken($body-bg-dark, 2.5%);
 $border-dark: darken($body-bg-dark, 2.5%);
 */
 $border-dark: $gray-800;
-$body-color-dark: $gray-300;
+// $body-color-dark: $gray-300;
+$body-color-dark: #fff;
 $dots-dark: darken($body-color-dark, 50%);
 
 $link-color-dark: $akash-red-light;
@@ -227,8 +228,10 @@ $navbar-dark-active-color: $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba(33, 37, 41, 0.95);
-  border-bottom: 1px solid $border-dark;
+  // background-color: rgba(33, 37, 41, 0.95);
+  background-color: $body-bg-dark;
+  border-bottom: 1px solid $border-dark !important;
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 [data-dark-mode] body.home .navbar {
@@ -259,6 +262,10 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
+}
+
+[data-dark-mode] .offcanvas .nav-link span svg path {
+  fill: $body-color-dark;
 }
 
 [data-dark-mode] #ecosystem-tools > div div > div > p > a {
@@ -306,6 +313,11 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 [data-dark-mode] body .offcanvas .nav-link.active {
   color: $link-color-dark;
+}
+
+[data-dark-mode] .offcanvas .nav-link:hover span svg path,
+[data-dark-mode] .offcanvas .nav-link:focus span svg path {
+  fill: $link-color-dark;
 }
 
 [data-dark-mode] body .navbar-light .navbar-brand {

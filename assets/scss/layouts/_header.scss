@@ -40,8 +40,9 @@
 
 .navbar {
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid $gray-200;
+  background-color: #fffffff2;
+  border-bottom: 1px solid $gray-200 !important;
+  padding: 16px 0 !important;
 
   /*
   margin-top: 4px;
@@ -132,7 +133,13 @@ button#doks-versions {
 }
 
 .offcanvas .nav-link {
-  color: $body-color;
+  // color: $body-color;
+  font-size: 18px;
+  color: #000;
+}
+
+.offcanvas .nav-link span {
+  padding-bottom: 3px;
 }
 
 .doks-subnavbar {
@@ -151,6 +158,14 @@ button#doks-versions {
 .offcanvas .nav-link:hover,
 .offcanvas .nav-link:focus {
   color: $link-color;
+}
+
+.offcanvas .nav-link:hover span svg {
+  transform: translate(1px, -1px);
+}
+.offcanvas .nav-link:hover span svg path,
+.offcanvas .nav-link:focus span svg path {
+  fill: $link-color;
 }
 
 .offcanvas .nav-link.active {

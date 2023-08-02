@@ -10,6 +10,7 @@
 <header class="navbar navbar-expand-lg navbar-light doks-navbar mx-auto" style="border:none;" >
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
 
+    {{/*  logo  */}}
     <a class="navbar-brand order-0" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
       <div class="akash-logo-nav"> </div>
     </a>
@@ -45,7 +46,7 @@
         <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
       </div>
       <div class="nav_wrap p-4 p-lg-0" >
-        <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto px-5">
+        {{/*  <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto px-5">
           {{- $current := . -}}
           {{- $section := $current.Section -}}
           {{ range .Site.Menus.main -}}
@@ -74,7 +75,58 @@
               </li>
             {{ end }}
           {{ end -}}
+        </ul>  */}}
+
+        <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto px-5">
+          {{- $current := . -}}
+          {{- $section := $current.Section -}}
+        
+          {{- range .Site.Menus.main -}}
+            {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
+            {{- $active = or $active (eq .Name $current.Title) -}}
+            {{- $active = or $active (and (eq .Name ($section | humanize)) (eq $current.Section $section)) -}}
+            {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors" "categories" "tags")) -}}
+        
+            {{ $showArrow := or (eq .Name "Ecosystem") (eq .Name "Discussions") (eq .Name "Docs") }}
+        
+            {{ if .HasChildren }}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ .Name }}
+                  {{ if $showArrow }}
+                    <span class="dropdown-caret">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                      </svg>
+                    </span>
+                  {{ end }}
+                </a>
+                <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+                  {{ range .Children -}}
+                    {{- $active = eq .Name $current.Title -}}
+                    <li>
+                      <a class="dropdown-item{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}"{{ if $active }} aria-current="true"{{ end }}>{{ .Name }}</a>
+                    </li>
+                  {{ end -}}
+                </ul>
+              </li>
+            {{ else }}
+              <li class="nav-item">
+                <a class="nav-link flex-row-center gap-1 ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}" {{ if eq .Params.external true }} target="_blank" rel="noopener noreferrer" {{ end }}>
+                  {{ .Name }}
+                  {{ if $showArrow }}
+                    <span class="">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                        <path d="M0.965715 7.96663L0.0763362 7.07725L5.41261 1.74098L0.521026 1.74098L0.521026 0.478057L7.56491 0.478058L7.56491 7.52194L6.30199 7.52194L6.30199 2.63036L0.965715 7.96663Z" fill="black"/>
+                      </svg>
+                    </span>
+                  {{ end }}
+                </a>
+              </li>
+            {{ end }}
+          {{ end -}}
         </ul>
+        
 
         {{- $showFlexSearch := .Site.Params.options.flexSearch }}
         {{- if $showFlexSearch }}
