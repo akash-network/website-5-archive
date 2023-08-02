@@ -2,7 +2,8 @@
 
 // Source: https://material.io/design/color/dark-theme.html
 
-$body-bg-dark: $gray-900;
+// $body-bg-dark: $gray-900;
+$body-bg-dark: #121212;
 $body-overlay-dark: darken($body-bg-dark, 2.5%);
 
 /*
@@ -808,7 +809,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   }
 }
 
-// Hero Section: New
+// HERO SECTION: New
 [data-dark-mode] .hero-title h1 {
   color: #fff;
 }
@@ -836,4 +837,11 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 }
 [data-dark-mode] .hero-footer a {
   border-bottom: 2px solid #f59d9fbb;
+}
+[data-dark-mode] .hero-hr {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.16);
+}
+[data-dark-mode] .hero-title-img {
+  filter: invert(100%);
 }

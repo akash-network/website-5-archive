@@ -742,11 +742,6 @@ p.meta {
   color: #000;
   margin: 0 auto 0 auto;
 }
-.hero-title-img {
-  width: 71px;
-  height: 64px;
-  background: lightgray;
-}
 .hero-subtitle {
   max-width: 950px;
   font-size: 18px;
@@ -765,7 +760,7 @@ p.meta {
   font-weight: 700;
   background-color: #fa5757;
   color: #fff;
-  gap: 8px;
+  gap: 6px;
   border-radius: 8px;
   transition: 0.3s ease-in-out;
 }
@@ -878,5 +873,8 @@ p.meta {
   .hero-btn-container {
     flex-direction: column;
     gap: 16px;
+  }
+  .hero-title-img {
+    display: block;
   }
 }
