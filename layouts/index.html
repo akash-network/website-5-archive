@@ -104,7 +104,6 @@ function highlightMenuItem() {
 
 
 {{/*  HERO SECTION  */}}
-{{/*  <section class="section container-fluid text-center">  */}}
 <section>
   <div class="flex-column-center text-center">
     <div class="hero-title">
@@ -115,7 +114,7 @@ function highlightMenuItem() {
       
       <div class="hero-btn-container flex-row-center">
         {{/* button: get started  */}}
-        <a class="hero-btn-primary flex-row-center" href="https://console.akash.network" role="button"
+        <a class="flex-row-center" href="https://console.akash.network" role="button"
           target="_blank">
           <span>
             {{ partial "content/svg.html" "arrow-right-circle" }}
@@ -124,7 +123,7 @@ function highlightMenuItem() {
         </a>
   
         {{/* button: docs  */}}
-        <a class="hero-btn-secondary flex-row-center" href="https://docs.akash.network/" role="button"
+        <a class="flex-row-center" href="https://docs.akash.network/" role="button"
           target="_blank">
           <span>
             {{ partial "content/svg.html" "submit-document" }}
@@ -147,10 +146,16 @@ function highlightMenuItem() {
 
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
+
+{{/*  SECTION TWO  */}}
 <section class="section section-sm mt-5 feature_section">
   <div class="container text-left d-none d-md-block d-md-block">
     {{/*  1  */}}
-    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
+    <div class="row flex-md-row m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
+       {{/*  img  */}}
+       <div class="col-md-12 col-lg-5 text-center svg-container">
+        {{ partial "content/svg.html" "cloud_new" }}
+      </div>
       {{/*  content  */}}
       <div class="col-md-14 col-lg-7">
         <h2 class="h4 utility">You will own your cloud, and you will be happy</h2>
@@ -159,25 +164,23 @@ function highlightMenuItem() {
           your unused cloud resources to others.
            You can also buy cloud resources from others, and you can use them to run your applications.</p>
       </div>
-        {{/*  img  */}}
-        <div class="col-md-12 col-lg-5 text-center svg-container">
-          {{ partial "content/svg.html" "cloud_new" }}
-        </div>
+       
     </div>
     {{/*  2  */}}
-    <div class="row m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
+    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
+            {{/*  img  */}}
+            <div class="col-md-12 col-lg-5 text-center  svg-container">
+              {{ partial "content/svg.html" "fingertips" }}
+          </div> 
       {{/*  content  */}}
-      <div class="col-md-14 col-lg-7 order-md-first ">
+      <div class="col-md-14 col-lg-7">
         <h2 class="h4 super">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
           customers submit their desired price and providers compete for the business. This often results in prices up
           to 85% lower than other cloud systems.</p>
       </div>
-      {{/*  img  */}}
-        <div class="col-md-12 col-lg-5 text-center  svg-container order-md-last">
-          {{ partial "content/svg.html" "fingertips" }}
-      </div> 
+
     </div>
     {{/*  3  */}}
     <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
@@ -200,7 +203,7 @@ function highlightMenuItem() {
 
 
   <!-- Mobile Version -->
-  <div class="container justify-content-center text-left d-xs-block d-sm-block d-md-none">
+  <div class="container justify-content-center text-center d-xs-block d-sm-block d-md-none">
     <div class="row">
       <div class="col">
         <div class="d-flex justify-content-center mx-auto svg-container">
