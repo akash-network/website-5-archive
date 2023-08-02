@@ -14,6 +14,11 @@
   font-weight: $headings-font-weight;
 }
 
+.svg-icon .arrow-path {
+  stroke: #000;
+  margin-bottom: 5px;
+}
+
 .akash-logo-nav {
   width: $akash-logo-width;
   height: $akash-logo-height;
@@ -47,6 +52,50 @@
   margin-top: 4px;
   */
 }
+.nav_wrap li {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  left: 30%;
+  // left: 50px;
+  text-align: center;
+}
+
+.console-btn {
+  position: relative;
+  left: 60px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#offcanvasDoks
+  > div.nav_wrap.p-4.p-lg-0
+  > a
+  > button.console-btn
+  > span
+  > svg
+  > path {
+  stroke: #fff;
+}
+
+.nav-item span svg {
+  margin-bottom: 3px;
+}
+
+.nav-top-socials {
+  position: relative;
+  left: 55px;
+}
+
+.toggle-dark-modes {
+  margin: auto 4px;
+  margin-left: 100px;
+  position: relative;
+  left: 35px;
+}
 
 @include media-breakpoint-up(lg) {
   .navbar {
@@ -59,15 +108,9 @@
     display: flex;
   }
 
-  .nav_wrap li {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: flex;
-    font-size: 16px;
-    left: 50%;
-    // left: 130px;
-    // text-align: center;
+  #offcanvasDoks > li:nth-child(4) > a > span > svg .svg-icon .arrow-path {
+    stroke: #000;
+    margin-bottom: 35px !important;
   }
 }
 
@@ -92,6 +135,9 @@
 @include media-breakpoint-up(md) {
   .nav-item {
     margin-left: 0.5rem;
+  }
+  .svg-icon .arrow-path {
+    stroke: #000;
   }
 }
 
@@ -371,6 +417,10 @@ nav {
   padding: 0 0.05em;
 }
 
+.svg-icon .arrow-path {
+  stroke: #000;
+}
+
 .algolia-autocomplete .algolia-docsearch-footer {
   margin-top: 1rem;
   margin-right: 0.5rem;
@@ -541,8 +591,60 @@ nav {
   display: none !important;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1040px) {
+@media (min-width: 992px) and (max-width: 1400px) {
   .nav_wrap li {
-    left: 70px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    // left: 50%;
+    left: 100px;
+    text-align: center;
+  }
+
+  .console-btn {
+    position: relative;
+    left: 60px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+@media (min-width: 330px) and (max-width: 991px) {
+  .nav_wrap li {
+    position: relative;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    // left: 50%;
+    left: -45px;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .nav-top-socials {
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+
+  .console-btn {
+    position: relative;
+    left: 20px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .toggle-dark-modes {
+    position: relative;
+    left: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1096px) {
+  .console-btn {
+    display: none;
   }
 }

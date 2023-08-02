@@ -106,10 +106,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0;
 }
 
-[data-dark-mode] body .gpu_text {
-  color: #f0f0f0;
-}
-
 [data-dark-mode] body .table__border {
   border: 1px solid #f0f0f0;
 }
@@ -117,9 +113,7 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .dates_text {
   color: #f0f0f0 !important;
 }
-[data-dark-mode] body .gpu_sub_text {
-  color: #f0f0f0 !important;
-}
+
 [data-dark-mode] body .group-1_header,
 .group-2_header,
 .group-3_header {
@@ -237,6 +231,25 @@ $navbar-dark-active-color: $link-color-dark;
 section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   fill: #ccc;
   stroke: #ddd;
+}
+[data-dark-mode] body .svg-icon .arrow-path {
+  stroke: #ddd;
+}
+[data-dark-mode] body .console-btn {
+  background-color: #ffb2b2;
+  color: black;
+}
+
+[data-dark-mode]
+  body
+  #offcanvasDoks
+  > div.nav_wrap.p-4.p-lg-0
+  > a
+  > button.console-btn
+  > span
+  > svg
+  > path {
+  stroke: #000;
 }
 
 [data-dark-mode] .svg-container svg,

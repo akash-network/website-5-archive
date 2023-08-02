@@ -37,6 +37,10 @@ h4:hover a {
   margin-top: 3rem;
 }
 
+.started-btn:hover {
+  opacity: 0.5;
+}
+
 .edit-page,
 .last-modified {
   font-size: $font-size-sm;
@@ -70,14 +74,6 @@ p.meta {
   background: #00000033;
 }
 
-.header_in {
-  font-size: 24px;
-  font-weight: 900;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
 .section_features .feature_detail {
   height: 72px;
   width: 608px;
@@ -86,17 +82,6 @@ p.meta {
   line-height: 24px;
   letter-spacing: 0.01em;
   text-align: left;
-}
-
-.step_detail {
-  height: 64px;
-  width: 323px;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #0000008c;
 }
 
 .blog-title {
@@ -135,6 +120,12 @@ p.meta {
   color: #00000073;
 }
 
+.section .header-text {
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+}
+
 @include media-breakpoint-up(md) {
   .edit-page,
   .last-modified {
@@ -146,6 +137,13 @@ p.meta {
   .hr_ {
     width: 600px;
     margin: 30px auto;
+  }
+
+  .section .header-text {
+    font-size: 45px;
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
   }
 
   .feature_detail {
@@ -226,6 +224,10 @@ p.meta {
 }
 
 @include media-breakpoint-up(lg) {
+  .header-text {
+    font-size: 666px;
+  }
+
   .feature_section {
     margin-top: -70px !important;
   }
@@ -324,13 +326,6 @@ p.meta {
     margin-top: 150px !important;
     grid-column-gap: 128px;
   }
-  .header-text {
-    width: 600px;
-    text-align: center;
-    height: 144px;
-    line-height: 72px;
-    font-weight: 900;
-  }
 
   .feature_section .own_cloud {
     font-size: 32px;
@@ -351,10 +346,6 @@ p.meta {
 
   .feature_section .wrapper {
     margin-top: 150px !important;
-  }
-
-  .hr_security {
-    width: 200px;
   }
 
   .leasing_header {
@@ -446,20 +437,7 @@ p.meta {
     text-align: center;
   }
 
-  .header_in {
-    font-size: 20px;
-  }
-
   .hr_in {
-    width: 200px;
-  }
-
-  .hr_security {
-    width: 180px;
-  }
-
-  .step_detail {
-    font-size: 21px;
     width: 200px;
   }
 
@@ -487,18 +465,6 @@ p.meta {
   .hr_ {
     width: 680px;
     margin: 30px auto;
-  }
-
-  .blog_hr {
-    width: 600px;
-    margin: 30px auto;
-  }
-
-  .header-text {
-    width: 430px !important;
-    font-size: 37px !important;
-    text-align: center;
-    margin: 10px auto !important;
   }
 
   p.lead.my-4 {
@@ -597,25 +563,27 @@ p.meta {
     margin: 10px auto;
   }
 
-  .blog_hr {
-    margin-top: -35px;
-    padding-bottom: 30px;
-    width: 343px;
-    margin: 0 auto;
-  }
-
   .hr_ {
     padding-bottom: 40px;
     width: 600px;
     margin: 30px auto;
   }
+
+  .section .header-text {
+    font-size: 45px;
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .section .lead {
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .step_detail {
-    margin-top: 100px;
-  }
-
   .ibc_detail {
     padding-top: 0px !important;
   }
@@ -638,6 +606,18 @@ p.meta {
   .blog-title {
     margin-left: 0 !important;
   }
+
+  .section .header-text {
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 40px;
+  }
+
+  .section .lead {
+    width: 100% !important;
+    margin-top: 40px;
+  }
 }
 
 .carousel-container h4 {
@@ -652,18 +632,6 @@ p.meta {
   text-align: left;
 }
 
-@media only screen and (min-width: 992px) and (min-width: 1419px) {
-  .header-text {
-    font-size: 42px;
-    font-weight: 900;
-    line-height: 46px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    height: 56px;
-    width: 100%;
-  }
-}
-
 @media only screen and (min-width: 992px) {
   body
     > section.section.section-sm.text-left.section_features
@@ -675,16 +643,6 @@ p.meta {
 }
 
 @media only screen and (min-width: 1419px) {
-  .header-text {
-    font-size: 42px !important;
-    font-weight: 900;
-    line-height: 56px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    height: 56px;
-    width: 100%;
-  }
-
   .section_features .groups_wrapper {
     padding-top: 90px;
   }
@@ -726,5 +684,15 @@ p.meta {
   .three-groups-wrapper {
     gap: 140px !important;
     margin-top: -50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .section .header-text {
+    font-size: 55px;
+    width: 650px;
+    margin: 36px auto;
+    line-height: 68px;
+    // width: calc(100% / 15 * 12);
   }
 }

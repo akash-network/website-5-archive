@@ -69,12 +69,25 @@
                 </ul>
               </li>
             {{ else }}
-              <li class="nav-item">
-                <a class="nav-link ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}" {{ if eq .Params.external true }} target="_blank" rel="noopener noreferrer" {{ end }}>{{ .Name }}</a>
-              </li>
+            <li class="nav-item">
+              {{ $externalLink := eq .Params.external true }}
+              <a class="nav-link ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}" {{ if $externalLink }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                {{ .Name }}
+                {{ if $externalLink }}
+                  <span class="svg-icon-wrapper">
+                    {{ partial "content/svg.html" "L-arrow" }}
+                  </span>
+                {{ end }}
+              </a>
+
+            </li>
+
             {{ end }}
           {{ end -}}
+
+
         </ul>
+
 
         {{- $showFlexSearch := .Site.Params.options.flexSearch }}
         {{- if $showFlexSearch }}
@@ -92,7 +105,7 @@
         {{ end -}}
 
         <hr class="text-black-50 my-4 d-lg-none">
-        <ul class="nav flex-column flex-lg-row">
+        <ul class="nav-top-socials nav flex-column flex-lg-row" style="">
 
           {{ range .Site.Menus.social -}}
 
@@ -100,22 +113,18 @@
 
           {{ end -}}
         </ul>
-        <div class="m-2 d-wrap">
-          <a target="_blank" href="https://discord.gg/akash">
-          <span  class="disc">{{ partial "content/svg.html" "discord" }}<span class="d-lg-none text-black" style="font-size: 14px; margin-left: 7px; position: relative; top: 2px;">Discord</span></span>
-        </a>
-         </div>
-        <div class="m-2 d-wrap_dark">
-          <a target="_blank" href="https://discord.gg/akash">
-          <div class="disc">{{ partial "content/svg.html" "discord2" }} <span class="d-lg-none d-sm-flex text-white m-1" style="font-size: 13px;">Discord</span></div>
-        </a>
-         </div>
         {{ if .Site.Params.options.darkMode -}}
         <hr class="text-black-50 my-4 d-lg-none">
-        <button id="mode" class="btn btn-link" style="margin:auto -5px ;" type="button" aria-label="Toggle user interface mode">
+        <button id="mode" class="btn btn-link toggle-dark-modes" style="margin:auto -5px; margin-left: 15px;" type="button" aria-label="Toggle user interface mode">
           <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
           <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
         </button>
+        <a class=" mt-1" href="https://console.akash.network" target="_blank">
+        <button class="btn console-btn btn-primary" style="margin:auto -5px;" type="button">
+            Launch Console  <span class="svg-arrow-icon-wrapper" style=" padding: 5px">
+              {{ partial "content/svg.html" "L-arrow" }} </span>
+        </button>
+      </a>
         {{ end -}}
 
         {{ if eq .Site.Params.options.multilingualMode true -}}
@@ -147,6 +156,7 @@
               <li><a class="dropdown-item" href="/docs/contributing/how-to-contribute/">Help Translate</a></li>
               -->
           </ul>
+
         </div>
         {{ end -}}
 
