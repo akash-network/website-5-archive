@@ -499,7 +499,8 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 }
 
 [data-dark-mode] body .footer_wrapper {
-  background: $body-overlay-dark;
+  // background: $body-overlay-dark;
+  background: #3d3535;
 }
 
 @include media-breakpoint-up(lg) {
@@ -509,7 +510,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   }
 
   [data-dark-mode] body .footer_wrapper {
-    background: $body-overlay-dark;
+    background: #3d3535;
   }
 }
 
