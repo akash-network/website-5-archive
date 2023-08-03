@@ -822,38 +822,44 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 }
 
 // HERO SECTION: New
-[data-dark-mode] .hero-title h1 {
-  color: #fff;
-}
-[data-dark-mode] .hero-subtitle {
-  color: #fff;
-  opacity: 0.8;
-}
-[data-dark-mode] .hero-btn-container a {
-  background-color: #cb4547;
-  color: #ffffff;
-}
-[data-dark-mode] .hero-btn-container a:nth-child(2) {
-  background-color: transparent;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-}
-[data-dark-mode] .hero-btn-container a svg path {
-  stroke: #ffffff;
-}
-[data-dark-mode] .hero-btn-container a:nth-child(2) svg path {
-  stroke: #ffffff;
-}
-[data-dark-mode] .hero-footer {
-  color: #f59d9f;
-}
-[data-dark-mode] .hero-footer a {
-  border-bottom: 2px solid #f59d9fbb;
+[data-dark-mode] .hero {
+  .hero-title h1 {
+    color: #fff;
+  }
+  .hero-title-img {
+    filter: invert(100%);
+  }
+  .hero-subtitle {
+    color: #fff;
+    opacity: 0.8;
+  }
+  .hero-btn-container {
+    a {
+      background-color: #cb4547;
+      color: #ffffff;
+    }
+
+    a:nth-child(2) {
+      background-color: transparent;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+    }
+    a svg path {
+      stroke: #ffffff;
+    }
+    a:nth-child(2) svg path {
+      stroke: #ffffff;
+    }
+  }
+  .hero-footer {
+    color: #f59d9f;
+
+    a {
+      border-bottom: 2px solid #f59d9fbb;
+    }
+  }
 }
 [data-dark-mode] .hero-hr {
   background-color: rgba(255, 255, 255, 0.16);
   color: rgba(255, 255, 255, 0.16);
-}
-[data-dark-mode] .hero-title-img {
-  filter: invert(100%);
 }

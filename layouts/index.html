@@ -104,7 +104,7 @@ function highlightMenuItem() {
 
 
 {{/*  HERO SECTION  */}}
-<section>
+<section class="hero">
   <div class="flex-column-center text-center">
     <div class="hero-title">
       <h1>{{ .Title }} <span class="hero-title-img" id="hero-img-container">{{partial "content/svg.html" "hero-img"}}</span></h1>
@@ -249,10 +249,10 @@ function highlightMenuItem() {
 
 </section>
 
-<hr class="hr_">
+{{/*  <hr class="hr_">  */}}
 
 
-<section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: -130px;">
+<section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: 100px;">
   <div class="container d-none d-sm-block groups_wrapper">
     <div class="d-flex justify-content-center pt-5">
       <div class="d-flex justify-content-center titles mx-auto three-groups-wrapper" style="gap: 100px;">
@@ -383,9 +383,11 @@ function highlightMenuItem() {
     </div>
 </div>
 
-<hr class="hr_">
+{{/*  <hr class="hr_">  */}}
+
+{{/*  LATEST FROM THE BLOG  */}}
 <section>
-  <div class="blog_post_wrapper" style="margin-top: -80px;">
+  <div class="blog_post_wrapper" style="margin-top: 100px;">
  <div class="container justify-content-center align-items-center mx-auto">
     <div class="related-posts">
       <div class="row justify-content-center align-items-center">
@@ -394,10 +396,10 @@ function highlightMenuItem() {
       </div>
       </div>
 
-        <div class="blog_wrapper row justify-content-center align-items-center" style="gap: 50px;">
+        <div class="blog_wrapper row justify-content-center align-items-center" style="gap: 50px; margin-top: 48px;">
           {{- range (where site.RegularPages "Section" "blog" | first 3) }}
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="">
+            <div class="" style="border: 1px solid rgba(0, 0, 0, 0.24);">
 
               <a class="" href="{{ .RelPermalink }}">
                 {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}

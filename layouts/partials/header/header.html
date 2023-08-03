@@ -35,10 +35,11 @@
     </div>
     {{ end -}}
 
-
+    {{/*  hamburger menu button  */}}
     <button class="btn btn-menu order-2 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
     </button>
+
     <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
       <div class="header-bar d-lg-none"></div>
       <div class="offcanvas-header d-lg-none">
@@ -46,37 +47,8 @@
         <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
       </div>
       <div class="nav_wrap p-4 p-lg-0" >
-        {{/*  <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto px-5">
-          {{- $current := . -}}
-          {{- $section := $current.Section -}}
-          {{ range .Site.Menus.main -}}
-            {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
-            {{- $active = or $active (eq .Name $current.Title) -}}
-            {{- $active = or $active (and (eq .Name ($section | humanize)) (eq $current.Section $section)) -}}
-            {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors" "categories" "tags")) -}}
-            {{ if .HasChildren }}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  {{ .Name }}
-                  <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
-                  {{ range .Children -}}
-                  {{- $active = eq .Name $current.Title -}}
-                    <li>
-                      <a class="dropdown-item{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}"{{ if $active }} aria-current="true"{{ end }}>{{ .Name }}</a>
-                    </li>
-                  {{ end -}}
-                </ul>
-              </li>
-            {{ else }}
-              <li class="nav-item">
-                <a class="nav-link ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}" {{ if eq .Params.external true }} target="_blank" rel="noopener noreferrer" {{ end }}>{{ .Name }}</a>
-              </li>
-            {{ end }}
-          {{ end -}}
-        </ul>  */}}
 
+        {{/*  nav items/links  */}}
         <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto px-5">
           {{- $current := . -}}
           {{- $section := $current.Section -}}
