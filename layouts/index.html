@@ -386,8 +386,8 @@ function highlightMenuItem() {
 {{/*  <hr class="hr_">  */}}
 
 {{/*  LATEST FROM THE BLOG  */}}
-<section>
-  <div class="blog_post_wrapper" style="margin-top: 100px;">
+<section class="latest-blog-wrapper">
+  {{/*  <div class="blog_post_wrapper" style="margin-top: 100px;">
  <div class="container justify-content-center align-items-center mx-auto">
     <div class="related-posts">
       <div class="row justify-content-center align-items-center">
@@ -427,6 +427,70 @@ function highlightMenuItem() {
       </div>
     </div>
   </div>
+  </div>  */}}
+
+  <div class="container">
+  {{/*  title  */}}
+  <h3>Latest From The Blog</h3>
+
+  {{/*  cards container  */}}
+  <div class="latest-blog-cards-container">
+    {{- range (where site.RegularPages "Section" "blog" | first 3) }}
+    
+
+      {{/*  card  */}}
+      <div class="latest-blog-card">
+        {{/*  img  */}}
+        <a class="latest-blog-img" href="{{ .RelPermalink }}">
+          {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
+          {{ partial "content/card-image.html" . }}
+        </a>
+
+        {{/*  category  */}}
+        <div class="latest-blog-category">
+          {{ if .Params.categories -}}
+            {{ range $index, $category := .Params.categories }}
+            {{ if gt $index 0 }}, {{ end }}
+            <a href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{/*  contents  */}}
+        <div class="latest-blog-card-body">
+          {{/*  writer  */}}
+          <div class="latest-blog-writer">
+     
+              {{ if .Params.contributors -}}
+              {{ $last := sub (len .Params.contributors) 1 }}
+              {{ range $index, $contributor := .Params.contributors }}
+                {{ if gt $index 0 }}
+                  {{ if eq $index $last }} and {{ else }}, {{ end }}
+                {{ end }}
+                <a href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>
+              {{ end }}
+            {{ end }}
+         
+          </div>
+
+          {{/*  blog title  */}}
+          <a class="latest-blog-title" href="{{ .RelPermalink }}">
+              {{ .Params.title }}
+          </a>
+
+          <div class="latest-blog-meta">
+            {{/*  min  */}}
+            <p>{{ .ReadingTime }} min read</p>
+            {{/*  date  */}}
+            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+            
+          </div>     
+        </div>
+
+      </div>
+
+    {{ end -}}
+  </div>
+
   </div>
 
 
@@ -435,7 +499,7 @@ function highlightMenuItem() {
 
 
 
-<hr class="hr_">
+{{/*  <hr class="hr_">  */}}
 {{ end }}
 {{ end }}
 {{ define "sidebar-footer" }}
