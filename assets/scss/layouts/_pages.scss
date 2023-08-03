@@ -888,6 +888,10 @@ p.meta {
     font-weight: 700;
   }
 
+  a {
+    text-decoration: none !important;
+  }
+
   .latest-blog-cards-container {
     margin-top: 48px;
     display: flex;
@@ -899,28 +903,19 @@ p.meta {
       overflow: hidden;
       transition: 0.3s ease-in-out;
 
-      :hover {
-        background: rgba(255, 222, 222, 0.6);
-      }
-
-      // :hover .latest-blog-img img {
-      //   transform: scale(1.5) !important;
-      // }
-
-      // .latest-blog-img img {
-      //   height: 277px;
-      //   object-fit: contain;
-      // }
-
       .latest-blog-category {
         position: absolute;
         top: 14px;
         right: 14px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 8px 0 8px;
         background: #fcefb5;
-        padding: 4px 10px;
         text-transform: uppercase;
 
-        a {
+        p {
           font-size: 14px;
           font-weight: 700;
           color: rgba(0, 0, 0, 0.8);

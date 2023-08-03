@@ -439,19 +439,19 @@ function highlightMenuItem() {
     
 
       {{/*  card  */}}
-      <div class="latest-blog-card">
+      <a class="latest-blog-card" href="{{ .RelPermalink }}">
         {{/*  img  */}}
-        <a class="latest-blog-img" href="{{ .RelPermalink }}">
+        <div class="latest-blog-img">
           {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
           {{ partial "content/card-image.html" . }}
-        </a>
+        </div>
 
         {{/*  category  */}}
         <div class="latest-blog-category">
           {{ if .Params.categories -}}
             {{ range $index, $category := .Params.categories }}
             {{ if gt $index 0 }}, {{ end }}
-            <a href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a>
+            <p>{{ . }}</p>
             {{ end }}
           {{ end }}
         </div>
@@ -459,23 +459,22 @@ function highlightMenuItem() {
         <div class="latest-blog-card-body">
           {{/*  writer  */}}
           <div class="latest-blog-writer">
-     
               {{ if .Params.contributors -}}
               {{ $last := sub (len .Params.contributors) 1 }}
               {{ range $index, $contributor := .Params.contributors }}
                 {{ if gt $index 0 }}
                   {{ if eq $index $last }} and {{ else }}, {{ end }}
                 {{ end }}
-                <a href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>
+                <p>{{ . }}</p>
               {{ end }}
             {{ end }}
          
           </div>
 
           {{/*  blog title  */}}
-          <a class="latest-blog-title" href="{{ .RelPermalink }}">
+          <h3 class="latest-blog-title">
               {{ .Params.title }}
-          </a>
+          </h3>
 
           <div class="latest-blog-meta">
             {{/*  min  */}}
@@ -486,7 +485,7 @@ function highlightMenuItem() {
           </div>     
         </div>
 
-      </div>
+      </a>
 
     {{ end -}}
   </div>
