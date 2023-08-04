@@ -4,10 +4,9 @@
   padding-bottom: 1.125rem;
 }
 
-.footer_hr{
+.footer_hr {
   width: 100%;
 }
-
 
 .footer ul {
   margin-bottom: 0;
@@ -18,68 +17,95 @@
   margin-bottom: 0;
 }
 
-
-
-
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .footer_akash_text p{
+  .footer_akash_text p {
     width: 342px;
   }
-
-  .akash_info_text{
+  .akash_info_text {
     width: 330px !important;
   }
-  .copyright_text{
+  .copyright_text {
     width: 330px !important;
     font-size: 12px;
   }
-
 }
 
 @media (min-width: 992px) {
-
 }
 
 @media (max-width: 576px) {
-.akash_info_wrapper{
-  display: block !important;
-  justify-content: center;
-  align-items: center;
-  margin: 10px auto;
-}
+  .akash_info_wrapper {
+    display: block !important;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
 
-.akash_info_text{
-  width: 290px !important;
-}
-.copyright_text{
-  width: 290px !important;
-  font-size: 12px;
-}
+  .akash_info_text {
+    width: 290px !important;
+  }
+  .copyright_text {
+    width: 290px !important;
+    font-size: 12px;
+  }
 }
 @include media-breakpoint-up(md) {
   .footer li {
     font-size: $font-size-base;
   }
 
-  .copyright_text{
+  .copyright_text {
     width: 270px;
   }
 }
 
-
-
-
 @include media-breakpoint-up(lg) {
-.footer_akash_text_wrapper{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-items: center;
+  .footer_akash_text_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+  }
+
+  .copyright_text {
+    width: 608px;
+    font-size: 14px;
+  }
 }
 
+// footer
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  padding-top: 26px;
+  padding-left: 30px;
+  padding: 26px 0px 115px 30px;
+  font-weight: 300;
 
-.copyright_text{
-  width: 608px;
-  font-size: 14px;
-}
+  .footer-title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  .footer-col-1 {
+    padding: 25px 0 0 0;
+  }
+  .footer-container-2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .link-name {
+    text-align: left;
+    font-size: 16px;
+  }
+  .footer-github-privacy {
+    display: flex;
+  }
+  .footer-github-privacy h6 {
+    text-decoration-line: underline;
+    margin: 0 50px 0 0;
+  }
+  .footer-section-bottom {
+    margin-top: 90px;
+  }
 }

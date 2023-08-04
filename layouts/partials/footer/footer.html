@@ -1,4 +1,4 @@
-<footer class="footer text-muted container">
+<!-- <footer class="footer text-muted container">
     <div class="akash_info_wrapper d-flex justify-content-between">
       <div>
        <p class="akash_info_text" style="
@@ -18,14 +18,70 @@
       </aside>
 
   </div>
+</footer> -->
+
+<footer class="footer-container">
+  <div>
+    {{ partial "content/svg.html" "Group 116" }}
+    <span class="footer-title">akash.network</span>
+  </div>
+  <div class="footer-container-2">
+    <div class="footer-col-1 link-name">
+      <p>
+        © 2023 The Akash Network Authors | <br />
+        Documentation Distributed under CC BY 4.0
+      </p>
+      <p>
+        The decentralized cloud Foundation has registered trademarks and uses
+        trademarks
+      </p>
+      <p class="footer-section-bottom">
+        Open-source. Apache 2.0 Licensed. v0.22.8.
+      </p>
+      <div class="footer-github-privacy">
+        <h6>GitHub v0.20.0</h6>
+        <h6>Privacy</h6>
+      </div>
+    </div>
+    <div class="">
+      <h6>Tools</h6>
+      <p class="link-name">Akash Console</p>
+      <p class="link-name">Cloudmos</p>
+      <p class="link-name">Praetor App</p>
+    </div>
+    <div class="">
+      <h6>Quick Links</h6>
+      <p class="link-name">Docs</p>
+      <p class="link-name">Ecosystem</p>
+      <p class="link-name">Community</p>
+      <p class="link-name">Token</p>
+      <p class="link-name">Blog</p>
+    </div>
+    <div class="">
+      <h6>Socials</h6>
+      <p>
+        {{ partial "content/svg.html" "twitter" }}
+        <span class="link-name">Twitter</span>
+      </p>
+      <p>
+        {{ partial "content/svg.html" "github" }}
+        <span class="link-name">Github</span>
+      </p>
+      <p>
+        {{ partial "content/svg.html" "discord-white" }}
+        <span class="link-name">Discord</span>
+      </p>
+      <p>
+        {{ partial "content/svg.html" "youtube" }}
+        <span class="link-name">Youtube</span>
+      </p>
+    </div>
+  </div>
 </footer>
-
-
 
 <!-- © 2023 The Akash Network Authors | Documentation Distributed under CC BY 4.0 -->
 
-
-        <!-- <ul class="nav flex-column flex-lg-row">
+<!-- <ul class="nav flex-column flex-lg-row">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
               <a class="nav-link social-link" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-lg-none">{{ .Name | safeHTML }}</small></a>
