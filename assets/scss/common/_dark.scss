@@ -193,8 +193,8 @@ $navbar-dark-active-color: $link-color-dark;
   display: flex !important;
   color: $body-color-dark;
   position: relative;
-  right: 0px;
-  top: 0px;
+  right: 10px;
+  top: 3px;
 }
 [data-dark-mode] body .d-wrap a .disc {
   display: none !important;
