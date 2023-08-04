@@ -436,10 +436,10 @@ function highlightMenuItem() {
   {{/*  cards container  */}}
   <div class="latest-blog-cards-container">
     {{- range (where site.RegularPages "Section" "blog" | first 3) }}
-    
 
-      {{/*  card  */}}
-      <a class="latest-blog-card" href="{{ .RelPermalink }}">
+    {{/*  card  */}}
+    <a class="latest-blog-card" href="{{ .RelPermalink }}">
+      <div class="latest-blog-card-contents">
         {{/*  img  */}}
         <div class="latest-blog-img">
           {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
@@ -468,7 +468,7 @@ function highlightMenuItem() {
                 <p>{{ . }}</p>
               {{ end }}
             {{ end }}
-         
+        
           </div>
 
           {{/*  blog title  */}}
@@ -484,8 +484,8 @@ function highlightMenuItem() {
             
           </div>     
         </div>
-
-      </a>
+      </div>
+    </a>
 
     {{ end -}}
   </div>

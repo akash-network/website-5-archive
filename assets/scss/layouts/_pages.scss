@@ -876,7 +876,6 @@ p.meta {
     display: none;
   }
 }
-
 // END HERO SECTION
 
 // LATEST BLOG SECTION
@@ -899,9 +898,16 @@ p.meta {
 
     .latest-blog-card {
       position: relative;
-      border: 1px solid rgba(0, 0, 0, 0.2);
       overflow: hidden;
-      transition: 0.3s ease-in-out;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      transition: all 0.5s ease;
+
+      .latest-blog-img {
+        overflow: hidden;
+      }
+      .latest-blog-img img {
+        transition: all 0.5s ease-in-out;
+      }
 
       .latest-blog-category {
         position: absolute;
@@ -923,9 +929,9 @@ p.meta {
       }
 
       .latest-blog-card-body {
-        padding: 24px;
+        padding: 24px 24px 10px 24px;
 
-        .latest-blog-writer a {
+        .latest-blog-writer p {
           color: #000;
           font-size: 18px;
           font-weight: 400;
@@ -955,6 +961,28 @@ p.meta {
           }
         }
       }
+    }
+
+    /* Overlay for the hover effect */
+    .latest-blog-card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #0000000f;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+    }
+
+    /* Hover effect */
+    .latest-blog-card:hover::after {
+      opacity: 0.2;
+    }
+    .latest-blog-card:hover .latest-blog-img img {
+      transform: scale(1.1);
     }
   }
 }
