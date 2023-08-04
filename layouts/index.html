@@ -457,8 +457,9 @@ function highlightMenuItem() {
         </div>
         {{/*  contents  */}}
         <div class="latest-blog-card-body">
-          {{/*  writer  */}}
-          <div class="latest-blog-writer">
+          <div>
+            {{/*  writer  */}}
+            <div class="latest-blog-writer">
               {{ if .Params.contributors -}}
               {{ $last := sub (len .Params.contributors) 1 }}
               {{ range $index, $contributor := .Params.contributors }}
@@ -467,21 +468,26 @@ function highlightMenuItem() {
                 {{ end }}
                 <p>{{ . }}</p>
               {{ end }}
-            {{ end }}
-        
-          </div>
+            {{ end }}        
+            </div>
 
-          {{/*  blog title  */}}
-          <h3 class="latest-blog-title">
-              {{ .Params.title }}
-          </h3>
+            {{/*  blog title  */}}
+            <h3 class="latest-blog-title">
+                {{ .Params.title }}
+            </h3>
+
+            <div class="latest-blog-content">
+              <div>
+                {{ .Content | truncate 120 }}
+              </div>
+            </div>
+          </div>
 
           <div class="latest-blog-meta">
             {{/*  min  */}}
             <p>{{ .ReadingTime }} min read</p>
             {{/*  date  */}}
-            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
-            
+            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>   
           </div>     
         </div>
       </div>

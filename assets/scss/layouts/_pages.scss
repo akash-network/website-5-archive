@@ -894,18 +894,26 @@ p.meta {
   .latest-blog-cards-container {
     margin-top: 48px;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
     gap: 24px;
+    min-height: 590px;
 
     .latest-blog-card {
       position: relative;
       overflow: hidden;
+      background-color: #fff;
       border: 1px solid rgba(0, 0, 0, 0.2);
       transition: all 0.5s ease;
+      width: 100%;
+      max-width: 420px;
+      min-height: 500px;
 
       .latest-blog-img {
         overflow: hidden;
       }
       .latest-blog-img img {
+        height: 277px;
         transition: all 0.5s ease-in-out;
       }
 
@@ -929,7 +937,11 @@ p.meta {
       }
 
       .latest-blog-card-body {
-        padding: 24px 24px 10px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 24px 24px 60px 24px;
 
         .latest-blog-writer p {
           color: #000;
@@ -944,8 +956,25 @@ p.meta {
           color: #000;
         }
 
+        .latest-blog-content {
+          overflow: hidden;
+        }
+
+        .latest-blog-content div {
+          color: #000;
+          margin-bottom: -90px;
+          z-index: -50;
+          opacity: 0;
+          transition: all 0.5s ease;
+        }
+
         .latest-blog-meta {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
           margin-top: 61px;
+          padding: 0 24px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -972,17 +1001,21 @@ p.meta {
       width: 100%;
       height: 100%;
       background-color: #0000000f;
-      border: 1px solid rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(0, 0, 0, 0.9);
       opacity: 0;
       transition: all 0.5s ease-in-out;
     }
 
     /* Hover effect */
     .latest-blog-card:hover::after {
-      opacity: 0.2;
+      opacity: 0.5;
     }
     .latest-blog-card:hover .latest-blog-img img {
-      transform: scale(1.1);
+      transform: scale(1.05);
+    }
+    .latest-blog-card:hover .latest-blog-content div {
+      opacity: 1;
+      margin-bottom: 0;
     }
   }
 }
