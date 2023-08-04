@@ -1067,21 +1067,20 @@ p.meta {
 
     /* Overlay for the hover effect */
     .latest-blog-card::after {
-      content: "";
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: #0000000f;
-      border: 1px solid rgba(0, 0, 0, 0.9);
+      background-color: #fa5757;
+      border: 1px solid black;
       opacity: 0;
       transition: all 0.5s ease-in-out;
     }
 
     /* Hover effect */
     .latest-blog-card:hover::after {
-      opacity: 0.5;
+      opacity: 0.1;
     }
     .latest-blog-card:hover .latest-blog-img img {
       transform: scale(1.05);

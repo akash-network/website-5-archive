@@ -821,6 +821,33 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   }
 }
 
+// NAVBAR: new
+[data-dark-mode] header {
+  border-bottom: 1px solid
+    var(--surfaces-navbar-stroke, rgba(255, 255, 255, 0.12));
+
+  .navbar-container {
+    .nav-btn-primary {
+      background-color: #cb4547;
+      color: #fff !important;
+    }
+
+    .nav-links-container a {
+      color: #fff;
+
+      svg path {
+        fill: #fff;
+      }
+    }
+
+    .social-links {
+      a svg path {
+        stroke: #fff;
+      }
+    }
+  }
+}
+
 // HERO SECTION: New
 [data-dark-mode] .hero {
   .hero-title h1 {
@@ -836,19 +863,19 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   .hero-btn-container {
     a {
       background-color: #cb4547;
-      color: #ffffff;
+      color: #fff;
     }
 
     a:nth-child(2) {
       background-color: transparent;
-      color: #ffffff;
-      border: 2px solid #ffffff;
+      color: #fff;
+      border: 2px solid #fff;
     }
     a svg path {
-      stroke: #ffffff;
+      stroke: #fff;
     }
     a:nth-child(2) svg path {
-      stroke: #ffffff;
+      stroke: #fff;
     }
   }
   .hero-footer {
