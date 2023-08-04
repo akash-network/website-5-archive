@@ -68,10 +68,7 @@ function toggleSecondAnswer() {
 
 <!-- FAQ ACCORDION END -->
 
-
-
-
-<section class="container" style="">
+<section class="container" >
   <div class="row justify-content-center">
     <div class="col-lg-9" style="margin: 50px;">
       <div class="token_text-wrapper_main d-none d-md-block">
@@ -81,7 +78,7 @@ function toggleSecondAnswer() {
         <p class="token_title">{{ .Title }}</p>
         <p class="token_description_first col-sm-15">{{ .Params.lead }}</p>
 
-        <hr class="token_page_hr" style=""/>
+        <hr class="token_page_hr" />
       </div>
       <p class="text-center mx-auto token_feature_header">How it works</p>
       <div class="token_text-wrapper_  justify-content-between d-none d-md-flex">
@@ -96,7 +93,7 @@ function toggleSecondAnswer() {
       {{ partial "content/svg.html" "cubes" }}
     </div>
       </div>
-      <hr class="token_page_hr" style=""/>
+      <hr class="token_page_hr" />
       <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
           <p class="token_p_header">Governance</p>
@@ -109,7 +106,7 @@ function toggleSecondAnswer() {
       {{ partial "content/svg.html" "hammer" }}
     </div>
       </div>
-      <hr class="token_page_hr" style=""/>
+      <hr class="token_page_hr" />
       <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
           <p class="token_p_header">Value Exchange</p>
@@ -122,7 +119,7 @@ function toggleSecondAnswer() {
       {{ partial "content/svg.html" "exchange" }}
     </div>
       </div>
-      <hr class="token_page_hr" style=""/>
+      <hr class="token_page_hr" />
       <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
           <p class="token_p_header">Incentivization</p>
@@ -134,14 +131,14 @@ function toggleSecondAnswer() {
       {{ partial "content/svg.html" "jar" }}
     </div>
       </div>
-      <hr class="token_page_hr mx-auto" style=""/>
+      <hr class="token_page_hr mx-auto" />
     </div>
     <div class="col-md-3">
       <div class="page-links-wrapper" style="position: sticky; top: 0; right: 0;">
         <div class="page-links d-none d-xl-block">
           <h3>{{ i18n "on-this-page" }}</h3>
           {{ if eq .Site.Params.options.scrollSpy true -}}
-           <p style="">{{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}</p>
+           <p >{{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}</p>
           {{ else -}}
             {{ .TableOfContents }}
           {{ end -}}
@@ -173,7 +170,7 @@ function toggleSecondAnswer() {
     </div>
     <div style="margin-top: 40px;">
       <p class="token_p_header">Security</p>
-      <p style="" class="token_description">Akash Network is secured by a Proof-of-Stake (PoS) blockchain,
+      <p  class="token_description">Akash Network is secured by a Proof-of-Stake (PoS) blockchain,
         and AKT is used to secure the network by staking. Staking AKT provides
         a passive income stream for stakers and increases the security of the network.</p>
     </div>
@@ -185,7 +182,7 @@ function toggleSecondAnswer() {
     </div>
     <div style="margin-top: 40px;">
       <p class="token_p_header">Governance</p>
-      <p style="" class="token_description">Akash Network is community-owned and all aspects of
+      <p  class="token_description">Akash Network is community-owned and all aspects of
         the network are governed by AKT holders. AKT holders can vote on proposals to improve the network
         and manage critical parameters such as inflation rate and take rates.</p>
     </div>
@@ -197,7 +194,7 @@ function toggleSecondAnswer() {
     </div>
     <div style="margin-top: 40px;">
       <p class="token_p_header">Value Exchange</p>
-      <p style="" class="token_description">AKT provides a default mechanism to store and exchange value,
+      <p  class="token_description">AKT provides a default mechanism to store and exchange value,
         and acts as a reserve currency in Cosmos’
         multi-currency and multi-chain ecosystem.</p>
     </div>
@@ -209,7 +206,7 @@ function toggleSecondAnswer() {
     </div>
     <div style="margin-top: 40px;">
       <p class="token_p_header">Incentivization</p>
-      <p style="" class="token_description">AKT is used to incentivize providers to offer
+      <p  class="token_description">AKT is used to incentivize providers to offer
         lower prices and incentivizes stakers to participate
         in the network longer term by staking.</p>
     </div>
@@ -225,7 +222,7 @@ function toggleSecondAnswer() {
   <div class=" row">
     <div class="col-lg-14" style="margin-top: -50px;">
       <p class="text-center token_eco_header">Ecosystem Tools</p>
-      <p style="" class="token_eco_desc mx-auto text-center">The following tools are available to explore
+      <p  class="token_eco_desc mx-auto text-center">The following tools are available to explore
         the Akash Network blockchain, stake AKT, and participate in governance:</p>
     </div>
     <div class="d-none d-md-flex justify-content-center" style="margin-top: 10px;">
@@ -334,7 +331,7 @@ function toggleSecondAnswer() {
               </a>
             </td>
           </tr>
-          <tr style="">
+          <tr >
             <td class="table_data_link" style="padding-bottom: 80px;">
               <a target="_blank" href="https://ping.pub/akash">
                 <div class="d-flex mt-3 gap-1">
@@ -367,11 +364,7 @@ function toggleSecondAnswer() {
 <!-- SMALL SCREEN  -->
 <div class="d-block d-sm-none" style="margin-top: 40px;">
   <div style="margin-top: 34px;">
-    <p class="eco_tools_head" style="
-
-    ">Wallets</p>
-    <p ></p>
-
+    <p class="eco_tools_head">Wallets</p>
     <div class="eco_tools_example">
       <div class="d-flex sm_data_link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
@@ -405,7 +398,7 @@ function toggleSecondAnswer() {
   </div>
   <hr class="w-100" style="width:100%; margin-top: 24px; margin-bottom: 22px;"/>
   <div>
-    <p class="eco_tools_head"  style="">Explorers</p>
+    <p class="eco_tools_head"  >Explorers</p>
     <div class="eco_tools_example">
       <div class="d-flex sm_data_link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
@@ -439,7 +432,7 @@ function toggleSecondAnswer() {
   </div>
   <hr class="w-100" style="width:100%; margin-top: 24px; margin-bottom: 20px;"/>
   <div>
-    <p class="eco_tools_head" style="">Staking</p>
+    <p class="eco_tools_head" >Staking</p>
     <div class="eco_tools_example">
       <div class="d-flex sm_data_link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
@@ -476,12 +469,12 @@ function toggleSecondAnswer() {
   <div class="row">
     <div class="col-lg-14" style="margin-top: -70px;">
       <p class="text-center token_eco_header" style="padding-bottom: 1rem;">Token Metrics</p>
-      <p style="" class="token_coin_update text-dark mx-auto text-center">As of <span class="" style="font-weight: 600;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}, </span> the following are the AKT metrics, as reported by Coingecko.</p>
+      <p  class="token_coin_update text-dark mx-auto text-center">As of <span class="" style="font-weight: 600;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}, </span> the following are the AKT metrics, as reported by Coingecko.</p>
     </div>
     <div class="top_metrics col-lg-14 d-none d-md-flex justify-content-center align-items-center gap-5 coin_metrics_wrapper" style="margin-top: 60px;">
       <div class="d-flex gap-5">
         <div style="position: relative; left: -40px;">
-          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} </p>
+          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} </p>
           <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Circulating Supply</p>
         </div>
         <div style="position: relative; right: 30px;" class="metrics_border"></div>
@@ -540,7 +533,7 @@ function toggleSecondAnswer() {
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px; "></p>
         </div>
       </div>
-      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" style="">
+      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
           <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "circulating_supply" | lang.NumFmt 0}}
           </p>
@@ -548,7 +541,7 @@ function toggleSecondAnswer() {
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
         </div>
       </div>
-      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" style="">
+      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
           <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" }} {{  index $data "akash-network" "usd" | printf "%.4f"}}
           </p>
@@ -556,7 +549,7 @@ function toggleSecondAnswer() {
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
         </div>
       </div>
-      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" style="">
+      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
           <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "total_supply" | lang.NumFmt 0}}
           </p>
@@ -564,14 +557,14 @@ function toggleSecondAnswer() {
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
         </div>
       </div>
-      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" style="">
+      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
           <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" }} {{  index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}}</p>
           <p style="text-align:center ; font-size: 16px; margin-top: -13px;">Market Cap</p>
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
         </div>
       </div>
-      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" style="">
+      <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
           <p style="font-size: 24px; font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "total_volume" "usd" | lang.NumFmt 0}}</p>
           <p style="text-align:center ; font-size: 16px; margin-top: -13px;">24h Trading Volume</p>
@@ -589,7 +582,7 @@ function toggleSecondAnswer() {
   <div class="row">
     <div class="col-lg-14" style="margin-top: -70px;">
       <p class="text-center token_eco_header">Buying AKT</p>
-      <p style="" class="token_eco_desc mx-auto text-center">AKT is available on the following exchanges:</p>
+      <p  class="token_eco_desc mx-auto text-center">AKT is available on the following exchanges:</p>
     </div>
     <div class="d-flex table-responsive justify-content-center" style="margin-top:-40px;">
       <table class="table_eco_wrapper_2 col-lg-9 justify-content-center" style="border-collapse: collapse; border-spacing: 0; padding: 10px;">
@@ -726,7 +719,7 @@ function toggleSecondAnswer() {
       </div>
     </div>
     <hr class="faq_down_hr mx-auto" style="width: 740px;"/>
-    <div class="container d-flex justify-content-center top_faq_wrapper" style="">
+    <div class="container d-flex justify-content-center top_faq_wrapper" >
       <div class="col-lg-10 justify-content-center">
         <div class="d-flex justify-content-between faq_text_wrapper">
           <p class="faq_question">What is the unlock schedule for the AKT token?</p>
