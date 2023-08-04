@@ -469,19 +469,19 @@ function toggleSecondAnswer() {
   <div class="row">
     <div class="col-lg-14" style="margin-top: -70px;">
       <p class="text-center token_eco_header" style="padding-bottom: 1rem;">Token Metrics</p>
-      <p  class="token_coin_update text-dark mx-auto text-center">As of <span class="" style="font-weight: 600;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}, </span> the following are the AKT metrics, as reported by Coingecko.</p>
+      <p  class="token_coin_update text-dark mx-auto text-center">As of <span class="" style="font-weight: 600;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}, </span> the following are the AKT metrics, as reported by Coingecko.</p>
     </div>
     <div class="top_metrics col-lg-14 d-none d-md-flex justify-content-center align-items-center gap-5 coin_metrics_wrapper" style="margin-top: 60px;">
       <div class="d-flex gap-5">
         <div style="position: relative; left: -40px;">
-          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} </p>
+          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} </p>
           <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Circulating Supply</p>
         </div>
         <div style="position: relative; right: 30px;" class="metrics_border"></div>
       </div>
       <div class="d-flex gap-5">
         <div style="position: relative; right: 15px;">
-          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{ index $data "market_data" "total_supply" | lang.NumFmt 0}}</p>
+          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{ index $data "market_data" "total_supply" | lang.NumFmt 0}}</p>
           <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Total Supply</p>
         </div>
         <div style="position: relative; left: 19px;" class="metrics_border"></div>
@@ -496,21 +496,21 @@ function toggleSecondAnswer() {
     <div class="down_metrics col-lg-14 d-none d-md-flex justify-content-center align-items-center gap-5 coin_metrics_wrapper" style="margin-top: 60px;">
       <div class="d-flex gap-5">
         <div>
-          <p class="price_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" ignoreErrors = ["error-remote-getjson"]}} {{ index $data "akash-network" "usd" | printf "%.4f"}} USD</p>
+          <p class="price_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true"}} {{ index $data "akash-network" "usd" | printf "%.4f"}} USD</p>
           <p class="text-center mx-auto" style="font-size: 16px; line-height: 24px; text-align:center;">Price</p>
         </div>
         <div class="metrics_border"></div>
       </div>
       <div class="d-flex gap-5">
         <div>
-          <p class="market_cap_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" ignoreErrors = ["error-remote-getjson"]}} {{ index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}} USD</p>
+          <p class="market_cap_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true"}} {{ index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}} USD</p>
           <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Market Cap</p>
         </div>
         <div class="metrics_border"></div>
       </div>
       <div class="d-flex gap-2">
         <div class="trading_wrapper">
-          <p class="trading_volume_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{ index $data "market_data" "total_volume" "usd" | lang.NumFmt 0}} USD</p>
+          <p class="trading_volume_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{ index $data "market_data" "total_volume" "usd" | lang.NumFmt 0}} USD</p>
           <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">24h Trading Volume</p>
         </div>
       </div>
@@ -535,7 +535,7 @@ function toggleSecondAnswer() {
       </div>
       <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
-          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{  index $data "market_data" "circulating_supply" | lang.NumFmt 0}}
+          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{  index $data "market_data" "circulating_supply" | lang.NumFmt 0}}
           </p>
           <p style="text-align:center ; font-size: 16px; margin-top: -13px;">Circulating Supply</p>
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
@@ -543,7 +543,7 @@ function toggleSecondAnswer() {
       </div>
       <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
-          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" ignoreErrors = ["error-remote-getjson"]}} {{  index $data "akash-network" "usd" | printf "%.4f"}}
+          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true"}} {{  index $data "akash-network" "usd" | printf "%.4f"}}
           </p>
           <p style="text-align:center ; font-size: 16px; margin-top: -13px;">Price</p>
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
@@ -551,7 +551,7 @@ function toggleSecondAnswer() {
       </div>
       <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
-          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{  index $data "market_data" "total_supply" | lang.NumFmt 0}}
+          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{  index $data "market_data" "total_supply" | lang.NumFmt 0}}
           </p>
           <p style="text-align:center ; font-size: 16px; margin-top: -13px;">Total Supply</p>
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
@@ -559,14 +559,14 @@ function toggleSecondAnswer() {
       </div>
       <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
-          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" ignoreErrors = ["error-remote-getjson"]}} {{  index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}}</p>
+          <p style="font-size: 24px;  font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true"}} {{  index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}}</p>
           <p style="text-align:center ; font-size: 16px; margin-top: -13px;">Market Cap</p>
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
         </div>
       </div>
       <div class="col-lg-6 d-flex justify-content-center gap-1 d-md-none d-lg-none" >
         <div>
-          <p style="font-size: 24px; font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{  index $data "market_data" "total_volume" "usd" | lang.NumFmt 0}}</p>
+          <p style="font-size: 24px; font-weight: 700; line-height: 32px; letter-spacing: 0em; text-align: center;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{  index $data "market_data" "total_volume" "usd" | lang.NumFmt 0}}</p>
           <p style="text-align:center ; font-size: 16px; margin-top: -13px;">24h Trading Volume</p>
           <p class="mx-auto metrics_border_bottom" style="border-bottom: 1px solid #0000001A; width: 310px;"></p>
         </div>
@@ -715,7 +715,7 @@ function toggleSecondAnswer() {
           <p class="faq_question">What is the maximum and circulating supply of AKT?</p>
           <button id="faq__toggle" class="faq__toggle" onclick="toggleAnswer()">{{ partial "content/svg.html" "arrow_down" }}</button>
         </div>
-        <p class="faq_answer" id="faq__answer" style="display: none;">Akash has a maximum supply of 388,539,008 AKT, with {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" ignoreErrors = ["error-remote-getjson"]}} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} AKT in circulation as of {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}.</p>
+        <p class="faq_answer" id="faq__answer" style="display: none;">Akash has a maximum supply of 388,539,008 AKT, with {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true"}} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} AKT in circulation as of {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}.</p>
       </div>
     </div>
     <hr class="faq_down_hr mx-auto" style="width: 740px;"/>
