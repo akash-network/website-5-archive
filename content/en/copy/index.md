@@ -13,7 +13,7 @@ Sovereign Infrastructure That Scales
 
 ## Benefits
 
-Akash is an open network that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.
+Akash is an open-source Supercloud that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.
 
 ### You will own your cloud, and you will be happy
 
