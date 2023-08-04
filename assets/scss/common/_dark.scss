@@ -863,3 +863,40 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   background-color: rgba(255, 255, 255, 0.16);
   color: rgba(255, 255, 255, 0.16);
 }
+
+[data-dark-mode] .latest-blog-wrapper {
+  h3 {
+    color: #fff;
+  }
+
+  .latest-blog-cards-container {
+    .latest-blog-card {
+      background-color: $body-bg-dark;
+      border: 1px solid #4d4d4d;
+
+      .latest-blog-card-body {
+        .latest-blog-writer p {
+          color: #fff;
+        }
+
+        .latest-blog-title {
+          color: #fff;
+        }
+
+        .latest-blog-content div {
+          color: #fff;
+        }
+
+        .latest-blog-meta {
+          p:nth-child(1) {
+            color: #c2c2c2;
+          }
+
+          p:nth-child(2) {
+            color: #878787;
+          }
+        }
+      }
+    }
+  }
+}
