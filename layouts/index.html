@@ -429,12 +429,12 @@ function highlightMenuItem() {
   </div>
   </div>  */}}
 
-  <div class="container">
+  <div>
   {{/*  title  */}}
-  <h3>Latest From The Blog</h3>
+  <h3  class="container-lg">Latest From The Blog</h3>
 
   {{/*  cards container  */}}
-  <div class="latest-blog-cards-container">
+  <div class="latest-blog-cards-container container-lg">
     {{- range (where site.RegularPages "Section" "blog" | first 3) }}
 
     {{/*  card  */}}
