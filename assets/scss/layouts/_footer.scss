@@ -77,7 +77,7 @@
 .footer-container {
   background-color: #000;
   color: #fff;
-  padding: 26px 0 50px 0;
+  padding: 26px 0 30px 0;
   font-weight: 300;
 
   .footer-title {
@@ -157,6 +157,8 @@
   .footer-col-bottom {
     display: block;
     padding: 30px 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
     @media only screen and (min-width: 992px) {
       display: none;
     }
