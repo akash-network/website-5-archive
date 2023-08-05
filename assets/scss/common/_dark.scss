@@ -822,7 +822,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 }
 
 // NAVBAR: new
-[data-dark-mode] header {
+[data-dark-mode] .header {
   background: #12121280;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 
@@ -868,7 +868,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   }
 }
 
-[data-dark-mode] header::before {
+[data-dark-mode] .header::before {
   background-color: #12121270;
 }
 

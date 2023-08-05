@@ -1,297 +1,94 @@
 <header>
-  {{/* large device */}}
-  <div class="navbar-container container">
-    {{/* logo */}}
-    <a href="/">
-      <div class="akash-logo-nav"></div>
-    </a>
-
-    {{/* nav links */}}
-    <div class="nav-links-container flex-row-center">
-      {{- $current := . -}} {{- $section := $current.Section -}} {{- range
-      .Site.Menus.main -}} {{- $active := or ($current.IsMenuCurrent "main" .)
-      ($current.HasMenuCurrent "main" .) -}} {{- $active = or $active (eq .Name
-      $current.Title) -}} {{- $active = or $active (and (eq .Name ($section |
-      humanize)) (eq $current.Section $section)) -}} {{- $active = or $active
-      (and (eq .Name "Blog") (eq $current.Section "blog" "contributors"
-      "categories" "tags")) -}} {{ $showArrow := or (eq .Name "Ecosystem") (eq
-      .Name "Discussions") (eq .Name "Docs") }} {{ if .HasChildren }}
-
-      <a
-        class="nav-link"
-        href="#"
-        id="navbarDropdownMenuLink"
-        role="button"
-        data-bs-toggle="dropdown"
-        aria-expanded="false"
-      >
-        {{ .Name }} {{ if $showArrow }} {{ end }}
-      </a>
-
-      {{ else }}
-
-      <a
-        class="nav-link ps-0 py-1{{ if $active }} active{{ end }}"
-        href="{{ .URL | relLangURL }}"
-        {{
-        if
-        eq
-        .Params.external
-        true
-        }}
-        target="_blank"
-        rel="noopener noreferrer"
-        {{
-        end
-        }}
-      >
-        {{ .Name }} {{ if $showArrow }}
-        <span>
-          {{/* arrow top-right */}}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="8"
-            height="8"
-            viewBox="0 0 8 8"
-            fill="none"
-          >
-            <path
-              d="M0.965715 7.96663L0.0763362 7.07725L5.41261 1.74098L0.521026 1.74098L0.521026 0.478057L7.56491 0.478058L7.56491 7.52194L6.30199 7.52194L6.30199 2.63036L0.965715 7.96663Z"
-              fill="black"
-            />
-          </svg>
-        </span>
-        {{ end }}
-      </a>
-
-      {{ end }} {{ end -}}
-    </div>
-
-    <div class="nav-right flex-row-center">
-      {{/* social links */}}
-      <div class="social-links flex-row-center">
-        {{/* github */}}
-        <a class="" href="https://github.com/akash-network" target="_blank">
-          {{ partial "content/svg.html" "github" }}
-        </a>
-        {{/* twitter */}}
-        <a class="" href="https://twitter.com/akashnet_" target="_blank">
-          {{ partial "content/svg.html" "twitter" }}
-        </a>
-        {{/* discord */}}
-        <a class="" href="https://discord.com/invite/akash" target="_blank">
-          {{ partial "content/svg.html" "discord" }}
-        </a>
-      </div>
-
-      {{/* button: dark/light mode switcher */}}
-      <button
-        id="mode"
-        class="btn toggle-display-mode"
-        type="button"
-        aria-label="Toggle user interface mode"
-      >
-        <span class="toggle-dark">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-moon"
-          >
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-        </span>
-        <span class="toggle-light">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#fff"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-sun"
-          >
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
-        </span>
-      </button>
-
-      {{/* button: launch console */}}
-      <a
-        class="nav-btn-primary flex-row-center"
-        href="https://console.akash.network"
-        role="button"
-        target="_blank"
-      >
-        <span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-          >
-            <path
-              d="M7.29041 18.3074L5.8762 16.8932L14.3615 8.40791L6.58331 8.40791L6.58331 6.39972L17.7839 6.39972L17.7839 17.6003L15.7757 17.6003L15.7757 9.82212L7.29041 18.3074Z"
-              fill="white"
-            />
-          </svg>
-        </span>
-        Launch Console
-      </a>
-    </div>
-  </div>
-
-  <div id="overlay" class="overlay"></div>
-
-  {{/* small device */}}
-  <div class="small-device-navbar">
-    {{/* logo */}}
-    <a href="/">
-      <div class="akash-logo-nav"></div>
-    </a>
-
-    {{/* hamburger menu button */}}
-    <button id="toggleSidebar" class="hamburger-menu">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-      >
-        <path
-          d="M3 5H21"
-          stroke="black"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M3 12H21"
-          stroke="black"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M3 19H21"
-          stroke="black"
-          stroke-width="1.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-    </button>
-
-    <aside id="sidebar" class="sidebar">
+  <div class="header">
+    {{/* large device */}}
+    <div class="navbar-container container">
       {{/* logo */}}
-      <a href="/" class="logo flex-row-center">
+      <a href="/">
         <div class="akash-logo-nav"></div>
       </a>
+
       {{/* nav links */}}
-      <div>
-        <div class="sidebar-links flex-column-center">
-          {{- $current := . -}} {{- $section := $current.Section -}} {{- range
-          .Site.Menus.main -}} {{- $active := or ($current.IsMenuCurrent "main"
-          .) ($current.HasMenuCurrent "main" .) -}} {{- $active = or $active (eq
-          .Name $current.Title) -}} {{- $active = or $active (and (eq .Name
-          ($section | humanize)) (eq $current.Section $section)) -}} {{- $active
-          = or $active (and (eq .Name "Blog") (eq $current.Section "blog"
-          "contributors" "categories" "tags")) -}} {{ $showArrow := or (eq .Name
-          "Ecosystem") (eq .Name "Discussions") (eq .Name "Docs") }} {{ if
-          .HasChildren }}
+      <div class="nav-links-container flex-row-center">
+        {{- $current := . -}} {{- $section := $current.Section -}} {{- range
+        .Site.Menus.main -}} {{- $active := or ($current.IsMenuCurrent "main" .)
+        ($current.HasMenuCurrent "main" .) -}} {{- $active = or $active (eq
+        .Name $current.Title) -}} {{- $active = or $active (and (eq .Name
+        ($section | humanize)) (eq $current.Section $section)) -}} {{- $active =
+        or $active (and (eq .Name "Blog") (eq $current.Section "blog"
+        "contributors" "categories" "tags")) -}} {{ $showArrow := or (eq .Name
+        "Ecosystem") (eq .Name "Discussions") (eq .Name "Docs") }} {{ if
+        .HasChildren }}
 
-          <a
-            class="nav-link"
-            href="#"
-            id="navbarDropdownMenuLink"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            {{ .Name }} {{ if $showArrow }} {{ end }}
-          </a>
+        <a
+          class="nav-link"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          {{ .Name }} {{ if $showArrow }} {{ end }}
+        </a>
 
-          {{ else }}
+        {{ else }}
 
-          <a
-            class="nav-link ps-0 py-1{{ if $active }} active{{ end }}"
-            href="{{ .URL | relLangURL }}"
-            {{
-            if
-            eq
-            .Params.external
-            true
-            }}
-            target="_blank"
-            rel="noopener noreferrer"
-            {{
-            end
-            }}
-          >
-            {{ .Name }} {{ if $showArrow }}
-            <span>
-              {{/* arrow top-right */}}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="8"
-                height="8"
-                viewBox="0 0 8 8"
-                fill="none"
-              >
-                <path
-                  d="M0.965715 7.96663L0.0763362 7.07725L5.41261 1.74098L0.521026 1.74098L0.521026 0.478057L7.56491 0.478058L7.56491 7.52194L6.30199 7.52194L6.30199 2.63036L0.965715 7.96663Z"
-                  fill="black"
-                />
-              </svg>
-            </span>
-            {{ end }}
-          </a>
+        <a
+          class="nav-link ps-0 py-1{{ if $active }} active{{ end }}"
+          href="{{ .URL | relLangURL }}"
+          {{
+          if
+          eq
+          .Params.external
+          true
+          }}
+          target="_blank"
+          rel="noopener noreferrer"
+          {{
+          end
+          }}
+        >
+          {{ .Name }} {{ if $showArrow }}
+          <span>
+            {{/* arrow top-right */}}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+            >
+              <path
+                d="M0.965715 7.96663L0.0763362 7.07725L5.41261 1.74098L0.521026 1.74098L0.521026 0.478057L7.56491 0.478058L7.56491 7.52194L6.30199 7.52194L6.30199 2.63036L0.965715 7.96663Z"
+                fill="black"
+              />
+            </svg>
+          </span>
+          {{ end }}
+        </a>
 
-          {{ end }} {{ end -}}
-        </div>
+        {{ end }} {{ end -}}
+      </div>
 
-        <hr />
-
+      <div class="nav-right flex-row-center">
         {{/* social links */}}
-        <div class="social-links flex-column-center">
+        <div class="social-links flex-row-center">
           {{/* github */}}
           <a class="" href="https://github.com/akash-network" target="_blank">
-            {{ partial "content/svg.html" "github" }} GitHub
+            {{ partial "content/svg.html" "github" }}
           </a>
           {{/* twitter */}}
           <a class="" href="https://twitter.com/akashnet_" target="_blank">
-            {{ partial "content/svg.html" "twitter" }} Twitter
+            {{ partial "content/svg.html" "twitter" }}
           </a>
           {{/* discord */}}
           <a class="" href="https://discord.com/invite/akash" target="_blank">
-            {{ partial "content/svg.html" "discord" }} Discord
+            {{ partial "content/svg.html" "discord" }}
           </a>
         </div>
 
-        <hr />
-
         {{/* button: dark/light mode switcher */}}
         <button
-          id="mode-small-device"
+          id="mode"
           class="btn toggle-display-mode"
           type="button"
           aria-label="Toggle user interface mode"
@@ -311,7 +108,6 @@
             >
               <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
-            Dark Mode
           </span>
           <span class="toggle-light">
             <svg
@@ -336,11 +132,220 @@
               <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
               <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
             </svg>
-            Light Mode
           </span>
         </button>
+
+        {{/* button: launch console */}}
+        <a
+          class="nav-btn-primary flex-row-center"
+          href="https://console.akash.network"
+          role="button"
+          target="_blank"
+        >
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M7.29041 18.3074L5.8762 16.8932L14.3615 8.40791L6.58331 8.40791L6.58331 6.39972L17.7839 6.39972L17.7839 17.6003L15.7757 17.6003L15.7757 9.82212L7.29041 18.3074Z"
+                fill="white"
+              />
+            </svg>
+          </span>
+          Launch Console
+        </a>
       </div>
-    </aside>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    {{/* small device */}}
+    <div class="small-device-navbar">
+      {{/* logo */}}
+      <a href="/">
+        <div class="akash-logo-nav"></div>
+      </a>
+
+      {{/* hamburger menu button */}}
+      <button id="toggleSidebar" class="hamburger-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M3 5H21"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 12H21"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 19H21"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+
+      <aside id="sidebar" class="sidebar">
+        {{/* logo */}}
+        <a href="/" class="logo flex-row-center">
+          <div class="akash-logo-nav"></div>
+        </a>
+        {{/* nav links */}}
+        <div>
+          <div class="sidebar-links flex-column-center">
+            {{- $current := . -}} {{- $section := $current.Section -}} {{- range
+            .Site.Menus.main -}} {{- $active := or ($current.IsMenuCurrent
+            "main" .) ($current.HasMenuCurrent "main" .) -}} {{- $active = or
+            $active (eq .Name $current.Title) -}} {{- $active = or $active (and
+            (eq .Name ($section | humanize)) (eq $current.Section $section)) -}}
+            {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section
+            "blog" "contributors" "categories" "tags")) -}} {{ $showArrow := or
+            (eq .Name "Ecosystem") (eq .Name "Discussions") (eq .Name "Docs") }}
+            {{ if .HasChildren }}
+
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              {{ .Name }} {{ if $showArrow }} {{ end }}
+            </a>
+
+            {{ else }}
+
+            <a
+              class="nav-link ps-0 py-1{{ if $active }} active{{ end }}"
+              href="{{ .URL | relLangURL }}"
+              {{
+              if
+              eq
+              .Params.external
+              true
+              }}
+              target="_blank"
+              rel="noopener noreferrer"
+              {{
+              end
+              }}
+            >
+              {{ .Name }} {{ if $showArrow }}
+              <span>
+                {{/* arrow top-right */}}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                >
+                  <path
+                    d="M0.965715 7.96663L0.0763362 7.07725L5.41261 1.74098L0.521026 1.74098L0.521026 0.478057L7.56491 0.478058L7.56491 7.52194L6.30199 7.52194L6.30199 2.63036L0.965715 7.96663Z"
+                    fill="black"
+                  />
+                </svg>
+              </span>
+              {{ end }}
+            </a>
+
+            {{ end }} {{ end -}}
+          </div>
+
+          <hr />
+
+          {{/* social links */}}
+          <div class="social-links flex-column-center">
+            {{/* github */}}
+            <a class="" href="https://github.com/akash-network" target="_blank">
+              {{ partial "content/svg.html" "github" }} GitHub
+            </a>
+            {{/* twitter */}}
+            <a class="" href="https://twitter.com/akashnet_" target="_blank">
+              {{ partial "content/svg.html" "twitter" }} Twitter
+            </a>
+            {{/* discord */}}
+            <a class="" href="https://discord.com/invite/akash" target="_blank">
+              {{ partial "content/svg.html" "discord" }} Discord
+            </a>
+          </div>
+
+          <hr />
+
+          {{/* button: dark/light mode switcher */}}
+          <button
+            id="mode-small-device"
+            class="btn toggle-display-mode"
+            type="button"
+            aria-label="Toggle user interface mode"
+          >
+            <span class="toggle-dark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-moon"
+              >
+                <path
+                  d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                ></path>
+              </svg>
+              Dark Mode
+            </span>
+            <span class="toggle-light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#fff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-sun"
+              >
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              Light Mode
+            </span>
+          </button>
+        </div>
+      </aside>
+    </div>
   </div>
 </header>
 
