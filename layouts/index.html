@@ -253,7 +253,7 @@ function highlightMenuItem() {
 {{/*  <hr class="hr_">  */}}
 
 {{/*  SECTION THREE  */}}
-<section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: 100px;">
+{{/*  <section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: 100px;">
   <div class="container d-none d-sm-block groups_wrapper">
     <div class="d-flex justify-content-center pt-5">
       <div class="d-flex justify-content-center titles mx-auto three-groups-wrapper" style="gap: 100px;">
@@ -316,7 +316,7 @@ function highlightMenuItem() {
       </div>
     </div>
   </div>
-</section>
+</section>  */}}
 
 <!-- MOBILE VERSION -->
 {{/*  <div class="owl-carousel container" >
@@ -500,7 +500,7 @@ function highlightMenuItem() {
 
 
 {{/*  CONNECT WITH COMMUNITY  */}}
-<section class="container">
+<section class="container-lg">
   <div class="community-wrapper">
     {{/*  left  */}}
     <div class="community-left">
@@ -530,12 +530,31 @@ function highlightMenuItem() {
     </div>
   
     {{/*  right  */}}
-    <div class="community-right
-    ">
+    <div class="community-right">
       {{/*  img  */}}
-      <div>
+      <div class="community-img">
         {{ partial "content/svg.html" "community-group" }}
-      </div>      
+      </div>    
+      
+            {{/*  social links  */}}
+            <div class="social-links">
+              {{/* github */}}
+              <a class="" href="https://github.com/akash-network" target="_blank">
+                {{ partial "content/svg.html" "github" }}
+              </a>
+              {{/* twitter */}}
+              <a class="" href="https://twitter.com/akashnet_" target="_blank">
+                {{ partial "content/svg.html" "twitter" }}
+              </a>
+              {{/* discord */}}
+              <a class="" href="https://discord.com/invite/akash" target="_blank">
+                {{ partial "content/svg.html" "discord" }}
+              </a>
+              {{/*  youtube  */}}
+              <a class="" href="https://www.youtube.com/c/AkashNetwork" target="_blank">
+                {{ partial "content/svg.html" "youtube" }}
+              </a>
+            </div>
     </div>
   </div>
 </section>

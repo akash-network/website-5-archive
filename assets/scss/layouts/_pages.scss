@@ -734,18 +734,18 @@ p.meta {
 .hero {
   .hero-title {
     max-width: 900px;
-    margin-top: 120px;
+    margin-top: 200px;
 
     @media only screen and (max-width: 992px) {
       max-width: 95%;
-      margin-top: 100px;
+      margin-top: 180px;
     }
     @media only screen and (max-width: 768px) {
-      margin-top: 80px;
+      margin-top: 140px;
     }
     @media only screen and (max-width: 576px) {
       max-width: 100%;
-      margin-top: 56px;
+      margin-top: 120px;
     }
 
     h1 {
@@ -1102,37 +1102,44 @@ p.meta {
   gap: 40px;
   margin-top: 100px;
 
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 40px;
+    gap: 30px;
+  }
+
   .community-left {
     width: 100%;
 
     h3 {
       font-size: 40px;
       font-weight: 700;
+      color: #000;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 24px;
+        font-weight: 700;
+      }
     }
 
     p {
       font-size: 18px;
       margin-top: 38px;
+      color: #000;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+        margin-top: 24px;
+      }
     }
 
     .social-links {
-      margin-top: 158px;
-      display: flex;
-      gap: 24px;
-
-      a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #ffdede;
-        width: 64px;
-        height: 64px;
-        border-radius: 32px;
-
-        svg {
-          width: 32px;
-          height: 32px;
-        }
+      @media only screen and (max-width: 992px) {
+        display: none;
       }
     }
   }
@@ -1142,6 +1149,68 @@ p.meta {
 
     svg rect {
       shape-rendering: geometricPrecision;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      svg {
+        width: 600px;
+        height: 600px;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      svg {
+        width: 540px;
+        height: 540px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      svg {
+        width: 296px;
+        height: 296px;
+      }
+    }
+
+    .social-links {
+      display: none;
+
+      @media only screen and (max-width: 992px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .social-links {
+    margin-top: 158px;
+    display: flex;
+    gap: 24px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffdede;
+      width: 64px;
+      height: 64px;
+      border-radius: 32px;
+
+      svg {
+        width: 50%;
+        height: 50%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        width: 48px;
+        height: 48px;
+      }
     }
   }
 }

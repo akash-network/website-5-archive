@@ -955,21 +955,30 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 // CONNECT WITH COMMUNITY
 [data-dark-mode] .community-wrapper {
-  p {
-    opacity: 0.8;
+  .community-left {
+    h3 {
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
+      opacity: 0.8;
+    }
   }
   .social-links a {
     background-color: #ff9f9f;
   }
 
   .community-right {
+    .community-img {
+      svg path {
+        fill: #fff;
+      }
+    }
+
     svg rect {
       fill: #121212;
       stroke: #4d4d4d;
-    }
-
-    svg path {
-      fill: #fff;
     }
 
     svg #community_h path {
