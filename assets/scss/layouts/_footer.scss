@@ -77,13 +77,13 @@
 .footer-container {
   background-color: #000;
   color: #fff;
-  padding: 26px 0 50px 20px;
+  padding: 26px 0 50px 0;
   font-weight: 300;
-  @media only screen and (min-width: 576px) {
-  }
+
   .footer-title {
     display: flex;
     align-items: center;
+    padding: 0 10px 0 10px;
   }
   .footer-title-text {
     font-size: 26px;
@@ -91,7 +91,7 @@
     margin-left: 10px;
   }
   .footer-col-1 {
-    padding: 25px 0 0 0;
+    // padding: 25px 0 0 0;
     @media only screen and (max-width: 992px) {
       display: none;
     }
@@ -131,7 +131,7 @@
   }
   .footer-github-privacy {
     display: flex;
-    margin: 70px 0;
+    margin-top: 40px;
   }
   .footer-github-privacy h6 {
     text-decoration-line: underline;
@@ -156,7 +156,7 @@
   }
   .footer-col-bottom {
     display: block;
-    padding: 35px 0;
+    padding: 30px 20px;
     @media only screen and (min-width: 992px) {
       display: none;
     }
