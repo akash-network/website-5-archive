@@ -92,31 +92,50 @@
     @media only screen and (max-width: 992px) {
       display: none;
     }
-    // @media only screen and (max-width: 768px) {
-    //   font-size: 14px;
-    //   font-weight: 400;
-    // }
+  }
+  .footer-container-2 {
+    display: flex;
+    justify-content: space-around;
+    @media only screen and (max-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, auto);
+      margin-inline: auto;
+    }
     // @media only screen and (max-width: 576px) {
     //   flex-direction: column;
     //   gap: 16px;
     // }
   }
-  .footer-container-2 {
-    display: flex;
-    justify-content: space-around;
-  }
   .link-name {
     text-align: left;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
   }
   .footer-github-privacy {
     display: flex;
+    @media only screen and (min-width: 576px) {
+      display: none;
+      margin: 70px 0;
+    }
   }
   .footer-github-privacy h6 {
     text-decoration-line: underline;
     margin: 0 50px 0 0;
+    @media only screen and (max-width: 768px) {
+      display: none;
+      margin: 20px 0;
+    }
   }
   .footer-section-bottom {
-    margin-top: 90px;
+    margin-top: 40px;
+  }
+  .footer-col-bottom {
+    display: block;
+    padding: 35px 0;
+    @media only screen and (min-width: 576px) {
+      display: none;
+    }
   }
 }
