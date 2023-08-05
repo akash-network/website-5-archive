@@ -110,25 +110,17 @@
   }
   .footer-github-privacy {
     display: flex;
-    flex-direction: column;
-    @media only screen and (min-width: 576px) {
-      flex-direction: column;
-      margin: 70px 0;
-    }
+    margin: 70px 0;
   }
   .footer-github-privacy h6 {
     text-decoration-line: underline;
     margin: 0 50px 0 0;
-    @media only screen and (min-width: 576px) {
-      display: none;
-      margin: 20px 0;
-    }
   }
   .footer-github-privacy-sm {
     display: flex;
     flex-direction: column;
     margin: 100px 0;
-    @media only screen and (min-width: 576px) {
+    @media only screen and (min-width: 768px) {
       display: none;
       flex-direction: column;
     }
@@ -144,7 +136,7 @@
   .footer-col-bottom {
     display: block;
     padding: 35px 0;
-    @media only screen and (min-width: 576px) {
+    @media only screen and (min-width: 768px) {
       display: none;
     }
   }
