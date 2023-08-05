@@ -823,26 +823,45 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 // NAVBAR: new
 [data-dark-mode] header {
-  border-bottom: 1px solid
-    var(--surfaces-navbar-stroke, rgba(255, 255, 255, 0.12));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 
   .navbar-container {
     .nav-btn-primary {
       background-color: #cb4547;
       color: #fff !important;
     }
+  }
 
-    .nav-links-container a {
-      color: #fff;
+  .nav-links-container a {
+    color: #fff;
 
-      svg path {
-        fill: #fff;
-      }
+    svg path {
+      fill: #fff;
     }
+  }
 
-    .social-links {
-      a svg path {
-        stroke: #fff;
+  .social-links {
+    a svg path {
+      stroke: #fff;
+    }
+  }
+
+  .hamburger-menu svg path {
+    stroke: #fff;
+  }
+
+  .small-device-navbar {
+    .sidebar {
+      background: $body-bg-dark;
+
+      .sidebar-links a,
+      .toggle-display-mode span,
+      .social-links a {
+        color: #fff;
+      }
+
+      .sidebar-links a svg path {
+        fill: #fff;
       }
     }
   }
