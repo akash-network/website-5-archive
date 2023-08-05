@@ -823,6 +823,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 // NAVBAR: new
 [data-dark-mode] header {
+  background: #12121280;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 
   .navbar-container {
@@ -865,6 +866,10 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
       }
     }
   }
+}
+
+[data-dark-mode] header::before {
+  background-color: #12121270;
 }
 
 // HERO SECTION: New
