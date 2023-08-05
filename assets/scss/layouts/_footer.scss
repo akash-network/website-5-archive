@@ -82,7 +82,11 @@
   @media only screen and (min-width: 576px) {
   }
   .footer-title {
-    font-size: 35px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-title-text {
+    font-size: 26px;
     font-weight: 600;
     margin-left: 10px;
   }
@@ -116,6 +120,13 @@
         font-size: 18px;
         margin-top: 30px;
       }
+    }
+    .social-name {
+      margin: 16px 5px;
+      text-align: left;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
     }
   }
   .footer-github-privacy {
