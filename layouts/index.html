@@ -147,6 +147,7 @@ function highlightMenuItem() {
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
 
+
 {{/*  SECTION TWO  */}}
 <section class="section section-sm mt-5 feature_section">
   <div class="container text-left d-none d-md-block d-md-block">
@@ -252,7 +253,7 @@ function highlightMenuItem() {
 {{/*  <hr class="hr_">  */}}
 
 {{/*  SECTION THREE  */}}
-{{/*  <section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: 100px;">
+<section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: 100px;">
   <div class="container d-none d-sm-block groups_wrapper">
     <div class="d-flex justify-content-center pt-5">
       <div class="d-flex justify-content-center titles mx-auto three-groups-wrapper" style="gap: 100px;">
@@ -267,8 +268,6 @@ function highlightMenuItem() {
             </div>
           </div>
         </div>
-
-
 
         <div class="group-1" id="infra" class="three-groups-text-section" style="padding-top: -17px; margin-top: 7px; ">
           <h5 style="">Infrastructure as a Code</h5>
@@ -317,10 +316,10 @@ function highlightMenuItem() {
       </div>
     </div>
   </div>
-</section>  */}}
+</section>
 
 <!-- MOBILE VERSION -->
-{{/*  <div class="owl-carousel" >
+{{/*  <div class="owl-carousel container" >
   <div >
     <div class="carousel-container container">
       <h4 class="" style="width: 300px;">Infrastructure
@@ -500,11 +499,54 @@ function highlightMenuItem() {
 </section>
 
 
+{{/*  CONNECT WITH COMMUNITY  */}}
+<section class="container">
+  <div class="community-wrapper">
+    {{/*  left  */}}
+    <div class="community-left">
+      <h3>Connect With Community</h3>
+      <p>
+        Akash  is an open network that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.
+      </p>
+      {{/*  social links  */}}
+      <div class="social-links">
+        {{/* github */}}
+        <a class="" href="https://github.com/akash-network" target="_blank">
+          {{ partial "content/svg.html" "github" }}
+        </a>
+        {{/* twitter */}}
+        <a class="" href="https://twitter.com/akashnet_" target="_blank">
+          {{ partial "content/svg.html" "twitter" }}
+        </a>
+        {{/* discord */}}
+        <a class="" href="https://discord.com/invite/akash" target="_blank">
+          {{ partial "content/svg.html" "discord" }}
+        </a>
+        {{/*  youtube  */}}
+        <a class="" href="https://www.youtube.com/c/AkashNetwork" target="_blank">
+          {{ partial "content/svg.html" "youtube" }}
+        </a>
+      </div>
+    </div>
+  
+    {{/*  right  */}}
+    <div class="community-right
+    ">
+      {{/*  img  */}}
+      <div>
+        {{ partial "content/svg.html" "community-group" }}
+      </div>      
+    </div>
+  </div>
+</section>
+
 
 {{/*  <hr class="hr_">  */}}
 {{ end }}
 {{ end }}
 {{ define "sidebar-footer" }}
+
+{{/*  FOOTER  */}}
 <div class=" footer_wrapper py-2 rounded-3">
   <div class="d-flex justify-content-center align-items-center mt-lg-5 mt-sm-1 mt-md-5">
     <h3 class="mx-auto text-center" style="width: 595px;">Interested in receiving the latest Akash news?

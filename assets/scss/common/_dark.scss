@@ -915,6 +915,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   color: rgba(255, 255, 255, 0.16);
 }
 
+// LATEST FROM THE BLOG: new
 [data-dark-mode] .latest-blog-wrapper {
   h3 {
     color: #fff;
@@ -948,6 +949,39 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
           }
         }
       }
+    }
+  }
+}
+
+// CONNECT WITH COMMUNITY
+[data-dark-mode] .community-wrapper {
+  p {
+    opacity: 0.8;
+  }
+  .social-links a {
+    background-color: #ff9f9f;
+  }
+
+  .community-right {
+    svg rect {
+      fill: #121212;
+      stroke: #4d4d4d;
+    }
+
+    svg path {
+      fill: #fff;
+    }
+
+    svg #community_h path {
+      fill: #b3b3b3;
+    }
+
+    svg #community_h #Vector_24 {
+      fill: #563c3c;
+    }
+
+    svg circle {
+      opacity: 0.2;
     }
   }
 }
