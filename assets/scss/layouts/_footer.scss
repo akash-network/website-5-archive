@@ -95,18 +95,28 @@
   .footer-container-2 {
     display: flex;
     justify-content: space-around;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 992px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, auto);
       margin-inline: auto;
+      padding: 30px;
     }
-  }
-  .link-name {
-    text-align: left;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    .link-name {
+      margin: 16px 0;
+      text-align: left;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .socials {
+      font-size: 20px;
+      font-weight: 600;
+      @media only screen and (min-width: 992px) {
+        font-size: 18px;
+        margin-top: 30px;
+      }
+    }
   }
   .footer-github-privacy {
     display: flex;
@@ -119,8 +129,8 @@
   .footer-github-privacy-sm {
     display: flex;
     flex-direction: column;
-    margin: 100px 0;
-    @media only screen and (min-width: 768px) {
+    margin: 50px 0;
+    @media only screen and (min-width: 992px) {
       display: none;
       flex-direction: column;
     }
@@ -136,7 +146,7 @@
   .footer-col-bottom {
     display: block;
     padding: 35px 0;
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 992px) {
       display: none;
     }
   }
