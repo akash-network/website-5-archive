@@ -734,18 +734,18 @@ p.meta {
 .hero {
   .hero-title {
     max-width: 900px;
-    margin-top: 200px;
+    margin-top: 120px;
 
     @media only screen and (max-width: 992px) {
       max-width: 95%;
-      margin-top: 180px;
+      margin-top: 100px;
     }
     @media only screen and (max-width: 768px) {
-      margin-top: 140px;
+      margin-top: 80px;
     }
     @media only screen and (max-width: 576px) {
       max-width: 100%;
-      margin-top: 120px;
+      margin-top: 60px;
     }
 
     h1 {
@@ -1094,7 +1094,6 @@ p.meta {
 // END LATEST BLOG SECTION
 
 // CONNECT WITH COMMUNITY SECTION
-
 .community-wrapper {
   display: flex;
   align-items: center;
