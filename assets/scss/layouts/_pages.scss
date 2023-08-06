@@ -761,7 +761,7 @@ p.meta {
     }
     @media only screen and (max-width: 576px) {
       max-width: 100%;
-      margin-top: 56px;
+      margin-top: 60px;
     }
 
     h1 {
@@ -1083,21 +1083,20 @@ p.meta {
 
     /* Overlay for the hover effect */
     .latest-blog-card::after {
-      content: "";
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: #0000000f;
-      border: 1px solid rgba(0, 0, 0, 0.9);
+      background-color: #fa5757;
+      border: 1px solid black;
       opacity: 0;
       transition: all 0.5s ease-in-out;
     }
 
     /* Hover effect */
     .latest-blog-card:hover::after {
-      opacity: 0.5;
+      opacity: 0.1;
     }
     .latest-blog-card:hover .latest-blog-img img {
       transform: scale(1.05);
@@ -1105,6 +1104,128 @@ p.meta {
     .latest-blog-card:hover .latest-blog-content div {
       opacity: 1;
       margin-bottom: 0;
+    }
+  }
+}
+// END LATEST BLOG SECTION
+
+// CONNECT WITH COMMUNITY SECTION
+.community-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 100px;
+
+  @media only screen and (max-width: 992px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 40px;
+    gap: 30px;
+  }
+
+  .community-left {
+    width: 100%;
+
+    h3 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #000;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 38px;
+      color: #000;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+        margin-top: 24px;
+      }
+    }
+
+    .social-links {
+      @media only screen and (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+
+  .community-right {
+    width: 100%;
+
+    svg rect {
+      shape-rendering: geometricPrecision;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      svg {
+        width: 600px;
+        height: 600px;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      svg {
+        width: 540px;
+        height: 540px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      svg {
+        width: 296px;
+        height: 296px;
+      }
+    }
+
+    .social-links {
+      display: none;
+
+      @media only screen and (max-width: 992px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .social-links {
+    margin-top: 158px;
+    display: flex;
+    gap: 24px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffdede;
+      width: 64px;
+      height: 64px;
+      border-radius: 32px;
+
+      svg {
+        width: 50%;
+        height: 50%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        width: 48px;
+        height: 48px;
+      }
     }
   }
 }

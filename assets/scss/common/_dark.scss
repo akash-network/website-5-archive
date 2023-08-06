@@ -822,6 +822,57 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   }
 }
 
+// NAVBAR: new
+[data-dark-mode] .header {
+  background: #12121280;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+
+  .navbar-container {
+    .nav-btn-primary {
+      background-color: #cb4547;
+      color: #fff !important;
+    }
+  }
+
+  .nav-links-container a {
+    color: #fff;
+
+    svg path {
+      fill: #fff;
+    }
+  }
+
+  .social-links {
+    a svg path {
+      stroke: #fff;
+    }
+  }
+
+  .hamburger-menu svg path {
+    stroke: #fff;
+  }
+
+  .small-device-navbar {
+    .sidebar {
+      background: $body-bg-dark;
+
+      .sidebar-links a,
+      .toggle-display-mode span,
+      .social-links a {
+        color: #fff;
+      }
+
+      .sidebar-links a svg path {
+        fill: #fff;
+      }
+    }
+  }
+}
+
+[data-dark-mode] .header::before {
+  background-color: #12121270;
+}
+
 // HERO SECTION: New
 [data-dark-mode] .hero {
   .hero-title h1 {
@@ -837,19 +888,19 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   .hero-btn-container {
     a {
       background-color: #cb4547;
-      color: #ffffff;
+      color: #fff;
     }
 
     a:nth-child(2) {
       background-color: transparent;
-      color: #ffffff;
-      border: 2px solid #ffffff;
+      color: #fff;
+      border: 2px solid #fff;
     }
     a svg path {
-      stroke: #ffffff;
+      stroke: #fff;
     }
     a:nth-child(2) svg path {
-      stroke: #ffffff;
+      stroke: #fff;
     }
   }
   .hero-footer {
@@ -865,6 +916,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   color: rgba(255, 255, 255, 0.16);
 }
 
+// LATEST FROM THE BLOG: new
 [data-dark-mode] .latest-blog-wrapper {
   h3 {
     color: #fff;
@@ -898,6 +950,48 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
           }
         }
       }
+    }
+  }
+}
+
+// CONNECT WITH COMMUNITY
+[data-dark-mode] .community-wrapper {
+  .community-left {
+    h3 {
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
+      opacity: 0.8;
+    }
+  }
+  .social-links a {
+    background-color: #ff9f9f;
+  }
+
+  .community-right {
+    .community-img {
+      svg path {
+        fill: #fff;
+      }
+    }
+
+    svg rect {
+      fill: #121212;
+      stroke: #4d4d4d;
+    }
+
+    svg #community_h path {
+      fill: #b3b3b3;
+    }
+
+    svg #community_h #Vector_24 {
+      fill: #563c3c;
+    }
+
+    svg circle {
+      opacity: 0.2;
     }
   }
 }
