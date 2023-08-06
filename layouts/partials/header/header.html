@@ -1,208 +1,389 @@
-<!-- {{ if .Site.Params.alert -}}
-  {{ partial "header/alert.html" . }}
-{{ end -}} -->
+<header>
+  <div class="header">
+    {{/* large device */}}
+    <div class="navbar-container container">
+      {{/* logo */}}
+      <a href="/">
+        <div class="akash-logo-nav"></div>
+      </a>
 
-{{ if eq .Site.Params.options.navbarSticky true -}}
-<div class="sticky-top">
-{{ end -}}
+      {{/* nav links */}}
+      <div class="nav-links-container flex-row-center">
+        {{- $current := . -}} {{- $section := $current.Section -}} {{- range
+        .Site.Menus.main -}} {{- $active := or ($current.IsMenuCurrent "main" .)
+        ($current.HasMenuCurrent "main" .) -}} {{- $active = or $active (eq
+        .Name $current.Title) -}} {{- $active = or $active (and (eq .Name
+        ($section | humanize)) (eq $current.Section $section)) -}} {{- $active =
+        or $active (and (eq .Name "Blog") (eq $current.Section "blog"
+        "contributors" "categories" "tags")) -}} {{ $showArrow := or (eq .Name
+        "Ecosystem") (eq .Name "Discussions") (eq .Name "Docs") }} {{ if
+        .HasChildren }}
 
-
-<header class="navbar navbar-expand-lg navbar-light doks-navbar mx-auto" style="border:none;" >
-  <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
-
-    <a class="navbar-brand order-0" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
-      <div class="akash-logo-nav"> </div>
-    </a>
-
-    {{ if (in .Site.Params.sections.sectionNav .Section) -}}
-    <button class="btn btn-link order-0 ms-auto d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
-    </button>
-    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-      <div class="header-bar"></div>
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">{{ i18n "browse" }} {{ .Section  }}</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <aside class="doks-sidebar mt-n3">
-          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
-            {{ partial "sidebar/docs-menu.html" . }}
-          </nav>
-        </aside>
-      </div>
-    </div>
-    {{ end -}}
-
-
-    <button class="btn btn-menu order-2 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-    </button>
-    <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
-      <div class="header-bar d-lg-none"></div>
-      <div class="offcanvas-header d-lg-none">
-        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="{{ "/" | relLangURL }}">{{ .Site.Params.Title }}</a></h2>
-        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
-      </div>
-      <div class="nav_wrap p-4 p-lg-0" >
-        <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto px-5">
-          {{- $current := . -}}
-          {{- $section := $current.Section -}}
-          {{ range .Site.Menus.main -}}
-            {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
-            {{- $active = or $active (eq .Name $current.Title) -}}
-            {{- $active = or $active (and (eq .Name ($section | humanize)) (eq $current.Section $section)) -}}
-            {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors" "categories" "tags")) -}}
-            {{ if .HasChildren }}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  {{ .Name }}
-                  <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
-                  {{ range .Children -}}
-                  {{- $active = eq .Name $current.Title -}}
-                    <li>
-                      <a class="dropdown-item{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}"{{ if $active }} aria-current="true"{{ end }}>{{ .Name }}</a>
-                    </li>
-                  {{ end -}}
-                </ul>
-              </li>
-            {{ else }}
-              <li class="nav-item">
-                <a class="nav-link ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}" {{ if eq .Params.external true }} target="_blank" rel="noopener noreferrer" {{ end }}>{{ .Name }}</a>
-              </li>
-            {{ end }}
-          {{ end -}}
-        </ul>
-
-        {{- $showFlexSearch := .Site.Params.options.flexSearch }}
-        {{- if $showFlexSearch }}
-        {{- if and (isset .Site.Params.options "searchsectionsshow") (not (eq .Site.Params.options.searchSectionsShow "ALL")) }}
-        {{- $showFlexSearch = or (eq (len .Site.Params.options.searchSectionsShow) 0) (in .Site.Params.options.searchSectionsShow .Section) (and .IsHome (in .Site.Params.options.searchSectionsShow "HomePage")) }}
-        {{- end }}
-        {{- end }}
-
-        {{ if $showFlexSearch -}}
-        <hr class="text-black-50 my-4 d-lg-none">
-        <form class="doks-search position-relative flex-grow-1 ms-lg-auto me-lg-2">
-          <input id="search" class="form-control is-search" type="search" placeholder="{{ i18n "search-text" }}" aria-label="{{ i18n "search-text" }}" autocomplete="off">
-          <div id="suggestions" class="shadow bg-white rounded d-none"></div>
-        </form>
-        {{ end -}}
-
-        <hr class="text-black-50 my-4 d-lg-none">
-        <ul class="nav flex-column flex-lg-row">
-
-          {{ range .Site.Menus.social -}}
-
-              <a class="nav-link social-link" href="{{ .URL | relURL }}" target="_blank" rel="noopener noreferrer">{{ .Pre | safeHTML }}<small class="ms-2 d-lg-none">{{ .Name | safeHTML }}</small></a>
-
-          {{ end -}}
-        </ul>
-        <div class="m-2 d-wrap">
-          <a target="_blank" href="https://discord.gg/akash">
-          <span  class="disc">{{ partial "content/svg.html" "discord" }}<span class="d-lg-none text-black" style="font-size: 14px; margin-left: 7px; position: relative; top: 2px;">Discord</span></span>
+        <a
+          class="nav-link"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          {{ .Name }} {{ if $showArrow }} {{ end }}
         </a>
-         </div>
-        <div class="m-2 d-wrap_dark">
-          <a target="_blank" href="https://discord.gg/akash">
-          <div class="disc">{{ partial "content/svg.html" "discord2" }} <span class="d-lg-none d-sm-flex text-white m-1" style="font-size: 13px;">Discord</span></div>
+
+        {{ else }}
+
+        <a
+          class="nav-link ps-0 py-1{{ if $active }} active{{ end }}"
+          href="{{ .URL | relLangURL }}"
+          {{
+          if
+          eq
+          .Params.external
+          true
+          }}
+          target="_blank"
+          rel="noopener noreferrer"
+          {{
+          end
+          }}
+        >
+          {{ .Name }} {{ if $showArrow }}
+          <span>
+            {{/* arrow top-right */}}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="8"
+              viewBox="0 0 8 8"
+              fill="none"
+            >
+              <path
+                d="M0.965715 7.96663L0.0763362 7.07725L5.41261 1.74098L0.521026 1.74098L0.521026 0.478057L7.56491 0.478058L7.56491 7.52194L6.30199 7.52194L6.30199 2.63036L0.965715 7.96663Z"
+                fill="black"
+              />
+            </svg>
+          </span>
+          {{ end }}
         </a>
-         </div>
-        {{ if .Site.Params.options.darkMode -}}
-        <hr class="text-black-50 my-4 d-lg-none">
-        <button id="mode" class="btn btn-link" style="margin:auto -5px ;" type="button" aria-label="Toggle user interface mode">
-          <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
-          <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+
+        {{ end }} {{ end -}}
+      </div>
+
+      <div class="nav-right flex-row-center">
+        {{/* social links */}}
+        <div class="social-links flex-row-center">
+          {{/* github */}}
+          <a class="" href="https://github.com/akash-network" target="_blank">
+            {{ partial "content/svg.html" "github" }}
+          </a>
+          {{/* twitter */}}
+          <a class="" href="https://twitter.com/akashnet_" target="_blank">
+            {{ partial "content/svg.html" "twitter" }}
+          </a>
+          {{/* discord */}}
+          <a class="" href="https://discord.com/invite/akash" target="_blank">
+            {{ partial "content/svg.html" "discord" }}
+          </a>
+        </div>
+
+        {{/* button: dark/light mode switcher */}}
+        <button
+          id="mode"
+          class="btn toggle-display-mode"
+          type="button"
+          aria-label="Toggle user interface mode"
+        >
+          <span class="toggle-dark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-moon"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+          <span class="toggle-light">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-sun"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
         </button>
-        {{ end -}}
 
-        {{ if eq .Site.Params.options.multilingualMode true -}}
-        <hr class="text-black-50 my-4 d-lg-none">
-        <div class="dropdown">
-          <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
-            {{ .Site.Params.languageName }}
-            <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-lg-end me-lg-2 shadow rounded border-0" aria-labelledby="doks-languages">
-
-            <li><a class="dropdown-item current" aria-current="true" href="{{ .RelPermalink }}">{{ .Site.Language.LanguageName }}</a></li>
-
-            <li><hr class="dropdown-divider"></li>
-
-            {{ if .IsTranslated -}}
-              {{ range .Translations }}
-                <li><a class="dropdown-item" rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
-              {{ end -}}
-            {{ else -}}
-              {{ range .Site.Languages -}}
-                {{ if ne $.Site.Language.Lang .Lang }}
-                  <li><a class="dropdown-item" rel="alternate" href="{{ .Lang | relLangURL }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}</a></li>
-                {{ end -}}
-              {{ end -}}
-            {{ end -}}
-              <!--
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/docs/contributing/how-to-contribute/">Help Translate</a></li>
-              -->
-          </ul>
-        </div>
-        {{ end -}}
-
-        {{ if eq .Site.Params.options.docsVersioning true -}}
-        <hr class="text-black-50 my-4 d-lg-none">
-        <div class="dropdown">
-          <button class="btn btn-doks-light dropdown-toggle" id="doks-versions" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static" aria-label="Toggle version menu">
-            <span class="d-none">Doks</span> v{{ .Site.Params.docsVersion }}
-            <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-lg-end me-lg-2 shadow rounded border-0" aria-labelledby="doks-versions">
-            <li><a class="dropdown-item current" aria-current="true" href="/docs/{{ .Site.Params.docsVersion }}/prologue/introduction/">Latest ({{ .Site.Params.docsVersion }}.x)</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="/docs/0.2/prologue/introduction/">v0.2.x</a></li>
-            <li><a class="dropdown-item" href="/docs/0.1/prologue/introduction/">v0.1.x</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="/docs/versions/">All versions</a></li>
-          </ul>
-        </div>
-        {{ end -}}
+        {{/* button: launch console */}}
+        <a
+          class="nav-btn-primary flex-row-center"
+          href="https://console.akash.network"
+          role="button"
+          target="_blank"
+        >
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M7.29041 18.3074L5.8762 16.8932L14.3615 8.40791L6.58331 8.40791L6.58331 6.39972L17.7839 6.39972L17.7839 17.6003L15.7757 17.6003L15.7757 9.82212L7.29041 18.3074Z"
+                fill="white"
+              />
+            </svg>
+          </span>
+          Launch Console
+        </a>
       </div>
     </div>
-  </nav>
+
+    <div id="overlay" class="overlay"></div>
+
+    {{/* small device */}}
+    <div class="small-device-navbar">
+      {{/* logo */}}
+      <a href="/">
+        <div class="akash-logo-nav"></div>
+      </a>
+
+      {{/* hamburger menu button */}}
+      <button id="toggleSidebar" class="hamburger-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M3 5H21"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 12H21"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M3 19H21"
+            stroke="black"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+
+      <aside id="sidebar" class="sidebar">
+        {{/* logo */}}
+        <a href="/" class="logo flex-row-center">
+          <div class="akash-logo-nav"></div>
+        </a>
+        {{/* nav links */}}
+        <div>
+          <div class="sidebar-links flex-column-center">
+            {{- $current := . -}} {{- $section := $current.Section -}} {{- range
+            .Site.Menus.main -}} {{- $active := or ($current.IsMenuCurrent
+            "main" .) ($current.HasMenuCurrent "main" .) -}} {{- $active = or
+            $active (eq .Name $current.Title) -}} {{- $active = or $active (and
+            (eq .Name ($section | humanize)) (eq $current.Section $section)) -}}
+            {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section
+            "blog" "contributors" "categories" "tags")) -}} {{ $showArrow := or
+            (eq .Name "Ecosystem") (eq .Name "Discussions") (eq .Name "Docs") }}
+            {{ if .HasChildren }}
+
+            <a
+              class="nav-link"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              {{ .Name }} {{ if $showArrow }} {{ end }}
+            </a>
+
+            {{ else }}
+
+            <a
+              class="nav-link ps-0 py-1{{ if $active }} active{{ end }}"
+              href="{{ .URL | relLangURL }}"
+              {{
+              if
+              eq
+              .Params.external
+              true
+              }}
+              target="_blank"
+              rel="noopener noreferrer"
+              {{
+              end
+              }}
+            >
+              {{ .Name }} {{ if $showArrow }}
+              <span>
+                {{/* arrow top-right */}}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8"
+                  height="8"
+                  viewBox="0 0 8 8"
+                  fill="none"
+                >
+                  <path
+                    d="M0.965715 7.96663L0.0763362 7.07725L5.41261 1.74098L0.521026 1.74098L0.521026 0.478057L7.56491 0.478058L7.56491 7.52194L6.30199 7.52194L6.30199 2.63036L0.965715 7.96663Z"
+                    fill="black"
+                  />
+                </svg>
+              </span>
+              {{ end }}
+            </a>
+
+            {{ end }} {{ end -}}
+          </div>
+
+          <hr />
+
+          {{/* social links */}}
+          <div class="social-links flex-column-center">
+            {{/* github */}}
+            <a class="" href="https://github.com/akash-network" target="_blank">
+              {{ partial "content/svg.html" "github" }} GitHub
+            </a>
+            {{/* twitter */}}
+            <a class="" href="https://twitter.com/akashnet_" target="_blank">
+              {{ partial "content/svg.html" "twitter" }} Twitter
+            </a>
+            {{/* discord */}}
+            <a class="" href="https://discord.com/invite/akash" target="_blank">
+              {{ partial "content/svg.html" "discord" }} Discord
+            </a>
+          </div>
+
+          <hr />
+
+          {{/* button: dark/light mode switcher */}}
+          <button
+            id="mode-small-device"
+            class="btn toggle-display-mode"
+            type="button"
+            aria-label="Toggle user interface mode"
+          >
+            <span class="toggle-dark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-moon"
+              >
+                <path
+                  d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                ></path>
+              </svg>
+              Dark Mode
+            </span>
+            <span class="toggle-light">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#fff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-sun"
+              >
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              Light Mode
+            </span>
+          </button>
+        </div>
+      </aside>
+    </div>
+  </div>
 </header>
 
-{{ if eq .Site.Params.options.navbarSticky true }}
-</div>
-{{ end -}}
+<script>
+  const toggleSidebar = document.getElementById("toggleSidebar");
+  const sidebar = document.getElementById("sidebar");
+  const overlay = document.getElementById("overlay");
 
-{{ if eq .Section "docs" -}}
-<div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
-  <aside class="doks-sidebar">
-    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
-      {{ partial "sidebar/docs-menu.html" . }}
-    </nav>
-  </aside>
-</div>
+  toggleSidebar.addEventListener("click", () => {
+    sidebar.classList.toggle("open");
+    overlay.classList.toggle("open");
+  });
 
-{{ else if ne .CurrentSection .FirstSection -}}
-<!--
-<nav class="doks-subnavbar py-2 sticky-lg-top d-lg-none" aria-label="Secondary navigation">
-  <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} d-flex align-items-lg-center">
-    <span class="navbar-text ms-0">{{ .Section | humanize }}</span>
-    <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
-    </button>
-  </div>
-</nav>
--->
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerMenu = document.querySelector(".hamburger-menu");
+    const sidebarLinks = document.querySelectorAll(".sidebar a");
 
-<div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
-  <aside class="doks-sidebar">
-    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
-      {{ partial "sidebar/docs-menu.html" . }}
-    </nav>
-  </aside>
-</div>
-{{ end -}}
+    hamburgerMenu.addEventListener("click", toggleSidebar);
+
+    sidebarLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.remove("open");
+        overlay.classList.remove("open");
+      });
+    });
+
+    window.addEventListener("click", function (event) {
+      const sidebar = document.getElementById("sidebar");
+      const targetElement = event.target;
+
+      if (
+        !targetElement.closest(".sidebar") &&
+        !targetElement.closest(".hamburger-menu")
+      ) {
+        sidebar.classList.remove("open");
+        overlay.classList.remove("open");
+      }
+    });
+  });
+</script>

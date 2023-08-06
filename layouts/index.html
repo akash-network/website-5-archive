@@ -99,83 +99,117 @@ function highlightMenuItem() {
   },{ passive: true });
 });
 
-
 </script>
 
 
 
-
-<section class="section container-fluid mt-n3 pb-5">
-  <div class="row justify-content-center">
-    <div class="col-md-10 text-center">
-      <h1 class=" my-4 header-text mx-auto">{{ .Title }}</h1>
+{{/*  HERO SECTION  */}}
+<section class="hero">
+  <div class="flex-column-center text-center">
+    <div class="hero-title">
+      <h1>{{ .Title }} <span class="hero-title-img" id="hero-img-container">{{partial "content/svg.html" "hero-img"}}</span></h1>
     </div>
-    <div class="col-md-8 text-center">
-      <p class="lead my-4">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2 mt-3" href="https://console.akash.network" role="button"
-        target="_blank">{{ i18n "get-started" }}</a>
-      <p class="meta mt-3"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
+    <div class="text-center">
+      <p class="hero-subtitle">{{ .Params.lead | safeHTML }}</p>
+      
+      <div class="hero-btn-container flex-row-center">
+        {{/* button: get started  */}}
+        <a class="flex-row-center" href="https://console.akash.network" role="button"
+          target="_blank">
+          <span>
+            {{ partial "content/svg.html" "arrow-right-circle" }}
+          </span> 
+          {{ i18n "get-started" }}
+        </a>
+  
+        {{/* button: docs  */}}
+        <a class="flex-row-center" href="https://docs.akash.network/" role="button"
+          target="_blank">
+          <span>
+            {{ partial "content/svg.html" "submit-document" }}
+          </span> 
+          {{ i18n "docs" }}
+        </a>
+ 
+      </div>
+
+      {{/* open source...  */}}
+      <p class="hero-footer"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
           getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}.</a></p>
     </div>
   </div>
 </section>
-{{ end }}
+<hr class="hero-hr">
 
+{{ end }}
 
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
+
+
+{{/*  FEATURES SECTION  */}}
 <section class="section section-sm mt-5 feature_section">
-  <div class="container text-left d-none d-md-block d-md-block">
-    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
-      <div class="col-md-12 col-lg-5 text-center svg-container">
+  <div class="container text-left d-none d-lg-flex flex-column align-items-center justify-content-center" style="margin-top: 140px;">
+    {{/*  1  */}}
+    <div class="flex-row m-5 d-flex align-items-center justify-content-center features-row" style="gap: 20px;">
+       {{/*  img  */}}
+       <div class="col text-start svg-container">
         {{ partial "content/svg.html" "cloud_new" }}
       </div>
-      <div class="col-md-14 col-lg-7">
+      {{/*  content  */}}
+      <div class="col">
         <h2 class="h4 utility">You will own your cloud, and you will be happy</h2>
         <p>With Akash, you have the power to own your cloud.
           You can deploy your own cloud infrastructure, and you can sell
           your unused cloud resources to others.
            You can also buy cloud resources from others, and you can use them to run your applications.</p>
       </div>
+       
     </div>
-    <div class="row m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
-      <div class="col-md-14 col-lg-7 order-md-last">
+    {{/*  2  */}}
+    <div class="flex-row-reverse m-5 d-flex align-items-center justify-content-center  features-row">
+      {{/*  img  */}}
+      <div class="col text-end svg-container">
+        {{ partial "content/svg.html" "fingertips" }}
+      </div> 
+      {{/*  content  */}}
+      <div class="col">
         <h2 class="h4 super">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
           customers submit their desired price and providers compete for the business. This often results in prices up
           to 85% lower than other cloud systems.</p>
       </div>
-      <div class="col-md-12 col-lg-5 text-center order-md-first svg-container">
-        {{ partial "content/svg.html" "fingertips" }}
-      </div>
+
     </div>
-    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center wrapper">
-      <div class="col-md-12 col-lg-5 text-center mt-md-5 svg-container">
-        {{ partial "content/svg.html" "community_h" }}
-      </div>
-      <div class="col-md-14 col-lg-7">
+    {{/*  3  */}}
+    <div class="flex-row-reverse m-5 d-flex align-items-center justify-content-center  features-row">
+      {{/*  content  */}}
+      <div class="col">
         <h2 class="h4 utility">Built for battle, commanded by the community</h2>
         <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
           it is available to everyone. It is built on dependable technologies like Kubernetes and Cosmos, and
           the community oversees all aspects of Akash — including decisions about what new features should be
           implemented.</p>
       </div>
+      {{/*  img  */}}
+      <div class="col text-start svg-container">
+        {{ partial "content/svg.html" "community_h" }}
+      </div>
     </div>
-
     </div>
     </div>
   </div>
 
 
   <!-- Mobile Version -->
-  <div class="container justify-content-center text-left d-xs-block d-sm-block d-md-none">
+  <div class="container justify-content-center text-center d-lg-none">
     <div class="row">
-      <div class="col">
+      <div class="col features-column">
         <div class="d-flex justify-content-center mx-auto svg-container">
           {{ partial "content/svg.html" "cloud_mobile" }}
         </div>
-        <h2 class="h4">You will own your cloud, and you will be happy</h2>
+        <h2 class="">You will own your cloud, and you will be happy</h2>
         <p>
           With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
           sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
@@ -186,11 +220,11 @@ function highlightMenuItem() {
     </div>
 
     <div class="row">
-      <div class="col" style="margin-top: 70px;">
+      <div class="col features-column" style="margin-top: 96px;">
         <div class="d-flex justify-content-center mx-auto svg-container">
           {{ partial "content/svg.html" "Calculator_mobile" }}
         </div>
-        <h2 class="h4">Supercloud at your fingertips, at a price you choose</h2>
+        <h2 class="">Supercloud at your fingertips, at a price you choose</h2>
         <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
           makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
           customers submit their desired price and providers compete for the business. This often results in prices up
@@ -198,11 +232,11 @@ function highlightMenuItem() {
       </div>
     </div>
     <div class="row ">
-      <div class="col" style="margin-top: 70px;">
+      <div class="col features-column" style="margin-top: 96px;">
         <div class="d-flex justify-content-center mx-auto svg-container">
           {{ partial "content/svg.html" "Gestures_mobile" }}
         </div>
-        <h2 class="h4">Purpose built for public utility</h2>
+        <h2 class="">Purpose built for public utility</h2>
         <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
           it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
           the community oversees all aspects of Akash, including decisions about what new features should be
@@ -215,10 +249,10 @@ function highlightMenuItem() {
 
 </section>
 
-<hr class="hr_">
+{{/*  <hr class="hr_">  */}}
 
-
-<section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: -130px;">
+{{/*  SECTION THREE  */}}
+<section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: 100px;">
   <div class="container d-none d-sm-block groups_wrapper">
     <div class="d-flex justify-content-center pt-5">
       <div class="d-flex justify-content-center titles mx-auto three-groups-wrapper" style="gap: 100px;">
@@ -234,13 +268,10 @@ function highlightMenuItem() {
           </div>
         </div>
 
-
-
         <div class="group-1" id="infra" class="three-groups-text-section" style="padding-top: -17px; margin-top: 7px; ">
           <h5 style="">Infrastructure as a Code</h5>
           <p class="feature_detail_2">Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.</p>
           <div style="margin-top: 40px;">
-
             <h5  class="group-2">Kubernetes Powered</h5>
             <p class="feature_detail_2">Akash runs on Kubernetes, the industry-leading container orchestration system. <span id="security">With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</span></p>
           </div>
@@ -256,7 +287,7 @@ function highlightMenuItem() {
           </div>
           <div style="margin-top: 40px;">
             <h5 class="">Censorship Resistant and Unstoppable</h5>
-            <p class="feature_detail_2 group-3">Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stopyou from using Akash to build apps that can't be censored.</p>
+            <p class="feature_detail_2 group-3">Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored.</p>
           </div>
 
           <div  class="group-2" style="margin-top: 40px;">
@@ -286,8 +317,7 @@ function highlightMenuItem() {
 </section>
 
 <!-- MOBILE VERSION -->
-
-<div class="owl-carousel" >
+<div class="owl-carousel container" >
   <div >
     <div class="carousel-container container">
       <h4 class="" style="width: 300px;">Infrastructure
@@ -349,9 +379,9 @@ function highlightMenuItem() {
     </div>
 </div>
 
-<hr class="hr_">
-<section>
-  <div class="blog_post_wrapper" style="margin-top: -80px;">
+{{/*  LATEST FROM THE BLOG  */}}
+<section class="latest-blog-wrapper">
+  {{/*  <div class="blog_post_wrapper" style="margin-top: 100px;">
  <div class="container justify-content-center align-items-center mx-auto">
     <div class="related-posts">
       <div class="row justify-content-center align-items-center">
@@ -360,10 +390,10 @@ function highlightMenuItem() {
       </div>
       </div>
 
-        <div class="blog_wrapper row justify-content-center align-items-center" style="gap: 50px;">
+        <div class="blog_wrapper row justify-content-center align-items-center" style="gap: 50px; margin-top: 48px;">
           {{- range (where site.RegularPages "Section" "blog" | first 3) }}
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="">
+            <div class="" style="border: 1px solid rgba(0, 0, 0, 0.24);">
 
               <a class="" href="{{ .RelPermalink }}">
                 {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
@@ -391,44 +421,180 @@ function highlightMenuItem() {
       </div>
     </div>
   </div>
+  </div>  */}}
+
+  <div>
+  {{/*  title  */}}
+  <h3  class="container-lg">Latest From The Blog</h3>
+
+  {{/*  cards container  */}}
+  <div class="latest-blog-cards-container container-lg">
+    {{- range (where site.RegularPages "Section" "blog" | first 3) }}
+
+    {{/*  card  */}}
+    <a class="latest-blog-card" href="{{ .RelPermalink }}">
+      <div class="latest-blog-card-contents">
+        {{/*  img  */}}
+        <div class="latest-blog-img">
+          {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
+          {{ partial "content/card-image.html" . }}
+        </div>
+
+        {{/*  category  */}}
+        <div class="latest-blog-category">
+          {{ if .Params.categories -}}
+            {{ range $index, $category := .Params.categories }}
+            {{ if gt $index 0 }}, {{ end }}
+            <p>{{ . }}</p>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{/*  contents  */}}
+        <div class="latest-blog-card-body">
+          <div>
+            {{/*  writer  */}}
+            <div class="latest-blog-writer">
+              {{ if .Params.contributors -}}
+              {{ $last := sub (len .Params.contributors) 1 }}
+              {{ range $index, $contributor := .Params.contributors }}
+                {{ if gt $index 0 }}
+                  {{ if eq $index $last }} and {{ else }}, {{ end }}
+                {{ end }}
+                <p>{{ . }}</p>
+              {{ end }}
+            {{ end }}        
+            </div>
+
+            {{/*  blog title  */}}
+            <h3 class="latest-blog-title">
+                {{ .Params.title }}
+            </h3>
+
+            {{/*  blog content  */}}
+            <div class="latest-blog-content">
+              <div>
+                {{ .Content | truncate 120 }}
+              </div>
+            </div>
+          </div>
+
+          <div class="latest-blog-meta">
+            {{/*  min  */}}
+            <p>{{ .ReadingTime }} min read</p>
+            {{/*  date  */}}
+            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>   
+          </div>     
+        </div>
+      </div>
+    </a>
+
+    {{ end -}}
   </div>
 
-
-
+  </div>
 </section>
 
 
-
-<hr class="hr_">
-{{ end }}
-{{ end }}
-{{ define "sidebar-footer" }}
-<div class=" footer_wrapper py-2 rounded-3">
-  <div class="d-flex justify-content-center align-items-center mt-lg-5 mt-sm-1 mt-md-5">
-    <h3 class="mx-auto text-center" style="width: 595px;">Interested in receiving the latest Akash news?
-      Sign up for Akash Newsletter</h3>
-  </div>
-  <aside class="mx-auto emailText_wrapper text-center">
-      <a target="_blank" href="https://akashnet.typeform.com/to/awKX5bPw">
-        <button type="submit" class="btn btn-primary btn-lg px-4 mb-2 mt-3  text-center text-white mx-auto" style="">Subscribe</button>
-      </a>
+{{/*  CONNECT WITH COMMUNITY  */}}
+<section class="container-lg">
+  <div class="community-wrapper">
+    {{/*  left  */}}
+    <div class="community-left">
+      <h3>Connect With Community</h3>
+      <p>
+        Akash is an open network that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.
+      </p>
+      {{/*  social links  */}}
+      <div class="social-links">
+        {{/* github */}}
+        <a class="" href="https://github.com/akash-network" target="_blank">
+          {{ partial "content/svg.html" "github" }}
+        </a>
+        {{/* twitter */}}
+        <a class="" href="https://twitter.com/akashnet_" target="_blank">
+          {{ partial "content/svg.html" "twitter" }}
+        </a>
+        {{/* discord */}}
+        <a class="" href="https://discord.com/invite/akash" target="_blank">
+          {{ partial "content/svg.html" "discord" }}
+        </a>
+        {{/*  youtube  */}}
+        <a class="" href="https://www.youtube.com/c/AkashNetwork" target="_blank">
+          {{ partial "content/svg.html" "youtube" }}
+        </a>
       </div>
-    </aside>
-  </div>
-<section class="container-fluid" style="margin-top:50px;">
-  <div class="row">
-    <div class="">
-      {{- .Content -}}
+    </div>
+  
+    {{/*  right  */}}
+    <div class="community-right">
+      {{/*  img  */}}
+      <div class="community-img">
+        {{ partial "content/svg.html" "community-group" }}
+      </div>    
+      
+      {{/*  social links  */}}
+      <div class="social-links">
+              {{/* github */}}
+              <a class="" href="https://github.com/akash-network" target="_blank">
+                {{ partial "content/svg.html" "github" }}
+              </a>
+              {{/* twitter */}}
+              <a class="" href="https://twitter.com/akashnet_" target="_blank">
+                {{ partial "content/svg.html" "twitter" }}
+              </a>
+              {{/* discord */}}
+              <a class="" href="https://discord.com/invite/akash" target="_blank">
+                {{ partial "content/svg.html" "discord" }}
+              </a>
+              {{/*  youtube  */}}
+              <a class="" href="https://www.youtube.com/c/AkashNetwork" target="_blank">
+                {{ partial "content/svg.html" "youtube" }}
+              </a>
+      </div>
     </div>
   </div>
 </section>
 
 
+<!-- <hr class="hr_"> -->
+{{ end }}
+{{ end }}
+{{ define "sidebar-footer" }}
+
+{{/*  SUBSCRIPTION  */}}
+<div class="subscribe-wrapper">
+  <h3>
+    Interested in receiving the latest Akash news? Sign up for Akash Newsletter
+  </h3>
+
+  <a href="https://akashnet.typeform.com/to/awKX5bPw">
+    Subscribe
+  </a>
+</div>
 
 
-
-
-
+{{/*  <div class="footer_wrapper py-2 rounded-3 mt-5">
+  <div class="d-flex justify-content-center align-items-center mt-lg-5 mt-sm-1 mt-md-5">
+    <h3 class="mx-auto text-center">
+      Interested in receiving the latest Akash news?&nbsp;
+      <br class="d-none d-sm-block">
+      Sign up for Akash Newsletter
+    </h3>
+  </div>
+  <aside class="mx-auto emailText_wrapper text-center">
+      <a target="_blank" href="https://akashnet.typeform.com/to/awKX5bPw">
+        <button type="submit" class="btn btn-primary rounded-3 btn-lg px-4 mb-2 mt-3 text-center text-white mx-auto">Subscribe</button>
+      </a>
+      </div>
+  </aside>
+</div>  */}}
+<!-- <section class="container-fluid" style="margin-top:50px;">
+  <div class="row">
+    <div class="">
+      {{- .Content -}}
+    </div>
+  </div>
+</section> -->
 {{ end }}
 
 

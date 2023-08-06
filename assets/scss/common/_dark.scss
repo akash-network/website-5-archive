@@ -2,14 +2,16 @@
 
 // Source: https://material.io/design/color/dark-theme.html
 
-$body-bg-dark: $gray-900;
+// $body-bg-dark: $gray-900;
+$body-bg-dark: #121212;
 $body-overlay-dark: darken($body-bg-dark, 2.5%);
 
 /*
 $border-dark: darken($body-bg-dark, 2.5%);
 */
 $border-dark: $gray-800;
-$body-color-dark: $gray-300;
+// $body-color-dark: $gray-300;
+$body-color-dark: #fff;
 $dots-dark: darken($body-color-dark, 50%);
 
 $link-color-dark: $akash-red-light;
@@ -226,8 +228,10 @@ $navbar-dark-active-color: $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba(33, 37, 41, 0.95);
-  border-bottom: 1px solid $border-dark;
+  // background-color: rgba(33, 37, 41, 0.95);
+  background-color: $body-bg-dark;
+  border-bottom: 1px solid $border-dark !important;
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 [data-dark-mode] body.home .navbar {
@@ -258,6 +262,10 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 [data-dark-mode] body .offcanvas .nav-link {
   color: $body-color-dark;
+}
+
+[data-dark-mode] .offcanvas .nav-link span svg path {
+  fill: $body-color-dark;
 }
 
 [data-dark-mode] #ecosystem-tools > div div > div > p > a {
@@ -307,12 +315,17 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   color: $link-color-dark;
 }
 
+[data-dark-mode] .offcanvas .nav-link:hover span svg path,
+[data-dark-mode] .offcanvas .nav-link:focus span svg path {
+  fill: $link-color-dark;
+}
+
 [data-dark-mode] body .navbar-light .navbar-brand {
   color: $navbar-dark-color !important;
 }
 
 [data-dark-mode] .akash-logo-nav {
-  background-image: url($akash-logo-white) !important;
+  background-image: url($akash-logo-dark) !important;
 }
 
 [data-dark-mode] body .navbar-light .navbar-nav .nav-link {
@@ -499,7 +512,8 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 }
 
 [data-dark-mode] body .footer_wrapper {
-  background: $body-overlay-dark;
+  // background: $body-overlay-dark;
+  background: #3d3535;
 }
 
 @include media-breakpoint-up(lg) {
@@ -509,7 +523,7 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   }
 
   [data-dark-mode] body .footer_wrapper {
-    background: $body-overlay-dark;
+    background: #3d3535;
   }
 }
 
@@ -805,5 +819,207 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
     position: relative;
     margin-left: 10px;
     top: 3px;
+  }
+}
+
+// NAVBAR: new
+[data-dark-mode] .header {
+  background: #12121280;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+
+  .navbar-container {
+    .nav-btn-primary {
+      background-color: #cb4547;
+      color: #fff !important;
+
+      &:hover {
+        background-color: #ec5252;
+      }
+    }
+  }
+
+  .nav-links-container a {
+    color: #fff;
+
+    svg path {
+      fill: #fff;
+    }
+  }
+
+  .social-links {
+    a svg path {
+      stroke: #fff;
+    }
+  }
+
+  .hamburger-menu svg path {
+    stroke: #fff;
+  }
+
+  .small-device-navbar {
+    .sidebar {
+      background: $body-bg-dark;
+
+      .sidebar-links a,
+      .toggle-display-mode span,
+      .social-links a {
+        color: #fff;
+      }
+
+      .sidebar-links a svg path {
+        fill: #fff;
+      }
+    }
+  }
+}
+
+[data-dark-mode] .header::before {
+  background-color: #12121270;
+}
+
+// HERO SECTION: New
+[data-dark-mode] .hero {
+  .hero-title h1 {
+    color: #fff;
+  }
+  .hero-title-img {
+    filter: invert(100%);
+  }
+  .hero-subtitle {
+    color: #fff;
+    opacity: 0.8;
+  }
+  .hero-btn-container {
+    a {
+      background-color: #cb4547;
+      color: #fff;
+    }
+
+    a:nth-child(2) {
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+    a svg path {
+      stroke: #fff;
+    }
+    a:nth-child(2) svg path {
+      stroke: #fff;
+    }
+  }
+  .hero-footer {
+    color: #f59d9f;
+
+    a {
+      border-bottom: 2px solid #f59d9fbb;
+    }
+  }
+}
+[data-dark-mode] .hero-hr {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.16);
+}
+
+// FEATURES SECTION
+[data-dark-mode] .features-row {
+  h2,
+  p {
+    color: #fff;
+  }
+}
+[data-dark-mode] .features-column {
+  h2,
+  P {
+    color: #fff;
+  }
+}
+
+// LATEST FROM THE BLOG: new
+[data-dark-mode] .latest-blog-wrapper {
+  h3 {
+    color: #fff;
+  }
+
+  .latest-blog-cards-container {
+    .latest-blog-card {
+      background-color: $body-bg-dark;
+      border: 1px solid #4d4d4d;
+
+      .latest-blog-card-body {
+        .latest-blog-writer p {
+          color: #fff;
+        }
+
+        .latest-blog-title {
+          color: #fff;
+        }
+
+        .latest-blog-content div {
+          color: #fff;
+        }
+
+        .latest-blog-meta {
+          p:nth-child(1) {
+            color: #c2c2c2;
+          }
+
+          p:nth-child(2) {
+            color: #878787;
+          }
+        }
+      }
+    }
+  }
+}
+
+// CONNECT WITH COMMUNITY
+[data-dark-mode] .community-wrapper {
+  .community-left {
+    h3 {
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
+      opacity: 0.8;
+    }
+  }
+  .social-links a {
+    background-color: #ff9f9f;
+  }
+
+  .community-right {
+    .community-img {
+      svg path {
+        fill: #fff;
+      }
+    }
+
+    svg rect {
+      fill: #121212;
+      stroke: #4d4d4d;
+    }
+
+    svg #community_h path {
+      fill: #b3b3b3;
+    }
+
+    svg #community_h #Vector_24 {
+      fill: #563c3c;
+    }
+
+    svg circle {
+      opacity: 0.2;
+    }
+  }
+}
+
+// SUBSCRIBE SECTION
+[data-dark-mode] .subscribe-wrapper {
+  background-color: #3d3535;
+
+  h3,
+  a {
+    color: #fff;
   }
 }
