@@ -1023,3 +1023,32 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
     color: #fff;
   }
 }
+
+// SECTION THREE: NEW
+[data-dark-mode] .section-three-container {
+  .section-three-left {
+    @media only screen and (max-width: 768px) {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .tablinks {
+      p {
+        color: #878787;
+      }
+    }
+
+    .tablinks.active {
+      border-bottom: 4px solid #ff9f9f;
+      p {
+        color: #ff9f9f;
+      }
+    }
+  }
+
+  .section-three-right {
+    h5,
+    p {
+      color: #fff;
+    }
+  }
+}
