@@ -106,6 +106,9 @@ p.meta {
 .footer_wrapper h3 {
   font-size: 18px;
   text-align: left;
+  @media only screen and (min-width: 768px) {
+    font-size: 32px;
+  }
 }
 .footer_wrapper {
   background-color: #ffdede;
