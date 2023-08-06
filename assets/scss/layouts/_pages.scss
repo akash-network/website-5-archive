@@ -817,6 +817,10 @@ p.meta {
       gap: 6px;
       border-radius: 8px;
       transition: 0.3s ease-in-out;
+
+      svg path {
+        transition: 0.3s ease-in-out;
+      }
     }
     a:nth-child(2) {
       background-color: #fff;
@@ -875,8 +879,22 @@ p.meta {
   .hero-footer a:hover,
   .hero-btn-container a:focus,
   .hero-footer a:focus {
-    opacity: 0.85;
     text-decoration: none;
+  }
+
+  .hero-btn-container a:hover {
+    &:nth-child(1) {
+      background-color: #ec5252;
+    }
+
+    &:nth-child(2) {
+      border-color: #ec5252;
+      color: #ec5252;
+
+      svg path {
+        stroke: #ec5252;
+      }
+    }
   }
 }
 
@@ -986,7 +1004,7 @@ p.meta {
       }
 
       @media only screen and (max-width: 768px) {
-        min-width: 236px;
+        min-width: 264px;
       }
 
       .latest-blog-img {
@@ -1297,6 +1315,12 @@ p.meta {
     background-color: #fa5757;
     color: #fff;
     border-radius: 49px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #ec5252;
+    }
   }
 
   @media only screen and (max-width: 768px) {

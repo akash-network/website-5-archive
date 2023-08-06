@@ -831,6 +831,10 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
     .nav-btn-primary {
       background-color: #cb4547;
       color: #fff !important;
+
+      &:hover {
+        background-color: #ec5252;
+      }
     }
   }
 
