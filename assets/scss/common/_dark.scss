@@ -916,6 +916,20 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   color: rgba(255, 255, 255, 0.16);
 }
 
+// FEATURES SECTION
+[data-dark-mode] .features-row {
+  h2,
+  p {
+    color: #fff;
+  }
+}
+[data-dark-mode] .features-column {
+  h2,
+  P {
+    color: #fff;
+  }
+}
+
 // LATEST FROM THE BLOG: new
 [data-dark-mode] .latest-blog-wrapper {
   h3 {

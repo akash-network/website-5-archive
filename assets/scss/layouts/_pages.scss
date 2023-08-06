@@ -889,18 +889,50 @@ p.meta {
   padding: 0%;
 
   @media only screen and (max-width: 768px) {
-    display: none;
+    // width: 90%;
+    margin-top: 40px;
   }
 }
 // END HERO SECTION
 
+// FEATURES SECTION
+.features-row {
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  p {
+    font-size: 18px;
+    color: #000;
+  }
+}
+.features-column {
+  width: 80%;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #000;
+    margin-top: 40px;
+  }
+}
+// END FEATURES SECTION
+
 // LATEST BLOG SECTION
 .latest-blog-wrapper {
   margin-top: 100px;
+  scroll-behavior: smooth;
 
   @media only screen and (max-width: 768px) {
-    overflow-x: scroll;
-    scroll-behavior: smooth;
+    // overflow-x: scroll;
     width: 100%;
   }
 
@@ -1083,20 +1115,21 @@ p.meta {
 
     /* Overlay for the hover effect */
     .latest-blog-card::after {
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: #fa5757;
-      border: 1px solid black;
+      background-color: #fa575710;
+      border: 1px solid #666;
       opacity: 0;
       transition: all 0.5s ease-in-out;
     }
 
     /* Hover effect */
     .latest-blog-card:hover::after {
-      opacity: 0.1;
+      opacity: 1;
     }
     .latest-blog-card:hover .latest-blog-img img {
       transform: scale(1.05);
