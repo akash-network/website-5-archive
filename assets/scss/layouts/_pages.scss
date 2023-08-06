@@ -221,7 +221,7 @@ p.meta {
   }
 
   .section_features .groups_wrapper {
-    display: flex !important;
+    // display: flex !important;
     position: relative;
     justify-content: space-between;
     left: 30px;
@@ -1220,6 +1220,10 @@ p.meta {
       svg {
         width: 50%;
         height: 50%;
+
+        path {
+          stroke: #000;
+        }
       }
 
       @media only screen and (max-width: 768px) {

@@ -62,6 +62,10 @@ header {
 
   .social-links {
     gap: 14px;
+
+    a svg path {
+      stroke: #000;
+    }
   }
 
   // launch console
