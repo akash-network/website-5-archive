@@ -1009,3 +1009,13 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
     }
   }
 }
+
+// SUBSCRIBE SECTION
+[data-dark-mode] .subscribe-wrapper {
+  background-color: #3d3535;
+
+  h3,
+  a {
+    color: #fff;
+  }
+}

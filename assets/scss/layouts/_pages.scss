@@ -1266,3 +1266,61 @@ p.meta {
     }
   }
 }
+
+// SUBSCRIBE SECTION
+.subscribe-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: #ffdede;
+  margin-top: 40px;
+  padding: 60px 0 68px 0;
+  text-align: center;
+
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 734px;
+    color: #000;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 196px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fa5757;
+    color: #fff;
+    border-radius: 49px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h3 {
+      font-size: 24px;
+      max-width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    gap: 24px;
+    padding: 32px 0 40px 0;
+
+    h3 {
+      font-size: 18px;
+      max-width: 80%;
+    }
+
+    a {
+      width: 136px;
+      height: 44px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
