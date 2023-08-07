@@ -453,14 +453,14 @@
         </div>
 
         {{/*  category  */}}
-        <div class="latest-blog-category">
+        {{/*  <div class="latest-blog-category">
           {{ if .Params.categories -}}
             {{ range $index, $category := .Params.categories }}
             {{ if gt $index 0 }}, {{ end }}
             <p>{{ . }}</p>
             {{ end }}
           {{ end }}
-        </div>
+        </div>  */}}
         {{/*  contents  */}}
         <div class="latest-blog-card-body">
           <div>
@@ -474,7 +474,16 @@
                 {{ end }}
                 <p>{{ . }}</p>
               {{ end }}
-            {{ end }}        
+            {{ end }}      
+            
+            <div class="latest-blog-category">
+              {{ if .Params.categories -}}
+                {{ range $index, $category := .Params.categories }}
+                {{ if gt $index 0 }}, {{ end }}
+                <p>{{ . }}</p>
+                {{ end }}
+              {{ end }}
+            </div>
             </div>
 
             {{/*  blog title  */}}
