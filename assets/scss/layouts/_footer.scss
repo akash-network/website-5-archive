@@ -83,7 +83,10 @@
   .footer-title {
     display: flex;
     align-items: center;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 50px;
+    @media only screen and (max-width: 992px) {
+      padding: 0 10px 0 20px;
+    }
   }
   .footer-title-text {
     font-size: 26px;
@@ -98,7 +101,8 @@
   }
   .footer-container-2 {
     display: flex;
-    justify-content: space-around;
+    padding: 0 50px;
+    justify-content: space-between;
     @media only screen and (max-width: 992px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
