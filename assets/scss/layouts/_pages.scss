@@ -771,6 +771,26 @@ p.meta {
       color: #000;
       margin: 0 auto 0 auto;
 
+      .title-text {
+        .title-suffix {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+
+          @media only screen and (max-width: 576px) {
+            gap: 6px;
+
+            .title-suffix-text {
+              span {
+                display: block;
+                text-align: end;
+              }
+            }
+          }
+        }
+      }
+
       @media only screen and (max-width: 1200px) {
         font-size: 60px !important;
       }
@@ -788,9 +808,15 @@ p.meta {
     @media only screen and (max-width: 576px) {
       .hero-title-img {
         display: block;
+
+        svg {
+          width: 105px;
+          height: 100px;
+        }
       }
     }
   }
+
   .hero-subtitle {
     max-width: 950px;
     font-size: 18px;
@@ -803,6 +829,7 @@ p.meta {
       font-size: 16px;
     }
   }
+
   .hero-btn-container {
     margin-top: 59px;
     gap: 24px;
