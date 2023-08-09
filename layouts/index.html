@@ -28,6 +28,25 @@
     }  
   });
 
+  window.addEventListener('scroll', function () {
+  const testsContainer = document.querySelector('.tests-container');
+  const testsLeft = document.querySelector('.tests-left');
+  const testsContainerOffset = testsContainer.getBoundingClientRect().top;
+
+  if (testsContainerOffset <= 100) {
+    testsLeft.classList.add('sticky-test');
+  } else {
+    testsLeft.classList.remove('sticky-test');
+  }
+
+  const testsContainerOffsetBottom = testsContainer.getBoundingClientRect().bottom;
+
+  if(testsContainerOffsetBottom <= 300) {
+    testsLeft.classList.remove('sticky-test');
+    {{/*  testsLeft.style.position = 'sticky';  */}}
+  }
+})
+
 </script>
 
 
@@ -409,6 +428,34 @@
   
 </section>
 
+
+{{/*  test section  */}}
+{{/*  <section class="tests-container container">
+
+  <div class="tests-left-parent">
+    <div class="tests-left">
+      <a href="#1">tab 1</a>
+      <a href="#1">tab 2</a>
+      <a href="#1">tab 3</a>
+      <a href="#1">tab 4</a>
+    </div>
+  </div>
+
+  <div class="tests-right">
+    <p id="1">
+      1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi porro architecto temporibus omnis eveniet debitis veritatis labore consequatur unde. Pariatur omnis ratione, provident impedit vitae beatae ipsa. Soluta hic nesciunt ullam doloribus ipsum accusantium vitae saepe ducimus exercitationem dignissimos aliquam veniam rem nulla, magni sit expedita labore officiis aut!
+    </p>
+    <p id="2">
+      2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ipsum voluptate non officia, veritatis et sed obcaecati numquam deserunt laboriosam rerum sapiente autem distinctio cupiditate fugiat nulla eveniet? Voluptates, est!
+    </p>
+    <p id="3">
+      3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem atque dolor, maiores repudiandae impedit ex repellat. Aliquam harum illo nobis laborum repellat sapiente. Odio numquam quibusdam esse ex ullam nulla, tempora laborum quis dolorem harum assumenda similique ut iure quod aspernatur, cum veniam voluptas. Provident consequatur aperiam sed! Eum ducimus non voluptas nulla nisi doloremque labore quos, consequatur voluptates reiciendis?
+    </p>
+    <p id="4">
+      4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima consectetur blanditiis vel quo facilis repellendus eveniet, pariatur nisi id temporibus recusandae doloribus, impedit tempore illo corporis hic harum, mollitia obcaecati.
+    </p>
+  </div>
+</section>  */}}
 
 {{/*  LATEST FROM THE BLOG  */}}
 <section class="latest-blog-wrapper">
