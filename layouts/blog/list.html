@@ -85,14 +85,14 @@
         <div>
             {{/*  topics  */}}
             <div>
-                <ul class="">
+                <div class="">
                     {{ range .Site.Taxonomies.tags }}
-                    <li>
-                        <a class="" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} 
+                    <div>
+                        <a class="topic" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} 
                         </a> 
-                    </li>
+                    </div>
                     {{ end }}
-                </ul>                 
+                </div>                 
             </div>
         </div>
 
