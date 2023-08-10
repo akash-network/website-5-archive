@@ -1,5 +1,5 @@
 ---
-title: 'Empowering Communities: Akash Network's Journey through Inspiring Events'
+title: 'Empowering Communities: Akash Community Members at AwesomWasm & EthCC'
 date: '2023-08-09'
 lastmod:
 draft: yes
