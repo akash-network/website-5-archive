@@ -19,7 +19,7 @@ images:
 
 ---
 
-# Empowering Communities: Akash Network's Journey through Inspiring Events
+# Empowering Communities: Akash Community Members at AwesomWasm & EthCC
 
 In the heart of technological advancement in both cloud and AI, the Akash Network has carved its path as a beacon of community-driven growth. With a commitment to fostering collaboration, knowledge-sharing, and development, the network's community representatives recently embarked on an exhilarating journey through a series of impactful events in both Paris and Berlin. These gatherings not only showcased the immense potential of the Akash Network but also underscored the power of collective efforts in shaping the future of the Akash Network.
 
