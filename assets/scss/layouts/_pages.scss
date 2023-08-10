@@ -938,7 +938,6 @@ p.meta {
     margin-top: 40px;
   }
 }
-// END HERO SECTION
 
 // FEATURES SECTION
 .features-row {
@@ -969,7 +968,111 @@ p.meta {
     margin-top: 40px;
   }
 }
-// END FEATURES SECTION
+
+// SECTION THREE: NEW
+.section-three-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin-top: 200px;
+
+  @media only screen and (max-width: 1200px) {
+    margin-top: 120px;
+    gap: 40px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 48px;
+    overflow: hidden;
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .section-three-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 280px;
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: row;
+      align-items: flex-end;
+      gap: 56px;
+      width: 740px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .tablinks {
+      outline: none;
+      background: transparent;
+      border: none;
+      border-bottom: 4px solid #fa575700;
+      text-align: left;
+      width: 100%;
+      padding: 0;
+
+      @media only screen and (max-width: 768px) {
+        min-width: 196px;
+      }
+
+      p {
+        font-size: 24px;
+        font-weight: 700;
+        color: #787878;
+        width: 80%;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 18px;
+          width: 100%;
+        }
+      }
+    }
+
+    .tablinks.active {
+      border-bottom: 4px solid #fa5757;
+      p {
+        color: #fa5757;
+      }
+    }
+  }
+
+  .section-three-right {
+    max-width: 700px;
+
+    @media only screen and (max-width: 1200px) {
+      width: 80%;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    h5 {
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0;
+      color: #000;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      margin: 0;
+      padding: 20px 0 56px 0;
+      color: #000;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
 
 // LATEST BLOG SECTION
 .latest-blog-wrapper {
@@ -1213,7 +1316,6 @@ p.meta {
     }
   }
 }
-// END LATEST BLOG SECTION
 
 // CONNECT WITH COMMUNITY SECTION
 .community-wrapper {
@@ -1400,111 +1502,6 @@ p.meta {
       border-radius: 8px;
       font-size: 16px;
       font-weight: 500;
-    }
-  }
-}
-
-// SECTION THREE: NEW
-.section-three-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
-  margin-top: 200px;
-
-  @media only screen and (max-width: 1200px) {
-    margin-top: 120px;
-    gap: 40px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    margin-top: 100px;
-    flex-direction: column;
-    gap: 48px;
-    overflow: hidden;
-  }
-
-  .scrollbar-hidden::-webkit-scrollbar {
-    width: 0;
-  }
-
-  .section-three-left {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    min-width: 280px;
-
-    @media only screen and (max-width: 768px) {
-      flex-direction: row;
-      align-items: flex-end;
-      gap: 56px;
-      width: 740px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    }
-
-    .tablinks {
-      outline: none;
-      background: transparent;
-      border: none;
-      border-bottom: 4px solid #fa575700;
-      text-align: left;
-      width: 100%;
-      padding: 0;
-
-      @media only screen and (max-width: 768px) {
-        min-width: 196px;
-      }
-
-      p {
-        font-size: 24px;
-        font-weight: 700;
-        color: #787878;
-        width: 80%;
-
-        @media only screen and (max-width: 768px) {
-          font-size: 18px;
-          width: 100%;
-        }
-      }
-    }
-
-    .tablinks.active {
-      border-bottom: 4px solid #fa5757;
-      p {
-        color: #fa5757;
-      }
-    }
-  }
-
-  .section-three-right {
-    max-width: 700px;
-
-    @media only screen and (max-width: 1200px) {
-      width: 80%;
-    }
-    @media only screen and (max-width: 768px) {
-      width: 100%;
-    }
-
-    h5 {
-      font-size: 24px;
-      font-weight: 700;
-      margin: 0;
-      color: #000;
-
-      @media only screen and (max-width: 768px) {
-        font-size: 18px;
-      }
-    }
-
-    p {
-      font-size: 18px;
-      margin: 0;
-      padding: 20px 0 56px 0;
-      color: #000;
-
-      @media only screen and (max-width: 768px) {
-        font-size: 16px;
-      }
     }
   }
 }

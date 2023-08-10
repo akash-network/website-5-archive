@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <!-- //mobile device carousel -->
-{{/*  {{ partial "owl/owlcarousel.html" . }}  */}}
+{{/* {{ partial "owl/owlcarousel.html" . }} */}}
 
 <script>
   function openTab(evt, id) {
@@ -10,7 +10,7 @@
     tabcontents.forEach((tabcontent) => {
       tabcontent.style.display = "none";
     });
-  
+
     const tablinks = document.querySelectorAll(".tablinks");
     tablinks.forEach((tablink) => {
       tablink.classList.remove("active");
@@ -25,149 +25,171 @@
     const defaultTab = document.querySelector(".tablinks:first-child");
     if (defaultTab) {
       defaultTab.click();
-    }  
+    }
   });
 
-  window.addEventListener('scroll', function () {
-  const testsContainer = document.querySelector('.tests-container');
-  const testsLeft = document.querySelector('.tests-left');
-  const testsContainerOffset = testsContainer.getBoundingClientRect().top;
+  window.addEventListener("scroll", function () {
+    const testsContainer = document.querySelector(".tests-container");
+    const testsLeft = document.querySelector(".tests-left");
+    const testsContainerOffset = testsContainer.getBoundingClientRect().top;
 
-  if (testsContainerOffset <= 100) {
-    testsLeft.classList.add('sticky-test');
-  } else {
-    testsLeft.classList.remove('sticky-test');
-  }
+    if (testsContainerOffset <= 100) {
+      testsLeft.classList.add("sticky-test");
+    } else {
+      testsLeft.classList.remove("sticky-test");
+    }
 
-  const testsContainerOffsetBottom = testsContainer.getBoundingClientRect().bottom;
+    const testsContainerOffsetBottom =
+      testsContainer.getBoundingClientRect().bottom;
 
-  if(testsContainerOffsetBottom <= 300) {
-    testsLeft.classList.remove('sticky-test');
-    {{/*  testsLeft.style.position = 'sticky';  */}}
-  }
-})
-
+    if (testsContainerOffsetBottom <= 300) {
+      testsLeft.classList.remove("sticky-test");
+    }
+  });
 </script>
 
-
-
-{{/*  HERO SECTION  */}}
+{{/* HERO SECTION */}}
 <section class="hero">
   <div class="flex-column-center text-center">
     <div class="hero-title">
       <h1>
         <span class="title-text">
-          {{ $titleWords := split .Title " " }}
-          {{ range $index, $word := first (sub (len $titleWords) 2) $titleWords }}
-            {{ if $index }}
-              {{ " " }}
-            {{ end }}
-            {{ $word }}
-          {{ end }}
-          <br>
+          {{ $titleWords := split .Title " " }} {{ range $index, $word := first
+          (sub (len $titleWords) 2) $titleWords }} {{ if $index }} {{ " " }} {{
+          end }} {{ $word }} {{ end }}
+          <br />
           <div class="title-suffix">
             <div class="title-suffix-text">
               <span class="">{{ index (last 2 (split .Title " ")) 0 }}</span>
               <span class="">{{ index (last 2 (split .Title " ")) 1 }}</span>
             </div>
 
-            <span class="hero-title-img" id="hero-img-container">{{partial "content/svg.html" "hero-img"}}</span>
+            <span class="hero-title-img" id="hero-img-container"
+              >{{partial "content/svg.html" "hero-img"}}</span
+            >
           </div>
         </span>
       </h1>
     </div>
     <div class="text-center">
       <p class="hero-subtitle">{{ .Params.lead | safeHTML }}</p>
-      
+
       <div class="hero-btn-container flex-row-center">
-        {{/* button: get started  */}}
-        <a class="flex-row-center" href="https://console.akash.network" role="button"
-          target="_blank">
-          <span>
-            {{ partial "content/svg.html" "arrow-right-circle" }}
-          </span> 
+        {{/* button: get started */}}
+        <a
+          class="flex-row-center"
+          href="https://console.akash.network"
+          role="button"
+          target="_blank"
+        >
+          <span> {{ partial "content/svg.html" "arrow-right-circle" }} </span>
           {{ i18n "get-started" }}
         </a>
-  
-        {{/* button: docs  */}}
-        <a class="flex-row-center" href="https://docs.akash.network/" role="button"
-          target="_blank">
-          <span>
-            {{ partial "content/svg.html" "submit-document" }}
-          </span> 
+
+        {{/* button: docs */}}
+        <a
+          class="flex-row-center"
+          href="https://docs.akash.network/"
+          role="button"
+          target="_blank"
+        >
+          <span> {{ partial "content/svg.html" "submit-document" }} </span>
           {{ i18n "docs" }}
         </a>
- 
       </div>
 
-      {{/* open source...  */}}
-      <p class="hero-footer"><a href="https://github.com/akash-network" target="_blank">Open-source.</a> Apache 2.0 Licensed. <a href="https://github.com/akash-network/node" target="_blank">{{ $data :=
-          getJSON "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{ $data.name }}.</a></p>
+      {{/* open source... */}}
+      <p class="hero-footer">
+        <a href="https://github.com/akash-network" target="_blank"
+          >Open-source.</a
+        >
+        Apache 2.0 Licensed.
+        <a href="https://github.com/akash-network/node" target="_blank"
+          >{{ $data := getJSON
+          "https://api.github.com/repos/ovrclk/akash/releases/latest" }}{{
+          $data.name }}.</a
+        >
+      </p>
     </div>
   </div>
 </section>
-<hr class="hero-hr">
+<hr class="hero-hr" />
 
-{{ end }}
-
-{{ define "sidebar-prefooter" }}
-{{ if eq $.Site.Language.LanguageName "English" }}
-
-
-{{/*  FEATURES SECTION  */}}
+{{ end }} {{ define "sidebar-prefooter" }} {{ if eq $.Site.Language.LanguageName
+"English" }} {{/* FEATURES SECTION */}}
 <section class="section section-sm mt-5 feature_section">
-  <div class="container text-left d-none d-lg-flex flex-column align-items-center justify-content-center" style="margin-top: 140px;">
-    {{/*  1  */}}
-    <div class="flex-row m-5 d-flex align-items-center justify-content-center features-row" style="gap: 20px;">
-       {{/*  img  */}}
-       <div class="col text-start svg-container">
+  <div
+    class="container text-left d-none d-lg-flex flex-column align-items-center justify-content-center"
+    style="margin-top: 140px"
+  >
+    {{/* 1 */}}
+    <div
+      class="flex-row m-5 d-flex align-items-center justify-content-center features-row"
+      style="gap: 20px"
+    >
+      {{/* img */}}
+      <div class="col text-start svg-container">
         {{ partial "content/svg.html" "cloud_new" }}
       </div>
-      {{/*  content  */}}
+      {{/* content */}}
       <div class="col">
-        <h2 class="h4 utility">You will own your cloud, and you will be happy</h2>
-        <p>With Akash, you have the power to own your cloud.
-          You can deploy your own cloud infrastructure, and you can sell
-          your unused cloud resources to others.
-           You can also buy cloud resources from others, and you can use them to run your applications.</p>
+        <h2 class="h4 utility">
+          You will own your cloud, and you will be happy
+        </h2>
+        <p>
+          With Akash, you have the power to own your cloud. You can deploy your
+          own cloud infrastructure, and you can sell your unused cloud resources
+          to others. You can also buy cloud resources from others, and you can
+          use them to run your applications.
+        </p>
       </div>
-       
     </div>
-    {{/*  2  */}}
-    <div class="flex-row-reverse m-5 d-flex align-items-center justify-content-center  features-row">
-      {{/*  img  */}}
+    {{/* 2 */}}
+    <div
+      class="flex-row-reverse m-5 d-flex align-items-center justify-content-center features-row"
+    >
+      {{/* img */}}
       <div class="col text-end svg-container">
         {{ partial "content/svg.html" "fingertips" }}
-      </div> 
-      {{/*  content  */}}
-      <div class="col">
-        <h2 class="h4 super">Supercloud at your fingertips, at a price you choose</h2>
-        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
-          makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
-          customers submit their desired price and providers compete for the business. This often results in prices up
-          to 85% lower than other cloud systems.</p>
       </div>
-
+      {{/* content */}}
+      <div class="col">
+        <h2 class="h4 super">
+          Supercloud at your fingertips, at a price you choose
+        </h2>
+        <p>
+          Akash is an open
+          <a href="http://supercloud.cs.cornell.edu/" target="_blank">
+            Supercloud
+          </a>
+          network that makes it easy to rapidly scale and access services around
+          the world. It uses a "reverse auction" system, where customers submit
+          their desired price and providers compete for the business. This often
+          results in prices up to 85% lower than other cloud systems.
+        </p>
+      </div>
     </div>
-    {{/*  3  */}}
-    <div class="flex-row-reverse m-5 d-flex align-items-center justify-content-center  features-row">
-      {{/*  content  */}}
+    {{/* 3 */}}
+    <div
+      class="flex-row-reverse m-5 d-flex align-items-center justify-content-center features-row"
+    >
+      {{/* content */}}
       <div class="col">
         <h2 class="h4 utility">Built for battle, commanded by the community</h2>
-        <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
-          it is available to everyone. It is built on dependable technologies like Kubernetes and Cosmos, and
-          the community oversees all aspects of Akash — including decisions about what new features should be
-          implemented.</p>
+        <p>
+          Akash is owned and managed by its community. It is a free public
+          service, and the source code that powers it is available to everyone.
+          It is built on dependable technologies like Kubernetes and Cosmos, and
+          the community oversees all aspects of Akash — including decisions
+          about what new features should be implemented.
+        </p>
       </div>
-      {{/*  img  */}}
+      {{/* img */}}
       <div class="col text-start svg-container">
         {{ partial "content/svg.html" "community_h" }}
       </div>
     </div>
-    </div>
-    </div>
   </div>
-
 
   <!-- Mobile Version -->
   <div class="container justify-content-center text-center d-lg-none">
@@ -178,317 +200,220 @@
         </div>
         <h2 class="">You will own your cloud, and you will be happy</h2>
         <p>
-          With Akash, you have the power to own your cloud. You can deploy your own cloud infrastructure, and you can
-          sell your unused cloud resources to others. You can also buy cloud resources from others, and you can use them
-          to run your applications.
+          With Akash, you have the power to own your cloud. You can deploy your
+          own cloud infrastructure, and you can sell your unused cloud resources
+          to others. You can also buy cloud resources from others, and you can
+          use them to run your applications.
         </p>
-
       </div>
     </div>
 
     <div class="row">
-      <div class="col features-column" style="margin-top: 96px;">
+      <div class="col features-column" style="margin-top: 96px">
         <div class="d-flex justify-content-center mx-auto svg-container">
           {{ partial "content/svg.html" "Calculator_mobile" }}
         </div>
         <h2 class="">Supercloud at your fingertips, at a price you choose</h2>
-        <p>Akash is an open <a href="http://supercloud.cs.cornell.edu/" target="_blank"> Supercloud </a> network that
-          makes it easy to rapidly scale and access services around the world. It uses a "reverse auction" system, where
-          customers submit their desired price and providers compete for the business. This often results in prices up
-          to 85% lower than other cloud systems.</p>
+        <p>
+          Akash is an open
+          <a href="http://supercloud.cs.cornell.edu/" target="_blank">
+            Supercloud
+          </a>
+          network that makes it easy to rapidly scale and access services around
+          the world. It uses a "reverse auction" system, where customers submit
+          their desired price and providers compete for the business. This often
+          results in prices up to 85% lower than other cloud systems.
+        </p>
       </div>
     </div>
-    <div class="row ">
-      <div class="col features-column" style="margin-top: 96px;">
+    <div class="row">
+      <div class="col features-column" style="margin-top: 96px">
         <div class="d-flex justify-content-center mx-auto svg-container">
           {{ partial "content/svg.html" "Gestures_mobile" }}
         </div>
         <h2 class="">Purpose built for public utility</h2>
-        <p>Akash is owned and managed by its community. It is a free public service, and the source code that powers
-          it is available to everyone. It has been built on dependable technologies like Kubernetes and Cosmos, and
-          the community oversees all aspects of Akash, including decisions about what new features should be
-          implemented.</p>
+        <p>
+          Akash is owned and managed by its community. It is a free public
+          service, and the source code that powers it is available to everyone.
+          It has been built on dependable technologies like Kubernetes and
+          Cosmos, and the community oversees all aspects of Akash, including
+          decisions about what new features should be implemented.
+        </p>
       </div>
-
     </div>
   </div>
-  </div>
-
 </section>
 
-{{/*  <hr class="hr_">  */}}
-
-{{/*  SECTION THREE  */}}
-{{/*  <section class="section section-sm text-left section_features" style="padding-bottom: 64px; margin-top: 100px;">
-  <div class="container d-none d-sm-block groups_wrapper">
-    <div class="d-flex justify-content-center pt-5">
-      <div class="d-flex justify-content-center titles mx-auto three-groups-wrapper" style="gap: 100px;">
-        <div class="" style="position: sticky !important;">
-          <div class="sticky-top" style="top: 80px; margin-top: 30px;">
-              <h3><span class="group-1_header" style="cursor: pointer !important;">Infrastructure and Resource Management</span></h3>
-            <div class="featured_header " style="margin-top: 70px;">
-                <h3><span class="group-2_header" style="cursor: pointer !important;">Security and Privacy</span></h3>
-            </div>
-            <div class="featured_header " style="margin-top: 70px;">
-                <h3><span class="group-3_header" style="cursor: pointer !important;">Blockchain and Interoperability</span></h3>
-            </div>
-          </div>
-        </div>
-
-        <div class="group-1" id="infra" class="three-groups-text-section" style="padding-top: -17px; margin-top: 7px; ">
-          <h5 style="">Infrastructure as a Code</h5>
-          <p class="feature_detail_2">Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.</p>
-          <div style="margin-top: 40px;">
-            <h5  class="group-2">Kubernetes Powered</h5>
-            <p class="feature_detail_2">Akash runs on Kubernetes, the industry-leading container orchestration system. <span id="security">With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</span></p>
-          </div>
-
-          <div id="infra" class="group-1" style="margin-top: 40px;">
-            <div id="#security" class="runss"></div>
-            <h5 class="">Persistent Storage</h5>
-            <p class="feature_detail_2">Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.</p>
-          </div>
-          <div class="group-2" style="margin-top: 100px;">
-            <h5 class="dedicated">Dedicated IP Leasing</h5>
-            <p class="feature_detail_2">Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more.</p>
-          </div>
-          <div style="margin-top: 40px;">
-            <h5 class="">Censorship Resistant and Unstoppable</h5>
-            <p class="feature_detail_2 group-3">Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored.</p>
-          </div>
-
-          <div  class="group-2" style="margin-top: 40px;">
-            <h5 class="">Peer-to-peer and Private</h5>
-            <p  class="feature_detail_2 peer-header">You and the provider you're using to deploy
-               your application communicate directly, without any external parties. This makes sure
-                your data stays secure and private, and no one can claim a portion of your payments
-                 or keep track of what's happening.Furthermore, Akash's lack of central
-                  control makes it dependable and unaffected by single point of failure.</p>
-          </div>
-          <div class="group-2" style="margin-top: 40px;">
-            <h5 class="">Pseudonymous and Non-attributable</h5>
-            <p class="feature_detail_2">The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
-          </div>
-          <div class="group-3"  style="margin-top: 100px;">
-            <h5 class="">Layer One Protocol</h5>
-            <p class="feature_detail_2">Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its network of decentralized validators. The network can be validated without permission and is secured by AKT, its native token.</p>
-          </div>
-          <div class="group-3" style="margin-top: 40px;">
-            <h5 class="">Interoperable with IBC</h5>
-            <p class="feature_detail_2">Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>  */}}
-
-<!-- MOBILE VERSION -->
-{{/*  <div class="owl-carousel container" >
-  <div >
-    <div class="carousel-container container">
-      <h4 class="" style="width: 300px;">Infrastructure
-        and Resource
-        Management</h4>
-      <h5 class="" style="width: 342px; margin-top: -20px;">Infrastructure as Code</h5>
-        <p style="width: 342px;">Akash's orchestration layer is powered by SDL.
-          This simple-to-use YAML-based language lets you create complex deployments that span multiple
-           areas and providers while
-          choosing the resources you want to use and deciding on your price.</p>
-      <h5 class="" style="width: 342px;">Kubernetes Powered</h5>
-        <p style="width: 342px;">Akash runs on Kubernetes, the industry-leading container orchestration system.
-          With this in place, you can rest assured that your applications will be hosted
-          on a secure and reliable platform that has been tested and proven to work.</p>
-      <h5 class="" style="width: 342px;">Persistent Storage</h5>
-        <p style="width: 342px; ">Akash's orchestration layer is powered by SDL.
-          This simple-to-use YAML-based language lets you create complex deployments that span multiple
-           areas and providers while
-          choosing the resources you want to use and deciding on your price.</p>
-      </div>
-  </div>
-
-
-  <div class="carousel-container container">
-  <h4 class="">Blockchain and <br />Interoperability</h4>
-  <h5 class="" style="width: 342px; margin-top: -25px;">Dedicated IP Leasing</h5>
-  <p class="" style="width: 342px;">Akash gives you the ability to rent a dedicated IP address
-    for your application. This allows you to assign any port of your choice to your deployment,
-    and then direct traffic towards it.
-    This is especially useful for services such as DNS, web servers, and more.</p>
-  <h5 class="" style="width: 342px; ">Layer One Protocol</h5>
-  <p class="" style="width: 342px;">Akash is a layer one protocol built using Cosmos SDK that
-    uses Proof-of-Stake consensus to secure its network of decentralized validators.
-    The network can be validated without permission and is secured by AKT, its native token.</p>
-  <h5 class="" style="width: 342px;">Interoperable with IBC</h5>
-  <p class="" style="width: 342px;">Akash is the first blockchain to successfully
-    carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub.
-   This makes Akash able to communicate natively with other blockchains
-   that are also IBC compatible</p>
-  </div>
-
-  <div class="carousel-container container">
-    <h4 class="">Security and Privacy</h4>
-    <h5 class="" style="width: 342px; margin-top: -20px;"> Peer-to-peer and Private</h5>
-    <p style="width: 342px;">You and the provider you're using to deploy
-      your application communicate directly, without any external parties. This makes sure
-       your data stays secure and private, and no one can claim a portion of your payments
-        or keep track of what's happening.Furthermore, Akash's lack of central
-         control makes it dependable and unaffected by single point of failure.</p>
-  <h5 class="" style="width: 342px;">Censorship Resistant and Unstoppable </h5>
-    <p style="width: 342px;">Deploying applications on Akash is open to everyone, and is
-       secure and censorship-proof.
-      Nobody can stop you from using Akash to build apps that can't be censored.</p>
-
-  <h5 class="" style="width: 342px;">Pseudonymous and  <br /> Non-attributable</h5>
-    <p style="width: 342px;">The Akash protocol is designed to protect your identity, providing a high
-      level of privacy and security.
-       You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
-    </div>
-</div>  */}}
-
-{{/*  SECTION THREE: NEW  */}}
+{{/* SECTION THREE: NEW */}}
 <section class="section-three">
-
   <div class="section-three-container container-lg">
-    {{/*  left  */}}
+    {{/* left */}}
     <div class="overflow-auto scrollbar-hidden">
       <div id="tab-links-container" class="section-three-left sticky-tabs">
         <button class="tablinks" onclick="openTab(event, '1')">
-          <p>
-            Infrastructure and Resource Management
-          </p>
+          <p>Infrastructure and Resource Management</p>
         </button>
         <button class="tablinks" onclick="openTab(event, '2')">
-          <p>
-            Security and Privacy
-          </p>
+          <p>Security and Privacy</p>
         </button>
         <button class="tablinks" onclick="openTab(event, '3')">
-          <p>
-            Blockchain and interoperability
-          </p>
+          <p>Blockchain and interoperability</p>
         </button>
       </div>
     </div>
 
-    {{/*  right  */}}
+    {{/* right */}}
     <div class="section-three-right">
-
-        <div class="tab-content" id="1">       
-          <div>
-            <h5>Infrastructure as a Code</h5>
-            <p>Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.</p>
-          </div>
-          <div>
-            <h5>Kubernetes Powered</h5>
-            <p>Akash runs on Kubernetes, the industry-leading container orchestration system. With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</p>
-          </div>   
-          <div>
-            <h5>Persistent Storage</h5>
-            <p>Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.</p>
-          </div>     
+      <div class="tab-content" id="1">
+        <div>
+          <h5>Infrastructure as a Code</h5>
+          <p>
+            Akash's orchestration layer is powered by SDL. This simple-to-use
+            YAML-based language lets you create complex deployments that span
+            multiple areas and providers while choosing the resources you want
+            to use and deciding on your price.
+          </p>
         </div>
-
-        <div class="tab-content" id="2">
-          <div>
-            <h5>Dedicated IP Leasing</h5>
-            <p>Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more.</p>
-          </div>
-          <div>
-            <h5>Censorship Resistant and Unstoppable</h5>
-            <p>Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored.</p>
-          </div>
-          <div>
-            <h5>Peer-to-peer and Private</h5>
-            <p>You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening.Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.</p>
-          </div>
+        <div>
+          <h5>Kubernetes Powered</h5>
+          <p>
+            Akash runs on Kubernetes, the industry-leading container
+            orchestration system. With this in place, you can rest assured that
+            your applications will be hosted on a secure and reliable platform
+            that has been tested and proven to work.
+          </p>
         </div>
-
-        <div  class="tab-content" id="3">
-          <div>
-            <h5>Peer-to-peer and Private</h5>
-            <p>You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening.Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.</p>
-          </div>
-          <div>
-            <h5>Pseudonymous and Non-attributable</h5>
-            <p>The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
-          </div>
-          <div>
-            <h5>Layer One Protocol</h5>
-            <p>Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its network of decentralized validators. The network can be validated without permission and is secured by AKT, its native token.</p>
-          </div>
-          <div>
-            <h5>Interoperable with IBC</h5>
-            <p>Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.</p>
-          </div>
+        <div>
+          <h5>Persistent Storage</h5>
+          <p>
+            Akash offers a limitless storage system that saves your data even
+            after restarting. This is ideal for databases and programs that
+            store large datasets.
+          </p>
         </div>
+      </div>
 
+      <div class="tab-content" id="2">
+        <div>
+          <h5>Dedicated IP Leasing</h5>
+          <p>
+            Akash gives you the ability to rent a dedicated IP address for your
+            application. This allows you to assign any port of your choice to
+            your deployment and then direct traffic towards it. This is
+            especially useful for services such as DNS, web servers, and more.
+          </p>
+        </div>
+        <div>
+          <h5>Censorship Resistant and Unstoppable</h5>
+          <p>
+            Deploying applications on Akash is open to everyone and is secure
+            and censorship-proof. Nobody can stop you from using Akash to build
+            apps that can't be censored.
+          </p>
+        </div>
+        <div>
+          <h5>Peer-to-peer and Private</h5>
+          <p>
+            You and the provider you're using to deploy your application
+            communicate directly, without any external parties. This makes sure
+            your data stays secure and private, and no one can claim a portion
+            of your payments or keep track of what's happening.Furthermore,
+            Akash's lack of central control makes it dependable and unaffected
+            by single point of failure.
+          </p>
+        </div>
+      </div>
+
+      <div class="tab-content" id="3">
+        <div>
+          <h5>Peer-to-peer and Private</h5>
+          <p>
+            You and the provider you're using to deploy your application
+            communicate directly, without any external parties. This makes sure
+            your data stays secure and private, and no one can claim a portion
+            of your payments or keep track of what's happening.Furthermore,
+            Akash's lack of central control makes it dependable and unaffected
+            by single point of failure.
+          </p>
+        </div>
+        <div>
+          <h5>Pseudonymous and Non-attributable</h5>
+          <p>
+            The Akash protocol is designed to protect your identity, providing a
+            high level of privacy and security. You can use it to deploy
+            applications anonymously, without anyone knowing who you are.
+          </p>
+        </div>
+        <div>
+          <h5>Layer One Protocol</h5>
+          <p>
+            Akash is a layer one protocol built using Cosmos SDK that uses
+            Proof-of-Stake consensus to secure its network of decentralized
+            validators. The network can be validated without permission and is
+            secured by AKT, its native token.
+          </p>
+        </div>
+        <div>
+          <h5>Interoperable with IBC</h5>
+          <p>
+            Akash is the first blockchain to successfully carry out an
+            Inter-Blockchain Communication (IBC) transaction with Cosmos Hub.
+            This makes Akash able to communicate natively with other blockchains
+            that are also IBC compatible.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-  
 </section>
 
-
-{{/*  test section  */}}
-{{/*  <section class="tests-container container">
-
-  <div class="tests-left-parent">
-    <div class="tests-left">
-      <a href="#1">tab 1</a>
-      <a href="#1">tab 2</a>
-      <a href="#1">tab 3</a>
-      <a href="#1">tab 4</a>
-    </div>
-  </div>
-
-  <div class="tests-right">
-    <p id="1">
-      1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi porro architecto temporibus omnis eveniet debitis veritatis labore consequatur unde. Pariatur omnis ratione, provident impedit vitae beatae ipsa. Soluta hic nesciunt ullam doloribus ipsum accusantium vitae saepe ducimus exercitationem dignissimos aliquam veniam rem nulla, magni sit expedita labore officiis aut!
-    </p>
-    <p id="2">
-      2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ipsum voluptate non officia, veritatis et sed obcaecati numquam deserunt laboriosam rerum sapiente autem distinctio cupiditate fugiat nulla eveniet? Voluptates, est!
-    </p>
-    <p id="3">
-      3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem atque dolor, maiores repudiandae impedit ex repellat. Aliquam harum illo nobis laborum repellat sapiente. Odio numquam quibusdam esse ex ullam nulla, tempora laborum quis dolorem harum assumenda similique ut iure quod aspernatur, cum veniam voluptas. Provident consequatur aperiam sed! Eum ducimus non voluptas nulla nisi doloremque labore quos, consequatur voluptates reiciendis?
-    </p>
-    <p id="4">
-      4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus eveniet ad ut earum porro vel omnis nostrum similique recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima consectetur blanditiis vel quo facilis repellendus eveniet, pariatur nisi id temporibus recusandae doloribus, impedit tempore illo corporis hic harum, mollitia obcaecati.
-    </p>
-  </div>
-</section>  */}}
-
-{{/*  LATEST FROM THE BLOG  */}}
+{{/* LATEST FROM THE BLOG */}}
 <section class="latest-blog-wrapper">
-  {{/*  <div class="blog_post_wrapper" style="margin-top: 100px;">
- <div class="container justify-content-center align-items-center mx-auto">
-    <div class="related-posts">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-sm-6 col-md-13">
-          <h3 class="blog-title" style="margin-left: -17px;">Latest From The Blog</h3>
-      </div>
-      </div>
+  {{/*
+  <div class="blog_post_wrapper" style="margin-top: 100px">
+    <div class="container justify-content-center align-items-center mx-auto">
+      <div class="related-posts">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-sm-6 col-md-13">
+            <h3 class="blog-title" style="margin-left: -17px">
+              Latest From The Blog
+            </h3>
+          </div>
+        </div>
 
-        <div class="blog_wrapper row justify-content-center align-items-center" style="gap: 50px; margin-top: 48px;">
+        <div
+          class="blog_wrapper row justify-content-center align-items-center"
+          style="gap: 50px; margin-top: 48px"
+        >
           {{- range (where site.RegularPages "Section" "blog" | first 3) }}
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="" style="border: 1px solid rgba(0, 0, 0, 0.24);">
-
+            <div class="" style="border: 1px solid rgba(0, 0, 0, 0.24)">
               <a class="" href="{{ .RelPermalink }}">
-                {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
-                {{ partial "content/card-image.html" . }}
+                {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}} {{
+                partial "content/card-image.html" . }}
               </a>
-              <div class="card" style="border: none;">
+              <div class="card" style="border: none">
                 <article>
                   {{ partial "main/writer.html" . -}}
-                  <h2 class="" style="height: 64px;
-                  width: 297px;
-                  font-family: Satoshi;
-                  font-size: 23px;
-                  font-weight: 700;
-                  letter-spacing: 0em;
-                  text-align: left;
-                  margin-bottom: 30px;">
-                    <a class="text-body" style="font-size: 30px !important; width: 70px !important;" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+                  <h2
+                    class=""
+                    style="
+                      height: 64px;
+                      width: 297px;
+                      font-family: Satoshi;
+                      font-size: 23px;
+                      font-weight: 700;
+                      letter-spacing: 0em;
+                      text-align: left;
+                      margin-bottom: 30px;
+                    "
+                  >
+                    <a
+                      class="text-body"
+                      style="font-size: 30px !important; width: 70px !important"
+                      href="{{ .RelPermalink }}"
+                      >{{ .Params.title }}</a
+                    >
                   </h2>
                 </article>
                 {{ partial "main/blog-meta.html" . -}}
@@ -496,102 +421,90 @@
             </div>
           </div>
           {{ end -}}
+        </div>
       </div>
     </div>
   </div>
-  </div>  */}}
+  */}}
 
   <div>
-  {{/*  title  */}}
-  <h3  class="container-lg">Latest From The Blog</h3>
+    {{/* title */}}
+    <h3 class="container-lg">Latest From The Blog</h3>
 
-  {{/*  cards container  */}}
-  <div class="latest-blog-cards-container container-lg">
-    {{- range (where site.RegularPages "Section" "blog" | first 3) }}
-
-    {{/*  card  */}}
-    <a class="latest-blog-card" href="{{ .RelPermalink }}">
-      <div class="latest-blog-card-contents">
-        {{/*  img  */}}
-        <div class="latest-blog-img">
-          {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
-          {{ partial "content/card-image.html" . }}
-        </div>
-
-        {{/*  category  */}}
-        {{/*  <div class="latest-blog-category">
-          {{ if .Params.categories -}}
-            {{ range $index, $category := .Params.categories }}
-            {{ if gt $index 0 }}, {{ end }}
-            <p>{{ . }}</p>
-            {{ end }}
-          {{ end }}
-        </div>  */}}
-        {{/*  contents  */}}
-        <div class="latest-blog-card-body">
-          <div>
-            {{/*  writer  */}}
-            <div class="latest-blog-writer">
-              {{ if .Params.contributors -}}
-              {{ $last := sub (len .Params.contributors) 1 }}
-              {{ range $index, $contributor := .Params.contributors }}
-                {{ if gt $index 0 }}
-                  {{ if eq $index $last }} and {{ else }}, {{ end }}
-                {{ end }}
-                <p>{{ . }}</p>
-              {{ end }}
-            {{ end }}      
-            
-            <div class="latest-blog-category">
-              {{ if .Params.categories -}}
-                {{ range $index, $category := .Params.categories }}
-                {{ if gt $index 0 }}, {{ end }}
-                <p>{{ . }}</p>
-                {{ end }}
-              {{ end }}
-            </div>
-            </div>
-
-            {{/*  blog title  */}}
-            <h3 class="latest-blog-title">
-                {{ .Params.title }}
-            </h3>
-
-            {{/*  blog content  */}}
-            <div class="latest-blog-content">
-              <div>
-                {{ .Content | truncate 120 }}
-              </div>
-            </div>
+    {{/* cards container */}}
+    <div class="latest-blog-cards-container container-lg">
+      {{- range (where site.RegularPages "Section" "blog" | first 3) }} {{/*
+      card */}}
+      <a class="latest-blog-card" href="{{ .RelPermalink }}">
+        <div class="latest-blog-card-contents">
+          {{/* img */}}
+          <div class="latest-blog-img">
+            {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}} {{ partial
+            "content/card-image.html" . }}
           </div>
 
-          <div class="latest-blog-meta">
-            {{/*  min  */}}
-            <p>{{ .ReadingTime }} min read</p>
-            {{/*  date  */}}
-            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>   
-          </div>     
+          {{/* category */}} {{/*
+          <div class="latest-blog-category">
+            {{ if .Params.categories -}} {{ range $index, $category :=
+            .Params.categories }} {{ if gt $index 0 }}, {{ end }}
+            <p>{{ . }}</p>
+            {{ end }} {{ end }}
+          </div>
+          */}} {{/* contents */}}
+          <div class="latest-blog-card-body">
+            <div>
+              {{/* writer */}}
+              <div class="latest-blog-writer">
+                {{ if .Params.contributors -}} {{ $last := sub (len
+                .Params.contributors) 1 }} {{ range $index, $contributor :=
+                .Params.contributors }} {{ if gt $index 0 }} {{ if eq $index
+                $last }} and {{ else }}, {{ end }} {{ end }}
+                <p>{{ . }}</p>
+                {{ end }} {{ end }}
+
+                <div class="latest-blog-category">
+                  {{ if .Params.categories -}} {{ range $index, $category :=
+                  .Params.categories }} {{ if gt $index 0 }}, {{ end }}
+                  <p>{{ . }}</p>
+                  {{ end }} {{ end }}
+                </div>
+              </div>
+
+              {{/* blog title */}}
+              <h3 class="latest-blog-title">{{ .Params.title }}</h3>
+
+              {{/* blog content */}}
+              <div class="latest-blog-content">
+                <div>{{ .Content | truncate 120 }}</div>
+              </div>
+            </div>
+
+            <div class="latest-blog-meta">
+              {{/* min */}}
+              <p>{{ .ReadingTime }} min read</p>
+              {{/* date */}}
+              <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
 
-    {{ end -}}
-  </div>
-
+      {{ end -}}
+    </div>
   </div>
 </section>
 
-
-{{/*  CONNECT WITH COMMUNITY  */}}
+{{/* CONNECT WITH COMMUNITY */}}
 <section class="container-lg">
   <div class="community-wrapper">
-    {{/*  left  */}}
+    {{/* left */}}
     <div class="community-left">
       <h3>Connect With Community</h3>
       <p>
-        Akash is an open network that lets users buy and sell computing resources securely and efficiently. Purpose-built for public utility.
+        Akash is an open network that lets users buy and sell computing
+        resources securely and efficiently. Purpose-built for public utility.
       </p>
-      {{/*  social links  */}}
+      {{/* social links */}}
       <div class="social-links">
         {{/* github */}}
         <a class="" href="https://github.com/akash-network" target="_blank">
@@ -605,85 +518,57 @@
         <a class="" href="https://discord.com/invite/akash" target="_blank">
           {{ partial "content/svg.html" "discord" }}
         </a>
-        {{/*  youtube  */}}
-        <a class="" href="https://www.youtube.com/c/AkashNetwork" target="_blank">
+        {{/* youtube */}}
+        <a
+          class=""
+          href="https://www.youtube.com/c/AkashNetwork"
+          target="_blank"
+        >
           {{ partial "content/svg.html" "youtube" }}
         </a>
       </div>
     </div>
-  
-    {{/*  right  */}}
+
+    {{/* right */}}
     <div class="community-right">
-      {{/*  img  */}}
+      {{/* img */}}
       <div class="community-img">
         {{ partial "content/svg.html" "community-group" }}
-      </div>    
-      
-      {{/*  social links  */}}
+      </div>
+
+      {{/* social links */}}
       <div class="social-links">
-              {{/* github */}}
-              <a class="" href="https://github.com/akash-network" target="_blank">
-                {{ partial "content/svg.html" "github" }}
-              </a>
-              {{/* twitter */}}
-              <a class="" href="https://twitter.com/akashnet_" target="_blank">
-                {{ partial "content/svg.html" "twitter" }}
-              </a>
-              {{/* discord */}}
-              <a class="" href="https://discord.com/invite/akash" target="_blank">
-                {{ partial "content/svg.html" "discord" }}
-              </a>
-              {{/*  youtube  */}}
-              <a class="" href="https://www.youtube.com/c/AkashNetwork" target="_blank">
-                {{ partial "content/svg.html" "youtube" }}
-              </a>
+        {{/* github */}}
+        <a class="" href="https://github.com/akash-network" target="_blank">
+          {{ partial "content/svg.html" "github" }}
+        </a>
+        {{/* twitter */}}
+        <a class="" href="https://twitter.com/akashnet_" target="_blank">
+          {{ partial "content/svg.html" "twitter" }}
+        </a>
+        {{/* discord */}}
+        <a class="" href="https://discord.com/invite/akash" target="_blank">
+          {{ partial "content/svg.html" "discord" }}
+        </a>
+        {{/* youtube */}}
+        <a
+          class=""
+          href="https://www.youtube.com/c/AkashNetwork"
+          target="_blank"
+        >
+          {{ partial "content/svg.html" "youtube" }}
+        </a>
       </div>
     </div>
   </div>
 </section>
-
-
-<!-- <hr class="hr_"> -->
-{{ end }}
-{{ end }}
-{{ define "sidebar-footer" }}
-
-{{/*  SUBSCRIPTION  */}}
+{{ end }} {{ end }} {{ define "sidebar-footer" }} {{/* SUBSCRIPTION */}}
 <div class="subscribe-wrapper">
   <h3>
     Interested in receiving the latest Akash news? Sign up for Akash Newsletter
   </h3>
 
-  <a href="https://akashnet.typeform.com/to/awKX5bPw">
-    Subscribe
-  </a>
+  <a href="https://akashnet.typeform.com/to/awKX5bPw"> Subscribe </a>
 </div>
 
-
-{{/*  <div class="footer_wrapper py-2 rounded-3 mt-5">
-  <div class="d-flex justify-content-center align-items-center mt-lg-5 mt-sm-1 mt-md-5">
-    <h3 class="mx-auto text-center">
-      Interested in receiving the latest Akash news?&nbsp;
-      <br class="d-none d-sm-block">
-      Sign up for Akash Newsletter
-    </h3>
-  </div>
-  <aside class="mx-auto emailText_wrapper text-center">
-      <a target="_blank" href="https://akashnet.typeform.com/to/awKX5bPw">
-        <button type="submit" class="btn btn-primary rounded-3 btn-lg px-4 mb-2 mt-3 text-center text-white mx-auto">Subscribe</button>
-      </a>
-      </div>
-  </aside>
-</div>  */}}
-<!-- <section class="container-fluid" style="margin-top:50px;">
-  <div class="row">
-    <div class="">
-      {{- .Content -}}
-    </div>
-  </div>
-</section> -->
 {{ end }}
-
-
-
-
