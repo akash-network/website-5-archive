@@ -827,6 +827,10 @@ p.meta {
     @media only screen and (max-width: 768px) {
       max-width: 100%;
       font-size: 16px;
+
+      span:nth-child(1) {
+        margin-right: 4px;
+      }
     }
   }
 
