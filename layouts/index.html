@@ -35,21 +35,18 @@
 // 3 groups scroll behaviour
 
 $(document).ready(function() {
-  function highlightMenuItem() {
-    var scrollTop = $(window).scrollTop();
+function highlightMenuItem() {
+  var scrollTop = $(window).scrollTop();
+  $('.group-1_header, .group-2_header, .group-3_header').removeClass('highlight_header').find('.underline__1').remove();
 
-    $('.group1-header, .group-2_header, .group-3_header')
-      .removeClass('highlight_header clicked_header')
-      .find('.underline__1').remove();
-
-    if (scrollTop >= $('.peer-header').offset().top) {
-      $('.group-3_header').addClass('highlight_header');
-    } else if (scrollTop >= $('#security').offset().top && scrollTop < $('.peer-header').offset().top) {
-      $('.group-2_header').addClass('highlight_header');
-    } else if (scrollTop >= $('#infra').offset().top && scrollTop < $('#security').offset().top) {
-      $('.group1-header').addClass('highlight_header');
-    }
+  if (scrollTop >= $('.peer-header').offset().top) {
+    $('.group-3_header').addClass('highlight_header');
+  } else if (scrollTop >= $('#security').offset().top && scrollTop < $('.peer-header').offset().top) {
+    $('.group-2_header').addClass('highlight_header');
+  } else if (scrollTop >= $('#infra').offset().top && scrollTop < $('#security').offset().top) {
+    $('.group-1_header').addClass('highlight_header');
   }
+}
 
   $(window).scroll(function() {
     highlightMenuItem();
@@ -60,7 +57,8 @@ $(document).ready(function() {
   });
 
   function handleClickEvent() {
-    $('.group-1_header, .group-2_header, .group-3_header').removeClass('clicked_header');
+    $('.group-1_header, .group-2_header, .group-3_header')
+
     $(this).addClass('clicked_header');
   }
 
@@ -69,25 +67,26 @@ $(document).ready(function() {
   $('.group-1_header').click(function() {
     $('html, body').animate({
       scrollTop: $('#infra').offset().top
-    }, 100);
+    }, 20);
   });
 
   $('.group-2_header').click(function() {
     $('html, body').animate({
-      scrollTop: $('.header-2').offset().top
-    }, 100);
+      scrollTop: $('#security-section').offset().top
+    }, 20);
   });
 
   $('.group-3_header').click(function() {
     $('html, body').animate({
-      scrollTop: $('.peer-header').offset().top
-    }, 100);
+      scrollTop: $('.peer-header').offset().top + 40
+    }, 20);
   });
 
   $(window).on('scroll', function() {
-    $('.group-1_header, .group-2_header, .group-3_header');
-  }, { passive: true });
+    $('.group-1_header, .group-2_header, .group-3_header')
+  },{ passive: true });
 });
+
 
 </script>
 
@@ -228,9 +227,9 @@ $(document).ready(function() {
             </div>
           </div>
         </div>
-        <div id="infra" class="group-1-top">
+        <div  class="group-1-top">
           <h5>Infrastructure as a Code</h5>
-          <p class="feature_detail_2">
+          <p id="infra" class="feature_detail_2">
             Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.
           </p>
           <div class="group-1">
@@ -239,9 +238,9 @@ $(document).ready(function() {
               Akash runs on Kubernetes, the industry-leading container orchestration system. <span id="security">With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</span>
             </p>
           </div>
-          <div id="infra" class="group-1">
-            <div id="security" class="header-2"></div>
-            <h5>Persistent Storage</h5>
+          <div class="group-1">
+            <div class="header-2"></div>
+            <h5 id="security-section">Persistent Storage</h5>
             <p class="feature_detail_2">
               Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.
             </p>
@@ -261,7 +260,7 @@ $(document).ready(function() {
           <div class="group-2">
             <h5 class="">Peer-to-peer and Private</h5>
 
-            <p class="feature_detail_2">
+            <p class="feature_detail_2 peer-header">
               You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.
             </p>
           </div>
@@ -272,7 +271,7 @@ $(document).ready(function() {
             </p>
           </div>
           <div class="group-3-wrapper">
-            <h5 class="peer-header">Layer One Protocol</h5>
+            <h5>Layer One Protocol</h5>
             <p class="feature_detail_2">
               Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its network of decentralized validators. The network can be validated without permission and is secured by AKT, its native token.
             </p>
