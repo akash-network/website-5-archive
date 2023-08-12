@@ -1,4 +1,5 @@
-{{ define "main" }} {{/*
+{{ define "main" }}
+
 <div class="row justify-content-center mb-2">
   <div class="col-md-12 col-lg-9">
     <h1 class="text-center">{{ .Title }}</h1>
@@ -7,7 +8,7 @@
     {{ end -}}
   </div>
 </div>
-*/}} {{/*
+
 <div class="row">
   <div class="col-md-3">
     <h2>Topics</h2>
@@ -46,90 +47,6 @@
 
     <div class="row justify-content-center my-5">
       <div class="col-md-12 col-lg-9">
-        {{ template "_internal/pagination.html" . }}
-      </div>
-    </div>
-  </div>
-</div>
-*/}}
-
-<div>
-  {{/* head */}}
-  <div class="d-flex align-items-center justify-content-between">
-    {{/* page title */}}
-    <h1 class="">{{ .Title }}</h1>
-    {{ with .Content -}}
-    <div class="">{{ . }}</div>
-    {{ end -}} {{/* sort by year */}}
-    <select id="mounth">
-      <option value="hide">Sort by years</option>
-      <option value="2020">2020</option>
-      <option value="2021">2021</option>
-      <option value="2022">2022</option>
-    </select>
-    <!-- <div class="cp_wrapper">
-      <div class="select">
-        <input
-          type="text"
-          name="selected_option"
-          value=""
-          placeholder="Select by year"
-          readonly
-        />
-        <div class="options">
-          <div class="option" value="option_01">Option 01</div>
-          <div class="option" value="option_02">Option 02</div>
-          <div class="option" value="option_03">Option 03</div>
-        </div>
-        <span class="select-icon">
-          <svg
-            width="11"
-            height="6"
-            viewBox="0 0 11 6"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M6.05473 5.78032C5.74791 6.07323 5.24964 6.07323 4.94282 5.78032L0.230113 1.28119C-0.0767041 0.988283 -0.076704 0.512595 0.230113 0.219683C0.53693 -0.0732283 1.0352 -0.0732283 1.34202 0.219683L5.5 4.18922L9.65798 0.222027C9.9648 -0.0708847 10.4631 -0.0708847 10.7699 0.222027C11.0767 0.514938 11.0767 0.990627 10.7699 1.28354L6.05718 5.78266L6.05473 5.78032Z"
-              fill="#000000"
-            />
-          </svg>
-        </span>
-      </div>
-    </div> -->
-  </div>
-
-  <div class="row">
-    {{/* topics */}}
-    <div class="col-md-3 d-flex flex-column">
-      {{ range .Site.Taxonomies.tags }}
-      <a class="topic" aria-current="page" href="{{ .Page.Permalink }}"
-        >{{ .Page.Title }}
-      </a>
-      {{ end }}
-    </div>
-
-    <div class="col">
-      {{/* content */}}
-      <div>
-        <dl>
-          {{ $paginator := .Paginate (.Data.Pages) -}} {{ range $paginator.Pages
-          -}}
-          <dt>
-            <h3>
-              <a class="" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
-            </h3>
-          </dt>
-          <dd class="">
-            <p>{{ .Params.excerpt | safeHTML }}</p>
-            {{ partial "main/blog-meta.html" . -}}
-          </dd>
-          {{ end -}}
-        </dl>
-      </div>
-
-      {{/* pagination */}}
-      <div class="d-flex justify-content-center">
         {{ template "_internal/pagination.html" . }}
       </div>
     </div>
