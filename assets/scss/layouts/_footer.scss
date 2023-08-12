@@ -93,6 +93,17 @@
       padding: 0 10px 0 20px;
     }
   }
+  .footer-logo {
+    width: $akash-logo-width;
+    height: $akash-logo-height;
+    margin-bottom: 10px;
+    padding: 0;
+    display: block;
+    background-image: url($akash-logo-dark);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
   .footer-title-text {
     font-size: 26px;
     font-weight: 600;
