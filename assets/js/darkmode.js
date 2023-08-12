@@ -44,7 +44,7 @@ if (modeSmall !== null) {
     });
 
   modeSmall.addEventListener("click", () => {
-    console.log("clicked small");
+    // console.log("clicked small");
     document.documentElement.toggleAttribute("data-dark-mode");
     localStorage.setItem(
       "theme",
