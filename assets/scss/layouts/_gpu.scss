@@ -1,0 +1,237 @@
+.Gpu-d-header {
+  font-size: 50px;
+  font-style: normal;
+  width: 490px;
+  height: 236px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: -1px;
+}
+
+.h-svg-icon .h-arrow-path {
+  stroke: #ddd !important;
+}
+
+.gpu-d-hr {
+  margin: auto auto;
+  width: 1000px;
+  height: 1px;
+  text-align: center;
+  margin-top: 92px;
+}
+
+.Gpu-d-hero-wrapper {
+  gap: 100px;
+}
+
+.Gpu-models-section {
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 140% */
+  letter-spacing: -0.8px;
+}
+
+.Gpu-sub-description {
+  width: 490px;
+  height: 72px;
+}
+
+.sections-sliders {
+  overflow-x: hidden;
+  margin-top: 60px;
+}
+/* Container for the cards */
+.card-container {
+  display: flex;
+  gap: 34px;
+  white-space: nowrap; /* Prevent line break between cards */
+}
+
+/* Card styles */
+.splide__slide {
+  flex: 0 0 262px; /* Fix the card width */
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fcfcfc;
+}
+
+.sections {
+  display: block;
+}
+
+.splide__slide p {
+  font-size: 18px;
+  color: #333;
+}
+
+@keyframes scrollCarouselRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-262px * 6)
+    ); /* Adjust the total width based on the number of cards */
+  }
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scrollCarouselLeftToRight {
+  0% {
+    transform: translateX(
+      calc(-262px * 7)
+    ); /* Adjust the total width based on the number of cards */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the second section */
+.second-section .card-container {
+  animation: scrollCarouselLeftToRight 50s linear infinite;
+}
+.first-section .card-container {
+  animation: scrollCarouselRightToLeft 50s linear infinite;
+}
+
+.Gpu-modal-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Gpu-modal-btn button {
+  width: 373px;
+  height: 56px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 6px;
+  border-radius: 6px;
+  background: #ededed;
+  margin: 32px auto;
+  border: none;
+  outline: none;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  // styles
+  .Gpu-d-header {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.64px;
+    width: 100%;
+    height: 100%;
+    margin-top: 32px;
+  }
+
+  .Gpu-sub-description {
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .gpu-d-hr {
+    width: 100%;
+  }
+
+  .Gpu-img-wrapper {
+    margin: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .Gpu-d-btn {
+    margin-top: 45px;
+  }
+}
+// /* Extra small devices */
+// @media (min-width: 481px) and (max-width: 767px) {
+
+// }
+/* Small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .Gpu-d-header {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+    width: 600px;
+    height: 100%;
+    margin: 32px auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .gpu-d-hr {
+    width: 700px;
+  }
+  .Gpu-sub-description {
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto auto;
+  }
+
+  .Gpu-img-wrapper {
+    margin: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  /* Center the button horizontally and vertically */
+  .Gpu-d-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Gpu-d-btn button {
+    margin: 32px auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .Gpu-d-hero-wrapper {
+    gap: 52px !important;
+    display: flex;
+  }
+  .Gpu-d-header {
+    font-size: 45px;
+    width: 390px;
+    height: 100%;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1080px) {
+  .Gpu-d-header {
+    font-size: 42px;
+    width: 390px;
+    height: 100%;
+    line-height: 50px;
+  }
+}
+// 992-1080
+
+// /* Large tablets/laptops */
+// @media (min-width: 992px) and (max-width: 1199px) {
+// / styles
+// }
+// /* Desktops */
+// @media (min-width: 1200px) and (max-width: 1919px) {
+// / styles
+// }
+// /* Extra large screens */
+// @media (min-width: 1920px) {
+// / styles
+// }

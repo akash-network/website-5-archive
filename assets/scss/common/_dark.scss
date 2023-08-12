@@ -184,13 +184,7 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .btn-menu svg {
   color: $body-color-dark;
 }
-[data-dark-mode] body .d-wrap_dark a .disc {
-  display: flex !important;
-  color: $body-color-dark;
-  position: relative;
-  right: 10px;
-  top: 3px;
-}
+
 [data-dark-mode] body .d-wrap a .disc {
   display: none !important;
   color: $body-color-dark;
@@ -212,6 +206,10 @@ $navbar-dark-active-color: $link-color-dark;
   background: $body-overlay-dark;
 }
 
+[data-dark-mode] body .home-blog-click-title a {
+  color: white;
+}
+
 /*
 [data-dark-mode] body .dropdown-menu {
   @extend .dropdown-menu-dark;
@@ -228,10 +226,6 @@ $navbar-dark-active-color: $link-color-dark;
   border-bottom: 0;
 }
 
-section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
-  fill: #ccc;
-  stroke: #ddd;
-}
 [data-dark-mode] body .svg-icon .arrow-path {
   stroke: #ddd;
 }
@@ -809,14 +803,5 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
   #DRAW {
     fill: $body-color-dark;
-  }
-}
-
-@media (max-width: 576px) {
-  [data-dark-mode] body .d-wrap_dark a .disc {
-    display: flex !important;
-    position: relative;
-    margin-left: 10px;
-    top: 3px;
   }
 }

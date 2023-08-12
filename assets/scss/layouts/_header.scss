@@ -44,7 +44,6 @@
 */
 
 .navbar {
-  z-index: 1000;
   background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid $gray-200;
 
@@ -585,10 +584,6 @@ nav {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
-}
-
-.d-wrap_dark a .disc {
-  display: none !important;
 }
 
 @media (min-width: 992px) and (max-width: 1400px) {
