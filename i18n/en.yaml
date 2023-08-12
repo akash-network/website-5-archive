@@ -1,6 +1,9 @@
 - id: get-started
   translation: "Get Started"
 
+- id: launch-console
+  translation: "Launch Console"
+
 - id: docs
   translation: "Docs"
 

@@ -72,7 +72,13 @@
       </h1>
     </div>
     <div class="text-center">
-      <p class="hero-subtitle">{{ .Params.lead | safeHTML }}</p>
+      <p class="hero-subtitle">
+        {{/* {{ .Params.lead | safeHTML }} */}}
+
+        <span class="">{{ index (split .Params.lead ".") 0 }}.</span>
+        <br class="d-none d-md-block" />
+        <span class="">{{ index (split .Params.lead ".") 1 }}</span>
+      </p>
 
       <div class="hero-btn-container flex-row-center">
         {{/* button: get started */}}
@@ -83,7 +89,7 @@
           target="_blank"
         >
           <span> {{ partial "content/svg.html" "arrow-right-circle" }} </span>
-          {{ i18n "get-started" }}
+          {{ i18n "launch-console" }}
         </a>
 
         {{/* button: docs */}}
@@ -98,7 +104,7 @@
         </a>
       </div>
 
-      {{/* open source... */}}
+      {{/* open source... */}} {{/*
       <p class="hero-footer">
         <a href="https://github.com/akash-network" target="_blank"
           >Open-source.</a
@@ -110,6 +116,7 @@
           $data.name }}.</a
         >
       </p>
+      */}}
     </div>
   </div>
 </section>
