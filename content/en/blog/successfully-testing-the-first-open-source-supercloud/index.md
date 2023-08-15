@@ -1,5 +1,5 @@
 ---
-title: 'Successfully Testing the First Open-Source Supercloud'
+title: 'Testing the First AI Supercloud'
 date: '2023-08-14'
 lastmod:
 draft: false
