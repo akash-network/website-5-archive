@@ -60,8 +60,48 @@ The testnet also hosted [AIQRArt](https://twitter.com/akashnet_/status/167886232
 ### Creating Deployment Specifications (SDLs)
 Akash deployments require a specification file created in an Akash-specific format called the [Stack Definition Language (SDL)](https://docs.akash.network/readme/stack-definition-language). One of the key testnet tasks involved participants creating these deployment specifications, each of which has to be tailored to the unique deployment (in this case, AI models and applications). 
 
-The image below is an example of an SDL deployment file. 
-![SDL](sdl-image.png)
+The code below is an example of an SDL deployment file. 
+
+```yaml
+version: "2.0"
+
+services:
+  falcon7b:
+    image: shimpa/falcon7b:0.07
+    expose:
+      - port: 8000
+        as: 80
+        to:
+          - global: true
+
+profiles:
+  compute:
+    falcon7b:
+      resources:
+        cpu:
+          units: 8
+        memory:
+          size: 100Gi
+        gpu:
+          units: 1
+          attributes:
+            vendor:
+              nvidia:
+        storage:
+          - size: 200Gi
+  placement:
+    akash:
+      pricing:
+        falcon7b: 
+          denom: uakt
+          amount: 100000
+
+deployment:
+  falcon7b:
+    akash:
+      profile: falcon7b
+      count: 1
+```
 
 The Akash community maintains a repository of all the [currently available pre-created SDLs](https://github.com/akash-network/awesome-akash) called ‘Awesome-Akash.’ Currently, the repository contains 30+ categories and nearly 200 individual deployment specifications across a wide range of applications, AI models, and more. The entire repository and its files are fully open-source for anyone to reference and modify.
 
