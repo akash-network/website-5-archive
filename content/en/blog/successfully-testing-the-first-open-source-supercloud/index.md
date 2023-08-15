@@ -61,7 +61,7 @@ The testnet also hosted [AIQRArt](https://twitter.com/akashnet_/status/167886232
 Akash deployments require a specification file created in an Akash-specific format called the [Stack Definition Language (SDL)](https://docs.akash.network/readme/stack-definition-language). One of the key testnet tasks involved participants creating these deployment specifications, each of which has to be tailored to the unique deployment (in this case, AI models and applications). 
 
 The image below is an example of an SDL deployment file. 
-![](content/en/blog/successfully-testing-the-first-open-source-supercloud/sdl-image.png)
+![SDL](sdl-image.png)
 
 The Akash community maintains a repository of all the [currently available pre-created SDLs](https://github.com/akash-network/awesome-akash) called ‘Awesome-Akash.’ Currently, the repository contains 30+ categories and nearly 200 individual deployment specifications across a wide range of applications, AI models, and more. The entire repository and its files are fully open-source for anyone to reference and modify.
 
@@ -70,7 +70,7 @@ The final main task was specifically geared toward GPU Providers. This task requ
 
 The process of benchmarking GPUs on Akash is ongoing and will be actively encouraged even after the launch of the Akash GPU Mainnet upgrade is complete. Public benchmarking will help to ensure that performance is transparent and open, especially as the network evolves.
 
-![](content/en/blog/successfully-testing-the-first-open-source-supercloud/testnet-results.png)
+![Testnet-Results](testnet-results.png)
 
 
 ## Looking Ahead
