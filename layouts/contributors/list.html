@@ -1,47 +1,42 @@
 {{ define "main" }}
 <div class="row justify-content-center mb-2">
-    <div class="col-md-12 col-lg-9">
-        <h1 class="text-center">{{ .Title }}</h1>
-        {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
-    </div>
+  <div class="col-md-12 col-lg-9">
+    <h1 class="text-center">{{ .Title }}</h1>
+    {{ with .Content -}}
+    <div class="text-center">{{ . }}</div>
+    {{ end -}}
+  </div>
 </div>
 
-<div class="row">
-    <div class="col-md-3">
-        <h5>Topics</h2>
-        <ul class="nav flex-column">
-            {{ range .Site.Taxonomies.tags }}
+<div class="row mb-2 justify-content-center">
+  <div class="col-md-12 col-lg-12">
+    <div class="d-flex flex-wrap gap-4">
+      {{ $paginator := .Paginate (.Data.Pages) -}} {{ range first 9
+      .Paginator.Pages }}
+      <div class="col-md-5 mb-4">
+        {{ .Scratch.Set "fillImageCard" "1270x715 Center" }} {{ partial
+        "content/card-image.html" . }}
+        <div class="pb-3">
+          <p>{{ .Params.excerpt | safeHTML }}</p>
+          {{ partial "main/writer.html" . -}}
+          <p class="blog-summary">{{ .Summary | truncate 70 }}</p>
+          <p class="">
+            <a class="" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+          </p>
+          {{ partial "main/blog-meta.html" . -}}
 
-            {{ end }}
-        </ul>
-        <h5>Archives</h2>
-        <ul class="nav flex-column">
-            {{ range .Pages.GroupByPublishDate "2006" }}
-            <li><a class="nav-link" aria-current="page" href="#">{{ .Key }} </a> </li>
-            {{ end }}
-        </ul>
-    </div>
-    <div class="col">
-        <dl>
-            {{ $paginator := .Paginate (.Data.Pages) -}}
-            {{ range $paginator.Pages -}}
-            <dt>
-
-            </dt>
-            <dd class="pb-3">
-                <p> {{ .Params.excerpt | safeHTML }} </p>
-                {{ partial "main/blog-meta.html" . -}}
-            </dd>
-            {{ end -}}
-        </dl>
-
-        <div class="row justify-content-center my-5">
-            <div class="col-md-12 col-lg-9">
-                {{ template "_internal/pagination.html" . }}
-            </div>
+          <a class="read-more-button" href="{{ .RelPermalink }}"> Read More</a>
         </div>
-
+      </div>
+      {{ end -}}
     </div>
+  </div>
+</div>
+
+<div class="row justify-content-center my-5">
+  <div class="col-md-12 col-lg-9">
+    {{ template "_internal/pagination.html" . }}
+  </div>
 </div>
 
 {{ end }}
