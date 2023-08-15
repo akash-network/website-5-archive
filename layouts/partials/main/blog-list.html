@@ -1,0 +1,8 @@
+<div class="blog-list">
+  <!-- Loop through the list of blog posts with the specified category -->
+  {{ range where .Site.RegularPages "Params.categories" .Category }}
+  <div class="blog-post">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  </div>
+  {{ end }}
+</div>

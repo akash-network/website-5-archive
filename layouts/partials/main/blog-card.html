@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-sm-6 col-md-12 col-lg-4">
+    <div class="">
+      <a class="" href="{{ .RelPermalink }}">
+        {{ .Scratch.Set "fillImageCard" "1270x715 Center" }} {{ partial
+        "content/card-image.html" . }}
+      </a>
+      {{ partial "main/writer.html" . -}}
+      <div class="blog-card-content" style="border: none">
+        <article>
+          <h2 class="home-blog-click-title">
+            <a class="" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+          </h2>
+        </article>
+        <p class="blog-summary">{{ .Summary | truncate 100 }}</p>
+        <div class="read-time-wrapper d-flex gap-5">
+          <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+          <p>{{ .ReadingTime }} min read</p>
+        </div>
+        <a class="read-more-button" href="{{ .RelPermalink }}">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>

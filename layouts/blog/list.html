@@ -1,47 +1,184 @@
 {{ define "main" }}
 <div class="row justify-content-center mb-2">
-    <div class="col-md-12 col-lg-9">
-        <h1 class="text-center">{{ .Title }}</h1>
-        {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
+  <div class="col-md-12 col-lg-9">
+    <h1 class="text-center">{{ .Title }}</h1>
+    {{ with .Content -}}
+    <div class="text-center">{{ . }}</div>
+    {{ end -}}
+  </div>
+</div>
+<div class="">
+  {{- range (where site.RegularPages "Section" "blog" | first 1) }}
+  <div class="">
+    <div class="">
+      <a class="" href="{{ .RelPermalink }}">
+        {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}} {{ partial
+        "content/card-image.html" . }}
+      </a>
+      <div class="blog-card-content" style="border: none">
+        <article>
+          {{ partial "main/writer.html" . -}}
+          <h2 class="home-blog-click-title">
+            <a class="" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+          </h2>
+        </article>
+        <div class="read-time-wrapper d-flex gap-5">
+          <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+          <p>{{ .ReadingTime }} min read</p>
+        </div>
+      </div>
     </div>
+  </div>
+  {{ end }}
 </div>
 
 <div class="row">
-    <div class="col-md-3">
-        <h5>Topics</h2>
-        <ul class="nav flex-column">
-            {{ range .Site.Taxonomies.tags }}
-            <li><a class="nav-link" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} </a> </li>
-            {{ end }}
+  <div class="col">
+    <div class="tab-content" id="tabContent">
+      <!-- Display tag filters -->
+      {{ $tags := .Site.Taxonomies.tags }}
+      <div class="tab-header">
+        <h3>All Tags</h3>
+      </div>
+      <div class="tab-content">
+        <ul class="tag-list">
+          {{ range $tag, $tagPages := $tags }}
+          <li class="tag-item" data-tag="{{ $tag }}">{{ $tag }}</li>
+          {{ end }}
         </ul>
-        <!-- <h5>Archives</h2>
-        <ul class="nav flex-column">
-            {{ range .Pages.GroupByPublishDate "2006" }}
-            <li><a class="nav-link" aria-current="page" href="#">{{ .Key }} </a> </li>
-            {{ end }}
-        </ul> -->
-    </div>
-    <div class="col">
-        <dl>
-            {{ $paginator := .Paginate (.Data.Pages) -}}
-            {{ range $paginator.Pages -}}
-            <dt>
-                <h3> <a class="text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a> </h3>
-            </dt>
-            <dd class="pb-3">
-                <p> {{ .Params.excerpt | safeHTML }} </p>
-                {{ partial "main/blog-meta.html" . -}}
-            </dd>
-            {{ end -}}
-        </dl>
+      </div>
 
-        <div class="row justify-content-center my-5">
-            <div class="col-md-12 col-lg-9">
-                {{ template "_internal/pagination.html" . }}
+      <!-- Display filtered blogs based on URL tag parameter -->
+      <div class="tab-content all-blogs">
+        {{ range first 9 .Paginator.Pages }}
+
+        <div class="row">
+          <div class="col-sm-6 col-md-12 col-lg-4">
+            <div class="">
+              <a class="" href="{{ .RelPermalink }}">
+                {{ .Scratch.Set "fillImageCard" "1270x715 Center" }} {{ partial
+                "content/card-image.html" . }}
+              </a>
+              {{ partial "main/writer.html" . -}}
+              <div class="blog-card-content" style="border: none">
+                <article>
+                  <h2 class="home-blog-click-title">
+                    <a class="" href="{{ .RelPermalink }}"
+                      >{{ .Params.title }}</a
+                    >
+                  </h2>
+                </article>
+                <p class="blog-summary">{{ .Summary | truncate 100 }}</p>
+                <div class="read-time-wrapper d-flex gap-5">
+                  <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+                  <p>{{ .ReadingTime }} min read</p>
+                </div>
+                <a class="read-more-button" href="{{ .RelPermalink }}"
+                  >Read More</a
+                >
+              </div>
             </div>
+          </div>
         </div>
+        {{ end }}
+      </div>
 
+      {{ range $tag, $tagPages := $tags }}
+      <div class="tag-content" data-tag="{{ $tag }}">
+        <div class="tab-header">
+          <h3>{{ $tag }}</h3>
+        </div>
+        <div class="tab-content">
+          {{ range first 9 $tagPages }}
+
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-4">
+              <div class="">
+                <a class="" href="{{ .RelPermalink }}">
+                  {{ .Scratch.Set "fillImageCard" "1270x715 Center" }} {{
+                  partial "content/card-image.html" . }}
+                </a>
+                {{ partial "main/writer.html" . -}}
+                <div class="blog-card-content" style="border: none">
+                  <article>
+                    <h2 class="home-blog-click-title">
+                      <a class="" href="{{ .RelPermalink }}"
+                        >{{ .Params.title }}</a
+                      >
+                    </h2>
+                  </article>
+                  <p class="blog-summary">{{ .Summary | truncate 100 }}</p>
+                  <div class="read-time-wrapper d-flex gap-5">
+                    <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+                    <p>{{ .ReadingTime }} min read</p>
+                  </div>
+                  <a class="read-more-button" href="{{ .RelPermalink }}"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      <div class="pagination-container d-flex justify-content-center">
+        {{ with .Paginator }} {{ if .HasPrev }}
+        <a href="{{ .Prev.URL }}" class="pagination-btn">Previous</a>
+        {{ end }} {{ if .HasNext }}
+        <a href="{{ .Next.URL }}" class="pagination-btn">Next</a>
+        {{ end }} {{ end }}
+      </div>
     </div>
+  </div>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const tagItems = document.querySelectorAll(".tag-item");
+    const tagContents = document.querySelectorAll(".tag-content");
+    const allBlogsTab = document.querySelector(".all-blogs");
+
+    // Check URL query parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const tagParam = urlParams.get("tag");
+
+    // Show filtered blogs based on tagParam
+    if (tagParam) {
+      tagContents.forEach((content) => {
+        content.style.display = "none";
+      });
+      allBlogsTab.style.display = "none";
+      const selectedContent = document.querySelector(
+        `.tag-content[data-tag="${tagParam}"]`
+      );
+      if (selectedContent) {
+        selectedContent.style.display = "block";
+      }
+    }
+
+    tagItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        tagContents.forEach((content) => {
+          content.style.display = "none";
+        });
+        allBlogsTab.style.display = "none";
+        const selectedTag = item.getAttribute("data-tag");
+        const selectedContent = document.querySelector(
+          `.tag-content[data-tag="${selectedTag}"]`
+        );
+        if (selectedContent) {
+          selectedContent.style.display = "block";
+        }
+        // Update the URL with the tag query parameter
+        history.replaceState(null, null, `?tag=${selectedTag}`);
+      });
+    });
+  });
+</script>
+<style>
+  /* Your CSS styles here */
+</style>
 {{ end }}

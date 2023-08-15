@@ -71,6 +71,13 @@ rel  = "sitemap"
 [minify.tdewolff.html]
   keepWhitespace = false
 
+[params]
+  mainSections = ["blog"]
+  paginate = 10
+  [params.taxonomies]
+    tag = "tags"
+
+
 [related]
   threshold = 80
   includeNewer = true
