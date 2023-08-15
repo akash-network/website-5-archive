@@ -61,7 +61,7 @@ The testnet also hosted [AIQRArt](https://twitter.com/akashnet_/status/167886232
 Akash deployments require a specification file created in an Akash-specific format called the [Stack Definition Language (SDL)](https://docs.akash.network/readme/stack-definition-language). One of the key testnet tasks involved participants creating these deployment specifications, each of which has to be tailored to the unique deployment (in this case, AI models and applications). 
 
 The image below is an example of an SDL deployment file. 
-![](/content/en/blog/successfully-testing-the-first-open-source-supercloud/sdl-image.png)
+![](content/en/blog/successfully-testing-the-first-open-source-supercloud/sdl-image.png)
 
 The Akash community maintains a repository of all the [currently available pre-created SDLs](https://github.com/akash-network/awesome-akash) called ‘Awesome-Akash.’ Currently, the repository contains 30+ categories and nearly 200 individual deployment specifications across a wide range of applications, AI models, and more. The entire repository and its files are fully open-source for anyone to reference and modify.
 
