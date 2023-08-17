@@ -78,7 +78,7 @@
     "@datocms/cma-client-node": "^1.1.13",
     "datocms-structured-text-to-html-string": "^2.1.11",
     "datocms-structured-text-to-plain-text": "^2.0.4",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.3.1",
     "image-downloader": "^4.3.0",
     "mkdirp": "^1.0.4",
     "react-slick": "^0.29.0",
