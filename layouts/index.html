@@ -87,10 +87,7 @@ function highlightMenuItem() {
   },{ passive: true });
 });
 
-
-
 </script>
-
 
 
 
@@ -119,7 +116,6 @@ function highlightMenuItem() {
 {{ end }}
 
 
-
 {{ define "sidebar-prefooter" }}
 {{ if eq $.Site.Language.LanguageName "English" }}
 <section class="feature_section">
@@ -129,8 +125,7 @@ function highlightMenuItem() {
         {{ partial "content/svg.html" "cloud_new" }}
       </div>
       <div class="col-md-14 col-lg-7">
-      <div class="col-md-14 col-lg-7">
-        <h2 class="h4 utility">You will own your cloud, and you will be happy</h2>
+        <h2 class="utility">You will own your cloud, and you will be happy</h2>
         <p>With Akash, you have the power to own your cloud.
           You can deploy your own cloud infrastructure, and you can sell
           your unused cloud resources to others.
@@ -213,7 +208,6 @@ function highlightMenuItem() {
 </section>
 
 <hr class="hr_">
-
 
 <!-- THREE GROUPS -->
 <section class=" text-left three-groups-features">
@@ -336,7 +330,6 @@ function highlightMenuItem() {
 </div>
 
 <hr class="hr_">
-<hr class="hr_">
 <section>
   <div class="top-blog-wrapper">
     <div class="container-sm justify-content-center align-items-center mx-auto">
@@ -352,12 +345,12 @@ function highlightMenuItem() {
                 {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
                 {{ partial "content/card-image.html" . }}
               </a>
-              <div class="blog-card-content" style="border: none;">
+              <div class="blog-card-content card" style="border: none;">
                 <article>
                   {{ partial "main/writer.html" . -}}
                   <h2 class="home-blog-click-title">
-                    <a class=""  href="{{ .RelPermalink }}">{{ .Params.title }}</a>
-                  </h2>
+                    <a class="" href="{{ .RelPermalink }}">{{ truncate 42 .Params.title }}</a>
+                </h2>
                 </article>
                 <div class="read-time-wrapper d-flex gap-5">
                   <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
@@ -367,13 +360,10 @@ function highlightMenuItem() {
             </div>
           </div>
           {{ end -}}
+        </div>
       </div>
     </div>
   </div>
-  </div>
-
-
-
 </section>
 
 
@@ -404,7 +394,6 @@ function highlightMenuItem() {
     </div>
   </section>
 {{ end }}
-
 
 
 
