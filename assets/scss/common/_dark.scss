@@ -58,10 +58,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0;
 }
 
-[data-dark-mode] body .metrics_border {
-  border-right-color: #515559 !important;
-}
-
 [data-dark-mode]
   body
   div.col-md-12.col-lg-13
@@ -98,7 +94,7 @@ $navbar-dark-active-color: $link-color-dark;
   background-color: #f0f0f0;
 }
 
-[data-dark-mode] body .token_eco_desc {
+[data-dark-mode] body .ecosystem-tool-desc {
   color: #f0f0f0;
 }
 
@@ -254,17 +250,18 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   stroke: #ddd;
 }
 [data-dark-mode] .svg-container svg,
-[data-dark-mode] .token_svg svg,
-[data-dark-mode] .token_svg2 svg,
-[data-dark-mode] .token_svg_ex svg {
+[data-dark-mode] .hand-coin-svg svg,
+[data-dark-mode] .cubes-svg-sm svg,
+[data-dark-mode] .hammer-svg-sm svg,
+[data-dark-mode] .jar-svg svg,
+[data-dark-mode] .token-jar-svg-sm,
+[data-dark-mode] .exchange-svg svg,
+[data-dark-mode] .cubes-svg svg,
+[data-dark-mode] .hammer-svg svg,
+[data-dark-mode] .exchange-svg-sm svg {
   fill: #ccc;
   stroke: #ddd;
 }
-
-// [data-dark-mode] .arrow_svg svg {
-//   fill: #dee2e6;
-//   stroke: #dee2e6;
-// }
 
 [data-dark-mode] body .offcanvas-header {
   border-bottom: 1px solid $gray-800;
@@ -274,16 +271,18 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   color: $body-color-dark;
 }
 
-[data-dark-mode] #ecosystem-tools > div div > div > p > a {
+[data-dark-mode] body .tool-link-wrapper p .eco-tools-link {
   color: #fff;
 }
 
-[data-dark-mode] body .offcanvas .discords {
-  color: #fff !important;
-}
-[data-dark-mode] body .table_data_link .svg_mode svg path,
-[data-dark-mode] body .sm_data_link .svg_mode svg path,
+[data-dark-mode] body .table_data_link .token-arrow-svg svg path,
+[data-dark-mode] body .tool-link-wrapper .token-arrow-svg svg path,
 [data-dark-mode] body .table_data_link .arrow_svg svg path {
+  stroke: #fff;
+}
+[data-dark-mode] body .table_data_link .token-arrow-svg-sm svg path,
+[data-dark-mode] body .tool-link-wrapper .token-arrow-svg-sm svg path,
+[data-dark-mode] body .table_data_link .arrow_svg-sm svg path {
   stroke: #fff;
 }
 
@@ -291,11 +290,17 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   stroke: #fff;
 }
 
-[data-dark-mode] #second_faq_toggle > svg path:first-of-type {
+[data-dark-mode] #second-faq-toggle > svg path:first-of-type {
   stroke: #fff;
 }
 
-[data-dark-mode] body .table_data_link .svg_mode svg path:first-of-type,
+[data-dark-mode] body .table_data_link .token-arrow-svg svg path:first-of-type,
+[data-dark-mode]
+  body
+  .table_data_link
+  .token-arrow-svg-sm
+  svg
+  path:first-of-type,
 [data-dark-mode] body .table_data_link .arrow_svg svg path:first-of-type {
   fill: #fff;
 }
@@ -306,6 +311,12 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 [data-dark-mode] div > p.mx-auto.metrics_border_bottom {
   border-bottom-color: #515559 !important;
+}
+[data-dark-mode] .second-metrics-border,
+[data-dark-mode] .first-metrics-border,
+[data-dark-mode] .third-metrics-border,
+[data-dark-mode] .forth-metrics-border {
+  border-right-color: #515559;
 }
 
 [data-dark-mode] body .table_data_link {
@@ -470,13 +481,6 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   background: $body-overlay-dark;
   border: 1px solid transparent;
   color: $gray-300;
-
-  /*
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%236c757d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-search'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right calc(0.375em + 0.1875rem) center;
-  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
-  */
 }
 
 [data-dark-mode] body .form-control.is-search:focus {
@@ -491,13 +495,6 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 [data-dark-mode] body .text-dark {
   color: $body-color-dark !important;
 }
-
-/*
-[data-dark-mode] body .navbar-form::after {
-  color: $gray-600;
-  border: 1px solid $gray-800;
-}
-*/
 
 [data-dark-mode] body .form-control {
   color: $gray-300;
