@@ -1,29 +1,53 @@
 {{ define "main" }}
 
-<section>
-  <div class="row justify-content-center mb-2">
-    <div class="col-md-12 col-lg-9">
-      <h1 class="text-center">{{ .Title }}</h1>
-      {{ with .Content }}
-      <div class="text-center">{{ . }}</div>
-      {{ end }}
+<!-- Hero Section -->
+{{ $heroPost := index .Data.Pages 0 }}
+<section class="hero-section">
+  <div class="d-flex hero-content">
+    <div>{{ partial "content/image.html" $heroPost }}</div>
+    <div>
+      <h2>{{ $heroPost.Params.title }}</h2>
+      {{ partial "main/writer.html" $heroPost }}
+      <p class="blog-summary" style="width: 575px; height: 108px">
+        {{ $heroPost.Summary | truncate 250 }}
+      </p>
+      <!-- New line for the summary -->
+      <p>{{ $heroPost.Params.excerpt | safeHTML }}</p>
+      <a href="{{ $heroPost.RelPermalink }}" class="btn btn-primary"
+        >Read More</a
+      >
     </div>
   </div>
+</section>
+<!-- Hero Section END -->
 
+<section>
   <div
     class="col-lg-13 d-flex justify-content-center align-items-center mx-auto"
   >
     <div
       class="justify-content-center align-items-center row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
     >
-      {{ $paginator := .Paginate (.Data.Pages) }} {{ $currentPage :=
+      <!-- Pagination setup -->
+      {{ $paginator := .Paginate .Data.Pages }} {{ $currentPage :=
       $paginator.PageNumber }} {{ $perPage := $paginator.PageSize }}
-      <!-- Calculate total number of blogs -->
+
+      <!-- Count total blog posts -->
       {{ $totalBlogs := 0 }} {{ range .Site.RegularPages }} {{ if eq .Type
-      "blog" }} {{ $totalBlogs = add $totalBlogs 1 }} {{ end }} {{ end }} {{
-      $startIndex := add (mul (sub $currentPage 1) $perPage) 1 }} {{ $endIndex
-      := add $startIndex (sub $perPage 1) }} {{ if gt $endIndex $totalBlogs }}
-      {{ $endIndex = $totalBlogs }} {{ end }} {{ range $paginator.Pages }}
+      "blog" }} {{ $totalBlogs = add $totalBlogs 1 }} {{ end }} {{ end }}
+
+      <!-- Calculate range for pagination -->
+      {{ $startIndex := add (mul (sub $currentPage 1) $perPage) 1 }} {{
+      $endIndex := add $startIndex (sub $perPage 1) }} {{ if gt $endIndex
+      $totalBlogs }} {{ $endIndex = $totalBlogs }} {{ end }}
+
+      <!-- Initialize remaining card count -->
+      {{ $remainingCards := 9 }}
+
+      <!-- Loop through paginated pages -->
+      {{ range $paginator.Pages }} {{ if and (gt $remainingCards 0) (ne .Type
+      "hero") (ne .RelPermalink $heroPost.RelPermalink) }} {{ $remainingCards =
+      sub $remainingCards 1 }}
       <div class="col">
         <div class="card">
           <a href="{{ .RelPermalink }}">
@@ -43,7 +67,7 @@
           </div>
         </div>
       </div>
-      {{ end }}
+      {{ end }} {{ end }}
     </div>
   </div>
 
@@ -51,11 +75,10 @@
     <div class="col-md-12 col-lg-9">
       <div class="row justify-content-center my-5">
         <div class="col-md-12 col-lg-9">
-          <p class="text-center">Total {{ $totalBlogs }} blogs</p>
           {{ with .Paginator }}
           <nav class="pagination justify-content-center">
             {{ if .HasPrev }}
-            <a href="{{ .Prev.URL }}" class="pagination-prev">Previous</a>
+            <a href="{{ .Prev.URL }}" class="pagination-prev">PreviousZZZZ</a>
             {{ end }} {{ if .HasNext }}
             <a href="{{ .Next.URL }}" class="pagination-next">Next</a>
             {{ end }}
