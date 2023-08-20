@@ -207,7 +207,7 @@ main [data-dark-mode] body .highlight_header::after {
 }
 
 [data-dark-mode] body .home-blog-click-title a {
-  color: white;
+  color: #fff;
 }
 
 /*
@@ -215,6 +215,36 @@ main [data-dark-mode] body .highlight_header::after {
   @extend .dropdown-menu-dark;
 }
 */
+
+// Blog page section
+[data-dark-mode] .hero-content {
+  border: 1px solid #515559;
+}
+
+[data-dark-mode] .blog-hero-header a:hover {
+  color: #fff;
+}
+
+[data-dark-mode] .blog-hero-header a {
+  color: #fff;
+}
+
+[data-dark-mode] .blog-card-body .blog-card-title a {
+  color: #fff;
+}
+[data-dark-mode] .separator {
+  background-color: #fff;
+}
+
+[data-dark-mode] .blog-card {
+  border: 1px solid #515559;
+}
+
+[data-dark-mode] .tag-button {
+  border: 1px solid #515559;
+  color: #fff;
+}
+// Blog page section End
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {

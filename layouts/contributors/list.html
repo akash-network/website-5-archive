@@ -6,21 +6,7 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-3">
-        <h5>Topics</h2>
-        <ul class="nav flex-column">
-            {{ range .Site.Taxonomies.tags }}
-            <li><a class="nav-link" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} </a> </li>
-            {{ end }}
-        </ul>
-        <h5>Archives</h2>
-        <ul class="nav flex-column">
-            {{ range .Pages.GroupByPublishDate "2006" }}
-            <li><a class="nav-link" aria-current="page" href="#">{{ .Key }} </a> </li>
-            {{ end }}
-        </ul>
-    </div>
+
     <div class="col">
         <dl>
             {{ $paginator := .Paginate (.Data.Pages) -}}

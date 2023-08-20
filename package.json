@@ -17,7 +17,7 @@
     "init": "shx rm -rf .git && git init -b main",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
     "prestart": "npm run clean",
-    "start": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://172.20.10.4:1313 --disableFastRender",
+    "start": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://172.20.10.2:1313 --disableFastRender",
     "prebuild": "npm run clean",
     "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
     "build:preview": "npm run build -D -F",

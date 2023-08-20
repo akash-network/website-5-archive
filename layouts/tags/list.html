@@ -1,47 +1,31 @@
 {{ define "main" }}
 <div class="row justify-content-center mb-2">
-    <div class="col-md-12 col-lg-9">
-        <h1 class="text-center">{{ .Title }}</h1>
-        {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
-    </div>
+  <div class="col-md-12 col-lg-9">
+    <h1 class="text-center">{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="text-center">{{ . }}</div>
+    {{ end }}
+  </div>
 </div>
-
-<div class="row">
-    <div class="col-md-3">
-        <h5>Topics</h2>
-        <ul class="nav flex-column">
-            {{ range .Site.Taxonomies.tags }}
-            <li><a class="nav-link" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} </a> </li>
-            {{ end }}
-        </ul>
-        <h5>Archives</h2>
-        <ul class="nav flex-column">
-            {{ range .Pages.GroupByPublishDate "2006" }}
-            <li><a class="nav-link" aria-current="page" href="#">{{ .Key }} </a> </li>
-            {{ end }}
-        </ul>
+<div class="col">
+  <dl>
+    {{ $paginator := .Paginate (.Data.Pages) }} {{ range $paginator.Pages }}
+    <dt>
+      <h3>
+        <a class="text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+      </h3>
+    </dt>
+    <dd class="pb-3">
+      <p>{{ .Params.excerpt | safeHTML }}</p>
+      {{ partial "main/blog-meta.html" . }} {{ partial "content/image.html" . }}
+    </dd>
+    {{ end }}
+  </dl>
+  <div class="row justify-content-center my-5">
+    <div class="col-md-12 col-lg-9">
+      {{ template "_internal/pagination.html" . }}
     </div>
-    <div class="col">
-        <dl>
-            {{ $paginator := .Paginate (.Data.Pages) -}}
-            {{ range $paginator.Pages -}}
-            <dt>
-                <h3> <a class="text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a> </h3>
-            </dt>
-            <dd class="pb-3">
-                <p> {{ .Params.excerpt | safeHTML }} </p>
-                {{ partial "main/blog-meta.html" . -}}
-            </dd>
-            {{ end -}}
-        </dl>
-
-        <div class="row justify-content-center my-5">
-            <div class="col-md-12 col-lg-9">
-                {{ template "_internal/pagination.html" . }}
-            </div>
-        </div>
-
-    </div>
+  </div>
 </div>
 
 {{ end }}

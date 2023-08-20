@@ -2,32 +2,57 @@
 
 <!-- Hero Section -->
 {{ $heroPost := index .Data.Pages 0 }}
-<section class="hero-section">
-  <div class="d-flex hero-content">
-    <div>{{ partial "content/image.html" $heroPost }}</div>
-    <div>
-      <h2>{{ $heroPost.Params.title }}</h2>
-      {{ partial "main/writer.html" $heroPost }}
-      <p class="blog-summary" style="width: 575px; height: 108px">
-        {{ $heroPost.Summary | truncate 250 }}
-      </p>
-      <!-- New line for the summary -->
-      <p>{{ $heroPost.Params.excerpt | safeHTML }}</p>
-      <a href="{{ $heroPost.RelPermalink }}" class="btn btn-primary"
-        >Read More</a
-      >
+<section class="hero-section container">
+  <div class="hero-content container">
+    <div class="hero-blog-image">
+      <a href="{{ $heroPost.RelPermalink }}">
+        {{ partial "content/image.html" $heroPost }}
+      </a>
+    </div>
+    <div class="hero-blog-text-wrapper">
+      <h2 class="blog-hero-header">
+        <a href="{{ $heroPost.RelPermalink }}">
+          {{ $heroPost.Params.title | truncate 43 }}
+        </a>
+      </h2>
+      <p class="hero-blog-writer">{{ partial "main/writer.html" $heroPost }}</p>
+      <p class="hero-blog-summary">{{ $heroPost.Summary | truncate 160 }}</p>
+      <div class="hero-blog-date-wrapper">
+        <span class="hero-blog-date">
+          {{ $heroPost.PublishDate.Format "January 2, 2006" }}</span
+        >
+        <span class="hero-blog-time mx-3">
+          {{ $heroPost.ReadingTime }} min read</span
+        >
+      </div>
     </div>
   </div>
 </section>
 <!-- Hero Section END -->
 
 <section>
-  <div
-    class="col-lg-13 d-flex justify-content-center align-items-center mx-auto"
-  >
-    <div
-      class="justify-content-center align-items-center row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
-    >
+  <div class="tags-container">
+    <div class="">
+      <ul class="d-flex tags-list">
+        {{ range .Site.Taxonomies.tags }}
+        <li>
+          <a
+            class="tag-button"
+            aria-current="page"
+            href="{{ .Page.Permalink }}"
+          >
+            {{ .Page.Title }}</a
+          >
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="blog-list-container">
+    <div class="blog-list">
       <!-- Pagination setup -->
       {{ $paginator := .Paginate .Data.Pages }} {{ $currentPage :=
       $paginator.PageNumber }} {{ $perPage := $paginator.PageSize }}
@@ -48,23 +73,22 @@
       {{ range $paginator.Pages }} {{ if and (gt $remainingCards 0) (ne .Type
       "hero") (ne .RelPermalink $heroPost.RelPermalink) }} {{ $remainingCards =
       sub $remainingCards 1 }}
-      <div class="col">
-        <div class="card">
+      <div class="blog-card">
+        <div class="blog-card-img">
           <a href="{{ .RelPermalink }}">
             {{ partial "content/image.html" . }}
           </a>
-          <div class="card-body">
-            <div class="card-title">
-              <h5 style="width: 240px !important">
-                <a href="{{ .RelPermalink }}">
-                  {{ truncate 42 .Params.title }}
-                </a>
-              </h5>
-              {{ partial "main/writer.html" . }}
-            </div>
-            <p class="card-text">{{ .Params.excerpt | safeHTML }}</p>
-            {{ partial "main/blog-meta.html" . }}
+        </div>
+        <div class="blog-card-body">
+          <div class="">
+            <p class="blog-card-title">
+              <a href="{{ .RelPermalink }}">
+                {{ truncate 42 .Params.title }}
+              </a>
+            </p>
+            {{ partial "main/writer.html" . }}
           </div>
+          {{ partial "main/blog-meta.html" . }}
         </div>
       </div>
       {{ end }} {{ end }}
@@ -86,11 +110,10 @@
           {{ end }}
         </div>
       </div>
-      <p class="text-center">
-        Showing {{ $startIndex }} to {{ $endIndex }} of {{ $totalBlogs }}
-        results
-      </p>
     </div>
+    <p>
+      Showing {{ $startIndex }} to {{ $endIndex }} of {{ $totalBlogs }} results
+    </p>
   </div>
 </section>
 
