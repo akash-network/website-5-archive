@@ -1,31 +1,39 @@
-{{ define "main" }}
-<div class="row justify-content-center mb-2">
-  <div class="col-md-12 col-lg-9">
-    <h1 class="text-center">{{ .Title }}</h1>
+{{ define "main" }} {{ partial "content/tag-button.html" . }}
+<div class="main-container">
+  <div class="main-content">
+    <h1 class="main-title text-center mb-5 text-capitalize">{{ .Title }}</h1>
     {{ with .Content }}
-    <div class="text-center">{{ . }}</div>
+    <div class="main-text">{{ . }}</div>
     {{ end }}
   </div>
 </div>
-<div class="col">
-  <dl>
-    {{ $paginator := .Paginate (.Data.Pages) }} {{ range $paginator.Pages }}
-    <dt>
-      <h3>
-        <a class="text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
-      </h3>
-    </dt>
-    <dd class="pb-3">
-      <p>{{ .Params.excerpt | safeHTML }}</p>
-      {{ partial "main/blog-meta.html" . }} {{ partial "content/image.html" . }}
-    </dd>
-    {{ end }}
-  </dl>
-  <div class="row justify-content-center my-5">
-    <div class="col-md-12 col-lg-9">
-      {{ template "_internal/pagination.html" . }}
+<div class="blog-list-container">
+  {{ $paginator := .Paginate (.Data.Pages) }}
+  <div class="blog-list">
+    {{ range $paginator.Pages }}
+    <div class="blog-card">
+      <div class="blog-card-img">
+        <a href="{{ .RelPermalink }}">
+          {{ partial "content/card-image.html" . }}
+        </a>
+      </div>
+      <div class="blog-card-body">
+        <p class="blog-card-title">
+          <a href="{{ .RelPermalink }}"> {{ truncate 42 .Params.title }} </a>
+        </p>
+        <div class="">
+          {{ partial "main/writer.html" . }} {{ partial "main/blog-meta.html" .
+          }}
+        </div>
+      </div>
     </div>
+    {{ end }}
   </div>
 </div>
 
+<div
+  class="pagination-container text-center mx-auto d-flex justify-content-center"
+>
+  <div class="pagination">{{ template "_internal/pagination.html" . }}</div>
+</div>
 {{ end }}

@@ -244,6 +244,12 @@ main [data-dark-mode] body .highlight_header::after {
   border: 1px solid #515559;
   color: #fff;
 }
+
+[data-dark-mode] .prev-pagination-button,
+[data-dark-mode] .next-pagination-button {
+  border: 1px solid #515559;
+  color: #fff;
+}
 // Blog page section End
 
 [data-dark-mode] body .navbar,
