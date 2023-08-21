@@ -41,7 +41,10 @@
         {{ end -}}
     </div>
     <p class="share-header">Share This Article</p>
-    <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer"> {{ partial "content/svg.html" "twitter" }}</a>
+    <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer">
+      <p class="twitter-svg">
+      {{ partial "content/svg.html" "twitter" }}
+    </p></a>
   </div>
 </section>
 
