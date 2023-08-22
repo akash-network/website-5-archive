@@ -28,12 +28,41 @@
     </div>
   </div>
 </section>
+
+
+
+<section class="sm-hero-section mx-auto">
+  <div class="blog-card">
+    <div class="blog-card-img">
+      <a href="{{ $heroPost.RelPermalink }}">
+        {{ partial "content/image.html" $heroPost }}
+      </a>
+    </div>
+    <div class="sm-hero-blog-text-wrapper">
+      <h2 class="blog-hero-header">
+        <a href="{{ $heroPost.RelPermalink }}">
+          {{ $heroPost.Params.title | truncate 43 }}
+        </a>
+      </h2>
+      <p class="hero-blog-writer">{{ partial "main/writer.html" $heroPost }}</p>
+      <p class="hero-blog-summary">{{ $heroPost.Summary | truncate 160 }}</p>
+      <div class="hero-blog-date-wrapper mt-3">
+        <span class="hero-blog-date">
+          {{ $heroPost.PublishDate.Format "January 2, 2006" }}</span
+        >
+        <span class="hero-blog-time mx-3">
+          {{ $heroPost.ReadingTime }} min read</span
+        >
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Hero Section END -->
 
 <section>
   <div class="tags-container">
-    <div class="">
-      <ul class="d-flex tags-list text-capitalize">
+    <div class="overflow-auto">
+      <ul class="d-flex tags-list">
         {{ range .Site.Taxonomies.tags }}
         <li>
           <a
