@@ -1,15 +1,24 @@
 {{ $fillImage := .Scratch.Get "fillImageCard" }} {{ if not $fillImage -}} {{
 $fillImage = site.Params.fillImage }} {{ end }} {{ $imageURL := (printf "%s%s"
 "images/" site.Params.defaultImage) }} {{ $lqipURL := $imageURL }} {{ if
-.Params.images -}} {{ $blogimage := .Resources.GetMatch (printf "**%s" (index
+.Params.images }} {{ $blogimage := .Resources.GetMatch (printf "**%s" (index
 .Params.images 0)) }} {{ $imageURL = $blogimage.RelPermalink }} {{ $lqipImage :=
 $blogimage.Resize site.Params.lqipWidth }} {{ $lqipURL = $lqipImage.RelPermalink
 }} {{ end }}
 
-<img
-  class="figure-img img-fluid lazyload blur-up"
-  src="{{ $lqipURL }}"
-  data-src="{{ $imageURL }}"
-  alt="{{ .Title }}"
-  data-sizes="auto"
-/>
+<figure class="figure">
+  <img
+    class="figure-img img-fluid lazyload blur-up"
+    src="{{ $lqipURL }}"
+    data-src="{{ $imageURL }}"
+    alt="{{ .Title }}"
+    data-sizes="auto"
+  />
+  <noscript>
+    <img
+      class="figure-img img-fluid"
+      src="{{ $imageURL }}"
+      alt="{{ .Title }}"
+    />
+  </noscript>
+</figure>
