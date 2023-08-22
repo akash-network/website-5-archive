@@ -1,16 +1,21 @@
 {{ $fillImage := .Scratch.Get "fillImageCard" }} {{ if not $fillImage -}} {{
-$fillImage = site.Params.fillImage }} {{ end -}} {{ $image := resources.Get
-(printf "%s%s" "images/" site.Params.defaultImage) }} {{ if .Params.images -}}
-{{ $blogimage := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
-{{ if not (strings.HasSuffix $blogimage.RelPermalink ".gif") -}} {{ $image =
-$blogimage }} {{ end -}} {{ end }} {{ $webp := printf "%s%s" $fillImage " webp"
-}} {{ $image = $image.Resize $webp}} {{ $lqip := $image.Resize
-site.Params.lqipWidth -}}
+$fillImage = site.Params.fillImage }} {{ end -}} {{ $imageFormat := "webp" }} {{
+$imageExtension := ".webp" }} {{ $image := resources.Get (printf "images/%s%s"
+$fillImage $imageExtension) }} {{ if .Params.images -}} {{ $blogimage :=
+.Resources.GetMatch (printf "**%s" (index .Params.images 0)) }} {{
+$blogimageExtension := path.Ext $blogimage.Name }} {{ $imageFormat = slice
+$blogimageExtension 1 }} {{ $imageExtension = $blogimageExtension }} {{ $image =
+$blogimage }} {{ end }} {{ $lqip := $image.Resize site.Params.lqipWidth }} {{
+$imageURL := $image.Permalink }} {{ $lqipURL := $lqip.Permalink }} {{ if eq
+$imageFormat "gif" }} {{ $imageURL = $image.Permalink }} {{ $lqipURL =
+$lqip.Permalink }} {{ else }} {{ $webpImage := resources.Get (printf
+"images/%s%s" $fillImage ".webp") }} {{ if $webpImage }} {{ $imageURL =
+$webpImage.Permalink }} {{ end }} {{ end }}
 
 <img
   class="card-img-top img-fluid lazyload blur-up"
-  src="{{ $lqip.Permalink }}"
-  data-src="{{ $image.Permalink }}"
+  src="{{ $lqipURL }}"
+  data-src="{{ $imageURL }}"
   width="{{ $image.Width }}"
   height="{{ $image.Height }}"
   alt="{{ .Title }}"
