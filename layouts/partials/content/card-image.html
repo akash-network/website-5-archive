@@ -1,13 +1,17 @@
 {{ $fillImage := .Scratch.Get "fillImageCard" }} {{ if not $fillImage -}} {{
-$fillImage = site.Params.fillImage }} {{ end }} {{ $imageURL := (printf "%s%s"
-"images/" site.Params.defaultImage) }} {{ if .Params.images -}} {{ $blogimage :=
-.Resources.GetMatch (printf "**%s" (index .Params.images 0)) }} {{ $imageURL =
-$blogimage.RelPermalink }} {{ end }}
+$fillImage = site.Params.fillImage }} {{ end -}} {{ $image := resources.Get
+(printf "%s%s" "images/" site.Params.defaultImage) }} {{ if .Params.images -}}
+{{ $blogimage := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
+{{ if not (strings.HasSuffix $blogimage.RelPermalink ".gif") -}} {{ $image =
+$blogimage }} {{ end -}} {{ end }} {{ $webp := printf "%s%s" $fillImage " webp"
+}} {{ $image = $image.Resize $webp}} {{ $lqip := $image.Resize
+site.Params.lqipWidth -}}
 
 <img
-  class="figure-img img-fluid lazyload blur-up"
-  src="{{ $imageURL }}"
-  data-src="{{ $imageURL }}"
+  class="card-img-top img-fluid lazyload blur-up"
+  src="{{ $lqip.Permalink }}"
+  data-src="{{ $image.Permalink }}"
+  width="{{ $image.Width }}"
+  height="{{ $image.Height }}"
   alt="{{ .Title }}"
-  data-sizes="auto"
 />
