@@ -2,201 +2,235 @@
 {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") -}}
 
 
+<!-- FAQ ACCORDION -->
+<style>
+  .metrics_border {
+    height: 60px;
+    text-align: center;
+    border-right: 1px solid #0000001A;
+    position: relative;
+    transform: translateX(-50%);
+  }
+</style>
+
+
+<style>
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .faq_answer.show {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+  .second_faq_answer.show {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+
+</style>
 
 <script>
-  function toggleAnswer() {
-    const answer = document.getElementById("faq__answer");
-    const toggleButton = document.getElementById("faq__toggle");
-    if (answer.style.display === "none") {
-      answer.style.display = "block";
-      answer.classList.add("show");
-      toggleButton.innerHTML = '{{ partial "content/svg.html" "close_svg" }}';
-    } else {
-      answer.style.display = "none";
-      answer.classList.remove("show");
-      toggleButton.innerHTML = '{{ partial "content/svg.html" "arrow_down" }}';
-    }
+function toggleAnswer() {
+  var answer = document.getElementById("faq__answer");
+  var toggleButton = document.getElementById("faq__toggle");
+  if (answer.style.display === "none") {
+    answer.style.display = "block";
+    answer.classList.add("show");
+    toggleButton.innerHTML = '{{ partial "content/svg.html" "close_svg" }}';
+  } else {
+    answer.style.display = "none";
+    answer.classList.remove("show");
+    toggleButton.innerHTML = '{{ partial "content/svg.html" "arrow_down" }}'
   }
+}
 
-  function toggleSecondAnswer() {
-    const answer = document.getElementById("second_faq");
-    const toggleButton = document.getElementById("second-faq-toggle");
-    if (answer.style.display === "none") {
-      answer.style.display = "block";
-      answer.classList.add("show");
-      toggleButton.innerHTML = '{{ partial "content/svg.html" "close_svg" }}';
-    } else {
-      answer.style.display = "none";
-      answer.classList.remove("show");
-      toggleButton.innerHTML = '{{ partial "content/svg.html" "arrow_down" }}';
-    }
+
+
+function toggleSecondAnswer() {
+  var answer = document.getElementById("second_faq");
+  var toggleButton = document.getElementById("second_faq_toggle"); // Updated button ID
+  if (answer.style.display === "none") {
+    answer.style.display = "block";
+    answer.classList.add("show");
+    toggleButton.innerHTML = '{{ partial "content/svg.html" "close_svg" }}';
+  } else {
+    answer.style.display = "none";
+    answer.classList.remove("show");
+    toggleButton.innerHTML = '{{ partial "content/svg.html" "arrow_down" }}';
   }
+}
 
 
-  </script>
+
+</script>
 
 <!-- FAQ ACCORDION END -->
 
 
 
-<!-- TOKEN FEATURES SECTION LARGE SCREEN -->
-<section class="pt-5">
+
+<section class="container" style="">
   <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <div class="d-none d-md-block">
-        <div class="hand-coin-svg">
-          {{ partial "content/svg.html" "hand_coin" }}
-        </div>
-        <p class="token-top-title">{{ .Title }}</p>
-        <p class="col-sm-15 pb-5 ">{{ .Params.lead }}</p>
-        <hr class="token-page-hr"/>
+    <div class="col-lg-9" style="margin: 50px;">
+      <div class="token_text-wrapper_main d-none d-md-block">
+       <div class="token_svg2">
+        {{ partial "content/svg.html" "hand_coin" }}
+       </div>
+        <p class="token_title">{{ .Title }}</p>
+        <p class="token_description_first col-sm-15">{{ .Params.lead }}</p>
+
+        <hr class="token_page_hr" style=""/>
       </div>
-      <p class="text-center mx-auto token-top-header">How it works</p>
-      <div class="token-text-wrapper justify-content-lg-between d-none d-md-flex">
-        <div class="">
-          <p class="token-feature-headers">Security</p>
-          <p class="token-features-description">Akash Network is secured by a Proof-of-Stake (PoS)
+      <p class="text-center mx-auto token_feature_header">How it works</p>
+      <div class="token_text-wrapper_  justify-content-between d-none d-md-flex">
+        <div class="mt-5">
+          <p class="token_p_header">Security</p>
+          <p style="width: 300px;" class="token_description">Akash Network is secured by a Proof-of-Stake (PoS)
             blockchain, and AKT is used to secure the network by staking. Staking AKT provides
-            a passive income stream for stakers, and increases the security of the network.</p>
+             a passive income stream for stakers, and increases the security of the network.</p>
+
         </div>
-        <div class="cubes-svg">
-          {{ partial "content/svg.html" "cubes" }}
-        </div>
+    <div class="token_svg2" style="margin-top: 90px;">
+      {{ partial "content/svg.html" "cubes" }}
+    </div>
       </div>
-      <hr class="token-page-hr"/>
-      <div class="token-text-wrapper d-none d-md-flex justify-content-lg-between align-items-center">
+      <hr class="token_page_hr" style=""/>
+      <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
-          <p class="token-feature-headers">Governance</p>
-          <p class="token-features-description">Akash Network is community-owned and all aspects of
-            the network are governed by AKT holders. AKT holders can vote on proposals to improve
+          <p class="token_p_header">Governance</p>
+          <p style="width: 300px;" class="token_description">Akash Network is community-owned and all aspects of
+            the network are governed by AKT holders. AKT holders can vote on proposals to improve ]
             the network and manage critical parameters such as inflation rate and take rates.</p>
+
         </div>
-        <div class="hammer-svg">
-          {{ partial "content/svg.html" "hammer" }}
-        </div>
+    <div class="token_svg2" style="margin-top: 60px;">
+      {{ partial "content/svg.html" "hammer" }}
+    </div>
       </div>
-      <hr class="token-page-hr"/>
-      <div class="token-text-wrapper d-none d-md-flex justify-content-lg-between align-items-center">
+      <hr class="token_page_hr" style=""/>
+      <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
-          <p class="token-feature-headers">Value Exchange</p>
-          <p class="token-features-description">AKT provides a default mechanism to store and exchange
+          <p class="token_p_header">Value Exchange</p>
+          <p style="width: 300px;" class="token_description">AKT provides a default mechanism to store and exchange
             value, and acts as a reserve currency
             in Cosmos’ multi-currency and multi-chain ecosystem.</p>
+
         </div>
-        <div class="exchange-svg">
-          {{ partial "content/svg.html" "exchange" }}
-        </div>
+    <div class="token_svg" style="margin-top: 20px;">
+      {{ partial "content/svg.html" "exchange" }}
+    </div>
       </div>
-      <hr class="token-page-hr"/>
-      <div class="token-text-wrapper d-none d-md-flex justify-content-lg-between align-items-center">
+      <hr class="token_page_hr" style=""/>
+      <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
-          <p class="token-feature-headers">Incentivization</p>
-          <p class="token-features-description">AKT is used to incentivize providers to offer lower prices,
-            and incentivizes stakers to participate in the network longer term by staking.</p>
+          <p class="token_p_header">Incentivization</p>
+          <p style="width: 300px;" class="token_description">AKT is used to incentivize providers to offer lower prices,
+             and incentivizes stakers to participate in the network longer term by staking.</p>
+
         </div>
-        <div class="jar-svg text-center" style="margin-top: 4px;">
-          {{ partial "content/svg.html" "jar" }}
-        </div>
+    <div class="token_svg text-center" style="margin-top: 4px;">
+      {{ partial "content/svg.html" "jar" }}
+    </div>
       </div>
-      <hr class="token-page-hr"/>
+      <hr class="token_page_hr mx-auto" style=""/>
     </div>
     <div class="col-md-3">
-      <div class="page-links-wrapper">
+      <div class="page-links-wrapper" style="position: sticky; top: 0; right: 0;">
         <div class="page-links d-none d-xl-block">
           <h3>{{ i18n "on-this-page" }}</h3>
           {{ if eq .Site.Params.options.scrollSpy true -}}
-          <p>{{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}</p>
+           <p style="">{{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}</p>
           {{ else -}}
-          {{ .TableOfContents }}
+            {{ .TableOfContents }}
           {{ end -}}
         </div>
+
+
       </div>
     </div>
   </div>
 </section>
 
-<!-- TOKEN FEATURES SECTION LARGE SCREEN END -->
+<!--  screen -->
 
-
-<!-- TOKEN FEATURES SECTION SMALL SCREEN -->
-
-<section class="d-xs-block d-sm-block d-md-none">
+<section class="d-xs-block d-sm-block d-md-none" style="margin-top: -60px;">
   <div class="row" style="margin-bottom: 60px;">
-    <div class="">
-      <div class="token-hero-svg text-sm-center">
+    <div class="token_text-wrapper_p">
+      <div class="lg_token_hero_svg text-center">
         {{ partial "content/svg.html" "hand_coin" }}
       </div>
-        <h1 class="token-hero-title">{{ .Title}}</h1>
-        <p class="w-100">{{ .Params.lead }}</p>
+        <h1 class="token_title_sm">{{ .Title}}</h1>
+        <p class="token_description">{{ .Params.lead }}</p>
       </div>
     </div>
-    <hr class="token-page-hr2 "/>
-  <p class="token-top-header-sm">How it works</p>
-
-  <div class="token-text-wrapper2 py-4 d-flex flex-column">
-    <div class="cubes-svg-sm text-center">
+    <hr class="token_page_hr_sm"/>
+  <p style="margin-bottom: 40px; margin-top: 60px;" class="second__title">How it works</p>
+  <div class="token_text-wrapper_p d-flex flex-column ">
+    <div class="token_svg text-center">
       {{ partial "content/svg.html" "cubes" }}
     </div>
     <div style="margin-top: 40px;">
-      <p class="token-feature-headers">Security</p>
-      <p class="token-features-description">Akash Network is secured by a Proof-of-Stake (PoS)
-        blockchain, and AKT is used to secure the network by staking. Staking AKT provides
-        a passive income stream for stakers, and increases the security of the network.</p>
+      <p class="token_p_header">Security</p>
+      <p style="" class="token_description">Akash Network is secured by a Proof-of-Stake (PoS) blockchain,
+        and AKT is used to secure the network by staking. Staking AKT provides
+        a passive income stream for stakers and increases the security of the network.</p>
     </div>
   </div>
-  <hr class="token-page-hr2  text-center"/>
-  <div class="token-text-wrapper2 py-4 d-flex flex-column">
-    <div class="hammer-svg-sm text-center">
+  <hr class="token_page_hr_sm text-center"/>
+  <div class="token_text-wrapper_p d-flex flex-column">
+    <div class="token_svg text-center">
       {{ partial "content/svg.html" "hammer" }}
     </div>
     <div style="margin-top: 40px;">
-      <p class="token-feature-headers">Governance</p>
-      <p class="token-features-description">Akash Network is community-owned and all aspects of
-        the network are governed by AKT holders. AKT holders can vote on proposals to improve
-        the network and manage critical parameters such as inflation rate and take rates.</p>
+      <p class="token_p_header">Governance</p>
+      <p style="" class="token_description">Akash Network is community-owned and all aspects of
+        the network are governed by AKT holders. AKT holders can vote on proposals to improve the network
+        and manage critical parameters such as inflation rate and take rates.</p>
     </div>
   </div>
-  <hr class="token-page-hr2"/>
-  <div class="token-text-wrapper2 py-4 d-flex flex-column">
-    <div class="exchange-svg-sm  text-center">
+  <hr class="token_page_hr_sm"/>
+  <div class="token_text-wrapper_p d-flex flex-column">
+    <div class="token_svg_ex text-center">
       {{ partial "content/svg.html" "exchange" }}
     </div>
     <div style="margin-top: 40px;">
-      <p class="token-feature-headers">Value Exchange</p>
-      <p class="token-features-description">AKT provides a default mechanism to store and exchange value,
+      <p class="token_p_header">Value Exchange</p>
+      <p style="" class="token_description">AKT provides a default mechanism to store and exchange value,
         and acts as a reserve currency in Cosmos’
         multi-currency and multi-chain ecosystem.</p>
     </div>
   </div>
-  <hr class="token-page-hr2"/>
-  <div class="token-text-wrapper2 py-4 d-flex flex-column">
-    <div class="token-jar-svg-sm text-center">
+  <hr class="token_page_hr_sm"/>
+  <div class="token_text-wrapper_p d-flex flex-column">
+    <div class="token_svg2 text-center">
       {{ partial "content/svg.html" "jar" }}
     </div>
     <div style="margin-top: 40px;">
-      <p class="token-feature-headers">Incentivization</p>
-      <p class="token-features-description">AKT is used to incentivize providers to offer
+      <p class="token_p_header">Incentivization</p>
+      <p style="" class="token_description">AKT is used to incentivize providers to offer
         lower prices and incentivizes stakers to participate
         in the network longer term by staking.</p>
     </div>
-    <hr class="token-page-hr2"/>
+    <hr class="token_page_hr_sm" style="margin-bottom: 90px;"/>
   </div>
+
 </section>
 
-<!-- TOKEN FEATURES SECTION SMALL SCREEN  END-->
 
 
-<!-- ECOSYSTEM TOOLS SECTION LARGE SCREEN -->
-<section class="ecosystem-tools-wrapper">
-  <div class="row">
-    <div class="col-lg-13 text-sm-center">
-      <p class="mx-auto text-center ecosystem-tool-header">Ecosystem Tools</p>
-      <p class="ecosystem-tool-desc mx-auto text-center">The following tools are available to explore
+
+<section id="ecosystem-tools" class=" ecosystem-tools_wrapper">
+  <div class=" row">
+    <div class="col-lg-14" style="margin-top: -50px;">
+      <p class="text-center token_eco_header">Ecosystem Tools</p>
+      <p style="" class="token_eco_desc mx-auto text-center">The following tools are available to explore
         the Akash Network blockchain, stake AKT, and participate in governance:</p>
     </div>
-    <div class="d-none d-md-flex justify-content-center mt-2 second-tools-wrapper">
-      <table class="ecosystem-tool-table-wrapper justify-content-center">
-        <thead class="tools-thead">
+    <div class="d-none d-md-flex justify-content-center" style="margin-top: 10px;">
+      <table class="table_eco_wrapper col-lg-9 justify-content-center">
+        <thead style="font-size: 18px;">
           <tr>
             <th>Explorers</th>
             <th>Wallets</th>
@@ -208,7 +242,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://mintscan.io/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Mintscan</p>
@@ -218,7 +252,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://wallet.keplr.app/#/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Keplr</p>
@@ -228,7 +262,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://wallet.keplr.app/#/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Keplr</p>
@@ -240,7 +274,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://forbole.com/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Bigdipper</p>
@@ -250,7 +284,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://wallet.cosmostation.io/#/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Cosmostation</p>
@@ -260,7 +294,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://wallet.cosmostation.io/#/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Cosmostation</p>
@@ -272,7 +306,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://atomscan.io/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Atoms Scan</p>
@@ -282,7 +316,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://mixin.one/messenger">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Mixin Messenger</p>
@@ -292,7 +326,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://www.stakingrewards.com/earn/akash/">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Staking Rewards</p>
@@ -300,11 +334,11 @@
               </a>
             </td>
           </tr>
-          <tr>
+          <tr style="">
             <td class="table_data_link" style="padding-bottom: 80px;">
               <a target="_blank" href="https://ping.pub/akash">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Ping.pub</p>
@@ -314,7 +348,7 @@
             <td class="table_data_link">
               <a target="_blank" href="https://omni.app">
                 <div class="d-flex mt-3 gap-1">
-                  <div class="token-arrow-svg">
+                  <div class="svg_mode" style="margin-top: -1px;">
                     {{ partial "content/svg.html" "arrow-circled" }}
                   </div>
                   <p>Omni Wallet</p>
@@ -325,168 +359,166 @@
           </tr>
         </tbody>
       </table>
-    </div>
+
+  </div>
+
+
 </div>
+<!-- SMALL SCREEN  -->
+<div class="d-block d-sm-none" style="margin-top: 40px;">
+  <div style="margin-top: 34px;">
+    <p class="eco_tools_head" style="
 
-<!-- ECOSYSTEM TOOLS SECTION LARGE SCREEN END -->
+    ">Wallets</p>
+    <p ></p>
 
-
-<!--ECOSYSTEM TOOLS SECTION SMALL SCREEN  -->
-<div class="d-block d-sm-none mt-5">
-  <div class="mt-3">
-    <p class="tools-header-type">Wallets</p>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://wallet.keplr.app/#/akash">Keplr</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://wallet.keplr.app/#/akash">Keplr</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://wallet.cosmostation.io/#/akash">Cosmostation</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://wallet.cosmostation.io/#/akash">Cosmostation</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://mixin.one/messenger">Mixin Messenger</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://mixin.one/messenger">Mixin Messenger</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://omni.app">Omni Wallet</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://omni.app">Omni Wallet</a></p>
       </div>
 
     </div>
   </div>
-  <hr class="ecosystem-tool-hr"/>
+  <hr class="w-100" style="width:100%; margin-top: 24px; margin-bottom: 22px;"/>
   <div>
-    <p class="tools-header-type">Explorers</p>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <p class="eco_tools_head"  style="">Explorers</p>
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://mintscan.io/akash">Mintscan</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://mintscan.io/akash">Mintscan</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://atomscan.io/akash">Atom Scan</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://atomscan.io/akash">Atom Scan</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://ping.pub/akash">Ping.pub</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://ping.pub/akash">Ping.pub</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://forbole.com/akash">Bigdipper</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://forbole.com/akash">Bigdipper</a></p>
       </div>
     </div>
 
   </div>
-  <hr class="ecosystem-tool-hr"/>
+  <hr class="w-100" style="width:100%; margin-top: 24px; margin-bottom: 20px;"/>
   <div>
-    <p class="tools-header-type">Staking</p>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <p class="eco_tools_head" style="">Staking</p>
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://wallet.keplr.app/#/akash">Keplr</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://wallet.keplr.app/#/akash">Keplr</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://www.stakingrewards.com/earn/akash/">Staking Rewards</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://www.stakingrewards.com/earn/akash/">Staking Rewards</a></p>
       </div>
-    <div class="">
-      <div class="d-flex tool-link-wrapper gap-1">
-        <div class="token-arrow-svg-sm">
+    <div class="eco_tools_example">
+      <div class="d-flex sm_data_link gap-1">
+        <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco-tools-link" target="_blank" href="https://wallet.cosmostation.io/#/akash">Cosmostation</a></p>
+        <p><a class="eco_tool" target="_blank" href="https://wallet.cosmostation.io/#/akash">Cosmostation</a></p>
       </div>
 
     </div>
 
     </div>
   </div>
-  <hr class="ecosystem-tool-hr"/>
-  <!--ECOSYSTEM TOOLS SECTION SMALL SCREEN END -->
-
+  <hr class="w-100" style="width:100%; margin-top: 24px; padding-bottom: 40px;"/>
 </div>
   </section>
 
 
 
-  <section class="token-metric-wrapper">
-    <div class="row">
-      <div class="col-lg-13 text-sm-center">
-        <p class="mx-auto text-center token-metric-header">Token Metrics</p>
-        <p class="token_coin_update text-dark mx-auto text-center">As of <span class="" style="font-weight: 600;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data"
-           "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}, </span> the following
-           are the AKT metrics, as reported by Coingecko.</p>
+<section id="token-metrics" class="token_metrics-wrapper container" style="margin-top: 130px;">
+  <div class="row">
+    <div class="col-lg-14" style="margin-top: -70px;">
+      <p class="text-center token_eco_header" style="padding-bottom: 1rem;">Token Metrics</p>
+      <p style="" class="token_coin_update text-dark mx-auto text-center">As of <span class="" style="font-weight: 600;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}, </span> the following are the AKT metrics, as reported by Coingecko.</p>
     </div>
-      </div>
-    <div class="col-lg-13 d-none d-md-flex justify-content-center align-items-center gap-5 coin_metrics_wrapper" style="margin-top: 60px;">
+    <div class="top_metrics col-lg-14 d-none d-md-flex justify-content-center align-items-center gap-5 coin_metrics_wrapper" style="margin-top: 60px;">
       <div class="d-flex gap-5">
-        <div class="circulating-supply">
-          <p class="circulating-supply-num">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} </p>
-          <p class="circulating-supply-text">Circulating Supply</p>
+        <div style="position: relative; left: -40px;">
+          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} </p>
+          <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Circulating Supply</p>
         </div>
-        <div class="first-metrics-border"></div>
+        <div style="position: relative; right: 30px;" class="metrics_border"></div>
       </div>
       <div class="d-flex gap-5">
-        <div class="total-supply-wrapper">
-          <p class="total-supply-num">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "total_supply" | lang.NumFmt 0}}</p>
-          <p class="total-supply-text">Total Supply</p>
+        <div style="position: relative; right: 15px;">
+          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "total_supply" | lang.NumFmt 0}}</p>
+          <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Total Supply</p>
         </div>
-        <div class="second-metrics-border"></div>
+        <div style="position: relative; left: 19px;" class="metrics_border"></div>
       </div>
       <div class="d-flex gap-5">
-        <div class="maximum-supply-wrapper">
-          <p class="maximum-supply-num">388,539,008</p>
-          <p class="maximum-supply-text">Maximum Supply</p>
+        <div style=" position: relative; left: 25px;">
+          <p class="" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">388,539,008</p>
+          <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Maximum Supply</p>
         </div>
       </div>
     </div>
-    <div class="col-lg-13 d-none d-md-flex justify-content-center align-items-center gap-5 coin-metrics-wrapper">
+    <div class="down_metrics col-lg-14 d-none d-md-flex justify-content-center align-items-center gap-5 coin_metrics_wrapper" style="margin-top: 60px;">
       <div class="d-flex gap-5">
-        <div class="price-wrapper">
-          <p class="price-num">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" }} {{ index $data "akash-network" "usd" | printf "%.4f"}} USD</p>
-          <p class="price-text mx-auto" >Price</p>
+        <div>
+          <p class="price_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" }} {{ index $data "akash-network" "usd" | printf "%.4f"}} USD</p>
+          <p class="text-center mx-auto" style="font-size: 16px; line-height: 24px; text-align:center;">Price</p>
         </div>
-        <div class="third-metrics-border"></div>
+        <div class="metrics_border"></div>
       </div>
       <div class="d-flex gap-5">
-        <div class="market-cap-wrapper">
-          <p class="market-cap-num">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" }} {{ index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}} USD</p>
-          <p class="market-cap-text">Market Cap</p>
+        <div>
+          <p class="market_cap_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/simple/price?ids=akash-network&vs_currencies=usd&include_market_cap=true" }} {{ index $data "akash-network" "usd_market_cap" | lang.NumFmt 0}} USD</p>
+          <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">Market Cap</p>
         </div>
-        <div class="forth-metrics-border"></div>
+        <div class="metrics_border"></div>
       </div>
       <div class="d-flex gap-2">
-        <div class="trading-wrapper">
-          <p class="trading-volume-num">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "total_volume" "usd" | lang.NumFmt 0}} USD</p>
-          <p class="trading-volume-text">24h Trading Volume</p>
+        <div class="trading_wrapper">
+          <p class="trading_volume_num" style="font-size: 24px; font-weight: 700; text-align: center; margin-bottom: -1px;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "total_volume" "usd" | lang.NumFmt 0}} USD</p>
+          <p class="" style="font-size: 16px;  line-height: 24px; text-align: center;">24h Trading Volume</p>
         </div>
       </div>
     </div>
@@ -552,14 +584,15 @@
 
   </div>
 </section>
+<hr class="token_page_hr1 mx-auto"/>
 <section id="buying-akt" class="" style="margin-top: 130px;">
   <div class="row">
-    <div class="col-lg-13" style="margin-top: -70px;">
-      <p class="text-center token-metric-header">Buying AKT</p>
+    <div class="col-lg-14" style="margin-top: -70px;">
+      <p class="text-center token_eco_header">Buying AKT</p>
       <p style="" class="token_eco_desc mx-auto text-center">AKT is available on the following exchanges:</p>
     </div>
     <div class="d-flex table-responsive justify-content-center" style="margin-top:-40px;">
-      <table class="table_eco_wrapper_2 col-lg- justify-content-center" style="border-collapse: collapse; border-spacing: 0; padding: 10px;">
+      <table class="table_eco_wrapper_2 col-lg-9 justify-content-center" style="border-collapse: collapse; border-spacing: 0; padding: 10px;">
         <thead style="font-size: 18px;">
           <tr>
             <th class="table_data_link" style="border-bottom: 1px solid #e9ecef; border-right: none; border-left: none; border-top: none; padding: 10px;">Centralized</th>
@@ -677,43 +710,39 @@
   </div>
 
 </section>
-
-<!-- FAQ -->
-
-<section  id="faq" class="containe faq-content-wrapper">
+<section  id="faq" class="container faq_content_wrapper" style="margin-top: 130px; margin-bottom: 100px;">
   <div class="row">
-    <div class="col-lg-15">
-      <p class="mx-auto text-center faq-header">FAQs</p>
+    <div class="col-lg-15" style="margin-top: -70px;">
+      <p class="text-center token_eco_header">FAQs</p>
     </div>
-    <hr  class="faq-hr"/>
-    <div class=" justify-content-center mx-auto">
-      <div>
-        <div class="d-flex justify-content-center align-items-center mx-auto">
-          <p class="">What is the maximum and circulating supply of AKT?</p>
+    <hr class="faq_down_hr mx-auto" style="width: 740px;"/>
+    <div class="d-flex justify-content-center top_faq_wrapper">
+      <div class="col-lg-10 justify-content-center">
+        <div class="d-flex justify-content-between faq-content_wrapper">
+          <p class="faq_question">What is the maximum and circulating supply of AKT?</p>
           <button id="faq__toggle" class="faq__toggle" onclick="toggleAnswer()">{{ partial "content/svg.html" "arrow_down" }}</button>
         </div>
-        <p class="faq-answer mx-auto text-center" id="faq__answer" style="display: none;">Akash has a maximum supply of 388,539,008 AKT, with {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} AKT in circulation as of {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}.</p>
+        <p class="faq_answer" id="faq__answer" style="display: none;">Akash has a maximum supply of 388,539,008 AKT, with {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} AKT in circulation as of {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}.</p>
       </div>
     </div>
-    <hr  class="faq-hr"/>
-    <div class=" justify-content-center mx-auto">
-      <div class="">
-        <div class="d-flex justify-content-center align-items-center mx-auto">
+    <hr class="faq_down_hr mx-auto" style="width: 740px;"/>
+    <div class="container d-flex justify-content-center top_faq_wrapper" style="">
+      <div class="col-lg-10 justify-content-center">
+        <div class="d-flex justify-content-between faq_text_wrapper">
           <p class="faq_question">What is the unlock schedule for the AKT token?</p>
-          <button id="second-faq-toggle" class="faq__toggle" onclick="toggleSecondAnswer()">{{ partial "content/svg.html" "arrow_down" }}</button>
+          <button id="second_faq_toggle" class="faq__toggle" onclick="toggleSecondAnswer()">{{ partial "content/svg.html" "arrow_down" }}</button>
         </div>
-        <p class=" mx-auto text-center" id="second_faq" style="display: none;">AKT Unlock Schedule is available <span class="unlock_link"> <a target="_blank" href="https://docs.google.com/spreadsheets/d/1MUULetp59lgNq0z4ckVI51QdtMGvqtKOW8wRfX5R8yY/edit#gid=2130333819">here.</a></span> Final Unlock for 8.9m AKT is upcoming in March 2023.</p>
+        <p class="second_faq_answer" id="second_faq" style="display: none;">AKT Unlock Schedule is available <span class="unlock_link"> <a target="_blank" href="https://docs.google.com/spreadsheets/d/1MUULetp59lgNq0z4ckVI51QdtMGvqtKOW8wRfX5R8yY/edit#gid=2130333819">here.</a></span> Final Unlock for 8.9m AKT is upcoming in March 2023.</p>
       </div>
     </div>
-    <hr  class="faq-hr"/>
+    <hr class="faq_down_hr mx-auto" style="width: 740px;"/>
   </div>
 </section>
 
 
-<!-- FAQ  END-->
+
 
 
 {{ end -}}
 {{ end -}}
-
 

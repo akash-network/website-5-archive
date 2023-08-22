@@ -47,38 +47,39 @@
     </p></a>
   </div>
 </section>
-
-
 <hr  class="mt-5 mx-auto blog-detail-hr"/>
-{{ $related := .Site.RegularPages.Related . | first 3 -}}
-{{ with $related -}}
-<div class="related-posts">
-  <div class="row justify-content-center">
-    <div class="section-title-wrapper">
-      <h2 class="section-title">Related posts</h2>
-    </div>
-  </div>
-  <div class="blog-list-container gap-5">
-    {{ range . -}}
-    <div class="blog-card">
-      <div class="blog-card-img">
-        {{- .Scratch.Set "fillImageCard" "1280x640 Center" -}}
-        {{ partial "content/card-image.html" . }}
+<section class="Latest-from-blog">
+  <div>
+    <div class="row justify-content-center">
+      <div class="blog-section-title-wrapper">
+        <h2 class="section-title">Latest From The Blog</h2>
       </div>
-      <div class="blog-card-body">
-            <p class="blog-card-title">
-              <a href="{{ .RelPermalink }}">
-                {{ truncate 42 .Params.title }}
-              </a>
-            </p>
-            {{ partial "main/writer.html" . }}
-            {{ partial "main/blog-meta.html" . -}}
-        </div>
-
     </div>
-    {{ end -}}
+    <div class="blog-list-container gap-5">
+      <div class="blog-list">
+      {{- range (where site.RegularPages "Section" "blog" | first 3) }}
+      <div class="blog-card">
+        <div class="blog-card-img">
+          <a class="" href="{{ .RelPermalink }}">
+            {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
+            {{ partial "content/card-image.html" . }}
+          </a>
+        </div>
+        <div class="blog-card-body">
+          <p class="blog-card-title">
+            <a href="{{ .RelPermalink }}">
+              {{ truncate 42 .Params.title }}
+            </a>
+          </p>
+          {{ partial "main/writer.html" . }}
+          {{ partial "main/blog-meta.html" . -}}
+        </div>
+      </div>
+      {{ end -}}
+    </div>
   </div>
-</div>
-{{ end }}
+  </div>
+</section>
 
 {{ end }}
+

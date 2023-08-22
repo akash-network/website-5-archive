@@ -51,9 +51,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0;
 }
 
-[data-dark-mode] body table {
-  color: #f0f0f0;
-}
 [data-dark-mode] body .table_data_link a {
   color: #f0f0f0;
 }
@@ -110,11 +107,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0 !important;
 }
 
-[data-dark-mode] body .group-1_header,
-.group-2_header,
-.group-3_header {
-  color: #f0f0f0;
-}
 [data-dark-mode] body .group-1_header,
 .group-2_header,
 .group-3_header {
@@ -206,10 +198,6 @@ main [data-dark-mode] body .highlight_header::after {
   background: $body-overlay-dark;
 }
 
-[data-dark-mode] body .home-blog-click-title a {
-  color: #fff;
-}
-
 /*
 [data-dark-mode] body .dropdown-menu {
   @extend .dropdown-menu-dark;
@@ -250,6 +238,14 @@ main [data-dark-mode] body .highlight_header::after {
   border: 1px solid #515559;
   color: #fff;
 }
+
+[data-dark-mode] body .twitter-svg svg path:first-of-type {
+  stroke: #ccc;
+}
+
+[data-dark-mode] body .related-blog-name a {
+  color: #ccc;
+}
 // Blog page section End
 
 [data-dark-mode] body .navbar,
@@ -287,7 +283,6 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 }
 [data-dark-mode] .svg-container svg,
 [data-dark-mode] .hand-coin-svg svg,
-[data-dark-mode] .cubes-svg-sm svg,
 [data-dark-mode] .cubes-svg-sm svg,
 [data-dark-mode] .hammer-svg-sm svg,
 [data-dark-mode] .jar-svg svg,

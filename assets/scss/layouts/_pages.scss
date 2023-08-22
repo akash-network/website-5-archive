@@ -8,11 +8,6 @@
   text-align: left;
 }
 
-.home-blog-title {
-  position: relative;
-  left: 110px;
-}
-
 .carousel-container {
   display: none;
 }
@@ -198,27 +193,11 @@ div > div:nth-child(1) > div > h3 > span {
   margin-top: 30px;
 }
 
-.home-blog-click-title a {
-  height: 64px;
-  width: 297px;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-bottom: 30px;
-  color: black;
-}
-
-.home-blog-wrapper {
-  gap: 50px;
-}
-
-.home-blog-title {
-  margin-bottom: 40px;
-}
-
 .footer-d-wrapper {
   margin-top: 50px;
+}
+.Latest-from-blog-main {
+  width: 1070px;
 }
 
 /* Default styles for laptop and larger screens */
@@ -283,29 +262,6 @@ div > div:nth-child(1) > div > h3 > span {
     margin-top: 50px;
   }
 
-  .blog-card-content {
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .home-blog-click-title {
-    width: 380px;
-    margin: 30px auto;
-    line-height: 40px;
-  }
-
-  .home-blog-click-title a {
-    font-size: 34px;
-  }
-
-  .read-time-wrapper {
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .group-1_header,
   .group-2_header,
   .group-3_header {
@@ -329,14 +285,6 @@ div > div:nth-child(1) > div > h3 > span {
     z-index: 1;
   }
 
-  .home-blog-title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-    left: 0;
-  }
-
   .section_features .groups_wrapper {
     display: flex;
     position: relative;
@@ -347,15 +295,6 @@ div > div:nth-child(1) > div > h3 > span {
 
   .section_features h5 {
     padding-top: 15px;
-  }
-
-  .top-blog-wrapper {
-    margin-top: 10px;
-  }
-
-  .home-blog-title {
-    font-size: 35px;
-    text-align: center;
   }
 
   .footer_wrapper {
@@ -393,32 +332,16 @@ div > div:nth-child(1) > div > h3 > span {
     width: 230px;
   }
 
-  .footer_wrapper {
-    background-color: #ffdede;
-    width: 640px;
-  }
-
-  .top-blog-wrapper > div > .second-blog-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .home-blog-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch; /* Allow elements to stretch */
-  }
-
   .col-sm-6.col-md-12.col-lg-4 {
-    width: 100%; /* Ensure each blog card takes full width */
+    width: 100%;
   }
 }
 
 @media (min-width: 699px) and (max-width: 700px) {
   .hr_ {
+    width: 100%;
+  }
+  .Latest-from-blog-main {
     width: 100%;
   }
 }
@@ -428,39 +351,12 @@ div > div:nth-child(1) > div > h3 > span {
     display: none;
   }
 
-  .top-blog-wrapper > div > .second-blog-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .home-blog-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .col-sm-6.col-md-12.col-lg-4 {
     width: 100%;
   }
 
-  .home-blog-click-title {
+  .Latest-from-blog-main {
     width: 100%;
-    line-height: 40px;
-  }
-
-  .home-blog-click-title a {
-    font-size: 20px;
-  }
-
-  .home-blog-title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-    left: 0;
   }
 }
 
@@ -470,11 +366,6 @@ div > div:nth-child(1) > div > h3 > span {
     width: 650px;
     margin: 36px auto;
     line-height: 68px;
-  }
-
-  .home-blog-title {
-    position: relative;
-    left: 100px;
   }
 }
 
@@ -488,13 +379,6 @@ div > div:nth-child(1) > div > h3 > span {
   .hr_ {
     width: 360px;
     padding-bottom: 5px;
-  }
-
-  .home-blog-title {
-    position: relative;
-    left: 0;
-    font-size: 27px;
-    text-align: left;
   }
 
   .section .header-text {
@@ -529,10 +413,6 @@ div > div:nth-child(1) > div > h3 > span {
     padding-top: 30px;
   }
 
-  .home-blog-click-title a {
-    font-size: 20px;
-  }
-
   .footer-content-wrapper {
     display: block;
     justify-content: center;
@@ -548,18 +428,8 @@ div > div:nth-child(1) > div > h3 > span {
     font-size: 20px;
   }
 
-  .home-blog-click-title {
-    width: 300px;
-    line-height: 40px;
-    margin: 10px auto;
-  }
-
-  .home-blog-title {
+  .Latest-from-blog-main {
     width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    position: relative;
-    left: 0;
   }
 }
 
@@ -572,5 +442,13 @@ div > div:nth-child(1) > div > h3 > span {
 @media (min-width: 430px) and (max-width: 576px) {
   .hr_ {
     width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .Latest-from-blog-main {
+    width: 1040px;
+    margin: 10px auto;
+    padding-bottom: 60px;
   }
 }
