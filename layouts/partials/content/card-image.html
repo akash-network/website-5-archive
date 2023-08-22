@@ -1,25 +1,17 @@
 {{ $fillImage := .Scratch.Get "fillImageCard" }} {{ if not $fillImage -}} {{
-$fillImage = site.Params.fillImage }} {{ end }} {{ $imageURL := (printf "%s%s"
-"images/" site.Params.defaultImage) }} {{ $lqipURL := $imageURL }} {{ if
-.Params.images -}} {{ $blogImage := .Resources.GetMatch (printf "**%s" (index
-.Params.images 0)) }} {{ $imageURL = $blogImage.RelPermalink }} {{ $lqipImage :=
-$blogImage.Resize site.Params.lqipWidth }} {{ $lqipURL = $lqipImage.RelPermalink
-}} {{ end }}
+$fillImage = site.Params.fillImage }} {{ end -}} {{ $image := resources.Get
+(printf "%s%s" "images/" site.Params.defaultImage) }} {{ if .Params.images -}}
+{{ $blogimage := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
+{{ if not (strings.HasSuffix $blogimage.RelPermalink ".gif") -}} {{ $image =
+$blogimage }} {{ end -}} {{ end }} {{ $webp := printf "%s%s" $fillImage " webp"
+}} {{ $image = $image.Resize $webp}} {{ $lqip := $image.Resize
+site.Params.lqipWidth -}}
 
-<figure class="figure">
-  <img
-    class="figure-img img-fluid lazyload blur-up"
-    src="{{ $lqipURL }}"
-    data-src="{{ $imageURL }}"
-    alt="{{ .Title }}"
-    data-sizes="auto"
-  />
-  <noscript>
-    <img
-      class="figure-img img-fluid"
-      src="{{ $imageURL }}"
-      alt="{{ .Title }}"
-    />
-  </noscript>
-  <!-- {{ with .Title }}<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>{{ end }} -->
-</figure>
+<img
+  class="card-img-top img-fluid lazyload blur-up"
+  src="{{ $lqip.Permalink }}"
+  data-src="{{ $image.Permalink }}"
+  width="{{ $image.Width }}"
+  height="{{ $image.Height }}"
+  alt="{{ .Title }}"
+/>
