@@ -352,6 +352,11 @@
   .blog-detail-hr {
     width: 1050px;
   }
+
+  .blog-detail-title-wrapper {
+    width: 1070px;
+    padding-bottom: 20px;
+  }
 }
 // for Tablets screens
 @media (max-width: 1200px) {
@@ -415,7 +420,7 @@
 }
 
 // FOR SMALL SCREENS
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .sm-hero-section {
     display: block;
     margin-top: 40px;
@@ -448,6 +453,7 @@
 
   .blog-list {
     grid-template-columns: 1fr;
+    margin-bottom: 50px;
   }
 
   .blog-sticky-nav {
