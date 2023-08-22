@@ -1,9 +1,9 @@
 {{ $fillImage := .Scratch.Get "fillImageCard" }} {{ if not $fillImage -}} {{
 $fillImage = site.Params.fillImage }} {{ end }} {{ $imageURL := (printf "%s%s"
 "images/" site.Params.defaultImage) }} {{ $lqipURL := $imageURL }} {{ if
-.Params.images }} {{ $blogimage := .Resources.GetMatch (printf "**%s" (index
-.Params.images 0)) }} {{ $imageURL = $blogimage.RelPermalink }} {{ $lqipImage :=
-$blogimage.Resize site.Params.lqipWidth }} {{ $lqipURL = $lqipImage.RelPermalink
+.Params.images -}} {{ $blogImage := .Resources.GetMatch (printf "**%s" (index
+.Params.images 0)) }} {{ $imageURL = $blogImage.RelPermalink }} {{ $lqipImage :=
+$blogImage.Resize site.Params.lqipWidth }} {{ $lqipURL = $lqipImage.RelPermalink
 }} {{ end }}
 
 <figure class="figure">
@@ -21,4 +21,5 @@ $blogimage.Resize site.Params.lqipWidth }} {{ $lqipURL = $lqipImage.RelPermalink
       alt="{{ .Title }}"
     />
   </noscript>
+  <!-- {{ with .Title }}<figcaption class="figure-caption">{{ . | safeHTML }}</figcaption>{{ end }} -->
 </figure>
