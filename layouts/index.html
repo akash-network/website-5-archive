@@ -330,11 +330,11 @@ function highlightMenuItem() {
 </div>
 
 <hr class="hr_">
-<section class="Latest-from-blog-main container-fluid">
+<section class="Latest-from-blog container">
   <div>
     <div class="row justify-content-center">
-      <div class="blog-section-title-wrapper">
-        <h2 class="section-title">Latest From The Blog</h2>
+      <div class="blog-detail-title-wrapper">
+        <h2 class="detail-blog-title" >Latest From The Blog</h2>
       </div>
     </div>
     <div class="blog-list-container gap-5">
@@ -347,7 +347,7 @@ function highlightMenuItem() {
             {{ partial "content/card-image.html" . }}
           </a>
         </div>
-        <div class="blog-card-body">
+        <div class="blog-card-body mt-2">
           <p class="blog-card-title">
             <a href="{{ .RelPermalink }}">
               {{ truncate 42 .Params.title }}

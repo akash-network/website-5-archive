@@ -459,4 +459,20 @@
   .blog-sticky-nav {
     display: none;
   }
+
+  .prev-pagination-button {
+    padding: 12px;
+    width: 40px;
+    font-size: 12px;
+  }
+
+  .next-pagination-button {
+    font-size: 12px;
+    width: 40px;
+  }
+
+  .total-blogs-pagination {
+    font-size: 14px;
+    width: 140px;
+  }
 }
