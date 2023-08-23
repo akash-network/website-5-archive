@@ -368,21 +368,8 @@ function highlightMenuItem() {
 {{ end }}
 {{ end }}
 {{ define "sidebar-footer" }}
-  <div class="footer_wrapper py-2 rounded-3">
-    <div class="d-flex justify-content-center align-items-center mt-lg-5 mt-sm-1 mt-md-5 footer-content-wrapper">
-      <h3 class="mx-auto text-center footer-in">
-        Interested in receiving the latest Akash news? Sign up for Akash Newsletter
-      </h3>
-    </div>
-    <aside class="mx-auto emailText_wrapper text-center">
-      <a target="_blank" href="https://akashnet.typeform.com/to/awKX5bPw">
-        <button type="submit" class="btn btn-primary btn-lg px-4 mb-2 mt-3 text-center text-white mx-auto">
-          Subscribe
-        </button>
-      </a>
-    </aside>
-  </div>
 
+{{ partial "content/newsletter.html" . }}
   <section class="container-fluid footer-d-wrapper">
     <div class="row">
       <div class="">

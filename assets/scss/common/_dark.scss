@@ -112,7 +112,7 @@ $navbar-dark-active-color: $link-color-dark;
 .group-3_header {
   color: #f0f0f0;
 }
-main [data-dark-mode] body .highlight_header::after {
+[data-dark-mode] body .highlight_header::after {
   background-color: #f0f0f0;
 }
 
@@ -312,6 +312,11 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 [data-dark-mode] body .table_data_link .arrow_svg svg path {
   stroke: #fff;
 }
+
+[data-dark-mode] body .out-link-svg svg path {
+  stroke: #fff;
+}
+
 [data-dark-mode] body .table_data_link .token-arrow-svg-sm svg path,
 [data-dark-mode] body .tool-link-wrapper .token-arrow-svg-sm svg path,
 [data-dark-mode] body .table_data_link .arrow_svg-sm svg path {
