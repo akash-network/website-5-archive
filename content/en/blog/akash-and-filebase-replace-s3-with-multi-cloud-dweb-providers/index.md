@@ -9,7 +9,7 @@ categories:
 tags:
   - Developers
   - News
-  - community
+  - product
 contributors:
   - Colin Pollen
 pinned: false
