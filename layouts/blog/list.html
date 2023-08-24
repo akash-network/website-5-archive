@@ -2,7 +2,7 @@
 
 <!-- Hero Section -->
 {{ $heroPost := index .Data.Pages 0 }}
-<section class="hero-section container">
+<section class="hero-section">
   <div class="hero-content container">
     <div class="hero-blog-image">
       <a href="{{ $heroPost.RelPermalink }}">
@@ -28,8 +28,6 @@
     </div>
   </div>
 </section>
-
-
 
 <section class="sm-hero-section mx-auto">
   <div class="blog-card">
@@ -79,7 +77,6 @@
   </div>
 </section>
 
-
 <!-- BLOG LIST -->
 <section>
   <div class="blog-list-container">
@@ -125,23 +122,31 @@
       {{ end }} {{ end }}
     </div>
   </div>
-  <div class="pagination-container  mx-auto my-5">
-    <div>
-      <div class="total-blogs-pagination">
-        <p>Showing {{ $startIndex }} to {{ $endIndex }} of {{ $totalBlogs }}
-          results</p>
-      </div>
+  <div class="pagination-container mx-auto my-5">
+    <div class="total-blogs-pagination">
+      <p>
+        Showing {{ $startIndex }} to {{ $endIndex }} of {{ $totalBlogs }}
+        results
+      </p>
     </div>
     <div>
       {{ with .Paginator }} {{ if .HasPrev }}
-      <a  class="prev-pagination-button" href="{{ .Prev.URL }}" class="pagination-prev">Previous Page</a>
+      <a
+        class="prev-pagination-button"
+        href="{{ .Prev.URL }}"
+        class="pagination-prev"
+        >Previous Page</a
+      >
       {{ end }} {{ if .HasNext }}
-      <a class="next-pagination-button" href="{{ .Next.URL }}" class="pagination-next">Next Page</a>
+      <a
+        class="next-pagination-button"
+        href="{{ .Next.URL }}"
+        class="pagination-next"
+        >Next Page</a
+      >
       {{ end }} {{ end }}
     </div>
-
+  </div>
 </section>
 
-{{ partial "content/newsletter.html" . }}
-
-{{ end }}
+{{ partial "content/newsletter.html" . }} {{ end }}

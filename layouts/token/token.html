@@ -11,10 +11,8 @@
     position: relative;
     transform: translateX(-50%);
   }
-</style>
 
 
-<style>
   @keyframes fadeIn {
     0% { opacity: 0; transform: translateY(-10px); }
     100% { opacity: 1; transform: translateY(0); }
@@ -50,7 +48,7 @@ function toggleAnswer() {
 
 function toggleSecondAnswer() {
   var answer = document.getElementById("second_faq");
-  var toggleButton = document.getElementById("second_faq_toggle"); // Updated button ID
+  var toggleButton = document.getElementById("second_faq_toggle");
   if (answer.style.display === "none") {
     answer.style.display = "block";
     answer.classList.add("show");
@@ -71,89 +69,82 @@ function toggleSecondAnswer() {
 
 
 
-<section class="container" style="">
+<section class="container">
   <div class="row justify-content-center">
     <div class="col-lg-9" style="margin: 50px;">
       <div class="token_text-wrapper_main d-none d-md-block">
-       <div class="token_svg2">
-        {{ partial "content/svg.html" "hand_coin" }}
-       </div>
+        <div class="token_svg2">
+          {{ partial "content/svg.html" "hand_coin" }}
+        </div>
         <p class="token_title">{{ .Title }}</p>
         <p class="token_description_first col-sm-15">{{ .Params.lead }}</p>
-
         <hr class="token_page_hr" style=""/>
       </div>
-      <p class="text-center mx-auto token_feature_header">How it works</p>
-      <div class="token_text-wrapper_  justify-content-between d-none d-md-flex">
-        <div class="mt-5">
+      <p class="text-center mx-auto token_feature_header my-5">How it works</p>
+      <div class="token_text-wrapper_ justify-content-between d-none d-md-flex">
+        <div>
           <p class="token_p_header">Security</p>
           <p style="width: 300px;" class="token_description">Akash Network is secured by a Proof-of-Stake (PoS)
             blockchain, and AKT is used to secure the network by staking. Staking AKT provides
-             a passive income stream for stakers, and increases the security of the network.</p>
-
+            a passive income stream for stakers, and increases the security of the network.</p>
         </div>
-    <div class="token_svg2" style="margin-top: 90px;">
-      {{ partial "content/svg.html" "cubes" }}
-    </div>
+        <div class="token_svg2" style="margin-top: 30px;">
+          {{ partial "content/svg.html" "cubes" }}
+        </div>
       </div>
-      <hr class="token_page_hr" style=""/>
+      <hr class="token_page_hr"/>
       <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
           <p class="token_p_header">Governance</p>
           <p style="width: 300px;" class="token_description">Akash Network is community-owned and all aspects of
-            the network are governed by AKT holders. AKT holders can vote on proposals to improve ]
+            the network are governed by AKT holders. AKT holders can vote on proposals to improve
             the network and manage critical parameters such as inflation rate and take rates.</p>
-
         </div>
-    <div class="token_svg2" style="margin-top: 60px;">
-      {{ partial "content/svg.html" "hammer" }}
-    </div>
+          <div class="token_svg2" style="margin-top: 60px;">
+            {{ partial "content/svg.html" "hammer" }}
+          </div>
       </div>
-      <hr class="token_page_hr" style=""/>
+      <hr class="token_page_hr"/>
       <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
           <p class="token_p_header">Value Exchange</p>
           <p style="width: 300px;" class="token_description">AKT provides a default mechanism to store and exchange
-            value, and acts as a reserve currency
-            in Cosmos’ multi-currency and multi-chain ecosystem.</p>
-
+            value, and acts as a reserve currency in Cosmos’ multi-currency and multi-chain ecosystem.</p>
         </div>
-    <div class="token_svg" style="margin-top: 20px;">
-      {{ partial "content/svg.html" "exchange" }}
-    </div>
+          <div class="token_svg" style="margin-top: 20px;">
+            {{ partial "content/svg.html" "exchange" }}
+        </div>
       </div>
       <hr class="token_page_hr" style=""/>
       <div class="token_text-wrapper_ d-none d-md-flex justify-content-between">
         <div class="">
           <p class="token_p_header">Incentivization</p>
           <p style="width: 300px;" class="token_description">AKT is used to incentivize providers to offer lower prices,
-             and incentivizes stakers to participate in the network longer term by staking.</p>
-
+            and incentivizes stakers to participate in the network longer term by staking.</p>
         </div>
-    <div class="token_svg text-center" style="margin-top: 4px;">
-      {{ partial "content/svg.html" "jar" }}
-    </div>
+        <div class="token_svg text-center" style="margin-top: 4px;">
+          {{ partial "content/svg.html" "jar" }}
+        </div>
       </div>
-      <hr class="token_page_hr mx-auto" style=""/>
+      <hr class="token_page_hr mx-auto"/>
     </div>
     <div class="col-md-3">
       <div class="page-links-wrapper" style="position: sticky; top: 0; right: 0;">
         <div class="page-links d-none d-xl-block">
           <h3>{{ i18n "on-this-page" }}</h3>
           {{ if eq .Site.Params.options.scrollSpy true -}}
-           <p style="">{{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}</p>
+          <p style="">{{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}</p>
           {{ else -}}
-            {{ .TableOfContents }}
+          {{ .TableOfContents }}
           {{ end -}}
         </div>
-
-
       </div>
     </div>
   </div>
 </section>
 
-<!--  screen -->
+
+<!--mobile  screen -->
 
 <section class="d-xs-block d-sm-block d-md-none" style="margin-top: -60px;">
   <div class="row" style="margin-bottom: 60px;">
@@ -223,7 +214,7 @@ function toggleSecondAnswer() {
 
 <section id="ecosystem-tools" class=" ecosystem-tools_wrapper">
   <div class=" row">
-    <div class="col-lg-14" style="margin-top: -50px;">
+    <div class="col-lg-14 mt-3">
       <p class="text-center token_eco_header">Ecosystem Tools</p>
       <p style="" class="token_eco_desc mx-auto text-center">The following tools are available to explore
         the Akash Network blockchain, stake AKT, and participate in governance:</p>
@@ -367,34 +358,30 @@ function toggleSecondAnswer() {
 <!-- SMALL SCREEN  -->
 <div class="d-block d-sm-none" style="margin-top: 40px;">
   <div style="margin-top: 34px;">
-    <p class="eco_tools_head" style="
-
-    ">Wallets</p>
-    <p ></p>
-
+    <p class="eco_tools_head">Wallets</p>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
         <p><a class="eco_tool" target="_blank" href="https://wallet.keplr.app/#/akash">Keplr</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
         <p><a class="eco_tool" target="_blank" href="https://wallet.cosmostation.io/#/akash">Cosmostation</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
-        <p><a class="eco_tool" target="_blank" href="https://mixin.one/messenger">Mixin Messenger</a></p>
+      <p><a class="eco_tool" target="_blank" href="https://mixin.one/messenger">Mixin Messenger</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
@@ -405,30 +392,30 @@ function toggleSecondAnswer() {
   </div>
   <hr class="w-100" style="width:100%; margin-top: 24px; margin-bottom: 22px;"/>
   <div>
-    <p class="eco_tools_head"  style="">Explorers</p>
+    <p class="eco_tools_head">Explorers</p>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
         <p><a class="eco_tool" target="_blank" href="https://mintscan.io/akash">Mintscan</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
         <p><a class="eco_tool" target="_blank" href="https://atomscan.io/akash">Atom Scan</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
         <p><a class="eco_tool" target="_blank" href="https://ping.pub/akash">Ping.pub</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
@@ -441,21 +428,21 @@ function toggleSecondAnswer() {
   <div>
     <p class="eco_tools_head" style="">Staking</p>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
         <p><a class="eco_tool" target="_blank" href="https://wallet.keplr.app/#/akash">Keplr</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
         <p><a class="eco_tool" target="_blank" href="https://www.stakingrewards.com/earn/akash/">Staking Rewards</a></p>
       </div>
     <div class="eco_tools_example">
-      <div class="d-flex sm_data_link gap-1">
+      <div class="d-flex tools-link gap-1">
         <div class="svg_mode" style="margin-top: -2px; margin-right: 2px;">
           {{ partial "content/svg.html" "arrow-circled" }}
         </div>
@@ -472,9 +459,9 @@ function toggleSecondAnswer() {
 
 
 
-<section id="token-metrics" class="token_metrics-wrapper container" style="margin-top: 130px;">
+<section id="token-metrics" class="token_metrics-wrapper mt-3">
   <div class="row">
-    <div class="col-lg-14" style="margin-top: -70px;">
+    <div class="col-lg-14">
       <p class="text-center token_eco_header" style="padding-bottom: 1rem;">Token Metrics</p>
       <p style="" class="token_coin_update text-dark mx-auto text-center">As of <span class="" style="font-weight: 600;">{{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}, </span> the following are the AKT metrics, as reported by Coingecko.</p>
     </div>
@@ -710,7 +697,7 @@ function toggleSecondAnswer() {
   </div>
 
 </section>
-<section  id="faq" class="container faq_content_wrapper" style="margin-top: 130px; margin-bottom: 100px;">
+<section  id="faq" class="container" style="margin-top: 130px; margin-bottom: 100px;">
   <div class="row">
     <div class="col-lg-15" style="margin-top: -70px;">
       <p class="text-center token_eco_header">FAQs</p>
@@ -719,17 +706,17 @@ function toggleSecondAnswer() {
     <div class="d-flex justify-content-center top_faq_wrapper">
       <div class="col-lg-10 justify-content-center">
         <div class="d-flex justify-content-between faq-content_wrapper">
-          <p class="faq_question">What is the maximum and circulating supply of AKT?</p>
+          <p class="faq_question ">What is the maximum and circulating supply of AKT?</p>
           <button id="faq__toggle" class="faq__toggle" onclick="toggleAnswer()">{{ partial "content/svg.html" "arrow_down" }}</button>
         </div>
         <p class="faq_answer" id="faq__answer" style="display: none;">Akash has a maximum supply of 388,539,008 AKT, with {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{ index $data "market_data" "circulating_supply" | lang.NumFmt 0}} AKT in circulation as of {{ $data := getJSON "https://api.coingecko.com/api/v3/coins/akash-network?tickers=true&market_data=true" }} {{  index $data "market_data" "last_updated" | dateFormat "Mon Jan 2 15:04:05 MST"}}.</p>
       </div>
     </div>
     <hr class="faq_down_hr mx-auto" style="width: 740px;"/>
-    <div class="container d-flex justify-content-center top_faq_wrapper" style="">
+    <div class="container d-flex justify-content-center top_faq_wrapper">
       <div class="col-lg-10 justify-content-center">
-        <div class="d-flex justify-content-between faq_text_wrapper">
-          <p class="faq_question">What is the unlock schedule for the AKT token?</p>
+        <div class="d-flex justify-content-between faq-content_wrapper">
+          <p class="faq_question mt-md-3">What is the unlock schedule for the AKT token?</p>
           <button id="second_faq_toggle" class="faq__toggle" onclick="toggleSecondAnswer()">{{ partial "content/svg.html" "arrow_down" }}</button>
         </div>
         <p class="second_faq_answer" id="second_faq" style="display: none;">AKT Unlock Schedule is available <span class="unlock_link"> <a target="_blank" href="https://docs.google.com/spreadsheets/d/1MUULetp59lgNq0z4ckVI51QdtMGvqtKOW8wRfX5R8yY/edit#gid=2130333819">here.</a></span> Final Unlock for 8.9m AKT is upcoming in March 2023.</p>
