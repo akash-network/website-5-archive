@@ -296,7 +296,11 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   color: $body-color-dark;
 }
 
-[data-dark-mode] body .tool-link-wrapper p .eco-tools-link {
+[data-dark-mode] body .metrics_border {
+  border-right-color: #515559 !important;
+}
+
+[data-dark-mode] #ecosystem-tools > div div > div > p > a {
   color: #fff;
 }
 

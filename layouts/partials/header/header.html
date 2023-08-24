@@ -156,6 +156,7 @@
   </nav>
 </header>
 
+
 {{ if eq .Site.Params.options.navbarSticky true }}
 </div>
 {{ end -}}
@@ -164,15 +165,19 @@
 <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
   <aside class="doks-sidebar">
     <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
-
+      {{ partial "sidebar/docs-menu.html" . }}
     </nav>
   </aside>
 </div>
 
 {{ else if ne .CurrentSection .FirstSection -}}
+
 <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
   <aside class="doks-sidebar">
-
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      {{ partial "sidebar/docs-menu.html" . }}
+    </nav>
   </aside>
 </div>
 {{ end -}}
+
