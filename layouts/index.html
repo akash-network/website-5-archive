@@ -368,8 +368,10 @@ function highlightMenuItem() {
 {{ end }}
 {{ end }}
 {{ define "sidebar-footer" }}
+<section class="container-fluid">
+  {{ partial "content/newsletter.html" . }}
+</section>
 
-{{ partial "content/newsletter.html" . }}
   <section class="container-fluid footer-d-wrapper">
     <div class="row">
       <div class="">
