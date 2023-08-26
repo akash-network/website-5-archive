@@ -7,7 +7,7 @@
     {{ if gt $index 0 }}
       {{ if eq $index $last }} and {{ else }}, {{ end }}
     {{ end }}
-    <a class="text-dark fw-bolder" style="text-decoration: underline; text-underline-offset: 5px;" href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>
+    <a class="text-dark fw-bolder text-decoration-underline" style="text-underline-offset: 5px;" href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">{{ . }}</a>
   {{ end }}
 {{ end }}
  </span>
@@ -16,7 +16,7 @@
   <span>/</span>
   {{ range $index, $category := .Params.categories }}
     {{ if gt $index 0 }}, {{ end }}
-    <a class="text-dark fw-bolder" style="text-decoration: underline; text-underline-offset: 5px;" href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a>
+    <a class="text-dark fw-bolder text-decoration-underline" style="text-underline-offset: 5px;" href="{{ "/categories/" | absURL }}{{ . | urlize }}/">{{ . }}</a>
   {{ end }}
 {{ end }}
 
