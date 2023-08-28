@@ -41,10 +41,12 @@
         {{ end -}}
     </div>
     <p class="share-header">Share This Article</p>
-    <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer">
+    <a href="https://twitter.com/intent/tweet?url=http://akash.network{{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer">
       <p class="twitter-svg">
-      {{ partial "content/svg.html" "twitter" }}
-    </p></a>
+        {{ partial "content/svg.html" "twitter" }}
+      </p>
+    </a>
+
   </div>
 </section>
 <hr  class="mt-5 mx-auto blog-detail-hr"/>
