@@ -1,4 +1,9 @@
-### Stable payment and take rate
+---
+title: "Stable payment and take rate"
+date: 2023-1-09T00:19:20-08:00
+---
+
+# Stable payment and take rate
 
 Stable payments aim to assuage resource planning concerns around a volatile alternative asset, making the experiences for both providers and tenants on Akash Network more consistent and accessible. This will clear the path for more tenants to deploy more workloads to Akash Network and make the value proposition for providers clearer while lowering the barrier to entry for both. Supporting native USDC will enable greater access across the board for both sides of the marketplace.
 
