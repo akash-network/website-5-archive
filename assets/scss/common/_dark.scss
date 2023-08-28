@@ -223,7 +223,12 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .twitter-svg svg path:first-of-type {
   stroke: #ccc;
 }
-
+[data-dark-mode] body .linkedin-svg svg path{
+  stroke: #ccc;
+}
+[data-dark-mode] body .facebook-svg svg path:first-of-type {
+  stroke: #ccc;
+}
 [data-dark-mode] body .related-blog-name a {
   color: #ccc;
 }
