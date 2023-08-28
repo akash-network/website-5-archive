@@ -40,12 +40,25 @@
         {{ end -}}
         {{ end -}}
     </div>
-    <p class="share-header">Share This Article</p>
+    <div class="d-flex gap-3">
+      <p class="share-header">Share This Article</p>
     <a href="https://twitter.com/intent/tweet?url=http://akash.network{{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer">
       <p class="twitter-svg">
         {{ partial "content/svg.html" "twitter" }}
       </p>
     </a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer">
+        <p class="linkedin-svg">
+          {{ partial "content/svg.html" "linkedin" }}
+        </p>
+      </a>
+      <a href="http://www.facebook.com/sharer.php?u=http://akash.network{{ .Permalink | absURL }}" target="_blank" rel="noopener noreferrer">
+        <p class="facebook-svg">
+          {{ partial "content/svg.html" "facebook" }}
+        </p>
+      </a>
+    </div>
+
 
   </div>
 </section>
