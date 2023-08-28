@@ -95,7 +95,7 @@
 .blog-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 40px;
+  gap: 25px;
 }
 
 .blog-card {
@@ -136,7 +136,7 @@
 .blog-reading-time {
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -166,6 +166,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .tag-button {
@@ -213,6 +215,9 @@
   border: 1px;
   border: 1px solid #00000033;
   color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
 }
 
 .next-pagination-button:hover {

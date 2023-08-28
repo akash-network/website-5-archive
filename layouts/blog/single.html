@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{ define "main" }} {{ partial "content/tag-button.html" . }}
 <section class="d-flex justify-content-between align-content-center mt-5 gap-5">
   <article class="mx-auto" style="width: 700px;">
         <div class="mx-auto">
@@ -55,7 +55,7 @@
         <h2 class="detail-blog-title" >Latest From The Blog</h2>
       </div>
     </div>
-    <div class="blog-list-container gap-5">
+    <div class="blog-list-container">
       <div class="blog-list">
       {{- range (where site.RegularPages "Section" "blog" | first 3) }}
       <div class="blog-card">

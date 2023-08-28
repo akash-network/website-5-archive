@@ -275,12 +275,12 @@ $navbar-dark-active-color: $link-color-dark;
   border-right-color: #515559;
 }
 
-[data-dark-mode] #ecosystem-tools > div div > div > p > a {
-  color: #fff;
+[data-dark-mode] body .sm-hand-coin svg {
+  stroke: #fff;
 }
 
-[data-dark-mode] body .out-link-svg svg path {
-  stroke: #fff;
+[data-dark-mode] #ecosystem-tools > div div > div > p > a {
+  color: #fff;
 }
 
 [data-dark-mode] body .table_data_link .svg_mode svg path,

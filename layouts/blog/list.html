@@ -148,5 +148,19 @@
     </div>
   </div>
 </section>
+{{ end }}
 
-{{ partial "content/newsletter.html" . }} {{ end }}
+{{ define "sidebar-footer" }}
+<section>
+  {{ partial "content/newsletter.html" . }}
+</section>
+
+  <section class="container-fluid footer-d-wrapper">
+    <div class="row">
+      <div class="">
+        {{- .Content -}}
+      </div>
+    </div>
+  </section>
+{{ end }}
+
