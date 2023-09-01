@@ -31,7 +31,8 @@ As a result of the proliferation of capable Large Language Models (LLMs) and AI 
 As the most in-demand GPUs make their way to market, they are distributed primarily to corporations and hyperscale cloud service providers (CSPs), who have the vast resources needed to acquire and operate these high-priced GPUs. For hyperscale cloud providers, access to these GPUs represents a strong selling point and offers a way to attract customers who prefer to access compute on-demand.
 
 For those looking for on-demand compute, it’s not always easy to find. Users of CSPs are forced to accept permissioned access and the risk of vendor lock-in, and this is only if the desired GPU units are even available. Given the intense demand, it’s common for the highest-performance GPUs to be prioritized for reserved instances, in which the cloud service provider “pre-sells” or reserves access to specific quantities of GPUs for a predetermined length of time. These reserve instances are often expensive and are often prioritized for the largest customers who see cost as secondary to control and access.
-Building the Open-Source Supercloud for AI
+
+## Building the Open-Source Supercloud for AI
 Akash addresses these inefficiencies with the first operational Supercloud, a “cloud of clouds,” or a way to permissionlessly access compute resources – including GPUs – from a range of providers, from independent to hyperscale. The network that powers the Supercloud has been in the making for nearly seven years. During that time, it has matured and been battle-tested across various cloud services and specific use cases. The network has onboarded cloud resource providers and coordinated leases for compute resources with deployers around the world. 
 
 Each major iteration of the network’s development is marked by a Mainnet upgrade. During these upgrades, the network migrates to a new version of the network code. Each Mainnet upgrade brings new features to the network. Today, the network is completing one of the most significant Mainnet upgrades.
@@ -61,4 +62,10 @@ The world is waking up to a new technological landscape, shaped by the exponenti
 
 This is why now is the perfect time to bring GPUs to the Supercloud. As the network grows, it will only become more powerful, hosting greater and greater quantities of GPUs from providers around the world while becoming an integrated part of the infrastructure powering AI development. It is more important than ever that these challenges are addressed with a fully open-source network — which prevents control of these resources from concentrating in the hands of a few large corporations.
 
-*Learn more about the Supercloud from a technical perspective with the [Akash Docs](https://docs.akash.network/). If you are interested in becoming an Akash Provider, see the [Provider setup guides](https://docs.akash.network/providers) in the documentation, and connect with the [Akash Community on Discord](https://discord.akash.network) for individual support. If you are interested in accessing high-performance GPUs, head to [AkashML](https://akashml.com/) to see available GPU models.*
+---
+
+*Learn more about the Supercloud from a technical perspective with the [Akash Docs](https://docs.akash.network/). If you are interested in becoming an Akash Provider, see the [Provider setup guides](https://docs.akash.network/providers) in the documentation, and connect with the [Akash Community on Discord](https://discord.akash.network) for individual support.*
+
+*To deploy on Akash, get started with [Akash Console](https://console.akash.network) and [Cloudmos Deploy](https://deploy.cloudmos.io/) — two open-source deployment applications that make it easy to get up and running on the Supercloud.*
+
+*If you are interested in accessing high-performance GPUs, head to [AkashML](https://akashml.com/) to see available GPU models and reserve now.*
