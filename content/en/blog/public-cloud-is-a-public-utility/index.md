@@ -1,14 +1,12 @@
 ---
 title: "Public Cloud Is a Public Utility"
-description: "Akash's journey to radical decentralization"
-excerpt: "Akash's journey to radical decentralization"
 date: 2023-01-12T01:05:24-08:00
 lastmod: 2023-01-12T01:05:24-08:00
 draft: false
 weight: 50
 images:
   - public-cloud-is-public-utility.png
-categories: 
+categories:
   - Updates
 tags:
   - Updates
@@ -18,13 +16,13 @@ pinned: false
 homepage: false
 ---
 
-The Akash Network was created approximately two years ago to decentralize cloud infrastructure and put it in the hands of the people. It's now run by a network of globally distributed node operators who secure the Akash blockchain and provide cloud-grade server space for tenant applications. 
+The Akash Network was created approximately two years ago to decentralize cloud infrastructure and put it in the hands of the people. It's now run by a network of globally distributed node operators who secure the Akash blockchain and provide cloud-grade server space for tenant applications.
 
 The source code developed by Overclock Labs has been open since inception, and now we are taking the next step of opening up the process that produces it. Removing single failure points from one company makes Akash Network more resilient to institutional attack vectors.
 
 The development of the Akash Network involves multiple steps that are managed by Overclock Labs. The process begins by determining user needs and creating technical specifications based on them. Once the specification is made, it is implemented by a developer and then released to the public. Afterward, validators vote to accept the new code and upgrade their systems with the latest version of Akash Node.
 
-The process has functioned well so far, and Overclock achieved great success with shipping, two major mainnet upgrades that brought us [Persistent Storage](https://akash.network/blog/akash-network-unlocks-persistent-storage-through-mainnet-3-upgrade/), and [IP Leasing](https://akash.network/blog/introducing-ip-leases-on-akash-network/). 
+The process has functioned well so far, and Overclock achieved great success with shipping, two major mainnet upgrades that brought us [Persistent Storage](https://akash.network/blog/akash-network-unlocks-persistent-storage-through-mainnet-3-upgrade/), and [IP Leasing](https://akash.network/blog/introducing-ip-leases-on-akash-network/).
 
 But as the saying goes, "If you want to go faster, go alone; if you want to go far, go together." We believe that by opening up the process, we can achieve our goal of radical decentralization faster and further.
 
@@ -74,21 +72,19 @@ Our new working model is already underway, and we have already had several succe
 
 The first Steering Committee meeting is scheduled for January 26th, 2023. In the meantime, browse Akash's [GitHub](https://github.com/akash-network/community) to learn about the various SIGs and WGs that are currently active — and head over to our Discord to join the conversation.
 
-
 #### How can you contribute?
 
-*If you are a ...*
+_If you are a ..._
 
-* **Technical Operator (non-programmer) that never used Akash:** Review the [documentation](https://docs.akash.network/) for Akash and attempt to deploy a Tetris game. If you have any ideas for changes or improvements to the documentation, please create an issue in sig-documentation.
+- **Technical Operator (non-programmer) that never used Akash:** Review the [documentation](https://docs.akash.network/) for Akash and attempt to deploy a Tetris game. If you have any ideas for changes or improvements to the documentation, please create an issue in sig-documentation.
 
-* **Frontend (node, JS) developer that never used Akash:** Review the [documentation](https://docs.akash.network/) and deploy an application. Check the code base of Akash Console or Cloudmos Deploy, set up a local environment. Look at open issues for either project, select something (like a minor bug fix) that interests you, and leave a comment or submit a pull request for review.
+- **Frontend (node, JS) developer that never used Akash:** Review the [documentation](https://docs.akash.network/) and deploy an application. Check the code base of Akash Console or Cloudmos Deploy, set up a local environment. Look at open issues for either project, select something (like a minor bug fix) that interests you, and leave a comment or submit a pull request for review.
 
-* **Backend (Go) developer that never used Akash:** Review the [documentation](https://docs.akash.network/) and deploy an application on Akash using the Command Line Interface. Review the code bases for Akash CLI and Provider Services, and set up a local development environment. Additionally, review any open issues for either code base, comment on potential solutions to any problems, and submit a Pull Request for review.
+- **Backend (Go) developer that never used Akash:** Review the [documentation](https://docs.akash.network/) and deploy an application on Akash using the Command Line Interface. Review the code bases for Akash CLI and Provider Services, and set up a local development environment. Additionally, review any open issues for either code base, comment on potential solutions to any problems, and submit a Pull Request for review.
 
-* **Technical developer building on Akash:** Consider joining one of our [SIGs, or WGs](https://akash.network/community/core-groups/cg-list/), and writing a spec for one of the projects in the list or suggesting a new project to add to the list of tasks.
+- **Technical developer building on Akash:** Consider joining one of our [SIGs, or WGs](https://akash.network/community/core-groups/cg-list/), and writing a spec for one of the projects in the list or suggesting a new project to add to the list of tasks.
 
 If you're unsure and want to chat, reach out to us on [Discord](https://discord.akash.network) or [Telegram](https://t.me/akashnw). We're happy to help you get started.
-
 
 ### Annoucment Video
 

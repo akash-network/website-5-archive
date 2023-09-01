@@ -91,11 +91,6 @@ section:nth-child(4) > div > div.col-lg-9 > p {
   font-size: 18px;
 }
 
-.top_faq_wrapper {
-  margin-top: -60px;
-  margin-bottom: 30px;
-}
-
 .token_description {
   width: 730px;
   margin-top: 20px;
@@ -154,10 +149,11 @@ div > div.faq_wrapper > p {
   height: 57px;
   width: 731.5px;
   left: 0px;
-  top: 56px;
-  color: #00000080;
 }
 
+.token_text-wrapper_ {
+  padding-top: 60px;
+}
 .token_eco_header {
   font-size: 36px;
   font-weight: 900;
@@ -172,7 +168,11 @@ section:nth-child(3) > div > div.col-lg-9 > p {
   line-height: 40px;
   letter-spacing: -0.02em;
   text-align: center;
-  margin: auto auto !important;
+  margin: auto auto;
+}
+
+.top_faq_wrapper .faq-content_wrapper {
+  margin: 30px auto;
 }
 
 .page-links h3 {
@@ -195,6 +195,10 @@ section:nth-child(3) > div > div.col-lg-9 > p {
 .token_svg {
   position: relative;
   left: 100px;
+}
+
+.token_feature_header {
+  padding: 60px auto;
 }
 
 @include media-breakpoint-up(md) {
@@ -278,7 +282,7 @@ section:nth-child(3) > div > div.col-lg-9 > p {
     width: 169px;
   }
 
-  .lg_token_hero_svg svg {
+  .sm-hand-coin svg {
     height: 188px;
     width: 270px;
   }
@@ -468,6 +472,10 @@ section:nth-child(3) > div > div.col-lg-9 > p {
     > div.col-lg-14
     > p.token_eco_desc.mx-auto.text-center {
     width: 500px;
+  }
+
+  .top_faq_wrapper .faq-content_wrapper {
+    padding-top: 60px;
   }
 }
 
@@ -682,32 +690,20 @@ section:nth-child(3) > div > div.col-lg-9 > p {
     width: 100%;
   }
 
-  .faq_content_wrapper {
-    margin-top: 100px !important;
-  }
-
-  .token_metrics-wrapper {
-    margin-top: 100px !important;
-  }
-
-  .ecosystem-tools_wrapper {
-    margin-top: 25px !important;
-  }
-
-  .faq-content_wrapper {
-    margin-top: 11px;
-  }
-
-  .faq_text_wrapper {
-    margin-top: 11px;
-  }
-
   .token_page_hr_sm {
     width: 100%;
     margin: 40px auto;
     text-align: center;
     position: relative;
     left: -4px;
+  }
+
+  .top_faq_wrapper .faq-content_wrapper {
+    margin: 10px auto;
+  }
+
+  .ecosystem-tools_wrapper {
+    margin-top: -50px;
   }
 }
 
@@ -757,5 +753,11 @@ section:nth-child(3) > div > div.col-lg-9 > p {
     > div:nth-child(1) {
     position: relative;
     left: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .token_feature_header {
+    display: none;
   }
 }

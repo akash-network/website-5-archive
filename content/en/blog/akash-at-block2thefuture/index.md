@@ -1,7 +1,7 @@
 ---
 title: Akash at Block2TheFuture
-date: '2018-04-04'
-lastmod: '2021-05-13T09:14:35-07:00'
+date: "2018-04-04"
+lastmod: "2021-05-13T09:14:35-07:00"
 draft: false
 weight: 50
 categories:
@@ -15,6 +15,7 @@ homepage: false
 images:
   - 1620922460-block-2-the-future.jpg
 ---
+
 [Akash](https://akash.network/) is heading to [Block2TheFuture](https://www.block2thefuture.com/), the blockchain festival and token conference taking place on the USS Hornet in Alameda, CA on April 5-6.  Yes, it is on a warship!
 
 We are thrilled to have a booth open for the duration of the event to showcase our company and the open, decentralized compute marketplace we are currently creating. In addition, our CEO & Co-Founder, [Greg Osuri](https://www.block2thefuture.com/speaker/greg-osuri/147) will be speaking both Thursday & Friday.

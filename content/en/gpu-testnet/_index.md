@@ -1,4 +1,0 @@
----
-title: "Akash GPU Testnet"
----
-

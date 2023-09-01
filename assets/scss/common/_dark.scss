@@ -51,15 +51,8 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0;
 }
 
-[data-dark-mode] body table {
-  color: #f0f0f0;
-}
 [data-dark-mode] body .table_data_link a {
   color: #f0f0f0;
-}
-
-[data-dark-mode] body .metrics_border {
-  border-right-color: #515559 !important;
 }
 
 [data-dark-mode]
@@ -87,18 +80,7 @@ $navbar-dark-active-color: $link-color-dark;
   color: $body-bg-dark;
 }
 
-[data-dark-mode] body .no-border {
-  color: #f0f0f0;
-}
-[data-dark-mode] body .community__text {
-  color: #f0f0f0 !important;
-}
-
-[data-dark-mode] body .s_d-btns {
-  background-color: #f0f0f0;
-}
-
-[data-dark-mode] body .token_eco_desc {
+[data-dark-mode] body .ecosystem-tool-desc {
   color: #f0f0f0;
 }
 
@@ -106,26 +88,15 @@ $navbar-dark-active-color: $link-color-dark;
   color: #f0f0f0;
 }
 
-[data-dark-mode] body .gpu_text {
-  color: #f0f0f0;
-}
-
 [data-dark-mode] body .table__border {
   border: 1px solid #f0f0f0;
 }
 
-[data-dark-mode] body .dates_text {
-  color: #f0f0f0 !important;
-}
-[data-dark-mode] body .gpu_sub_text {
-  color: #f0f0f0 !important;
-}
 [data-dark-mode] body .group-1_header,
 .group-2_header,
 .group-3_header {
   color: #f0f0f0;
 }
-
 [data-dark-mode] body .highlight_header::after {
   background-color: #f0f0f0;
 }
@@ -190,17 +161,7 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .btn-menu svg {
   color: $body-color-dark;
 }
-[data-dark-mode] body .d-wrap_dark a .disc {
-  display: flex !important;
-  color: $body-color-dark;
-  position: relative;
-  right: 10px;
-  top: 3px;
-}
-[data-dark-mode] body .d-wrap a .disc {
-  display: none !important;
-  color: $body-color-dark;
-}
+
 [data-dark-mode] body .horizontal-line_table {
   border-top: 1px solid #515559;
 }
@@ -224,6 +185,55 @@ $navbar-dark-active-color: $link-color-dark;
 }
 */
 
+// Blog page section
+[data-dark-mode] .hero-content {
+  border: 1px solid #515559;
+}
+
+[data-dark-mode] .blog-hero-header a:hover {
+  color: #fff;
+}
+
+[data-dark-mode] .blog-hero-header a {
+  color: #fff;
+}
+
+[data-dark-mode] .blog-card-body .blog-card-title a {
+  color: #fff;
+}
+[data-dark-mode] .separator {
+  background-color: #fff;
+}
+
+[data-dark-mode] .blog-card {
+  border: 1px solid #515559;
+}
+
+[data-dark-mode] .tag-button {
+  border: 1px solid #515559;
+  color: #fff;
+}
+
+[data-dark-mode] .prev-pagination-button,
+[data-dark-mode] .next-pagination-button {
+  border: 1px solid #515559;
+  color: #fff;
+}
+
+[data-dark-mode] body .twitter-svg svg path:first-of-type {
+  stroke: #ccc;
+}
+[data-dark-mode] body .linkedin-svg svg path{
+  stroke: #ccc;
+}
+[data-dark-mode] body .facebook-svg svg path:first-of-type {
+  stroke: #ccc;
+}
+[data-dark-mode] body .related-blog-name a {
+  color: #ccc;
+}
+// Blog page section End
+
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
   background-color: rgba(33, 37, 41, 0.95);
@@ -234,24 +244,30 @@ $navbar-dark-active-color: $link-color-dark;
   border-bottom: 0;
 }
 
-section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
-  fill: #ccc;
+[data-dark-mode] body .svg-icon .arrow-path {
   stroke: #ddd;
 }
+[data-dark-mode] body .console-btn {
+  background-color: #ffb2b2;
+  color: black;
+}
 
-[data-dark-mode] .svg-container svg,
+[data-dark-mode] body .svg-container svg {
+  stroke: #ddd;
+  fill: #ccc;
+}
+
+[data-dark-mode] .svg-arrow-icon-wrapper svg path {
+  stroke: #000 !important;
+}
+
+[data-dark-mode] body > .svg-container svg,
 [data-dark-mode] .token_svg svg,
 [data-dark-mode] .token_svg2 svg,
 [data-dark-mode] .token_svg_ex svg {
   fill: #ccc;
   stroke: #ddd;
 }
-
-// [data-dark-mode] .arrow_svg svg {
-//   fill: #dee2e6;
-//   stroke: #dee2e6;
-// }
-
 [data-dark-mode] body .offcanvas-header {
   border-bottom: 1px solid $gray-800;
 }
@@ -260,15 +276,20 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   color: $body-color-dark;
 }
 
+[data-dark-mode] body .metrics_border {
+  border-right-color: #515559;
+}
+
+[data-dark-mode] body .sm-hand-coin svg {
+  stroke: #fff;
+}
+
 [data-dark-mode] #ecosystem-tools > div div > div > p > a {
   color: #fff;
 }
 
-[data-dark-mode] body .offcanvas .discords {
-  color: #fff !important;
-}
 [data-dark-mode] body .table_data_link .svg_mode svg path,
-[data-dark-mode] body .sm_data_link .svg_mode svg path,
+[data-dark-mode] body .tools-link .svg_mode svg path,
 [data-dark-mode] body .table_data_link .arrow_svg svg path {
   stroke: #fff;
 }
@@ -285,6 +306,16 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 [data-dark-mode] body .table_data_link .arrow_svg svg path:first-of-type {
   fill: #fff;
 }
+[data-dark-mode] body .table_data_link .token-arrow-svg svg path:first-of-type,
+[data-dark-mode]
+  body
+  .table_data_link
+  .token-arrow-svg-sm
+  svg
+  path:first-of-type,
+[data-dark-mode] body .table_data_link .arrow_svg svg path:first-of-type {
+  fill: #fff;
+}
 
 [data-dark-mode] body table {
   border-bottom-color: #515559;
@@ -292,6 +323,12 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
 [data-dark-mode] div > p.mx-auto.metrics_border_bottom {
   border-bottom-color: #515559 !important;
+}
+[data-dark-mode] .second-metrics-border,
+[data-dark-mode] .first-metrics-border,
+[data-dark-mode] .third-metrics-border,
+[data-dark-mode] .forth-metrics-border {
+  border-right-color: #515559;
 }
 
 [data-dark-mode] body .table_data_link {
@@ -456,13 +493,6 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
   background: $body-overlay-dark;
   border: 1px solid transparent;
   color: $gray-300;
-
-  /*
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%236c757d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-search'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right calc(0.375em + 0.1875rem) center;
-  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
-  */
 }
 
 [data-dark-mode] body .form-control.is-search:focus {
@@ -477,13 +507,6 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 [data-dark-mode] body .text-dark {
   color: $body-color-dark !important;
 }
-
-/*
-[data-dark-mode] body .navbar-form::after {
-  color: $gray-600;
-  border: 1px solid $gray-800;
-}
-*/
 
 [data-dark-mode] body .form-control {
   color: $gray-300;
@@ -796,14 +819,5 @@ section.d-xs-block.d-sm-block.d-md-none > div.row > div > div > svg {
 
   #DRAW {
     fill: $body-color-dark;
-  }
-}
-
-@media (max-width: 576px) {
-  [data-dark-mode] body .d-wrap_dark a .disc {
-    display: flex !important;
-    position: relative;
-    margin-left: 10px;
-    top: 3px;
   }
 }

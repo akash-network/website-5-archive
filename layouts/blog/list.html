@@ -1,47 +1,166 @@
 {{ define "main" }}
-<div class="row justify-content-center mb-2">
-    <div class="col-md-12 col-lg-9">
-        <h1 class="text-center">{{ .Title }}</h1>
-        {{ with .Content -}}<div class="text-center">{{ . }}</div>{{ end -}}
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-md-3">
-        <h5>Topics</h2>
-        <ul class="nav flex-column">
-            {{ range .Site.Taxonomies.tags }}
-            <li><a class="nav-link" aria-current="page" href="{{ .Page.Permalink }}">{{ .Page.Title }} </a> </li>
-            {{ end }}
-        </ul>
-        <!-- <h5>Archives</h2>
-        <ul class="nav flex-column">
-            {{ range .Pages.GroupByPublishDate "2006" }}
-            <li><a class="nav-link" aria-current="page" href="#">{{ .Key }} </a> </li>
-            {{ end }}
-        </ul> -->
+<!-- Hero Section -->
+{{ $heroPost := index .Data.Pages 0 }}
+<section class="hero-section">
+  <div class="hero-content container">
+    <div class="hero-blog-image">
+      <a href="{{ $heroPost.RelPermalink }}">
+        {{ partial "content/image.html" $heroPost }}
+      </a>
     </div>
-    <div class="col">
-        <dl>
-            {{ $paginator := .Paginate (.Data.Pages) -}}
-            {{ range $paginator.Pages -}}
-            <dt>
-                <h3> <a class="text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a> </h3>
-            </dt>
-            <dd class="pb-3">
-                <p> {{ .Params.excerpt | safeHTML }} </p>
-                {{ partial "main/blog-meta.html" . -}}
-            </dd>
-            {{ end -}}
-        </dl>
+    <div class="hero-blog-text-wrapper">
+      <h2 class="blog-hero-header">
+        <a href="{{ $heroPost.RelPermalink }}">
+          {{ $heroPost.Params.title | truncate 43 }}
+        </a>
+      </h2>
+      <p class="hero-blog-writer">{{ partial "main/writer.html" $heroPost }}</p>
+      <p class="hero-blog-summary">{{ $heroPost.Summary | truncate 160 }}</p>
+      <div class="hero-blog-date-wrapper">
+        <span class="hero-blog-date">
+          {{ $heroPost.PublishDate.Format "January 2, 2006" }}</span
+        >
+        <span class="hero-blog-time mx-3">
+          {{ $heroPost.ReadingTime }} min read</span
+        >
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="row justify-content-center my-5">
-            <div class="col-md-12 col-lg-9">
-                {{ template "_internal/pagination.html" . }}
-            </div>
+<section class="sm-hero-section mx-auto">
+  <div class="blog-card">
+    <div class="blog-card-img">
+      <a href="{{ $heroPost.RelPermalink }}">
+        {{ partial "content/image.html" $heroPost }}
+      </a>
+    </div>
+    <div class="sm-hero-blog-text-wrapper">
+      <h2 class="blog-hero-header">
+        <a href="{{ $heroPost.RelPermalink }}">
+          {{ $heroPost.Params.title | truncate 43 }}
+        </a>
+      </h2>
+      <p class="hero-blog-writer">{{ partial "main/writer.html" $heroPost }}</p>
+      <p class="hero-blog-summary">{{ $heroPost.Summary | truncate 160 }}</p>
+      <div class="hero-blog-date-wrapper mt-3">
+        <span class="hero-blog-date">
+          {{ $heroPost.PublishDate.Format "January 2, 2006" }}</span
+        >
+        <span class="hero-blog-time mx-3">
+          {{ $heroPost.ReadingTime }} min read</span
+        >
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Hero Section END -->
+
+<section>
+  <div class="tags-container">
+    <div class="overflow-auto">
+      <ul class="d-flex tags-list">
+        {{ range .Site.Taxonomies.tags }}
+        <li>
+          <a
+            class="tag-button text-capitalize"
+            aria-current="page"
+            href="{{ .Page.Permalink }}"
+          >
+            {{ .Page.Title }}</a
+          >
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG LIST -->
+<section>
+  <div class="blog-list-container">
+    <div class="blog-list">
+      <!-- Pagination setup -->
+      {{ $paginator := .Paginate .Data.Pages }} {{ $currentPage :=
+      $paginator.PageNumber }} {{ $perPage := $paginator.PageSize }}
+
+      <!-- Count total blog posts -->
+      {{ $totalBlogs := 0 }} {{ range .Site.RegularPages }} {{ if eq .Type
+      "blog" }} {{ $totalBlogs = add $totalBlogs 1 }} {{ end }} {{ end }}
+
+      <!-- Calculate range for pagination -->
+      {{ $startIndex := add (mul (sub $currentPage 1) $perPage) 1 }} {{
+      $endIndex := add $startIndex (sub $perPage 1) }} {{ if gt $endIndex
+      $totalBlogs }} {{ $endIndex = $totalBlogs }} {{ end }}
+
+      <!-- Initialize remaining card count -->
+      {{ $remainingCards := 9 }}
+
+      <!-- Loop through paginated pages -->
+      {{ range $paginator.Pages }} {{ if and (gt $remainingCards 0) (ne .Type
+      "hero") (ne .RelPermalink $heroPost.RelPermalink) }} {{ $remainingCards =
+      sub $remainingCards 1 }}
+      <div class="blog-card">
+        <div class="blog-card-img">
+          <a href="{{ .RelPermalink }}">
+            {{ partial "content/image.html" . }}
+          </a>
         </div>
-
+        <div class="blog-card-body">
+          <div class="">
+            <p class="blog-card-title">
+              <a href="{{ .RelPermalink }}">
+                {{ truncate 42 .Params.title }}
+              </a>
+            </p>
+            {{ partial "main/writer.html" . }}
+          </div>
+          {{ partial "main/blog-meta.html" . }}
+        </div>
+      </div>
+      {{ end }} {{ end }}
     </div>
-</div>
-
+  </div>
+  <div class="pagination-container mx-auto my-5">
+    <div class="total-blogs-pagination">
+      <p>
+        Showing {{ $startIndex }} to {{ $endIndex }} of {{ $totalBlogs }}
+        results
+      </p>
+    </div>
+    <div>
+      {{ with .Paginator }} {{ if .HasPrev }}
+      <a
+        class="prev-pagination-button"
+        href="{{ .Prev.URL }}"
+        class="pagination-prev"
+        >Previous Page</a
+      >
+      {{ end }} {{ if .HasNext }}
+      <a
+        class="next-pagination-button"
+        href="{{ .Next.URL }}"
+        class="pagination-next"
+        >Next Page</a
+      >
+      {{ end }} {{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}
+
+{{ define "sidebar-footer" }}
+<section>
+  {{ partial "content/newsletter.html" . }}
+</section>
+
+  <section class="container-fluid footer-d-wrapper">
+    <div class="row">
+      <div class="">
+        {{- .Content -}}
+      </div>
+    </div>
+  </section>
+{{ end }}
+

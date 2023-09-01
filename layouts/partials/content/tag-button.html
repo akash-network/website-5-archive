@@ -1,0 +1,19 @@
+<section class="mt-5">
+  <div class="tags-container">
+    <div class="overflow-auto">
+      <ul class="d-flex tags-list text-capitalize">
+        {{ range .Site.Taxonomies.tags }}
+        <li>
+          <a
+            class="tag-button"
+            aria-current="page"
+            href="{{ .Page.Permalink }}"
+          >
+            {{ .Page.Title }}</a
+          >
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>

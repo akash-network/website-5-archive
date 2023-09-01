@@ -1,7 +1,7 @@
 ---
 title: Akash at TokenFest
-date: '2018-04-30'
-lastmod: '2021-05-13T09:14:56-07:00'
+date: "2018-04-30"
+lastmod: "2021-05-13T09:14:56-07:00"
 draft: false
 weight: 50
 categories:
@@ -15,6 +15,7 @@ homepage: false
 images:
   - 1620922476-akash-at-token-fest-1.jpg
 ---
+
 Last month we attended the inaugural [TokenFest](https://tokenfest.io/) held right here in San Francisco.  We have become more familiar with the conference circuit having attended a handful of them this year alone. TokenFest was a
 
 While planning for this event, one thing I noticed right away was the pre-event organization. Information was sent clearly, on time, with plenty of room for proper response time. More often than not, we receive last minute information or get immediate requests for assets. From a planning perspective, it was clear that the team behind Token was very serious about producing a professional event.
