@@ -28,7 +28,7 @@ These are all the projects that are currently in some state ranging from "ideati
 | [Docs site migration](../sig-documentation/documentation-structure) | docs-site-migration | Migrating the documentation site from gitbooks to something automatable (Hugo?) | [sig-documentation](../sig-documentation) | implementation |
 | [On-Chain Analytics](../sig-analytics/prd) | | Build data pipeline and analysis tool for onchain analytics  | [sig-analytics](../sig-analytics)  | implementation |
 | Provider Services Microservices Refactor | provider-svc-split | Splitting Akash Provider Services into microservices so that we’re able to release and maintain software better | [sig-providers](..//sig-providers) | implementation |
-| [Stable payments & Settlement](../sig-economics/stable-payments-and-take-rate) | | Ability for tenants to pay for deployments using other cryptocurrencies | [sig-economics](../sig-economics/README) | spec-definition |
+| [Stable payments & Settlement](../sig-economics/stable-payments-and-take-rate) | | Ability for tenants to pay for deployments using other cryptocurrencies | [sig-economics](../sig-economics/) | spec-definition |
 | Provider Attributes | provider-attr | Defining an attribute schema for providers and getting providers to incorporate it  | [wg-provider-attributes](../wg-provider-attributes/README) | spec-definition |
 | Provider Analytics | | Analytics for providers to understand their profitability and ROI | [sig-analytics](../sig-analytics) | spec-definition |
 | Omnibus Maintenance | omnibus-maint | Building new reference SDLs and packages for new chains that we want to support. Building automated testing for the supported omnibus chains  | [sig-community](../sig-community) | ideation |
