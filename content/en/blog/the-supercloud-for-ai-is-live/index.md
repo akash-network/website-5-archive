@@ -66,6 +66,6 @@ This is why now is the perfect time to bring GPUs to the Supercloud. As the netw
 
 *Learn more about the Supercloud from a technical perspective with the [Akash Docs](https://docs.akash.network/). If you are interested in becoming an Akash Provider, see the [Provider setup guides](https://docs.akash.network/providers) in the documentation, and connect with the [Akash Community on Discord](https://discord.akash.network) for individual support.*
 
-*To deploy on Akash, launch [Akash Console](https://console.akash.network) and [Cloudmos Deploy](https://deploy.cloudmos.io/) — two open-source deployment applications that make it easy to get up and running on the Supercloud.*
+*To deploy on Akash, get started with [Akash Console](https://console.akash.network) and [Cloudmos Deploy](https://deploy.cloudmos.io/) — two open-source deployment applications that make it easy to get up and running on the Supercloud.*
 
 *If you are interested in accessing high-performance GPUs, head to [AkashML](https://akashml.com/) to see available GPU models and reserve now.*
