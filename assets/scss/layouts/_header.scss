@@ -69,6 +69,17 @@
   font-weight: 700;
   font-size: 14px;
 }
+.reserve-gpu-btn {
+  position: relative;
+  left: 60px;
+  font-weight: 700;
+  font-size: 14px;
+}
+@media (min-width: 1180px) and (max-width: 1440px) {
+  .reserve-gpu-btn {
+    display: none;
+  }
+}
 
 #offcanvasDoks
   > div.nav_wrap.p-4.p-lg-0
