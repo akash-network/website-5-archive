@@ -80,6 +80,14 @@
     display: none;
   }
 }
+@media (max-width: 1100px) {
+  .console-btn {
+    left: 0;
+  }
+  .reserve-gpu-btn {
+    left: 30px;
+  }
+}
 
 #offcanvasDoks
   > div.nav_wrap.p-4.p-lg-0
