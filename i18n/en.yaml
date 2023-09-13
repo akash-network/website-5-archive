@@ -1,6 +1,9 @@
 - id: get-started
   translation: "Get Started"
 
+- id: contact-sales
+  translation: "Contact Sales"
+
 - id: view-docs
   translation: "View Docs"
 
