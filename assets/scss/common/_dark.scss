@@ -169,6 +169,13 @@ $navbar-dark-active-color: $link-color-dark;
   border-top: 1px solid #515559;
 }
 
+[data-dark-mode] body .available-op-wrapper {
+  border: 1px solid #515559;
+}
+
+[data-dark-mode] body .tab-button.active {
+  text-decoration: 2px solid #fff underline;
+}
 [data-dark-mode] body .doks-sidebar-toggle {
   color: $navbar-dark-color;
 }
@@ -223,7 +230,7 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .twitter-svg svg path:first-of-type {
   stroke: #ccc;
 }
-[data-dark-mode] body .linkedin-svg svg path{
+[data-dark-mode] body .linkedin-svg svg path {
   stroke: #ccc;
 }
 [data-dark-mode] body .facebook-svg svg path:first-of-type {
