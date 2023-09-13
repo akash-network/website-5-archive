@@ -223,7 +223,7 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .twitter-svg svg path:first-of-type {
   stroke: #ccc;
 }
-[data-dark-mode] body .linkedin-svg svg path{
+[data-dark-mode] body .linkedin-svg svg path {
   stroke: #ccc;
 }
 [data-dark-mode] body .facebook-svg svg path:first-of-type {
@@ -251,6 +251,14 @@ $navbar-dark-active-color: $link-color-dark;
   background-color: #ffb2b2;
   color: black;
 }
+[data-dark-mode] body .reserve-gpu-btn {
+  background: #eee;
+  color: #121212;
+}
+[data-dark-mode] body .btn-contact-sales {
+  background: #eee;
+  color: #121212;
+}
 
 [data-dark-mode] body .svg-container svg {
   stroke: #ddd;
@@ -258,7 +266,8 @@ $navbar-dark-active-color: $link-color-dark;
 }
 
 [data-dark-mode] .svg-arrow-icon-wrapper svg path {
-  stroke: #000 !important;
+  stroke: #121212 !important;
+  fill: #00000071 !important;
 }
 
 [data-dark-mode] body > .svg-container svg,
