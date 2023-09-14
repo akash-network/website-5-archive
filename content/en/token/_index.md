@@ -29,6 +29,10 @@ AKT provides a default mechanism to store and exchange value, and acts as a rese
 
 AKT is used to incentivize providers to offer lower prices, and incentivizes stakers to participate in the network longer term by staking.
 
+### AKT 2.0
+
+AKT 2.0 is an ongoing effort to bring new token features and utility to Akash and the AKT token. These features will generate value for the network by funding critical incentive pools that will support network growth and development, a wide range of currency options for lease settlement, and much more.
+
 ## Ecosystem Tools
 
 The following tools are available for exploring the Akash Network blockchain, staking AKT, and participating in governance:
