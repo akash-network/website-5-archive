@@ -1,0 +1,203 @@
+.custom-col-13 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tabs-d-wrapper {
+  margin-bottom: -15px;
+  margin-top: 80px;
+}
+
+.deploy-header-text {
+  text-align: center;
+  width: 1000px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1.12px;
+  margin-top: 60px;
+}
+
+.deploy-hr {
+  width: 1231px;
+}
+
+.deploy-hr2 {
+  width: 1231px;
+  margin: 90px auto;
+}
+
+.tab-button.active {
+  text-decoration: 2px solid black underline;
+  text-underline-offset: 22px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.praetor-desc {
+  width: 510px;
+}
+
+/* Optional: You can add a transition effect for a smoother appearance */
+.tab-button {
+  transition: border-bottom 0.3s ease;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.tab0-header {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+  width: 400px;
+  height: 80px;
+}
+
+.tab-contents-wrapper {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.deployment-steps {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.console-s-btn {
+  border-radius: 6px;
+  margin-top: 40px;
+  background: var(--slate-100, #e6e6e6);
+  padding: 6px 14px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  transition: 0.3s ease;
+}
+
+.console-s-btn:hover {
+  background: #ff414c;
+  color: #fff;
+}
+
+.console-resource-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.resource-s-title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 24px;
+}
+
+.available-op-wrapper {
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.option-s-header {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.available-op-btn button {
+  padding: 16px 20px;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  transition: 0.3s ease;
+}
+
+.available-op-btn button:hover {
+  background: #ff414c;
+  color: #fff;
+}
+
+.available-op-btn button:hover .ex-link-arrow svg path {
+  stroke: #fff;
+}
+
+.console-s-btn:hover .ex-link-arrow2 svg path {
+  stroke: #fff;
+}
+
+.console-s-btn .ex-link-arrow2 svg {
+  margin-bottom: 3px;
+  margin-left: 2px;
+}
+
+.available-op-desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 24px auto;
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .custom-col-13 {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .deploy-header-text {
+    text-align: center;
+    width: 900px;
+    font-size: 50px;
+    margin-top: 60px;
+    line-height: 60px;
+  }
+
+  .deploy-hr2 {
+    width: 1090px;
+    margin: 90px auto;
+  }
+  .deploy-hr {
+    width: 1090px;
+    margin: 16px auto;
+  }
+
+  .tabs-d-wrapper {
+    margin-bottom: -20px;
+    margin-top: 80px;
+  }
+
+  .available-op-btn button {
+    padding: 14px 18px;
+  }
+
+  .tab-button.active {
+    text-decoration: 2px solid black underline;
+    text-underline-offset: 18px;
+  }
+}

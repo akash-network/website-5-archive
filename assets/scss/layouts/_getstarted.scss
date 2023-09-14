@@ -1,0 +1,176 @@
+.get-started-wrapper {
+  margin-bottom: 100px;
+}
+
+.custom-col-13 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sub-pages-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.deploy-header,
+.provider-s-header,
+.docs-s-header,
+.insider-s-header,
+.validator-s-header,
+.ideas-s-header {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 10px 0;
+  width: 200px;
+}
+
+.doc-intro {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.get-s-btn button {
+  width: 380px;
+  height: 45px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+.get-s-btn2 button {
+  width: 380px;
+  margin-top: 2px;
+  height: 45px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.get-s-btn button:hover {
+  opacity: 0.5;
+}
+.get-s-btn2 button:hover {
+  opacity: 0.5;
+}
+
+.g-s-arrow svg {
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.ex-link-arrow svg {
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+
+.g-s-hr {
+  width: 1231px;
+  margin: 100px auto;
+}
+
+//AKASH COMMUNITY
+
+// FOR LAPTOPS
+@media (min-width: 992px) and (max-width: 1400px) {
+  .custom-col-13 {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .sub-pages-wrapper {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 40px;
+    gap: 60px;
+  }
+
+  .g-s-svg svg {
+    width: 350px;
+  }
+
+  .get-s-btn button {
+    width: 340px;
+  }
+  .g-s-hr {
+    width: 1090px;
+    margin: 100px auto;
+  }
+
+  .get-s-btn2 button {
+    width: 340px;
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sub-pages-wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 40px;
+    gap: 60px;
+  }
+
+  .g-s-hr {
+    width: 100%;
+    margin: 80px auto;
+  }
+
+  .g-s-svg svg {
+    width: 100%;
+  }
+
+  .get-s-btn2 button {
+    width: 300px;
+    margin: 10px auto;
+  }
+  .get-s-btn button {
+    width: 300px;
+    margin: 10px auto;
+  }
+}
+
+// FOR SMALL SCREENS
+@media (max-width: 767px) {
+  .sub-pages-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-top: 40px;
+    gap: 60px;
+  }
+
+  .get-s-btn2 button {
+    width: 300px;
+    margin: 10px auto;
+  }
+  .get-s-btn button {
+    width: 300px;
+    margin: 10px auto;
+  }
+
+  .g-s-svg svg {
+    width: 100%;
+  }
+
+  .g-s-hr {
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  // .akash-com-header {
+  //   width: 220px;
+  //   line-height: 30px;
+  // }
+}

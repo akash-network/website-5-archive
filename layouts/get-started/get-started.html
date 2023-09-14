@@ -1,0 +1,126 @@
+{{ define "main" }}
+<section class="get-started-wrapper">
+  <div class="custom-col-13">
+    <h1>Get Started</h1>
+    <div class="sub-pages-wrapper">
+      <div class="sub-page-svg">
+        <div class="g-s-svg">
+          {{ partial "content/svg.html" "get-s-first" }}
+        </div>
+
+        <p class="deploy-header">Deploy Your Application</p>
+        <p class="">
+          Launch Your Application on Akash and Enjoy Decentralized Cloud
+          Computing with Low Costs and High Flexibility
+        </p>
+        <div class="get-s-btn">
+          <a href="/deploy/">
+          <button>
+            Get started
+            <span class="g-s-arrow"
+              >{{ partial "content/svg.html" "g-s-arrow" }}</span
+            >
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="sub-page-svg">
+        <div class="g-s-svg">{{ partial "content/svg.html" "g-s-second" }}</div>
+        <p class="provider-s-header">Become a Provider</p>
+        <p class="provider-intro">
+          Earn Rewards by Hosting Your Resources on Akash and Empower the World
+          with a Decentralized Cloud Infrastructure
+        </p>
+        <div class="get-s-btn">
+          <a href="/provider/">
+          <button>
+            Get started
+            <span class="g-s-arrow"
+              >{{ partial "content/svg.html" "g-s-arrow" }}</span
+            >
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="sub-page-svg">
+        <div class="g-s-svg">{{ partial "content/svg.html" "g-s-third" }}</div>
+        <p class="docs-s-header">Akash Documentation</p>
+        <p class="doc-intro">
+          Access Comprehensive Documentation and Open-Source Code on Akash to
+          Build Your Decentralized Applications with Ease
+        </p>
+        <div
+          class="get-s-btn"
+          style="margin-top: 23px"
+        >
+          <button>
+            View Documentation
+            <span class="g-s-arrow"
+              >{{ partial "content/svg.html" "g-s-arrow" }}</span
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <hr class="g-s-hr" />
+
+    <!-- AKASH COMMUNITY -->
+    <section>
+      <h1 class="akash-com-header">Join A Thriving Community</h1>
+      <div class="sub-pages-wrapper">
+        <div class="sub-page-svg">
+          <div class="g-s-svg">
+            {{ partial "content/svg.html" "insider" }}
+          </div>
+
+          <p class="insider-s-header">Become an Akash Insider</p>
+          <p class="">
+            Stay Informed about the Latest Akash Updates and Get Exclusive Access to Community Events
+          </p>
+          <div class="get-s-btn">
+            <button>
+              Join Now
+              <span class="ex-link-arrow"
+                >{{ partial "content/svg.html" "ex-link-arrow" }}</span
+              >
+            </button>
+          </div>
+        </div>
+        <div class="sub-page-svg">
+          <div class="g-s-svg">{{ partial "content/svg.html" "validator" }}</div>
+          <p class="validator-s-header">Become an Akash Validator</p>
+          <p class="provider-intro">
+            Secure the Akash Network and Earn Rewards by Validating Transactions
+          </p>
+          <div class="get-s-btn2">
+            <button>
+              Join Now
+              <span class="ex-link-arrow"
+                >{{ partial "content/svg.html" "ex-link-arrow" }}</span
+              >
+            </button>
+          </div>
+        </div>
+        <div class="sub-page-svg">
+          <div class="g-s-svg">{{ partial "content/svg.html" "ideas" }}</div>
+          <p class="ideas-s-header">Have an Idea? - Share it with us</p>
+          <p class="doc-intro">
+            Submit Your Innovative Ideas and Collaborate with the Akash Community to Bring Your Vision to Life
+          </p>
+          <div
+            class="get-s-btn"
+            style="margin-top: 23px"
+          >
+            <button>
+              Let Us Know
+              <span class="ex-link-arrow"
+                >{{ partial "content/svg.html" "ex-link-arrow" }}</span
+              >
+            </button>
+          </div>
+        </div>
+    </section>
+  </div>
+</section>
+
+{{ end }}

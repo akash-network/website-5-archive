@@ -58,8 +58,6 @@ function highlightMenuItem() {
 
   function handleClickEvent() {
     $('.group-1_header, .group-2_header, .group-3_header')
-
-    $(this).addClass('clicked_header');
   }
 
   $('.group-1_header, .group-2_header, .group-3_header').click(handleClickEvent);
@@ -100,8 +98,7 @@ function highlightMenuItem() {
     </div>
     <div class="col-md-16 col-lg-16 text-center">
       <p class="lead mx-auto">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2 mt-3 fs-6" href="https://console.akash.network" role="button"
-        target="_blank">{{ i18n "get-started" }}</a>
+      <a class="btn btn-primary btn-lg px-4 mb-2 mt-3 fs-6" href="/get-started/" role="button">{{ i18n "get-started" }}</a>
       <a class="btn btn-contact-sales btn-lg fw-semibold px-4 mb-2 mt-3 ms-2 fs-6" href="https://akashnet.typeform.com/to/rhR4cWxQ" role="button" target="_blank">{{ i18n "contact-sales" }}</a>
       <p class="meta mt-3">
         <a href="https://github.com/akash-network" target="_blank">Open-source.</a>

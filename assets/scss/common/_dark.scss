@@ -169,13 +169,6 @@ $navbar-dark-active-color: $link-color-dark;
   border-top: 1px solid #515559;
 }
 
-[data-dark-mode] body .available-op-wrapper {
-  border: 1px solid #515559;
-}
-
-[data-dark-mode] body .tab-button.active {
-  text-decoration: 2px solid #fff underline;
-}
 [data-dark-mode] body .doks-sidebar-toggle {
   color: $navbar-dark-color;
 }
