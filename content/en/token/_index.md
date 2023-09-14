@@ -29,19 +29,18 @@ AKT provides a default mechanism to store and exchange value, and acts as a rese
 
 AKT is used to incentivize providers to offer lower prices, and incentivizes stakers to participate in the network longer term by staking.
 
-### AKT 2.0
+## AKT 2.0
 
 AKT 2.0 is an ongoing effort to bring new token features and utility to Akash and the AKT token. These features will generate value for the network by funding critical incentive pools that will support network growth and development, a wide range of currency options for lease settlement, and much more.
 
 The main features of AKT 2.0 are:
+- Take and Make Fees [(Live now)](https://www.mintscan.io/akash/proposals/224)
+- Stable Payment and Settlement [(Live now)](https://www.mintscan.io/akash/proposals/228)
+- Incentive Distribution Pool
+- Provider Subsidies
+- Public Goods Fund
 
-- "Take and Make Fees (Live now)"
-- "Stable Payment and Settlement (Live now)"
-- "Incentive Distribution Pool"
-- "Provider Subsidies"
-- "Public Goods Fund"
-
-Read the specification and roadmap for AKT2.0 [here](link_to_specification_and_roadmap), and keep up with the latest developments in sig-economics and [GitHub Discussions](link_to_GitHub_Discussions).
+Read the specification and roadmap for AKT2.0 [here](https://github.com/akash-network/community/tree/main/sig-economics/akt20-prop), and keep up with the latest developments in [sig-economics](https://github.com/akash-network/community/tree/main/sig-economics) and [GitHub Discussions](https://github.com/orgs/akash-network/discussions/categories/economics).
 
 ## Ecosystem Tools
 
