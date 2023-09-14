@@ -49,6 +49,27 @@ section:nth-child(4) > div > div.col-lg-9 > p {
   letter-spacing: -0.72px;
 }
 
+.akt_wrapper {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .akt_wrapper h2,
+  .akt_wrapper p,
+  .akt_wrapper li,
+  .akt_wrapper hr {
+    margin-left: -90px;
+  }
+}
+.akt_wrapper .features_head {
+  margin-top: 40px;
+}
+.akt_hr {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
 #ecosystem-tools > div div > div > p > a {
   font-size: 16px;
   font-weight: 500;
