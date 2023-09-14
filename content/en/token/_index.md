@@ -33,43 +33,51 @@ AKT is used to incentivize providers to offer lower prices, and incentivizes sta
 
 AKT 2.0 is an ongoing effort to bring new token features and utility to Akash and the AKT token. These features will generate value for the network by funding critical incentive pools that will support network growth and development, a wide range of currency options for lease settlement, and much more.
 
+The main features of AKT 2.0 are:
+
+- "Take and Make Fees (Live now)"
+- "Stable Payment and Settlement (Live now)"
+- "Incentive Distribution Pool"
+- "Provider Subsidies"
+- "Public Goods Fund"
+
+Read the specification and roadmap for AKT2.0 [here](link_to_specification_and_roadmap), and keep up with the latest developments in sig-economics and [GitHub Discussions](link_to_GitHub_Discussions).
+
 ## Ecosystem Tools
 
 The following tools are available for exploring the Akash Network blockchain, staking AKT, and participating in governance:
 
-| Explorers | Wallets | Staking
-| :--- | :--- | :--- |
-| [Mintscan](https://mintscan.io/akash) | [Keplr](https://wallet.keplr.app/#/akash) 🌎📱 | [Keplr](https://wallet.keplr.app/chains/akash) |
-| [Bigdipper](https://forbole.com/akash) | [Cosmostation](https://wallet.cosmostation.io/#/akash) 🌎📱 | [Cosmostation](https://wallet.cosmostation.io/#/akash) |
-| [Atom Scan](https://atomscan.io/akash) | [Mixin Messenger](https://mixin.one/messenger) 📱 | [Staking Rewards](https://www.stakingrewards.com/earn/akash/) |
-| [Ping.pub](https://ping.pub/akash) | [Omni Wallet](https://omni.app) 📱|
-
+| Explorers                              | Wallets                                                     | Staking                                                       |
+| :------------------------------------- | :---------------------------------------------------------- | :------------------------------------------------------------ |
+| [Mintscan](https://mintscan.io/akash)  | [Keplr](https://wallet.keplr.app/#/akash) 🌎📱              | [Keplr](https://wallet.keplr.app/chains/akash)                |
+| [Bigdipper](https://forbole.com/akash) | [Cosmostation](https://wallet.cosmostation.io/#/akash) 🌎📱 | [Cosmostation](https://wallet.cosmostation.io/#/akash)        |
+| [Atom Scan](https://atomscan.io/akash) | [Mixin Messenger](https://mixin.one/messenger) 📱           | [Staking Rewards](https://www.stakingrewards.com/earn/akash/) |
+| [Ping.pub](https://ping.pub/akash)     | [Omni Wallet](https://omni.app) 📱                          |
 
 ## Token Metrics
 
 As of {{< cglastupdated >}}, these are the current AKT metrics, as reported by [Coingecko](https://www.coingecko.com/en/coins/akash-network).
 
-| |
-| :--- | :--- |
+|                    |
+| :----------------- | :-------------------------- |
 | Circulating Supply | {{< cgcirculatingsupply >}} |
-| Total Supply | {{< cgtotalsupply >}} |
-| Maximum Supply | 388,539,008 |
-| Price | {{< cgprice >}} USD |
-| Market Cap | {{< cgmcap >}} USD |
-| 24h Trading Volume | {{< cgvolume >}} USD |
+| Total Supply       | {{< cgtotalsupply >}}       |
+| Maximum Supply     | 388,539,008                 |
+| Price              | {{< cgprice >}} USD         |
+| Market Cap         | {{< cgmcap >}} USD          |
+| 24h Trading Volume | {{< cgvolume >}} USD        |
 
 ## Buying AKT
 
 AKT is available on the following exchanges:
 
-| Centralized | Decentralized
-| :--- | :--- |
+| Centralized                                                        | Decentralized                                            |
+| :----------------------------------------------------------------- | :------------------------------------------------------- |
 | [Kraken](https://www.kraken.com/prices/akash-network?quote=usd) 🇺🇸 | [Osmosis](https://app.osmosis.zone/?from=OSMO&to=AKT) 🌎 |
-| [KuCoin](https://www.kucoin.com/trade/AKT-USDT) 🇺🇸 |
-| [Crypto.com](https://crypto.com/exchange/akt_usdt) 🇺🇸 |
-| [Gate.io](https://www.gate.io/trade/AKT_USDT) 🇺🇸 |
-| [AscendEX](https://www.ascendex.com/en/trade/spot/akt_usdt) 🌎 |
-| [Huobi Global](https://www.huobi.com/en-us/exchange/akt_usdt/) 🌎 |
-
+| [KuCoin](https://www.kucoin.com/trade/AKT-USDT) 🇺🇸                 |
+| [Crypto.com](https://crypto.com/exchange/akt_usdt) 🇺🇸              |
+| [Gate.io](https://www.gate.io/trade/AKT_USDT) 🇺🇸                   |
+| [AscendEX](https://www.ascendex.com/en/trade/spot/akt_usdt) 🌎     |
+| [Huobi Global](https://www.huobi.com/en-us/exchange/akt_usdt/) 🌎  |
 
 ## FAQ
