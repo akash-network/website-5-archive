@@ -28,17 +28,6 @@
   margin: 90px auto;
 }
 
-.tab-button.active {
-  text-decoration: 2px solid black underline;
-  text-underline-offset: 22px;
-  cursor: pointer;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-}
-
 .praetor-desc {
   width: 510px;
 }
@@ -194,10 +183,5 @@
 
   .available-op-btn button {
     padding: 14px 18px;
-  }
-
-  .tab-button.active {
-    text-decoration: 2px solid black underline;
-    text-underline-offset: 18px;
   }
 }
