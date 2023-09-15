@@ -39,7 +39,6 @@
   line-height: 28px;
 }
 
-/* Optional: You can add a transition effect for a smoother appearance */
 .tab-button {
   transition: border-bottom 0.3s ease;
   text-align: center;
@@ -160,6 +159,8 @@
   line-height: 24px;
   margin: 24px auto;
 }
+
+// FOR LAPTOPS
 @media (min-width: 992px) and (max-width: 1400px) {
   .custom-col-13 {
     width: 85%;
@@ -195,5 +196,69 @@
   .tab-button.active {
     text-decoration: 2px solid black underline;
     text-underline-offset: 18px;
+  }
+}
+
+// FOR SMALL SCREENS
+@media (max-width: 767px) {
+  section .deploy-header-text {
+    width: 100%;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .deploy-sub-header {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+
+  .tab-buttons-wrapper .deploy-hr {
+    width: 100%;
+  }
+
+  section .deploy-hr2 {
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .console-resource-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-content .console-resource-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 40px;
+  }
+
+  .tab-contents-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div > .deployment-steps {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    width: 294px;
+  }
+
+  section .tab0-header {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+    width: 350px;
   }
 }

@@ -1,17 +1,17 @@
 {{ define "main" }}
-<section style="margin-bottom: 500px">
+<section style="margin-bottom: 100px">
   <div class="custom-col-13">
     <h1 class="deploy-header-text text-center mx-auto">
       Customize Your Akash Experience with the Perfect Tool
     </h1>
     <div>
-      <p class="text-center mx-auto">
+      <p class="text-center mx-auto deploy-sub-header">
         Tailor Your Experience with Specialized Solutions
       </p>
     </div>
 
     <!-- TAB SECTION -->
-    <section>
+    <section class="tab-buttons-wrapper">
       <div
         class="d-flex gap-5 justify-content-center align-items-center tabs-d-wrapper"
       >
@@ -25,7 +25,6 @@
       </div>
       <hr class="deploy-hr" />
     </section>
-
     <div class="tabs">
       <!-- Tab contents -->
       <!-- CONSOLE TAB -->
@@ -37,18 +36,24 @@
             </p>
             <p class="">There are 3 main steps to deploying on Akash.</p>
             <div class="mt-5">
-              <p class="deployment-steps">
-                {{ partial "content/svg.html" "box-arrow" }} View & manage your
-                deployed application
-              </p>
-              <p class="deployment-steps">
-                {{ partial "content/svg.html" "box-arrow" }} Choose a provider
-                based on your preferences and desired price.
-              </p>
-              <p class="deployment-steps">
-                {{ partial "content/svg.html" "box-arrow" }} Start with a
-                template or your own custom application (SDL).
-              </p>
+              <div class="d-flex gap-2 mt-2">
+                <div>{{ partial "content/svg.html" "box-arrow" }}</div>
+                <p class="deployment-steps">
+                  View & manage your deployed application
+                </p>
+              </div>
+              <div class="d-flex gap-2 mt-2">
+                <div>{{ partial "content/svg.html" "box-arrow" }}</div>
+                <p class="deployment-steps">
+                  Choose a provider based on your preferences and desired price.
+                </p>
+              </div>
+              <div class="d-flex gap-2 mt-2">
+                <div>{{ partial "content/svg.html" "box-arrow" }}</div>
+                <p class="deployment-steps">
+                  Start with a template or your own custom application (SDL).
+                </p>
+              </div>
             </div>
             <div class="console-btns-wrapper d-flex gap-3">
               <button class="console-s-btn">
@@ -158,22 +163,28 @@
         <div class="tab-contents-wrapper">
           <div>
             <p class="tab0-header">
-              Try  Cloudmos with One click Deploy Templates
+              Try Cloudmos with One click Deploy Templates
             </p>
             <p class="">There are 3 main steps to deploying on Akash.</p>
             <div class="mt-5">
-              <p class="deployment-steps">
-                {{ partial "content/svg.html" "box-arrow" }} View & manage your
-                deployed application
-              </p>
-              <p class="deployment-steps">
-                {{ partial "content/svg.html" "box-arrow" }} Choose a provider
-                based on your preferences and desired price.
-              </p>
-              <p class="deployment-steps">
-                {{ partial "content/svg.html" "box-arrow" }} Start with a
-                template or your own custom application (SDL).
-              </p>
+              <div class="d-flex gap-2 mt-2">
+                <div>{{ partial "content/svg.html" "box-arrow" }}</div>
+                <p class="deployment-steps">
+                  View & manage your deployed application
+                </p>
+              </div>
+              <div class="d-flex gap-2 mt-2">
+                <div>{{ partial "content/svg.html" "box-arrow" }}</div>
+                <p class="deployment-steps">
+                  View & manage your deployed application
+                </p>
+              </div>
+              <div class="d-flex gap-2 mt-2">
+                <div>{{ partial "content/svg.html" "box-arrow" }}</div>
+                <p class="deployment-steps">
+                  View & manage your deployed application
+                </p>
+              </div>
             </div>
             <div class="console-btns-wrapper d-flex gap-3">
               <button class="console-s-btn">

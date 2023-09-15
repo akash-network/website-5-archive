@@ -344,6 +344,14 @@ $navbar-dark-active-color: $link-color-dark;
   border-bottom-color: #515559 !important;
 }
 
+[data-dark-mode] body .tab-button.active {
+  text-decoration: 2px solid #ffff underline;
+}
+
+[data-dark-mode] body .available-op-wrapper {
+  border: 1px solid #515559;
+}
+
 [data-dark-mode] body .offcanvas .nav-link:hover,
 [data-dark-mode] body .offcanvas .nav-link:focus {
   color: $link-color-dark;
