@@ -124,6 +124,10 @@
     gap: 60px;
   }
 
+  .get-started-wrapper {
+    margin-top: 100px;
+  }
+
   .g-s-hr {
     width: 100%;
     margin: 80px auto;
@@ -151,12 +155,18 @@
     gap: 60px;
   }
 
+  .get-started-wrapper {
+    margin-top: 50px;
+  }
+
   .get-s-btn2 button {
-    width: 300px;
+    width: 100%;
     margin: 10px auto;
+    height: 52px;
   }
   .get-s-btn button {
-    width: 300px;
+    width: 100%;
+    height: 52px;
     margin: 10px auto;
   }
 
@@ -168,9 +178,50 @@
     width: 100%;
     margin: 50px auto;
   }
+}
 
-  // .akash-com-header {
-  //   width: 220px;
-  //   line-height: 30px;
-  // }
+// OTHER RELATED SCREEN SIZES
+// 447 -767
+
+@media (min-width: 447px) and (max-width: 767px) {
+  .g-s-svg svg {
+    width: 350px;
+    height: 200px;
+  }
+
+  .sub-pages-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get-s-btn2 button {
+    width: 380px;
+    margin: 10px auto;
+  }
+  .get-s-btn button {
+    width: 380px;
+    margin: 10px auto;
+  }
+
+  .provider-intro,
+  .deploy-intro,
+  .validator-intro,
+  .doc-intro,
+  .insider-s-intro {
+    width: 380px;
+  }
+
+  .get-started-title {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  .join-comunity-title {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 40px;
+    width: 300px;
+  }
 }
