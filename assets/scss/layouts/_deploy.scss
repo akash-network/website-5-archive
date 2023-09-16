@@ -72,6 +72,21 @@
   line-height: 24px;
 }
 
+.console-s-btn1 {
+  background: #ff414c;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 40px;
+  padding: 6px 14px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  transition: 0.3s ease;
+}
+
 .console-s-btn {
   border-radius: 6px;
   margin-top: 40px;
@@ -87,9 +102,29 @@
   transition: 0.3s ease;
 }
 
+.console-s-btn1 .ex-link-arrow2 svg path {
+  stroke: #fff;
+}
+
 .console-s-btn:hover {
   background: #ff414c;
   color: #fff;
+}
+.console-s-btn1:hover {
+  background: var(--slate-100, #e6e6e6);
+  color: #000;
+}
+
+.console-s-btn:hover .ex-link-arrow2 svg path {
+  stroke: #fff;
+}
+.console-s-btn1:hover .ex-link-arrow2 svg path {
+  stroke: #000;
+}
+
+.console-s-btn .ex-link-arrow2 svg {
+  margin-bottom: 3px;
+  margin-left: 2px;
 }
 
 .console-resource-wrapper {
@@ -143,15 +178,6 @@
 
 .available-op-btn button:hover .ex-link-arrow svg path {
   stroke: #fff;
-}
-
-.console-s-btn:hover .ex-link-arrow2 svg path {
-  stroke: #fff;
-}
-
-.console-s-btn .ex-link-arrow2 svg {
-  margin-bottom: 3px;
-  margin-left: 2px;
 }
 
 .available-op-desc {

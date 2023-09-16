@@ -3,12 +3,7 @@
   margin: 0 auto;
 }
 
-.tabs-d-wrapper {
-  margin-bottom: -15px;
-  margin-top: 80px;
-}
-
-.deploy-header-text {
+.praetor-header-text {
   text-align: center;
   width: 1000px;
   font-size: 56px;
@@ -19,11 +14,11 @@
   margin-top: 60px;
 }
 
-.deploy-hr {
+.praetor-hr {
   width: 1231px;
 }
 
-.deploy-hr2 {
+.praetor-hr2 {
   width: 1231px;
   margin: 90px auto;
 }
@@ -32,17 +27,7 @@
   width: 510px;
 }
 
-/* Optional: You can add a transition effect for a smoother appearance */
-.tab-button {
-  transition: border-bottom 0.3s ease;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 28px;
-  cursor: pointer;
-}
-
-.tab0-header {
+.praetor-header {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -52,7 +37,7 @@
   height: 80px;
 }
 
-.tab-contents-wrapper {
+.praetor-contents-wrapper {
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -66,7 +51,7 @@
   line-height: 24px;
 }
 
-.console-s-btn {
+.praetor-s-btn {
   border-radius: 6px;
   margin-top: 40px;
   background: var(--slate-100, #e6e6e6);
@@ -80,12 +65,12 @@
   transition: 0.3s ease;
 }
 
-.console-s-btn:hover {
+.praetor-s-btn:hover {
   background: #ff414c;
   color: #fff;
 }
 
-.console-resource-wrapper {
+.praetor-resource-wrapper {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 40px;
@@ -137,11 +122,11 @@
   stroke: #fff;
 }
 
-.console-s-btn:hover .ex-link-arrow2 svg path {
+.praetor-s-btn:hover .ex-link-arrow2 svg path {
   stroke: #fff;
 }
 
-.console-s-btn .ex-link-arrow2 svg {
+.praetor-s-btn .ex-link-arrow2 svg {
   margin-bottom: 3px;
   margin-left: 2px;
 }
@@ -167,11 +152,11 @@
     line-height: 60px;
   }
 
-  .deploy-hr2 {
+  .provider-hr2 {
     width: 1090px;
     margin: 90px auto;
   }
-  .deploy-hr {
+  .provider-hr {
     width: 1090px;
     margin: 16px auto;
   }
