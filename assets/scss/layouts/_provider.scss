@@ -31,7 +31,7 @@
   letter-spacing: -0.64px;
 }
 
-.tab-contents-wrapper {
+.praetor-contents-wrapper {
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -73,7 +73,7 @@
   stroke: #000;
 }
 
-.console-resource-wrapper {
+.praetor-resource-wrapper {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 40px;
@@ -181,12 +181,12 @@
     width: 100%;
     margin: 50px auto;
   }
-  .tab-content .console-resource-wrapper {
+  .praetor-resource-wrapper {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 40px;
   }
 
-  .tab-contents-wrapper {
+  .praetor-contents-wrapper {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -204,7 +204,7 @@
     line-height: 48px;
   }
 
-  .deploy-sub-header {
+  .praetor-sub-header {
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -220,8 +220,7 @@
     width: 100%;
     margin: 50px auto;
   }
-
-  .tab-content .console-resource-wrapper {
+  .praetor-resource-wrapper {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 40px;
   }
@@ -230,7 +229,7 @@
     margin-top: 10px;
   }
 
-  .tab-contents-wrapper {
+  .praetor-contents-wrapper {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -249,7 +248,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px; /* 133.333% */
+    line-height: 32px;
     letter-spacing: -0.48px;
   }
 

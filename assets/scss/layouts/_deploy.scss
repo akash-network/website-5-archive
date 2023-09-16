@@ -279,9 +279,13 @@
     width: 100%;
   }
 
+  .console-s-btn {
+    font-size: 14px;
+  }
+
   section .deploy-hr2 {
     width: 100%;
-    margin: 50px auto;
+    margin: 60px auto;
   }
 
   .tab-content .console-resource-wrapper {
@@ -310,7 +314,16 @@
     font-weight: 700;
     line-height: 32px; /* 133.333% */
     letter-spacing: -0.48px;
-    width: 350px;
+    width: 100%;
+  }
+
+  .btn-noe {
+    display: none;
+  }
+
+  .console-resource-header {
+    margin-bottom: 32px;
+    margin-top: 80px;
   }
 
   .tab-button.active {
