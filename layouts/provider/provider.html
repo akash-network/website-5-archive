@@ -1,25 +1,26 @@
 {{ define "main" }}
 <section style="margin-bottom: 100px">
   <div class="custom-col-13">
-    <h1 class="praetor-header-text text-center mx-auto">
+    <h1 class="praetor-top-title text-center mx-auto">
       Offer your Compute Resources and Join the Akash Providers
     </h1>
     <div>
-      <p class="text-center mx-auto">
+      <p class="text-center mx-auto deploy-sub-header">
         Tailor Your Experience with Specialized Solutions
       </p>
     </div>
-    <section>
-      <div class="praetor-contents-wrapper">
+
+    <section class="tab-content">
+      <div class="tab-contents-wrapper">
         <div>
-          <p class="praetor-header">Praetor App</p>
+          <p class="praetor-text">Praetor App</p>
           <p class="praetor-desc">
             Praetor App makes it simple to become an Akash Network cloud
             provider. Instead of utilizing the Command-line Interface, you can
             use a streamlined UI to become a provider.
           </p>
-          <div class="praetor-btns-wrapper">
-            <button class="praetor-s-btn">
+          <div class="console-btns-wrapper d-flex gap-3">
+            <button class="praetor-btn">
               <span class="ex-link-arrow2"
                 >{{ partial "content/svg.html" "arrow-circled2" }}</span
               >
@@ -29,29 +30,26 @@
         </div>
         <div>{{ partial "content/svg.html" "cloud_new" }}</div>
       </div>
-      <hr class="provider-hr2" />
-
-      <!-- PROVIDER RESOURCES SECTION -->
+      <hr class="praetor-hr2" />
       <section>
-        <h3>Praetor Resources</h3>
-        <div class="praetor-resource-wrapper">
+        <h3 class="pb-4 praetor-resource-header">Praetor App Resources</h3>
+        <div class="console-resource-wrapper">
           <div>
             <img class="" src="/mobile_img/gpu-testnet-1.png" alt="img" />
-            <p class="resource-s-title">Praetor App Documentation</p>
+            <p class="resource-s-title">Console on youtube</p>
           </div>
           <div>
             <img class="" src="/mobile_img/gpu-testnet-1.png" alt="img" />
-            <p class="resource-s-title">Akash Provider Calculator</p>
+            <p class="resource-s-title">Console on youtube</p>
           </div>
           <div>
             <img class="" src="/mobile_img/gpu-testnet-1.png" alt="img" />
 
-            <p class="resource-s-title">Akash Provider Status</p>
+            <p class="resource-s-title">Console documentation</p>
           </div>
         </div>
       </section>
-
-      <hr class="provider-hr2" />
+      <hr class="praetor-hr2" />
       <!-- AVAILABLE OPTIONS TO DEPLOY SECTION -->
       <section>
         <h3 class="mb-5">Other Available Options to Deploy Apps</h3>

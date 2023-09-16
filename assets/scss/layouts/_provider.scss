@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.praetor-header-text {
+.praetor-top-title {
   text-align: center;
   width: 1000px;
   font-size: 56px;
@@ -14,8 +14,8 @@
   margin-top: 60px;
 }
 
-.praetor-hr {
-  width: 1231px;
+.praetor-desc {
+  width: 600px;
 }
 
 .praetor-hr2 {
@@ -23,21 +23,15 @@
   margin: 90px auto;
 }
 
-.praetor-desc {
-  width: 510px;
-}
-
-.praetor-header {
+.praetor-text {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 125% */
   letter-spacing: -0.64px;
-  width: 400px;
-  height: 80px;
 }
 
-.praetor-contents-wrapper {
+.tab-contents-wrapper {
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -51,10 +45,11 @@
   line-height: 24px;
 }
 
-.praetor-s-btn {
+.praetor-btn {
+  background: #ff414c;
+  color: #fff;
   border-radius: 6px;
   margin-top: 40px;
-  background: var(--slate-100, #e6e6e6);
   padding: 6px 14px;
   border: none;
   outline: none;
@@ -65,12 +60,20 @@
   transition: 0.3s ease;
 }
 
-.praetor-s-btn:hover {
-  background: #ff414c;
-  color: #fff;
+.praetor-btn .ex-link-arrow2 svg path {
+  stroke: #fff;
 }
 
-.praetor-resource-wrapper {
+.praetor-btn:hover {
+  background: var(--slate-100, #e6e6e6);
+  color: #000;
+}
+
+.praetor-btn:hover .ex-link-arrow2 svg path {
+  stroke: #000;
+}
+
+.console-resource-wrapper {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 40px;
@@ -103,6 +106,7 @@
 .available-op-btn button {
   padding: 16px 20px;
   align-items: center;
+  color: #000;
   border: none;
   outline: none;
   border-radius: 8px;
@@ -122,15 +126,6 @@
   stroke: #fff;
 }
 
-.praetor-s-btn:hover .ex-link-arrow2 svg path {
-  stroke: #fff;
-}
-
-.praetor-s-btn .ex-link-arrow2 svg {
-  margin-bottom: 3px;
-  margin-left: 2px;
-}
-
 .available-op-desc {
   font-size: 16px;
   font-style: normal;
@@ -138,29 +133,25 @@
   line-height: 24px;
   margin: 24px auto;
 }
+
+// FOR LAPTOPS
 @media (min-width: 992px) and (max-width: 1400px) {
   .custom-col-13 {
     width: 85%;
     margin: 0 auto;
   }
 
-  .deploy-header-text {
-    text-align: center;
-    width: 900px;
-    font-size: 50px;
+  .praetor-text {
+    // width: 900px;
+    font-size: 35px;
     margin-top: 60px;
     line-height: 60px;
   }
 
-  .provider-hr2 {
+  section .praetor-hr2 {
     width: 1090px;
     margin: 90px auto;
   }
-  .provider-hr {
-    width: 1090px;
-    margin: 16px auto;
-  }
-
   .tabs-d-wrapper {
     margin-bottom: -20px;
     margin-top: 80px;
@@ -168,5 +159,105 @@
 
   .available-op-btn button {
     padding: 14px 18px;
+  }
+
+  .tab-button.active {
+    text-decoration: 3px solid black underline;
+    text-underline-offset: 18px;
+  }
+}
+
+//FOR TABLETS SCREEN
+@media (max-width: 1200px) {
+  section .praetor-top-title {
+    width: 600px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  section .praetor-hr2 {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .tab-content .console-resource-wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+  }
+
+  .tab-contents-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// FOR SMALL SCREENS
+@media (max-width: 767px) {
+  section .praetor-top-title {
+    width: 100%;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .deploy-sub-header {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .tab-buttons-wrapper .praetor-hr2 {
+    width: 100%;
+  }
+
+  section .praetor-hr2 {
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .tab-content .console-resource-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 40px;
+  }
+
+  .praetor-btn {
+    margin-top: 10px;
+  }
+
+  .tab-contents-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div > .deployment-steps {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    width: 294px;
+  }
+
+  section .praetor-text {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+  }
+
+  .praetor-resource-header {
+    margin-top: 60px;
+  }
+
+  .praetor-desc {
+    width: 100%;
   }
 }
