@@ -1,7 +1,7 @@
 ---
 title: "Get started"
-description: "AKT is the utility token powering the world’s first open-source cloud."
-lead: "Akash Network Token (AKT) is the native utility token of Akash Network. AKT is used as the primary means to govern the network, secure the blockchain, incentivize participants, and provide a default mechanism to store and exchange value."
+description: "Get Started with Akash Decentralized Cloud Computing."
+lead: Discover the world of decentralized cloud computing with Akash! Launch your applications with ease, become a provider to earn rewards, access comprehensive documentation, join a thriving community, and share your innovative ideas to empower the decentralized cloud infrastructure. Get started today and embrace low-cost, flexible, and secure cloud solutions."
 toc: true
 images: []
 ---
