@@ -133,10 +133,6 @@
     margin: 80px auto;
   }
 
-  .g-s-svg svg {
-    width: 100%;
-  }
-
   .get-s-btn2 button {
     width: 300px;
     margin: 10px auto;
@@ -184,11 +180,6 @@
 // 447 -767
 
 @media (min-width: 447px) and (max-width: 767px) {
-  .g-s-svg svg {
-    width: 350px;
-    height: 200px;
-  }
-
   .sub-pages-wrapper {
     display: flex;
     flex-direction: column;
