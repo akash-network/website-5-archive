@@ -346,8 +346,15 @@ $navbar-dark-active-color: $link-color-dark;
 
 [data-dark-mode] body .tab-button.active {
   text-decoration: 2px solid #ffff underline;
+  color: #fff;
 }
 
+[data-dark-mode] body .tab-button {
+  color: lightgrey;
+}
+[data-dark-mode] body .tab-button:hover {
+  color: #fff;
+}
 [data-dark-mode] body .available-op-wrapper {
   border: 1px solid #515559;
 }

@@ -100,7 +100,7 @@
   }
 
   .g-s-svg svg {
-    width: 350px;
+    width: 100%;
   }
 
   .get-s-btn button {
@@ -134,12 +134,23 @@
   }
 
   .get-s-btn2 button {
-    width: 300px;
-    margin: 10px auto;
+    width: 350px;
+    margin-top: 33px;
   }
   .get-s-btn button {
-    width: 300px;
+    width: 350px;
     margin: 10px auto;
+  }
+
+  .g-s-svg svg {
+    width: 350px;
+  }
+  .provider-intro,
+  .deploy-intro,
+  .validator-intro,
+  .doc-intro,
+  .insider-s-intro {
+    width: 350px;
   }
 }
 

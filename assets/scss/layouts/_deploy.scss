@@ -31,21 +31,26 @@
 .tab-button.active {
   text-decoration: 2px solid black underline;
   text-underline-offset: 22px;
-  cursor: pointer;
+  color: #0f172a;
   text-align: center;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
+  cursor: pointer;
 }
 
 .tab-button {
-  transition: border-bottom 0.3s ease;
+  color: rgba(15, 23, 42, 0.6);
   text-align: center;
   font-size: 18px;
   font-style: normal;
+  font-weight: 500;
   line-height: 28px;
   cursor: pointer;
+}
+.tab-button:hover {
+  color: #000;
 }
 
 .tab0-header {
