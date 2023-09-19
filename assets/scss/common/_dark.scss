@@ -213,6 +213,10 @@ $navbar-dark-active-color: $link-color-dark;
   border: 1px solid #515559;
   color: #fff;
 }
+
+[data-dark-mode] .chev-right svg path {
+  stroke: #fff;
+}
 [data-dark-mode] .black-dot {
   background-color: #fff;
 }

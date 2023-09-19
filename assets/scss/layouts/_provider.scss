@@ -64,6 +64,17 @@
   line-height: 24px;
   transition: 0.3s ease;
 }
+div .provider-breadcrumb-wrapper {
+  margin-top: 76px;
+}
+
+.provider-breadcrumb {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.36px;
+}
 
 .praetor-btn .ex-link-arrow2 svg path {
   stroke: #fff;
@@ -173,6 +184,10 @@
   .tab-button.active {
     text-decoration: 3px solid black underline;
     text-underline-offset: 18px;
+  }
+
+  section .provider-breadcrumb-wrapper {
+    margin-top: 70px;
   }
 }
 
