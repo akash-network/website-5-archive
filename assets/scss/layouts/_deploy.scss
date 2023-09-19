@@ -40,6 +40,14 @@
   cursor: pointer;
 }
 
+.black-dot {
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  margin-top: 10px;
+  border-radius: 50%; /* This creates a circular shape */
+}
+
 .tab-button {
   color: rgba(15, 23, 42, 0.6);
   text-align: center;
@@ -72,6 +80,7 @@
 
 .deployment-steps {
   font-size: 18px;
+  width: 599px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
@@ -92,42 +101,15 @@
   transition: 0.3s ease;
 }
 
-.console-s-btn {
-  border-radius: 6px;
-  margin-top: 40px;
-  background: var(--slate-100, #e6e6e6);
-  padding: 6px 14px;
-  color: #000;
-  border: none;
-  outline: none;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  transition: 0.3s ease;
-}
-
 .console-s-btn1 .ex-link-arrow2 svg path {
   stroke: #fff;
 }
 
-.console-s-btn:hover {
-  background: #ff414c;
-  color: #fff;
-}
 .console-s-btn1:hover {
-  background: var(--slate-100, #e6e6e6);
-  color: #000;
+  opacity: 0.5;
 }
 
-.console-s-btn:hover .ex-link-arrow2 svg path {
-  stroke: #fff;
-}
-.console-s-btn1:hover .ex-link-arrow2 svg path {
-  stroke: #000;
-}
-
-.console-s-btn .ex-link-arrow2 svg {
+.console-s-btn1 .ex-link-arrow2 svg {
   margin-bottom: 3px;
   margin-left: 2px;
 }
@@ -139,11 +121,17 @@
 }
 
 .resource-s-title {
-  font-size: 22px;
+  font-size: 18px;
+  color: #000;
   font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  margin-top: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: 0.3s ease;
+}
+.resource-s-title:hover {
+  opacity: 0.5;
+  text-decoration: none;
+  color: #000;
 }
 
 .available-op-wrapper {

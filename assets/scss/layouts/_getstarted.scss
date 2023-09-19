@@ -14,6 +14,13 @@
   margin-top: 40px;
 }
 
+black-dot {
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  margin-top: 10px;
+  border-radius: 50%; /* This creates a circular shape */
+}
 .deploy-header,
 .provider-s-header,
 .docs-s-header,
@@ -93,6 +100,13 @@
     margin: 0 auto;
   }
 
+  .black-dot {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 50%; /* This creates a circular shape */
+  }
   .sub-pages-wrapper {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-top: 40px;
@@ -227,5 +241,13 @@
     text-align: center;
     font-size: 40px;
     width: 300px;
+  }
+
+  black-dot {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 50%; /* This creates a circular shape */
   }
 }
