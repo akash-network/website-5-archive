@@ -214,25 +214,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: #fff;
 }
 
-[data-dark-mode] .chev-right svg path {
-  stroke: #fff;
-}
-[data-dark-mode] .black-dot {
-  background-color: #fff;
-}
-[data-dark-mode] .resource-s-title {
-  color: #fff;
-}
-[data-dark-mode] .resource-s-title:hover {
-  color: #fff;
-}
-[data-dark-mode] .praetor-resource-s-title {
-  color: #fff;
-}
-[data-dark-mode] .praetor-resource-s-title:hover {
-  color: #fff;
-}
-
 [data-dark-mode] .prev-pagination-button,
 [data-dark-mode] .next-pagination-button {
   border: 1px solid #515559;
@@ -252,6 +233,34 @@ $navbar-dark-active-color: $link-color-dark;
   color: #ccc;
 }
 // Blog page section End
+
+[data-dark-mode] .chev-right svg path {
+  stroke: #fff;
+}
+[data-dark-mode] .black-dot {
+  background-color: #fff;
+}
+[data-dark-mode] .resource-s-title {
+  color: #fff;
+}
+[data-dark-mode] .resource-s-title:hover {
+  color: #fff;
+}
+[data-dark-mode] .praetor-resource-s-title {
+  color: #fff;
+}
+[data-dark-mode] .praetor-resource-s-title:hover {
+  color: #fff;
+}
+[data-dark-mode] .tab0-desc {
+  color: #fff;
+}
+[data-dark-mode] .tab1-desc {
+  color: #fff;
+}
+[data-dark-mode] .praetor-text-desc {
+  color: #fff;
+}
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
