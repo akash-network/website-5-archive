@@ -4,21 +4,35 @@
     <h1 class="praetor-top-title text-center mx-auto">
       Offer your Compute Resources and Join the Akash Providers
     </h1>
-    <div>
-      <p class="text-center mx-auto praetor-sub-header">
-        Tailor Your Experience with Specialized Solutions
-      </p>
-    </div>
 
+    <hr class="praetor-hr2" />
     <section>
       <div class="praetor-contents-wrapper">
         <div>
           <p class="praetor-text">Praetor App</p>
-          <p class="praetor-desc">
+          <p class="praetor-text-desc">
             Praetor App makes it simple to become an Akash Network cloud
             provider. Instead of utilizing the Command-line Interface, you can
             use a streamlined UI to become a provider.
           </p>
+          <div class="mt-5">
+            <div class="d-flex gap-2 mt-2">
+              <div class="black-dot"></div>
+              <p class="praetor-deployment-steps">
+                Simplify the process of becoming an Akash cloud provider through
+                user-friendly interface.
+              </p>
+            </div>
+          </div>
+          <div class="">
+            <div class="d-flex gap-2 mt-2">
+              <div class="black-dot"></div>
+              <p class="praetor-deployment-steps">
+                Praetor empowers you to focus on what matters most - providing
+                cloud services.
+              </p>
+            </div>
+          </div>
           <div class="console-btns-wrapper d-flex gap-3">
             <button class="praetor-btn">
               <span class="ex-link-arrow2"
@@ -28,23 +42,76 @@
             </button>
           </div>
         </div>
-        <div>{{ partial "content/svg.html" "cloud_new" }}</div>
+        <div>
+          <img class="" src="/started-images/praetor.png" alt="img" />
+        </div>
       </div>
       <hr class="praetor-hr2" />
       <section>
         <h3 class="pb-4 praetor-resource-header">Praetor App Resources</h3>
         <div class="praetor-resource-wrapper">
           <div>
-            <img class="" src="/mobile_img/gpu-testnet-1.png" alt="img" />
-            <p class="resource-s-title">Praetor App Documentatione</p>
+            <a
+              target="_blank"
+              href="https://docs.praetorapp.com/"
+            >
+              <img class="" src="/started-images/pr-doc.png" alt="img" />
+            </a>
+
+            <div class="mt-3">
+              <a
+                class="resource-s-title"
+                href="https://docs.praetorapp.com/"
+                target="_blank"
+              >
+              Praetor App Documentation
+                <span class="ex-link-arrow"></span>
+                  {{ partial "content/svg.html" "link-arrow" }}</span
+                >
+              </a>
+            </div>
           </div>
           <div>
-            <img class="" src="/mobile_img/gpu-testnet-1.png" alt="img" />
-            <p class="resource-s-title">Akash Provider Calculator</p>
+            <a
+              target="_blank"
+              href="https://akash.praetorapp.com/calculator?_gl=1*1ci3le*_ga*NjUzNzU3NzU2LjE2NzgyODE2MzQ.*_ga_0G158R2TYZ*MTY5MTA2MzAyMS4xLjAuMTY5MTA2MzAyMS4wLjAuMA..&_ga=2.150723316.355390905.1691063021-653757756.1678281634"
+            >
+              <img class="" src="/started-images/pr-calculator.png" alt="img" />
+            </a>
+
+            <div class="mt-3">
+              <a
+                class="resource-s-title"
+                href="https://akash.praetorapp.com/calculator?_gl=1*1ci3le*_ga*NjUzNzU3NzU2LjE2NzgyODE2MzQ.*_ga_0G158R2TYZ*MTY5MTA2MzAyMS4xLjAuMTY5MTA2MzAyMS4wLjAuMA..&_ga=2.150723316.355390905.1691063021-653757756.1678281634"
+                target="_blank"
+              >
+              Akash Provider Calculator
+                <span class="ex-link-arrow"></span>
+                  {{ partial "content/svg.html" "link-arrow" }}</span
+                >
+              </a>
+            </div>
           </div>
           <div>
-            <img class="" src="/mobile_img/gpu-testnet-1.png" alt="img" />
-            <p class="resource-s-title">Akash Provider Status</p>
+            <a
+              target="_blank"
+              href="https://akash.praetorapp.com/provider-status?chainid=akashnet-2"
+            >
+              <img class="" src="/started-images/pr-status.png" alt="img" />
+            </a>
+
+            <div class="mt-3">
+              <a
+                class="resource-s-title"
+                href="https://akash.praetorapp.com/provider-status?chainid=akashnet-2"
+                target="_blank"
+              >
+              Akash Provider Status
+                <span class="ex-link-arrow"></span>
+                  {{ partial "content/svg.html" "link-arrow" }}</span
+                >
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -53,10 +120,10 @@
       <section>
         <h3 class="mb-5">Other Available Options to Deploy Apps</h3>
         <div class="available-op-wrapper">
-          <p class="option-s-header">Terraform</p>
+          <p class="option-s-header">Provider build with GPU</p>
           <p class="available-op-desc">
-            Automate Your Infrastructure Deployment on Akash with the Popular
-            Infrastructure as a Code Tool
+            Use this guide and follow the sequential steps to build your Testnet
+            Akash Provider with GPU support.
           </p>
           <div class="available-op-btn">
             <button>
@@ -67,26 +134,12 @@
             </button>
           </div>
         </div>
-        <div class="available-op-wrapper my-4">
-          <p class="option-s-header">Client Libraries</p>
+
+        <div class="available-op-wrapper mt-4">
+          <p class="option-s-header">Build a cloud provider</p>
           <p class="available-op-desc">
-            Deploy and Manage Your Applications on Akash with Ease using the
-            Command Line Interface
-          </p>
-          <div class="available-op-btn">
-            <button>
-              View Docs
-              <span class="ex-link-arrow"
-                >{{ partial "content/svg.html" "ex-link-arrow" }}</span
-              >
-            </button>
-          </div>
-        </div>
-        <div class="available-op-wrapper">
-          <p class="option-s-header">CLI</p>
-          <p class="available-op-desc">
-            Deploy and Manage Your Applications on Akash with Ease using the
-            Command Line Interface
+            Become an Akash provider and make profit on your spare compute made
+            available for tenant lease.
           </p>
           <div class="available-op-btn">
             <button>

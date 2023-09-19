@@ -14,10 +14,6 @@
   margin-top: 60px;
 }
 
-.praetor-desc {
-  width: 600px;
-}
-
 .praetor-hr2 {
   width: 1231px;
   margin: 90px auto;
@@ -38,10 +34,19 @@
   gap: 20px;
 }
 
-.deployment-steps {
+.praetor-deployment-steps {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
+  line-height: 24px;
+  width: 543px;
+}
+
+.praetor-text-desc {
+  width: 599px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
   line-height: 24px;
 }
 
@@ -65,12 +70,7 @@
 }
 
 .praetor-btn:hover {
-  background: var(--slate-100, #e6e6e6);
-  color: #000;
-}
-
-.praetor-btn:hover .ex-link-arrow2 svg path {
-  stroke: #000;
+  opacity: 0.5;
 }
 
 .praetor-resource-wrapper {
@@ -79,7 +79,7 @@
   gap: 40px;
 }
 
-.resource-s-title {
+.praetor-resource-s-title {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -139,6 +139,14 @@
   .custom-col-13 {
     width: 85%;
     margin: 0 auto;
+  }
+
+  .praetor-text-desc {
+    width: 499px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
   }
 
   .praetor-text {
@@ -236,7 +244,7 @@
     align-items: center;
   }
 
-  div > .deployment-steps {
+  div > .praetor-deployment-steps {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -256,7 +264,7 @@
     margin-top: 60px;
   }
 
-  .praetor-desc {
+  .praetor-text-desc {
     width: 100%;
   }
 }
