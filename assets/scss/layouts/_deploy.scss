@@ -165,12 +165,7 @@
 }
 
 .available-op-btn button:hover {
-  background: #ff414c;
-  color: #fff;
-}
-
-.available-op-btn button:hover .ex-link-arrow svg path {
-  stroke: #fff;
+  opacity: 0.5;
 }
 
 .available-op-desc {
