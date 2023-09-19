@@ -261,6 +261,17 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] .praetor-text-desc {
   color: #fff;
 }
+[data-dark-mode] .praetor-text-desc {
+  color: #fff;
+}
+
+[data-dark-mode] .provider-intro,
+[data-dark-mode] .deploy-intro,
+[data-dark-mode] .validator-intro,
+[data-dark-mode] .doc-intro,
+[data-dark-mode] .insider-s-intro {
+  color: #fff;
+}
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {

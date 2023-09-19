@@ -35,6 +35,14 @@ black-dot {
   width: 200px;
 }
 
+.provider-intro,
+.deploy-intro,
+.validator-intro,
+.doc-intro,
+.insider-s-intro {
+  color: rgba(0, 0, 0, 0.55);
+}
+
 .doc-intro {
   font-size: 16px;
   font-style: normal;
@@ -241,13 +249,5 @@ black-dot {
     text-align: center;
     font-size: 40px;
     width: 300px;
-  }
-
-  black-dot {
-    width: 7px;
-    height: 7px;
-    background-color: black;
-    margin-top: 10px;
-    border-radius: 50%; /* This creates a circular shape */
   }
 }
