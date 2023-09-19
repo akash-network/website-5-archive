@@ -80,11 +80,17 @@
 }
 
 .praetor-resource-s-title {
-  font-size: 22px;
+  font-size: 18px;
+  color: #000;
   font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  margin-top: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: 0.3s ease;
+}
+.praetor-resource-s-title:hover {
+  opacity: 0.5;
+  text-decoration: none;
+  color: #000;
 }
 
 .praetor-btn .ex-link-arrow2 svg {
