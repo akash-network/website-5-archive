@@ -305,6 +305,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 768px) {
+  .deploy-svg svg {
+    width: 340px;
+  }
+}
+
 // FOR SMALL SCREENS
 @media (max-width: 767px) {
   section .deploy-header-text {
@@ -376,5 +382,11 @@
   .console-resource-header {
     margin-bottom: 32px;
     margin-top: 80px;
+  }
+}
+
+@media (min-width: 447px) and (max-width: 767px) {
+  .deploy-svg svg {
+    width: 300px;
   }
 }
