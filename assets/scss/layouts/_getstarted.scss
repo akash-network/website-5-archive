@@ -36,7 +36,7 @@ black-dot {
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .insider-s-header,
 .validator-s-header,
@@ -77,6 +77,7 @@ black-dot {
   font-size: 14px;
   transition: 0.3s ease;
   color: #000;
+  margin-top: 10px;
 }
 .community-s-btn button {
   width: 380px;
@@ -179,6 +180,7 @@ black-dot {
 
   .get-started-btn button {
     width: 540px;
+    margin-top: 0;
   }
 
   .provider-intro,
