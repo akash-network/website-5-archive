@@ -44,8 +44,6 @@
 }
 
 .tab-button.active {
-  text-decoration: 2px solid black underline;
-  text-underline-offset: 22px;
   color: #0f172a;
   text-align: center;
   font-size: 18px;
@@ -53,6 +51,17 @@
   font-weight: 500;
   line-height: 28px;
   cursor: pointer;
+  position: relative;
+}
+
+.tab-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -20px; /* Adjusted to push the underline down by 100px */
+  left: -10px;
+  width: 100px; /* Set the width of the underline to 100% */
+  height: 2px; /* Set the height (thickness) of the underline here */
+  background-color: black; /* Color of the underline */
 }
 
 .black-dot {
@@ -245,9 +254,14 @@
     padding: 14px 18px;
   }
 
-  .tab-button.active {
-    text-decoration: 3px solid black underline;
-    text-underline-offset: 18px;
+  .tab-button.active::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    width: 100px;
+    height: 2px;
+    background-color: black;
   }
 }
 
@@ -348,9 +362,5 @@
   .console-resource-header {
     margin-bottom: 32px;
     margin-top: 80px;
-  }
-
-  .tab-button.active {
-    text-decoration: underline;
   }
 }
