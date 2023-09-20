@@ -1,0 +1,255 @@
+.get-started-wrapper {
+  margin-bottom: 100px;
+}
+
+.custom-col-13 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sub-pages-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+black-dot {
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  margin-top: 10px;
+  border-radius: 50%; /* This creates a circular shape */
+}
+.deploy-header,
+.provider-s-header,
+.docs-s-header,
+.insider-s-header,
+.validator-s-header,
+.ideas-s-header {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 10px 0;
+  width: 200px;
+}
+
+.provider-intro,
+.deploy-intro,
+.validator-intro,
+.doc-intro,
+.insider-s-intro {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.doc-intro {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.get-s-btn button {
+  width: 380px;
+  height: 45px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.3s ease;
+  color: #000;
+}
+.get-s-btn2 button {
+  width: 380px;
+  height: 45px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.3s ease;
+  color: #000;
+  margin-top: 27px;
+}
+
+.get-s-btn button:hover {
+  background: #ccc;
+  color: #1d2d35;
+}
+.get-s-btn2 button:hover {
+  background: #ccc;
+  color: #1d2d35;
+}
+
+.g-s-arrow svg {
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.ex-link-arrow svg {
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+
+.g-s-hr {
+  width: 1231px;
+  margin: 100px auto;
+}
+
+// FOR LAPTOPS
+@media (min-width: 992px) and (max-width: 1400px) {
+  .custom-col-13 {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .black-dot {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 50%; /* This creates a circular shape */
+  }
+  .sub-pages-wrapper {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 40px;
+    gap: 60px;
+  }
+
+  .g-s-svg svg {
+    width: 100%;
+  }
+
+  .get-s-btn button {
+    width: 340px;
+  }
+  .g-s-hr {
+    width: 1090px;
+    margin: 100px auto;
+  }
+
+  .get-s-btn2 button {
+    width: 340px;
+    margin-top: 54px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sub-pages-wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 40px;
+    gap: 60px;
+  }
+
+  .get-started-wrapper {
+    margin-top: 100px;
+  }
+
+  .g-s-hr {
+    width: 100%;
+    margin: 80px auto;
+  }
+
+  .get-s-btn2 button {
+    width: 350px;
+    margin-top: 37px;
+  }
+  .get-s-btn button {
+    width: 350px;
+    margin: 10px auto;
+  }
+
+  .g-s-svg svg {
+    width: 350px;
+  }
+  .provider-intro,
+  .deploy-intro,
+  .validator-intro,
+  .doc-intro,
+  .insider-s-intro {
+    width: 350px;
+  }
+}
+
+// FOR SMALL SCREENS
+@media (max-width: 767px) {
+  .sub-pages-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-top: 40px;
+    gap: 60px;
+  }
+
+  .get-started-wrapper {
+    margin-top: 50px;
+  }
+
+  .get-s-btn2 button {
+    width: 100%;
+    margin: 10px auto;
+    height: 52px;
+  }
+  .get-s-btn button {
+    width: 100%;
+    height: 52px;
+    margin: 10px auto;
+  }
+
+  .g-s-svg svg {
+    width: 100%;
+  }
+
+  .g-s-hr {
+    width: 100%;
+    margin: 50px auto;
+  }
+}
+
+// OTHER RELATED SCREEN SIZES
+// 447 -767
+
+@media (min-width: 447px) and (max-width: 767px) {
+  .sub-pages-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get-s-btn2 button {
+    width: 380px;
+    margin: 10px auto;
+    color: #000;
+  }
+  .get-s-btn button {
+    width: 380px;
+    margin: 10px auto;
+    color: #000;
+  }
+
+  .provider-intro,
+  .deploy-intro,
+  .validator-intro,
+  .doc-intro,
+  .insider-s-intro {
+    width: 380px;
+  }
+
+  .get-started-title {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  .join-comunity-title {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 40px;
+    width: 300px;
+  }
+}

@@ -234,6 +234,45 @@ $navbar-dark-active-color: $link-color-dark;
 }
 // Blog page section End
 
+[data-dark-mode] .chev-right svg path {
+  stroke: #fff;
+}
+[data-dark-mode] .black-dot {
+  background-color: #fff;
+}
+[data-dark-mode] .resource-s-title {
+  color: #fff;
+}
+[data-dark-mode] .resource-s-title:hover {
+  color: #fff;
+}
+[data-dark-mode] .praetor-resource-s-title {
+  color: #fff;
+}
+[data-dark-mode] .praetor-resource-s-title:hover {
+  color: #fff;
+}
+[data-dark-mode] .tab0-desc {
+  color: #fff;
+}
+[data-dark-mode] .tab1-desc {
+  color: #fff;
+}
+[data-dark-mode] .praetor-text-desc {
+  color: #fff;
+}
+[data-dark-mode] .praetor-text-desc {
+  color: #fff;
+}
+
+[data-dark-mode] .provider-intro,
+[data-dark-mode] .deploy-intro,
+[data-dark-mode] .validator-intro,
+[data-dark-mode] .doc-intro,
+[data-dark-mode] .insider-s-intro {
+  color: #fff;
+}
+
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
   background-color: rgba(33, 37, 41, 0.95);
@@ -342,6 +381,28 @@ $navbar-dark-active-color: $link-color-dark;
 
 [data-dark-mode] body .table_data_link {
   border-bottom-color: #515559 !important;
+}
+
+[data-dark-mode] body .tab-button.active {
+  color: #fff;
+}
+
+[data-dark-mode] body .tab-button.active::after {
+  background-color: #fff;
+}
+
+[data-dark-mode] body .available-op-desc {
+  color: #fff;
+}
+
+[data-dark-mode] body .tab-button {
+  color: lightgrey;
+}
+[data-dark-mode] body .tab-button:hover {
+  color: #fff;
+}
+[data-dark-mode] body .available-op-wrapper {
+  border: 1px solid #515559;
 }
 
 [data-dark-mode] body .offcanvas .nav-link:hover,

@@ -1,0 +1,283 @@
+.custom-col-13 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.praetor-top-title {
+  text-align: center;
+  width: 1000px;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1.12px;
+  margin-top: 60px;
+}
+
+.praetor-hr2 {
+  width: 1231px;
+  margin: 90px auto;
+}
+
+.praetor-text {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+
+.praetor-contents-wrapper {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.praetor-deployment-steps {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 543px;
+}
+
+.praetor-text-desc {
+  color: rgba(0, 0, 0, 0.5);
+  width: 599px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.praetor-btn {
+  background: #ff414c;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 40px;
+  padding: 6px 14px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  transition: 0.3s ease;
+}
+div .provider-breadcrumb-wrapper {
+  margin-top: 76px;
+}
+
+.provider-breadcrumb {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.36px;
+}
+
+.praetor-btn .ex-link-arrow2 svg path {
+  stroke: #fff;
+}
+
+.praetor-btn:hover {
+  opacity: 0.5;
+}
+
+.praetor-resource-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.praetor-resource-s-title {
+  font-size: 18px;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  transition: 0.3s ease;
+}
+.praetor-resource-s-title:hover {
+  opacity: 0.5;
+  text-decoration: none;
+  color: #000;
+}
+
+.praetor-btn .ex-link-arrow2 svg {
+  margin-bottom: 3px;
+  margin-left: 2px;
+}
+.available-op-wrapper {
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.option-s-header {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.praetor-wrapper {
+  margin-bottom: 150px;
+}
+
+.available-op-desc {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 24px auto;
+}
+
+// FOR LAPTOPS
+@media (min-width: 992px) and (max-width: 1400px) {
+  .custom-col-13 {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .praetor-svg svg {
+    width: 350px;
+  }
+  .praetor-text-desc {
+    width: 499px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .praetor-text {
+    // width: 900px;
+    font-size: 35px;
+    margin-top: 60px;
+    line-height: 60px;
+  }
+
+  section .praetor-hr2 {
+    width: 1090px;
+    margin: 90px auto;
+  }
+  .tabs-d-wrapper {
+    margin-bottom: -20px;
+    margin-top: 80px;
+  }
+
+  .available-op-btn button {
+    padding: 14px 18px;
+  }
+
+  section .provider-breadcrumb-wrapper {
+    margin-top: 70px;
+  }
+}
+
+//FOR TABLETS SCREEN
+@media (max-width: 1200px) {
+  section .praetor-top-title {
+    width: 600px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  section .praetor-hr2 {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .praetor-resource-wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+  }
+
+  .praetor-contents-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .praetor-svg svg {
+    width: 100%;
+  }
+}
+
+// FOR SMALL SCREENS
+@media (max-width: 767px) {
+  section .praetor-top-title {
+    width: 100%;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  .praetor-sub-header {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .tab-buttons-wrapper .praetor-hr2 {
+    width: 100%;
+  }
+
+  section .praetor-hr2 {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .praetor-resource-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 40px;
+  }
+
+  .praetor-btn {
+    margin-top: 10px;
+  }
+
+  .praetor-contents-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div > .praetor-deployment-steps {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    width: 294px;
+  }
+
+  section .praetor-text {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+  }
+
+  .praetor-resource-header {
+    margin-top: 60px;
+  }
+
+  .praetor-text-desc {
+    width: 100%;
+  }
+
+  .praetor-svg svg {
+    width: 100%;
+  }
+}

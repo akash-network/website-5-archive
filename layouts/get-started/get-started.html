@@ -1,0 +1,129 @@
+{{ define "main" }}
+<section class="get-started-wrapper">
+  <div class="custom-col-13">
+    <h1 class="get-started-title">Get Started</h1>
+    <div class="sub-pages-wrapper">
+      <div class="sub-page-svg">
+        <div class="g-s-svg">
+          {{ partial "content/svg.html" "get-s-first" }}
+        </div>
+
+        <p class="deploy-header">Deploy Your Application</p>
+        <p class="deploy-intro">
+          Deploy a wide range of applications with one-click templates, including the leading AI models and web services.
+        </p>
+        <div class="get-s-btn" style="margin-top: 20px;">
+          <a href="/deploy/">
+          <button>
+            Get started
+            <span class="g-s-arrow"
+              >{{ partial "content/svg.html" "g-s-arrow" }}</span
+            >
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="sub-page-svg">
+        <div class="g-s-svg">{{ partial "content/svg.html" "g-s-second" }}</div>
+        <p class="provider-s-header">Become a Provider</p>
+        <p class="provider-intro">
+          Monetize your cloud resources on the open-source Akash marketplace.
+        </p>
+        <div class="get-s-btn" style="margin-top: 45px;">
+          <a href="/provider/">
+          <button>
+            Get started
+            <span class="g-s-arrow"
+              >{{ partial "content/svg.html" "g-s-arrow" }}</span
+            >
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="sub-page-svg">
+        <div class="g-s-svg">{{ partial "content/svg.html" "g-s-third" }}</div>
+        <p class="docs-s-header">Akash Documentation</p>
+        <p class="doc-intro">
+          For technical questions and network information, check out the Akash Docs.
+        </p>
+        <div
+          class="get-s-btn"
+          style="margin-top: 50px"
+        >
+        <a target="_blank" href="https://docs.akash.network/">
+          <button>
+            View Docs
+            <span class="ex-link-arrow"
+                >{{ partial "content/svg.html" "arrow-circled" }}</span
+              >
+          </button>
+        </a>
+        </div>
+      </div>
+    </div>
+    <hr class="g-s-hr" />
+
+    <!-- AKASH COMMUNITY -->
+    <section>
+      <h1 class="join-comunity-title mb-5">Join A Thriving Community</h1>
+      <div class="sub-pages-wrapper">
+        <div class="sub-page-svg">
+          <div class="">
+            {{ partial "content/svg.html" "social" }}
+          </div>
+
+          <p class="insider-s-header">Become an Akash Insider</p>
+          <p class="insider-s-intro">
+            Akash Insiders are community leaders and advocates within the Akash ecosystem. Anyone interested in joining is invited to apply.
+          </p>
+          <div class="get-s-btn ">
+            <a target="_blank" href="https://akashnet.typeform.com/to/PXpRWgfD?typeform-source=akash.network">
+              <button>
+                Join the Insiders
+                <span class="ex-link-arrow"
+                >{{ partial "content/svg.html" "arrow-circled" }}</span
+              >
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="sub-page-svg">
+          <div class="">  {{ partial "content/svg.html" "globe" }}</div>
+          <p class="validator-s-header">Become an Akash Validator</p>
+          <p class="validator-intro">
+            Help to secure the network and earn rewards in the process.
+          </p>
+          <div class="get-s-btn2">
+            <a href="https://akashnet.typeform.com/to/kH2gpXOL" target="_blank">
+            <button>
+              Join Validators
+              <span class="ex-link-arrow"
+                >{{ partial "content/svg.html" "arrow-circled" }}</span
+              >
+            </button>
+          </a>
+          </div>
+        </div>
+        <div class="sub-page-svg">
+          <div class=""> {{ partial "content/svg.html" "thumbss" }}</div>
+          <p class="ideas-s-header">Follow Akash on social media</p>
+          <p class="doc-intro">
+            Stay up to date with the latest from Akash Network across all the social channels including Twitter, Telegram, Discord, and more.
+          </p>
+          <div
+            class="get-s-btn"
+            style="margin-top: 21px"
+          >
+          <a href="/community/" >
+            <button>
+              Follow Akash
+
+            </button>
+          </a>
+          </div>
+        </div>
+    </section>
+  </div>
+</section>
+
+{{ end }}
