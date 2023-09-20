@@ -391,6 +391,10 @@ $navbar-dark-active-color: $link-color-dark;
   background-color: #fff;
 }
 
+[data-dark-mode] body .available-op-desc {
+  color: #fff;
+}
+
 [data-dark-mode] body .tab-button {
   color: lightgrey;
 }
