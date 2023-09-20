@@ -125,19 +125,6 @@ div .provider-breadcrumb-wrapper {
   line-height: 32px;
 }
 
-.available-op-btn button {
-  padding: 16px 20px;
-  align-items: center;
-  color: #000;
-  border: none;
-  outline: none;
-  border-radius: 8px;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  transition: 0.3s ease;
-}
 .praetor-wrapper {
   margin-bottom: 150px;
 }
@@ -157,6 +144,9 @@ div .provider-breadcrumb-wrapper {
     margin: 0 auto;
   }
 
+  .praetor-svg svg {
+    width: 350px;
+  }
   .praetor-text-desc {
     width: 499px;
     font-size: 16px;
@@ -280,6 +270,10 @@ div .provider-breadcrumb-wrapper {
   }
 
   .praetor-text-desc {
+    width: 100%;
+  }
+
+  .praetor-svg svg {
     width: 100%;
   }
 }
