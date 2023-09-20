@@ -242,6 +242,10 @@
     line-height: 60px;
   }
 
+  .deploy-svg svg {
+    width: 350px;
+  }
+
   .deploy-hr2 {
     width: 1090px;
     margin: 90px auto;
@@ -317,6 +321,10 @@
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+  }
+
+  .deploy-svg svg {
+    width: 100%;
   }
 
   .tab-buttons-wrapper .deploy-hr {
