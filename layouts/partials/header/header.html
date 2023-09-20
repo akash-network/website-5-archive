@@ -30,9 +30,15 @@
     </div>
     {{ end -}}
 
-    <button class="btn btn-menu order-2 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-    </button>
+    <div class="d-flex">
+      <button class="btn btn-menu order-2 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <a href="/get-started/" class="btn btn-primary text-white d-lg-none d-xl-none" type="button" aria-label="Get Started">
+        Get Started
+      </a>
+    </div>
+
     <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
       <div class="header-bar d-lg-none"></div>
       <div class="offcanvas-header d-lg-none">
@@ -104,15 +110,9 @@
           <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
         </button>
         <div class="mt-1 d-flex gap-lg-2">
-        <a class=" ms-lg-2" href="https://console.akash.network" target="_blank">
+        <a class=" ms-lg-2" href="/get-started/">
           <button class="btn console-btn btn-primary" type="button">
-            Launch Console 
-            <span class="svg-arrow-icon-wrapper">
-              {{/*  {{ partial "content/svg.html" "link-arrow-btn" }}  */}}
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 25 29" fill="none">
-                <path d="M7.29041 18.3074L5.8762 16.8932L14.3615 8.40791L6.58331 8.40791L6.58331 6.39972L17.7839 6.39972L17.7839 17.6003L15.7757 17.6003L15.7757 9.82212L7.29041 18.3074Z" fill="white"/>
-                </svg>
-            </span>
+            Get Started
           </button>
         </a>
         <a class="d-lg-none d-xl-block" href="https://akashnet.typeform.com/to/rhR4cWxQ" target="_blank">
@@ -121,7 +121,7 @@
           </button>
         </a>
       </div>
-        
+
         {{ end -}}
         {{ if eq .Site.Params.options.multilingualMode true -}}
         <hr class="text-black-50 my-4 d-lg-none">
