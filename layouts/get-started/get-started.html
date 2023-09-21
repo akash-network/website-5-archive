@@ -4,12 +4,14 @@
     <h1 class="get-started-title">Get Started</h1>
     <div class="sub-pages-wrapper">
       <div class="sub-page-svg">
-        <div class="g-s-svg">
-          {{ partial "content/svg.html" "gpu-svg" }}
+        <div class="g-s-svg d-none d-md-block">
+          {{ partial "content/svg.html" "gpu" }}
         </div>
-
-        <p class="deploy-header">Access high-performance GPUs</p>
-        <p class="deploy-intro">
+        <div class="g-s-svg-sm g-s-svg-sm d-md-none">
+          {{ partial "content/svg.html" "get-s-first" }}
+        </div>
+        <p class="provider-s-header">Access high-performance GPUs </p>
+        <p class="provider-intro">
           Tap into the Akash Marketplace and deploy permissionlessly using one of the network’s open-source deployment tools.
         </p>
         <div class="get-started-btn">
@@ -22,17 +24,20 @@
           </button>
         </a>
         </div>
+
       </div>
       <div class="sub-page-svg">
-        <div class="g-s-svg">
+        <div class="g-s-svg d-none d-md-block">
           {{ partial "content/svg.html" "deploy-app" }}
         </div>
-
-        <p class="deploy-header">Deploy Your Application</p>
-        <p class="deploy-intro">
+        <div class="g-s-svg-sm g-s-svg-sm d-md-none">
+          {{ partial "content/svg.html" "get-s-first" }}
+        </div>
+        <p class="provider-s-header">Deploy an application</p>
+        <p class="provider-intro">
           Deploy a wide range of applications with one-click templates, including the leading AI models and web services.
         </p>
-        <div class="get-started-btn pt-md-1">
+        <div class="get-started-btn btn-br">
           <a href="/deploy/">
           <button>
             Get started
@@ -43,13 +48,15 @@
         </a>
         </div>
       </div>
+
       <div class="sub-page-svg">
-        <div class="g-s-svg">{{ partial "content/svg.html" "provider" }}</div>
+        <div class="g-s-svg g-s-svg d-none d-md-block"> {{ partial "content/svg.html" "provider" }}</div>
+        <div class="g-s-svg-sm g-s-svg-sm d-md-none"> {{ partial "content/svg.html" "g-s-second" }}</div>
         <p class="provider-s-header">Become a Provider</p>
         <p class="provider-intro">
           Monetize your cloud resources on the open-source Akash marketplace.
         </p>
-        <div class="get-started-btn btn-br">
+        <div class="get-started-btn">
           <a href="/provider/">
           <button>
             Get started
@@ -61,25 +68,22 @@
         </div>
       </div>
       <div class="sub-page-svg">
-        <div class="g-s-svg">{{ partial "content/svg.html" "doc-svg" }}</div>
+        <div class="g-s-svg d-none d-md-block">{{ partial "content/svg.html" "doc-svg" }}</div>
+        <div class="g-s-svg-sm d-md-none">{{ partial "content/svg.html" "g-s-third" }}</div>
         <p class="docs-s-header">Akash Documentation</p>
         <p class="doc-intro">
           For technical questions and network information, check out the Akash Docs.
         </p>
-        <div
-          class="get-started-btn"
-
-        >
-        <a target="_blank" href="https://docs.akash.network/">
-          <button>
-            View Docs
-            <span class="ex-link-arrow"
-                >{{ partial "content/svg.html" "arrow-circled" }}</span
-              >
-          </button>
-        </a>
+        <div class="get-started-btn">
+          <a target="_blank" href="https://docs.akash.network/">
+            <button>
+              View Docs
+              <span class="ex-link-arrow">{{ partial "content/svg.html" "arrow-circled" }}</span>
+            </button>
+          </a>
         </div>
       </div>
+
     </div>
     <hr class="g-s-hr" />
 

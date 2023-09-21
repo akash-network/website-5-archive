@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 40px;
-  grid-gap: 80px;
+  grid-gap: 60px;
 }
 
 .community-s-wrapper {
@@ -28,6 +28,7 @@ black-dot {
   margin-top: 10px;
   border-radius: 50%; /* This creates a circular shape */
 }
+
 .deploy-header,
 .provider-s-header,
 .docs-s-header {
@@ -135,6 +136,10 @@ black-dot {
   margin: 100px auto;
 }
 
+.btn-br {
+  margin-top: 10px;
+}
+
 // FOR LAPTOPS
 @media (min-width: 992px) and (max-width: 1400px) {
   .custom-col-13 {
@@ -152,7 +157,7 @@ black-dot {
   .sub-pages-wrapper {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin-top: 40px;
-    grid-gap: 60px;
+    grid-gap: 40px;
   }
 
   .community-s-wrapper {
@@ -180,7 +185,6 @@ black-dot {
 
   .get-started-btn button {
     width: 540px;
-    margin-top: 0;
   }
 
   .provider-intro,
@@ -192,10 +196,6 @@ black-dot {
 
   .validator-intro {
     width: 350px;
-  }
-
-  .btn-br {
-    margin-top: 40px;
   }
 }
 
@@ -255,14 +255,18 @@ black-dot {
     line-height: 32px;
     margin-top: -10px;
   }
+
+  .btn-br {
+    margin-top: 45px;
+  }
 }
 
 // FOR SMALL SCREENS
 @media (max-width: 767px) {
   .sub-pages-wrapper {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-    margin-top: -20px;
-    grid-gap: 0;
+    margin-top: 60px;
+    grid-gap: 40px;
   }
 
   .community-s-wrapper {
@@ -272,6 +276,14 @@ black-dot {
 
   .get-started-wrapper {
     margin-top: 50px;
+  }
+
+  .btn-br {
+    margin-top: 0;
+  }
+
+  .g-s-svg-sm svg {
+    width: 100%;
   }
 
   .community-s-btn2 button {
@@ -285,10 +297,6 @@ black-dot {
     margin: 10px auto;
   }
 
-  .g-s-svg svg {
-    width: 100%;
-  }
-
   .g-s-hr {
     width: 100%;
     margin: 50px auto;
@@ -297,12 +305,12 @@ black-dot {
   .deploy-header,
   .provider-s-header,
   .docs-s-header {
-    width: 230px;
+    width: 200px;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
-    margin-top: -10px;
+    margin-top: 20px;
   }
 }
 
@@ -346,8 +354,8 @@ black-dot {
     width: 400px !important;
   }
 
-  .g-s-svg svg {
-    width: 450px;
+  .g-s-svg-sm svg {
+    width: 400px;
   }
 
   .provider-intro,
