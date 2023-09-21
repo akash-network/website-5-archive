@@ -65,9 +65,9 @@ black-dot {
   line-height: 24px;
   letter-spacing: 0.16px;
 }
-
+.get-started-btn2 button,
 .get-started-btn button {
-  width: 586px;
+  width: 100%;
   height: 45px;
   padding: 10px 20px 10px 20px;
   border-radius: 8px;
@@ -185,6 +185,10 @@ black-dot {
 
   .get-started-btn button {
     width: 540px;
+  }
+
+  .get-started-btn2 button {
+    margin-top: 34px;
   }
 
   .provider-intro,
