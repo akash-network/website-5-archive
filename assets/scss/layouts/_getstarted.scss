@@ -28,7 +28,7 @@ black-dot {
   margin-top: 10px;
   border-radius: 50%; /* This creates a circular shape */
 }
-
+.gpu-s-header,
 .deploy-header,
 .provider-s-header,
 .docs-s-header {
@@ -310,6 +310,15 @@ black-dot {
   .provider-s-header,
   .docs-s-header {
     width: 200px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+
+  .gpu-s-header {
+    width: 300px;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
