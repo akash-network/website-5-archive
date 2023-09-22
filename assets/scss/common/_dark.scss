@@ -395,6 +395,12 @@ $navbar-dark-active-color: $link-color-dark;
   color: #fff;
 }
 
+[data-dark-mode] body .btn-console-action {
+  background-color: transparent;
+  border: 1px solid #515559;
+  color: #fff;
+}
+
 [data-dark-mode] body .tab-button {
   color: lightgrey;
 }

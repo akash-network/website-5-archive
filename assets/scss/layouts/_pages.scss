@@ -7,6 +7,17 @@
   color: #1d2d35;
 }
 
+.btn-console-action {
+  background-color: transparent;
+  border: 1px solid #ccccccab;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.btn-console-action:hover {
+  opacity: 0.5;
+}
+
 .section_features .feature_detail {
   height: 72px;
   width: 608px;
