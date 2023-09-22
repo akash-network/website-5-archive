@@ -1,10 +1,29 @@
 .btn-contact-sales {
   background: #ccccccab;
   color: #1d2d35;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px 17px;
+  line-height: 1.33;
 }
 .btn-contact-sales:hover {
   background: #ccc;
   color: #1d2d35;
+}
+
+.btn-console-action {
+  background-color: transparent;
+  border: 1px solid #ccccccab;
+  font-weight: 700;
+  transition: 0.3s ease;
+  padding: 10px 17px;
+  font-size: 18px;
+  border-radius: 8px;
+  line-height: 1.33;
+}
+
+.btn-console-action:hover {
+  opacity: 0.5;
 }
 
 .section_features .feature_detail {
@@ -393,6 +412,14 @@ div > div:nth-child(1) > div > h3 > span {
 
   .Latest-from-blog-main {
     width: 100%;
+  }
+
+  .btn-console-action {
+    font-size: 10px;
+  }
+  .btn-contact-sales button {
+    font-size: 10px;
+    padding: 10px;
   }
 }
 @media (min-width: 587px) and (max-width: 592px) {
