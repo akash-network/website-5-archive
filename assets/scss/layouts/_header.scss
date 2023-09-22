@@ -74,6 +74,15 @@
   left: 60px;
   font-weight: 700;
   font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #ccccccab;
+  outline: none;
+  border: none;
+}
+.reserve-gpu-btn:hover {
+  background: #ccc;
+  color: #1d2d35;
 }
 @media (min-width: 1180px) and (max-width: 1440px) {
   .reserve-gpu-btn {
