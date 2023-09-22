@@ -9,6 +9,13 @@
 
 .sub-pages-wrapper {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 40px;
+  grid-gap: 60px;
+}
+
+.community-s-wrapper {
+  display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 40px;
   margin-top: 40px;
@@ -21,9 +28,17 @@ black-dot {
   margin-top: 10px;
   border-radius: 50%; /* This creates a circular shape */
 }
+.gpu-s-header,
 .deploy-header,
 .provider-s-header,
-.docs-s-header,
+.docs-s-header {
+  width: 100%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 20px 0;
+}
 .insider-s-header,
 .validator-s-header,
 .ideas-s-header {
@@ -50,8 +65,22 @@ black-dot {
   line-height: 24px;
   letter-spacing: 0.16px;
 }
-
-.get-s-btn button {
+.get-started-btn2 button,
+.get-started-btn button {
+  width: 100%;
+  height: 45px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.3s ease;
+  color: #000;
+  margin-top: 10px;
+}
+.community-s-btn button {
   width: 380px;
   height: 45px;
   padding: 10px 20px 10px 20px;
@@ -64,7 +93,7 @@ black-dot {
   transition: 0.3s ease;
   color: #000;
 }
-.get-s-btn2 button {
+.community-s-btn2 button {
   width: 380px;
   height: 45px;
   padding: 10px 20px 10px 20px;
@@ -79,11 +108,15 @@ black-dot {
   margin-top: 27px;
 }
 
-.get-s-btn button:hover {
+.community-s-btn button:hover {
   background: #ccc;
   color: #1d2d35;
 }
-.get-s-btn2 button:hover {
+.get-started-btn button:hover {
+  background: #ccc;
+  color: #1d2d35;
+}
+.community-s-btn2 button:hover {
   background: #ccc;
   color: #1d2d35;
 }
@@ -103,6 +136,10 @@ black-dot {
   margin: 100px auto;
 }
 
+.btn-br {
+  margin-top: 10px;
+}
+
 // FOR LAPTOPS
 @media (min-width: 992px) and (max-width: 1400px) {
   .custom-col-13 {
@@ -118,6 +155,12 @@ black-dot {
     border-radius: 50%; /* This creates a circular shape */
   }
   .sub-pages-wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 40px;
+    grid-gap: 40px;
+  }
+
+  .community-s-wrapper {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-top: 40px;
     gap: 60px;
@@ -127,7 +170,7 @@ black-dot {
     width: 100%;
   }
 
-  .get-s-btn button {
+  .community-s-btn button {
     width: 340px;
   }
   .g-s-hr {
@@ -135,14 +178,39 @@ black-dot {
     margin: 100px auto;
   }
 
-  .get-s-btn2 button {
+  .community-s-btn2 button {
     width: 340px;
     margin-top: 54px;
+  }
+
+  .get-started-btn button {
+    width: 540px;
+  }
+
+  .get-started-btn2 button {
+    margin-top: 34px;
+  }
+
+  .provider-intro,
+  .deploy-intro,
+  .validator-intro,
+  .doc-intro {
+    width: 540px;
+  }
+
+  .validator-intro {
+    width: 350px;
   }
 }
 
 @media (max-width: 1200px) {
   .sub-pages-wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 20px;
+    grid-gap: 30px;
+  }
+
+  .community-s-wrapper {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin-top: 40px;
     gap: 60px;
@@ -157,11 +225,15 @@ black-dot {
     margin: 80px auto;
   }
 
-  .get-s-btn2 button {
+  .community-s-btn2 button {
     width: 350px;
-    margin-top: 37px;
+    margin-top: 35px;
   }
-  .get-s-btn button {
+  .community-s-btn button {
+    width: 350px;
+    margin: 10px auto;
+  }
+  .get-started-btn button {
     width: 350px;
     margin: 10px auto;
   }
@@ -176,38 +248,82 @@ black-dot {
   .insider-s-intro {
     width: 350px;
   }
+
+  .deploy-header,
+  .provider-s-header,
+  .docs-s-header {
+    width: 250px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: -10px;
+  }
+
+  .btn-br {
+    margin-top: 45px;
+  }
 }
 
 // FOR SMALL SCREENS
 @media (max-width: 767px) {
   .sub-pages-wrapper {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-top: 60px;
+    grid-gap: 40px;
+  }
+
+  .community-s-wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     margin-top: 40px;
-    gap: 60px;
   }
 
   .get-started-wrapper {
     margin-top: 50px;
   }
 
-  .get-s-btn2 button {
-    width: 100%;
-    margin: 10px auto;
-    height: 52px;
-  }
-  .get-s-btn button {
-    width: 100%;
-    height: 52px;
-    margin: 10px auto;
+  .btn-br {
+    margin-top: 0;
   }
 
-  .g-s-svg svg {
+  .g-s-svg-sm svg {
     width: 100%;
+  }
+
+  .community-s-btn2 button {
+    width: 100%;
+    margin: 10px auto;
+    height: 52px;
+  }
+  .community-s-btn button {
+    width: 100%;
+    height: 52px;
+    margin: 10px auto;
   }
 
   .g-s-hr {
     width: 100%;
     margin: 50px auto;
+  }
+
+  .deploy-header,
+  .provider-s-header,
+  .docs-s-header {
+    width: 200px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+
+  .gpu-s-header {
+    width: 300px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 20px;
   }
 }
 
@@ -222,21 +338,44 @@ black-dot {
     align-items: center;
   }
 
-  .get-s-btn2 button {
+  .get-started-btn button {
+    width: 450px;
+    margin-bottom: 30px;
+  }
+
+  .community-s-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .community-s-btn2 button {
     width: 380px;
     margin: 10px auto;
     color: #000;
   }
-  .get-s-btn button {
+  .community-s-btn button {
     width: 380px;
     margin: 10px auto;
     color: #000;
+  }
+  .provider-intro,
+  .deploy-intro,
+  .validator-intro,
+  .doc-intro {
+    width: 400px !important;
+  }
+
+  .g-s-svg-sm svg {
+    width: 400px;
   }
 
   .provider-intro,
   .deploy-intro,
   .validator-intro,
   .doc-intro,
+  .follow-intro,
   .insider-s-intro {
     width: 380px;
   }

@@ -98,8 +98,14 @@ function highlightMenuItem() {
     </div>
     <div class="col-md-16 col-lg-16 text-center">
       <p class="lead mx-auto">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2 mt-3 fs-6" href="https://console.akash.network/landing" role="button">{{ i18n "get-started" }}</a>
-      <a class="btn btn-contact-sales btn-lg fw-semibold px-4 mb-2 mt-3 ms-2 fs-6" href="https://akashnet.typeform.com/to/rhR4cWxQ" role="button" target="_blank">{{ i18n "contact-sales" }}</a>
+      <a class="btn btn-console-action  mb-2 mt-3 fs-6" href="https://console.akash.network/landing" role="button">{{ i18n "get-started" }}   <span class="svg-icon-wrapper">
+        <span class="mx-1">{{ partial "content/svg.html" "link-arrow" }}</span>
+      </span></a>
+      <a class="btn btn-contact-sales fw-semibold  mb-2 mt-3 ms-2 fs-6" href="https://akashnet.typeform.com/to/rhR4cWxQ" role="button" target="_blank">
+        {{ i18n "contact-sales" }}
+        <span class="mx-1 gpu-btn-arrow">{{ partial "content/svg.html" "gpu-btn-arrow" }}</span>
+    </a>
+
       <p class="meta mt-3">
         <a href="https://github.com/akash-network" target="_blank">Open-source.</a>
         Apache 2.0 Licensed.

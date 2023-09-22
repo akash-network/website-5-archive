@@ -394,6 +394,19 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] body .available-op-desc {
   color: #fff;
 }
+[data-dark-mode] .gpu-btn-arrow svg path {
+  stroke: #000;
+}
+
+[data-dark-mode] .reserve-gpu-btn {
+  color: #000;
+}
+
+[data-dark-mode] body .btn-console-action {
+  background-color: transparent;
+  border: 1px solid #515559;
+  color: #fff;
+}
 
 [data-dark-mode] body .tab-button {
   color: lightgrey;

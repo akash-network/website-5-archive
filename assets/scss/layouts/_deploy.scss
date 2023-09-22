@@ -139,7 +139,7 @@
 
 .console-s-btn1 .ex-link-arrow2 svg {
   margin-bottom: 3px;
-  margin-left: 2px;
+  margin-right: 5px;
 }
 
 .br-text a {
@@ -321,6 +321,11 @@
     line-height: 48px;
   }
 
+  .console-s-btn1 .ex-link-arrow2 svg {
+    margin-bottom: 3px;
+    margin-right: 5px;
+  }
+
   .deploy-sub-header {
     text-align: center;
     font-size: 16px;
@@ -387,6 +392,18 @@
 
 @media (min-width: 447px) and (max-width: 767px) {
   .deploy-svg svg {
-    width: 300px;
+    width: 400px;
   }
+
+  // .tab-content .console-resource-wrapper {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  // .console-resource-header {
+  //   margin: 40px auto;
+  //   text-align: center;
+  // }
 }
