@@ -12,6 +12,27 @@
   margin-bottom: 150px;
 }
 
+.deploy-tile-title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+
+.deploy-tile-desc {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.deploy-tile-hr {
+  width: 550px;
+  margin: 32px auto;
+}
+
 .deploy-header-text {
   text-align: center;
   width: 1000px;
@@ -32,40 +53,9 @@
   margin: 90px auto;
 }
 
-.tab0-desc {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-}
-.tab1-desc {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-}
-
-.tab-button.active {
-  color: #0f172a;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  cursor: pointer;
-  position: relative;
-}
-
-.tab-button.active::after {
-  content: "";
-  position: absolute;
-  bottom: -20px; /* Adjusted to push the underline down by 100px */
-  left: -10px;
-  width: 100px; /* Set the width of the underline to 100% */
-  height: 2px; /* Set the height (thickness) of the underline here */
-  background-color: black; /* Color of the underline */
+.carousel-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .black-dot {
@@ -73,7 +63,7 @@
   height: 7px;
   background-color: black;
   margin-top: 10px;
-  border-radius: 50%; /* This creates a circular shape */
+  border-radius: 50%;
 }
 
 .tab-button {
@@ -99,6 +89,15 @@
   height: 80px;
 }
 
+section .carousel-card {
+  border: 1px solid rgba(0, 0, 0, 0.125); /* Card border */
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); /* Card box shadow */
+  margin-bottom: 1rem; /* Spacing between cards */
+  width: 587px;
+  height: 100%;
+  border-radius: 8px;
+}
+
 .tab-contents-wrapper {
   margin-top: 70px;
   display: flex;
@@ -117,8 +116,8 @@
 .console-s-btn1 {
   background: #ff414c;
   color: #fff;
+  width: 100%;
   border-radius: 6px;
-  margin-top: 40px;
   padding: 6px 14px;
   border: none;
   outline: none;
@@ -232,6 +231,19 @@
   .custom-col-13 {
     width: 85%;
     margin: 0 auto;
+  }
+
+  section .carousel-card {
+    width: 570px;
+  }
+
+  .carousel-card-wrapper {
+    gap: 80px;
+  }
+
+  .deploy-tile-hr {
+    width: 520px;
+    margin: 32px auto;
   }
 
   .deploy-header-text {
@@ -387,6 +399,17 @@
   .console-resource-header {
     margin-bottom: 32px;
     margin-top: 80px;
+  }
+
+  .carousel-slide svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  section .carousel-card {
+    width: 100%;
+
+    height: 100%;
   }
 }
 
