@@ -6,7 +6,6 @@
       margin: 10,
       responsiveClass: true,
       center: true,
-      autoplay: true,
       autoplayTimeout: 4000,
       autoplayHoverPause: true,
       responsive: {
@@ -21,7 +20,7 @@
         1000: {
           items: 1,
           nav: true,
-          loop: false,
+          loop: true,
         },
       },
     });
@@ -30,6 +29,13 @@
 
 <section style="margin-bottom: 500px">
   <div class="custom-col-13">
+    <div class="d-flex gap-2 provider-breadcrumb-wrapper">
+      <p class="br-text"> <a href="/get-started">Get Started</a>  <span class="chev-right"
+        >{{ partial "content/svg.html" "chev-right" }}</span
+      ></p>
+      <p class="provider-breadcrumb" >Deploy</p>
+    </div>
+
     <h1 class="deploy-header-text text-center mx-auto">
       Get started with Akash's easy-to-use deployment tools
     </h1>
@@ -98,14 +104,14 @@
           </div>
         </div>
         <div class="m-4">
-          <p class="deploy-tile-title">Akash Console</p>
-          <p class="deploy-tile-desc">Akash Console comes pre-loaded with one-click deployments,
-            tailored for AI and machine learning.</p>
+          <p class="deploy-tile-title">Cloudmos</p>
+          <p class="deploy-tile-desc">Cloudmos is a highly-customizable deploy
+            tool with a suite of analytics features for tracking network stats and resources.</p>
             <button class="console-s-btn1">
               <span class="ex-link-arrow2"
                 >{{ partial "content/svg.html" "arrow-circled2" }}</span
               >
-              Launch Console
+              Launch  Cloudmos
             </button>
             <hr class="deploy-tile-hr mx-auto" />
             <div>
@@ -114,7 +120,7 @@
               href="https://docs.akash.network/guides/deploy"
               target="_blank"
             >
-              Console Documentation
+            Cloudmos Documentation
               <span class="ex-link-arrow"></span>
                 {{ partial "content/svg.html" "link-arrow" }}</span
               >
@@ -126,7 +132,7 @@
               href="https://docs.akash.network/guides/deploy"
               target="_blank"
             >
-              Console Documentation
+            Cloudmos Documentation
               <span class="ex-link-arrow"></span>
                 {{ partial "content/svg.html" "link-arrow" }}</span
               >
@@ -139,13 +145,7 @@
       </div>
 
     </div>
-       <div class="tabs">
-      <!-- Tab contents -->
-      <!-- CONSOLE TAB -->
       <section id="tab0" class="tab-content">
-
-        <!-- CONSOLE RESOURCES SECTION -->
-
         <hr class="deploy-hr2" />
         <!-- AVAILABLE OPTIONS TO DEPLOY SECTION -->
         <section>
