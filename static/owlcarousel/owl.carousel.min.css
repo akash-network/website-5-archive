@@ -59,8 +59,8 @@
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-nav .owl-prev {
   position: relative;
-  left: 82% !important;
-  right: 0 !important;
+  left: 82%;
+  right: 0;
   transform: translateX(-50%);
 }
 
@@ -78,7 +78,7 @@
   background: 0 0;
   color: black;
   border: none;
-  padding: 0 !important;
+  padding: 0;
   font: inherit;
   text-align: center;
   position: relative;
@@ -219,10 +219,6 @@
 @media (max-width: 767px) {
   .owl-carousel .owl-nav .owl-next,
   .owl-carousel .owl-nav .owl-prev {
-    position: relative;
-    left: 0;
-    right: 0 !important;
-
-    transform: translateX(-50%);
+    margin-top: 20px;
   }
 }
