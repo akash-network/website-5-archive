@@ -85,7 +85,7 @@
     "replace-in-file": "^6.3.5",
     "sanitize-filename": "^1.6.3",
     "slugify": "^1.6.5",
-    "turndown": "^7.1.1",
+    "turndown": "^7.1.2",
     "unist-util-inspect": "^7.0.1",
     "yaml": "^2.2.0"
   },
