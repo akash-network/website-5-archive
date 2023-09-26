@@ -55,7 +55,7 @@
   background: #ff414c;
   color: #fff;
   border-radius: 6px;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 6px 14px;
   border: none;
   outline: none;
@@ -231,6 +231,12 @@ div .provider-breadcrumb-wrapper {
 
   .tab-buttons-wrapper .praetor-hr2 {
     width: 100%;
+  }
+
+  .provider-hero svg {
+    width: 100%;
+    margin-top: -100px;
+    margin-bottom: -60px;
   }
 
   section .praetor-hr2 {
