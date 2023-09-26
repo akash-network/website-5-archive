@@ -118,6 +118,7 @@ section .carousel-card {
   background: #ff414c;
   color: #fff;
   width: 100%;
+  height: 48px;
   border-radius: 6px;
   padding: 6px 14px;
   border: none;
@@ -138,7 +139,7 @@ section .carousel-card {
 }
 
 .console-s-btn1 .ex-link-arrow2 svg {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   margin-right: 5px;
 }
 
@@ -153,6 +154,10 @@ section .carousel-card {
 .br-text a:hover {
   opacity: 0.5;
   text-decoration: none;
+}
+
+.carousel-slide svg {
+  border-top-right-radius: 8px;
 }
 
 .deploy-breadcrumb {
@@ -170,11 +175,11 @@ section .carousel-card {
 }
 
 .resource-s-title {
-  font-size: 18px;
   color: #000;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 24px; /* 133.333% */
   transition: 0.3s ease;
 }
 .resource-s-title:hover {

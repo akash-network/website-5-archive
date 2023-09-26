@@ -59,16 +59,16 @@
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-nav .owl-prev {
   position: relative;
-  left: 82%;
+  left: 87%;
   right: 0;
   transform: translateX(-50%);
 }
 
 .owl-carousel .owl-nav .owl-next {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .owl-carousel .owl-nav .owl-prev {
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: 20px;
 }
 
@@ -82,7 +82,7 @@
   font: inherit;
   text-align: center;
   position: relative;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .owl-carousel.owl-loading {
@@ -208,8 +208,8 @@
   width: 10px;
   display: inline-block;
   background: rgba(127, 127, 127, 0.5) !important;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .owl-dot.active {
