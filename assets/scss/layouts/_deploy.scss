@@ -322,6 +322,16 @@ section .carousel-card {
     justify-content: center;
     align-items: center;
   }
+
+  section .carousel-card-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
@@ -436,18 +446,11 @@ section .carousel-card {
   }
 
   section .carousel-card-wrapper {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
   }
-  // .tab-content .console-resource-wrapper {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  // }
-
-  // .console-resource-header {
-  //   margin: 40px auto;
-  //   text-align: center;
-  // }
 }
