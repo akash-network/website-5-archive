@@ -9,7 +9,7 @@
 }
 
 .tab-content {
-  margin-bottom: 150px;
+  margin-bottom: 60px;
 }
 
 .deploy-tile-title {
@@ -67,19 +67,6 @@
   border-radius: 50%;
 }
 
-.tab-button {
-  color: rgba(15, 23, 42, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  cursor: pointer;
-}
-.tab-button:hover {
-  color: #000;
-}
-
 .tab0-header {
   font-size: 32px;
   font-style: normal;
@@ -97,13 +84,6 @@ section .carousel-card {
   width: 587px;
   height: 100%;
   border-radius: 8px;
-}
-
-.tab-contents-wrapper {
-  margin-top: 70px;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
 }
 
 .deployment-steps {
@@ -166,12 +146,6 @@ section .carousel-card {
   font-weight: 500;
   line-height: 24px; /* 133.333% */
   letter-spacing: -0.36px;
-}
-
-.console-resource-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 40px;
 }
 
 .resource-s-title {
@@ -287,16 +261,6 @@ section .carousel-card {
   .available-op-btn button {
     padding: 14px 18px;
   }
-
-  .tab-button.active::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: -10px;
-    width: 100px;
-    height: 2px;
-    background-color: black;
-  }
 }
 
 //FOR TABLETS SCREEN
@@ -315,17 +279,6 @@ section .carousel-card {
   section .deploy-hr2 {
     width: 100%;
     margin: 50px auto;
-  }
-  .tab-content .console-resource-wrapper {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 40px;
-  }
-
-  .tab-contents-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
   }
 
   section .carousel-card-wrapper {
@@ -394,18 +347,6 @@ section .carousel-card {
   section .deploy-hr2 {
     width: 100%;
     margin: 60px auto;
-  }
-
-  .tab-content .console-resource-wrapper {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 40px;
-  }
-
-  .tab-contents-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
   }
 
   div > .deployment-steps {
