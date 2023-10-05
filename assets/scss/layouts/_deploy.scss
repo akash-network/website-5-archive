@@ -59,14 +59,6 @@
   margin-top: 70px;
 }
 
-.black-dot {
-  width: 7px;
-  height: 7px;
-  background-color: black;
-  margin-top: 10px;
-  border-radius: 50%;
-}
-
 .tab0-header {
   font-size: 32px;
   font-style: normal;
@@ -136,8 +128,9 @@ section .carousel-card {
   text-decoration: none;
 }
 
-.carousel-slide svg {
+.carousel-slide img {
   border-top-right-radius: 8px;
+  width: 100%;
 }
 
 .deploy-breadcrumb {
