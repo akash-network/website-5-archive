@@ -12,6 +12,17 @@
   margin-bottom: 60px;
 }
 
+.carousel-slide svg {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+}
+.carousel-slide img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+}
+
 .deploy-tile-title {
   font-size: 32px;
   font-style: normal;
@@ -126,11 +137,6 @@ section .carousel-card {
 .br-text a:hover {
   opacity: 0.5;
   text-decoration: none;
-}
-
-.carousel-slide img {
-  border-top-right-radius: 8px;
-  width: 100%;
 }
 
 .deploy-breadcrumb {
