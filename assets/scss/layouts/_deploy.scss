@@ -392,6 +392,11 @@ section .carousel-card {
     width: 100%;
     height: 100%;
   }
+
+  .chev-right svg {
+    margin-top: 3px;
+    margin-left: 4px;
+  }
 }
 
 @media (min-width: 447px) and (max-width: 767px) {
