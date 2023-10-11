@@ -5,7 +5,6 @@
 <rect x="48" y="53" width="492" height="254.888" rx="5.60194" fill="url(#pattern0)" shape-rendering="crispEdges"/>
 </g>
 </g>
-<path d="M0.5 8C0.5 3.85786 3.85786 0.5 8 0.5H586.5V359.5H0.5V8Z" stroke="#D5D5D5"/>
 <defs>
 <filter id="filter0_d_892_7394" x="-10.8203" y="-3.01936" width="609.641" height="372.529" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
