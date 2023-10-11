@@ -234,8 +234,9 @@ $navbar-dark-active-color: $link-color-dark;
 }
 // Blog page section End
 
-[data-dark-mode] .chev-right svg path {
+[data-dark-mode] .chev-right svg path:first-of-type {
   stroke: #fff;
+  fill: #fff;
 }
 [data-dark-mode] .black-dot {
   background-color: #fff;

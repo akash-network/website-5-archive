@@ -55,6 +55,11 @@
   margin-top: 60px;
 }
 
+.chev-right svg {
+  margin-bottom: 6px;
+  margin-left: 4px;
+}
+
 .deploy-hr {
   width: 1231px;
 }
@@ -143,7 +148,6 @@ section .carousel-card {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 133.333% */
   letter-spacing: -0.36px;
 }
 
@@ -210,6 +214,11 @@ section .carousel-card {
   .custom-col-13 {
     width: 85%;
     margin: 0 auto;
+  }
+
+  .chev-right svg {
+    margin-bottom: 3px;
+    margin-left: 4px;
   }
 
   section .carousel-card {
