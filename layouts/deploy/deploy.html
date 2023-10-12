@@ -1,179 +1,195 @@
-{{ define "main" }}
-<section>
+{{ define "main" }} {{ partial "owl/owlcarousel.html" . }}
+<script>
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      responsiveClass: true,
+      center: true,
+      autoplay:false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false,
+        },
+        600: {
+          items: 1,
+          nav: true,
+        },
+        1000: {
+          items: 1,
+          nav: true,
+          loop: true,
+        },
+      },
+    });
+  });
+</script>
+
+<section style="margin-bottom: 100px">
   <div class="custom-col-13">
     <div class="d-flex gap-2 provider-breadcrumb-wrapper">
-      <p class="br-text"> <a href="/get-started">Get Started</a>  <span class="chev-right"
+      <p class="br-text"> <a href="/get-started">Get Started</a></p>  <span class="chev-right"
         >{{ partial "content/svg.html" "chev-right" }}</span
-      ></p>
-      <p class="deploy-breadcrumb" >Deploy your App</p>
+      >
+      <p class="provider-breadcrumb" >Deploy your App</p>
     </div>
 
     <h1 class="deploy-header-text text-center mx-auto">
-      Customize Your Akash Experience with the Perfect Tool
+      Get started with Akash's easy-to-use deployment tools
     </h1>
-
-
-    <!-- TAB SECTION -->
-    <section class="tab-buttons-wrapper">
-      <div
-        class="d-flex gap-5 justify-content-center align-items-center tabs-d-wrapper"
-      >
-        <p
-          class="tab-button text-center active"
-          onclick="openTab(event, 'tab0')"
-        >
-          Console
-        </p>
-        <p class="tab-button" onclick="openTab(event, 'tab1')">Cloudmos</p>
-      </div>
-      <hr class="deploy-hr" />
-    </section>
-    <div class="tabs">
-      <!-- Tab contents -->
-      <!-- CONSOLE TAB -->
-      <section id="tab0" class="tab-content">
-        <div class="tab-contents-wrapper">
-          <div>
-            <p class="tab0-header">
-              Try Akash Console with One click Deploy Templates
-            </p>
-            <p class="tab0-desc">Tailored for AI/ML Developers to empower innovation.</p>
-            <div class="mt-5">
-              <div class="d-flex gap-2 mt-2">
-                <div class="black-dot"></div>
-                <p class="deployment-steps">
-                  View & manage your deployed application
-                </p>
-              </div>
-            </div>
-            <div class="">
-              <div class="d-flex gap-2 mt-2">
-                <div class="black-dot"></div>
-                <p class="deployment-steps">
-                  Choose a provider based on your preferences and desired price
-                </p>
-              </div>
-            </div>
-            <div class="">
-              <div class="d-flex gap-2 mt-2">
-                <div class="black-dot"></div>
-                <p class="deployment-steps">
-                  Start with a template or your own custom application (SDL)
-                </p>
-              </div>
-            </div>
-            <div class="console-btns-wrapper d-flex gap-3">
-              <a target="_blank" href="https://console.akash.network/landing/">
-              <button class="console-s-btn1">
-                <span class="ex-link-arrow2"
-                  >{{ partial "content/svg.html" "arrow-circled2" }}</span
-                >
-                Launch Console
-              </button>
-            </a>
-            </div>
+    <div class="carousel-card-wrapper">
+      <div class="carousel-card" >
+        <div class="owl-carousel ">
+          <div class="carousel-slide">
+            {{ partial "content/svg.html" "mac" }}
           </div>
-          <div>
-            <img class="" src="/started-images/console.png" alt="img" />
+          <div class="carousel-slide">
+            <img src="/started-images/console-ease.jpg"  alt="new img"/>
+          </div>
+          <div class="carousel-slide">
+            <img src="/started-images/console-3.jpg"  alt="new img"/>
           </div>
         </div>
-        <hr class="deploy-hr2" />
-        <!-- CONSOLE RESOURCES SECTION -->
-        <section>
-          <h3 class="console-resource-header">Console Resources</h3>
-          <div class="console-resource-wrapper">
+        <div class="m-4">
+          <p class="deploy-tile-title">Akash Console</p>
+          <p class="deploy-tile-desc">Akash Console comes pre-loaded with one-click deployments,
+            tailored for AI and machine learning.</p>
+            <a target="_blank" href="https://console.akash.network/landing/">
+            <button class="console-s-btn1 mt-3">
+              <span class="ex-link-arrow2"
+                >{{ partial "content/svg.html" "arrow-circled2" }}</span
+              >
+              Launch Akash Console
+            </button>
+          </a>
+            <hr class="deploy-tile-hr mx-auto" />
             <div>
               <a
-                target="_blank"
-                href="https://docs.akash.network/guides/deploy"
-              >
-              <div class="deploy-svg">
-                {{ partial "content/svg.html" "akash-doc" }}
-              </div>
-              </a>
+              class="resource-s-title"
+              href="https://docs.akash.network/guides/deploy"
+              target="_blank"
+            >
+            Akash Console Documentation
+            <span class="ex-link-arrow"></span>
+            {{ partial "content/svg.html" "link-arrow-1" }}</span
+          >
+            </a>
+            </div>
+            <div class="mt-3">
+              <a
+              class="resource-s-title"
+              href="https://www.youtube.com/@AkashNetwork/videos"
+              target="_blank"
+            >
+            Deployment Tutorial
+            <span class="ex-link-arrow"></span>
+            {{ partial "content/svg.html" "link-arrow-1" }}</span
+          >
+            </a>
+            </div>
 
-              <div class="mt-3">
-                <a
-                  class="resource-s-title"
-                  href="https://docs.akash.network/guides/deploy"
-                  target="_blank"
-                >
-                  Console Documentation
-                  <span class="ex-link-arrow"></span>
-                    {{ partial "content/svg.html" "link-arrow" }}</span
-                  >
-                </a>
-              </div>
-            </div>
-            <div>
-              <a target="_blank" href="https://www.youtube.com/@AkashNetwork/videos">
-                <div class="deploy-svg">
-                  {{ partial "content/svg.html" "akash-youtube" }}
-                </div>
-              </a>
-              <div class="mt-3">
-                <a
-                  class="resource-s-title"
-                  href="https://www.youtube.com/@AkashNetwork/videos"
-                  target="_blank"
-                >
-                  Console Youtube
-                  <span class="ex-link-arrow">
-                    {{ partial "content/svg.html" "link-arrow" }}</span
-                  >
-                </a>
-              </div>
-            </div>
-            <div>
-              <a  href="https://github.com/akash-network/awesome-akash">
-                <div class="deploy-svg">
-                  {{ partial "content/svg.html" "aw-akash" }}
-                </div>
-
-              </a>
-              <div class="mt-3">
-                <a
-                  class="resource-s-title"
-                  href="https://github.com/akash-network/awesome-akash"
-                  target="_blank"
-                >
-                  Awesome Akash apps directory
-                  <span class="ex-link-arrow">
-                    {{ partial "content/svg.html" "link-arrow" }}</span
-                  >
-                </a>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="carousel-card" >
+        <div class="owl-carousel ">
+          <div class="carousel-slide">
+            <img src="/started-images/mac-mos.jpg"  alt="new img"/>
           </div>
-        </section>
+          <div class="carousel-slide">
+            <img src="/started-images/perm-mos.png"  alt="new img"/>
+          </div>
+          <div class="carousel-slide">
+            <img src="/started-images/mos-3.jpg"  alt="new img"/>
+          </div>
+        </div>
+        <div class="m-4">
+          <p class="deploy-tile-title">Cloudmos</p>
+          <p class="deploy-tile-desc">Cloudmos is a highly-customizable deploy
+            tool with a suite of analytics features for tracking network stats and resources.</p>
+            <a target="_blank" href="https://deploy.cloudmos.io/">
+            <button class="console-s-btn1 mt-3">
+              <span class="ex-link-arrow2"
+                >{{ partial "content/svg.html" "arrow-circled2" }}</span
+              >
+              Launch  Cloudmos
+            </button>
+          </a>
+            <hr class="deploy-tile-hr mx-auto" />
+            <div>
+              <a
+              class="resource-s-title"
+              href="https://docs.akash.network/guides/cloudmos-deploy"
+              target="_blank"
+            >
+            Cloudmos Documentation
+              <span class="ex-link-arrow"></span>
+                {{ partial "content/svg.html" "link-arrow-1" }}</span
+              >
+            </a>
+            </div>
+            <div class="mt-3">
+              <a
+              class="resource-s-title"
+              href="https://www.youtube.com/@cloudmos"
+              target="_blank"
+            >
+            Deployment Tutorial
+            <span class="ex-link-arrow"></span>
+            {{ partial "content/svg.html" "link-arrow-1" }}</span
+          >
+            </a>
+            </div>
+        </div>
+      </div>
+
+    </div>
+      <section id="tab0" class="tab-content">
         <hr class="deploy-hr2" />
         <!-- AVAILABLE OPTIONS TO DEPLOY SECTION -->
         <section>
-          <h3 class="mb-5">Deployments Resources</h3>
-          <div class="available-op-wrapper mt-4">
-            <p class="option-s-header">CLI</p>
+          <h3 class="mb-5">Other Available Options to Deploy Apps</h3>
+          <div class="available-op-wrapper">
+            <p class="option-s-header">Ready-to-deploy Apps</p>
             <p class="available-op-desc">
-              Deploy and manage your applications on Akash with ease using the
+              Awesome Akash is a curated list of awesome resources people can use to familiarize themselves with Akash and includes examples of several applications they can deploy on the platform.
+            </p>
+            <div class="available-op-btn">
+              <a target="_blank" href="https://github.com/akash-network/awesome-akash">
+              <button>
+                View on Github
+                <span class="ex-link-arrow"
+                  >{{ partial "content/svg.html" "ex-link-arrow" }}</span
+                >
+              </button>
+            </a>
+            </div>
+          </div>
+          <div class="available-op-wrapper my-4">
+            <p class="option-s-header">Akash CLI</p>
+            <p class="available-op-desc">
+              Deploy and Manage Your Applications on Akash with Ease using the
               Command Line Interface
             </p>
             <div class="available-op-btn">
-              <a href="https://docs.akash.network/guides/cli" target="_blank">
-                <button>
-                  View Docs
-                  <span class="ex-link-arrow"
-                    >{{ partial "content/svg.html" "ex-link-arrow" }}</span
-                  >
-                </button>
-              </a>
+              <a target="_blank" href="https://docs.akash.network/guides/cli">
+              <button>
+                View Docs
+                <span class="ex-link-arrow"
+                  >{{ partial "content/svg.html" "ex-link-arrow" }}</span
+                >
+              </button>
+            </a>
             </div>
           </div>
-          <div class="available-op-wrapper mt-4">
+          <div class="available-op-wrapper">
             <p class="option-s-header">CLI Booster</p>
             <p class="available-op-desc">
-              The Akash CLI Booster was created to make the use of the current command line tooling much simpler for deployments and related activities. In this guide we will review the primary capabilities of this exciting new tool.
+              The Akash CLI Booster was created to make the use of the current command line tooling much simpler for deployments and related activities.
+              In this guide we will review the primary capabilities of this exciting new tool.
             </p>
             <div class="available-op-btn">
-              <a href="https://docs.akash.network/guides/cli/akash-cli-booster" target="_blank">
+              <a target="_blank" href="https://docs.akash.network/guides/cli/akash-cli-booster">
               <button>
                 View Docs
                 <span class="ex-link-arrow"
@@ -184,15 +200,14 @@
             </div>
           </div>
           <div class="available-op-wrapper mt-4">
-            <p class="option-s-header">Terraform</p>
+            <p class="option-s-header">Akash Terraform Provider</p>
             <p class="available-op-desc">
-              Effortless integration with the Akash Network using Terraform
-              Cloud
+              Effortless integration with the Akash Network using Terraform Cloud
             </p>
             <div class="available-op-btn">
-              <a href="https://registry.terraform.io/providers/cloud-j-luna/akash/latest/docs" target="_blank">
+              <a target="_blank" href="https://registry.terraform.io/providers/cloud-j-luna/akash/latest/docs">
               <button>
-                View Docs
+                Read More
                 <span class="ex-link-arrow"
                   >{{ partial "content/svg.html" "ex-link-arrow" }}</span
                 >
@@ -200,235 +215,12 @@
             </a>
             </div>
           </div>
-          <div class="available-op-wrapper mt-4">
-            <p class="option-s-header">Akash GSEQ and OSEQ Description and Utility</p>
-            <p class="available-op-desc">
-              The following Akash deployment definitions and deep dive are available in this section:
-            </p>
-            <div class="available-op-btn">
-              <a href="https://docs.akash.network/guides/deployment-definitions" target="_blank">
-              <button>
-                View Docs
-                <span class="ex-link-arrow"
-                  >{{ partial "content/svg.html" "ex-link-arrow" }}</span
-                >
-              </button>
-            </a>
-            </div>
-          </div>
-
-
-
         </section>
       </section>
       <!-- CONSOLE TABS END-->
-
-      <!-- CLOUDMOS TAB -->
-      <div id="tab1" class="tab-content" style="display: none">
-        <div class="tab-contents-wrapper">
-          <div>
-            <p class="tab0-header">
-              Streamline deployment with Cloudmos
-            </p>
-            <p class="tab1-desc">Effortless application deployment for the decentralized era.</p>
-            <div class="mt-5">
-              <div class="d-flex gap-2 mt-2">
-                <div class="black-dot"></div>
-                <p class="deployment-steps">
-                  Built for the unique demands of Web3 and crypto apps
-                </p>
-              </div>
-            </div>
-            <div class="">
-              <div class="d-flex gap-2 mt-2">
-                <div class="black-dot"></div>
-                <p class="deployment-steps">
-                  Say no to complex processes and yes to one-click deployment
-                </p>
-              </div>
-            </div>
-            <div class="">
-              <div class="d-flex gap-2 mt-2">
-                <div class="black-dot"></div>
-                <p class="deployment-steps">
-                  Adapt to your business needs in real-time, ensuring optimal performance and cost efficiency
-                </p>
-              </div>
-            </div>
-            <div class="console-btns-wrapper d-flex gap-3">
-              <a target="_blank" href="https://deploy.cloudmos.io/">
-              <button class="console-s-btn1">
-                <span class="ex-link-arrow2"
-                  >{{ partial "content/svg.html" "arrow-circled2" }}</span
-                >
-                Launch Cloudmos
-              </button>
-            </a>
-            </div>
-          </div>
-          <div>
-            <img class="" src="/started-images/cloudmos.png" alt="img" />
-          </div>
-        </div>
-        <hr class="deploy-hr2" />
-        <!-- CLOUDMOS RESOURCES -->
-        <section>
-          <h3 class="console-resource-header">Cloudmos Resources</h3>
-          <div class="console-resource-wrapper">
-            <div>
-              <a
-                target="_blank"
-                href="https://docs.akash.network/guides/cloudmos-deploy"
-              >
-              <div class="deploy-svg">
-                {{ partial "content/svg.html" "akash-doc" }}
-              </div>
-              </a>
-
-              <div class="mt-3">
-                <a
-                  class="resource-s-title"
-                  href="https://docs.akash.network/guides/cloudmos-deploy"
-                  target="_blank"
-                >
-                Cloudmos Documentation
-                  <span class="ex-link-arrow"></span>
-                    {{ partial "content/svg.html" "link-arrow" }}</span
-                  >
-                </a>
-              </div>
-            </div>
-            <div>
-              <a target="_blank" href="https://www.youtube.com/@cloudmos">
-                <div class="deploy-svg">
-                  {{ partial "content/svg.html" "akash-youtube" }}
-                </div>
-              </a>
-              <div class="mt-3">
-                <a
-                  class="resource-s-title"
-                  href="https://www.youtube.com/@cloudmos"
-                  target="_blank"
-                >
-                Cloudmos Youtube
-                  <span class="ex-link-arrow">
-                    {{ partial "content/svg.html" "link-arrow" }}</span
-                  >
-                </a>
-              </div>
-            </div>
-            <div>
-              <a target="_blank" href="https://github.com/akash-network/awesome-akash">
-                <div class="deploy-svg">
-                  {{ partial "content/svg.html" "aw-akash" }}
-                </div>
-              </a>
-              <div class="mt-3">
-                <a
-                  class="resource-s-title"
-                  href="https://github.com/akash-network/awesome-akash"
-                  target="_blank"
-                >
-                  Awesome Akash apps directory
-                  <span class="ex-link-arrow">
-                    {{ partial "content/svg.html" "link-arrow" }}</span
-                  >
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <hr class="deploy-hr2" />
-        <!-- AVAILABLE OPTIONS CLOUDMOS -->
-        <section>
-          <h3 class="mb-5">Deployments Resources</h3>
-          <div class="available-op-wrapper mt-4">
-            <p class="option-s-header">CLI</p>
-            <p class="available-op-desc">
-              Deploy and manage your applications on Akash with ease using the
-              Command Line Interface
-            </p>
-            <div class="available-op-btn">
-              <a href="https://docs.akash.network/guides/cli" target="_blank">
-                <button>
-                  View Docs
-                  <span class="ex-link-arrow"
-                    >{{ partial "content/svg.html" "arrow-circled" }}</span
-                  >
-                </button>
-              </a>
-            </div>
-          </div>
-          <div class="available-op-wrapper mt-4">
-            <p class="option-s-header">CLI Booster</p>
-            <p class="available-op-desc">
-              The Akash CLI Booster was created to make the use of the current command line tooling much simpler for deployments and related activities. In this guide we will review the primary capabilities of this exciting new tool.
-            </p>
-            <div class="available-op-btn">
-              <a href="https://docs.akash.network/guides/cli/akash-cli-booster" target="_blank">
-              <button>
-                View Docs
-                <span class="ex-link-arrow"
-                  >{{ partial "content/svg.html" "arrow-circled" }}</span
-                >
-              </button>
-            </a>
-            </div>
-          </div>
-          <div class="available-op-wrapper mt-4">
-            <p class="option-s-header">Terraform</p>
-            <p class="available-op-desc">
-              Effortless integration with the Akash Network using Terraform
-              Cloud
-            </p>
-            <div class="available-op-btn">
-              <a href="https://registry.terraform.io/providers/cloud-j-luna/akash/latest/docs" target="_blank">
-              <button>
-                View Docs
-                <span class="ex-link-arrow"
-                  >{{ partial "content/svg.html" "arrow-circled" }}</span
-                >
-              </button>
-            </a>
-            </div>
-          </div>
-          <div class="available-op-wrapper mt-4">
-            <p class="option-s-header">Akash GSEQ and OSEQ Description and Utility</p>
-            <p class="available-op-desc">
-              The following Akash deployment definitions and deep dive are available in this section:
-            </p>
-            <div class="available-op-btn">
-              <a href="https://docs.akash.network/guides/deployment-definitions" target="_blank">
-              <button>
-                View Docs
-                <span class="ex-link-arrow"
-                  >{{ partial "content/svg.html" "arrow-circled" }}</span
-                >
-              </button>
-            </a>
-            </div>
-          </div>
-        </section>
+    </div>
+  </div>
+</section>
 
 
-
-<script>
-  // Initial active tab and content
-  document.getElementById("tab1").style.display = "none";
-
-  function openTab(event, tabName) {
-    const tabContents = document.getElementsByClassName("tab-content");
-    for (const content of tabContents) {
-      content.style.display = "none";
-    }
-
-    const tabs = document.getElementsByClassName("tab-button");
-    for (const tab of tabs) {
-      tab.classList.remove("active");
-    }
-
-    document.getElementById(tabName).style.display = "block";
-    event.currentTarget.classList.add("active");
-  }
-</script>
 {{ end -}}
