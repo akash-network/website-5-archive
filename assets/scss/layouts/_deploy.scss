@@ -9,7 +9,39 @@
 }
 
 .tab-content {
-  margin-bottom: 150px;
+  margin-bottom: 60px;
+}
+
+.carousel-slide svg {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+}
+.carousel-slide img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+}
+
+.deploy-tile-title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+
+.deploy-tile-desc {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.deploy-tile-hr {
+  width: 550px;
+  margin: 32px auto;
 }
 
 .deploy-header-text {
@@ -23,6 +55,11 @@
   margin-top: 60px;
 }
 
+.chev-right svg {
+  margin-bottom: 6px;
+  margin-left: 4px;
+}
+
 .deploy-hr {
   width: 1231px;
 }
@@ -32,61 +69,10 @@
   margin: 90px auto;
 }
 
-.tab0-desc {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-}
-.tab1-desc {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-}
-
-.tab-button.active {
-  color: #0f172a;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  cursor: pointer;
-  position: relative;
-}
-
-.tab-button.active::after {
-  content: "";
-  position: absolute;
-  bottom: -20px; /* Adjusted to push the underline down by 100px */
-  left: -10px;
-  width: 100px; /* Set the width of the underline to 100% */
-  height: 2px; /* Set the height (thickness) of the underline here */
-  background-color: black; /* Color of the underline */
-}
-
-.black-dot {
-  width: 7px;
-  height: 7px;
-  background-color: black;
-  margin-top: 10px;
-  border-radius: 50%; /* This creates a circular shape */
-}
-
-.tab-button {
-  color: rgba(15, 23, 42, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
-  cursor: pointer;
-}
-.tab-button:hover {
-  color: #000;
+.carousel-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 70px;
 }
 
 .tab0-header {
@@ -99,11 +85,13 @@
   height: 80px;
 }
 
-.tab-contents-wrapper {
-  margin-top: 70px;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+section .carousel-card {
+  border: 1px solid rgba(0, 0, 0, 0.125); /* Card border */
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); /* Card box shadow */
+  margin-bottom: 1rem; /* Spacing between cards */
+  width: 587px;
+  height: 100%;
+  border-radius: 8px;
 }
 
 .deployment-steps {
@@ -117,8 +105,9 @@
 .console-s-btn1 {
   background: #ff414c;
   color: #fff;
+  width: 100%;
+  height: 48px;
   border-radius: 6px;
-  margin-top: 40px;
   padding: 6px 14px;
   border: none;
   outline: none;
@@ -138,7 +127,7 @@
 }
 
 .console-s-btn1 .ex-link-arrow2 svg {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   margin-right: 5px;
 }
 
@@ -159,22 +148,15 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 133.333% */
   letter-spacing: -0.36px;
 }
 
-.console-resource-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 40px;
-}
-
 .resource-s-title {
-  font-size: 18px;
   color: #000;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 24px; /* 133.333% */
   transition: 0.3s ease;
 }
 .resource-s-title:hover {
@@ -200,7 +182,7 @@
 }
 
 .available-op-btn button {
-  padding: 16px 20px;
+  padding: 12px 20px;
   align-items: center;
   color: #000;
   border: none;
@@ -234,6 +216,30 @@
     margin: 0 auto;
   }
 
+  .chev-right svg {
+    margin-bottom: 3px;
+    margin-left: 4px;
+  }
+
+  section .carousel-card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-slide svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-card-wrapper {
+    gap: 50px;
+  }
+
+  .deploy-tile-hr {
+    width: 100%;
+    margin: 32px auto;
+  }
+
   .deploy-header-text {
     text-align: center;
     width: 900px;
@@ -263,16 +269,6 @@
   .available-op-btn button {
     padding: 14px 18px;
   }
-
-  .tab-button.active::after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: -10px;
-    width: 100px;
-    height: 2px;
-    background-color: black;
-  }
 }
 
 //FOR TABLETS SCREEN
@@ -292,16 +288,15 @@
     width: 100%;
     margin: 50px auto;
   }
-  .tab-content .console-resource-wrapper {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 40px;
-  }
 
-  .tab-contents-wrapper {
+  section .carousel-card-wrapper {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+
+    gap: 80px;
     justify-content: center;
     align-items: center;
+    margin: 60px auto;
   }
 }
 
@@ -321,6 +316,11 @@
     line-height: 48px;
   }
 
+  .deploy-tile-hr {
+    width: 100%;
+    margin: 32px auto;
+  }
+
   .console-s-btn1 .ex-link-arrow2 svg {
     margin-bottom: 3px;
     margin-right: 5px;
@@ -332,6 +332,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+  }
+
+  section .carousel-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 80px;
   }
 
   .deploy-svg svg {
@@ -349,18 +355,6 @@
   section .deploy-hr2 {
     width: 100%;
     margin: 60px auto;
-  }
-
-  .tab-content .console-resource-wrapper {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 40px;
-  }
-
-  .tab-contents-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
   }
 
   div > .deployment-steps {
@@ -388,6 +382,21 @@
     margin-bottom: 32px;
     margin-top: 80px;
   }
+
+  .carousel-slide svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  section .carousel-card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .chev-right svg {
+    margin-top: 3px;
+    margin-left: 4px;
+  }
 }
 
 @media (min-width: 447px) and (max-width: 767px) {
@@ -395,15 +404,12 @@
     width: 400px;
   }
 
-  // .tab-content .console-resource-wrapper {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  // }
-
-  // .console-resource-header {
-  //   margin: 40px auto;
-  //   text-align: center;
-  // }
+  section .carousel-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+  }
 }

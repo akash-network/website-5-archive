@@ -421,7 +421,23 @@ div > div:nth-child(1) > div > h3 > span {
     font-size: 10px;
     padding: 10px;
   }
+
+  .Latest-from-blog {
+    margin-top: 30px !important;
+  }
 }
+
+.tab-button {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  color: black;
+  cursor: pointer;
+}
+
 @media (min-width: 587px) and (max-width: 592px) {
   .mobile-feature-wrapper {
     margin-top: 70px;
