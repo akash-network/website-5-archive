@@ -64,7 +64,7 @@
     "marked": "^4.2.5",
     "mermaid": "^9.3.0",
     "netlify-plugin-submit-sitemap": "^0.4.0",
-    "node-fetch": "^3.2",
+    "node-fetch": "^3.3",
     "postcss": "^8.4",
     "postcss-cli": "^10.0",
     "purgecss-whitelister": "^2.4",
