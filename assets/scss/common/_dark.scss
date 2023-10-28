@@ -254,6 +254,10 @@ $navbar-dark-active-color: $link-color-dark;
   color: #fff;
 }
 
+[data-dark-mode] .praetor-resource-s-title:hover {
+  color: #fff;
+}
+
 [data-dark-mode] .praetor-text-desc {
   color: #fff;
 }
@@ -271,6 +275,36 @@ $navbar-dark-active-color: $link-color-dark;
 [data-dark-mode] .doc-intro,
 [data-dark-mode] .insider-s-intro {
   color: #fff;
+}
+
+[data-dark-mode] .launch-cloudmos-btn {
+  background-color: #ffb2b2;
+  color: #212529;
+  font-weight: 700;
+}
+
+[data-dark-mode] .card-icon-stroke {
+  stroke: #ffb2b2;
+}
+
+[data-dark-mode] .launch-cloudmos-btn-stroke {
+  stroke: #212529;
+}
+
+[data-dark-mode] .card-button {
+  margin-top: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: #ffb2b2;
+  color: #ffb2b2;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 [data-dark-mode] .owl-carousel .owl-nav button.owl-next {
@@ -835,6 +869,22 @@ $navbar-dark-active-color: $link-color-dark;
   &:focus {
     color: $body-bg-dark;
     background-color: $body-color-dark;
+  }
+}
+
+[data-dark-mode] .page-item {
+  &.active .page-link {
+    color: $body-bg-dark;
+
+    @include gradient-bg($link-color-dark);
+
+    border-color: $link-color-dark;
+  }
+
+  &.disabled .page-link {
+    color: $pagination-disabled-color;
+    background-color: $body-overlay-dark;
+    border-color: $border-dark;
   }
 }
 
