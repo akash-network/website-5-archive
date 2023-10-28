@@ -209,6 +209,102 @@ section .carousel-card {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.cloudmos-section {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cloudmos-section img {
+  object-fit: cover;
+  flex-shrink: none;
+}
+
+.cloudmos-section div {
+  margin-top: 10px;
+}
+
+.cloudmos-section h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.cloudmos-section p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.cloudmos-section ul {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.cloudmos-section li {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.launch-cloudmos-btn-wrapper {
+  display: block;
+}
+
+.launch-cloudmos-btn-stroke {
+  stroke: #fff;
+}
+
+.launch-cloudmos-btn {
+  background-color: $akashred;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.cloudmos-resources {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+}
+
+.card-icon-stroke {
+  stroke: $akashred;
+}
+
+.card-button {
+  margin-top: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: $akashred;
+  color: $akashred;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 // FOR LAPTOPS
 @media (min-width: 992px) and (max-width: 1400px) {
   .custom-col-13 {
@@ -269,6 +365,10 @@ section .carousel-card {
   .available-op-btn button {
     padding: 14px 18px;
   }
+
+  .cloudmos-section-image-wrapper {
+    margin-left: 50px;
+  }
 }
 
 //FOR TABLETS SCREEN
@@ -297,6 +397,23 @@ section .carousel-card {
     justify-content: center;
     align-items: center;
     margin: 60px auto;
+  }
+
+  .cloudmos-section-image-wrapper {
+    margin-left: 50px;
+  }
+
+  .cloudmos-section div {
+    width: 100%;
+  }
+
+  .card-grid {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
   }
 }
 
@@ -396,6 +513,31 @@ section .carousel-card {
   .chev-right svg {
     margin-top: 3px;
     margin-left: 4px;
+  }
+
+  .cloudmos-section-image-wrapper {
+    margin-left: 0px;
+    display: block;
+    width: 100%;
+  }
+
+  .cloudmos-section {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 40px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-grid {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
   }
 }
 
