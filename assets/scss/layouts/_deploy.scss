@@ -209,7 +209,7 @@ section .carousel-card {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.hero-section {
+.cloudmos-section {
   padding-top: 5px;
   display: flex;
   flex-direction: row-reverse;
@@ -217,32 +217,32 @@ section .carousel-card {
   align-items: center;
 }
 
-.hero-section img {
+.cloudmos-section img {
   object-fit: cover;
   flex-shrink: none;
 }
 
-.hero-section div {
+.cloudmos-section div {
   margin-top: 10px;
 }
 
-.hero-section h2 {
+.cloudmos-section h2 {
   font-size: 48px;
   font-weight: bold;
 }
 
-.hero-section p {
+.cloudmos-section p {
   margin-top: 20px;
   font-size: 20px;
 }
 
-.hero-section ul {
+.cloudmos-section ul {
   margin-top: 40px;
   font-weight: bold;
   font-size: 1rem;
 }
 
-.hero-section li {
+.cloudmos-section li {
   margin-top: 30px;
   font-weight: bold;
   font-size: 20px;
@@ -366,7 +366,7 @@ section .carousel-card {
     padding: 14px 18px;
   }
 
-  .hero-section-image-wrapper {
+  .cloudmos-section-image-wrapper {
     margin-left: 50px;
   }
 }
@@ -399,11 +399,11 @@ section .carousel-card {
     margin: 60px auto;
   }
 
-  .hero-section-image-wrapper {
+  .cloudmos-section-image-wrapper {
     margin-left: 50px;
   }
 
-  .hero-section div {
+  .cloudmos-section div {
     width: 100%;
   }
 
@@ -515,13 +515,13 @@ section .carousel-card {
     margin-left: 4px;
   }
 
-  .hero-section-image-wrapper {
+  .cloudmos-section-image-wrapper {
     margin-left: 0px;
     display: block;
     width: 100%;
   }
 
-  .hero-section {
+  .cloudmos-section {
     border-bottom: 1px solid #808080;
     padding-bottom: 40px;
     padding-top: 5px;
