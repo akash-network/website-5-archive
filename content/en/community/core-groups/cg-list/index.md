@@ -54,7 +54,7 @@ Inactive groups are moved to akash-network/community/archive and groups without 
 
 ## Steering Committee (SC)
 
-### The [Steering Commitee](../committee-steering/) is initially comprised of the following members who have the most familiarity with Akash Network.
+### The [Steering Commitee](../committee-steering/README) is initially comprised of the following members who have the most familiarity with Akash Network. 
 
 - Adam Bozanich, Overclock Labs
 - Anil Murty, Overclock Labs
