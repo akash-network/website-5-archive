@@ -34,7 +34,7 @@ Below is an example of a bid prior to the Mainnet 8 upgrade, which did not inclu
             "dseq": "12793097",
             "gseq": 1,
             "oseq": 1,
-            "provider": "akash19p4t9d069nashxre9jg6j60cqlqkvtht6egpc9"
+            "provider": "akash...gpc9"
         },
         "state": "open",
         "price": {
@@ -46,7 +46,7 @@ Below is an example of a bid prior to the Mainnet 8 upgrade, which did not inclu
     "escrow_account": {
         "id": {
             "scope": "bid",
-            "xid": "akash...tkvk/12793097/1/1/akash1...pc9"
+            "xid": "akash..kvk/12793097/1/1/akas..pc9"
         },
         "owner": "akash1...pc9",
         "state": "open",
@@ -74,11 +74,11 @@ Now, thanks to the Mainnet 8 upgrade, bids on the network include specific GPU m
 {
   "bid": {
     "bid_id": {
-      "owner": "akash1ggk74pf9avxh3llu30yfhmr345h2yrpf7c2cdu",
+      "owner": "akash...cdu",
       "dseq": "13759787",
       "gseq": 1,
       "oseq": 1,
-      "provider": "akash17gqmzu0lnh2uclx9flm755arylrhgqy7udj3el"
+      "provider": "akash...3el"
     },
     "state": "closed",
     "price": {
@@ -138,7 +138,7 @@ Now, thanks to the Mainnet 8 upgrade, bids on the network include specific GPU m
       "scope": "bid",
       "xid": "akash...2cdu/13759787/1/1/akash...j3el"
     },
-    "owner": "akash17gqmzu0lnh2uclx9flm755arylrhgqy7udj3el",
+    "owner": "akash...j3el",
     "state": "closed",
     "balance": {
       "denom": "uakt",
@@ -149,7 +149,7 @@ Now, thanks to the Mainnet 8 upgrade, bids on the network include specific GPU m
       "amount": "0.000000000000000000"
     },
     "settled_at": "13759932",
-    "depositor": "akash17gqmzu0lnh2uclx9flm755arylrhgqy7udj3el",
+    "depositor": "akash...j3el",
     "funds": {
       "denom": "uakt",
       "amount": "0.000000000000000000"
