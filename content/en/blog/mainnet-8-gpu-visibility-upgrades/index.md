@@ -158,7 +158,7 @@ Now, thanks to the Mainnet 8 upgrade, bids on the network include specific GPU m
 }
 ```
 
-Focusing on the “resources_offer” section, we can see that the bid now includes a key and value that includes the GPU vendor and model, in this case, an NVIDIA A100 GPU. This will allow deployers to see which specific GPU models are being offered when a bid is received, along with allowing Akash deployment clients (such as Cloudmos Deploy) to surface the GPU model attributes in the deployment UIs. 
+Focusing on the `resources_offer` section, we can see that the bid now includes a key and value that includes the GPU vendor and model, in this case, an NVIDIA A100 GPU. This will allow deployers to see which specific GPU models are being offered when a bid is received, along with allowing Akash deployment clients (such as Cloudmos Deploy) to surface the GPU model attributes in the deployment UIs. 
 
 ``` 
 "attributes": [
@@ -169,7 +169,7 @@ Focusing on the “resources_offer” section, we can see that the bid now inclu
 ]
 ```
 
-The Resources Offer details returned by the Akash Provider are particularly useful when a deployment is created with a list of acceptable GPU models. For example, a deployment may be created in which the tenant includes both NVIDIA A100 and H100 GPUs as acceptable and appropriate for the application. Previously, a tenant would not receive any details from the provider on what type of model was used in the bid response.
+The `resources_offer` details returned by the Akash Provider are particularly useful when a deployment is created with a list of acceptable GPU models. For example, a deployment may be created in which the tenant includes both NVIDIA A100 and H100 GPUs as acceptable and appropriate for the application. Previously, a tenant would not receive any details from the provider on what type of model was used in the bid response.
 
 While either the A100 or H100 may be sufficient for the application, the deployer should be presented with the model used in the bid for more intelligent selection from amongst the list of bids. Now armed with the Resources Offer details, the deployer will know explicitly if the provider is including an A100 or H100 in the bid offer.
 
