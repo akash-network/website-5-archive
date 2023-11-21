@@ -136,7 +136,7 @@ Now, thanks to the Mainnet 8 upgrade, bids on the network include specific GPU m
   "escrow_account": {
     "id": {
       "scope": "bid",
-      "xid": "akash1ggk74pf9avxh3llu30yfhmr345h2yrpf7c2cdu/13759787/1/1/akash17gqmzu0lnh2uclx9flm755arylrhgqy7udj3el"
+      "xid": "akash...2cdu/13759787/1/1/akash...j3el"
     },
     "owner": "akash17gqmzu0lnh2uclx9flm755arylrhgqy7udj3el",
     "state": "closed",
