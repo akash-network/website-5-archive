@@ -27,7 +27,7 @@ If you have any questions, head over to the [Akash Discord](https://discord.akas
 
 In this course, you will learn how to deploy a provider onto Akash Network using [Praetor](https://praetorapp.com/) app — a simple, point and click provider deployment tool. 
 
-[Learn More](https://akash-edu.ctlabs.in/)
+[Learn More](https://akashedu.omniflix.tv)
 
 ## Upcoming Courses
 
