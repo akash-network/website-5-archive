@@ -30,8 +30,9 @@ Open-source models are not far behind. Stability AI released Stable Diffusion XL
 
 Open-source is essential for enabling permissionless development. Akash has always been aligned with this principle — the network’s code and the [surrounding development community are both radically open](https://akash.network/blog/public-cloud-is-a-public-utility/).
 
-To build SDXL on Akash, the team at [Overclock Labs](https://twitter.com/ovrclk_), product managed by [Zach Horn](https://twitter.com/zacharyhorn), and Andrey Arapov and Akash Insider, [Julius Haus](https://twitter.com/zJu_u), (the lead developer) — set out to develop a simple web application with three objectives.
+To build SDXL on Akash, the team at [Overclock Labs](https://twitter.com/ovrclk_) set out to develop a simple web application to demonstrate the benefits of building with the Akash Supercloud. The development of SDXL on Akash was managed by [Zach Horn](https://twitter.com/zacharyhorn), with technical support from Andrey Arapov from Overclock Labs, and devloped by Akash Insider [Julius Haus](https://twitter.com/zJu_u).
 
+The three objectives for SDXL on Akash:
 1. Develop a simple yet performant web application to allow users to complete inference of SDXL.
 2. Showcase GPUs on the Akash Supercloud from the highest-performance NVIDIA L40 and A100 to more cost-effective 40 and 30 series chips.
 3. Serve as a zero-cost, permissionless touchpoint for Akash, allowing new users to interact with compute resources coordinated through Akash without the need to authenticate.
