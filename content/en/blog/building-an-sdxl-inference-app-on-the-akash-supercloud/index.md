@@ -1,6 +1,6 @@
 ---
 title: 'Building an SDXL Inference App on the Akash Supercloud'
-date: '2023-12-08'
+date: '2023-12-11'
 lastmod:
 draft: false
 weight: 50
