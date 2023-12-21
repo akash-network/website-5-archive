@@ -30,7 +30,7 @@ In October, we published the proposal to begin [re-training](https://twitter.com
 
 While the experiment is still underway, Akash provided 24,000 NVIDIA A100 (80GB) hours to Thumper to code and train the model, and we’ll be publishing the model and code to Hugging Face soon. The result will be an image-generation AI model that can be used without the risk of copyright infringement, and will round out Akash’s capabilities to support the three most popular AI tasks: training, fine-tuning, and inferencing.
 
-## SDXL & Akash Chat
+## SDXL on Akash & Akash Chat
 In December, the network demonstrated that developers can tap a variety of GPUs – not just the fastest and highest-performing (which are hard for many companies to secure) – for AI imaging and chat models, paving the way for a new wave of open-source and permissionless AI applications.
 - **Stable Diffusion XL (SDXL) for imaging:** This image-generation app has generated over [46,000 images](https://twitter.com/akashnet_/status/1734247634506838372) at no cost to developers, and is hosted on a wide range of NVIDIA GPUs, including L40s, A100s, V100s, RTX-8000s, and 3090s. 
 - **Akash Chat:** A zero-cost, permissionless application to easily chat with the leading open-source models is now available and hosted on a variety of GPUs available on the cloud, including A100s, V100s, and RTX 3090s.
@@ -40,7 +40,7 @@ Akash is constantly sourcing new opportunities to harness idle GPU capacity – 
 
 In November, we [announced](https://twitter.com/akashnet_/status/1722673189237490094?s=20) that NVIDIA L40, one of the highest-performing GPUs in the world, was live on the Akash Supercloud, which has enabled greater availability of the next-generation chips, driving compute-intensive workloads. 
 
-## Additional Highlights: 
+## Additional Highlights
 - **The market has taken notice:** Messari featured Akash in two ([1](https://twitter.com/akashnet_/status/1708869832043631087?s=20), [2](https://x.com/akashnet_/status/1719432757896421695?s=20)) infrastructure reports and Reflexivity in [another](https://twitter.com/MessariCrypto/status/1708866621173801238) in October, and Blockworks [detailed](https://twitter.com/blockworksres/status/1732401228687315366?s=20) the network's multi-phased token economics plan to scale and lower the barriers to high-performance compute even more in December. Additionally, Coinage [nominated](https://twitter.com/akashnet_/status/1725614932400419126?s=20) us as the Crypto Project of the Year, while Decrypt has [spotlighted](https://twitter.com/decryptmedia/status/1717224504525561868) our work for Achievement in AI.
 - **Enabling more efficient product development:** With our [latest integration](https://twitter.com/akashnet_/status/1730664115528442303?s=20) with SubQuery, which supports rapid data indexing, builders can manage and query on-chain with ease for their protocols and applications.
 - **Connecting with the AI community:** Earlier this month, Greg Osuri, founder of Akash Network, [spoke at](https://twitter.com/gregosuri/status/1729571486447411315?s=20) the Decentralized AI Summit alongside Logan Cerkovnik, founder, CEO, and CTO of Thumper.ai, to discuss how the decentralized, permissionless network can support AI builders. 
