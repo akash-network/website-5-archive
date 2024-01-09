@@ -32,7 +32,7 @@ Two significant improvements led to network development in 2023. First, radicall
 ### Building a radically open community
 In January 2023, [Akash radically opened up the process for developing the network](https://akash.network/blog/public-cloud-is-a-public-utility/) using a distributed community model that takes inspiration from [Kubernetes](https://kubernetes.io/) and the DAO structure to create an entirely new open organization optimized to the needs of the Akash community.
 
-![The Open Akash Community](./akash-community-diagram.png)
+![The Open Akash Community](akash-community-diagram.png)
 
 Special Interest Groups (SIGs) and Working Groups (WGs) form the backbone of Akash’s open community. These groups organize around specific objectives or deliverables and meet regularly in publicly broadcast meetings, with contributors completing work asynchronously around the world. The diagram above outlines the initial set of SIGs and WGs. Still, these groups are fluidly dynamic and change to fit the priorities of the Akash Community at any given time. Crucially, all these groups are overseen by the Steering Committee (SC), which is aware of all current projects and holds a monthly meeting to review the current project list and hear proposals for new projects and initiatives.
 
@@ -63,7 +63,7 @@ It quickly became apparent that an emerging problem with centralized inference a
 
 Open-source AI offers a solution. Distributing the models’ code and weights, anyone can run these models without unnecessary restrictions. Some choose to experiment with open-source models by running them locally. Others host the models on GPUs (on-prem or in the cloud). However, a demand exists for access to open-source models in a permissionless environment without the need to handle the model's deployment. 
 
-![Akash Chat](./akash-chat.png)
+![Akash Chat](akash-chat.png)
 
 [Akash Chat](https://chat.akash.network/) fills this need by offering an easy-to-use user interface for interacting with several of the most performant open-source models, including [Mixtral-8x7B](https://mistral.ai/news/mixtral-of-experts/), [Dolphin-Mixtral](https://erichartford.com/dolphin-25-mixtral-8x7b), and [Mistral-7B](https://mistral.ai/news/announcing-mistral-7b/).
 
@@ -80,7 +80,7 @@ Closed-source models, like Midjourney's v5.2, are currently leading in image qua
 
 Akash Network, aligning with the ethos of open-source development, has facilitated the building of SDXL on its platform. Overclock Labs developed a web application on the Akash Supercloud to demonstrate its capabilities, with key contributions from Zach Horn, Andrey Arapov, and Akash Insider Julius Haus. This project aimed to create an accessible, permissionless platform for users to interact with Akash's compute resources, showcasing the use of a variety of NVIDIA GPUs, from high-performance models like the L40 and A100 to more cost-effective options.
 
-![SDXL on Akash](./sdxl-on-akash.png)
+![SDXL on Akash](sdxl-on-akash.png)
 
 The architecture of SDXL on Akash features a three-layered backend, including a websocket server, a manual load balancer, and several A1111 instances deployed across multiple GPUs. The app efficiently manages user requests, ensuring quick response times and reliability. It also includes a simple, user-friendly frontend built with React and Typescript, incorporating ChakraUI components.
 
@@ -141,7 +141,7 @@ Now that Akash has reached a near-consistent [50% network utilization](https://x
 
 The Akash Provider Incentives program is still in development and will launch soon. [Follow Akash on X](https://twitter.com/akashnet_) to stay current as provider incentives roll out.
 
-![Akash reaches consistent ~50% utilization](./akash-utilization.jpeg)
+![Akash reaches consistent ~50% utilization](akash-utilization.jpeg)
 
 ## Accelerating the Supercloud in 2024 and beyond
 2023 was a defining year for Akash, and 2024 is already shaping up to continue that progress and expand on it as the network focuses on scaling supply, demand, and core functionality. Last year, the network's milestones, including the radical open-sourcing of the process that builds the network and the launch of GPU support, laid a foundation for the core initiatives planned for the coming year. Provider incentives will bring more compute onto the network and help to scale demand (given the network’s ~50% utilization and PMF), which in turn will help to create a flywheel of growth that will only build over time.
