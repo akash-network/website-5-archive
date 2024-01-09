@@ -1,7 +1,7 @@
 ---
 title: 'a/acc: Akash Accelerationism'
-date: '2024-1-8'
-lastmod: 
+date: '2024-01-08'
+lastmod:
 draft: false
 weight: 50
 categories:
