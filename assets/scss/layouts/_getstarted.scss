@@ -9,7 +9,7 @@
 
 .sub-pages-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 40px;
   grid-gap: 60px;
 }
@@ -50,6 +50,17 @@ black-dot {
   width: 200px;
 }
 
+.sub-page-svg{
+  display: flex;
+ flex-direction: column;
+}
+.gs-card-desc{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex: 1;
+}
+
 .provider-intro,
 .deploy-intro,
 .validator-intro,
@@ -79,6 +90,7 @@ black-dot {
   transition: 0.3s ease;
   color: #000;
   margin-top: 10px;
+
 }
 .community-s-btn button {
   width: 380px;
@@ -155,7 +167,7 @@ black-dot {
     border-radius: 50%; /* This creates a circular shape */
   }
   .sub-pages-wrapper {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-top: 40px;
     grid-gap: 40px;
   }
@@ -183,15 +195,9 @@ black-dot {
     margin-top: 54px;
   }
 
-  .get-started-btn button {
-    width: 540px;
-  }
+ 
 
-  .get-started-btn2 button {
-    margin-top: 34px;
-  }
-
-  .provider-intro,
+  // .provider-intro,
   .deploy-intro,
   .validator-intro,
   .doc-intro {
@@ -233,15 +239,12 @@ black-dot {
     width: 350px;
     margin: 10px auto;
   }
-  .get-started-btn button {
-    width: 350px;
-    margin: 10px auto;
-  }
+  
 
   .g-s-svg svg {
     width: 350px;
   }
-  .provider-intro,
+  // .provider-intro,
   .deploy-intro,
   .validator-intro,
   .doc-intro,
@@ -257,7 +260,7 @@ black-dot {
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
-    margin-top: -10px;
+    
   }
 
   .btn-br {
@@ -286,9 +289,7 @@ black-dot {
     margin-top: 0;
   }
 
-  .g-s-svg-sm svg {
-    width: 100%;
-  }
+
 
   .community-s-btn2 button {
     width: 100%;
@@ -338,10 +339,7 @@ black-dot {
     align-items: center;
   }
 
-  .get-started-btn button {
-    width: 450px;
-    margin-bottom: 30px;
-  }
+
 
   .community-s-wrapper {
     display: flex;
@@ -360,16 +358,14 @@ black-dot {
     margin: 10px auto;
     color: #000;
   }
-  .provider-intro,
+  // .provider-intro,
   .deploy-intro,
   .validator-intro,
   .doc-intro {
     width: 400px !important;
   }
 
-  .g-s-svg-sm svg {
-    width: 400px;
-  }
+ 
 
   .provider-intro,
   .deploy-intro,

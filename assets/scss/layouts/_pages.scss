@@ -21,6 +21,22 @@
   border-radius: 8px;
   line-height: 1.33;
 }
+.btn-console-action-get-started {
+  background-color: #ce4747;
+  border: 1px solid #ccccccab;
+  font-weight: 700;
+  transition: 0.3s ease;
+  padding: 10px 17px;
+  font-size: 18px;
+  border-radius: 8px;
+  line-height: 1.33;
+  color: #fff;
+}
+.btn-console-action-get-started:hover {
+  background-color: #a53939;
+  color : #fff;
+  
+}
 
 .btn-console-action:hover {
   opacity: 0.5;
