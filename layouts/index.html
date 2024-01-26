@@ -2,79 +2,79 @@
 
 <!-- //mobile device carousel -->
 <script>
-// 3 groups scroll behaviour
+  // 3 groups scroll behaviour
 
-$(document).ready(function() {
-function highlightMenuItem() {
-  var scrollTop = $(window).scrollTop();
-  $('.group-1_header, .group-2_header, .group-3_header').removeClass('highlight_header').find('.underline__1').remove();
+  $(document).ready(function () {
+    function highlightMenuItem() {
+      var scrollTop = $(window).scrollTop();
+      $('.group-1_header, .group-2_header, .group-3_header').removeClass('highlight_header').find('.underline__1').remove();
 
-  if (scrollTop >= $('.peer-header').offset().top) {
-    $('.group-3_header').addClass('highlight_header');
-  } else if (scrollTop >= $('#security').offset().top && scrollTop < $('.peer-header').offset().top) {
-    $('.group-2_header').addClass('highlight_header');
-  } else if (scrollTop >= $('#infra').offset().top && scrollTop < $('#security').offset().top) {
-    $('.group-1_header').addClass('highlight_header');
+      if (scrollTop >= $('.peer-header').offset().top) {
+        $('.group-3_header').addClass('highlight_header');
+      } else if (scrollTop >= $('#security').offset().top && scrollTop < $('.peer-header').offset().top) {
+        $('.group-2_header').addClass('highlight_header');
+      } else if (scrollTop >= $('#infra').offset().top && scrollTop < $('#security').offset().top) {
+        $('.group-1_header').addClass('highlight_header');
+      }
+    }
+
+    $(window).scroll(function () {
+      highlightMenuItem();
+    });
+
+    $(window).on('load', function () {
+      highlightMenuItem();
+    });
+
+    function handleClickEvent() {
+      $('.group-1_header, .group-2_header, .group-3_header')
+    }
+
+    $('.group-1_header, .group-2_header, .group-3_header').click(handleClickEvent);
+
+    $('.group-1_header').click(function () {
+      $('html, body').animate({
+        scrollTop: $('#infra').offset().top
+      }, 20);
+    });
+
+    $('.group-2_header').click(function () {
+      $('html, body').animate({
+        scrollTop: $('#security-section').offset().top - 20
+      }, 20);
+    });
+
+    $('.group-3_header').click(function () {
+      $('html, body').animate({
+        scrollTop: $('.peer-header').offset().top + 40
+      }, 20);
+    });
+
+    $(window).on('scroll', function () {
+      $('.group-1_header, .group-2_header, .group-3_header')
+    }, { passive: true });
+  });
+
+
+
+  // Initial active tab and content
+  document.getElementById("tab1").style.display = "none";
+  document.getElementById("tab2").style.display = "none";
+
+  function openTab(event, tabName) {
+    const tabContents = document.getElementsByClassName("tab-content");
+    for (const content of tabContents) {
+      content.style.display = "none";
+    }
+
+    const tabs = document.getElementsByClassName("tab-button");
+    for (const tab of tabs) {
+      tab.classList.remove("active");
+    }
+
+    document.getElementById(tabName).style.display = "block";
+    event.currentTarget.classList.add("active");
   }
-}
-
-  $(window).scroll(function() {
-    highlightMenuItem();
-  });
-
-  $(window).on('load', function() {
-    highlightMenuItem();
-  });
-
-  function handleClickEvent() {
-    $('.group-1_header, .group-2_header, .group-3_header')
-  }
-
-  $('.group-1_header, .group-2_header, .group-3_header').click(handleClickEvent);
-
-  $('.group-1_header').click(function() {
-    $('html, body').animate({
-      scrollTop: $('#infra').offset().top
-    }, 20);
-  });
-
-  $('.group-2_header').click(function() {
-    $('html, body').animate({
-      scrollTop: $('#security-section').offset().top -20
-    }, 20);
-  });
-
-  $('.group-3_header').click(function() {
-    $('html, body').animate({
-      scrollTop: $('.peer-header').offset().top + 40
-    }, 20);
-  });
-
-  $(window).on('scroll', function() {
-    $('.group-1_header, .group-2_header, .group-3_header')
-  },{ passive: true });
-});
-
-
-
- // Initial active tab and content
- document.getElementById("tab1").style.display = "none";
- document.getElementById("tab2").style.display = "none";
-
-function openTab(event, tabName) {
-  const tabContents = document.getElementsByClassName("tab-content");
-  for (const content of tabContents) {
-    content.style.display = "none";
-  }
-
-  const tabs = document.getElementsByClassName("tab-button");
-  for (const tab of tabs) {
-    tab.classList.remove("active");
-  }
-
-  document.getElementById(tabName).style.display = "block";
-  event.currentTarget.classList.add("active");
-}
 
 </script>
 
@@ -89,13 +89,17 @@ function openTab(event, tabName) {
     </div>
     <div class="col-md-16 col-lg-16 text-center">
       <p class="lead mx-auto">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-console-action  mb-2 mt-3 fs-6" href="https://deploy.cloudmos.io/" role="button">{{ i18n "get-started" }}   <span class="svg-icon-wrapper">
-        <span class="mx-1">{{ partial "content/svg.html" "link-arrow" }}</span>
-      </span></a>
-      <a class="btn btn-contact-sales fw-semibold  mb-2 mt-3 ms-2 fs-6" href="https://akashnet.typeform.com/to/rhR4cWxQ" role="button" target="_blank">
+      <a class="btn btn-console-action-get-started   mb-2 mt-3 fs-6" href="/get-started/" role="button">
+        Get Started
+      </a>
+      <a class="btn btn-console-action  mb-2 mt-3 fs-6" href="https://deploy.cloudmos.io/" role="button">{{ i18n
+        "get-started" }} <span class="svg-icon-wrapper">
+          <span class="mx-1">{{ partial "content/svg.html" "link-arrow" }}</span>
+        </span></a>
+      <!-- <a class="btn btn-contact-sales fw-semibold  mb-2 mt-3 ms-2 fs-6" href="https://akashnet.typeform.com/to/rhR4cWxQ" role="button" target="_blank">
         {{ i18n "contact-sales" }}
         <span class="mx-1 gpu-btn-arrow">{{ partial "content/svg.html" "gpu-btn-arrow" }}</span>
-    </a>
+    </a> -->
 
       <p class="meta mt-3">
         <a href="https://github.com/akash-network" target="_blank">Open-source.</a>
@@ -115,7 +119,8 @@ function openTab(event, tabName) {
 {{ if eq $.Site.Language.LanguageName "English" }}
 <section class="feature_section">
   <div class="container text-left d-none d-md-block">
-    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center first-content-wrapper">
+    <div
+      class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center first-content-wrapper">
       <div class="col-md-12 col-lg-5 text-center svg-container">
         {{ partial "content/svg.html" "cloud_new" }}
       </div>
@@ -124,7 +129,7 @@ function openTab(event, tabName) {
         <p>With Akash, you have the power to own your cloud.
           You can deploy your own cloud infrastructure, and you can sell
           your unused cloud resources to others.
-           You can also buy cloud resources from others, and you can use them to run your applications.</p>
+          You can also buy cloud resources from others, and you can use them to run your applications.</p>
       </div>
     </div>
     <div class="row m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center second-content-wrapper">
@@ -139,7 +144,8 @@ function openTab(event, tabName) {
         {{ partial "content/svg.html" "fingertips" }}
       </div>
     </div>
-    <div class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center third-content-wrapper">
+    <div
+      class="row flex-md-row-reverse m-5 d-lg-flex align-items-md-center mx-md-auto justify-content-md-center third-content-wrapper">
       <div class="col-md-12 col-lg-5 text-center mt-md-5 svg-container">
         {{ partial "content/svg.html" "community_h" }}
       </div>
@@ -151,8 +157,8 @@ function openTab(event, tabName) {
           implemented.</p>
       </div>
     </div>
-    </div>
-    </div>
+  </div>
+  </div>
   </div>
 
 
@@ -220,59 +226,75 @@ function openTab(event, tabName) {
             </div>
           </div>
         </div>
-        <div  class="group-1-top">
+        <div class="group-1-top">
           <h5>Infrastructure as a Code</h5>
           <p id="infra" class="feature_detail_2">
-            Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.
+            Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create
+            complex deployments that span multiple areas and providers while choosing the resources you want to use and
+            deciding on your price.
           </p>
           <div class="group-1">
             <h5>Kubernetes Powered</h5>
             <p class="feature_detail_2">
-              Akash runs on Kubernetes, the industry-leading container orchestration system. <span id="security">With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</span>
+              Akash runs on Kubernetes, the industry-leading container orchestration system. <span id="security">With
+                this in place, you can rest assured that your applications will be hosted on a secure and reliable
+                platform that has been tested and proven to work.</span>
             </p>
           </div>
           <div class="group-1">
             <div class="header-2"></div>
             <h5 id="security-section">Persistent Storage</h5>
             <p class="feature_detail_2">
-              Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.
+              Akash offers a limitless storage system that saves your data even after restarting. This is ideal for
+              databases and programs that store large datasets.
             </p>
           </div>
           <div class="group-2-wrapper">
             <h5 class="dedicated">Dedicated IP Leasing</h5>
             <p class="feature_detail_2">
-              Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more.
+              Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign
+              any port of your choice to your deployment and then direct traffic towards it. This is especially useful
+              for services such as DNS, web servers, and more.
             </p>
           </div>
           <div class="group-2">
             <h5>Censorship Resistant and Unstoppable</h5>
             <p class="feature_detail_2">
-              Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored.
+              Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop
+              you from using Akash to build apps that can't be censored.
             </p>
           </div>
           <div class="group-2">
             <h5 class="">Peer-to-peer and Private</h5>
 
             <p class="feature_detail_2 peer-header">
-              You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by single point of failure.
+              You and the provider you're using to deploy your application communicate directly, without any external
+              parties. This makes sure your data stays secure and private, and no one can claim a portion of your
+              payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it
+              dependable and unaffected by single point of failure.
             </p>
           </div>
           <div class="group-2">
             <h5>Pseudonymous and Non-attributable</h5>
             <p class="feature_detail_2">
-              The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.
+              The Akash protocol is designed to protect your identity, providing a high level of privacy and security.
+              You can use it to deploy applications anonymously, without anyone knowing who you are.
             </p>
           </div>
           <div class="group-3-wrapper">
             <h5>Layer One Protocol</h5>
             <p class="feature_detail_2">
-              Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its network of decentralized validators. The network can be validated without permission and is secured by AKT, its native token.
+              Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its
+              network of decentralized validators. The network can be validated without permission and is secured by
+              AKT, its native token.
             </p>
           </div>
           <div class="group-3">
             <h5>Interoperable with IBC</h5>
             <p class="feature_detail_2">
-              Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.
+              Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC)
+              transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are
+              also IBC compatible.
             </p>
           </div>
         </div>
@@ -283,35 +305,47 @@ function openTab(event, tabName) {
 
 <!-- TAB SECTION  SMALL SCREEN-->
 <section class="d-lg-none">
-  <div class="d-flex justify-content-between container" style="overflow-x: auto; gap: 30px;"> <!-- Use d-lg-none to hide on desktop screens -->
+  <div class="d-flex justify-content-between container" style="overflow-x: auto; gap: 30px;">
+    <!-- Use d-lg-none to hide on desktop screens -->
     <h4 class="tab-button  active" onclick="openTab(event, 'tab0')">
       Infrastructure and Resource Management
     </h4>
     <h4 class="tab-button" onclick="openTab(event, 'tab1')">Blockchain and Interoperability</h4>
-    <h4  class="tab-button" onclick="openTab(event, 'tab2')">Security and Resources</h4>
+    <h4 class="tab-button" onclick="openTab(event, 'tab2')">Security and Resources</h4>
   </div>
 
   <div class="tabs">
     <section id="tab0" class="tab-content container">
       <div class="tab-contents-wrapper">
-        <div class= "">
+        <div class="">
           <h5 class="carousel-subtitle">Infrastructure as Code</h5>
-          <p>Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create complex deployments that span multiple areas and providers while choosing the resources you want to use and deciding on your price.</p>
+          <p>Akash's orchestration layer is powered by SDL. This simple-to-use YAML-based language lets you create
+            complex deployments that span multiple areas and providers while choosing the resources you want to use and
+            deciding on your price.</p>
           <h5 class="carousel-subtitle">Kubernetes Powered</h5>
-          <p>Akash runs on Kubernetes, the industry-leading container orchestration system. With this in place, you can rest assured that your applications will be hosted on a secure and reliable platform that has been tested and proven to work.</p>
+          <p>Akash runs on Kubernetes, the industry-leading container orchestration system. With this in place, you can
+            rest assured that your applications will be hosted on a secure and reliable platform that has been tested
+            and proven to work.</p>
           <h5 class="carousel-subtitle">Persistent Storage</h5>
-          <p>Akash offers a limitless storage system that saves your data even after restarting. This is ideal for databases and programs that store large datasets.</p>
+          <p>Akash offers a limitless storage system that saves your data even after restarting. This is ideal for
+            databases and programs that store large datasets.</p>
         </div>
     </section>
     <div id="tab1" class="tab-content" style="display: none">
       <div>
         <div class="container">
           <h5 class="carousel-subtitle">Dedicated IP Leasing</h5>
-          <p>Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign any port of your choice to your deployment and then direct traffic towards it. This is especially useful for services such as DNS, web servers, and more.</p>
+          <p>Akash gives you the ability to rent a dedicated IP address for your application. This allows you to assign
+            any port of your choice to your deployment and then direct traffic towards it. This is especially useful for
+            services such as DNS, web servers, and more.</p>
           <h5 class="carousel-subtitle">Layer One Protocol</h5>
-          <p>Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its network of decentralized validators. The network can be validated without permission and is secured by AKT, its native token.</p>
+          <p>Akash is a layer one protocol built using Cosmos SDK that uses Proof-of-Stake consensus to secure its
+            network of decentralized validators. The network can be validated without permission and is secured by AKT,
+            its native token.</p>
           <h5 class="carousel-subtitle">Interoperable with IBC</h5>
-          <p>Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC compatible.</p>
+          <p>Akash is the first blockchain to successfully carry out an Inter-Blockchain Communication (IBC) transaction
+            with Cosmos Hub. This makes Akash able to communicate natively with other blockchains that are also IBC
+            compatible.</p>
         </div>
       </div>
     </div>
@@ -319,11 +353,16 @@ function openTab(event, tabName) {
       <div>
         <div class="container">
           <h5 class="carousel-subtitle">Peer-to-peer and Private</h5>
-          <p>You and the provider you're using to deploy your application communicate directly, without any external parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and unaffected by a single point of failure.</p>
+          <p>You and the provider you're using to deploy your application communicate directly, without any external
+            parties. This makes sure your data stays secure and private, and no one can claim a portion of your payments
+            or keep track of what's happening. Furthermore, Akash's lack of central control makes it dependable and
+            unaffected by a single point of failure.</p>
           <h5 class="carousel-subtitle">Censorship Resistant and Unstoppable</h5>
-          <p>Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop you from using Akash to build apps that can't be censored.</p>
+          <p>Deploying applications on Akash is open to everyone and is secure and censorship-proof. Nobody can stop you
+            from using Akash to build apps that can't be censored.</p>
           <h5 class="carousel-subtitle">Pseudonymous and Non-attributable</h5>
-          <p>The Akash protocol is designed to protect your identity, providing a high level of privacy and security. You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
+          <p>The Akash protocol is designed to protect your identity, providing a high level of privacy and security.
+            You can use it to deploy applications anonymously, without anyone knowing who you are.</p>
         </div>
       </div>
     </div>
@@ -335,32 +374,32 @@ function openTab(event, tabName) {
   <div>
     <div class="row justify-content-center">
       <div class="blog-detail-title-wrapper">
-        <h2 class="detail-blog-title" >Latest From The Blog</h2>
+        <h2 class="detail-blog-title">Latest From The Blog</h2>
       </div>
     </div>
     <div class="blog-list-container gap-5">
       <div class="blog-list">
-      {{- range (where site.RegularPages "Section" "blog" | first 3) }}
-      <div class="blog-card">
-        <div class="blog-card-img">
-          <a class="" href="{{ .RelPermalink }}">
-            {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
-            {{ partial "content/card-image.html" . }}
-          </a>
-        </div>
-        <div class="blog-card-body mt-2">
-          <p class="blog-card-title">
-            <a href="{{ .RelPermalink }}">
-              {{ truncate 42 .Params.title }}
+        {{- range (where site.RegularPages "Section" "blog" | first 3) }}
+        <div class="blog-card">
+          <div class="blog-card-img">
+            <a class="" href="{{ .RelPermalink }}">
+              {{- .Scratch.Set "fillImageCard" "1270x715 Center" -}}
+              {{ partial "content/card-image.html" . }}
             </a>
-          </p>
-          {{ partial "main/writer.html" . }}
-          {{ partial "main/blog-meta.html" . -}}
+          </div>
+          <div class="blog-card-body mt-2">
+            <p class="blog-card-title">
+              <a href="{{ .RelPermalink }}">
+                {{ truncate 42 .Params.title }}
+              </a>
+            </p>
+            {{ partial "main/writer.html" . }}
+            {{ partial "main/blog-meta.html" . -}}
+          </div>
         </div>
+        {{ end -}}
       </div>
-      {{ end -}}
     </div>
-  </div>
   </div>
 
 
@@ -376,17 +415,11 @@ function openTab(event, tabName) {
   {{ partial "content/newsletter.html" . }}
 </section>
 
-  <section class="container-fluid footer-d-wrapper">
-    <div class="row">
-      <div class="">
-        {{- .Content -}}
-      </div>
+<section class="container-fluid footer-d-wrapper">
+  <div class="row">
+    <div class="">
+      {{- .Content -}}
     </div>
-  </section>
+  </div>
+</section>
 {{ end }}
-
-
-
-
-
-
