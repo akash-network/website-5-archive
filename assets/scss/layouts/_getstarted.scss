@@ -54,6 +54,11 @@ black-dot {
   display: flex;
  flex-direction: column;
 }
+
+.g-s-svg-sm > svg{
+  width: 100%;
+  margin: 0 auto;
+}
 .gs-card-desc{
 display: flex;
 flex-direction: column;
