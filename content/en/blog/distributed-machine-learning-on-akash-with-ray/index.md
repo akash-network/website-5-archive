@@ -13,7 +13,7 @@ contributors:
 pinned: false
 homepage: false
 images:
-  - 
+  - ray-cluster-on-akash-network-diagram.png
 ---
 By Anil Murty and Logan Cerkovnik
 
