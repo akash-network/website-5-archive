@@ -16,19 +16,19 @@ images:
   - ray-cluster-on-akash-network-diagram.png
 ---
 
-By Anil Murty and Logan Cerkovnik
+By [Anil Murty](https://twitter.com/_anil_murty_) and [Logan Cerkovnik](https://www.linkedin.com/in/logancerkovnik/)
 
 In this post we provide an overview of the challenge of trying to parallelize and scale AI and ML workloads in practice, briefly introduce the best open source framework available and in-use by leading machine learning teams (Ray), talk about why Ray is a great solution for running ML workloads on Akash Network, and provide a reference example and template for those looking to run a Ray cluster on Akash Network’s GPU supercloud.
 
 ## Background
 
-The proliferation of open source AI and ML models in the past year has enabled developers to build applications at a fairly rapid pace. This includes not just inference but even fine-tuning a model to adapt it to custom data sets and application needs and in some cases, even training a foundation model. Open source libraries from Pytorch, Tensorflow, Keras, Scikit-learn and others have allowed those without extensive experience in AI and ML, to relatively easily build Python based applications that leverage advanced AI capabilities. The challenge then shifts to being able to horizontally scale workloads to take advantage of a large number of computers, so as to be able to accelerate time to market and/ or run a service in production and scale it in response to user demand.
+The [proliferation](https://akash.network/blog/the-fast-evolving-ai-landscape/) of open source AI and ML models in the past year has enabled developers to build applications at a fairly rapid pace. This includes not just inference but even fine-tuning a model to adapt it to custom data sets and application needs and in some cases, even training a foundation model. Open source libraries from [Pytorch](https://pytorch.org/), [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/), [Scikit-learn](https://scikit-learn.org/stable/) and others have allowed those without extensive experience in AI and ML, to relatively easily build Python based applications that leverage advanced AI capabilities. The challenge then shifts to being able to horizontally scale workloads to take advantage of a large number of computers, so as to be able to accelerate time to market and/ or run a service in production and scale it in response to user demand.
 
 This concept of taking an ML workload that is built to run on a single GPU (server) and enabling it to run on a number of GPU servers (referred to as a “cluster”) is what is called “clustering” and “scaling”. The challenge of course is that, in order to do this, the application that was built to run on a single server needs to be parallelized to run on multiple machines. Doing this “natively” (by adding support for it directly in the application code) would require an advanced understanding of cloud infrastructure and parallel computing. This creates a technical barrier to being able to launch and scale such applications.
 
 ## Ray to save the day!
 
-Ray is an open source framework that enables software developers not trained in distributed systems to easily leverage distributed computing. It does this by removing the burden of needing to natively parallelize a machine learning application, while enabling computations to scale out across a cluster of servers. This allows AI and ML developers to easily scale out their application or workload across a cluster of servers, without having to write additional code for that or needing to understand the details of the underlying infrastructure.
+[Ray](https://github.com/ray-project/ray) is an open source framework that enables software developers not trained in distributed systems to easily leverage distributed computing. It does this by removing the burden of needing to natively parallelize a machine learning application, while enabling computations to scale out across a cluster of servers. This allows AI and ML developers to easily scale out their application or workload across a cluster of servers, without having to write additional code for that or needing to understand the details of the underlying infrastructure.
 
 Some of the capabilities Ray offers include:
 
@@ -45,7 +45,7 @@ Ray’s ultimate goal is to provide a simple programmatic interface for develope
 The libraries made available as part of the AIR toolkit enable organizations to run the full gamut of ML workloads on distributed computing platforms like Akash Network.
 
 - [Ray Serve](https://docs.ray.io/en/latest/serve/index.html): Framework-agnostic model serving library that can be used to build and deploy end-to-end distributed AI/ ML inference applications.
-- [Ray Tune](https://docs.ray.io/en/latest/tune/index.html): Library for ML experiment execution and Hyperparameter Tuning.
+- [Ray Tune](https://docs.ray.io/en/latest/tune/index.html): Library for ML experiment execution and [Hyperparameter Tuning](https://en.wikipedia.org/wiki/Hyperparameter_optimization).
 - [Ray Train](https://docs.ray.io/en/latest/train/train.html): Scalable machine learning library for distributed training and fine-tuning.
 
 ## Typical Ray Workflow
@@ -63,7 +63,7 @@ The typical Ray based machine learning workflow may involve the following steps:
 
 Ray is fairly infrastructure agnostic and works with Docker containers - so it naturally lends itself to being a great solution to provide an abstraction of a “single server” on the [Akash Network decentralized cloud](https://akash.network/blog/building-the-open-cloud-part-2-re-imagining-the-cloud-with-akash/#akash-network-under-the-hood).
 
-To enable users of Akash Network to easily utilize Ray’s capabilities, the ThumperAI team working with the Overclock Labs team has built a set of docker images and an [Akash SDL](https://docs.akash.network/readme/stack-definition-language) (Stack Definition Language) template that can be used as a reference for anyone wanting to run Ray clusters on Akash. The source code for this can be found on the [“awesome-akash](https://github.com/akash-network/awesome-akash” repository (contains an ever growing set of reference templates for running various common applications on Akash) at the following location:
+To enable users of Akash Network to easily utilize Ray’s capabilities, the ThumperAI team working with the Overclock Labs team has built a set of docker images and an [Akash SDL](https://docs.akash.network/readme/stack-definition-language) (Stack Definition Language) template that can be used as a reference for anyone wanting to run Ray clusters on Akash. The source code for this can be found on the [“awesome-akash](https://github.com/akash-network/awesome-akash)” repository (contains an ever growing set of reference templates for running various common applications on Akash) at the following location:
 
 [https://github.com/akash-network/awesome-akash/tree/master/ray](https://github.com/akash-network/awesome-akash/tree/master/ray)
 
@@ -136,23 +136,23 @@ Note that you will need to rebuild the docker images for the head node and the w
                - service: ray-worker, ray-worker1, ray-worker2, ray-worker3, ray-worker4,  ray-worker5
    ```
 
-You will need to add various environment variables for your AWS access key and secret (if you are using S3 for storage), MinIO access key and secret (if using MinIO) and other things:
+3. You will need to add various environment variables for your AWS access key and secret (if you are using S3 for storage), MinIO access key and secret (if using MinIO) and other things:
 
-- `RAY_ADDRESS_HOST`: Specifies the address of the head node. Only edit if you are trying to use ray across multiple providers.
-- `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`: Credentials for AWS services.
-- `R2_BUCKET_URL`, `S3_ENDPOINT_URL`: URLs for S3-compatible storage services.
-- `B2_APPLICATION_KEY_ID`, `B2_APPLICATION_KEY`: Credentials for Backblaze B2 storage.
-- `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY`: Credentials for MinIO storage.
-- `AWS_DEFAULT_REGION`: The default AWS region for services.
-- `WANDB_API_KEY`, `WANDB_PROJECT`: Credentials and project name for Weights & Biases logging.
+    - `RAY_ADDRESS_HOST`: Specifies the address of the head node. Only edit if you are trying to use ray across multiple providers.
+    - `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`: Credentials for AWS services.
+    - `R2_BUCKET_URL`, `S3_ENDPOINT_URL`: URLs for S3-compatible storage services.
+    - `B2_APPLICATION_KEY_ID`, `B2_APPLICATION_KEY`: Credentials for Backblaze B2 storage.
+    - `MINIO_ACCESS_KEY`, `MINIO_SECRET_KEY`: Credentials for MinIO storage.
+    - `AWS_DEFAULT_REGION`: The default AWS region for services.
+    - `WANDB_API_KEY`, `WANDB_PROJECT`: Credentials and project name for Weights & Biases logging.
 
 4. Update the resources needed for your specific workload, per worker, by modifying the service definition for `ray-head` and each `ray-worker` in the deployment example YAML file.
 
-Once you have those things set up correctly, you can head over to [https://console.akash.network/](https://console.akash.network/) and use the template builder option to deploy your Ray cluster on Akash.
+    Once you have those things set up correctly, you can head over to [https://console.akash.network/](https://console.akash.network/) and use the template builder option to deploy your Ray cluster on Akash.
 
-![Akash Console](akash-console-2.png)
+    ![Akash Console](akash-console-2.png)
 
-![Akash Console SDL](akash-console-3.png)
+    ![Akash Console SDL](akash-console-3.png)
 
 And here is a quick run through of what the whole end-to-end deployment workflow looks like:
 
@@ -160,7 +160,7 @@ And here is a quick run through of what the whole end-to-end deployment workflow
 
 ## Ray-on-Akash Case Study - Akash-Thumper-1 (AT-1)
 
-ThumperAI and Overclock Labs (Creators of Akash Network) have been running a Ray cluster on a couple of Akash Providers for about 4 months now as part of [training a new AI foundation model](https://github.com/orgs/akash-network/discussions/300) called “Akash-Thumper”. We intend to release the first version of that model (called “AT-1”) on [Huggingface](https://huggingface.co/) soon.
+[ThumperAI](https://thumper.ai) and [Overclock Labs](https://twitter.com/ovrclk_) (the creators of Akash Network) have been running a Ray cluster on a couple of Akash Providers for about 4 months now as part of [training a new AI foundation model](https://github.com/orgs/akash-network/discussions/300) called “Akash-Thumper”. We intend to release the first version of that model (called “AT-1”) on [Huggingface](https://huggingface.co/) soon.
 
 Stay tuned for a set of blog posts in the coming weeks, which will delve into the details and results of the training process.
 
