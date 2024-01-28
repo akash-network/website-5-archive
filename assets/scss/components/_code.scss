@@ -15,6 +15,7 @@ code {
 
 pre {
   margin: 2rem 0;
+ 
 }
 
 pre code {
@@ -25,6 +26,9 @@ pre code {
   tab-size: 4;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
+ 
+
+  
 }
 
 .hljs {
@@ -40,7 +44,10 @@ pre code {
   }
 
   pre {
-    margin: 2rem -1.5rem;
+    margin: 2rem 0;
+    white-space: pre-wrap;
+    width: 100%;
+    
   }
 }
 
