@@ -76,7 +76,7 @@
   "dependencies": {
     "@datocms/cma-client-browser": "^1.1.13",
     "@datocms/cma-client-node": "^1.1.13",
-    "datocms-structured-text-to-html-string": "^2.1.11",
+    "datocms-structured-text-to-html-string": "^3.0.0",
     "datocms-structured-text-to-plain-text": "^2.0.4",
     "dotenv": "^16.0.3",
     "image-downloader": "^4.3.0",
